@@ -33,7 +33,7 @@ This space contains all the material related to the [Open Science course](https:
 
 2. [13/4/26] Reproducibility
    * Mandatory reading (to read and study before the lecture):
-     * TBA
+     * Barzaghi, S., Bordignon, A., Gualandi, B., & Peroni, S. (2025). Enlightening the Black Box of Humanities Research. Methodological Documentation as a Way to Transparency and Accountability of Digital Exhibitions. Umanistica Digitale, 9(20), 97–114. https://doi.org/10.6092/issn.2532-8816/21177
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1N2TC1GV2ACTtO97KNGIcF9EUxX2_ZMU9YhPbed71hlg/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
