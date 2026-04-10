@@ -1,0 +1,69 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/DX101-DX301">
+    <skos:prefLabel>History of Romanies. History of Gypsies</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Romanies. History of Gypsies</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Romanies. History of Gypsies</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Gypsies</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Romanies</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX118"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX131-DX145.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX175"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX157"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX105"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX125-DX127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX101"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX201-DX301"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX103"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX120"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DX115"/>
+    <skos:notation>DX101-DX301</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Romanies. History of Gypsies</skos:altLabel>
+    <skos:altLabel>Gypsies</skos:altLabel>
+    <skos:altLabel>Romanies</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DX101-DX301"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-12-29T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DX101-DX301"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-10T12:18:05</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

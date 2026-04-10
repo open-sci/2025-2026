@@ -1,0 +1,59 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/GR1-GR950">
+    <skos:prefLabel>Folklore</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Geography. Anthropology. Recreation--Folklore</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Geography. Anthropology. Recreation--Folklore</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Folklore"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR48"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR67"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR49-GR55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR420-GR950"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR72-GR79"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR60-GR66"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR99-GR99.42"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR99.6-GR390"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR81"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR44.4-GR44.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR15-GR20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR69"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR45-GR47"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR91.2-GR98"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR58"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR68.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR35"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR37"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR40-GR44"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GR68"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/LB1042" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/BL300-BL325" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GT1-GT7070" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/BQ5725-BQ5845" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>GR1-GR950</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Geography. Anthropology. Recreation--Folklore</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GR1-GR950"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-18T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GR1-GR950"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-08T14:56:52</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

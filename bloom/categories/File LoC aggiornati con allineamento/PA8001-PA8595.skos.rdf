@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PA8001-PA8595">
+    <skos:prefLabel>Medieval and modern Latin literature</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Medieval and modern Latin literature</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Medieval and modern Latin literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Latin literature, Medieval</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Latin literature, Modern</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medieval Latin literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Modern Latin literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Classics"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Classics"/> 
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Classical_Studies"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Classical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/>    
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA8101-PA8199"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA8200-PA8595"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA8001-PA8096"/>
+    <skos:notation>PA8001-PA8595</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Medieval and modern Latin literature</skos:altLabel>
+    <skos:altLabel>Latin literature, Medieval</skos:altLabel>
+    <skos:altLabel>Latin literature, Modern</skos:altLabel>
+    <skos:altLabel>Medieval Latin literature</skos:altLabel>
+    <skos:altLabel>Modern Latin literature</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA8001-PA8595"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-09-02T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA8001-PA8595"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T12:04:37</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

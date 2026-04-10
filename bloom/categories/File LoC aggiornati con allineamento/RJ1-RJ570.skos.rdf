@@ -1,0 +1,110 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RJ1-RJ570">
+    <skos:prefLabel>Pediatrics</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Pediatrics</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Pediatrics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Pediatrics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Clinical pediatrics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Perinatology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Genetics_Medical"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Pediatrics"/>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Pediatrics"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Biomedical_and_Clinical_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Pediatrics"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ242"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ50-RJ51"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ52-RJ53"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ33.5-RJ33.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ47"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ26"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ47.3-RJ47.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ47.5-RJ47.53"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ101-RJ104.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ250-RJ250.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ48"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ560-RJ570"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ61"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ138"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ27-RJ28"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ125-RJ137"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ49-RJ49.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ85"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ29"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ365"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ34-RJ34.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ140-RJ145"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ240"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ101-RJ104.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ33-RJ33.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ243"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ58"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ48.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ245-RJ247"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ59-RJ60"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ47.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ43.A-RJ43.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ23-RJ25"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ249"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ44-RJ45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ47.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ27-RJ28"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ80-RJ84"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ48.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ31-RJ32"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ25.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ36-RJ42"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ206-RJ235"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ26.3-RJ26.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ78"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ48.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ251-RJ325"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RJ370-RJ520"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RB210" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/LB1101-LB1139" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GN63" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including clinical pediatrics and the physiology and hygiene of children Class here works on infants through two years; children through 15 years; adolescents through 21 years</skos:scopeNote>
+    <skos:notation>RJ1-RJ570</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Pediatrics</skos:altLabel>
+    <skos:altLabel>Pediatrics</skos:altLabel>
+    <skos:altLabel>Clinical pediatrics</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RJ1-RJ570"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-05-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RJ1-RJ570"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:24:52</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

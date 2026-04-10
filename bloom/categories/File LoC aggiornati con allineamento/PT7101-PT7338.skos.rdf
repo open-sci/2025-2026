@@ -1,0 +1,50 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PT7101-PT7338">
+    <skos:prefLabel>Old Norse literature: Old Icelandic and old Norwegian</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Old Norse literature: Old Icelandic and old Norwegian</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Old Norse literature: Old Icelandic and old Norwegian</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Old Norse literature: Old Icelandic and old Norwegian</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/> 
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Literature"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7263-PT7296"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7323"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7321"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7220-PT7262.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7312-PT7318"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7298-PT7309"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7101-PT7211"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7320.A-PT7320.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT7326-PT7338"/>
+    <skos:scopeNote xml:lang="en">To about 1540</skos:scopeNote>
+    <skos:notation>PT7101-PT7338</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Old Norse literature: Old Icelandic and old Norwegian</skos:altLabel>
+    <skos:altLabel>Old Norse literature: Old Icelandic and old Norwegian</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PT7101-PT7338"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-03-15T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PT7101-PT7338"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-24T10:28:56</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

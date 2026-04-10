@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/VM1-VM989">
+    <skos:prefLabel>Naval architecture. Shipbuilding. Marine engineering</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Naval Science--Naval architecture. Shipbuilding. Marine engineering</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Naval Science--Naval architecture. Shipbuilding. Marine engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Naval architecture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Architecture, Naval</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Shipbuilding</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Marine engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Engineering, Marine</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>    
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Maritime_Engineering"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM298-VM298.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM468-VM469"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM485"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM470"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM156-VM163"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM511"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM595-VM989"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM470.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM480-VM480.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM139-VM140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM307"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM297.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM496"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM467"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM1-VM4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM481-VM482"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM153"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM501"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM142-VM148.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM491-VM493"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM308"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM470"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM291"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM150"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM297"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM503-VM505"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM483"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM287"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM494"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM521-VM561"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM565"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM165-VM276"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM471-VM479"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM295-VM296"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM311-VM466"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM15-VM124"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM285"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM298.5-VM301"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM6.A1-VM6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/VM293"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/V750-V995" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/V980" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>VM1-VM989</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Naval Science--Naval architecture. Shipbuilding. Marine engineering</skos:altLabel>
+    <skos:altLabel>Naval architecture</skos:altLabel>
+    <skos:altLabel>Architecture, Naval</skos:altLabel>
+    <skos:altLabel>Shipbuilding</skos:altLabel>
+    <skos:altLabel>Marine engineering</skos:altLabel>
+    <skos:altLabel>Engineering, Marine</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/VM1-VM989"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-06T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/VM1-VM989"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-12-02T09:38:12</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

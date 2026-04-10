@@ -1,0 +1,42 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/E11-E143">
+    <skos:prefLabel>America</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">History Of The Americas. America and United States--America</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>History Of The Americas. America and United States--America</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E31-E49.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E75-E99"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E51-E74"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E141-E143"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E101-E139"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/E11-E29"/>
+    <skos:notation>E11-E143</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>History Of The Americas. America and United States--America</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/E11-E143"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1992-09-17T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/E11-E143"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:36:47</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

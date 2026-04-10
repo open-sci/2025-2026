@@ -1,0 +1,74 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/JZ2-JZ6530">
+    <skos:prefLabel>International relations</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Political Science--International relations</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Political Science--International relations</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>International relations</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/International_Relations"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Political_Science_and_International_Relations"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Political_Sciences_and_International_Relations"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ6422-JZ6422.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ6530"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ6378-JZ6405"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ63-JZ1153"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1163-JZ1164"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ6440-JZ6530"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ2064-JZ3669"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ3900-JZ4059"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ3876"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1242"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1161"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ3674-JZ3875"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1237-JZ1238"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1256-JZ1280"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ60"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ5.5-JZ18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1243.A-JZ1243.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ3900-JZ4059"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1168-JZ1229"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ24-JZ38"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ3877"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1249-JZ1254"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ43.A-JZ43.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ4835-JZ5490.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1234-JZ1235"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ24-JZ38"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ6360-JZ6377.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JZ1305-JZ2060"/>
+    <skos:scopeNote xml:lang="en">Class here works on (1) the science of international relations, i.e. the analysis of contemporary international politics and policy objectives, and of national trends in the foreign policy of states, as they affect relations in the international community, and (2) international associations of autonomous bodies (i.e. states or organizations) and on their interaction relating to the security of the international community</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">For the law and the rules of conduct binding upon states in the international community, and for the law establishing and governing intergovernmental organization, see subclass KZ or the pertinent regional class K subclasses, e. g. KJE for the regional organization of Europe</skos:editorialNote>
+    <skos:notation>JZ2-JZ6530</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Political Science--International relations</skos:altLabel>
+    <skos:altLabel>International relations</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/JZ2-JZ6530"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-06-17T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/JZ2-JZ6530"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-09T16:38:46</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

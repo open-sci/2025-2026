@@ -1,0 +1,93 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/HG1-HG9999">
+    <skos:prefLabel>Finance</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Social Sciences--Finance</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Social Sciences--Finance</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Finance</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Financial institutions</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Financial services industry</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>    
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Business"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Business_Finance"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Business_and_Finance"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Operations_Research_and_Management_Science"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Economics_Econometrics_and_Finance"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Business_Finance"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG3810-HG4000"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG173-HG173.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG177-HG177.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG8011-HG9999"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG151.5-HG151.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG3691-HG3769"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG179.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG4301-HG4480.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG4501-HG6051"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG101-HG106"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG3691-HG3769"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG64-HG96"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG201-HG1496"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG176.6-HG176.63"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG152-HG152.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG177.7-HG177.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG176.55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG4001-HG4285"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG1-HG52"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG172.A-HG172.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG176-HG176.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG179"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG6105-HG6270.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG151.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG63"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG176.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG178.3-HG178.33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG173.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG181-HG190"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG178"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HG1501-HG3550"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HV6337-HV6351" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including works on financial institutions and the financial services industry</skos:scopeNote>
+    <skos:notation>HG1-HG9999</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Social Sciences--Finance</skos:altLabel>
+    <skos:altLabel>Finance</skos:altLabel>
+    <skos:altLabel>Financial institutions</skos:altLabel>
+    <skos:altLabel>Financial services industry</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HG1-HG9999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-06-12T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HG1-HG9999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-04-22T12:17:20</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

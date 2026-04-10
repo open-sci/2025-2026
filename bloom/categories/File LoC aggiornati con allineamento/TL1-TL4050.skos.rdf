@@ -1,0 +1,55 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TL1-TL4050">
+    <skos:prefLabel>Motor vehicles. Aeronautics. Astronautics</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Motor vehicles. Aeronautics. Astronautics</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Motor vehicles. Aeronautics. Astronautics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Aerospace"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Aerospace_Engineering"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Automotive_Engineering"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Automotive_Engineering"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Aerospace_Engineering"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL483"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL400-TL460"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL787-TL4050.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL484"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL475-TL480"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL500-TL778"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL1-TL483"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL460"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL780-TL785.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL482"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TL500-TL778"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HE5601-HE5725" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/S671-S760.5" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TL1-TL4050</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Motor vehicles. Aeronautics. Astronautics</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TL1-TL4050"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-10T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TL1-TL4050"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-27T11:15:50</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

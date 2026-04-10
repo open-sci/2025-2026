@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RA1-RA1270">
+    <skos:prefLabel>Public aspects of medicine</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Public aspects of medicine</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Public aspects of medicine</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Public health</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Communicable_Diseases"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Enviromental_Health"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Epidemiology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Family_Planning_Services"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Forensic_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Health_Services_Research"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Health_Services"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Primary_Health_Care"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Public_Health"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Toxicology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Vital_Statistics"/>
+    <skos:relatedMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Nutritional_Sciences"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Health_Care_Sciences_and_Services"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Health_Policy_and_Services"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Medical_Laboratory_Technology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Medicine_Legal"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Primary_Heath_Care"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Social_Sciences_Biomedical"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Public_Environmental_and_Occupational_Health"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Tossicology"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Health_Toxicology_and_Mutagenesis"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Anaesthesia_Emergency_and_Intensive_Care"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Pharmacology_and_Toxicology"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Pharmacology_Toxicology_and_Pharmaceutics"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Public_Environmental_and_Occupational_Health"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA1-RA418.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA1001-RA1171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA960-RA999"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA791-RA954.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA1190-RA1270"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RA421-RA790.95"/>
+    <skos:notation>RA1-RA1270</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Public aspects of medicine</skos:altLabel>
+    <skos:altLabel>Public health</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RA1-RA1270"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-04-23T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RA1-RA1270"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:07:34</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

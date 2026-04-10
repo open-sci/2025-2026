@@ -1,0 +1,63 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/DJ1-DJ500.22">
+    <skos:prefLabel>History of Netherlands (Holland)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Netherlands (Holland)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Netherlands (Holland)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Netherlands (Holland)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ24"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ33-DJ41"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ27"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ25"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ81"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ15"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ95-DJ292"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ401-DJ500.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ14"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ91-DJ92"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ4-DJ5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ30"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ51"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DJ30.5"/>
+    <skos:notation>DJ1-DJ500.22</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Netherlands (Holland)</skos:altLabel>
+    <skos:altLabel>Netherlands (Holland)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DJ1-DJ500.22"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-12-16T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DJ1-DJ500.22"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T09:20:56</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

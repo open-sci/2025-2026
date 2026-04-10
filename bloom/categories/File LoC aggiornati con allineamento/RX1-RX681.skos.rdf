@@ -1,0 +1,75 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RX1-RX681">
+    <skos:prefLabel>Homeopathy</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Homeopathy</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Homeopathy</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Homeopathy</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Systems of medicine--Homeopathy</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/History_of_Medicine"/>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Alternative_Medicine"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX72"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX76"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX601-RX675"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX35"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX211-RX581"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX91-RX101"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX75"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX74"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX31-RX33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX68"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX41"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX51"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX681"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX78"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX73"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX46"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX73.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX6-RX6.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX61-RX66"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX73.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RX81-RX85"/>
+    <skos:notation>RX1-RX681</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Homeopathy</skos:altLabel>
+    <skos:altLabel>Homeopathy</skos:altLabel>
+    <skos:altLabel>Systems of medicine--Homeopathy</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RX1-RX681"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-05-24T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RX1-RX681"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:32:28</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,38 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PS8001-PS8599">
+    <skos:prefLabel>Canadian literature</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Canadian literature</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Canadian literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/> 
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Literature"/>    
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_African_Australian_Canadian"/>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_American"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/PR9180-PR9199.3" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote>Not used in Library of Congress</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">This span of alternative class numbers for Canadian literature was developed by Mr. T.R. McCloy under contract to the National Library of Canada. Its purpose is to provide a more specific treatment of the topic than that provided by the regular class numbers, PR9180-9199.4, PQ3900-3919.3, and PM30-2711, of the Library of Congress Classification System. In the Canadian context a comprehensive classification scheme for Canadian literature regardless of language is considered preferable to the LC System which separates Canadian literature by language It is not possible for the Library of Congress to adopt these class numbers and incorporate them into its own system because they differ in principle from LC practice in their assembling of Canadian literature together regardless of language. The Library of Congress, however, recognizes a need for the PS8000 area and endorses its use as an official alternative classification scheme. In order to eliminate the danger of a conflict in numbers, the PS8000 area will not be developed by LC in the future for other purposes. Libraries desiring to use the alternative numbers may consult the schedule "Class PS8000: a classification for Canadian literature" available online on the Library and Archives Canada website at: http://epe.lac-bac.gc.ca/100/200/301/lac-bac/class_ps8000-e/index.html</skos:scopeNote>
+    <skos:notation>PS8001-PS8599</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Canadian literature</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PS8001-PS8599"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-09-28T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PS8001-PS8599"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-02T13:26:48</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

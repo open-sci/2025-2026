@@ -1,0 +1,216 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix nrw: nrw:<https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/> .
+
+nrw:Anthropology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Anthropology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Archaeology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Archaeology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Art_and_Art_History a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Art and Art History"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Business_and_Management a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Business and Management"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Classical_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Classical Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Cultural_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Cultural Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Demography a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Demography"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Economics a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Economics"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Environmental_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Environmental Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Film_and_Theatre_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Film and Theatre Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Gender_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Gender Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:History a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "History"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:History_and_Philosophy_of_Science a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "History & Philosophy of Science"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Human_Geography_and_Urban_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Human Geography and Urban Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Interdisciplinary_research_in_the_Humanities a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Interdisciplinary research in the Humanities"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Interdisciplinary_research_in_the_Social_Sciences a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Interdisciplinary research in the Social Sciences"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Law a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Law"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Library_and_Information_Science a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Library and Information Science"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Linguistics a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Linguistics"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Literature a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Literature"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Media_Studies_and_Communication a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Media Studies and Communication"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Musicology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Musicology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Pedagogical_and_Educational_Research a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Pedagogical & Educational Research"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Philosophy a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Philosophy"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Political_Sciences_and_International_Relations a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Political Sciences and International Relations"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Psychology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Psychology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Religious_Studies_and_Theology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Religious Studies and Theology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Science_and_Technology_Studies a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Science and Technology Studies"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Social_Statistics_and_Informatics a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Social Statistics and Informatics"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:Sociology a skos:Concept ;
+    skos:inScheme nrw:ConceptScheme ;
+    skos:note "Concept created for the purpose of this vocabulary"@en ;
+    skos:prefLabel "Sociology"@en ;
+    skos:topConceptOf nrw:ConceptScheme .
+
+nrw:ConceptScheme a skos:ConceptScheme ;
+    skos:hasTopConcept nrw:Anthropology>,
+        nrw:Archaeology>,
+        nrw:Art_and_Art_History>,
+        nrw:Business_and_Management>,
+        nrw:Classical_Studies>,
+        nrw:Cultural_Studies>,
+        nrw:Demography>,
+        nrw:Economics>,
+        nrw:Environmental_Studies>,
+        nrw:Film_and_Theatre_Studies>,
+        nrw:Gender_Studies>,
+        nrw:History>,
+        nrw:History_and_Philosophy_of_Science>,
+        nrw:Human_Geography_and_Urban_Studies>,
+        nrw:Interdisciplinary_research_in_the_Humanities>,
+        nrw:Interdisciplinary_research_in_the_Social_Sciences>,
+        nrw:Law>,
+        nrw:Library_and_Information_Science>,
+        nrw:Linguistics>,
+        nrw:Literature>,
+        nrw:Media_Studies_and_Communication>,
+        nrw:Musicology>,
+        nrw:Pedagogical_and_Educational_Research>,
+        nrw:Philosophy>,
+        nrw:Political_Sciences_and_International_Relations>,
+        nrw:Psychology>,
+        nrw:Religious_Studies_and_Theology>,
+        nrw:Science_and_Technology_Studies>,
+        nrw:Social_Statistics_and_Informatics>,
+        nrw:Sociology> ;
+    skos:prefLabel "ERH Concept Scheme"@en .
+
