@@ -47,7 +47,7 @@ This space contains all the material related to the [Open Science course](https:
 
 3. [16/4/26] FAIR and Open Data
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Di Donato, F., & Provost, L. (2025). Why isn’t FAIR enough? Bringing together methods and values for Open Science uptake. Umanistica Digitale, 9(19), 17–46. https://doi.org/10.6092/issn.2532-8816/20976
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1bSf4jRTqZYnA_Htz9nQxP5IaFFvIoGZrAD5273Y6XCc/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Avanço, K., Balula, A., Błaszczyńska, M., Buchner, A., Caliman, L., Clivaz, C., Costa, C., Franczak, M., Gatti, R., Giglia, E., Gingold, A., Jarmelo, S., Padez, M. J., Leão, D., Maryl, M., Melinščak Zlodi, I., Mojsak, K., Morka, A., Mosterd, T., … Wieneke, L. (2021). Future of Scholarly Communication—Forging an inclusive and innovative research infrastructure for scholarly communication in Social Sciences and Humanities (p. 46). Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences. https://doi.org/10.5281/zenodo.5017705
