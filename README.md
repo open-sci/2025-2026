@@ -65,7 +65,7 @@ This space contains all the material related to the [Open Science course](https:
 
 4. [20/4/26] Open Methodology
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Leonelli, S. (2025). Environmental Intelligence: Redefining the Philosophical Premises of AI. Harvard Data Science Review, 7(4). https://doi.org/10.1162/99608f92.ac7c1504
    * Theoretical part: [slide](https://docs.google.com/presentation/d/152qTNhrBZ8Bz5Cssx1xDtn07WHsyuAFI1YWF28uNK8c/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Beg, M., Taka, J., Kluyver, T., Konovalov, A., Ragan-Kelley, M., Thiery, N. M., & Fangohr, H. (2021). Using Jupyter for Reproducible Scientific Workflows. Computing in Science & Engineering, 23(2), 36–46. https://doi.org/10.1109/MCSE.2021.3052101
