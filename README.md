@@ -81,7 +81,7 @@ This space contains all the material related to the [Open Science course](https:
 
 5. [23/4/26] Open Peer Review
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Kochetkov, D. (2026). Peer Review at the Crossroads. Learned Publishing, 39(2), e2046. https://doi.org/10.1002/leap.2046
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1OMjcBQrVshMZNDK2H0pb5qXuxvz-d5UyMEIOm8-Dh3Y/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Coalition for Advancing Research Assessment. (2022). Agreement on Reforming Research Assessment [Policy]. European Science Foundation. https://coara.eu/agreement/the-agreement-full-text/
