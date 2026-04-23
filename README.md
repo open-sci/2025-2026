@@ -97,7 +97,7 @@ This space contains all the material related to the [Open Science course](https:
 
 6. [27/4/26] Open Source Software
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The Value of Open Source Software. SSNR. https://doi.org/10.2139/ssrn.4693148 
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1QHS1kejl_K3JmDrUbuGpbVb5FtMNTa4N2IwLO_niwnA/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Abramatic, J.-F., Di Cosmo, R., & Zacchiroli, S. (2018). Building the universal archive of source code. Communications of the ACM, 61(10), 29–31. https://doi.org/10.1145/3183558
