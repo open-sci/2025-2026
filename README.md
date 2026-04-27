@@ -113,7 +113,7 @@ This space contains all the material related to the [Open Science course](https:
 
 7. [30/4/26] Open Access
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Aczel, B., Szaszi, B., & Holcombe, A. O. (2021). A billion-dollar donation: Estimating the cost of researchers’ time spent on peer review. Research Integrity and Peer Review, 6(1), 14. https://doi.org/10.1186/s41073-021-00118-2
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1Knlc6MLSBd6bPI1IexA0gfZ3ejl9zODyptoy1zPdxPY/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Bosman, J., Frantsvåg, J. E., Kramer, B., Langlais, P.-C., & Proudman, V. (2021). OA Diamond Journals Study. Part 1: Findings. Zenodo. https://doi.org/10.5281/ZENODO.4558704
@@ -160,7 +160,7 @@ This space contains all the material related to the [Open Science course](https:
 10. [14/5/26] Wrap-up session 
     <hr></hr>
 
-11. [XX/6/26] Workshop
+11. [18/6/26] Workshop
 
 
 ### Extras
@@ -184,5 +184,5 @@ Video presentations about Open Science stuff:
   <tr><td>4/5/26</td><td>13:00-16:00</td><td>Open Metrics</td></tr>
   <tr><td>7/5/26</td><td>12:00-15:00</td><td>Open Infrastructures</td></tr>
   <tr><td>14/5/26</td><td>13:00-16:00</td><td>Wrap-up session</td></tr>
-  <tr><td>xx/6/26</td><td>XXX</td><td>Workshop</td></tr>
+  <tr><td>18/6/26</td><td>10:00-12:00</td><td>Workshop</td></tr>
 </table>
