@@ -1,0 +1,1 @@
+The alignment included here has been created by Nicole Liggeri (https://github.com/NicoleLiggeri) as a result of an intership done at [OpenCitations](https://opencitations.net) within the [Digital Humanities Advanced Research Centre (/DH.arc)](https://dharc.unibo.it)
