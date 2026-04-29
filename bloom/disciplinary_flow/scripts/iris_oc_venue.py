@@ -34,7 +34,7 @@ with open('citing_meta.csv', 'w') as f:
     f.write(citing_meta.text)
 
 #step 3.2: make API call for cited omids
-CITING_API_CALL = f"https://api.opencitations.net/meta/v1/metadata/{cited_omids}?require=venue&format=csv"
+CITED_API_CALL = f"https://api.opencitations.net/meta/v1/metadata/{cited_omids}?require=venue&format=csv"
 HTTP_HEADERS = {"authorization": "02637892-4b59-4f19-acae-72f162afde5e-1776847862"}
 
 citing_meta = get(CITING_API_CALL, headers=HTTP_HEADERS)
