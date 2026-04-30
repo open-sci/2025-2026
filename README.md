@@ -129,7 +129,7 @@ This space contains all the material related to the [Open Science course](https:
 
 8. [4/5/26] Open Metrics
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Waltman, L. (2025, March 26). Assessment reform and publishing reform need to go hand in hand. Front Matter. https://doi.org/10.59350/2pxgd-tj976
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1Xuq1nH2-9gvtf4FB6MGPUoj0FS3E1K_6MAGsncPNTvU/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Artrake Studio (Director). (2020, June). What can DNA test really tell us about our ancestry? [Video recording]. https://www.ted.com/talks/prosanta_chakrabarty_what_can_dna_tests_really_tell_us_about_our_ancestry
