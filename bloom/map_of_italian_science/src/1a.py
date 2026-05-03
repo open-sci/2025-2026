@@ -206,6 +206,14 @@ for university in IRIS_UNIVERSITIES[0:1]:
             cited_meta = best_meta_for_omid(meta_df, cited_omid)
             print(f"      lookup: {cited_meta}")
 
+        if citing_meta is None:
+            print(f"      ⚠️ skipping: no metadata found for citing OMID {citing_omid}")
+            continue
+
+        if cited_meta is None:
+            print(f"      ⚠️ skipping: no metadata found for cited OMID {cited_omid}")
+            continue
+
         rows.append(
             {
                 "oci": row["id"],
