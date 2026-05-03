@@ -172,6 +172,10 @@ for university in IRIS_UNIVERSITIES[0:1]:
     meta_df = pd.read_csv(meta_csv)
 
     rows = []
+
+    write_every = 100
+    output_csv.parent.mkdir(exist_ok=True)
+
     for _, row in index_df.iterrows():
         direction = citation_direction(row)
         print(f"\nProcessing {row['id']} with direction: {direction}")
@@ -218,6 +222,10 @@ for university in IRIS_UNIVERSITIES[0:1]:
             }
         )
 
+        if len(rows) % write_every == 0:
+            pd.DataFrame(rows).to_csv(output_csv, index=False)
+            print(f"\n💾 checkpoint written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n")
+
     final_df = pd.DataFrame(rows)
-    output_csv.parent.mkdir(exist_ok=True)
     final_df.to_csv(output_csv, index=False)
+    print(f"   ✅ final CSV written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n\n")
