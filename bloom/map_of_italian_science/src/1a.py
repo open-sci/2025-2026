@@ -64,6 +64,7 @@ def cached_get(url, cache_key, headers=None, params=None):
     cache_file = CACHE_DIR / f"{cache_key}.json"
 
     if cache_file.exists():
+        print("         cache hit:", url)
         return json.loads(cache_file.read_text())
 
     for _attempt in range(API_RETRIES + 1):
@@ -74,6 +75,7 @@ def cached_get(url, cache_key, headers=None, params=None):
             if response.status_code == 200:
                 data = response.json()
                 cache_file.write_text(json.dumps(data))
+                print("         request success:", url)
                 return data
 
             print(f"request failed: {url} status={response.status_code}")
@@ -195,6 +197,5 @@ for university in IRIS_UNIVERSITIES:
 
     final_df = pd.DataFrame(rows, columns=DF_SCHEMA.keys()).astype(DF_SCHEMA)
 
-    # print(final_df.to_string())
     output_csv.parent.mkdir(exist_ok=True)
     final_df.to_csv(output_csv, index=False)
