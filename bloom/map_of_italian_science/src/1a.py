@@ -6,7 +6,11 @@ from dotenv import load_dotenv
 import pandas as pd
 import requests
 
-# Directories for input data and output results
+# ==============================================================================
+# CONSTANTS AND CONFIGURATION
+# ==============================================================================
+
+# Directories for input/output
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_DIR = ROOT_DIR / "output"
@@ -29,18 +33,12 @@ ROR_API = "https://api.ror.org/v2/organizations/"
 API_SLEEP_INTERVAL = 0.5
 API_RETRIES = 2
 
+META_COLS = ["doi", "pmid", "isbn", "pub_date"]
 
-# Load ENV variables
-load_dotenv(ROOT_DIR / ".env")
-OPENCITATIONS_AUTH_TOKEN = os.environ.get("OPENCITATIONS_AUTH_TOKEN")
 
-if not OPENCITATIONS_AUTH_TOKEN:
-    raise RuntimeError("Missing OPENCITATIONS_AUTH_TOKEN")
-
-# Create output and cache directories if they don't exist
-OUTPUT_DIR.mkdir(exist_ok=True)
-CACHE_DIR.mkdir(exist_ok=True)
-
+# ==============================================================================
+# METHODS
+# ==============================================================================
 
 def safe_key(s):
     """Turn an identifier like 'omid:br/12345' into a filesystem-safe filename."""
@@ -114,50 +112,79 @@ def fetch_oc_metadata(omid):
     return {"doi": doi, "pmid": pmid, "isbn": isbn, "pub_date": entry.get("pub_date")}
 
 
-def meta_by_omid(df):
-    """Convert a metadata DataFrame into a dict mapping OMID to {doi, pub_date}."""
-    cols = ["doi", "pmid", "isbn", "pub_date"]
-    return (df.set_index("omid")[cols].to_dict(orient="index"))
+# def meta_by_omid(df):
+#     """Convert a metadata DataFrame into a dict mapping OMID to {doi, pub_date}."""
+#     cols = ["doi", "pmid", "isbn", "pub_date"]
+#     return (df.set_index("omid")[cols].to_dict(orient="index"))
 
 
-def best_meta_for_omid(df, omid, cols=("doi", "pmid", "isbn", "pub_date")):
-    """Return the metadata row for one OMID with the most information."""
+def is_present(value):
+    """Treat NaN, None, and empty strings as missing."""
+    if pd.isna(value):
+        return False
+    if isinstance(value, str) and value.strip() == "":
+        return False
+    return True
+
+
+def entry_info_score(entry):
+    """Count how many useful metadata fields are present."""
+    return sum(is_present(entry[col]) for col in META_COLS)
+
+
+def best_meta_for_omid(df, omid):
+    """
+    Return the metadata row for one OMID with the most information.
+
+    Returns a dict like:
+    {
+        "doi": "...",
+        "pmid": "...",
+        "isbn": "...",
+        "pub_date": "..."
+    }
+    """
     matches = df[df["omid"] == omid]
 
     if matches.empty:
         return None
 
     scored = matches.copy()
-    scored["_info_score"] = scored.apply(row_info_score, axis=1)
+    scored["_info_score"] = scored.apply(entry_info_score, axis=1)
 
     best_row = scored.sort_values("_info_score", ascending=False).iloc[0]
 
-    return best_row[cols].to_dict()
+    return best_row[META_COLS].to_dict()
 
+
+# ==============================================================================
+# RUNTIME
+# ==============================================================================
+
+# Load ENV variables
+load_dotenv(ROOT_DIR / ".env")
+OPENCITATIONS_AUTH_TOKEN = os.environ.get("OPENCITATIONS_AUTH_TOKEN")
+
+if not OPENCITATIONS_AUTH_TOKEN:
+    raise RuntimeError("Missing OPENCITATIONS_AUTH_TOKEN")
+
+# Create output and cache directories if they don't exist
+OUTPUT_DIR.mkdir(exist_ok=True)
+CACHE_DIR.mkdir(exist_ok=True)
 
 # Iterate over each university
-for university in IRIS_UNIVERSITIES:
+for university in IRIS_UNIVERSITIES[0:1]:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
     meta_csv = Path(str(META_CSV_TEMPLATE).format(university=university))
     output_csv = Path(str(OUTPUT_CSV_TEMPLATE).format(university=university))
 
     print(f"Processing university: {university}")
-    print(f"Reading index from: {index_csv}")
-    print(f"Reading metadata from: {meta_csv}")
-    print(f"Writing output to: {output_csv}")
+    print(f"Reading index from: {index_csv.relative_to(ROOT_DIR)}")
+    print(f"Reading metadata from: {meta_csv.relative_to(ROOT_DIR)}")
+    print(f"Writing output to: {output_csv.relative_to(ROOT_DIR)}")
 
     index_df = pd.read_csv(index_csv)
     meta_df = pd.read_csv(meta_csv)
-
-    # duplicates = meta_df[meta_df["omid"].duplicated(keep=False)].sort_values("omid")
-    # print(f"   Found {len(duplicates)} duplicate OMIDs in metadata for {university}:\n{duplicates}")
-
-    # cols = ["doi", "pmid", "isbn", "pub_date"]
-    # diff_counts = meta_df.groupby("omid")[cols].nunique(dropna=False)
-    # duplicate_omids_with_differences = diff_counts[diff_counts.gt(1).any(axis=1)]
-    # print(duplicate_omids_with_differences.to_string())
-
-    meta_lookup = meta_by_omid(meta_df)
 
     rows = []
     for _, row in index_df.iterrows():
@@ -172,13 +199,13 @@ for university in IRIS_UNIVERSITIES:
 
         if direction == "internal":
             print(f"   🔄 citing in IRIS ({citing_omid}), cited in IRIS: ({cited_omid})")
-            citing_meta = meta_lookup.get(citing_omid)
+            citing_meta = best_meta_for_omid(meta_df, citing_omid)
             print(f"      lookup: {citing_meta}")
-            cited_meta = meta_lookup.get(cited_omid)
+            cited_meta = best_meta_for_omid(meta_df, cited_omid)
             print(f"      lookup: {cited_meta}")
         elif direction == "outbound":
             print(f"   ↗️ citing in IRIS ({citing_omid}), cited is external: ({cited_omid})")
-            citing_meta = meta_lookup.get(citing_omid)
+            citing_meta = best_meta_for_omid(meta_df, citing_omid)
             print(f"      lookup: {citing_meta}")
             cited_meta = fetch_oc_metadata(cited_omid)
             print(f"      fetch: {cited_meta}")
@@ -186,7 +213,7 @@ for university in IRIS_UNIVERSITIES:
             print(f"   ↙️ citing is external ({citing_omid}), cited in IRIS: ({cited_omid})")
             citing_meta = fetch_oc_metadata(citing_omid)
             print(f"      fetch: {citing_meta}")
-            cited_meta = meta_lookup.get(cited_omid)
+            cited_meta = best_meta_for_omid(meta_df, cited_omid)
             print(f"      lookup: {cited_meta}")
 
         rows.append(
