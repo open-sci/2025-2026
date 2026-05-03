@@ -30,7 +30,7 @@ OPENAIRE_API = "https://api.openaire.eu/graph/v2/researchProducts"
 ROR_API = "https://api.ror.org/v2/organizations/"
 
 # API request configuration
-API_SLEEP_INTERVAL = 1
+API_SLEEP_INTERVAL = 0.5
 API_RETRIES = 2
 
 # Metadata fields to consider for scoring completeness
