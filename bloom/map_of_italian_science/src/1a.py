@@ -33,12 +33,60 @@ ROR_API = "https://api.ror.org/v2/organizations/"
 API_SLEEP_INTERVAL = 0.5
 API_RETRIES = 2
 
+# Metadata fields to consider for scoring completeness
 META_COLS = ["doi", "pmid", "isbn", "pub_date"]
 
 
 # ==============================================================================
 # METHODS
 # ==============================================================================
+
+def is_present(value):
+    """Treat NaN, None, and empty strings as missing."""
+    if pd.isna(value):
+        return False
+    if isinstance(value, str) and value.strip() == "":
+        return False
+    return True
+
+
+def entry_info_score(entry):
+    """Count how many useful metadata fields are present."""
+    return sum(is_present(entry[col]) for col in META_COLS)
+
+
+def best_meta_for_omid(df, omid):
+    """Return the metadata row for one OMID with the most information."""
+    matches = df[df["omid"] == omid]
+
+    if matches.empty:
+        return None
+
+    scored = matches.copy()
+    scored["_info_score"] = scored.apply(entry_info_score, axis=1)
+
+    best_row = scored.sort_values("_info_score", ascending=False).iloc[0]
+
+    return best_row[META_COLS].to_dict()
+
+
+def citation_direction(df_row):
+    """Determine citation direction for a row based on is_citing_iris and is_cited_iris flags."""
+    citing = bool(df_row["is_citing_iris"])
+    cited = bool(df_row["is_cited_iris"])
+
+    if citing and cited:
+        return "internal"
+    if citing and not cited:
+        return "outbound"
+    if not citing and cited:
+        return "inbound"
+
+    raise ValueError(
+        f"Invalid citation direction for row id={df_row.get('id')}: "
+        "both is_citing_iris and is_cited_iris are False"
+    )
+
 
 def safe_key(s):
     """Turn an identifier like 'omid:br/12345' into a filesystem-safe filename."""
@@ -71,24 +119,6 @@ def cached_get(url, cache_key, headers=None, params=None):
     return None
 
 
-def citation_direction(df_row):
-    """Determine citation direction for a row based on is_citing_iris and is_cited_iris flags."""
-    citing = bool(df_row["is_citing_iris"])
-    cited = bool(df_row["is_cited_iris"])
-
-    if citing and cited:
-        return "internal"
-    if citing and not cited:
-        return "outbound"
-    if not citing and cited:
-        return "inbound"
-
-    raise ValueError(
-        f"Invalid citation direction for row id={df_row.get('id')}: "
-        "both is_citing_iris and is_cited_iris are False"
-    )
-
-
 def fetch_oc_metadata(omid):
     """Return {doi, pmid, isbn, pub_date} for an OMID via the OpenCitations Meta API, or None."""
     headers = {"authorization": OPENCITATIONS_AUTH_TOKEN}
@@ -110,51 +140,6 @@ def fetch_oc_metadata(omid):
             isbn = tok[5:]
 
     return {"doi": doi, "pmid": pmid, "isbn": isbn, "pub_date": entry.get("pub_date")}
-
-
-# def meta_by_omid(df):
-#     """Convert a metadata DataFrame into a dict mapping OMID to {doi, pub_date}."""
-#     cols = ["doi", "pmid", "isbn", "pub_date"]
-#     return (df.set_index("omid")[cols].to_dict(orient="index"))
-
-
-def is_present(value):
-    """Treat NaN, None, and empty strings as missing."""
-    if pd.isna(value):
-        return False
-    if isinstance(value, str) and value.strip() == "":
-        return False
-    return True
-
-
-def entry_info_score(entry):
-    """Count how many useful metadata fields are present."""
-    return sum(is_present(entry[col]) for col in META_COLS)
-
-
-def best_meta_for_omid(df, omid):
-    """
-    Return the metadata row for one OMID with the most information.
-
-    Returns a dict like:
-    {
-        "doi": "...",
-        "pmid": "...",
-        "isbn": "...",
-        "pub_date": "..."
-    }
-    """
-    matches = df[df["omid"] == omid]
-
-    if matches.empty:
-        return None
-
-    scored = matches.copy()
-    scored["_info_score"] = scored.apply(entry_info_score, axis=1)
-
-    best_row = scored.sort_values("_info_score", ascending=False).iloc[0]
-
-    return best_row[META_COLS].to_dict()
 
 
 # ==============================================================================
