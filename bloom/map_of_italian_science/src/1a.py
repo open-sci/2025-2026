@@ -29,29 +29,17 @@ ROR_API = "https://api.ror.org/v2/organizations/"
 API_SLEEP_INTERVAL = 0.5
 API_RETRIES = 2
 
-# DataFrame schema for output CSV
-DF_SCHEMA = {
-    "oci": "string",
-    "direction": "category",
-    "citing_omid": "string",
-    "citing_doi": "string",
-    "citing_pub_date": "string",
-    "cited_omid": "string",
-    "cited_doi": "string",
-    "cited_pub_date": "string",
-}
 
-
-# Create output and cache directories if they don't exist
-OUTPUT_DIR.mkdir(exist_ok=True)
-CACHE_DIR.mkdir(exist_ok=True)
-
-# API authentication
+# Load ENV variables
 load_dotenv(ROOT_DIR / ".env")
 OPENCITATIONS_AUTH_TOKEN = os.environ.get("OPENCITATIONS_AUTH_TOKEN")
 
 if not OPENCITATIONS_AUTH_TOKEN:
     raise RuntimeError("Missing OPENCITATIONS_AUTH_TOKEN")
+
+# Create output and cache directories if they don't exist
+OUTPUT_DIR.mkdir(exist_ok=True)
+CACHE_DIR.mkdir(exist_ok=True)
 
 
 def safe_key(s):
@@ -104,7 +92,7 @@ def citation_direction(df_row):
 
 
 def fetch_oc_metadata(omid):
-    """Return {omid, doi, pub_date} for an OMID via the OpenCitations Meta API, or None."""
+    """Return {doi, pmid, isbn, pub_date} for an OMID via the OpenCitations Meta API, or None."""
     headers = {"authorization": OPENCITATIONS_AUTH_TOKEN}
     data = cached_get(OC_META_API + omid, f"ocmeta_{safe_key(omid)}", headers=headers)
 
@@ -113,28 +101,23 @@ def fetch_oc_metadata(omid):
 
     entry = data[0] if isinstance(data, list) and data else data
 
-    doi = None
+    doi, pmid, isbn = None, None, None
+
     for tok in entry.get("id", "").split():
         if tok.startswith("doi:"):
-            doi = strip_doi_prefix(tok)
-            break
+            doi = tok[4:]
+        elif tok.startswith("pmid:"):
+            pmid = tok[5:]
+        elif tok.startswith("isbn:"):
+            isbn = tok[5:]
 
-    return {"doi": doi, "pub_date": entry.get("pub_date")}
-
-
-def strip_doi_prefix(string):
-    """Remove 'doi:' prefix from a string if present."""
-    return string[4:] if string.startswith("doi:") else string
+    return {"doi": doi, "pmid": pmid, "isbn": isbn, "pub_date": entry.get("pub_date")}
 
 
 def meta_by_omid(df):
     """Convert a metadata DataFrame into a dict mapping OMID to {doi, pub_date}."""
-    cols = ["doi", "pub_date"]
-    return (
-        df.assign(doi=df["doi"].apply(strip_doi_prefix))
-          .set_index("omid")[cols]
-          .to_dict(orient="index")
-    )
+    cols = ["doi", "pmid", "isbn", "pub_date"]
+    return (df.set_index("omid")[cols].to_dict(orient="index"))
 
 
 # Iterate over each university
@@ -188,14 +171,17 @@ for university in IRIS_UNIVERSITIES:
                 "direction": direction,
                 "citing_omid": citing_omid,
                 "citing_doi": citing_meta.get("doi"),
+                "citing_pmid": citing_meta.get("pmid"),
+                "citing_isbn": citing_meta.get("isbn"),
                 "citing_pub_date": citing_meta.get("pub_date"),
                 "cited_omid": cited_omid,
                 "cited_doi": cited_meta.get("doi"),
+                "cited_pmid": cited_meta.get("pmid"),
+                "cited_isbn": cited_meta.get("isbn"),
                 "cited_pub_date": cited_meta.get("pub_date"),
             }
         )
 
-    final_df = pd.DataFrame(rows, columns=DF_SCHEMA.keys()).astype(DF_SCHEMA)
-
+    final_df = pd.DataFrame(rows)
     output_csv.parent.mkdir(exist_ok=True)
     final_df.to_csv(output_csv, index=False)
