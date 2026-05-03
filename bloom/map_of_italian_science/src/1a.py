@@ -120,6 +120,21 @@ def meta_by_omid(df):
     return (df.set_index("omid")[cols].to_dict(orient="index"))
 
 
+def best_meta_for_omid(df, omid, cols=("doi", "pmid", "isbn", "pub_date")):
+    """Return the metadata row for one OMID with the most information."""
+    matches = df[df["omid"] == omid]
+
+    if matches.empty:
+        return None
+
+    scored = matches.copy()
+    scored["_info_score"] = scored.apply(row_info_score, axis=1)
+
+    best_row = scored.sort_values("_info_score", ascending=False).iloc[0]
+
+    return best_row[cols].to_dict()
+
+
 # Iterate over each university
 for university in IRIS_UNIVERSITIES:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
@@ -133,6 +148,15 @@ for university in IRIS_UNIVERSITIES:
 
     index_df = pd.read_csv(index_csv)
     meta_df = pd.read_csv(meta_csv)
+
+    # duplicates = meta_df[meta_df["omid"].duplicated(keep=False)].sort_values("omid")
+    # print(f"   Found {len(duplicates)} duplicate OMIDs in metadata for {university}:\n{duplicates}")
+
+    # cols = ["doi", "pmid", "isbn", "pub_date"]
+    # diff_counts = meta_df.groupby("omid")[cols].nunique(dropna=False)
+    # duplicate_omids_with_differences = diff_counts[diff_counts.gt(1).any(axis=1)]
+    # print(duplicate_omids_with_differences.to_string())
+
     meta_lookup = meta_by_omid(meta_df)
 
     rows = []
