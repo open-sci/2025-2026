@@ -145,7 +145,7 @@ This space contains all the material related to the [Open Science course](https:
 
 9. [7/5/26] Open Infrastructures
    * Mandatory reading (to read and study before the lecture):
-     * TBD
+     * Elliott, S., & Sterner, B. (2025). How Open Science organizations generate epistemic oppression. European Journal for Philosophy of Science, 15(3), 47. https://doi.org/10.1007/s13194-025-00674-0
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1Dh2Uv7g0DydXabvS6FP2QOYx1I1s7TsvmXsfPVRXXgc/edit?usp=sharing)
    * Supplementary bibliography (optional):
      * Bilder, G., Lin, J., & Neylon, C. (2023, November). The Principles of Open Scholarly Infrastructure. The Principles of Open Scholarly Infrastructure. https://doi.org/10.24343/C34W2H
