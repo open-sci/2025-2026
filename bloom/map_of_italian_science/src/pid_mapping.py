@@ -116,6 +116,10 @@ for university in IRIS_UNIVERSITIES:
 
     output_csv.parent.mkdir(exist_ok=True)
 
+    if output_csv.exists():
+        print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(ROOT_DIR)}")
+        continue
+
     with output_log.open("w", encoding="utf-8") as log_file:
         log(f"Processing university: {university}", log_file)
         log(f"Reading index from: {index_csv.relative_to(ROOT_DIR)}", log_file)
@@ -183,11 +187,26 @@ for university in IRIS_UNIVERSITIES:
 
             if len(processed_rows) % WRITE_CSV_EVERY == 0:
                 pd.DataFrame(processed_rows).to_csv(output_csv, index=False)
-                log(f"\n💾 checkpoint written: {len(processed_rows)} records -> {output_csv.relative_to(ROOT_DIR)}", log_file)
+                log(f"\n💾 checkpoint written: {len(processed_rows)} records -> "
+                    f"{output_csv.relative_to(ROOT_DIR)}",
+                    log_file
+                )
 
         final_df = pd.DataFrame(processed_rows)
         final_df.to_csv(output_csv, index=False)
-        log(f"\n🎉 final CSV written: {len(processed_rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n", log_file)
+        log(f"\n🎉 final CSV written: {len(processed_rows)} records -> "
+            f"{output_csv.relative_to(ROOT_DIR)}\n",
+            log_file
+        )
+
+        missing_df = pd.DataFrame(missing_rows)
+        missing_df.to_csv(missing_meta_csv, index=False)
+
+        log(
+            f"⚠️ missing metadata CSV written: {len(missing_rows)} records -> "
+            f"{missing_meta_csv.relative_to(ROOT_DIR)}",
+            log_file
+        )
 
 # Close the SQLite connection
 OC_INDEX_DB.close()
