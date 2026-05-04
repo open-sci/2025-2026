@@ -1,0 +1,80 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TS1-TS2301">
+    <skos:prefLabel>Manufactures</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Manufactures</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Manufactures</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Manufactures</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/>     
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Manufacturing"/>   
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Paper_and_Wood"/>   
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Textiles"/> 
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Industrial_and_Manufacturing_Engineering"/> 
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/General_Materials_Science"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Mechanics_of_Materials"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Materials_Science_\(miscellaneous\)"/> 
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Materials_Engineering"/>  
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Manufacturing_Engineering"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1050"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS146"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS200-TS770"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS800-TS915"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS147"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS780-TS788"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1060-TS1070"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1950-TS2301"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS199"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1300-TS1865"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1870-TS1935"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS139-TS140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1080-TS1268.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS144-TS145"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS920-TS937.282"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS148"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS195-TS198.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS940-TS1047"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS21-TS127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS155-TS194"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS15"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TS149"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TT1-TT999" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TS1-TS2301</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Manufactures</skos:altLabel>
+    <skos:altLabel>Manufactures</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TS1-TS2301"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-04-23T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TS1-TS2301"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:57:19</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

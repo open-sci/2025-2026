@@ -1,0 +1,112 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/HE1-HE9900">
+    <skos:prefLabel>Transportation and communications</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Social Sciences--Transportation and communications</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Social Sciences--Transportation and communications</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Transportation</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>African Americans--Transportation</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Communications</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Urban_Studies"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE152"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE153"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE155-HE181.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE191.87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9761-HE9900"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE305-HE311"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE198"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE191.9-HE192"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE323-HE327"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE8701-HE9680.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE199.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE7581-HE7583"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE201-HE302.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE151.4-HE151.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9745"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE7601-HE8700.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE7511-HE7549"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE7551-HE7553"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE196"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9713-HE9715"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9723-HE9737"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9717-HE9717.5.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE147"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9751-HE9756"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE192.5-HE192.55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE147.5-HE149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5736-HE5739"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE199-HE199.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE195.4-HE195.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE191.8-HE191.82"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE6000-HE7500"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE8.9-HE9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE1001-HE5600"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE315-HE316"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5999.A-HE5999.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE8.9-HE9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9739"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE196.9-HE197"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5880-HE5990"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE331-HE380"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE9719-HE9721"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE380.8-HE971"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE7581-HE7583"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE194-HE194.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE193"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE13-HE13.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5746-HE5749"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE196.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE141"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE191.4-HE191.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5751-HE5870"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE1-HE7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HE5601-HE5725"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HD9709-HD9714.2" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TA1001-TA1280" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GT5220-GT5286" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including roads, waterways, railways, postal service, telecommunication, telegraph, telephone, broadcasting, commercial aviation</skos:scopeNote>
+    <skos:notation>HE1-HE9900</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Social Sciences--Transportation and communications</skos:altLabel>
+    <skos:altLabel>Transportation</skos:altLabel>
+    <skos:altLabel>African Americans--Transportation</skos:altLabel>
+    <skos:altLabel>Communications</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HE1-HE9900"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-08-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HE1-HE9900"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-05T16:20:15</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,44 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PA3000-PA3049">
+    <skos:prefLabel>Classical literature</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Classical literature</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Classical literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Classical literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Classics"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Classics"/> 
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Classical_Studies"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Classical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA3001-PA3044.9"/>
+    <skos:notation>PA3000-PA3049</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Classical literature</skos:altLabel>
+    <skos:altLabel>Classical literature</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA3000-PA3049"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-08-03T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA3000-PA3049"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-27T09:31:24</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

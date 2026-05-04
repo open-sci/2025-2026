@@ -1,0 +1,46 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/L1-L991">
+    <skos:prefLabel>Education (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Education--Education (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Education--Education (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Education"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Education"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Education_Special"/>  
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Education_Scientific_Disciplines"/> 
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Education_and_Educational_Research"/> 
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Pedagogical_and_Educational_Research"/>
+    <skos:closeMatch rdf:resource="http://www.oecd.org/vocabs/Education"/>  
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Education_and_Educational_Research"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L111-L791"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L995"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L900-L991"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L7-L97"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L107"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L899.A2-L899.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/L797-L898"/>
+    <skos:notation>L1-L991</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Education--Education (General)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/L1-L991"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1992-12-26T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/L1-L991"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T10:32:40</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

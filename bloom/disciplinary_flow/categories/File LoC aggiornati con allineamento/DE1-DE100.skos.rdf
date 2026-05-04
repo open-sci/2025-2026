@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/DE1-DE100">
+    <skos:prefLabel>History of the Greco-Roman world</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of the Greco-Roman world</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of the Greco-Roman world</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Classical antiquities--Greco-Roman world</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Greco-Roman world</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Mediterranean Region</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE2.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE3-DE4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE8-DE9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE73-DE73.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE45.2-DE61"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE72"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE80-DE100"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE15-DE15.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DE22.2-DE31"/>
+    <skos:scopeNote xml:lang="en">Including the Mediterranean Region Class here general classical antiquities and history</skos:scopeNote>
+    <skos:notation>DE1-DE100</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of the Greco-Roman world</skos:altLabel>
+    <skos:altLabel>Classical antiquities--Greco-Roman world</skos:altLabel>
+    <skos:altLabel>Greco-Roman world</skos:altLabel>
+    <skos:altLabel>Mediterranean Region</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DE1-DE100"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-12-03T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DE1-DE100"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-12-23T10:02:18</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

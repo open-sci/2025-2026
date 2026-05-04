@@ -1,0 +1,70 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/HM401-HM1281">
+    <skos:prefLabel>Sociology</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Social Sciences--Sociology</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Social Sciences--Sociology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Sociology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Sociology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Sociology_and_Political_Science"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Sociology"/> 
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Sociology"/>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Sociology"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM427"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM561-HM567"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM479.2-HM554"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM585-HM606"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM811-HM816.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM826-HM826.16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM478-HM479"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM621-HM656"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM831-HM901"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM429"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM821-HM821.17"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM421"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM401-HM417"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM701"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM569"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM711-HM806"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM419"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM1001-HM1281"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM425"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM608"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM661-HM696"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM571-HM578"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM708"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM706"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM581-HM582"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/HM435-HM477"/>
+    <skos:scopeNote xml:lang="en">Class here works that are primarily theoretical in orientation. Class empirical works, including those limited to specific places, in subclass HN Many topics provided for here represent concepts also encompassed by the discipline of ethnology in GN301 GN673. In cases of overlap, the following principle should normally apply, unless specific instructions are made to the contrary: Class here works that deal principally with modern civilization. For works that deal with the nature of human societies in general, as well as works that deal specifically with preliterate and/or folk societies, see GN301 GN673</skos:scopeNote>
+    <skos:notation>HM401-HM1281</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Social Sciences--Sociology</skos:altLabel>
+    <skos:altLabel>Sociology</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HM401-HM1281"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-08-30T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/HM401-HM1281"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-08-30T15:01:50</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

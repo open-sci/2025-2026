@@ -1,0 +1,45 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RZ1-RZ999">
+    <skos:prefLabel>Other systems of medicine</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Other systems of medicine</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Other systems of medicine</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Alternative_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Chiropratic"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Osteopathic_Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Integrative_and_Complementary_Medicine"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Biomedical_and_Clinical_Sciences"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RZ409-RZ999"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RZ201-RZ275.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RZ400-RZ408"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RZ301-RZ397.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RZ399.A-RZ399.Z"/>
+    <skos:notation>RZ1-RZ999</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Other systems of medicine</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RZ1-RZ999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-05-24T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RZ1-RZ999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:32:47</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

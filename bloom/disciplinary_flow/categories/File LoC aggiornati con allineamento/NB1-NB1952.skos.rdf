@@ -1,0 +1,76 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/NB1-NB1952">
+    <skos:prefLabel>Sculpture</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Fine Arts--Sculpture</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Fine Arts--Sculpture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Sculpture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Art"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Art_and_Art_History"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Visual_Arts_and_Performing_Arts"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Visual_Arts"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Arts_arts_history_of_arts_performing_arts_music"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1115"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1198"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1153.A-NB1153.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1277"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB35.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1201-NB1201.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1275"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1293-NB1895"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1170"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1202"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB16-NB18.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1134-NB1134.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1278"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB20-NB30"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1271"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB40"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB43-NB45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB35"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1910-NB1952"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB36"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB60-NB1114"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1276"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1280"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1203-NB1270"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1135-NB1150"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB50"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1272"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1199"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1120-NB1133"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NB1"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/NK8700-NK8713" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>NB1-NB1952</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Fine Arts--Sculpture</skos:altLabel>
+    <skos:altLabel>Sculpture</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/NB1-NB1952"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-08-05T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/NB1-NB1952"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:52:52</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,82 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/GC1-GC1581">
+    <skos:prefLabel>Oceanography</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Geography. Anthropology. Recreation--Oceanography</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Geography. Anthropology. Recreation--Oceanography</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Oceanography</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Oceanography"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC63.A1-GC63.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC65-GC78"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC9.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC150-GC182"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC21.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC401-GC881"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC1080-GC1581"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC10.2-GC10.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC24"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC89-GC90"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC37-GC38"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC29-GC29.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC6-GC7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC57-GC59"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC10.9-GC11.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC96-GC97.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC31-GC31.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC35-GC35.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC200-GC376"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC83-GC87.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC190-GC190.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC26"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC1000-GC1023"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC100-GC103"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC30.A1-GC30.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC377-GC399"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC30.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC98-GC99"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC64"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC41"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC109-GC149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GC28"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/VK588-VK597" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GB3-GB5030" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GB450-GB460" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GB700-GB841" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>GC1-GC1581</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Geography. Anthropology. Recreation--Oceanography</skos:altLabel>
+    <skos:altLabel>Oceanography</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GC1-GC1581"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-29T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GC1-GC1581"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-26T15:02:35</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

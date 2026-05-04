@@ -1,0 +1,94 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TH1-TH9745">
+    <skos:prefLabel>Building construction</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Building construction</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Building construction</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Building construction</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Construction_and_Building_Technology"/>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Building_and_Construction"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Architecture"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Art_Design_and_Architecture"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH15-TH127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH6014-TH6085"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH455"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH4021-TH4977"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH845-TH896.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH1000-TH1727"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH9025-TH9092"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH449"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH431"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH257"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH3301-TH3411"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH6101-TH6887"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH439"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH350"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH165-TH213"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH5011-TH5701"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH139-TH140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH385"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH434-TH437"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH7005-TH7699"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH9701-TH9745"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH425"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH215-TH216"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH1-TH4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH900-TH915"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH2025-TH3000"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH9111-TH9745"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH7700-TH7975"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH12-TH13.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH6.A1-TH6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH420"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH453"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH6010-TH6013"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH441"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH438-TH438.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH144-TH159"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH443"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH447"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH8001-TH8601.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH213.5-TH213.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH451.A-TH451.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TH375-TH383"/>
+    <skos:notation>TH1-TH9745</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Building construction</skos:altLabel>
+    <skos:altLabel>Building construction</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TH1-TH9745"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-04-03T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TH1-TH9745"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:58:37</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

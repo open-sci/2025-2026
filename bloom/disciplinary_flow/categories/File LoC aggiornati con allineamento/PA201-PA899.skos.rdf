@@ -1,0 +1,63 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PA201-PA899">
+    <skos:prefLabel>Greek philology and language</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Greek philology and language</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Greek philology and language</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Greek philology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Greek language</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>    
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Classics"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Classics"/> 
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Classical_Studies"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Classical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/>    
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Language_and_Linguistics"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Linguistics_and_Language"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/>    
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Language_Studies"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA431-PA465"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA600-PA691"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA420"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA401-PA409"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA591"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA411-PA419"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA421-PA430"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA500-PA581"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PA227-PA241"/>
+    <skos:notation>PA201-PA899</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Greek philology and language</skos:altLabel>
+    <skos:altLabel>Greek philology</skos:altLabel>
+    <skos:altLabel>Greek language</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA201-PA899"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-28T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PA201-PA899"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-27T09:29:05</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

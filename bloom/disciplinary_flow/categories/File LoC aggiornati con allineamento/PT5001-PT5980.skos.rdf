@@ -1,0 +1,69 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PT5001-PT5980">
+    <skos:prefLabel>Dutch literature</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Dutch literature</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Dutch literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Dutch literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Literature, Dutch</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Flemish literature before 1830</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Literature, Flemish before 1830</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/> 
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Literature"/>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_German_Dutch_Scandinavian"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5398"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5001-PT5348"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5555-PT5882.36"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5400-PT5547"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5351-PT5395"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PT5901-PT5980"/>
+    <skos:scopeNote xml:lang="en">Including Flemish literature before 1830</skos:scopeNote>
+    <skos:notation>PT5001-PT5980</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Dutch literature</skos:altLabel>
+    <skos:altLabel>Dutch literature</skos:altLabel>
+    <skos:altLabel>Literature, Dutch</skos:altLabel>
+    <skos:altLabel>Flemish literature before 1830</skos:altLabel>
+    <skos:altLabel>Literature, Flemish before 1830</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PT5001-PT5980"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-03-18T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PT5001-PT5980"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-27T07:13:40</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

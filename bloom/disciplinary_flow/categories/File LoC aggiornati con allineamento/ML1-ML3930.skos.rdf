@@ -1,0 +1,66 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/ML1-ML3930">
+    <skos:prefLabel>Literature on music</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Music and Books on Music--Literature on music</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Music and Books on Music--Literature on music</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Literature on music</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Music"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Music"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Musicology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Musicology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Arts_arts_history_of_arts_performing_arts_music"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML12-ML21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML40-ML44"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML1-ML5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML112-ML112.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML47-ML54.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML110-ML111.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML46"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML3790-ML3792"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML93-ML97"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML3928-ML3930"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML100-ML109"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML159-ML3785"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML25-ML28"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML35-ML38"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML32-ML33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML112.8-ML158.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML3797-ML3799.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML3795"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML55-ML90"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML29-ML31"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/ML3800-ML3923"/>
+    <skos:scopeNote xml:lang="en">Including individual performance ensembles</skos:scopeNote>
+    <skos:notation>ML1-ML3930</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Music and Books on Music--Literature on music</skos:altLabel>
+    <skos:altLabel>Literature on music</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/ML1-ML3930"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-12-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/ML1-ML3930"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-13T13:59:08</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

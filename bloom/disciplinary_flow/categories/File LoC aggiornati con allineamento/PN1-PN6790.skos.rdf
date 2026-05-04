@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PN1-PN6790">
+    <skos:prefLabel>Literature (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Literature (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Literature (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literary_Reviews"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literary_Theory_and_Criticism"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_African_Australian_Canadian"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_American"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_British_Isles"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_German_Dutch_Scandinavian"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_Romance"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Literature_Slavic"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Poetry"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Literature_and_Literary_Theory"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Literary_Studies"/>   
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Literature"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Literature"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Theatre_and_Drama"/>        
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN101-PN245.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN1-PN9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN80-PN99"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN35-PN37"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN43.5-PN43.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN41-PN43"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN20-PN30"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN59-PN72"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN44.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN34"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN1530"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN45-PN57"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN44"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN1010-PN1551"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN441-PN1009.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN73"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN58"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN1551"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PN74-PN75"/>
+    <skos:notation>PN1-PN6790</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Literature (General)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PN1-PN6790"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-09-17T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PN1-PN6790"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T07:32:16</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>
