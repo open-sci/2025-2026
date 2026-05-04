@@ -107,22 +107,10 @@ def fetch_oc_metadata(omid):
     if not data:
         return None
 
-    entry = data[0] if isinstance(data, list) and data else data
+    return data[0] if isinstance(data, list) and data else data
 
-    ids = {
-        tok.split(":", 1)[0]: tok
-        for tok in entry.get("id", "").split()
-        if tok.startswith(("doi:", "pmid:", "isbn:"))
-    }
 
-    return {
-        "doi": ids.get("doi"),
-        "pmid": ids.get("pmid"),
-        "isbn": ids.get("isbn"),
-        "pub_date": entry.get("pub_date"),
-    }
-
-def meta_lookup(index_db, omid):
+def lookup_oc_metadata(index_db, omid):
     print(f"         looking up in SQLite index: {omid}")
     record = index_db.execute(
         "SELECT * FROM meta WHERE omid = ?",
@@ -133,6 +121,38 @@ def meta_lookup(index_db, omid):
         return None
 
     return dict(record)
+
+
+def record_to_dict(record):
+    ids = {
+        tok.split(":", 1)[0]: tok
+        for tok in record.get("id", "").split()
+        if tok.startswith(("doi:", "pmid:", "isbn:"))
+    }
+
+    return {
+        "doi": ids.get("doi"),
+        "pmid": ids.get("pmid"),
+        "isbn": ids.get("isbn"),
+        "pub_date": record.get("pub_date"),
+    }
+
+
+def meta_lookup(index_db, omid):
+    meta = lookup_oc_metadata(index_db, omid)
+
+    if meta is not None:
+        return record_to_dict(meta)
+
+    print(f"         not found in SQLite index, falling back to API: {omid}")
+
+    meta = fetch_oc_metadata(omid)
+
+    if meta is not None:
+        return record_to_dict(meta)
+    else:
+        print(f"         ⚠️ metadata not found for {omid} via API either")
+        return None
 
 # ==============================================================================
 # RUNTIME
