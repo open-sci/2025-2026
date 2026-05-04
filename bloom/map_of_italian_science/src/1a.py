@@ -129,17 +129,18 @@ def fetch_oc_metadata(omid):
 
     entry = data[0] if isinstance(data, list) and data else data
 
-    doi, pmid, isbn = None, None, None
+    ids = {
+        tok.split(":", 1)[0]: tok
+        for tok in entry.get("id", "").split()
+        if tok.startswith(("doi:", "pmid:", "isbn:"))
+    }
 
-    for tok in entry.get("id", "").split():
-        if tok.startswith("doi:"):
-            doi = tok[4:]
-        elif tok.startswith("pmid:"):
-            pmid = tok[5:]
-        elif tok.startswith("isbn:"):
-            isbn = tok[5:]
-
-    return {"doi": doi, "pmid": pmid, "isbn": isbn, "pub_date": entry.get("pub_date")}
+    return {
+        "doi": ids.get("doi"),
+        "pmid": ids.get("pmid"),
+        "isbn": ids.get("isbn"),
+        "pub_date": entry.get("pub_date"),
+    }
 
 
 # ==============================================================================
