@@ -1,11 +1,8 @@
-import json
 import os
-import time
 import sqlite3
 from pathlib import Path
 from dotenv import load_dotenv
 import pandas as pd
-import requests
 
 # ==============================================================================
 # CONSTANTS AND CONFIGURATION
@@ -40,11 +37,6 @@ INDEX_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_index" / "iris_in_o
 META_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_meta" / "iris_in_oc_meta.csv"
 OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "1a.csv"
 
-# API endpoints and configuration
-API_OC_META_ENDPOINT = "https://api.opencitations.net/meta/v1/metadata/"
-API_SLEEP_INTERVAL = 0.4
-API_RETRIES = 3
-
 
 # ==============================================================================
 # METHODS
@@ -68,62 +60,7 @@ def citation_direction(df_row):
     )
 
 
-def safe_key(s):
-    """Turn an identifier like 'omid:br/12345' into a filesystem-safe filename."""
-    return s.replace("/", "_").replace(":", "_")
-
-
-def cached_get(url, cache_key, headers=None, params=None):
-    """GET a URL with a JSON cache on disk. Returns parsed JSON or None on failure."""
-    cache_file = CACHE_DIR / f"{cache_key}.json"
-
-    if cache_file.exists():
-        print("         cache hit:", url)
-        return json.loads(cache_file.read_text())
-
-    for attempt in range(API_RETRIES + 1):
-        time.sleep(API_SLEEP_INTERVAL * (2 ** attempt))  # Exponential backoff
-
-        try:
-            response = requests.get(url, headers=headers, params=params, timeout=30)
-            if response.status_code == 200:
-                data = response.json()
-                cache_file.write_text(json.dumps(data))
-                print("         request success:", url)
-                return data
-
-            print(f"request failed: {url} status={response.status_code}")
-        except Exception as e:
-            print(f"request failed: {url} ({e})")
-
-    return None
-
-
-def fetch_oc_metadata(omid):
-    """Return {doi, pmid, isbn, pub_date} for an OMID via the OpenCitations Meta API, or None."""
-    headers = {"authorization": OPENCITATIONS_AUTH_TOKEN}
-    data = cached_get(API_OC_META_ENDPOINT + omid, f"ocmeta_{safe_key(omid)}", headers=headers)
-
-    if not data:
-        return None
-
-    return data[0] if isinstance(data, list) and data else data
-
-
-def lookup_oc_metadata(index_db, omid):
-    print(f"         looking up in SQLite index: {omid}")
-    record = index_db.execute(
-        "SELECT * FROM meta WHERE omid = ?",
-        (omid,)
-    ).fetchone()
-
-    if record is None:
-        return None
-
-    return dict(record)
-
-
-def record_to_dict(record):
+def extract_meta_values(record):
     ids = {
         tok.split(":", 1)[0]: tok
         for tok in record.get("id", "").split()
@@ -138,21 +75,19 @@ def record_to_dict(record):
     }
 
 
-def meta_lookup(index_db, omid):
-    meta = lookup_oc_metadata(index_db, omid)
+def lookup_oc_metadata(index_db, omid):
+    print(f"    looking up in SQLite index: {omid}")
 
-    if meta is not None:
-        return record_to_dict(meta)
+    record = index_db.execute(
+        "SELECT * FROM meta WHERE omid = ?",
+        (omid,)
+    ).fetchone()
 
-    print(f"         not found in SQLite index, falling back to API: {omid}")
-
-    meta = fetch_oc_metadata(omid)
-
-    if meta is not None:
-        return record_to_dict(meta)
-    else:
-        print(f"         ⚠️ metadata not found for {omid} via API either")
+    if record is None:
         return None
+
+    return extract_meta_values(dict(record))
+
 
 # ==============================================================================
 # RUNTIME
@@ -180,10 +115,10 @@ for university in IRIS_UNIVERSITIES:
     index_df = pd.read_csv(index_csv)
     meta_df = pd.read_csv(meta_csv)
 
-    rows = []
-
-    write_every = 100
+    write_every = 5000
     output_csv.parent.mkdir(exist_ok=True)
+
+    rows = []
 
     for index, row in index_df.iterrows():
         direction = citation_direction(row)
@@ -193,15 +128,18 @@ for university in IRIS_UNIVERSITIES:
         oci = row["id"]
         citing_omid = row["citing"]
         cited_omid = row["cited"]
-        citing_meta = meta_lookup(OC_INDEX_DB, citing_omid)
-        cited_meta = meta_lookup(OC_INDEX_DB, cited_omid)
+
+        print(f"  Citing OMID: {citing_omid} -> Cited OMID: {cited_omid}")
+
+        citing_meta = lookup_oc_metadata(OC_INDEX_DB, citing_omid)
+        cited_meta = lookup_oc_metadata(OC_INDEX_DB, cited_omid)
 
         if citing_meta is None:
-            print(f"      ⚠️ skipping: no metadata found for citing OMID {citing_omid}")
+            print(f"        ⚠️ skipping: no metadata found for citing OMID {citing_omid}")
             continue
 
         if cited_meta is None:
-            print(f"      ⚠️ skipping: no metadata found for cited OMID {cited_omid}")
+            print(f"        ⚠️ skipping: no metadata found for cited OMID {cited_omid}")
             continue
 
         rows.append(
@@ -227,7 +165,7 @@ for university in IRIS_UNIVERSITIES:
 
     final_df = pd.DataFrame(rows)
     final_df.to_csv(output_csv, index=False)
-    print(f"   ✅ final CSV written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n\n")
+    print(f"\n✅ final CSV written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n\n")
 
 # Close the SQLite connection
 OC_INDEX_DB.close()
