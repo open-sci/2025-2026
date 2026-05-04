@@ -201,7 +201,6 @@ for university in IRIS_UNIVERSITIES:
 
         missing_df = pd.DataFrame(missing_rows)
         missing_df.to_csv(missing_meta_csv, index=False)
-
         log(
             f"⚠️ missing metadata CSV written: {len(missing_rows)} records -> "
             f"{missing_meta_csv.relative_to(ROOT_DIR)}",

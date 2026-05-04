@@ -20,6 +20,9 @@ STORAGE_DIR = Path(STORAGE_PATH)
 CSV_DIR = STORAGE_DIR / "oc_csv"
 DB_PATH = STORAGE_DIR / "oc_index.sqlite3"
 
+# Number of rows to insert before committing to SQLite
+COMMIT_EVERY = 50_000
+
 # Regular expression to extract OMID from the "id" field
 OMID_RE = re.compile(r"\bomid:[^\s\]]+")
 
@@ -128,8 +131,8 @@ for index, csv_file in enumerate(csv_files, start=1):
 
             rows_added_from_file += 1
 
-            # Commit in batches of 50,000 rows
-            if len(batch) >= 50_000:
+            # Commit in batches
+            if len(batch) >= COMMIT_EVERY:
                 print(
                     f"  Committing {len(batch):,} rows to SQLite "
                     f"(total rows seen: {total_rows:,})"

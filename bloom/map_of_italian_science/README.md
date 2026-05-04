@@ -8,6 +8,14 @@ unzip data.zip -d data
 rm data.zip
 ```
 
+Download the OpenCitations Meta CSV dump from Zenodo:
+
+```bash
+curl -L -o oc_csv.tar.gz "https://zenodo.org/records/18324537/files/output_csv_2026_01_14.tar.gz?download=1"
+tar -xzf oc_csv.tar.gz -C oc_csv
+rm oc_csv.tar.gz
+```
+
 Generate an auth token for OpenCitation at https://opencitations.net/accesstoken/,
 and add it in a `.env` file:
 
