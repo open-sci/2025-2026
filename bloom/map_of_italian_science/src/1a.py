@@ -1,6 +1,7 @@
 import json
 import os
 import time
+import sqlite3
 from pathlib import Path
 from dotenv import load_dotenv
 import pandas as pd
@@ -12,9 +13,24 @@ import requests
 
 # Directories for input/output
 ROOT_DIR = Path(__file__).resolve().parent.parent
+
+# Load ENV variables
+load_dotenv(ROOT_DIR / ".env")
+STORAGE_PATH = os.environ.get("STORAGE_PATH")
+OPENCITATIONS_AUTH_TOKEN = os.environ.get("OPENCITATIONS_AUTH_TOKEN")
+
+if not OPENCITATIONS_AUTH_TOKEN:
+    raise RuntimeError("Missing OPENCITATIONS_AUTH_TOKEN")
+
+if not STORAGE_PATH:
+    raise RuntimeError("Missing STORAGE_PATH environment variable")
+
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_DIR = ROOT_DIR / "output"
 CACHE_DIR = ROOT_DIR / "cache"
+
+STORAGE_DIR = Path(STORAGE_PATH)
+OC_INDEX_PATH = STORAGE_DIR / "oc_index.sqlite3"
 
 # Universities with IRIS data available
 IRIS_UNIVERSITIES = sorted(path.name for path in DATA_DIR.iterdir() if path.is_dir())
@@ -24,51 +40,15 @@ INDEX_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_index" / "iris_in_o
 META_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_meta" / "iris_in_oc_meta.csv"
 OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "1a.csv"
 
-# API endpoints
-OC_META_API = "https://api.opencitations.net/meta/v1/metadata/"
-OPENAIRE_API = "https://api.openaire.eu/graph/v2/researchProducts"
-ROR_API = "https://api.ror.org/v2/organizations/"
-
-# API request configuration
+# API endpoints and configuration
+API_OC_META_ENDPOINT = "https://api.opencitations.net/meta/v1/metadata/"
 API_SLEEP_INTERVAL = 0.4
 API_RETRIES = 3
-
-# Metadata fields to consider for scoring completeness
-META_COLS = ["doi", "pmid", "isbn", "pub_date"]
 
 
 # ==============================================================================
 # METHODS
 # ==============================================================================
-
-def is_present(value):
-    """Treat NaN, None, and empty strings as missing."""
-    if pd.isna(value):
-        return False
-    if isinstance(value, str) and value.strip() == "":
-        return False
-    return True
-
-
-def entry_info_score(entry):
-    """Count how many useful metadata fields are present."""
-    return sum(is_present(entry[col]) for col in META_COLS)
-
-
-def best_meta_for_omid(df, omid):
-    """Return the metadata row for one OMID with the most information."""
-    matches = df[df["omid"] == omid]
-
-    if matches.empty:
-        return None
-
-    scored = matches.copy()
-    scored["_info_score"] = scored.apply(entry_info_score, axis=1)
-
-    best_row = scored.sort_values("_info_score", ascending=False).iloc[0]
-
-    return best_row[META_COLS].to_dict()
-
 
 def citation_direction(df_row):
     """Determine citation direction for a row based on is_citing_iris and is_cited_iris flags."""
@@ -122,7 +102,7 @@ def cached_get(url, cache_key, headers=None, params=None):
 def fetch_oc_metadata(omid):
     """Return {doi, pmid, isbn, pub_date} for an OMID via the OpenCitations Meta API, or None."""
     headers = {"authorization": OPENCITATIONS_AUTH_TOKEN}
-    data = cached_get(OC_META_API + omid, f"ocmeta_{safe_key(omid)}", headers=headers)
+    data = cached_get(API_OC_META_ENDPOINT + omid, f"ocmeta_{safe_key(omid)}", headers=headers)
 
     if not data:
         return None
@@ -142,17 +122,25 @@ def fetch_oc_metadata(omid):
         "pub_date": entry.get("pub_date"),
     }
 
+def meta_lookup(index_db, omid):
+    print(f"         looking up in SQLite index: {omid}")
+    record = index_db.execute(
+        "SELECT * FROM meta WHERE omid = ?",
+        (omid,)
+    ).fetchone()
+
+    if record is None:
+        return None
+
+    return dict(record)
 
 # ==============================================================================
 # RUNTIME
 # ==============================================================================
 
-# Load ENV variables
-load_dotenv(ROOT_DIR / ".env")
-OPENCITATIONS_AUTH_TOKEN = os.environ.get("OPENCITATIONS_AUTH_TOKEN")
-
-if not OPENCITATIONS_AUTH_TOKEN:
-    raise RuntimeError("Missing OPENCITATIONS_AUTH_TOKEN")
+# Connect to the SQLite index database
+OC_INDEX_DB = sqlite3.connect(OC_INDEX_PATH)
+OC_INDEX_DB.row_factory = sqlite3.Row
 
 # Create output and cache directories if they don't exist
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -185,27 +173,8 @@ for university in IRIS_UNIVERSITIES:
         oci = row["id"]
         citing_omid = row["citing"]
         cited_omid = row["cited"]
-        citing_meta = None
-        cited_meta = None
-
-        if direction == "internal":
-            print(f"   🔄 citing in IRIS ({citing_omid}), cited in IRIS: ({cited_omid})")
-            citing_meta = best_meta_for_omid(meta_df, citing_omid)
-            print(f"      lookup: {citing_meta}")
-            cited_meta = best_meta_for_omid(meta_df, cited_omid)
-            print(f"      lookup: {cited_meta}")
-        elif direction == "outbound":
-            print(f"   ↗️ citing in IRIS ({citing_omid}), cited is external: ({cited_omid})")
-            citing_meta = best_meta_for_omid(meta_df, citing_omid)
-            print(f"      lookup: {citing_meta}")
-            cited_meta = fetch_oc_metadata(cited_omid)
-            print(f"      fetch: {cited_meta}")
-        elif direction == "inbound":
-            print(f"   ↙️ citing is external ({citing_omid}), cited in IRIS: ({cited_omid})")
-            citing_meta = fetch_oc_metadata(citing_omid)
-            print(f"      fetch: {citing_meta}")
-            cited_meta = best_meta_for_omid(meta_df, cited_omid)
-            print(f"      lookup: {cited_meta}")
+        citing_meta = meta_lookup(OC_INDEX_DB, citing_omid)
+        cited_meta = meta_lookup(OC_INDEX_DB, cited_omid)
 
         if citing_meta is None:
             print(f"      ⚠️ skipping: no metadata found for citing OMID {citing_omid}")
@@ -239,3 +208,6 @@ for university in IRIS_UNIVERSITIES:
     final_df = pd.DataFrame(rows)
     final_df.to_csv(output_csv, index=False)
     print(f"   ✅ final CSV written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}\n\n")
+
+# Close the SQLite connection
+OC_INDEX_DB.close()
