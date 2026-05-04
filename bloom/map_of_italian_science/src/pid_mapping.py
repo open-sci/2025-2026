@@ -29,7 +29,7 @@ WRITE_CSV_EVERY = 5000
 # File templates
 INDEX_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.csv"
-MISSING_META_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping_missing_metad.csv"
+MISSING_META_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping_missing_meta.csv"
 OUTPUT_LOG_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.log"
 
 # Universities with IRIS data available to process
