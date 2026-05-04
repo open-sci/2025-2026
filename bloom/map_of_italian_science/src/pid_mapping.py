@@ -24,18 +24,19 @@ if not STORAGE_PATH:
 
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_DIR = ROOT_DIR / "output"
-CACHE_DIR = ROOT_DIR / "cache"
 
 STORAGE_DIR = Path(STORAGE_PATH)
 OC_INDEX_PATH = STORAGE_DIR / "oc_index.sqlite3"
 
-# Universities with IRIS data available
-IRIS_UNIVERSITIES = sorted(path.name for path in DATA_DIR.iterdir() if path.is_dir())
+WRITE_CSV_EVERY = 5000
 
 # File templates
 INDEX_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
 META_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_meta" / "iris_in_oc_meta.csv"
-OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "1a.csv"
+OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.csv"
+
+# Universities with IRIS data available to process
+IRIS_UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
 
 
 # ==============================================================================
@@ -93,13 +94,12 @@ def lookup_oc_metadata(index_db, omid):
 # RUNTIME
 # ==============================================================================
 
-# Connect to the SQLite index database
+# Connect to the SQLite index database and set row factory for dict-like access
 OC_INDEX_DB = sqlite3.connect(OC_INDEX_PATH)
 OC_INDEX_DB.row_factory = sqlite3.Row
 
-# Create output and cache directories if they don't exist
+# Create output directory if it doesn't exist
 OUTPUT_DIR.mkdir(exist_ok=True)
-CACHE_DIR.mkdir(exist_ok=True)
 
 # Iterate over each university
 for university in IRIS_UNIVERSITIES:
@@ -115,7 +115,6 @@ for university in IRIS_UNIVERSITIES:
     index_df = pd.read_csv(index_csv)
     meta_df = pd.read_csv(meta_csv)
 
-    write_every = 5000
     output_csv.parent.mkdir(exist_ok=True)
 
     rows = []
@@ -129,7 +128,7 @@ for university in IRIS_UNIVERSITIES:
         citing_omid = row["citing"]
         cited_omid = row["cited"]
 
-        print(f"  Citing OMID: {citing_omid} -> Cited OMID: {cited_omid}")
+        print(f"  citing OMID: {citing_omid} -> cited OMID: {cited_omid}")
 
         citing_meta = lookup_oc_metadata(OC_INDEX_DB, citing_omid)
         cited_meta = lookup_oc_metadata(OC_INDEX_DB, cited_omid)
@@ -159,7 +158,7 @@ for university in IRIS_UNIVERSITIES:
             }
         )
 
-        if len(rows) % write_every == 0:
+        if len(rows) % WRITE_CSV_EVERY == 0:
             pd.DataFrame(rows).to_csv(output_csv, index=False)
             print(f"\n💾 checkpoint written: {len(rows)} records -> {output_csv.relative_to(ROOT_DIR)}")
 
