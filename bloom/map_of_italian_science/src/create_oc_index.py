@@ -17,7 +17,7 @@ if not STORAGE_PATH:
 
 # Define paths
 STORAGE_DIR = Path(STORAGE_PATH)
-CSV_DIR = STORAGE_DIR / "csv"
+CSV_DIR = STORAGE_DIR / "oc_csv"
 DB_PATH = STORAGE_DIR / "oc_index.sqlite3"
 
 # Regular expression to extract OMID from the "id" field
