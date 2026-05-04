@@ -30,8 +30,8 @@ OPENAIRE_API = "https://api.openaire.eu/graph/v2/researchProducts"
 ROR_API = "https://api.ror.org/v2/organizations/"
 
 # API request configuration
-API_SLEEP_INTERVAL = 0.5
-API_RETRIES = 2
+API_SLEEP_INTERVAL = 0.4
+API_RETRIES = 3
 
 # Metadata fields to consider for scoring completeness
 META_COLS = ["doi", "pmid", "isbn", "pub_date"]
@@ -101,8 +101,8 @@ def cached_get(url, cache_key, headers=None, params=None):
         print("         cache hit:", url)
         return json.loads(cache_file.read_text())
 
-    for _attempt in range(API_RETRIES + 1):
-        time.sleep(API_SLEEP_INTERVAL)
+    for attempt in range(API_RETRIES + 1):
+        time.sleep(API_SLEEP_INTERVAL * (2 ** attempt))  # Exponential backoff
 
         try:
             response = requests.get(url, headers=headers, params=params, timeout=30)
@@ -159,7 +159,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 CACHE_DIR.mkdir(exist_ok=True)
 
 # Iterate over each university
-for university in IRIS_UNIVERSITIES[0:1]:
+for university in IRIS_UNIVERSITIES:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
     meta_csv = Path(str(META_CSV_TEMPLATE).format(university=university))
     output_csv = Path(str(OUTPUT_CSV_TEMPLATE).format(university=university))
