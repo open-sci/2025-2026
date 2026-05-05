@@ -5,32 +5,36 @@ from dotenv import load_dotenv
 import pandas as pd
 
 # ==============================================================================
+# ENVIRONMENT
+# ==============================================================================
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+
+load_dotenv(ROOT_DIR / ".env")
+DATA_PATH = os.environ.get("DATA_PATH")
+
+if not DATA_PATH:
+    raise RuntimeError("Missing DATA_PATH environment variable")
+
+
+# ==============================================================================
 # CONSTANTS AND CONFIGURATION
 # ==============================================================================
 
-# Directories for input/output
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
-# Load ENV variables
-load_dotenv(ROOT_DIR / ".env")
-STORAGE_PATH = os.environ.get("STORAGE_PATH")
-
-if not STORAGE_PATH:
-    raise RuntimeError("Missing STORAGE_PATH environment variable")
-
-DATA_DIR = ROOT_DIR / "data"
+# Paths and directories
 OUTPUT_DIR = ROOT_DIR / "output"
-
-STORAGE_DIR = Path(STORAGE_PATH)
-OC_INDEX_PATH = STORAGE_DIR / "oc_index.sqlite3"
-
-WRITE_CSV_EVERY = 5000
+DATA_DIR = Path(DATA_PATH)
+IRIS_DIR = DATA_DIR / "iris"
+OC_INDEX_PATH = DATA_DIR / "oc_index.sqlite3"
 
 # File templates
-INDEX_CSV_TEMPLATE = DATA_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
-OUTPUT_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.csv"
-MISSING_META_CSV_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping_missing_meta.csv"
+INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
+OUTPUT_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_pids.csv"
+OUTPUT_MISSING_PIDS_TEMPLATE = OUTPUT_DIR / "{university}" / "iris_pids_missing.csv"
 OUTPUT_LOG_TEMPLATE = OUTPUT_DIR / "{university}" / "pid_mapping.log"
+
+# CSV writing configuration
+WRITE_CSV_EVERY = 5000
 
 # Universities with IRIS data available to process
 IRIS_UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
@@ -88,7 +92,7 @@ def lookup_oc_metadata(index_db, omid):
 
 
 def log(message="", file=None):
-    """Log a message to the console and optionally to a file."""
+    """Log a message to stdout and optionally to a file."""
     print(message)
 
     if file is not None:
@@ -110,12 +114,14 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 # Iterate over each university
 for university in IRIS_UNIVERSITIES:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
-    output_csv = Path(str(OUTPUT_CSV_TEMPLATE).format(university=university))
+    output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
     output_log = Path(str(OUTPUT_LOG_TEMPLATE).format(university=university))
-    missing_meta_csv = Path(str(MISSING_META_CSV_TEMPLATE).format(university=university))
+    missing_meta_csv = Path(str(OUTPUT_MISSING_PIDS_TEMPLATE).format(university=university))
 
+    # Create univerity-specific output directory if it doesn't exist
     output_csv.parent.mkdir(exist_ok=True)
 
+    # Skip university if output CSV already exists
     if output_csv.exists():
         print(f"❗️ output CSV already exists for {university}, skipping: {output_csv.relative_to(ROOT_DIR)}")
         continue
