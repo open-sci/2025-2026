@@ -10,15 +10,15 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 
 # Load ENV variables
 load_dotenv(ROOT_DIR / ".env")
-STORAGE_PATH = os.environ.get("STORAGE_PATH")
+DATA_PATH = os.environ.get("DATA_PATH")
 
-if not STORAGE_PATH:
-    raise RuntimeError("Missing STORAGE_PATH environment variable")
+if not DATA_PATH:
+    raise RuntimeError("Missing DATA_PATH environment variable")
 
 # Define paths
-STORAGE_DIR = Path(STORAGE_PATH)
-CSV_DIR = STORAGE_DIR / "oc_csv"
-DB_PATH = STORAGE_DIR / "oc_index.sqlite3"
+DATA_DIR = Path(DATA_PATH)
+CSV_DIR = DATA_DIR / "oc_csv"
+DB_PATH = DATA_DIR / "oc_index.sqlite3"
 
 # Number of rows to insert before committing to SQLite
 COMMIT_EVERY = 50_000
@@ -40,16 +40,8 @@ conn.execute("""
 CREATE TABLE IF NOT EXISTS meta (
   omid TEXT PRIMARY KEY,
   id TEXT NOT NULL,
-  title TEXT,
-  author TEXT,
-  issue TEXT,
-  volume TEXT,
   venue TEXT,
-  page TEXT,
-  pub_date TEXT,
-  type TEXT,
-  publisher TEXT,
-  editor TEXT
+  pub_date TEXT
 ) WITHOUT ROWID
 """)
 
@@ -57,17 +49,9 @@ insert_sql = """
 INSERT OR REPLACE INTO meta (
   omid,
   id,
-  title,
-  author,
-  issue,
-  volume,
   venue,
-  page,
-  pub_date,
-  type,
-  publisher,
-  editor
-) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  pub_date
+) VALUES (?, ?, ?, ?)
 """
 
 # Gather all CSV files
@@ -116,16 +100,8 @@ for index, csv_file in enumerate(csv_files, start=1):
                 (
                     omid,
                     row.get("id"),
-                    row.get("title"),
-                    row.get("author"),
-                    row.get("issue"),
-                    row.get("volume"),
                     row.get("venue"),
-                    row.get("page"),
                     row.get("pub_date"),
-                    row.get("type"),
-                    row.get("publisher"),
-                    row.get("editor"),
                 )
             )
 
@@ -158,9 +134,6 @@ if batch:
 
     total_committed += len(batch)
     batch.clear()
-
-# print("Running ANALYZE")
-# conn.execute("ANALYZE")
 
 # Close the connection to SQLite
 conn.close()
