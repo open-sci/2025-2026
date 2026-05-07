@@ -148,11 +148,11 @@ This space contains all the material related to the [Open Science course](https:
      * Elliott, S., & Sterner, B. (2025). How Open Science organizations generate epistemic oppression. European Journal for Philosophy of Science, 15(3), 47. https://doi.org/10.1007/s13194-025-00674-0
    * Theoretical part: [slide](https://docs.google.com/presentation/d/1Dh2Uv7g0DydXabvS6FP2QOYx1I1s7TsvmXsfPVRXXgc/edit?usp=sharing)
    * Supplementary bibliography (optional):
-     * Bilder, G., Lin, J., & Neylon, C. (2023, November). The Principles of Open Scholarly Infrastructure. The Principles of Open Scholarly Infrastructure. https://doi.org/10.24343/C34W2H
      * EOSC Association. (2025). EOSC Federation Handbook (Handbook Version 1). EOSC Association. https://doi.org/10.5281/zenodo.14999577
      * Ficarra, V., Fosci, M., Chiarelli, A., Kramer, B., & Proudman, V. (2020). Scoping the Open Science Infrastructure Landscape in Europe. SPARC Europe. https://doi.org/10.5281/zenodo.4159838
      * Janssen, R., Gramsbergen, E., de Smaele, M., Teperek, M., & Popescu, I. (2023, January 30). We are going free and open source! [Blog]. 4TU.ResearchData Community. https://community.data.4tu.nl/2023/01/30/we-are-going-free-and-open-source/
      * Kramer, B., & Bosman, J. (2015, June 18). The good, the efficient and the open—Changing research workflows and the need to move from Open Access to Open Science. CERN Workshop on Innovations in Scholarly Communication (OAI9), University of Geneva, Geneva, Switzerland. https://www.slideshare.net/bmkramer/the-good-the-efficient-and-the-open-oai9
+     * POSI Adopters. (2025). The Principles of Open Scholarly Infrastructure (Guidelines V2.0). POSI Adopters. https://doi.org/10.14454/g8wv-vm65 
      * Teal, T., Lowenberg, D., Smith, T., Gonzales, J. B., Nielsen, L. H., & Ioannidis, A. (2020, August 26). Sustainable, Open Source Alternatives Exist [Blog]. Dryad News and Views. https://blog.datadryad.org/2020/08/26/sustainable-infrastructure-exists/
      * Teperek, M., & Dunning, A. (2020, August 18). Why figshare? Choosing a new technical infrastructure for 4TU.ResearchData [Blog]. Open Working. https://openworking.wordpress.com/2020/08/18/why-figshare-choosing-a-new-technical-infrastructure-for-4tu-researchdata/
    <hr></hr>
