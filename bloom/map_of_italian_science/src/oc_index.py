@@ -4,6 +4,7 @@ import os
 import json
 import time
 import sqlite3
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
@@ -31,10 +32,10 @@ if not DATA_PATH:
 DATA_DIR = Path(DATA_PATH)
 CSV_DIR = DATA_DIR / "oc_csv"
 DB_PATH = DATA_DIR / "oc_index.sqlite3"
-METADATA_PATH = DATA_DIR / "metadata.json"
+METADATA_PATH = DATA_DIR / "oc_index.metadata.json"
 
 # Number of rows to insert before committing to SQLite
-COMMIT_EVERY = 50_000
+COMMIT_EVERY = 20_000
 
 # Regular expression to extract OMID from the "id" field
 OMID_RE = re.compile(r"\bomid:[^\s\]]+")
@@ -85,6 +86,9 @@ started_at = time.monotonic()
 csv_files = sorted(CSV_DIR.glob("*.csv"))
 total_files = len(csv_files)
 
+# Increase CSV field size limit to handle large fields
+csv.field_size_limit(sys.maxsize)
+
 # Initialize counters
 batch = []
 total_rows = 0
@@ -92,7 +96,7 @@ total_committed = 0
 skipped_without_omid = 0
 
 print(f"Found {total_files:,} CSV files")
-print(f"Writing SQLite index to {DB_PATH.relative_to(ROOT_DIR)}")
+print(f"Writing SQLite index to {DB_PATH.relative_to(DATA_DIR)}")
 
 # Process each CSV file and insert rows into SQLite
 for index, csv_file in enumerate(csv_files, start=1):
@@ -195,4 +199,4 @@ print(f"Rows committed: {total_committed:,}")
 print(f"Rows skipped without OMID: {skipped_without_omid:,}")
 print(f"SQLite DB size: {metadata['sqlite_file_size_gb']} GB")
 print(f"Elapsed time: {elapsed_seconds:,} seconds")
-print(f"Summary written to: {METADATA_PATH.relative_to(ROOT_DIR)}")
+print(f"Summary written to: {METADATA_PATH.relative_to(DATA_DIR)}")
