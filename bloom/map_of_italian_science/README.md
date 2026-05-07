@@ -9,13 +9,13 @@ pip install -r requirements.txt
 ```
 
 2. Prepare a storage location with enough space (~150GB) it and set the
-`STORAGE_PATH` variable in the `.env` file to point to it:
+`DATA_PATH` variable in the `.env` file to point to it:
 
 ```bash
-echo "STORAGE_PATH=/path/to/your/storage" > .env
+echo "DATA_PATH=/path/to/your/storage" > .env
 ```
 
-3. Download and extract the IRIS dataset from Zenodo:
+3. In your data folder, download and extract the IRIS dataset from Zenodo:
 
 ```bash
 curl -L -o iris.zip "https://zenodo.org/records/18202530/files/data.zip?download=1"
@@ -23,7 +23,7 @@ unzip iris.zip -d iris
 rm iris.zip
 ```
 
-4. Download the OpenCitations Meta CSV dump from Zenodo:
+4. In your data folder, download the OpenCitations Meta CSV dump from Zenodo:
 
 ```bash
 curl -L -o oc_csv.tar.gz "https://zenodo.org/records/18324537/files/output_csv_2026_01_14.tar.gz?download=1"

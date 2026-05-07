@@ -1,0 +1,17 @@
+{
+  "university": "SNS",
+  "elapsed_seconds": 262.0,
+  "ended_at": "2026-05-06T19:15:50.103406+00:00",
+  "input_csv": "data/iris/SNS/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/SNS/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/SNS/iris_pids.missing.csv",
+  "rows_read": 931354,
+  "rows_processed": 923963,
+  "rows_missing_metadata": 7391,
+  "sqlite_lookup_count": 1862708,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 155901362,
+  "output_csv_size_mb": 148.68,
+  "missing_pids_csv_size_bytes": 616451,
+  "missing_pids_csv_size_mb": 0.59
+}

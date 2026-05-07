@@ -1,0 +1,17 @@
+{
+  "university": "UNIMI",
+  "elapsed_seconds": 5487.96,
+  "ended_at": "2026-05-06T20:50:18.496285+00:00",
+  "input_csv": "data/iris/UNIMI/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIMI/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIMI/iris_pids.missing.csv",
+  "rows_read": 12470167,
+  "rows_processed": 12190001,
+  "rows_missing_metadata": 280166,
+  "sqlite_lookup_count": 24940334,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 2150687708,
+  "output_csv_size_mb": 2051.06,
+  "missing_pids_csv_size_bytes": 23489092,
+  "missing_pids_csv_size_mb": 22.4
+}

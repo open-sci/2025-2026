@@ -1,0 +1,17 @@
+{
+  "university": "UNIBO",
+  "elapsed_seconds": 4561.7,
+  "ended_at": "2026-05-06T20:31:51.834260+00:00",
+  "input_csv": "data/iris/UNIBO/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIBO/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIBO/iris_pids.missing.csv",
+  "rows_read": 9992645,
+  "rows_processed": 9834395,
+  "rows_missing_metadata": 158250,
+  "sqlite_lookup_count": 19985290,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 1698471013,
+  "output_csv_size_mb": 1619.79,
+  "missing_pids_csv_size_bytes": 13263028,
+  "missing_pids_csv_size_mb": 12.65
+}

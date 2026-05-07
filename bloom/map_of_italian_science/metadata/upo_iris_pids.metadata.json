@@ -1,0 +1,17 @@
+{
+  "university": "UPO",
+  "elapsed_seconds": 615.07,
+  "ended_at": "2026-05-06T20:55:36.542543+00:00",
+  "input_csv": "data/iris/UPO/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UPO/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UPO/iris_pids.missing.csv",
+  "rows_read": 1596018,
+  "rows_processed": 1565718,
+  "rows_missing_metadata": 30300,
+  "sqlite_lookup_count": 3192036,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 274843364,
+  "output_csv_size_mb": 262.11,
+  "missing_pids_csv_size_bytes": 2541904,
+  "missing_pids_csv_size_mb": 2.42
+}

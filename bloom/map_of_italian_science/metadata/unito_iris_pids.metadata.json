@@ -1,0 +1,17 @@
+{
+  "university": "UNITO",
+  "elapsed_seconds": 2478.76,
+  "ended_at": "2026-05-06T21:13:10.616139+00:00",
+  "input_csv": "data/iris/UNITO/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNITO/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNITO/iris_pids.missing.csv",
+  "rows_read": 6977099,
+  "rows_processed": 6839419,
+  "rows_missing_metadata": 137680,
+  "sqlite_lookup_count": 13954198,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 1195883688,
+  "output_csv_size_mb": 1140.48,
+  "missing_pids_csv_size_bytes": 11553942,
+  "missing_pids_csv_size_mb": 11.02
+}

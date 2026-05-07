@@ -1,0 +1,17 @@
+{
+  "university": "UNIPD",
+  "elapsed_seconds": 4411.42,
+  "ended_at": "2026-05-06T20:45:21.473594+00:00",
+  "input_csv": "data/iris/UNIPD/iris_in_oc_index/iris_in_oc_index.csv",
+  "output_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIPD/iris_pids.csv",
+  "missing_pids_csv": "/Volumes/RELIQUARY/Projects/open-sci-1a/output/UNIPD/iris_pids.missing.csv",
+  "rows_read": 10247005,
+  "rows_processed": 10074834,
+  "rows_missing_metadata": 172171,
+  "sqlite_lookup_count": 20494010,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 1745724666,
+  "output_csv_size_mb": 1664.85,
+  "missing_pids_csv_size_bytes": 14444692,
+  "missing_pids_csv_size_mb": 13.78
+}
