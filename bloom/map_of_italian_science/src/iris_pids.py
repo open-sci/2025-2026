@@ -165,22 +165,27 @@ for university in IRIS_UNIVERSITIES:
     rows_missing_metadata = 0
     lookup_count = 0
 
+    # Start processing each row in the index DataFrame
     for index, row in index_df.iterrows():
         rows_read += 1
-        direction = citation_direction(row)
 
+        # Determine citation direction for the current row
+        direction = citation_direction(row)
         print(f"\n{index + 1}/{len(index_df)} Processing {row['id']} with direction: {direction}")
 
+        # Extract OMIDs for citing and cited works
         oci = row["id"]
         citing_omid = row["citing"]
         cited_omid = row["cited"]
 
         print(f"  citing OMID: {citing_omid} -> cited OMID: {cited_omid}")
 
+        # Lookup metadata for both citing and cited OMIDs in the index database
         citing_meta = lookup_oc_metadata(OC_INDEX_DB, citing_omid)
         cited_meta = lookup_oc_metadata(OC_INDEX_DB, cited_omid)
         lookup_count += 2
 
+        # Check if metadata is missing for citing/cited OMID
         if citing_meta is None or cited_meta is None:
             missing_side = []
 
@@ -192,6 +197,7 @@ for university in IRIS_UNIVERSITIES:
                 missing_side.append("cited")
                 print(f"        ⚠️ missing metadata for cited OMID {cited_omid}")
 
+            # Record the missing metadata information for this row
             missing_rows.append(
                 {
                     "oci": oci,
@@ -205,6 +211,7 @@ for university in IRIS_UNIVERSITIES:
             rows_missing_metadata += 1
             continue
 
+        # If metadata is found for citing and cited OMIDs, build the row for output CSV
         processed_rows.append(
             {
                 "oci": row["id"],
@@ -224,18 +231,22 @@ for university in IRIS_UNIVERSITIES:
 
         rows_processed += 1
 
+        # Periodically write processed rows to the output CSV clearing the buffer
         if len(processed_rows) % WRITE_CSV_EVERY == 0:
             append_rows(output_csv, processed_rows)
             processed_rows.clear()
 
+    # Write any remaining processed rows and missing metadata rows to their respective CSV files
     append_rows(output_csv, processed_rows)
     append_rows(missing_pids_csv, missing_rows)
 
+    # Record end time and calculate elapsed time
     ended_at = datetime.now(timezone.utc)
     elapsed_seconds = round(time.monotonic() - started_at, 2)
     output_size_bytes = output_csv.stat().st_size if output_csv.exists() else 0
     missing_output_size_bytes = missing_pids_csv.stat().st_size if missing_pids_csv.exists() else 0
 
+    # Compile metadata about the processing run
     metadata = {
         "university": university,
         "elapsed_seconds": elapsed_seconds,
