@@ -6,11 +6,11 @@ import pandas as pd
 
 # Update paths if needed
 
-MATCHED_FILE = r"D:\Downloads\Open Science\data\UNITO\disciplinary_map_matched.csv"
+MATCHED_FILE = "SNS/disciplinary_map_matched.csv"
 
-NO_MATCH_FILE = r"D:\Downloads\Open Science\data\UNITO\disciplinary_map_no_match.csv"
+NO_MATCH_FILE = "SNS/disciplinary_map_no_match.csv"
 
-NO_ISSN_FILE = r"D:\Downloads\Open Science\data\UNITO\disciplinary_map_no_issn.csv"
+NO_ISSN_FILE = "SNS/disciplinary_map_no_issn.csv"
 
 # ==================================================
 # READ CSV FILES
@@ -51,20 +51,22 @@ no_issn_sample = no_issn_df.sample(
 # SAVE TO EXCEL
 # ==================================================
 
-print("Saving Excel files...")
+# Update paths if needed
 
-matched_sample.to_excel(
-    "disciplinary_map_sample_output.xlsx",
+print("Saving csv files...")
+
+matched_sample.to_csv(
+    "SNS/sample_data/disciplinary_map_sample_output.csv",
     index=False
 )
 
-unmatched_sample.to_excel(
-    "disciplinary_map_nomatch_sample_output.xlsx",
+unmatched_sample.to_csv(
+    "SNS/sample_data/disciplinary_map_nomatch_sample_output.csv",
     index=False
 )
 
-no_issn_sample.to_excel(
-    "disciplinary_map_noissn_sample_output.xlsx",
+no_issn_sample.to_csv(
+    "SNS/sample_data/disciplinary_map_noissn_sample_output.csv",
     index=False
 )
 
@@ -86,10 +88,10 @@ print(f"No ISSN Sample Size: {len(no_issn_sample)}")
 
 print("\nFiles created:")
 
-print("- disciplinary_map_sample_output.xlsx")
+print("- disciplinary_map_sample_output.csv")
 
-print("- disciplinary_map_nomatch_sample_output.xlsx")
+print("- disciplinary_map_nomatch_sample_output.csv")
 
-print("- disciplinary_map_noissn_sample_output.xlsx")
+print("- disciplinary_map_noissn_sample_output.csv")
 
 print("=" * 50)
