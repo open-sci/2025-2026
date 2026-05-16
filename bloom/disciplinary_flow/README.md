@@ -11,3 +11,4 @@
 * For each institution file, run the script/PID_subject_match.py with the iris_oc_venues_matched.csv (update the paths in the CONFIGURATION block at the top)
 * Run the script/disciplinary_map_sample_output.py with the disciplinary_map_matched.csv (update the path) to obtain a sample data set in .xlsx format.
 ## Step 3: Use LOC classifications to align and standardise subjects across all iris_oc resources
+## Step 4: Select charts and visualise the data
