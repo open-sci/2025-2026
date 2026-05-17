@@ -14,7 +14,7 @@
 * Run the script/disciplinary_map_sample_output.py with the disciplinary_map_matched.csv (update the path) to obtain a sample data set in .csv format.
 
 ## Step 3: Use LOC classifications to align and standardise subjects across all iris_oc resources
-* For each institution file, run the [`script/add_loc_cat.py`](script/add_loc_cat.py) with the [`categories/merged_loc_scopus.json`](categories/merged_loc_scopus.json) (update the `CSV_PATH` and `JSON_PATH` at the beginning of the script).
+* For each institution file, run the [`scripts/add_loc_cat.py`](scripts/add_loc_cat.py) with the [`categories/merged_loc_scopus.json`](categories/merged_loc_scopus.json) (update the `CSV_PATH` and `JSON_PATH` at the beginning of the script).
 * Two output files are expected: output_cat.csv and miss_loc.csv 
 ## Step 4: Select charts and visualise the data
 ...
