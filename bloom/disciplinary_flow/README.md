@@ -17,10 +17,11 @@
 * For each institution file, run the [`scripts/add_loc_cat.py`](scripts/add_loc_cat.py) with the [`categories/merged_loc_scopus.json`](categories/merged_loc_scopus.json) (update the `CSV_PATH` and `JSON_PATH` at the beginning of the script).
 * Two output files are expected: output_cat.csv and miss_loc.csv 
 
-## Step 4: Aggregate data and push two files to 2025-2026/1b
-* For each institution file, run the [`scripts/aggregate.py`](scripts/aggregate.py) with the output_cat.csv (update the path of `INPUT` and `OUTPUT` at the beginning of the script).
-* Copy the report text and paste to the end of unipd_summary.txt(includes all 4 steps' summarys)
-* Push `OUTPUT`(uni_agg_output.csv) and `unipd_summary.txt` to github repository
+## Step 4: Aggregate data and push results to 2025-2026/1b
+* For each institution file, run the [`scripts/aggregate_v2.py`](scripts/aggregate_v2.py) with the output_cat.csv (update the path of `INPUT` and `OUTPUT` at the beginning of the script).
+* The script will generate a summary report in the terminal about detailed count for citation actions.
+* Copy this complete report text and paste it to the end of `uni_summary.txt`.
+* Push the aggregated CSV file (`uni_agg_output.csv`) and the updated `uni_summary.txt` to the [`step4_output`](categories/step4_output) folder.
   
 ## Step 5: Select charts and visualise the data
 ...
