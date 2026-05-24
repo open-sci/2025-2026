@@ -41,7 +41,7 @@ Done.
 4 Aggregation
 ============================================================
 
-Total input: 7,510,091 rows.
-Invalid data: 0.00% 0 rows
-Usable data: 100.00% 7,510,091 rows
-total citation actions: 19,386,133 actions.
+In all 19,386,133 citations, there are:
+8,518,694 incoming citations (43.94%)
+9,899,590 outgoing citations (51.07%)
+967,849 internal citations (4.99%).
