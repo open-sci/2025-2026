@@ -92,5 +92,3 @@ venv.bak/
 # ===== PROJECT =====================
 private/
 bloom/map_of_italian_science/data/
-bloom/map_of_italian_science/cache/
-bloom/map_of_italian_science/output/
