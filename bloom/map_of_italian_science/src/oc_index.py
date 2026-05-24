@@ -30,9 +30,12 @@ if not DATA_PATH:
 
 # Define paths
 DATA_DIR = Path(DATA_PATH)
-CSV_DIR = DATA_DIR / "oc_csv"
-DB_PATH = DATA_DIR / "oc_index.sqlite3"
-METADATA_PATH = DATA_DIR / "oc_index.metadata.json"
+DUMPS_DIR = DATA_DIR / "dumps"
+CSV_DIR = DUMPS_DIR / "oc_csv"
+
+OUTPUT_DIR = DATA_DIR / "oc_index"
+DB_PATH = OUTPUT_DIR / "oc_index.sqlite3"
+METADATA_PATH = OUTPUT_DIR / "oc_index.metadata.json"
 
 # Number of rows to insert before committing to SQLite
 COMMIT_EVERY = 20_000
@@ -55,7 +58,14 @@ INSERT OR REPLACE INTO meta (
 # DATABASE CONNECTION AND SETUP
 # ==============================================================================
 
-# Connect to SQLite
+# Ensure the directory for the SQLite database exists
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+# Don't overwrite existing database
+if DB_PATH.exists():
+    raise RuntimeError(f"! database file already exists at {DB_PATH.relative_to(DATA_DIR)}")
+
+# Create new SQLite database and connect to it
 OC_INDEX_DB = sqlite3.connect(DB_PATH)
 
 # Set PRAGMA for performance
@@ -85,6 +95,10 @@ started_at = time.monotonic()
 # Gather all CSV files
 csv_files = sorted(CSV_DIR.glob("*.csv"))
 total_files = len(csv_files)
+
+# Error out if no CSV files are found
+if total_files == 0:
+    raise RuntimeError(f"No CSV files found in {CSV_DIR.relative_to(DATA_DIR)}")
 
 # Increase CSV field size limit to handle large fields
 csv.field_size_limit(sys.maxsize)

@@ -1,3 +1,2 @@
 pandas
 python-dotenv
-requests
