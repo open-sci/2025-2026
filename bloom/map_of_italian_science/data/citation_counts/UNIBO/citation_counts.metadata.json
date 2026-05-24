@@ -1,0 +1,13 @@
+{
+  "university": "UNIBO",
+  "ended_at": "2026-05-23T21:55:45.028985+00:00",
+  "rows_read": 9834395,
+  "unique_organizations_inbound": 91038,
+  "unique_organizations_outbound": 79788,
+  "unique_countries_inbound": 252,
+  "unique_countries_outbound": 250,
+  "output_org_inbound_csv_size_bytes": 9817290,
+  "output_org_outbound_csv_size_bytes": 8652394,
+  "output_country_inbound_csv_size_bytes": 5056,
+  "output_country_outbound_csv_size_bytes": 4969
+}

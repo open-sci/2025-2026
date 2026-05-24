@@ -1,0 +1,13 @@
+{
+  "university": "SNS",
+  "ended_at": "2026-05-23T21:55:44.691054+00:00",
+  "rows_read": 923963,
+  "unique_organizations_inbound": 35318,
+  "unique_organizations_outbound": 26698,
+  "unique_countries_inbound": 213,
+  "unique_countries_outbound": 201,
+  "output_org_inbound_csv_size_bytes": 3815420,
+  "output_org_outbound_csv_size_bytes": 2872174,
+  "output_country_inbound_csv_size_bytes": 3953,
+  "output_country_outbound_csv_size_bytes": 3639
+}

@@ -1,0 +1,214 @@
+country_name,country_code,count
+United States,US,1823195
+France,FR,960714
+Italy,IT,811431
+United Kingdom,GB,410977
+China,CN,346554
+Germany,DE,340511
+Spain,ES,237051
+Russia,RU,233604
+,,197242
+Japan,JP,189694
+India,IN,180309
+South Korea,KR,140130
+Switzerland,CH,130121
+Türkiye,TR,120237
+Brazil,BR,110066
+Canada,CA,103844
+China (People's Republic of),CN,102109
+Poland,PL,100674
+The Netherlands,NL,94018
+Finland,FI,77284
+Belgium,BE,75803
+Hungary,HU,72466
+Taiwan,TW,64871
+Australia,AU,64529
+Greece,GR,60715
+Denmark,DK,58276
+Mexico,MX,50967
+Austria,AT,40912
+Portugal,PT,37385
+Czechia,CZ,35268
+Sweden,SE,33536
+Croatia,HR,30943
+Colombia,CO,26443
+Iran,IR,26324
+Bulgaria,BG,25852
+Chile,CL,25049
+Slovakia,SK,24141
+Norway,NO,23700
+Israel,IL,22987
+Pakistan,PK,22056
+Argentina,AR,20247
+Ukraine,UA,20194
+New Zealand,NZ,18833
+Belarus,BY,17938
+South Africa,ZA,16586
+Ireland,IE,16471
+Romania,RO,16374
+Georgia,GE,16202
+Serbia,RS,16041
+Egypt,EG,15899
+Slovenia,SI,13935
+Cyprus,CY,13248
+Hong Kong,HK,12757
+Puerto Rico,PR,11519
+Malaysia,MY,10876
+Estonia,EE,10081
+Armenia,AM,9980
+Morocco,MA,9968
+Netherlands,NL,9351
+Thailand,TH,8698
+Lithuania,LT,8399
+Singapore,SG,7709
+Ecuador,EC,7030
+Azerbaijan,AZ,6925
+Saudi Arabia,SA,6060
+Turkey,TR,5907
+Vietnam,VN,4694
+Russian Federation,RU,3909
+Korea (Republic of),KR,3684
+Uzbekistan,UZ,3114
+Sri Lanka,LK,2843
+United Arab Emirates,AE,2444
+Mongolia,MN,1959
+Latvia,LV,1871
+Qatar,QA,1650
+Philippines,PH,1598
+Indonesia,ID,1528
+Czech Republic,CZ,1470
+Kazakhstan,KZ,1345
+Peru,PE,1084
+Jordan,JO,1043
+Montenegro,ME,940
+Algeria,DZ,917
+Tunisia,TN,904
+Cuba,CU,831
+Ghana,GH,814
+Tanzania,TZ,814
+Iceland,IS,791
+Nigeria,NG,756
+Bangladesh,BD,751
+Guatemala,GT,667
+Zimbabwe,ZW,523
+Uruguay,UY,522
+Kuwait,KW,492
+Bahrain,BH,475
+Luxembourg,LU,473
+Iraq,IQ,441
+Iran (Islamic Republic of),IR,427
+Monaco,MC,419
+Malta,MT,379
+Ethiopia,ET,378
+Lebanon,LB,376
+Bosnia and Herzegovina,BA,287
+Cameroon,CM,258
+Uganda,UG,256
+Macao,MO,249
+Costa Rica,CR,245
+Oman,OM,215
+Venezuela,VE,214
+Palestine,PS,204
+Moldova,MD,169
+Mozambique,MZ,152
+Yemen,YE,148
+Nepal,NP,114
+Tajikistan,TJ,109
+Kenya,KE,107
+Viet Nam,VN,92
+Rwanda,RW,89
+Honduras,HN,88
+Cambodia,KH,84
+North Macedonia,MK,82
+Benin,BJ,66
+Sudan,SD,65
+Bhutan,BT,60
+Bolivia,BO,60
+Senegal,SN,58
+Nicaragua,NI,56
+Madagascar,MG,49
+Réunion,RE,49
+Brunei,BN,48
+Namibia,NA,44
+Jamaica,JM,43
+Paraguay,PY,43
+St Kitts and Nevis,KN,39
+Mauritius,MU,39
+Guadeloupe,GP,38
+Albania,AL,37
+Libya,LY,36
+U.S. Virgin Islands,VI,33
+Zambia,ZM,31
+Burundi,BI,29
+Maldives,MV,29
+Syria,SY,26
+Panama,PA,26
+Angola,AO,26
+Botswana,BW,22
+New Caledonia,NC,21
+Burkina Faso,BF,20
+Myanmar,MM,19
+Trinidad and Tobago,TT,18
+DR Congo,CD,18
+North Korea,KP,17
+Ivory Coast,CI,16
+Mauritania,MR,16
+Antigua and Barbuda,AG,15
+French Polynesia,PF,14
+Malawi,MW,12
+Tanzania (United Republic of),TZ,12
+El Salvador,SV,10
+Afghanistan,AF,10
+American Samoa,AS,10
+Barbados,BB,9
+Somalia,SO,9
+Mali,ML,9
+Liechtenstein,LI,8
+Guam,GU,8
+Kosovo,XK,8
+Kyrgyzstan,KG,8
+French Guiana,GF,8
+Bermuda,BM,7
+Fiji,FJ,6
+Dominican Republic,DO,6
+Belize,BZ,6
+Gabon,GA,6
+Laos,LA,5
+Papua New Guinea,PG,5
+Togo,TG,5
+Suriname,SR,5
+Seychelles,SC,4
+Lesotho,LS,4
+Grenada,GD,4
+Guyana,GY,4
+Cote d'Ivoire,CI,4
+Eswatini,SZ,3
+Haiti,HT,3
+Sierra Leone,SL,3
+Djibouti,DJ,3
+United States Minor Outlying Islands,UM,3
+Niger,NE,3
+Central African Republic,CF,3
+European Union,EU,3
+The Gambia,GM,3
+Bahamas,BS,2
+Turkmenistan,TM,2
+Congo Republic,CG,2
+Sint Maarten,SX,2
+Palestinian-administered areas,PS,2
+Tonga,TO,1
+Falkland Islands,FK,1
+British Virgin Islands,VG,1
+Guinea,GN,1
+Svalbard and Jan Mayen,SJ,1
+Cayman Islands,KY,1
+Lao (People's Democratic Republic),LA,1
+San Marino,SM,1
+Cabo Verde,CV,1
+Chad,TD,1
+Greenland,GL,1
+Moldova (Republic of),MD,1
+Curaçao,CW,1
+Gibraltar,GI,1
+Guinea-Bissau,GW,1
+Syrian Arab Republic,SY,1

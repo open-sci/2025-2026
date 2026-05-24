@@ -1,0 +1,13 @@
+{
+  "university": "UPO",
+  "ended_at": "2026-05-23T21:55:46.190967+00:00",
+  "rows_read": 1565718,
+  "unique_organizations_inbound": 53143,
+  "unique_organizations_outbound": 47423,
+  "unique_countries_inbound": 234,
+  "unique_countries_outbound": 227,
+  "output_org_inbound_csv_size_bytes": 5791597,
+  "output_org_outbound_csv_size_bytes": 5177897,
+  "output_country_inbound_csv_size_bytes": 4488,
+  "output_country_outbound_csv_size_bytes": 4289
+}

@@ -1,0 +1,13 @@
+{
+  "university": "UNITO",
+  "ended_at": "2026-05-23T21:55:45.998754+00:00",
+  "rows_read": 6839419,
+  "unique_organizations_inbound": 81598,
+  "unique_organizations_outbound": 72305,
+  "unique_countries_inbound": 250,
+  "unique_countries_outbound": 243,
+  "output_org_inbound_csv_size_bytes": 8830373,
+  "output_org_outbound_csv_size_bytes": 7858442,
+  "output_country_inbound_csv_size_bytes": 4952,
+  "output_country_outbound_csv_size_bytes": 4782
+}
