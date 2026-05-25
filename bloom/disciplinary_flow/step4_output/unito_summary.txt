@@ -1,0 +1,47 @@
+============================================================
+1 SUMMARY - Row Count Comparison
+============================================================
+
+Original iris_oc_index rows:      6977099
+Matched rows (with venues):       6678619 (95.72%)
+No-match rows (no venues):        298480 (4.28%)
+Total identified in tarfile:      6977099 (100.00%)
+Skipped/Not found:                0 (0.00%)
+
+============================================================
+2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
+============================================================
+Initial Records: 6678619
+
+Records With ISSNs On Both Sides: 6299206
+Records Without ISSNs: 379413
+
+Matched Records: 6264490
+Unmatched Records: 34716
+
+Verification: No duplicates created during mapping.
+
+Citing Match Rate (SCImago): 94.43%
+Citing Match Rate (DOAJ): 27.71%
+
+Cited Match Rate (SCImago): 94.68%
+Cited Match Rate (DOAJ): 17.40%
+
+============================================================
+3 ADD LOC CATEGORY COMPLETE
+============================================================
+JSON index built: 7 area labels, 175 category labels
+CSV loaded: 6264490 rows
+
+Done.
+  output_cat.csv : 5235784 rows (83.6%) — both sides resolved
+  miss_loc.csv   : 1028706 rows (16.4%) — at least one side missing
+
+============================================================
+4 Aggregation
+============================================================
+
+In all 14,163,283 citations, there are:
+6,282,552 incoming citations (44.36%)
+7,267,993 outgoing citations (51.32%)
+612,738 internal citations (4.33%).
