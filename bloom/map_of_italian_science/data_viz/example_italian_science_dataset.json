@@ -1,0 +1,242 @@
+{
+  "omid:br/06000000001": {
+    "pids": ["doi:10.1145/example.2026.001"],
+    "organizations": ["Stanford University", "University of Bologna"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000002": {
+    "pids": ["doi:10.1145/example.2026.002"],
+    "organizations": ["University of Oxford", "University of Milan"],
+    "countries": ["United Kingdom", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000003": {
+    "pids": ["doi:10.1145/example.2026.003"],
+    "organizations": ["Sorbonne University", "University of Turin"],
+    "countries": ["France", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000004": {
+    "pids": ["doi:10.1145/example.2026.004"],
+    "organizations": ["ETH Zurich", "University of Padua"],
+    "countries": ["Switzerland", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000005": {
+    "pids": ["doi:10.1145/example.2026.005"],
+    "organizations": ["Massachusetts Institute of Technology", "University of Bologna"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000006": {
+    "pids": ["doi:10.1145/example.2026.006"],
+    "organizations": ["Harvard University", "University of Milan"],
+    "countries": ["United States", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000007": {
+    "pids": ["doi:10.1145/example.2026.007"],
+    "organizations": ["University of Tokyo", "University of Turin"],
+    "countries": ["Japan", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000008": {
+    "pids": ["doi:10.1145/example.2026.008"],
+    "organizations": ["Technical University of Munich", "University of Padua"],
+    "countries": ["Germany", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000009": {
+    "pids": ["doi:10.1145/example.2026.009"],
+    "organizations": ["University of Amsterdam", "University of Bologna"],
+    "countries": ["Netherlands", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000010": {
+    "pids": ["doi:10.1145/example.2026.010"],
+    "organizations": ["National University of Singapore", "University of Milan"],
+    "countries": ["Singapore", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000011": {
+    "pids": ["doi:10.1145/example.2026.011"],
+    "organizations": ["Princeton University", "University of Turin"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000012": {
+    "pids": ["doi:10.1145/example.2026.012"],
+    "organizations": ["KU Leuven", "University of Padua"],
+    "countries": ["Belgium", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000013": {
+    "pids": ["doi:10.1145/example.2026.013"],
+    "organizations": ["University of California Berkeley", "University of Bologna"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000014": {
+    "pids": ["doi:10.1145/example.2026.014"],
+    "organizations": ["Heidelberg University", "University of Milan"],
+    "countries": ["Germany", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000015": {
+    "pids": ["doi:10.1145/example.2026.015"],
+    "organizations": ["McGill University", "University of Turin"],
+    "countries": ["Canada", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000016": {
+    "pids": ["doi:10.1145/example.2026.016"],
+    "organizations": ["University of Sydney", "University of Padua"],
+    "countries": ["Australia", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000017": {
+    "pids": ["doi:10.1145/example.2026.017"],
+    "organizations": ["Imperial College London", "University of Bologna"],
+    "countries": ["United Kingdom", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000018": {
+    "pids": ["doi:10.1145/example.2026.018"],
+    "organizations": ["University of Copenhagen", "University of Milan"],
+    "countries": ["Denmark", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000019": {
+    "pids": ["doi:10.1145/example.2026.019"],
+    "organizations": ["Seoul National University", "University of Turin"],
+    "countries": ["South Korea", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000020": {
+    "pids": ["doi:10.1145/example.2026.020"],
+    "organizations": ["University of Helsinki", "University of Padua"],
+    "countries": ["Finland", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000021": {
+    "pids": ["doi:10.1145/example.2026.021"],
+    "organizations": ["Stanford University", "University of Milan"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000022": {
+    "pids": ["doi:10.1145/example.2026.022"],
+    "organizations": ["University of Oxford", "University of Bologna"],
+    "countries": ["United Kingdom", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000023": {
+    "pids": ["doi:10.1145/example.2026.023"],
+    "organizations": ["Sorbonne University", "University of Padua"],
+    "countries": ["France", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000024": {
+    "pids": ["doi:10.1145/example.2026.024"],
+    "organizations": ["ETH Zurich", "University of Turin"],
+    "countries": ["Switzerland", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000025": {
+    "pids": ["doi:10.1145/example.2026.025"],
+    "organizations": ["Massachusetts Institute of Technology", "University of Bologna"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000026": {
+    "pids": ["doi:10.1145/example.2026.026"],
+    "organizations": ["Harvard University", "University of Milan"],
+    "countries": ["United States", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000027": {
+    "pids": ["doi:10.1145/example.2026.027"],
+    "organizations": ["University of Tokyo", "University of Padua"],
+    "countries": ["Japan", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000028": {
+    "pids": ["doi:10.1145/example.2026.028"],
+    "organizations": ["Technical University of Munich", "University of Turin"],
+    "countries": ["Germany", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000029": {
+    "pids": ["doi:10.1145/example.2026.029"],
+    "organizations": ["University of Amsterdam", "University of Bologna"],
+    "countries": ["Netherlands", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000030": {
+    "pids": ["doi:10.1145/example.2026.030"],
+    "organizations": ["National University of Singapore", "University of Milan"],
+    "countries": ["Singapore", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000031": {
+    "pids": ["doi:10.1145/example.2026.031"],
+    "organizations": ["Princeton University", "University of Padua"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000032": {
+    "pids": ["doi:10.1145/example.2026.032"],
+    "organizations": ["KU Leuven", "University of Turin"],
+    "countries": ["Belgium", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000033": {
+    "pids": ["doi:10.1145/example.2026.033"],
+    "organizations": ["University of California Berkeley", "University of Bologna"],
+    "countries": ["United States", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000034": {
+    "pids": ["doi:10.1145/example.2026.034"],
+    "organizations": ["Heidelberg University", "University of Milan"],
+    "countries": ["Germany", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000035": {
+    "pids": ["doi:10.1145/example.2026.035"],
+    "organizations": ["McGill University", "University of Padua"],
+    "countries": ["Canada", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000036": {
+    "pids": ["doi:10.1145/example.2026.036"],
+    "organizations": ["University of Sydney", "University of Turin"],
+    "countries": ["Australia", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000037": {
+    "pids": ["doi:10.1145/example.2026.037"],
+    "organizations": ["Imperial College London", "University of Bologna"],
+    "countries": ["United Kingdom", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000038": {
+    "pids": ["doi:10.1145/example.2026.038"],
+    "organizations": ["University of Copenhagen", "University of Milan"],
+    "countries": ["Denmark", "Italy"],
+    "direction": "outbound"
+  },
+  "omid:br/06000000039": {
+    "pids": ["doi:10.1145/example.2026.039"],
+    "organizations": ["Seoul National University", "University of Padua"],
+    "countries": ["South Korea", "Italy"],
+    "direction": "inbound"
+  },
+  "omid:br/06000000040": {
+    "pids": ["doi:10.1145/example.2026.040"],
+    "organizations": ["University of Helsinki", "University of Turin"],
+    "countries": ["Finland", "Italy"],
+    "direction": "outbound"
+  }
+}
