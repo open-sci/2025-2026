@@ -126,7 +126,7 @@ This will also produce an index of unique entries across all IRIS publications,
 which will be used to speed up the search for publications in OpenAIRE.
 
 ```bash
-python src/iris_oc_pids.py
+python src/build_iris_oc_pids.py
 ```
 
 ###### Files produced
