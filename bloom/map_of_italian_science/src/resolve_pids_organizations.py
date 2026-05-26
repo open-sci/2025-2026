@@ -10,67 +10,46 @@ import time
 from datetime import datetime, timezone
 from glob import glob
 from pathlib import Path
-from dotenv import load_dotenv
-
-
-# ==============================================================================
-# ENVIRONMENT
-# ==============================================================================
-
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
-load_dotenv(ROOT_DIR / ".env")
-DATA_PATH = os.environ.get("DATA_PATH")
-
-if not DATA_PATH:
-    raise RuntimeError("Missing DATA_PATH environment variable")
-
 
 # ==============================================================================
 # CONSTANTS AND CONFIGURATION
 # ==============================================================================
 
 # Paths and directories
-DATA_DIR = Path(DATA_PATH)
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
+
 DUMPS_DIR = DATA_DIR / "dumps"
-OUTPUT_DIR = DATA_DIR / "openaire_organizations"
-
-# Input CSV (columns: omid, doi, pmid, isbn)
-INPUT_CSV = DATA_DIR / "unique_pids.csv"
-
-# Glob patterns
 OPENAIRE_DIR = DUMPS_DIR / "openaire"
 PUBLICATION_TAR_PATTERN = "publication_*.tar"
 RELATION_TAR_PATTERN = "relation_*.tar"
 ORG_COUNTRIES_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_countries.json"
 
-# Output files
+UNIQUE_PIDS_CSV = DATA_DIR / "iris_oc_pids" / "unique_pids.csv"
+
+OUTPUT_DIR = DATA_DIR / "iris_openaire_organizations"
 OUTPUT_JSON = OUTPUT_DIR / "omid_organizations.json"
 MISSING_CSV = OUTPUT_DIR / "missing_no_searchable_pid.csv"
 OUTPUT_METADATA = OUTPUT_DIR / "omid_organizations.metadata.json"
 
-# Checkpoint files (allow interruption and resumption)
 CHECKPOINT_PHASE1 = OUTPUT_DIR / "_checkpoint_phase1.json"
 CHECKPOINT_PHASE2 = OUTPUT_DIR / "_checkpoint_phase2.json"
 
-# Progress logging intervals
+# Configurations
 LOG_EVERY_PUBLICATIONS = 1_000_000
 LOG_EVERY_RELATIONS = 5_000_000
 
-# How often to flush the final JSON output (number of omid entries written)
 FLUSH_EVERY = 50_000
 
-# Affiliation relation names (matched case-insensitively)
+_DOI_PREFIX_RE = re.compile(r"^(https?://)?(dx\.)?doi\.org/", re.IGNORECASE)
+_ENTITY_PREFIX_RE = re.compile(r"^\d+\|")
+
 AFFILIATION_RELS = {"hasauthorinstitution", "isauthorinstitutionof"}
 
 
 # ==============================================================================
 # METHODS — normalization
 # ==============================================================================
-
-_DOI_PREFIX_RE = re.compile(r"^(https?://)?(dx\.)?doi\.org/", re.IGNORECASE)
-_ENTITY_PREFIX_RE = re.compile(r"^\d+\|")
-
 
 def normalize_doi(raw):
     """Lowercase DOI, strip resolver prefix and 'doi:' scheme prefix."""
@@ -224,14 +203,14 @@ def read_input():
     print("=" * 70)
     print("Phase 0 — reading input CSV")
     print("=" * 70)
-    print(f"  Input: {INPUT_CSV.relative_to(DATA_DIR)}")
+    print(f"  Input: {UNIQUE_PIDS_CSV.relative_to(DATA_DIR)}")
 
     rows = []
     doi_lookup = {}
     pmid_lookup = {}
     missing_rows = []
 
-    with INPUT_CSV.open("r", encoding="utf-8") as fh:
+    with UNIQUE_PIDS_CSV.open("r", encoding="utf-8") as fh:
         reader = csv.DictReader(fh)
         for row in reader:
             omid = (row.get("omid") or "").strip()
@@ -263,7 +242,7 @@ def read_input():
 
     # Write missing rows immediately
     if missing_rows:
-        with MISSING_CSV.open("w", newline="", encoding="utf-8") as fh:
+        with MISSING_CSV.open("w", newline="\n", encoding="utf-8") as fh:
             writer = csv.DictWriter(fh, fieldnames=["omid", "doi", "pmid", "isbn"])
             writer.writeheader()
             writer.writerows(missing_rows)
@@ -570,22 +549,20 @@ def write_output(rows, pub_to_orgs, org_lookup):
 
             pub_id = r["openaire_pub_id"] or ""
 
-            # Collect organizations
+            # Collect organizations, discarding empty and deduplicating
             org_ids = pub_to_orgs.get(pub_id, []) if pub_id else []
-            orgs = []
+            orgs_by_name = {}
             for oid in org_ids:
                 orec = org_lookup.get(oid)
-                if orec:
-                    orgs.append(orec)
-                else:
-                    orgs.append({
-                        "legal_name": "",
-                        "country_name": "",
-                        "country_code": "",
-                        "country_source": "",
-                        "ror": None,
-                        "openaire": oid,
-                    })
+                if not orec:
+                    continue
+                name = orec.get("legal_name", "")
+                if not name:
+                    continue
+                existing = orgs_by_name.get(name)
+                if existing is None or (not existing.get("ror") and orec.get("ror")):
+                    orgs_by_name[name] = orec
+            orgs = list(orgs_by_name.values())
 
             # Strip scheme prefixes for output pids
             doi_out = r["doi_raw"]

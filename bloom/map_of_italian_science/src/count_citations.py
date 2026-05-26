@@ -1,39 +1,23 @@
 import csv
 import json
-import os
 import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from dotenv import load_dotenv
 import ijson
-
-
-# ==============================================================================
-# ENVIRONMENT
-# ==============================================================================
-
-ROOT_DIR = Path(__file__).resolve().parent.parent
-
-load_dotenv(ROOT_DIR / ".env")
-DATA_PATH = os.environ.get("DATA_PATH")
-
-if not DATA_PATH:
-    raise RuntimeError("Missing DATA_PATH environment variable")
-
 
 # ==============================================================================
 # CONSTANTS AND CONFIGURATION
 # ==============================================================================
 
 # Paths and directories
-DATA_DIR = Path(DATA_PATH)
-IRIS_OC_PIDS_DIR = DATA_DIR / "iris_oc_pids"
-OMID_ORGANIZATIONS_JSON = DATA_DIR / "openaire_organizations" / "omid_organizations.json"
-OUTPUT_DIR = DATA_DIR / "citation_counts"
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
 
-# File templates
-INPUT_CSV_TEMPLATE = IRIS_OC_PIDS_DIR / "{university}" / "iris_oc_pids.csv"
+OMID_ORGANIZATIONS_JSON = DATA_DIR / "iris_openaire_organizations" / "omid_organizations.json"
+IRIS_OC_PIDS_CSV_TEMPLATE = DATA_DIR / "iris_oc_pids" / "{university}" / "iris_oc_pids.csv"
+
+OUTPUT_DIR = DATA_DIR / "citation_counts"
 OUTPUT_ORG_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_inbound.csv"
 OUTPUT_ORG_OUTBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_outbound.csv"
 OUTPUT_COUNTRY_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_inbound.csv"
@@ -44,7 +28,7 @@ OUTPUT_METADATA_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts.metada
 UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
 
 # Progress logging
-LOG_EVERY_CSV = 100_000
+LOG_EVERY_CSV = 1_000_000
 LOG_EVERY_JSON = 1_000_000
 
 
@@ -59,12 +43,77 @@ def format_elapsed(t0):
     return f"{h}h{m:02d}m{s:02d}s"
 
 
+def dedup_org_list(organizations):
+    """Deduplicate a per-OMID organizations list by ROR then case-insensitive name+country."""
+    by_ror = {}
+    no_ror = []
+
+    for org in organizations:
+        ror = org.get("ror") or ""
+        if ror:
+            if ror not in by_ror:
+                by_ror[ror] = org
+        else:
+            no_ror.append(org)
+
+    by_name = {}
+    for org in by_ror.values():
+        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
+        by_name[key] = org
+
+    for org in no_ror:
+        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
+        if key not in by_name:
+            by_name[key] = org
+
+    return list(by_name.values())
+
+
+def merge_org_counter(counter):
+    """Merge org counter entries: first by ROR ID, then by case-insensitive name+country."""
+    by_ror = defaultdict(list)
+    no_ror = []
+
+    for key, count in counter.items():
+        ror = key[3]
+        if ror:
+            by_ror[ror].append((key, count))
+        else:
+            no_ror.append((key, count))
+
+    intermediate = []
+    for entries in by_ror.values():
+        total = sum(c for _, c in entries)
+        best_key = max(entries, key=lambda x: x[1])[0]
+        intermediate.append((best_key, total))
+
+    intermediate.extend(no_ror)
+
+    by_name = defaultdict(list)
+    for key, count in intermediate:
+        legal_name, _, country_code = key[0], key[1], key[2]
+        merge_key = (legal_name.lower(), country_code)
+        by_name[merge_key].append((key, count))
+
+    result = Counter()
+    for entries in by_name.values():
+        total = sum(c for _, c in entries)
+        with_ror = [(k, c) for k, c in entries if k[3]]
+        if with_ror:
+            best_key = max(with_ror, key=lambda x: x[1])[0]
+        else:
+            best_key = max(entries, key=lambda x: x[1])[0]
+        result[best_key] = total
+
+    return result
+
+
 def write_org_csv(path, counter):
     """Write organization counts CSV sorted by count descending."""
     fieldnames = ["legal_name", "country_name", "country_code",
                   "ror", "openaire", "count"]
-    with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+    with path.open("w", encoding="utf-8", newline="\n") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
             legal_name, country_name, country_code, ror, openaire = key
@@ -81,8 +130,8 @@ def write_org_csv(path, counter):
 def write_country_csv(path, counter):
     """Write country counts CSV sorted by count descending."""
     fieldnames = ["country_name", "country_code", "count"]
-    with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+    with path.open("w", encoding="utf-8", newline="\n") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
             country_name, country_code = key
@@ -104,7 +153,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 universities_to_process = []
 for university in UNIVERSITIES:
     output_check = Path(str(OUTPUT_ORG_INBOUND_TEMPLATE).format(university=university))
-    input_csv = Path(str(INPUT_CSV_TEMPLATE).format(university=university))
+    input_csv = Path(str(IRIS_OC_PIDS_CSV_TEMPLATE).format(university=university))
     if output_check.exists():
         print(f"! output already exists for {university}, skipping")
         continue
@@ -132,7 +181,7 @@ csv_stats = {}
 t0 = time.monotonic()
 
 for university in universities_to_process:
-    input_csv = Path(str(INPUT_CSV_TEMPLATE).format(university=university))
+    input_csv = Path(str(IRIS_OC_PIDS_CSV_TEMPLATE).format(university=university))
     print(f"  Scanning {input_csv.relative_to(DATA_DIR)} ...")
 
     rows_read = 0
@@ -200,6 +249,7 @@ with OMID_ORGANIZATIONS_JSON.open("rb") as fh:
             continue
 
         matched_with_orgs += 1
+        organizations = dedup_org_list(organizations)
 
         for (university, direction), multiplier in omid_contributions[omid].items():
             oc = org_inbound if direction == "inbound" else org_outbound
@@ -229,6 +279,11 @@ print(f"  {scanned:,} entries scanned, {matched:,} matched, "
 not_in_json = len(omid_contributions)
 if not_in_json:
     print(f"  {not_in_json:,} omids from CSVs not found in JSON")
+
+# Merge org counters by ROR then case-insensitive name+country
+for university in universities_to_process:
+    org_inbound[university] = merge_org_counter(org_inbound[university])
+    org_outbound[university] = merge_org_counter(org_outbound[university])
 
 # ==============================================================================
 # Phase 3 -- write output files
