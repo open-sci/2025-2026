@@ -33,12 +33,12 @@ We will need data from IRIS, OpenCitations, OpenAIRE and ROR to execute the
 mapping pipeline. This project was developed and tested with the following
 versions of the data dumps:
 
-| dump          | version    |
-|---------------|------------|
-| IRIS          | 1.1.0      |
-| ROR           | 2.7        |
-| OpenCitations | 2026-01-14 |
-| OpenAIRE      | 10.6.0     |
+| dump          | version    | url                                 |
+|---------------|------------|-------------------------------------|
+| IRIS          | 1.1.0      | https://zenodo.org/records/18202530 |
+| ROR           | 2.7        | https://zenodo.org/records/20140273 |
+| OpenCitations | 2026-01-14 | https://zenodo.org/records/18324537 |
+| OpenAIRE      | 10.6.0     | https://zenodo.org/records/17725827 |
 
 Create the directories for the dumps:
 
