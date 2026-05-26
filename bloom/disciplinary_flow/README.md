@@ -18,10 +18,10 @@
 * Two output files are expected: output_cat.csv and miss_loc.csv 
 
 ## Step 4: Aggregate data and push results to 2025-2026/1b
-* For each institution file, run the [`scripts/aggregate_v2.py`](scripts/aggregate_v2.py) with the output_cat.csv (update the path of `INPUT` and `OUTPUT` at the beginning of the script).
+* For each institution file, run the [`scripts/aggregate_v3.py`](scripts/aggregate_v3.py) with the output_cat.csv (update the path of `INPUT`, `OUTPUT`and `PROFILE_OUTPUT_FILE` at the beginning of the script).
 * The script will generate a summary report in the terminal about detailed count for citation actions.
-* Copy this complete report text and paste it to the end of `uni_summary.txt`.
-* Push the aggregated CSV file (`uni_agg_output.csv`) and the updated `uni_summary.txt` to the [`step4_output`](disciplinary_flow/step4_output) folder.
+* Copy this complete report text and paste it to the end of `uni_summary.txt`(includes all 4 steps' summarys).
+* Push the aggregated CSV files (`uni_agg_output.csv`and `uni_profile_output.csv`) and the updated `uni_summary.txt` to the [`step4_output`](disciplinary_flow/step4_output) folder.
   
 ## Step 5: Select charts and visualise the data
 ...
