@@ -1,0 +1,48 @@
+============================================================
+1 SUMMARY - Row Count Comparison
+============================================================
+Original citation rows:              1,048,115
+
+Unique OMIDs identified:               754,334 (100.00%)
+
+Matched OMIDs with venue data:         739,574 (98.04%)
+OMIDs without venue data:               14,760 (1.96%)
+
+Final merged citation rows:          1,048,115 (100.00%)
+
+============================================================
+2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
+============================================================
+Total Records: 1048115
+Verification: No duplicates created during mapping.
+
+Citing Match Rate (SCImago): 88.20%
+Citing Match Rate (DOAJ):    26.84%
+
+Cited Match Rate (SCImago):  90.37%
+Cited Match Rate (DOAJ):     18.50%
+
+
+============================================================
+3 ADD LOC CATEGORY COMPLETE
+============================================================
+JSON index built: 7 area labels, 175 category labels
+CSV loaded: 1048115 rows
+
+Done.
+  output_cat.csv : 801149 rows (76.4%) — both sides resolved
+  miss_loc.csv   : 246966 rows (23.6%) — at least one side missing
+
+
+============================================================
+4 Aggregation
+============================================================
+Total input: 801,149 rows.
+Invalid data: 0.00%, 0 rows
+Usable data: 100.00%, 801,149 rows
+Aggregation Done.
+
+In all 1,895,719 citations, there are:
+864,631 incoming citations (45.61%)
+961,163 outgoing citations (50.70%)
+69,925 internal citations (3.69%).
