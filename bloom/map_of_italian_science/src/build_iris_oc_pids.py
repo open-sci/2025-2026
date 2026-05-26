@@ -99,12 +99,15 @@ def format_path(path):
 # IDEMPOTENCY CHECK
 # ==============================================================================
 
-all_outputs_exist = UNIQUE_PIDS_OUTPUT.exists() and all(
-    Path(str(OUTPUT_PIDS_TEMPLATE).format(university=u)).exists()
-    for u in IRIS_UNIVERSITIES
-)
+universities_to_process = []
+for university in IRIS_UNIVERSITIES:
+    output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
+    if output_csv.exists():
+        print(f"! output already exists for {university}, skipping")
+        continue
+    universities_to_process.append(university)
 
-if all_outputs_exist:
+if not universities_to_process and UNIQUE_PIDS_OUTPUT.exists():
     print("All output files already exist, skipping.")
     sys.exit(0)
 
@@ -121,7 +124,7 @@ phase_1_start = time.monotonic()
 needed_omids: dict[str, tuple | None] = {}
 total_iris_rows = 0
 
-for university in IRIS_UNIVERSITIES:
+for university in universities_to_process:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
 
     if not index_csv.exists():
@@ -292,17 +295,13 @@ def register_for_dedup(record):
             pid_to_group_index[(pid_type, pid_value)] = group_index
 
 
-for university in IRIS_UNIVERSITIES:
+for university in universities_to_process:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
     output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
     missing_csv = Path(str(OUTPUT_MISSING_TEMPLATE).format(university=university))
     metadata_json = Path(str(OUTPUT_METADATA_TEMPLATE).format(university=university))
 
     output_csv.parent.mkdir(exist_ok=True)
-
-    if output_csv.exists():
-        print(f"  ! Output already exists for {university}, skipping: {format_path(output_csv)}")
-        continue
 
     print(f"\nProcessing {university}")
     uni_start = time.monotonic()
