@@ -36,9 +36,9 @@ CSV loaded: 8794244 rows
 
 match with loc categories
 input: 8,794,224
-output:7,406,333
-missing:1,387,911
-missing rate: 15.8%
+output:7,908,585
+missing: 886,659
+missing rate: 10.09%
 
 Done.
   output_cat.csv : 7908585 rows (89.9%) — both sides resolved
