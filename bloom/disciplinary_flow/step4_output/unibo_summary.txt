@@ -41,14 +41,14 @@ missing:1,387,911
 missing rate: 15.8%
 
 Done.
-  output_cat.csv : 7406333 rows (84.2%) — both sides resolved
-  miss_loc.csv   : 1387911 rows (15.8%) — at least one side missing
+  output_cat.csv : 7908585 rows (89.9%) — both sides resolved
+  miss_loc.csv   : 886659 rows (10.1%) — at least one side missing
 
 ============================================================
 4 Aggregation
 ============================================================
 
-In all 20,283,395 citations, there are:
-8,896,721 incoming citations (43.86%)
-10,406,984 outgoing citations (51.31%)
-979,690 internal citations (4.83%).
+In all 20,612,378 citations, there are:
+9,022,405 incoming citations (43.77%)
+10,607,139 outgoing citations (51.46%)
+982,834 internal citations (4.77%)
