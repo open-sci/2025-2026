@@ -32,16 +32,18 @@ Cited Match Rate (DOAJ): 17.40%
 ============================================================
 JSON index built: 7 area labels, 175 category labels
 CSV loaded: 6264490 rows
+  Multidisciplinary : 479644 columns
+  Others            : 292218 columns
 
 Done.
-  output_cat.csv : 5235784 rows (83.6%) — both sides resolved
-  miss_loc.csv   : 1028706 rows (16.4%) — at least one side missing
+  output_cat.csv : 5643596 rows (90.1%) — both sides resolved
+  miss_loc.csv   : 620894 rows (9.9%) — at least one side missing
 
 ============================================================
 4 Aggregation
 ============================================================
 
-In all 14,163,283 citations, there are:
-6,282,552 incoming citations (44.36%)
-7,267,993 outgoing citations (51.32%)
-612,738 internal citations (4.33%).
+In all 14,398,862 citations, there are:
+6,371,152 incoming citations (44.25%)
+7,411,999 outgoing citations (51.48%)
+615,711 internal citations (4.28%).
