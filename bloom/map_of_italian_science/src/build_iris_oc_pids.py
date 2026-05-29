@@ -17,7 +17,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 DUMPS_DIR = DATA_DIR / "dumps"
 
-IRIS_DIR = DUMPS_DIR / "iris"
+IRIS_DIR = DUMPS_DIR / "iris_publications"
 OC_TAR_PATH = DUMPS_DIR / "opencitations" / "output_csv_2026_01_14.tar.gz"
 
 INDEX_CSV_TEMPLATE = IRIS_DIR / "{university}" / "iris_in_oc_index" / "iris_in_oc_index.csv"
