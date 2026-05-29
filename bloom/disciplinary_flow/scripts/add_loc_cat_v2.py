@@ -114,8 +114,8 @@ import re
 import pandas as pd
 
 
-CSV_PATH  = r"sns_disciplinary_map_sample_output.csv"
-JSON_PATH = r"merged_loc_scopus.json"
+CSV_PATH  = "SNS/disciplinary_map_matched.csv"
+JSON_PATH = "/Users/regina/Documents/UNIBO/OpenScience/2025-2026/bloom/disciplinary_flow/categories/merged_loc_scopus.json"
 
 
 LOC_MAIN_CLASSES = {
@@ -369,8 +369,8 @@ def main():
     df_resolved   = df[both_resolved]
     df_missing    = df[~both_resolved]
 
-    out_path  = os.path.join(os.getcwd(), "output_cat.csv")
-    miss_path = os.path.join(os.getcwd(), "miss_loc.csv")
+    out_path  = os.path.join(os.getcwd(), "SNS/output_cat.csv")
+    miss_path = os.path.join(os.getcwd(), "SNS/no_match/miss_loc.csv")
 
     df_resolved.to_csv(out_path,  index=False)
     df_missing.to_csv(miss_path,  index=False)
