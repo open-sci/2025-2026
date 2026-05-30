@@ -1,0 +1,86 @@
+======================================================================
+Phase 1 -- scanning CSVs
+======================================================================
+  Scanning iris_oc_pids/SNS/iris_oc_pids.csv ...
+    923,963 rows total
+  Scanning iris_oc_pids/UNIBO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h00m04s
+    2,000,000 rows | 0h00m06s
+    3,000,000 rows | 0h00m09s
+    4,000,000 rows | 0h00m11s
+    5,000,000 rows | 0h00m13s
+    6,000,000 rows | 0h00m15s
+    7,000,000 rows | 0h00m18s
+    8,000,000 rows | 0h00m20s
+    9,000,000 rows | 0h00m22s
+    9,834,395 rows total
+  Scanning iris_oc_pids/UNIMI/iris_oc_pids.csv ...
+    1,000,000 rows | 0h00m27s
+    2,000,000 rows | 0h00m29s
+    3,000,000 rows | 0h00m31s
+    4,000,000 rows | 0h00m34s
+    5,000,000 rows | 0h00m37s
+    6,000,000 rows | 0h00m39s
+    7,000,000 rows | 0h00m41s
+    8,000,000 rows | 0h00m43s
+    9,000,000 rows | 0h00m46s
+    10,000,000 rows | 0h00m49s
+    11,000,000 rows | 0h00m51s
+    12,000,000 rows | 0h00m53s
+    12,190,001 rows total
+  Scanning iris_oc_pids/UNIPD/iris_oc_pids.csv ...
+    1,000,000 rows | 0h00m56s
+    2,000,000 rows | 0h00m59s
+    3,000,000 rows | 0h01m01s
+    4,000,000 rows | 0h01m03s
+    5,000,000 rows | 0h01m05s
+    6,000,000 rows | 0h01m09s
+    7,000,000 rows | 0h01m11s
+    8,000,000 rows | 0h01m13s
+    9,000,000 rows | 0h01m16s
+    10,000,000 rows | 0h01m20s
+    10,074,834 rows total
+  Scanning iris_oc_pids/UNITO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h01m23s
+    2,000,000 rows | 0h01m25s
+    3,000,000 rows | 0h01m27s
+    4,000,000 rows | 0h01m29s
+    5,000,000 rows | 0h01m32s
+    6,000,000 rows | 0h01m34s
+    6,839,419 rows total
+  Scanning iris_oc_pids/UPO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h01m38s
+    1,565,718 rows total
+  15,265,076 unique omids to look up | 0h01m40s
+
+======================================================================
+Phase 2 -- streaming omid_organizations.json
+======================================================================
+  Streaming iris_openaire_organizations/omid_organizations.json ...
+  ...1,000,000 entries scanned, 896,671 matched | 0h00m11s
+  ...2,000,000 entries scanned, 1,817,389 matched | 0h00m21s
+  ...3,000,000 entries scanned, 2,735,192 matched | 0h00m32s
+  ...4,000,000 entries scanned, 3,661,695 matched | 0h00m48s
+  ...5,000,000 entries scanned, 4,582,818 matched | 0h00m59s
+  ...6,000,000 entries scanned, 5,500,028 matched | 0h01m16s
+  ...7,000,000 entries scanned, 6,418,096 matched | 0h01m28s
+  ...8,000,000 entries scanned, 7,339,180 matched | 0h01m39s
+  ...9,000,000 entries scanned, 8,255,602 matched | 0h01m49s
+  ...10,000,000 entries scanned, 9,172,323 matched | 0h01m59s
+  ...11,000,000 entries scanned, 10,086,940 matched | 0h02m11s
+  ...12,000,000 entries scanned, 11,004,721 matched | 0h02m22s
+  ...13,000,000 entries scanned, 11,927,594 matched | 0h02m34s
+  ...14,000,000 entries scanned, 12,837,102 matched | 0h02m45s
+  ...15,000,000 entries scanned, 13,758,097 matched | 0h02m56s
+  15,235,123 entries scanned, 15,168,296 matched, 13,971,994 with organizations | 0h02m58s
+  1,293,082 omids from CSVs not found in JSON
+
+======================================================================
+Phase 3 -- writing output
+======================================================================
+  SNS: incoming 27,458 orgs / 210 countries, outgoing 20,715 orgs / 193 countries
+  UNIBO: incoming 72,284 orgs / 250 countries, outgoing 64,129 orgs / 248 countries
+  UNIMI: incoming 73,540 orgs / 251 countries, outgoing 62,156 orgs / 245 countries
+  UNIPD: incoming 71,282 orgs / 251 countries, outgoing 63,100 orgs / 245 countries
+  UNITO: incoming 64,705 orgs / 248 countries, outgoing 57,928 orgs / 240 countries
+  UPO: incoming 42,285 orgs / 231 countries, outgoing 38,112 orgs / 223 countries
