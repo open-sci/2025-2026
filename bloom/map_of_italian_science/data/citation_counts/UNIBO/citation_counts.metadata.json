@@ -1,13 +1,13 @@
 {
   "university": "UNIBO",
-  "ended_at": "2026-05-25T20:32:20.930913+00:00",
+  "ended_at": "2026-05-30T16:09:23.845519+00:00",
   "rows_read": 9834395,
-  "unique_organizations_inbound": 72284,
-  "unique_organizations_outbound": 64129,
-  "unique_countries_inbound": 250,
-  "unique_countries_outbound": 248,
-  "output_org_inbound_csv_size_bytes": 8522883,
-  "output_org_outbound_csv_size_bytes": 7563143,
-  "output_country_inbound_csv_size_bytes": 4749,
-  "output_country_outbound_csv_size_bytes": 4652
+  "unique_organizations_incoming": 72284,
+  "unique_organizations_outgoing": 64129,
+  "unique_countries_incoming": 250,
+  "unique_countries_outgoing": 248,
+  "output_org_incoming_csv_size_bytes": 8522883,
+  "output_org_outgoing_csv_size_bytes": 7563143,
+  "output_country_incoming_csv_size_bytes": 4749,
+  "output_country_outgoing_csv_size_bytes": 4652
 }

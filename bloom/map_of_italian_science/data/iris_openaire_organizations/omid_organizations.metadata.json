@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 20319.64,
+  "ended_at": "2026-05-25T17:43:18.542470+00:00",
+  "rows_read": 15235123,
+  "rows_searchable": 15225914,
+  "rows_matched_publication": 15139235,
+  "rows_with_organizations": 14039700,
+  "rows_missing_no_pid": 9209,
+  "unique_organizations_resolved": 103905,
+  "entries_written": 15235123,
+  "flush_every": 50000,
+  "output_json_size_bytes": 14524430353,
+  "output_json_size_mb": 13851.58,
+  "missing_csv_size_bytes": 224269,
+  "missing_csv_size_mb": 0.21
+}

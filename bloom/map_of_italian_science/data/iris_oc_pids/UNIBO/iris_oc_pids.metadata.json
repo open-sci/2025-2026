@@ -1,0 +1,13 @@
+{
+  "university": "UNIBO",
+  "elapsed_seconds": 70.71,
+  "ended_at": "2026-05-30T15:43:58.887930+00:00",
+  "rows_read": 9992645,
+  "rows_processed": 9834395,
+  "rows_missing_metadata": 158250,
+  "write_csv_every": 5000,
+  "output_csv_size_bytes": 1703174492,
+  "output_csv_size_mb": 1624.27,
+  "missing_pids_csv_size_bytes": 13289153,
+  "missing_pids_csv_size_mb": 12.67
+}

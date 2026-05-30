@@ -1,0 +1,113 @@
+======================================================================
+PHASE 1 — Collecting needed OMIDs from IRIS CSVs
+======================================================================
+  SNS: 931,354 rows
+  UNIBO: 9,992,645 rows
+  UNIMI: 12,470,167 rows
+  UNIPD: 10,247,005 rows
+  UNITO: 6,977,099 rows
+  UPO: 1,596,018 rows
+Collected 15,627,822 unique OMIDs from 42,214,288 IRIS rows in 58.1s
+
+======================================================================
+PHASE 2 — Streaming OpenCitations tar.gz
+======================================================================
+Streaming dumps/opencitations/output_csv_2026_01_14.tar.gz
+Looking for 15,627,822 OMIDs
+  5,000,000 rows scanned, 645,552 matched, 14,982,270 remaining, 17s elapsed
+  10,000,000 rows scanned, 1,268,145 matched, 14,359,677 remaining, 34s elapsed
+  15,000,000 rows scanned, 1,913,297 matched, 13,714,525 remaining, 52s elapsed
+  20,000,000 rows scanned, 2,542,319 matched, 13,085,503 remaining, 69s elapsed
+  25,000,000 rows scanned, 3,163,702 matched, 12,464,120 remaining, 86s elapsed
+  30,000,000 rows scanned, 3,804,915 matched, 11,822,907 remaining, 103s elapsed
+  35,000,000 rows scanned, 4,411,861 matched, 11,215,961 remaining, 120s elapsed
+  40,000,000 rows scanned, 5,026,439 matched, 10,601,383 remaining, 137s elapsed
+  45,000,000 rows scanned, 5,641,057 matched, 9,986,765 remaining, 155s elapsed
+  50,000,000 rows scanned, 6,273,612 matched, 9,354,210 remaining, 172s elapsed
+  55,000,000 rows scanned, 6,906,056 matched, 8,721,766 remaining, 189s elapsed
+  60,000,000 rows scanned, 7,546,915 matched, 8,080,907 remaining, 206s elapsed
+  65,000,000 rows scanned, 8,187,422 matched, 7,440,400 remaining, 223s elapsed
+  70,000,000 rows scanned, 8,814,606 matched, 6,813,216 remaining, 240s elapsed
+  75,000,000 rows scanned, 9,435,691 matched, 6,192,131 remaining, 258s elapsed
+  80,000,000 rows scanned, 10,067,023 matched, 5,560,799 remaining, 275s elapsed
+  85,000,000 rows scanned, 10,688,662 matched, 4,939,160 remaining, 292s elapsed
+  90,000,000 rows scanned, 11,314,470 matched, 4,313,352 remaining, 309s elapsed
+  95,000,000 rows scanned, 11,951,161 matched, 3,676,661 remaining, 327s elapsed
+  100,000,000 rows scanned, 12,584,458 matched, 3,043,364 remaining, 343s elapsed
+  105,000,000 rows scanned, 13,194,633 matched, 2,433,189 remaining, 360s elapsed
+  110,000,000 rows scanned, 13,822,555 matched, 1,805,267 remaining, 377s elapsed
+  115,000,000 rows scanned, 14,437,753 matched, 1,190,069 remaining, 394s elapsed
+  120,000,000 rows scanned, 15,065,085 matched, 562,737 remaining, 412s elapsed
+Scanned 122,191,271 rows from 40,731 CSV files in 419s
+Matched 15,332,444 OMIDs, 295,378 unmatched
+
+======================================================================
+PHASE 3 — Building output CSVs
+======================================================================
+
+Processing SNS
+  SNS: 923,963 processed, 7,391 missing in 6.0s
+
+Processing UNIBO
+  UNIBO: 1,000,000 rows read, 986,321 processed, 13,679 missing
+  UNIBO: 2,000,000 rows read, 1,969,561 processed, 30,439 missing
+  UNIBO: 3,000,000 rows read, 2,953,360 processed, 46,640 missing
+  UNIBO: 4,000,000 rows read, 3,938,526 processed, 61,474 missing
+  UNIBO: 5,000,000 rows read, 4,920,792 processed, 79,208 missing
+  UNIBO: 6,000,000 rows read, 5,907,091 processed, 92,909 missing
+  UNIBO: 7,000,000 rows read, 6,889,961 processed, 110,039 missing
+  UNIBO: 8,000,000 rows read, 7,875,268 processed, 124,732 missing
+  UNIBO: 9,000,000 rows read, 8,859,284 processed, 140,716 missing
+  UNIBO: 9,834,395 processed, 158,250 missing in 70.7s
+
+Processing UNIMI
+  UNIMI: 1,000,000 rows read, 978,698 processed, 21,302 missing
+  UNIMI: 2,000,000 rows read, 1,954,912 processed, 45,088 missing
+  UNIMI: 3,000,000 rows read, 2,935,634 processed, 64,366 missing
+  UNIMI: 4,000,000 rows read, 3,911,575 processed, 88,425 missing
+  UNIMI: 5,000,000 rows read, 4,890,544 processed, 109,456 missing
+  UNIMI: 6,000,000 rows read, 5,867,815 processed, 132,185 missing
+  UNIMI: 7,000,000 rows read, 6,844,336 processed, 155,664 missing
+  UNIMI: 8,000,000 rows read, 7,821,783 processed, 178,217 missing
+  UNIMI: 9,000,000 rows read, 8,798,607 processed, 201,393 missing
+  UNIMI: 10,000,000 rows read, 9,778,616 processed, 221,384 missing
+  UNIMI: 11,000,000 rows read, 10,755,355 processed, 244,645 missing
+  UNIMI: 12,000,000 rows read, 11,733,583 processed, 266,417 missing
+  UNIMI: 12,190,001 processed, 280,166 missing in 179.8s
+
+Processing UNIPD
+  UNIPD: 1,000,000 rows read, 985,304 processed, 14,696 missing
+  UNIPD: 2,000,000 rows read, 1,969,319 processed, 30,681 missing
+  UNIPD: 3,000,000 rows read, 2,950,789 processed, 49,211 missing
+  UNIPD: 4,000,000 rows read, 3,932,948 processed, 67,052 missing
+  UNIPD: 5,000,000 rows read, 4,916,803 processed, 83,197 missing
+  UNIPD: 6,000,000 rows read, 5,899,992 processed, 100,008 missing
+  UNIPD: 7,000,000 rows read, 6,882,905 processed, 117,095 missing
+  UNIPD: 8,000,000 rows read, 7,866,659 processed, 133,341 missing
+  UNIPD: 9,000,000 rows read, 8,849,933 processed, 150,067 missing
+  UNIPD: 10,000,000 rows read, 9,832,784 processed, 167,216 missing
+  UNIPD: 10,074,834 processed, 172,171 missing in 233.2s
+
+Processing UNITO
+  UNITO: 1,000,000 rows read, 981,411 processed, 18,589 missing
+  UNITO: 2,000,000 rows read, 1,962,264 processed, 37,736 missing
+  UNITO: 3,000,000 rows read, 2,942,836 processed, 57,164 missing
+  UNITO: 4,000,000 rows read, 3,922,936 processed, 77,064 missing
+  UNITO: 5,000,000 rows read, 4,902,768 processed, 97,232 missing
+  UNITO: 6,000,000 rows read, 5,881,835 processed, 118,165 missing
+  UNITO: 6,839,419 processed, 137,680 missing in 146.5s
+
+Processing UPO
+  UPO: 1,000,000 rows read, 980,899 processed, 19,101 missing
+  UPO: 1,565,718 processed, 30,300 missing in 34.2s
+
+Writing iris_oc_pids/unique_pids.csv with 15,235,123 unique PID groups
+
+======================================================================
+DONE
+======================================================================
+Phase 1 (collect OMIDs): 58.1s
+Phase 2 (stream tar.gz): 419s — 122,191,271 rows, 15,332,444 matched
+Phase 3 (build outputs): 720.0s
+Total elapsed: 1197.5s
+Unique PID groups: 15,235,123
