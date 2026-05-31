@@ -36,19 +36,31 @@ CSV loaded: 8794244 rows
 
 match with loc categories
 input: 8,794,224
-output:7,908,585
+output:7,907,585
 missing: 886,659
-missing rate: 10.09%
+missing rate: 10.08%
 
 Done.
-  output_cat.csv : 7908585 rows (89.9%) — both sides resolved
+  output_cat.csv : 7907585 rows (89.9%) — both sides resolved
   miss_loc.csv   : 886659 rows (10.1%) — at least one side missing
 
 ============================================================
-4 Aggregation
+4 AGGREGATION REPORT
 ============================================================
 
-In all 20,612,378 citations, there are:
-9,022,405 incoming citations (43.77%)
-10,607,139 outgoing citations (51.46%)
-982,834 internal citations (4.77%)
+Total input rows: 7,907,585
+
+BEFORE EXPANSION (Input File Counts):
+  Incoming:  3,701,507 (46.81%)
+  Outgoing:  3,822,439 (48.34%)
+  Internal:  383,639 (4.85%)
+  Total:     7,907,585
+
+AFTER EXPANSION (Individual Discipline Citations):
+  Incoming:  9,022,405 (43.77%)
+  Outgoing:  10,607,139 (51.46%)
+  Internal:  982,834 (4.77%)
+  Total:     20,612,378
+
+Expansion Ratio: 2.61x
+======================================================================
