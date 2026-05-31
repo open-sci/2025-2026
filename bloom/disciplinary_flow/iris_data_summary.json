@@ -1,0 +1,203 @@
+[
+    {
+        "university":"SNS",
+        "step 1":{
+            "input": 931354,
+            "matched": 897919,
+            "no match": 33435
+        },
+        "step 2":{
+            "input": 897919,
+            "matched": 820376,
+            "no match": 20284
+        },
+        "step 3":{
+            "input": 820376,
+            "matched": 687851,
+            "no match": 132525
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+        
+    },
+    {
+        "university":"UNIBO",
+        "step 1":{
+            "input": 9992645,
+            "matched": 9602472,
+            "no match": 390173
+        },
+        "step 2":{
+            "input": 9602472,
+            "matched": 8794244,
+            "no match": 53986
+        },
+        "step 3":{
+            "input": 8794244,
+            "matched": 7908585,
+            "no match": 886659
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+        
+    },
+    {
+        "university":"UNIMI",
+        "step 1":{
+            "input": 12470167,
+            "matched": 11901684,
+            "no match": 568483
+        },
+        "step 2":{
+            "input": 11901684,
+            "matched": 11169745,
+            "no match": 71582
+        },
+        "step 3":{
+            "input": 11169745,
+            "matched": 9998106,
+            "no match": 1171639
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+        
+    },
+    {
+        "university":"UNIPD",
+        "step 1":{
+            "input": 10247005,
+            "matched": 9829615,
+            "no match": 417390
+        },
+        "step 2":{
+            "input": 9829615,
+            "matched": 9049935,
+            "no match": 70361
+        },
+        "step 3":{
+            "input": 9049935,
+            "matched": 8107419,
+            "no match": 942516
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+    },
+    {
+        "university":"UNITO",
+        "step 1":{
+            "input": 6977099,
+            "matched": 6678619,
+            "no match": 298480
+        },
+        "step 2":{
+            "input": 6678619,
+            "matched": 6264490,
+            "no match": 34716
+        },
+        "step 3":{
+            "input": 6264490,
+            "matched": 5643596,
+            "no match": 620894
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+    },
+    {
+        "university":"UPO",
+        "step 1":{
+            "input": 1048115,
+            "matched":0,
+            "no match":0
+        },
+        "step 2":{
+            "input":0,
+            "matched":0,
+            "no match":0
+        },
+        "step 3":{
+            "input":0,
+            "matched":0,
+            "no match":0
+        },
+        "final output":{
+            "total citations": 687851,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+    }
+]

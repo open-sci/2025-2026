@@ -17,6 +17,9 @@ OUTPUTS
    An institutional profile matrix [Discipline, cited_count, citing_count, total_count] 
    sorted by total activity. Ideal for comparative bar charts.
 
+3. Aggregation Report (printed to console):
+   Summary of input rows, flow type counts before/after expansion.
+
 AGGREGATION METHOD
 ------------------
 We use the "Integer Counting" method to calculate discipline-to-discipline citations.
@@ -34,9 +37,9 @@ Finally, it groups all identical combinations (same flow, same citing, same cite
 
 import pandas as pd
 
-INPUT_FILE = r"output_cat.csv"
-OUTPUT_FILE = r"[uni]_agg_output.csv"
-PROFILE_OUTPUT_FILE = r"[uni]_profile_output.csv"
+INPUT_FILE = "SNS/output_cat.csv"
+OUTPUT_FILE = "SNS/sns_agg_output.csv"
+PROFILE_OUTPUT_FILE = "SNS/sns_profile_output.csv"
 
 def aggregation():
     print("Start: Choose Module:")
@@ -53,6 +56,7 @@ def aggregation():
     df = pd.read_csv(INPUT_FILE, usecols=['citing_loc_label', 'cited_loc_label', 'flow'])
     total_input_rows = len(df)
     print(f"Total input: {total_input_rows:,} rows.")
+    
     # statitic the number of Nans
     missing_mask = (
         df['citing_loc_label'].isna() | 
@@ -70,7 +74,15 @@ def aggregation():
 
     df_clean = df[~missing_mask].copy()
 
-  # deal with multiple labels, split by " | "
+    # ==================================================
+    # Count flow types BEFORE expansion
+    # ==================================================
+    flow_counts_before = df_clean['flow'].value_counts()
+    count_incoming_before = flow_counts_before.get('Incoming', 0)
+    count_outgoing_before = flow_counts_before.get('Outgoing', 0)
+    count_internal_before = flow_counts_before.get('Internal', 0)
+
+    # deal with multiple labels, split by " | "
     df_clean['citing_loc_label'] = df_clean['citing_loc_label'].str.split(' | ', regex=False)
     df_clean['cited_loc_label'] = df_clean['cited_loc_label'].str.split(' | ', regex=False)
 
@@ -78,12 +90,13 @@ def aggregation():
     df_exploded = df_clean.explode('citing_loc_label').explode('cited_loc_label')
     total_citation_actions = len(df_exploded)
 
-    # count flow
-    flow_counts = df_exploded['flow'].value_counts()
-
-    count_incoming = flow_counts.get('Incoming', 0)
-    count_outgoing = flow_counts.get('Outgoing', 0)
-    count_internal = flow_counts.get('Internal', 0)
+    # ==================================================
+    # Count flow types AFTER expansion
+    # ==================================================
+    flow_counts_after = df_exploded['flow'].value_counts()
+    count_incoming_after = flow_counts_after.get('Incoming', 0)
+    count_outgoing_after = flow_counts_after.get('Outgoing', 0)
+    count_internal_after = flow_counts_after.get('Internal', 0)
 
     if choice == '1':
         print("Skipping the first output. Generating Citing and Cited separate tables directly...")
@@ -95,20 +108,35 @@ def aggregation():
 
         print(f"[Success] Disciplinary Edge table is saved at: {OUTPUT_FILE}")
 
-        # report
-        print("Aggregation Done.")
-        print("\n" + "=" * 60 + "\n"
-            "Aggregation\n" +
-            "=" * 60 + "\n")
-        print(f"In all {total_citation_actions:,} citations, there are:")
-        print(f"{count_incoming:,} incoming citations ({count_incoming/total_citation_actions:.2%})")
-        print(f"{count_outgoing:,} outgoing citations ({count_outgoing/total_citation_actions:.2%})")
-        print(f"{count_internal:,} internal citations ({count_internal/total_citation_actions:.2%}).")
+    # --------------------------------------------------
+    # Generate Aggregation Report
+    # --------------------------------------------------
+    print("\n" + "=" * 70 + "\n"
+          "AGGREGATION REPORT\n" +
+          "=" * 70 + "\n")
+    
+    print(f"Total input rows: {num_usable_rows:,}\n")
+    
+    print("BEFORE EXPANSION (Input File Counts):")
+    print(f"  Incoming:  {count_incoming_before:,} ({count_incoming_before/num_usable_rows:.2%})")
+    print(f"  Outgoing:  {count_outgoing_before:,} ({count_outgoing_before/num_usable_rows:.2%})")
+    print(f"  Internal:  {count_internal_before:,} ({count_internal_before/num_usable_rows:.2%})")
+    print(f"  Total:     {num_usable_rows:,}\n")
+    
+    print("AFTER EXPANSION (Individual Discipline Citations):")
+    print(f"  Incoming:  {count_incoming_after:,} ({count_incoming_after/total_citation_actions:.2%})")
+    print(f"  Outgoing:  {count_outgoing_after:,} ({count_outgoing_after/total_citation_actions:.2%})")
+    print(f"  Internal:  {count_internal_after:,} ({count_internal_after/total_citation_actions:.2%})")
+    print(f"  Total:     {total_citation_actions:,}\n")
+    
+    expansion_ratio = total_citation_actions / num_usable_rows
+    print(f"Expansion Ratio: {expansion_ratio:.2f}x")
+    print("=" * 70 + "\n")
 
     # --------------------------------------------------
     # Output 2 
     # --------------------------------------------------
-    print("\nStructuring the Subject Profile Table (Discipline, cited_count, citing_count, total_count)...")
+    print("Structuring the Subject Profile Table (Discipline, cited_count, citing_count, total_count)...")
 
     # 1. Count Cited: (Incoming and Internal)
     df_cited_side = df_exploded[df_exploded['flow'].isin(['Incoming', 'Internal'])]
@@ -128,10 +156,11 @@ def aggregation():
     subject_profile['total_count'] = subject_profile['cited_count'] + subject_profile['citing_count']
     subject_profile = subject_profile.sort_values(by='total_count', ascending=False)
 
-    PROFILE_OUTPUT_FILE = "unipd_subject_profile.csv"
+    # PROFILE_OUTPUT_FILE = "unipd_subject_profile.csv"
     subject_profile.to_csv(PROFILE_OUTPUT_FILE, index=False)
     print(f"Done. Saved the subject profile table at: {PROFILE_OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
     aggregation()
+
