@@ -1,0 +1,223 @@
+country_name,country_code,count
+United States,US,1035204
+Italy,IT,578217
+France,FR,533169
+United Kingdom,GB,241417
+Germany,DE,228916
+China,CN,180579
+Spain,ES,139818
+Japan,JP,101730
+South Korea,KR,97653
+India,IN,96495
+Russia,RU,94475
+The Netherlands,NL,74480
+Switzerland,CH,74269
+Brazil,BR,72928
+Türkiye,TR,71912
+Canada,CA,71231
+Australia,AU,66060
+Belgium,BE,60548
+Poland,PL,48577
+Finland,FI,48167
+Hungary,HU,46345
+Taiwan,TW,40829
+Mexico,MX,40718
+Greece,GR,39705
+Sweden,SE,29371
+Denmark,DK,25956
+Czechia,CZ,25644
+Austria,AT,25306
+Norway,NO,25215
+Croatia,HR,22560
+Portugal,PT,22235
+Iran,IR,20253
+China (People's Republic of),CN,14361
+Argentina,AR,14177
+Israel,IL,13977
+Bulgaria,BG,13801
+Pakistan,PK,13730
+Egypt,EG,13359
+New Zealand,NZ,13049
+South Africa,ZA,12593
+Slovakia,SK,11780
+Ireland,IE,11512
+Colombia,CO,11449
+Netherlands,NL,10523
+Ukraine,UA,10197
+Serbia,RS,9884
+Singapore,SG,8759
+Hong Kong,HK,8167
+Belarus,BY,7712
+Romania,RO,7120
+Puerto Rico,PR,6735
+Thailand,TH,6566
+Estonia,EE,6316
+Georgia,GE,6280
+Cyprus,CY,5756
+Armenia,AM,5711
+Slovenia,SI,5462
+Chile,CL,5350
+Lithuania,LT,5125
+Malaysia,MY,5079
+Saudi Arabia,SA,4795
+Morocco,MA,3142
+Peru,PE,2826
+Korea (Republic of),KR,2190
+Uzbekistan,UZ,2091
+Azerbaijan,AZ,1824
+Cuba,CU,1635
+Qatar,QA,1477
+Tunisia,TN,1465
+Lebanon,LB,1246
+Iceland,IS,1226
+Russian Federation,RU,1138
+Vietnam,VN,1068
+Czech Republic,CZ,997
+Ethiopia,ET,946
+Turkey,TR,857
+Nigeria,NG,850
+United Arab Emirates,AE,837
+Philippines,PH,700
+Ecuador,EC,639
+Jordan,JO,619
+Bahrain,BH,613
+Kenya,KE,598
+Indonesia,ID,568
+Luxembourg,LU,548
+Uruguay,UY,546
+Algeria,DZ,519
+Latvia,LV,503
+Oman,OM,468
+Sri Lanka,LK,468
+Venezuela,VE,459
+Ghana,GH,401
+Tanzania,TZ,391
+Uganda,UG,367
+Iran (Islamic Republic of),IR,358
+Palestine,PS,356
+Bangladesh,BD,351
+Guadeloupe,GP,320
+Kazakhstan,KZ,304
+Bosnia and Herzegovina,BA,298
+Cameroon,CM,284
+Kuwait,KW,266
+Jamaica,JM,227
+Bolivia,BO,207
+Montenegro,ME,205
+Iraq,IQ,198
+Mongolia,MN,194
+French Guiana,GF,182
+North Macedonia,MK,179
+Somalia,SO,178
+Panama,PA,174
+Benin,BJ,173
+DR Congo,CD,143
+Macao,MO,141
+Costa Rica,CR,138
+Malta,MT,129
+Sudan,SD,129
+Senegal,SN,123
+Réunion,RE,123
+Cambodia,KH,119
+Nepal,NP,115
+Moldova,MD,113
+Mozambique,MZ,102
+Malawi,MW,101
+Zimbabwe,ZW,98
+Seychelles,SC,96
+Zambia,ZM,91
+Guatemala,GT,88
+Burkina Faso,BF,85
+Libya,LY,82
+Madagascar,MG,79
+Myanmar,MM,78
+Antigua and Barbuda,AG,78
+Yemen,YE,75
+Albania,AL,74
+New Caledonia,NC,73
+Bhutan,BT,68
+Grenada,GD,65
+Mauritius,MU,65
+El Salvador,SV,59
+Svalbard and Jan Mayen,SJ,59
+Curaçao,CW,51
+Botswana,BW,51
+Niger,NE,51
+Gabon,GA,49
+American Samoa,AS,48
+Syria,SY,46
+Angola,AO,42
+Namibia,NA,39
+Ivory Coast,CI,39
+Paraguay,PY,33
+Trinidad and Tobago,TT,33
+Rwanda,RW,32
+Fiji,FJ,32
+Dominican Republic,DO,30
+Gibraltar,GI,28
+Brunei,BN,27
+Tajikistan,TJ,27
+Burundi,BI,26
+Barbados,BB,26
+Honduras,HN,25
+Mali,ML,23
+Kosovo,XK,22
+Palau,PW,20
+Monaco,MC,19
+Togo,TG,18
+Tanzania (United Republic of),TZ,18
+Kyrgyzstan,KG,16
+Viet Nam,VN,16
+Laos,LA,16
+Papua New Guinea,PG,15
+Maldives,MV,14
+Nicaragua,NI,13
+San Marino,SM,12
+Liechtenstein,LI,12
+Andorra,AD,12
+St Kitts and Nevis,KN,11
+Greenland,GL,11
+Congo (Democratic Republic of),CD,10
+Congo Republic,CG,10
+Former Yugoslav Republic of Macedonia,MK,9
+Mauritania,MR,9
+Martinique,MQ,9
+French Polynesia,PF,8
+North Korea,KP,8
+The Gambia,GM,7
+Montserrat,MS,7
+"Virgin Islands, U.S.",VI,6
+Chad,TD,6
+Bermuda,BM,6
+Jersey,JE,6
+Guinea-Bissau,GW,6
+Afghanistan,AF,6
+Suriname,SR,5
+"Bonaire, Sint Eustatius, and Saba",BQ,5
+Guam,GU,4
+Lesotho,LS,4
+Eritrea,ER,3
+Bahamas,BS,3
+European Union,EU,3
+Eswatini,SZ,3
+Guyana,GY,3
+Guinea,GN,3
+Faroe Islands,FO,2
+U.S. Virgin Islands,VI,2
+Central African Republic,CF,2
+Saint Lucia,LC,2
+Isle of Man,IM,2
+Djibouti,DJ,1
+Timor-Leste,TL,1
+Sierra Leone,SL,1
+Samoa,WS,1
+Haiti,HT,1
+Palestinian-administered areas,PS,1
+Cayman Islands,KY,1
+British Virgin Islands,VG,1
+Aruba,AW,1
+Turkmenistan,TM,1
+Tonga,TO,1
+Åland,AX,1
+Lao (People's Democratic Republic),LA,1
+Micronesia,FM,1

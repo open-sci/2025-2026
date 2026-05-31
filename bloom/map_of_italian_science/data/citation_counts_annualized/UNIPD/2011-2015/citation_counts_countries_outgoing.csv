@@ -1,0 +1,222 @@
+country_name,country_code,count
+United States,US,2041803
+France,FR,1043684
+Italy,IT,779560
+United Kingdom,GB,580655
+Germany,DE,433691
+Spain,ES,266581
+Canada,CA,180287
+Japan,JP,170353
+China,CN,167632
+The Netherlands,NL,167070
+Australia,AU,164896
+Switzerland,CH,150085
+Russia,RU,114150
+South Korea,KR,91204
+Belgium,BE,86675
+India,IN,79935
+Brazil,BR,79178
+Finland,FI,73669
+Poland,PL,70952
+Denmark,DK,66753
+Sweden,SE,64758
+Türkiye,TR,50254
+Taiwan,TW,46856
+Austria,AT,46399
+Hungary,HU,41818
+Greece,GR,40552
+Portugal,PT,38867
+Norway,NO,33802
+Israel,IL,30937
+Ireland,IE,29567
+Mexico,MX,29473
+Czechia,CZ,28187
+Netherlands,NL,24849
+South Africa,ZA,21951
+Argentina,AR,21163
+China (People's Republic of),CN,20367
+Chile,CL,20326
+Singapore,SG,19353
+New Zealand,NZ,18635
+Croatia,HR,16875
+Hong Kong,HK,16267
+Iran,IR,16256
+Slovakia,SK,14526
+Romania,RO,11624
+Bulgaria,BG,10723
+Ukraine,UA,10432
+Slovenia,SI,9509
+Colombia,CO,9463
+Serbia,RS,9257
+Pakistan,PK,8298
+Malaysia,MY,7995
+Belarus,BY,7726
+Egypt,EG,6838
+Georgia,GE,6803
+Estonia,EE,6583
+Saudi Arabia,SA,6560
+Thailand,TH,6243
+Morocco,MA,5996
+Puerto Rico,PR,5027
+Armenia,AM,5007
+Cyprus,CY,4962
+Korea (Republic of),KR,3830
+Lithuania,LT,3763
+Azerbaijan,AZ,3411
+Iceland,IS,2971
+Vietnam,VN,2881
+Qatar,QA,2865
+Russian Federation,RU,2352
+Jordan,JO,2153
+Tunisia,TN,2026
+Czech Republic,CZ,2006
+Peru,PE,1703
+Philippines,PH,1425
+Lebanon,LB,1341
+Ethiopia,ET,1318
+Luxembourg,LU,1304
+Uzbekistan,UZ,1295
+Nigeria,NG,1273
+United Arab Emirates,AE,1162
+Bahrain,BH,1144
+Cuba,CU,1030
+Uruguay,UY,1012
+Kenya,KE,970
+Bangladesh,BD,967
+Ecuador,EC,966
+Indonesia,ID,955
+Jamaica,JM,879
+Uganda,UG,770
+Tanzania,TZ,721
+Algeria,DZ,707
+Latvia,LV,677
+Sri Lanka,LK,639
+Venezuela,VE,535
+Réunion,RE,531
+Ghana,GH,525
+Bosnia and Herzegovina,BA,481
+Palestine,PS,474
+Turkey,TR,435
+Nepal,NP,413
+Guadeloupe,GP,408
+Oman,OM,396
+Costa Rica,CR,393
+Benin,BJ,360
+Macao,MO,348
+Malta,MT,341
+Namibia,NA,309
+Panama,PA,308
+Cameroon,CM,282
+Iran (Islamic Republic of),IR,274
+Kazakhstan,KZ,259
+Kuwait,KW,257
+Barbados,BB,237
+Iraq,IQ,229
+Grenada,GD,229
+Mozambique,MZ,223
+Zimbabwe,ZW,216
+North Macedonia,MK,214
+Zambia,ZM,212
+Sierra Leone,SL,210
+Senegal,SN,200
+Cambodia,KH,194
+Mongolia,MN,178
+Montenegro,ME,160
+El Salvador,SV,160
+Sudan,SD,156
+Angola,AO,153
+Malawi,MW,150
+New Caledonia,NC,145
+Bolivia,BO,141
+Fiji,FJ,141
+Burkina Faso,BF,134
+Albania,AL,132
+Moldova,MD,129
+Curaçao,CW,125
+French Guiana,GF,120
+Yemen,YE,114
+Honduras,HN,112
+Botswana,BW,93
+Ivory Coast,CI,92
+Nicaragua,NI,76
+DR Congo,CD,75
+San Marino,SM,74
+Rwanda,RW,71
+Somalia,SO,70
+Myanmar,MM,69
+Paraguay,PY,66
+Monaco,MC,63
+Trinidad and Tobago,TT,63
+Antigua and Barbuda,AG,63
+Bhutan,BT,62
+French Polynesia,PF,60
+Madagascar,MG,59
+Niger,NE,59
+Guatemala,GT,58
+Libya,LY,55
+Former Yugoslav Republic of Macedonia,MK,53
+Mauritius,MU,51
+Brunei,BN,50
+Gabon,GA,50
+Papua New Guinea,PG,45
+Mali,ML,44
+Seychelles,SC,44
+Syria,SY,43
+Svalbard and Jan Mayen,SJ,41
+Tajikistan,TJ,40
+American Samoa,AS,38
+Palau,PW,35
+Greenland,GL,34
+Kosovo,XK,30
+Viet Nam,VN,30
+St Kitts and Nevis,KN,30
+European Union,EU,27
+Laos,LA,26
+Dominican Republic,DO,24
+Liechtenstein,LI,22
+Guinea-Bissau,GW,22
+Kyrgyzstan,KG,21
+Maldives,MV,18
+Congo Republic,CG,17
+The Gambia,GM,17
+Martinique,MQ,17
+Guinea,GN,16
+Togo,TG,16
+U.S. Virgin Islands,VI,15
+Suriname,SR,14
+Burundi,BI,14
+Bermuda,BM,14
+Afghanistan,AF,13
+Guam,GU,12
+Tanzania (United Republic of),TZ,12
+Haiti,HT,11
+Gibraltar,GI,10
+Central African Republic,CF,9
+Faroe Islands,FO,8
+Mauritania,MR,8
+Bahamas,BS,8
+Eswatini,SZ,5
+North Korea,KP,5
+Belize,BZ,5
+Congo (Democratic Republic of),CD,5
+Falkland Islands,FK,4
+British Virgin Islands,VG,4
+Eritrea,ER,4
+Tonga,TO,3
+Guyana,GY,3
+Liberia,LR,3
+South Sudan,SS,3
+Chad,TD,2
+Lesotho,LS,2
+"Bonaire, Sint Eustatius, and Saba",BQ,2
+Palestinian-administered areas,PS,2
+Jersey,JE,2
+Lao (People's Democratic Republic),LA,2
+Samoa,WS,1
+Cayman Islands,KY,1
+Micronesia,FM,1
+Andorra,AD,1
+Montserrat,MS,1
+Djibouti,DJ,1
+Sint Maarten,SX,1
+Cabo Verde,CV,1

@@ -1,0 +1,141 @@
+country_name,country_code,count
+United States,US,254770
+Italy,IT,103285
+France,FR,93417
+United Kingdom,GB,51856
+Germany,DE,33041
+Spain,ES,27905
+Japan,JP,23593
+Russia,RU,22305
+South Korea,KR,20160
+China,CN,16115
+Canada,CA,14188
+India,IN,13091
+Finland,FI,12801
+Switzerland,CH,12344
+Taiwan,TW,9056
+Brazil,BR,8472
+Belgium,BE,7873
+Poland,PL,7604
+Türkiye,TR,6734
+The Netherlands,NL,6186
+Greece,GR,6062
+Hungary,HU,5456
+Mexico,MX,5200
+Slovakia,SK,4255
+China (People's Republic of),CN,3317
+Australia,AU,3047
+Austria,AT,2903
+Croatia,HR,2756
+Bulgaria,BG,2739
+Sweden,SE,2662
+Slovenia,SI,2551
+Colombia,CO,2510
+Cyprus,CY,2305
+Norway,NO,2298
+Pakistan,PK,2237
+New Zealand,NZ,1990
+Ireland,IE,1980
+Portugal,PT,1915
+Czechia,CZ,1911
+Israel,IL,1848
+Serbia,RS,1704
+Georgia,GE,1689
+Puerto Rico,PR,1384
+Ukraine,UA,1380
+Uzbekistan,UZ,1247
+Denmark,DK,1203
+Iran,IR,1198
+Belarus,BY,1101
+Estonia,EE,1035
+Netherlands,NL,977
+Armenia,AM,908
+Argentina,AR,866
+Singapore,SG,586
+Chile,CL,560
+Hong Kong,HK,508
+Ecuador,EC,369
+Lithuania,LT,338
+Tanzania,TZ,278
+Egypt,EG,258
+Jordan,JO,218
+South Africa,ZA,182
+Russian Federation,RU,154
+Romania,RO,148
+Korea (Republic of),KR,124
+Ghana,GH,110
+Azerbaijan,AZ,107
+Tunisia,TN,83
+Iceland,IS,70
+Vietnam,VN,59
+Malaysia,MY,51
+Thailand,TH,46
+Iran (Islamic Republic of),IR,41
+Saudi Arabia,SA,41
+Montenegro,ME,38
+Czech Republic,CZ,35
+Algeria,DZ,34
+Uruguay,UY,34
+Bahrain,BH,33
+Morocco,MA,32
+Mongolia,MN,30
+Venezuela,VE,29
+Cuba,CU,26
+Turkey,TR,22
+Uganda,UG,21
+United Arab Emirates,AE,20
+Kazakhstan,KZ,20
+Philippines,PH,20
+Lebanon,LB,19
+Yemen,YE,19
+Tajikistan,TJ,18
+Latvia,LV,17
+Peru,PE,16
+Indonesia,ID,15
+Costa Rica,CR,14
+Qatar,QA,13
+Nigeria,NG,13
+Luxembourg,LU,10
+Cameroon,CM,8
+Ethiopia,ET,8
+Bolivia,BO,6
+Mozambique,MZ,6
+Bosnia and Herzegovina,BA,6
+Bangladesh,BD,6
+Cambodia,KH,5
+Oman,OM,5
+Mauritania,MR,5
+Nicaragua,NI,5
+Mauritius,MU,4
+North Macedonia,MK,4
+Bhutan,BT,4
+North Korea,KP,4
+Bermuda,BM,4
+Moldova,MD,4
+Brunei,BN,3
+Angola,AO,3
+Jamaica,JM,3
+Macao,MO,2
+Namibia,NA,2
+Sudan,SD,2
+Sri Lanka,LK,2
+Dominican Republic,DO,2
+Guadeloupe,GP,2
+Benin,BJ,2
+Burundi,BI,2
+Zimbabwe,ZW,2
+Palestine,PS,2
+Kuwait,KW,2
+Panama,PA,2
+European Union,EU,2
+Malta,MT,2
+Guatemala,GT,1
+Kenya,KE,1
+Senegal,SN,1
+Botswana,BW,1
+Malawi,MW,1
+Rwanda,RW,1
+Somalia,SO,1
+Mali,ML,1
+Madagascar,MG,1
+Barbados,BB,1

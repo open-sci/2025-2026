@@ -1,0 +1,223 @@
+country_name,country_code,count
+Italy,IT,681045
+United States,US,677973
+France,FR,481744
+United Kingdom,GB,224983
+Germany,DE,187803
+Spain,ES,158388
+China,CN,142489
+India,IN,89529
+Japan,JP,79356
+The Netherlands,NL,71487
+South Korea,KR,71077
+Switzerland,CH,68156
+Poland,PL,55022
+Australia,AU,53631
+Brazil,BR,53255
+Canada,CA,52606
+Belgium,BE,50268
+Russia,RU,47527
+Türkiye,TR,45133
+Finland,FI,37162
+Hungary,HU,32547
+Denmark,DK,28341
+Greece,GR,27479
+Austria,AT,27320
+Sweden,SE,26758
+Portugal,PT,25580
+Taiwan,TW,25456
+Mexico,MX,22076
+Czechia,CZ,18771
+Norway,NO,17145
+Croatia,HR,16673
+Iran,IR,14444
+Israel,IL,12804
+South Africa,ZA,12410
+Ireland,IE,11827
+Egypt,EG,11184
+Chile,CL,10826
+Bulgaria,BG,10622
+Slovakia,SK,9802
+Colombia,CO,9414
+Romania,RO,9227
+New Zealand,NZ,9176
+Netherlands,NL,9092
+Pakistan,PK,8857
+China (People's Republic of),CN,8662
+Ukraine,UA,7714
+Argentina,AR,6993
+Thailand,TH,6938
+Hong Kong,HK,6711
+Serbia,RS,6377
+Ecuador,EC,5888
+Malaysia,MY,5877
+Singapore,SG,5509
+Sri Lanka,LK,5493
+Cyprus,CY,4783
+Slovenia,SI,4314
+Estonia,EE,4276
+Armenia,AM,3997
+Georgia,GE,3904
+Lithuania,LT,3798
+Latvia,LV,3583
+Puerto Rico,PR,3559
+Saudi Arabia,SA,3199
+Qatar,QA,2882
+Belarus,BY,2823
+Kuwait,KW,2676
+Indonesia,ID,2665
+Montenegro,ME,2613
+Peru,PE,2280
+Korea (Republic of),KR,2010
+United Arab Emirates,AE,1955
+Turkey,TR,1826
+Azerbaijan,AZ,1764
+Morocco,MA,1682
+Vietnam,VN,1670
+Cuba,CU,1604
+Philippines,PH,1238
+Tunisia,TN,1114
+Russian Federation,RU,1016
+Lebanon,LB,971
+Nigeria,NG,937
+Luxembourg,LU,880
+Bangladesh,BD,841
+Ethiopia,ET,777
+Réunion,RE,757
+Czech Republic,CZ,725
+Iceland,IS,719
+Jordan,JO,607
+Monaco,MC,589
+Uruguay,UY,577
+Algeria,DZ,568
+Malta,MT,556
+Uganda,UG,555
+Iraq,IQ,509
+Ghana,GH,466
+Kenya,KE,457
+Uzbekistan,UZ,425
+Bahrain,BH,361
+Macao,MO,356
+North Macedonia,MK,339
+Palestine,PS,317
+Iran (Islamic Republic of),IR,317
+Guatemala,GT,307
+Kazakhstan,KZ,277
+Nepal,NP,277
+Namibia,NA,261
+Albania,AL,258
+Zimbabwe,ZW,254
+Oman,OM,241
+Bosnia and Herzegovina,BA,210
+Costa Rica,CR,204
+Cameroon,CM,202
+Tanzania,TZ,195
+Honduras,HN,188
+Mozambique,MZ,151
+Mongolia,MN,138
+Guadeloupe,GP,136
+Paraguay,PY,130
+Grenada,GD,123
+Jamaica,JM,123
+Cambodia,KH,120
+Zambia,ZM,115
+Madagascar,MG,114
+Panama,PA,109
+Antigua and Barbuda,AG,102
+Nicaragua,NI,99
+Malawi,MW,99
+Yemen,YE,95
+Senegal,SN,95
+Moldova,MD,92
+Burkina Faso,BF,90
+Myanmar,MM,82
+Fiji,FJ,78
+Sudan,SD,78
+Botswana,BW,78
+Venezuela,VE,76
+Benin,BJ,70
+Mauritius,MU,63
+Angola,AO,63
+Syria,SY,63
+DR Congo,CD,60
+Rwanda,RW,59
+Libya,LY,58
+Gabon,GA,58
+American Samoa,AS,56
+Ivory Coast,CI,47
+El Salvador,SV,44
+French Guiana,GF,44
+Bolivia,BO,39
+Brunei,BN,38
+New Caledonia,NC,37
+Liechtenstein,LI,35
+Mali,ML,33
+Somalia,SO,33
+Kosovo,XK,32
+St Kitts and Nevis,KN,29
+Martinique,MQ,28
+Trinidad and Tobago,TT,27
+Gibraltar,GI,27
+Dominican Republic,DO,26
+Sierra Leone,SL,25
+French Polynesia,PF,25
+Bhutan,BT,24
+Niger,NE,23
+Laos,LA,21
+Svalbard and Jan Mayen,SJ,18
+Tanzania (United Republic of),TZ,18
+Bermuda,BM,17
+Curaçao,CW,17
+Afghanistan,AF,15
+Oceania,OC,15
+Papua New Guinea,PG,15
+Congo Republic,CG,15
+The Gambia,GM,13
+Togo,TG,13
+Eswatini,SZ,13
+Saint Lucia,LC,12
+Faroe Islands,FO,12
+Barbados,BB,11
+Tajikistan,TJ,11
+Kyrgyzstan,KG,11
+Bahamas,BS,11
+Palau,PW,10
+Viet Nam,VN,10
+Greenland,GL,10
+Liberia,LR,9
+Burundi,BI,8
+Haiti,HT,6
+European Union,EU,5
+Samoa,WS,5
+Solomon Islands,SB,5
+Guyana,GY,4
+Cabo Verde,CV,4
+Cayman Islands,KY,4
+Seychelles,SC,4
+Congo (Democratic Republic of),CD,4
+Turkmenistan,TM,3
+Guinea-Bissau,GW,3
+Vanuatu,VU,3
+Central African Republic,CF,3
+Micronesia,FM,2
+Guinea,GN,2
+Guam,GU,2
+Dominica,DM,2
+Lesotho,LS,2
+Andorra,AD,2
+Mauritania,MR,2
+Former Yugoslav Republic of Macedonia,MK,2
+San Marino,SM,2
+Lao (People's Democratic Republic),LA,1
+Mayotte,YT,1
+Maldives,MV,1
+Jersey,JE,1
+Palestinian-administered areas,PS,1
+South Sudan,SS,1
+Suriname,SR,1
+Vatican City,VA,1
+Cape Verde,CV,1
+Djibouti,DJ,1
+"Bonaire, Sint Eustatius, and Saba",BQ,1
+Åland,AX,1
+Belize,BZ,1
