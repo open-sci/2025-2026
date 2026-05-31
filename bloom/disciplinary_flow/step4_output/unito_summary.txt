@@ -42,8 +42,18 @@ Done.
 ============================================================
 4 Aggregation
 ============================================================
+Total input rows: 5,643,596
 
-In all 14,398,862 citations, there are:
-6,371,152 incoming citations (44.25%)
-7,411,999 outgoing citations (51.48%)
-615,711 internal citations (4.28%).
+BEFORE EXPANSION (Input File Counts):
+  Incoming:  2,679,480 (47.48%)
+  Outgoing:  2,729,672 (48.37%)
+  Internal:  234,444 (4.15%)
+  Total:     5,643,596
+
+AFTER EXPANSION (Individual Discipline Citations):
+  Incoming:  6,371,152 (44.25%)
+  Outgoing:  7,411,999 (51.48%)
+  Internal:  615,711 (4.28%)
+  Total:     14,398,862
+
+Expansion Ratio: 2.55x
