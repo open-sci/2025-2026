@@ -27,10 +27,9 @@ OUTPUT_METADATA_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts.metada
 # Universities to process
 UNIVERSITIES = ("SNS", "UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO")
 
-# 5-year publication-year blocks, starting from 2000 (2026+ and pre-2000 excluded).
-# The first block spans 6 years (2000-2005) as requested; the rest span 5 years each.
+# 5-year publication-year blocks, starting from 2001 (2026+ and pre-2001 excluded).
 YEAR_BLOCKS = [
-    (2000, 2005, "2000-2005"),
+    (2001, 2005, "2001-2005"),
     (2006, 2010, "2006-2010"),
     (2011, 2015, "2011-2015"),
     (2016, 2020, "2016-2020"),

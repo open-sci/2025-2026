@@ -1,24 +1,24 @@
 {
   "university": "UNIMI",
-  "ended_at": "2026-05-31T11:29:41.324366+00:00",
+  "ended_at": "2026-05-31T11:54:14.314711+00:00",
   "rows_read": 12190001,
   "year_blocks": [
-    "2000-2005",
+    "2001-2005",
     "2006-2010",
     "2011-2015",
     "2016-2020",
     "2021-2025"
   ],
   "blocks": {
-    "2000-2005": {
-      "unique_organizations_incoming": 16240,
-      "unique_organizations_outgoing": 23602,
+    "2001-2005": {
+      "unique_organizations_incoming": 15756,
+      "unique_organizations_outgoing": 22862,
       "unique_countries_incoming": 188,
-      "unique_countries_outgoing": 206,
-      "output_org_incoming_csv_size_bytes": 1924433,
-      "output_org_outgoing_csv_size_bytes": 2803226,
-      "output_country_incoming_csv_size_bytes": 3115,
-      "output_country_outgoing_csv_size_bytes": 3502
+      "unique_countries_outgoing": 203,
+      "output_org_incoming_csv_size_bytes": 1866488,
+      "output_org_outgoing_csv_size_bytes": 2715871,
+      "output_country_incoming_csv_size_bytes": 3109,
+      "output_country_outgoing_csv_size_bytes": 3429
     },
     "2006-2010": {
       "unique_organizations_incoming": 26450,
