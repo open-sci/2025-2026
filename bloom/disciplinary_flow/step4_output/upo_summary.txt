@@ -11,17 +11,16 @@ Skipped/Not found:                0 (0.00%)
 ============================================================
 2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
 ============================================================
-Total Records: 1048115
+Total Records: 1002555
 Verification: No duplicates created during mapping.
 
-Citing Match Rate (SCImago): 88.20%
-Citing Match Rate (DOAJ):    26.84%
+Citing Match Rate (SCImago): 89.63%
+Citing Match Rate (DOAJ):    27.37%
 
-Cited Match Rate (SCImago):  90.37%
-Cited Match Rate (DOAJ):     18.50%
-
-
+Cited Match Rate (SCImago):  92.93%
+Cited Match Rate (DOAJ):     19.06%
 ============================================================
+
 3 ADD LOC CATEGORY COMPLETE
 ============================================================
 JSON index built: 7 area labels, 175 category labels
