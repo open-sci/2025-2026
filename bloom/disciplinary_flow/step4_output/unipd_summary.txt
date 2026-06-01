@@ -42,7 +42,16 @@ CSV loaded: 9049935 rows
 4 Aggregation
 ============================================================
 
-In all 19,742,702 citations, there are:
-8,697,780 incoming citations (44.06%)
-10,075,862 outgoing citations (51.04%)
-969,060 internal citations (4.91%).
+Total input rows: 8,107,419
+
+BEFORE EXPANSION (Input File Counts):
+  Incoming:  3,826,935 (47.20%)
+  Outgoing:  3,882,773 (47.89%)
+  Internal:  397,711 (4.91%)
+  Total:     8,107,419
+
+AFTER EXPANSION (Individual Discipline Citations):
+  Incoming:  8,697,780 (44.06%)
+  Outgoing:  10,075,862 (51.04%)
+  Internal:  969,060 (4.91%)
+  Total:     19,742,702
