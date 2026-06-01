@@ -1,6 +1,7 @@
 [
     {
         "university":"SNS",
+        "iris_oc_index" : 931354,
         "step 1":{
             "input": 931354,
             "matched": 897919,
@@ -36,6 +37,7 @@
     },
     {
         "university":"UNIBO",
+        "iris_oc_index" : 9992645,
         "step 1":{
             "input": 9992645,
             "matched": 9602472,
@@ -71,6 +73,7 @@
     },
     {
         "university":"UNIMI",
+        "iris_oc_index" : 12470167,
         "step 1":{
             "input": 12470167,
             "matched": 11901684,
@@ -106,6 +109,7 @@
     },
     {
         "university":"UNIPD",
+        "iris_oc_index" : 10247005,
         "step 1":{
             "input": 10247005,
             "matched": 9829615,
@@ -140,6 +144,7 @@
     },
     {
         "university":"UNITO",
+        "iris_oc_index" : 6977099,
         "step 1":{
             "input": 6977099,
             "matched": 6678619,
@@ -174,6 +179,7 @@
     },
     {
         "university":"UPO",
+        "iris_oc_index" : 1048115,
         "step 1":{
             "input": 1048115,
             "matched": 1002555,
