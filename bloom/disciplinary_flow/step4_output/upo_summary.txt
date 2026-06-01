@@ -47,9 +47,18 @@ Done.
 Total input: 847,479 rows.
 Invalid data: 0.00%, 0 rows
 Usable data: 100.00%, 847,479 rows
-Aggregation Done.
 
-In all 1,917,598 citations, there are:
-874,688 incoming citations (45.61%)
-973,273 outgoing citations (50.75%)
-69,637 internal citations (3.63%).
+BEFORE EXPANSION (Input File Counts):
+  Incoming:  403,768 (47.64%)
+  Outgoing:  410,852 (48.48%)
+  Internal:  32,859 (3.88%)
+  Total:     847,479
+
+AFTER EXPANSION (Individual Discipline Citations):
+  Incoming:  874,688 (45.61%)
+  Outgoing:  973,273 (50.75%)
+  Internal:  69,637 (3.63%)
+  Total:     1,917,598
+
+Expansion Ratio: 2.26x
+========================
