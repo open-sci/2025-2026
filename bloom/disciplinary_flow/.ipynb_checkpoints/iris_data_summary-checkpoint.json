@@ -129,15 +129,15 @@
             "overall citations": 8107419,
             "discipline citations": 19742702,
             "incoming": {
-                "overall citations": 3826935,
+                "overall citations": 0,
                 "discipline citations": 8697780
             },
             "outgoing": {
-                "overall citations": 3882773,
+                "overall citations": 0,
                 "discipline citations": 10075862
             },
             "internal": {
-                "overall citations": 397711,
+                "overall citations": 0,
                 "discipline citations": 969060
             }
         }
@@ -187,28 +187,28 @@
         },
         "step 2":{
             "input": 1002555,
-            "matched": 950629,
-            "no match": 5011
+            "matched":0,
+            "no match":0
         },
         "step 3":{
-            "input": 950629,
-            "matched": 847479,
-            "no match": 103150
+            "input":0,
+            "matched":0,
+            "no match":0
         },
         "final output":{
-            "overall citations": 847479,
-            "discipline citations": 1917598,
+            "overall citations": 0,
+            "discipline citations": 0,
             "incoming": {
-                "overall citations": 403768,
-                "discipline citations": 874688
+                "overall citations": 0,
+                "discipline citations": 0
             },
             "outgoing": {
-                "overall citations": 410852,
-                "discipline citations": 973273
+                "overall citations": 0,
+                "discipline citations": 0
             },
             "internal": {
-                "overall citations": 32859,
-                "discipline citations": 69637
+                "overall citations": 0,
+                "discipline citations": 0
             }
         }
     }
