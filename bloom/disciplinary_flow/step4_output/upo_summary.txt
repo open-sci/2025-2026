@@ -32,13 +32,13 @@ Cited Match Rate (DOAJ): 19.45%
 3 ADD LOC CATEGORY COMPLETE
 ============================================================
 JSON index built: 7 area labels, 175 category labels
-CSV loaded: 1002555 rows
-  Multidisciplinary : 66019 columns
-  Others            : 29529 columns
+CSV loaded: 950629 rows
+  Multidisciplinary : 64352 columns
+  Others            : 27595 columns
 
 Done.
-  output_cat.csv : 847479 rows (84.5%) — both sides resolved
-  miss_loc.csv   : 155076 rows (15.5%) — at least one side missing
+  output_cat.csv : 847479 rows (89.1%) — both sides resolved
+  miss_loc.csv   : 103150 rows (10.9%) — at least one side missing
 
 
 ============================================================
