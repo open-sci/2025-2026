@@ -17,7 +17,8 @@
             "no match": 132525
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 687851,
+            "discipline citations": 1383693,
             "incoming": {
                 "overall citations": 339995,
                 "discipline citations": 647522
@@ -51,18 +52,19 @@
             "no match": 886659
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 7907585,
+            "discipline citations": 20612378,
             "incoming": {
-                "overall citations": 339995,
-                "discipline citations": 647522
+                "overall citations": 3701507,
+                "discipline citations": 9022405
             },
             "outgoing": {
-                "overall citations": 306352,
-                "discipline citations": 663057
+                "overall citations": 3822439,
+                "discipline citations": 10607139
             },
             "internal": {
-                "overall citations": 41504,
-                "discipline citations": 73114
+                "overall citations": 383639,
+                "discipline citations": 982834
             }
         }
         
@@ -85,18 +87,19 @@
             "no match": 1171639
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 9998106,
+            "discipline citations": 23119817,
             "incoming": {
-                "overall citations": 339995,
-                "discipline citations": 647522
+                "overall citations": 5197996,
+                "discipline citations": 11486365
             },
             "outgoing": {
-                "overall citations": 306352,
-                "discipline citations": 663057
+                "overall citations": 4377188,
+                "discipline citations": 10620869
             },
             "internal": {
-                "overall citations": 41504,
-                "discipline citations": 73114
+                "overall citations": 422922,
+                "discipline citations": 1012583
             }
         }
         
@@ -119,18 +122,19 @@
             "no match": 942516
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 8107419,
+            "discipline citations": 19742702,
             "incoming": {
-                "overall citations": 339995,
-                "discipline citations": 647522
+                "overall citations": 0,
+                "discipline citations": 8697780
             },
             "outgoing": {
-                "overall citations": 306352,
-                "discipline citations": 663057
+                "overall citations": 0,
+                "discipline citations": 10075862
             },
             "internal": {
-                "overall citations": 41504,
-                "discipline citations": 73114
+                "overall citations": 0,
+                "discipline citations": 969060
             }
         }
     },
@@ -152,18 +156,19 @@
             "no match": 620894
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 5643596,
+            "discipline citations": 6371152,
             "incoming": {
-                "overall citations": 339995,
-                "discipline citations": 647522
+                "overall citations": 2679480,
+                "discipline citations": 6371152
             },
             "outgoing": {
-                "overall citations": 306352,
-                "discipline citations": 663057
+                "overall citations": 2729672,
+                "discipline citations": 7411999
             },
             "internal": {
-                "overall citations": 41504,
-                "discipline citations": 73114
+                "overall citations": 234444,
+                "discipline citations": 615711
             }
         }
     },
@@ -171,11 +176,11 @@
         "university":"UPO",
         "step 1":{
             "input": 1048115,
-            "matched":0,
-            "no match":0
+            "matched": 1002555,
+            "no match": 46020
         },
         "step 2":{
-            "input":0,
+            "input": 1002555,
             "matched":0,
             "no match":0
         },
@@ -185,18 +190,19 @@
             "no match":0
         },
         "final output":{
-            "total citations": 687851,
+            "overall citations": 0,
+            "discipline citations": 0,
             "incoming": {
-                "overall citations": 339995,
-                "discipline citations": 647522
+                "overall citations": 0,
+                "discipline citations": 0
             },
             "outgoing": {
-                "overall citations": 306352,
-                "discipline citations": 663057
+                "overall citations": 0,
+                "discipline citations": 0
             },
             "internal": {
-                "overall citations": 41504,
-                "discipline citations": 73114
+                "overall citations": 0,
+                "discipline citations": 0
             }
         }
     }
