@@ -11,14 +11,21 @@ Skipped/Not found:                0 (0.00%)
 ============================================================
 2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
 ============================================================
-Total Records: 1002555
+Initial Records: 1002555
+
+Records With ISSNs On Both Sides: 955640
+Records Without ISSNs: 46915
+
+Matched Records: 950629
+Unmatched Records: 5011
+
 Verification: No duplicates created during mapping.
 
-Citing Match Rate (SCImago): 89.63%
-Citing Match Rate (DOAJ):    27.37%
+Citing Match Rate (SCImago): 93.93%
+Citing Match Rate (DOAJ): 28.71%
 
-Cited Match Rate (SCImago):  92.93%
-Cited Match Rate (DOAJ):     19.06%
+Cited Match Rate (SCImago): 94.18%
+Cited Match Rate (DOAJ): 19.45%
 
 
 ============================================================
