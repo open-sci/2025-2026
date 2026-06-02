@@ -1,0 +1,158 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,551301,SNS,2011-2015,incoming
+Italy,IT,262477,SNS,2011-2015,incoming
+France,FR,255269,SNS,2011-2015,incoming
+United Kingdom,GB,125426,SNS,2011-2015,incoming
+Germany,DE,99182,SNS,2011-2015,incoming
+Spain,ES,79159,SNS,2011-2015,incoming
+Russia,RU,76108,SNS,2011-2015,incoming
+Türkiye,TR,53481,SNS,2011-2015,incoming
+India,IN,51605,SNS,2011-2015,incoming
+China,CN,51535,SNS,2011-2015,incoming
+South Korea,KR,48079,SNS,2011-2015,incoming
+Japan,JP,46687,SNS,2011-2015,incoming
+Switzerland,CH,44355,SNS,2011-2015,incoming
+Brazil,BR,41372,SNS,2011-2015,incoming
+Poland,PL,31372,SNS,2011-2015,incoming
+Belgium,BE,30350,SNS,2011-2015,incoming
+Hungary,HU,28502,SNS,2011-2015,incoming
+Finland,FI,25828,SNS,2011-2015,incoming
+Canada,CA,24076,SNS,2011-2015,incoming
+The Netherlands,NL,23916,SNS,2011-2015,incoming
+Mexico,MX,22909,SNS,2011-2015,incoming
+Greece,GR,22175,SNS,2011-2015,incoming
+Taiwan,TW,19855,SNS,2011-2015,incoming
+Australia,AU,12215,SNS,2011-2015,incoming
+Czechia,CZ,11963,SNS,2011-2015,incoming
+Croatia,HR,11384,SNS,2011-2015,incoming
+Bulgaria,BG,11291,SNS,2011-2015,incoming
+Austria,AT,10752,SNS,2011-2015,incoming
+Iran,IR,10411,SNS,2011-2015,incoming
+Colombia,CO,9937,SNS,2011-2015,incoming
+Egypt,EG,9186,SNS,2011-2015,incoming
+Sweden,SE,8736,SNS,2011-2015,incoming
+New Zealand,NZ,8438,SNS,2011-2015,incoming
+Portugal,PT,8340,SNS,2011-2015,incoming
+Ukraine,UA,7981,SNS,2011-2015,incoming
+Pakistan,PK,7223,SNS,2011-2015,incoming
+China (People's Republic of),CN,6870,SNS,2011-2015,incoming
+Serbia,RS,6541,SNS,2011-2015,incoming
+Israel,IL,6447,SNS,2011-2015,incoming
+Belarus,BY,6266,SNS,2011-2015,incoming
+Slovakia,SK,6224,SNS,2011-2015,incoming
+Ireland,IE,6189,SNS,2011-2015,incoming
+Norway,NO,6127,SNS,2011-2015,incoming
+Argentina,AR,6107,SNS,2011-2015,incoming
+Puerto Rico,PR,5630,SNS,2011-2015,incoming
+Georgia,GE,5313,SNS,2011-2015,incoming
+Cyprus,CY,4710,SNS,2011-2015,incoming
+Estonia,EE,4478,SNS,2011-2015,incoming
+Denmark,DK,4382,SNS,2011-2015,incoming
+Romania,RO,4373,SNS,2011-2015,incoming
+Lithuania,LT,4147,SNS,2011-2015,incoming
+Armenia,AM,4108,SNS,2011-2015,incoming
+Slovenia,SI,4066,SNS,2011-2015,incoming
+South Africa,ZA,3712,SNS,2011-2015,incoming
+Chile,CL,3480,SNS,2011-2015,incoming
+Morocco,MA,2794,SNS,2011-2015,incoming
+Thailand,TH,2390,SNS,2011-2015,incoming
+Hong Kong,HK,2248,SNS,2011-2015,incoming
+Azerbaijan,AZ,1963,SNS,2011-2015,incoming
+Singapore,SG,1932,SNS,2011-2015,incoming
+Malaysia,MY,1890,SNS,2011-2015,incoming
+Saudi Arabia,SA,1878,SNS,2011-2015,incoming
+Netherlands,NL,1650,SNS,2011-2015,incoming
+Vietnam,VN,1066,SNS,2011-2015,incoming
+Russian Federation,RU,799,SNS,2011-2015,incoming
+Czech Republic,CZ,605,SNS,2011-2015,incoming
+Ecuador,EC,604,SNS,2011-2015,incoming
+Jordan,JO,540,SNS,2011-2015,incoming
+Uzbekistan,UZ,387,SNS,2011-2015,incoming
+Qatar,QA,361,SNS,2011-2015,incoming
+Korea (Republic of),KR,307,SNS,2011-2015,incoming
+Sri Lanka,LK,297,SNS,2011-2015,incoming
+Turkey,TR,285,SNS,2011-2015,incoming
+Peru,PE,248,SNS,2011-2015,incoming
+Iceland,IS,209,SNS,2011-2015,incoming
+Algeria,DZ,199,SNS,2011-2015,incoming
+Cuba,CU,169,SNS,2011-2015,incoming
+Tunisia,TN,138,SNS,2011-2015,incoming
+Tanzania,TZ,104,SNS,2011-2015,incoming
+Iran (Islamic Republic of),IR,102,SNS,2011-2015,incoming
+United Arab Emirates,AE,95,SNS,2011-2015,incoming
+Philippines,PH,85,SNS,2011-2015,incoming
+Uruguay,UY,83,SNS,2011-2015,incoming
+Oman,OM,83,SNS,2011-2015,incoming
+Luxembourg,LU,68,SNS,2011-2015,incoming
+Bahrain,BH,66,SNS,2011-2015,incoming
+Indonesia,ID,65,SNS,2011-2015,incoming
+Venezuela,VE,64,SNS,2011-2015,incoming
+Ghana,GH,58,SNS,2011-2015,incoming
+Kazakhstan,KZ,52,SNS,2011-2015,incoming
+Lebanon,LB,51,SNS,2011-2015,incoming
+Cameroon,CM,51,SNS,2011-2015,incoming
+Bosnia and Herzegovina,BA,50,SNS,2011-2015,incoming
+Bangladesh,BD,42,SNS,2011-2015,incoming
+Tajikistan,TJ,37,SNS,2011-2015,incoming
+Latvia,LV,36,SNS,2011-2015,incoming
+Nigeria,NG,36,SNS,2011-2015,incoming
+Uganda,UG,33,SNS,2011-2015,incoming
+Montenegro,ME,32,SNS,2011-2015,incoming
+Zimbabwe,ZW,28,SNS,2011-2015,incoming
+Malta,MT,26,SNS,2011-2015,incoming
+Macao,MO,26,SNS,2011-2015,incoming
+Mongolia,MN,25,SNS,2011-2015,incoming
+Costa Rica,CR,23,SNS,2011-2015,incoming
+Mozambique,MZ,21,SNS,2011-2015,incoming
+Yemen,YE,18,SNS,2011-2015,incoming
+Ethiopia,ET,18,SNS,2011-2015,incoming
+Nepal,NP,17,SNS,2011-2015,incoming
+Moldova,MD,15,SNS,2011-2015,incoming
+Cambodia,KH,14,SNS,2011-2015,incoming
+Benin,BJ,13,SNS,2011-2015,incoming
+Guadeloupe,GP,13,SNS,2011-2015,incoming
+Guatemala,GT,12,SNS,2011-2015,incoming
+Burundi,BI,11,SNS,2011-2015,incoming
+Palestine,PS,11,SNS,2011-2015,incoming
+Kuwait,KW,11,SNS,2011-2015,incoming
+Madagascar,MG,11,SNS,2011-2015,incoming
+Paraguay,PY,10,SNS,2011-2015,incoming
+Bhutan,BT,9,SNS,2011-2015,incoming
+Mauritius,MU,8,SNS,2011-2015,incoming
+Jamaica,JM,8,SNS,2011-2015,incoming
+Kenya,KE,8,SNS,2011-2015,incoming
+DR Congo,CD,8,SNS,2011-2015,incoming
+Réunion,RE,7,SNS,2011-2015,incoming
+Nicaragua,NI,6,SNS,2011-2015,incoming
+New Caledonia,NC,6,SNS,2011-2015,incoming
+Iraq,IQ,6,SNS,2011-2015,incoming
+Viet Nam,VN,6,SNS,2011-2015,incoming
+Senegal,SN,6,SNS,2011-2015,incoming
+North Macedonia,MK,6,SNS,2011-2015,incoming
+Namibia,,6,SNS,2011-2015,incoming
+Sudan,SD,5,SNS,2011-2015,incoming
+Suriname,SR,5,SNS,2011-2015,incoming
+Burkina Faso,BF,5,SNS,2011-2015,incoming
+Angola,AO,4,SNS,2011-2015,incoming
+Albania,AL,4,SNS,2011-2015,incoming
+Barbados,BB,3,SNS,2011-2015,incoming
+Djibouti,DJ,3,SNS,2011-2015,incoming
+Bolivia,BO,2,SNS,2011-2015,incoming
+Antigua and Barbuda,AG,2,SNS,2011-2015,incoming
+Ivory Coast,CI,2,SNS,2011-2015,incoming
+Libya,LY,2,SNS,2011-2015,incoming
+Maldives,MV,2,SNS,2011-2015,incoming
+U.S. Virgin Islands,VI,1,SNS,2011-2015,incoming
+British Virgin Islands,VG,1,SNS,2011-2015,incoming
+Laos,LA,1,SNS,2011-2015,incoming
+Botswana,BW,1,SNS,2011-2015,incoming
+Syria,SY,1,SNS,2011-2015,incoming
+Somalia,SO,1,SNS,2011-2015,incoming
+Gabon,GA,1,SNS,2011-2015,incoming
+Belize,BZ,1,SNS,2011-2015,incoming
+Trinidad and Tobago,TT,1,SNS,2011-2015,incoming
+Zambia,ZM,1,SNS,2011-2015,incoming
+Malawi,MW,1,SNS,2011-2015,incoming
+Papua New Guinea,PG,1,SNS,2011-2015,incoming
+North Korea,KP,1,SNS,2011-2015,incoming
+Syrian Arab Republic,SY,1,SNS,2011-2015,incoming

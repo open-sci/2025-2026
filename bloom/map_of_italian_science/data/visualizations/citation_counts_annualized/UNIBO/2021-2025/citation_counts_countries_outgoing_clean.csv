@@ -1,0 +1,228 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,870973,UNIBO,2021-2025,outgoing
+Italy,IT,760816,UNIBO,2021-2025,outgoing
+France,FR,622902,UNIBO,2021-2025,outgoing
+United Kingdom,GB,294118,UNIBO,2021-2025,outgoing
+Germany,DE,254491,UNIBO,2021-2025,outgoing
+Spain,ES,197823,UNIBO,2021-2025,outgoing
+China,CN,179870,UNIBO,2021-2025,outgoing
+Japan,JP,117110,UNIBO,2021-2025,outgoing
+India,IN,101820,UNIBO,2021-2025,outgoing
+The Netherlands,NL,97692,UNIBO,2021-2025,outgoing
+Switzerland,CH,84572,UNIBO,2021-2025,outgoing
+Türkiye,TR,81211,UNIBO,2021-2025,outgoing
+Canada,CA,80755,UNIBO,2021-2025,outgoing
+South Korea,KR,80608,UNIBO,2021-2025,outgoing
+Poland,PL,79000,UNIBO,2021-2025,outgoing
+Australia,AU,74040,UNIBO,2021-2025,outgoing
+Brazil,BR,73295,UNIBO,2021-2025,outgoing
+Russia,RU,65679,UNIBO,2021-2025,outgoing
+Greece,GR,49814,UNIBO,2021-2025,outgoing
+Belgium,BE,49444,UNIBO,2021-2025,outgoing
+Finland,FI,44158,UNIBO,2021-2025,outgoing
+Portugal,PT,38785,UNIBO,2021-2025,outgoing
+Sweden,SE,36166,UNIBO,2021-2025,outgoing
+Denmark,DK,36068,UNIBO,2021-2025,outgoing
+Taiwan,TW,35901,UNIBO,2021-2025,outgoing
+Czechia,CZ,34677,UNIBO,2021-2025,outgoing
+Hungary,HU,33167,UNIBO,2021-2025,outgoing
+Romania,RO,31734,UNIBO,2021-2025,outgoing
+Austria,AT,31549,UNIBO,2021-2025,outgoing
+Chile,CL,29968,UNIBO,2021-2025,outgoing
+South Africa,ZA,28937,UNIBO,2021-2025,outgoing
+Norway,NO,27223,UNIBO,2021-2025,outgoing
+Mexico,MX,25532,UNIBO,2021-2025,outgoing
+Israel,IL,22933,UNIBO,2021-2025,outgoing
+Argentina,AR,22006,UNIBO,2021-2025,outgoing
+Slovakia,SK,21255,UNIBO,2021-2025,outgoing
+Iran,IR,20920,UNIBO,2021-2025,outgoing
+Croatia,HR,18996,UNIBO,2021-2025,outgoing
+Colombia,CO,18629,UNIBO,2021-2025,outgoing
+Hong Kong,HK,16965,UNIBO,2021-2025,outgoing
+Egypt,EG,15043,UNIBO,2021-2025,outgoing
+Morocco,MA,13974,UNIBO,2021-2025,outgoing
+Bulgaria,BG,13536,UNIBO,2021-2025,outgoing
+Ireland,IE,13300,UNIBO,2021-2025,outgoing
+Serbia,RS,12521,UNIBO,2021-2025,outgoing
+Pakistan,PK,11891,UNIBO,2021-2025,outgoing
+China (People's Republic of),CN,11360,UNIBO,2021-2025,outgoing
+Netherlands,NL,10593,UNIBO,2021-2025,outgoing
+Ukraine,UA,9928,UNIBO,2021-2025,outgoing
+Georgia,GE,9410,UNIBO,2021-2025,outgoing
+New Zealand,NZ,8538,UNIBO,2021-2025,outgoing
+Ecuador,EC,8523,UNIBO,2021-2025,outgoing
+United Arab Emirates,AE,8068,UNIBO,2021-2025,outgoing
+Sri Lanka,LK,7755,UNIBO,2021-2025,outgoing
+Azerbaijan,AZ,7649,UNIBO,2021-2025,outgoing
+Thailand,TH,7587,UNIBO,2021-2025,outgoing
+Malaysia,MY,7393,UNIBO,2021-2025,outgoing
+Philippines,PH,6782,UNIBO,2021-2025,outgoing
+Belarus,BY,6635,UNIBO,2021-2025,outgoing
+Slovenia,SI,6564,UNIBO,2021-2025,outgoing
+Cyprus,CY,6049,UNIBO,2021-2025,outgoing
+Singapore,SG,6011,UNIBO,2021-2025,outgoing
+Estonia,EE,5512,UNIBO,2021-2025,outgoing
+Armenia,AM,5302,UNIBO,2021-2025,outgoing
+Latvia,LV,5088,UNIBO,2021-2025,outgoing
+Lithuania,LT,4891,UNIBO,2021-2025,outgoing
+Puerto Rico,PR,4686,UNIBO,2021-2025,outgoing
+Saudi Arabia,SA,4455,UNIBO,2021-2025,outgoing
+Kuwait,KW,3685,UNIBO,2021-2025,outgoing
+Qatar,QA,3597,UNIBO,2021-2025,outgoing
+Montenegro,ME,3554,UNIBO,2021-2025,outgoing
+Indonesia,ID,3487,UNIBO,2021-2025,outgoing
+Peru,PE,2821,UNIBO,2021-2025,outgoing
+Turkey,TR,2398,UNIBO,2021-2025,outgoing
+Korea (Republic of),KR,2195,UNIBO,2021-2025,outgoing
+Vietnam,VN,2183,UNIBO,2021-2025,outgoing
+Nigeria,NG,2017,UNIBO,2021-2025,outgoing
+Ethiopia,ET,1989,UNIBO,2021-2025,outgoing
+Cuba,CU,1875,UNIBO,2021-2025,outgoing
+Mongolia,MN,1399,UNIBO,2021-2025,outgoing
+Tunisia,TN,1351,UNIBO,2021-2025,outgoing
+Bangladesh,BD,1298,UNIBO,2021-2025,outgoing
+Lebanon,LB,1277,UNIBO,2021-2025,outgoing
+Russian Federation,RU,1114,UNIBO,2021-2025,outgoing
+Jordan,JO,1056,UNIBO,2021-2025,outgoing
+Palestine,PS,1028,UNIBO,2021-2025,outgoing
+Iraq,IQ,937,UNIBO,2021-2025,outgoing
+Luxembourg,LU,926,UNIBO,2021-2025,outgoing
+Czech Republic,CZ,860,UNIBO,2021-2025,outgoing
+Iceland,IS,696,UNIBO,2021-2025,outgoing
+Kenya,KE,684,UNIBO,2021-2025,outgoing
+Ghana,GH,673,UNIBO,2021-2025,outgoing
+North Macedonia,MK,585,UNIBO,2021-2025,outgoing
+Malta,MT,585,UNIBO,2021-2025,outgoing
+Algeria,DZ,537,UNIBO,2021-2025,outgoing
+Iran (Islamic Republic of),IR,530,UNIBO,2021-2025,outgoing
+Uganda,UG,519,UNIBO,2021-2025,outgoing
+Uruguay,UY,502,UNIBO,2021-2025,outgoing
+Monaco,MC,489,UNIBO,2021-2025,outgoing
+Uzbekistan,UZ,448,UNIBO,2021-2025,outgoing
+Bahrain,BH,434,UNIBO,2021-2025,outgoing
+Nepal,NP,404,UNIBO,2021-2025,outgoing
+Guatemala,GT,383,UNIBO,2021-2025,outgoing
+Zimbabwe,ZW,380,UNIBO,2021-2025,outgoing
+Kazakhstan,KZ,375,UNIBO,2021-2025,outgoing
+Bosnia and Herzegovina,BA,364,UNIBO,2021-2025,outgoing
+Cameroon,CM,356,UNIBO,2021-2025,outgoing
+Macao,MO,334,UNIBO,2021-2025,outgoing
+Oman,OM,293,UNIBO,2021-2025,outgoing
+Tanzania,TZ,274,UNIBO,2021-2025,outgoing
+Costa Rica,CR,259,UNIBO,2021-2025,outgoing
+Réunion,RE,230,UNIBO,2021-2025,outgoing
+Honduras,HN,223,UNIBO,2021-2025,outgoing
+Yemen,YE,191,UNIBO,2021-2025,outgoing
+Albania,AL,190,UNIBO,2021-2025,outgoing
+Venezuela,VE,189,UNIBO,2021-2025,outgoing
+Paraguay,PY,179,UNIBO,2021-2025,outgoing
+Guadeloupe,GP,165,UNIBO,2021-2025,outgoing
+Mozambique,MZ,164,UNIBO,2021-2025,outgoing
+Myanmar,MM,156,UNIBO,2021-2025,outgoing
+Panama,PA,147,UNIBO,2021-2025,outgoing
+Botswana,BW,143,UNIBO,2021-2025,outgoing
+Jamaica,JM,136,UNIBO,2021-2025,outgoing
+Madagascar,MG,134,UNIBO,2021-2025,outgoing
+San Marino,SM,131,UNIBO,2021-2025,outgoing
+Kosovo,XK,130,UNIBO,2021-2025,outgoing
+Benin,BJ,125,UNIBO,2021-2025,outgoing
+DR Congo,CD,121,UNIBO,2021-2025,outgoing
+Cambodia,KH,120,UNIBO,2021-2025,outgoing
+Zambia,ZM,115,UNIBO,2021-2025,outgoing
+Brunei,BN,114,UNIBO,2021-2025,outgoing
+Antigua and Barbuda,AG,108,UNIBO,2021-2025,outgoing
+Moldova,MD,101,UNIBO,2021-2025,outgoing
+Ivory Coast,CI,100,UNIBO,2021-2025,outgoing
+New Caledonia,NC,100,UNIBO,2021-2025,outgoing
+Malawi,MW,96,UNIBO,2021-2025,outgoing
+Rwanda,RW,96,UNIBO,2021-2025,outgoing
+Senegal,SN,96,UNIBO,2021-2025,outgoing
+Angola,AO,95,UNIBO,2021-2025,outgoing
+Sudan,SD,94,UNIBO,2021-2025,outgoing
+Nicaragua,NI,92,UNIBO,2021-2025,outgoing
+American Samoa,AS,87,UNIBO,2021-2025,outgoing
+Libya,LY,84,UNIBO,2021-2025,outgoing
+El Salvador,SV,83,UNIBO,2021-2025,outgoing
+Namibia,,76,UNIBO,2021-2025,outgoing
+Kyrgyzstan,KG,70,UNIBO,2021-2025,outgoing
+Bolivia,BO,66,UNIBO,2021-2025,outgoing
+Fiji,FJ,66,UNIBO,2021-2025,outgoing
+Burkina Faso,BF,64,UNIBO,2021-2025,outgoing
+French Guiana,GF,63,UNIBO,2021-2025,outgoing
+Grenada,GD,58,UNIBO,2021-2025,outgoing
+Trinidad and Tobago,TT,51,UNIBO,2021-2025,outgoing
+Martinique,MQ,49,UNIBO,2021-2025,outgoing
+Dominican Republic,DO,49,UNIBO,2021-2025,outgoing
+Syria,SY,45,UNIBO,2021-2025,outgoing
+Viet Nam,VN,45,UNIBO,2021-2025,outgoing
+The Gambia,GM,45,UNIBO,2021-2025,outgoing
+St Kitts and Nevis,KN,45,UNIBO,2021-2025,outgoing
+Guyana,GY,41,UNIBO,2021-2025,outgoing
+Gabon,GA,40,UNIBO,2021-2025,outgoing
+Somalia,SO,36,UNIBO,2021-2025,outgoing
+Oceania,OC,34,UNIBO,2021-2025,outgoing
+Liechtenstein,LI,33,UNIBO,2021-2025,outgoing
+Mali,ML,33,UNIBO,2021-2025,outgoing
+Laos,LA,31,UNIBO,2021-2025,outgoing
+Afghanistan,AF,30,UNIBO,2021-2025,outgoing
+Barbados,BB,29,UNIBO,2021-2025,outgoing
+Bhutan,BT,28,UNIBO,2021-2025,outgoing
+Mauritius,MU,28,UNIBO,2021-2025,outgoing
+Papua New Guinea,PG,26,UNIBO,2021-2025,outgoing
+French Polynesia,PF,23,UNIBO,2021-2025,outgoing
+Svalbard and Jan Mayen,SJ,23,UNIBO,2021-2025,outgoing
+Niger,NE,22,UNIBO,2021-2025,outgoing
+Sierra Leone,SL,22,UNIBO,2021-2025,outgoing
+Greenland,GL,20,UNIBO,2021-2025,outgoing
+Bermuda,BM,20,UNIBO,2021-2025,outgoing
+Togo,TG,19,UNIBO,2021-2025,outgoing
+Tanzania (United Republic of),TZ,19,UNIBO,2021-2025,outgoing
+Bahamas,BS,19,UNIBO,2021-2025,outgoing
+Seychelles,SC,18,UNIBO,2021-2025,outgoing
+South Sudan,SS,18,UNIBO,2021-2025,outgoing
+Congo Republic,CG,17,UNIBO,2021-2025,outgoing
+Micronesia,FM,14,UNIBO,2021-2025,outgoing
+Haiti,HT,13,UNIBO,2021-2025,outgoing
+Faroe Islands,FO,12,UNIBO,2021-2025,outgoing
+Tajikistan,TJ,11,UNIBO,2021-2025,outgoing
+Cabo Verde,CV,11,UNIBO,2021-2025,outgoing
+Burundi,BI,11,UNIBO,2021-2025,outgoing
+Central African Republic,CF,11,UNIBO,2021-2025,outgoing
+Gibraltar,GI,11,UNIBO,2021-2025,outgoing
+Sint Maarten,SX,11,UNIBO,2021-2025,outgoing
+European Union,EU,10,UNIBO,2021-2025,outgoing
+Palau,PW,10,UNIBO,2021-2025,outgoing
+Cote d'Ivoire,CI,9,UNIBO,2021-2025,outgoing
+Liberia,LR,8,UNIBO,2021-2025,outgoing
+North Korea,KP,7,UNIBO,2021-2025,outgoing
+Lesotho,LS,7,UNIBO,2021-2025,outgoing
+Maldives,MV,7,UNIBO,2021-2025,outgoing
+Cayman Islands,KY,6,UNIBO,2021-2025,outgoing
+Saint Lucia,LC,5,UNIBO,2021-2025,outgoing
+Curaçao,CW,5,UNIBO,2021-2025,outgoing
+Suriname,SR,5,UNIBO,2021-2025,outgoing
+Guinea-Bissau,GW,4,UNIBO,2021-2025,outgoing
+U.S. Virgin Islands,VI,4,UNIBO,2021-2025,outgoing
+Former Yugoslav Republic of Macedonia,MK,4,UNIBO,2021-2025,outgoing
+Turkmenistan,TM,4,UNIBO,2021-2025,outgoing
+Belize,BZ,3,UNIBO,2021-2025,outgoing
+Montserrat,MS,3,UNIBO,2021-2025,outgoing
+Guinea,GN,3,UNIBO,2021-2025,outgoing
+Congo (Democratic Republic of),CD,2,UNIBO,2021-2025,outgoing
+Guam,GU,2,UNIBO,2021-2025,outgoing
+Palestinian-administered areas,PS,2,UNIBO,2021-2025,outgoing
+Samoa,WS,2,UNIBO,2021-2025,outgoing
+"Bonaire, Sint Eustatius, and Saba",BQ,2,UNIBO,2021-2025,outgoing
+Chad,TD,2,UNIBO,2021-2025,outgoing
+Andorra,AD,2,UNIBO,2021-2025,outgoing
+Dominica,DM,2,UNIBO,2021-2025,outgoing
+Timor-Leste,TL,2,UNIBO,2021-2025,outgoing
+Aruba,AW,2,UNIBO,2021-2025,outgoing
+Vanuatu,VU,2,UNIBO,2021-2025,outgoing
+"Korea, Democratic People's Republic of",KP,1,UNIBO,2021-2025,outgoing
+Mayotte,YT,1,UNIBO,2021-2025,outgoing
+Syrian Arab Republic,SY,1,UNIBO,2021-2025,outgoing
+Eswatini,SZ,1,UNIBO,2021-2025,outgoing
+Djibouti,DJ,1,UNIBO,2021-2025,outgoing
+Mauritania,MR,1,UNIBO,2021-2025,outgoing
+Turks and Caicos Islands,TC,1,UNIBO,2021-2025,outgoing

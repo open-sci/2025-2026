@@ -1,0 +1,143 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,226068,SNS,2021-2025,outgoing
+Italy,IT,132351,SNS,2021-2025,outgoing
+France,FR,123699,SNS,2021-2025,outgoing
+United Kingdom,GB,65466,SNS,2021-2025,outgoing
+China,CN,49413,SNS,2021-2025,outgoing
+Spain,ES,42936,SNS,2021-2025,outgoing
+Germany,DE,41393,SNS,2021-2025,outgoing
+India,IN,33655,SNS,2021-2025,outgoing
+Türkiye,TR,31407,SNS,2021-2025,outgoing
+South Korea,KR,29967,SNS,2021-2025,outgoing
+Russia,RU,26082,SNS,2021-2025,outgoing
+Poland,PL,25012,SNS,2021-2025,outgoing
+Switzerland,CH,24212,SNS,2021-2025,outgoing
+Brazil,BR,21757,SNS,2021-2025,outgoing
+Japan,JP,19905,SNS,2021-2025,outgoing
+The Netherlands,NL,16352,SNS,2021-2025,outgoing
+Belgium,BE,16307,SNS,2021-2025,outgoing
+Australia,AU,15995,SNS,2021-2025,outgoing
+Hungary,HU,15698,SNS,2021-2025,outgoing
+Finland,FI,13497,SNS,2021-2025,outgoing
+Greece,GR,13297,SNS,2021-2025,outgoing
+Taiwan,TW,11473,SNS,2021-2025,outgoing
+Mexico,MX,8665,SNS,2021-2025,outgoing
+Denmark,DK,7821,SNS,2021-2025,outgoing
+Canada,CA,7400,SNS,2021-2025,outgoing
+Croatia,HR,7204,SNS,2021-2025,outgoing
+Egypt,EG,6964,SNS,2021-2025,outgoing
+Austria,AT,6953,SNS,2021-2025,outgoing
+Colombia,CO,6584,SNS,2021-2025,outgoing
+Bulgaria,BG,6505,SNS,2021-2025,outgoing
+Iran,IR,6321,SNS,2021-2025,outgoing
+Sri Lanka,LK,4977,SNS,2021-2025,outgoing
+Ecuador,EC,4905,SNS,2021-2025,outgoing
+Pakistan,PK,4399,SNS,2021-2025,outgoing
+Portugal,PT,4365,SNS,2021-2025,outgoing
+Ireland,IE,4018,SNS,2021-2025,outgoing
+Serbia,RS,3878,SNS,2021-2025,outgoing
+Chile,CL,3797,SNS,2021-2025,outgoing
+Ukraine,UA,3676,SNS,2021-2025,outgoing
+Czechia,CZ,3638,SNS,2021-2025,outgoing
+New Zealand,NZ,3320,SNS,2021-2025,outgoing
+Cyprus,CY,3118,SNS,2021-2025,outgoing
+Latvia,LV,3111,SNS,2021-2025,outgoing
+Armenia,AM,3104,SNS,2021-2025,outgoing
+Georgia,GE,2997,SNS,2021-2025,outgoing
+Puerto Rico,PR,2912,SNS,2021-2025,outgoing
+Sweden,SE,2881,SNS,2021-2025,outgoing
+Israel,IL,2853,SNS,2021-2025,outgoing
+Malaysia,MY,2744,SNS,2021-2025,outgoing
+Thailand,TH,2599,SNS,2021-2025,outgoing
+Lithuania,LT,2469,SNS,2021-2025,outgoing
+Romania,RO,2378,SNS,2021-2025,outgoing
+Estonia,EE,2376,SNS,2021-2025,outgoing
+Montenegro,ME,2335,SNS,2021-2025,outgoing
+Kuwait,KW,2260,SNS,2021-2025,outgoing
+South Africa,ZA,2017,SNS,2021-2025,outgoing
+Belarus,BY,1625,SNS,2021-2025,outgoing
+Netherlands,NL,1585,SNS,2021-2025,outgoing
+China (People's Republic of),CN,1402,SNS,2021-2025,outgoing
+Turkey,TR,1347,SNS,2021-2025,outgoing
+Argentina,AR,1329,SNS,2021-2025,outgoing
+Slovakia,SK,1256,SNS,2021-2025,outgoing
+Norway,NO,1112,SNS,2021-2025,outgoing
+Hong Kong,HK,1004,SNS,2021-2025,outgoing
+Qatar,QA,800,SNS,2021-2025,outgoing
+Slovenia,SI,521,SNS,2021-2025,outgoing
+Korea (Republic of),KR,457,SNS,2021-2025,outgoing
+Philippines,PH,444,SNS,2021-2025,outgoing
+Russian Federation,RU,389,SNS,2021-2025,outgoing
+Morocco,MA,378,SNS,2021-2025,outgoing
+Azerbaijan,AZ,311,SNS,2021-2025,outgoing
+Vietnam,VN,310,SNS,2021-2025,outgoing
+United Arab Emirates,AE,238,SNS,2021-2025,outgoing
+Zimbabwe,ZW,229,SNS,2021-2025,outgoing
+Singapore,SG,222,SNS,2021-2025,outgoing
+Monaco,MC,217,SNS,2021-2025,outgoing
+Guatemala,GT,189,SNS,2021-2025,outgoing
+Honduras,HN,171,SNS,2021-2025,outgoing
+Uzbekistan,UZ,156,SNS,2021-2025,outgoing
+Czech Republic,CZ,147,SNS,2021-2025,outgoing
+Malta,MT,139,SNS,2021-2025,outgoing
+Iran (Islamic Republic of),IR,112,SNS,2021-2025,outgoing
+Mongolia,MN,92,SNS,2021-2025,outgoing
+Saudi Arabia,SA,89,SNS,2021-2025,outgoing
+Uruguay,UY,85,SNS,2021-2025,outgoing
+Luxembourg,LU,68,SNS,2021-2025,outgoing
+Indonesia,ID,50,SNS,2021-2025,outgoing
+Uganda,UG,34,SNS,2021-2025,outgoing
+Peru,PE,31,SNS,2021-2025,outgoing
+Iceland,IS,29,SNS,2021-2025,outgoing
+Palestine,PS,27,SNS,2021-2025,outgoing
+Cuba,CU,27,SNS,2021-2025,outgoing
+Costa Rica,CR,24,SNS,2021-2025,outgoing
+Ghana,GH,20,SNS,2021-2025,outgoing
+Burkina Faso,BF,19,SNS,2021-2025,outgoing
+Tunisia,TN,17,SNS,2021-2025,outgoing
+Nigeria,NG,16,SNS,2021-2025,outgoing
+French Guiana,GF,16,SNS,2021-2025,outgoing
+Algeria,DZ,12,SNS,2021-2025,outgoing
+Bahrain,BH,11,SNS,2021-2025,outgoing
+Lebanon,LB,10,SNS,2021-2025,outgoing
+Bangladesh,BD,9,SNS,2021-2025,outgoing
+Bosnia and Herzegovina,BA,8,SNS,2021-2025,outgoing
+Iraq,IQ,7,SNS,2021-2025,outgoing
+Ethiopia,ET,7,SNS,2021-2025,outgoing
+Jordan,JO,6,SNS,2021-2025,outgoing
+Macao,MO,5,SNS,2021-2025,outgoing
+Cameroon,CM,4,SNS,2021-2025,outgoing
+Laos,LA,4,SNS,2021-2025,outgoing
+Oman,OM,3,SNS,2021-2025,outgoing
+Senegal,SN,3,SNS,2021-2025,outgoing
+Zambia,ZM,3,SNS,2021-2025,outgoing
+Venezuela,VE,3,SNS,2021-2025,outgoing
+Syria,SY,3,SNS,2021-2025,outgoing
+Madagascar,MG,2,SNS,2021-2025,outgoing
+Angola,AO,2,SNS,2021-2025,outgoing
+Tanzania,TZ,2,SNS,2021-2025,outgoing
+Yemen,YE,2,SNS,2021-2025,outgoing
+Mozambique,MZ,2,SNS,2021-2025,outgoing
+Moldova,MD,2,SNS,2021-2025,outgoing
+Botswana,BW,2,SNS,2021-2025,outgoing
+Kyrgyzstan,KG,1,SNS,2021-2025,outgoing
+American Samoa,AS,1,SNS,2021-2025,outgoing
+Kazakhstan,KZ,1,SNS,2021-2025,outgoing
+Namibia,,1,SNS,2021-2025,outgoing
+Viet Nam,VN,1,SNS,2021-2025,outgoing
+Tanzania (United Republic of),TZ,1,SNS,2021-2025,outgoing
+Sudan,SD,1,SNS,2021-2025,outgoing
+Brunei,BN,1,SNS,2021-2025,outgoing
+Panama,PA,1,SNS,2021-2025,outgoing
+European Union,EU,1,SNS,2021-2025,outgoing
+Nepal,NP,1,SNS,2021-2025,outgoing
+Libya,LY,1,SNS,2021-2025,outgoing
+Rwanda,RW,1,SNS,2021-2025,outgoing
+Benin,BJ,1,SNS,2021-2025,outgoing
+Antigua and Barbuda,AG,1,SNS,2021-2025,outgoing
+Tajikistan,TJ,1,SNS,2021-2025,outgoing
+North Macedonia,MK,1,SNS,2021-2025,outgoing
+Dominican Republic,DO,1,SNS,2021-2025,outgoing
+Grenada,GD,1,SNS,2021-2025,outgoing
+New Caledonia,NC,1,SNS,2021-2025,outgoing
+Oceania,OC,1,SNS,2021-2025,outgoing

@@ -61,6 +61,11 @@ COUNTRY_NAMES = {
     "XK": "Kosovo",
 }
 
+ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts_annualized"
+VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations" / "citation_counts_annualized"
+
+YEAR_BLOCKS = ['2001-2005', '2006-2010', '2011-2015', '2016-2020', '2021-2025']
+
 def normalize_countries(df):
     """Normalize country names and codes, handling duplicates and canonical names.
     
@@ -249,3 +254,35 @@ def load_all_available() -> dict:
         except FileNotFoundError:
             print(f"○ {inst}: data not yet available — skipped")
     return datasets
+
+def load_temporal_dataset(institution: str, direction: str, year_block: str, dataset_type: str, base_path: Path = ANNUALIZED_BASE_PATH) -> pd.DataFrame:
+    """Loads raw temporal data securely (dataset_type must be 'organizations' or 'countries')."""
+    file_path = base_path / institution / year_block / f"citation_counts_{dataset_type}_{direction}.csv"
+    
+    if not file_path.exists():
+        raise FileNotFoundError(f"File not found: {file_path}")
+        
+    df = pd.read_csv(file_path)
+    df["italian_institution"] = institution
+    df["year_block"] = year_block
+    df["direction"] = direction
+    return df
+
+
+def load_all_temporal(dataset_type: str = "organizations", base_path: Path = None) -> pd.DataFrame:
+    if base_path is None:
+        base_path = ANNUALIZED_BASE_PATH
+    frames = []
+    for inst in INSTITUTIONS:
+        for y_block in YEAR_BLOCKS:
+            for direction in ["incoming", "outgoing"]:
+                try:
+                    df = load_temporal_dataset(inst, direction, y_block, dataset_type, base_path)
+                    frames.append(df)
+                except FileNotFoundError:
+                    pass
+
+    if not frames:
+        return pd.DataFrame()
+
+    return pd.concat(frames, ignore_index=True)

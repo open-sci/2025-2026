@@ -1,0 +1,192 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,471390,UPO,2011-2015,incoming
+Italy,IT,252531,UPO,2011-2015,incoming
+France,FR,245359,UPO,2011-2015,incoming
+United Kingdom,GB,92563,UPO,2011-2015,incoming
+Germany,DE,90831,UPO,2011-2015,incoming
+India,IN,69176,UPO,2011-2015,incoming
+China,CN,67797,UPO,2011-2015,incoming
+Russia,RU,67244,UPO,2011-2015,incoming
+Spain,ES,59174,UPO,2011-2015,incoming
+South Korea,KR,55826,UPO,2011-2015,incoming
+Türkiye,TR,52742,UPO,2011-2015,incoming
+Japan,JP,38293,UPO,2011-2015,incoming
+Brazil,BR,37054,UPO,2011-2015,incoming
+Switzerland,CH,35928,UPO,2011-2015,incoming
+Hungary,HU,34547,UPO,2011-2015,incoming
+Finland,FI,33219,UPO,2011-2015,incoming
+Belgium,BE,31228,UPO,2011-2015,incoming
+Poland,PL,29521,UPO,2011-2015,incoming
+Mexico,MX,28970,UPO,2011-2015,incoming
+Greece,GR,25529,UPO,2011-2015,incoming
+The Netherlands,NL,23295,UPO,2011-2015,incoming
+Canada,CA,21081,UPO,2011-2015,incoming
+Taiwan,TW,18170,UPO,2011-2015,incoming
+Croatia,HR,17997,UPO,2011-2015,incoming
+Norway,NO,16449,UPO,2011-2015,incoming
+Australia,AU,16329,UPO,2011-2015,incoming
+Czechia,CZ,15542,UPO,2011-2015,incoming
+Sweden,SE,12150,UPO,2011-2015,incoming
+Iran,IR,11405,UPO,2011-2015,incoming
+Bulgaria,BG,10576,UPO,2011-2015,incoming
+Austria,AT,9838,UPO,2011-2015,incoming
+Pakistan,PK,9422,UPO,2011-2015,incoming
+Portugal,PT,9207,UPO,2011-2015,incoming
+Slovakia,SK,9090,UPO,2011-2015,incoming
+Denmark,DK,8841,UPO,2011-2015,incoming
+Egypt,EG,8807,UPO,2011-2015,incoming
+New Zealand,NZ,8678,UPO,2011-2015,incoming
+Ukraine,UA,8431,UPO,2011-2015,incoming
+Colombia,CO,8202,UPO,2011-2015,incoming
+Serbia,RS,6967,UPO,2011-2015,incoming
+South Africa,ZA,6838,UPO,2011-2015,incoming
+Belarus,BY,5603,UPO,2011-2015,incoming
+Puerto Rico,PR,5490,UPO,2011-2015,incoming
+China (People's Republic of),CN,5455,UPO,2011-2015,incoming
+Armenia,AM,4844,UPO,2011-2015,incoming
+Georgia,GE,4757,UPO,2011-2015,incoming
+Israel,IL,4621,UPO,2011-2015,incoming
+Estonia,EE,4275,UPO,2011-2015,incoming
+Argentina,AR,4075,UPO,2011-2015,incoming
+Cyprus,CY,4062,UPO,2011-2015,incoming
+Lithuania,LT,3991,UPO,2011-2015,incoming
+Romania,RO,3708,UPO,2011-2015,incoming
+Thailand,TH,3693,UPO,2011-2015,incoming
+Ireland,IE,3561,UPO,2011-2015,incoming
+Hong Kong,HK,2888,UPO,2011-2015,incoming
+Chile,CL,2662,UPO,2011-2015,incoming
+Malaysia,MY,2443,UPO,2011-2015,incoming
+Peru,PE,2301,UPO,2011-2015,incoming
+Netherlands,NL,2172,UPO,2011-2015,incoming
+Singapore,SG,2164,UPO,2011-2015,incoming
+Slovenia,SI,2086,UPO,2011-2015,incoming
+Morocco,MA,1987,UPO,2011-2015,incoming
+Uzbekistan,UZ,1721,UPO,2011-2015,incoming
+Saudi Arabia,SA,1604,UPO,2011-2015,incoming
+Cuba,CU,1356,UPO,2011-2015,incoming
+Azerbaijan,AZ,1344,UPO,2011-2015,incoming
+Qatar,QA,478,UPO,2011-2015,incoming
+Korea (Republic of),KR,464,UPO,2011-2015,incoming
+Tunisia,TN,382,UPO,2011-2015,incoming
+Czech Republic,CZ,360,UPO,2011-2015,incoming
+Russian Federation,RU,332,UPO,2011-2015,incoming
+Turkey,TR,308,UPO,2011-2015,incoming
+Vietnam,VN,281,UPO,2011-2015,incoming
+Philippines,PH,245,UPO,2011-2015,incoming
+Sri Lanka,LK,234,UPO,2011-2015,incoming
+Algeria,DZ,227,UPO,2011-2015,incoming
+Ecuador,EC,217,UPO,2011-2015,incoming
+Lebanon,LB,214,UPO,2011-2015,incoming
+Ghana,GH,204,UPO,2011-2015,incoming
+Iceland,IS,201,UPO,2011-2015,incoming
+Indonesia,ID,173,UPO,2011-2015,incoming
+Ethiopia,ET,162,UPO,2011-2015,incoming
+Montenegro,ME,153,UPO,2011-2015,incoming
+Jordan,JO,147,UPO,2011-2015,incoming
+United Arab Emirates,AE,147,UPO,2011-2015,incoming
+Mongolia,MN,146,UPO,2011-2015,incoming
+Nigeria,NG,145,UPO,2011-2015,incoming
+Bahrain,BH,124,UPO,2011-2015,incoming
+Tanzania,TZ,115,UPO,2011-2015,incoming
+Luxembourg,LU,111,UPO,2011-2015,incoming
+Uruguay,UY,97,UPO,2011-2015,incoming
+Latvia,LV,96,UPO,2011-2015,incoming
+Kenya,KE,92,UPO,2011-2015,incoming
+Venezuela,VE,91,UPO,2011-2015,incoming
+Iran (Islamic Republic of),IR,88,UPO,2011-2015,incoming
+Bangladesh,BD,79,UPO,2011-2015,incoming
+Palestine,PS,71,UPO,2011-2015,incoming
+Bosnia and Herzegovina,BA,61,UPO,2011-2015,incoming
+Mozambique,MZ,57,UPO,2011-2015,incoming
+Macao,MO,57,UPO,2011-2015,incoming
+Costa Rica,CR,53,UPO,2011-2015,incoming
+Kazakhstan,KZ,51,UPO,2011-2015,incoming
+Jamaica,JM,46,UPO,2011-2015,incoming
+Oman,OM,46,UPO,2011-2015,incoming
+North Macedonia,MK,43,UPO,2011-2015,incoming
+Kuwait,KW,42,UPO,2011-2015,incoming
+Uganda,UG,39,UPO,2011-2015,incoming
+Moldova,MD,39,UPO,2011-2015,incoming
+Malta,MT,35,UPO,2011-2015,incoming
+Somalia,SO,34,UPO,2011-2015,incoming
+Panama,PA,34,UPO,2011-2015,incoming
+Iraq,IQ,31,UPO,2011-2015,incoming
+Yemen,YE,31,UPO,2011-2015,incoming
+Nepal,NP,30,UPO,2011-2015,incoming
+Cambodia,KH,27,UPO,2011-2015,incoming
+Senegal,SN,26,UPO,2011-2015,incoming
+Cameroon,CM,24,UPO,2011-2015,incoming
+Tajikistan,TJ,21,UPO,2011-2015,incoming
+Mauritius,MU,21,UPO,2011-2015,incoming
+Benin,BJ,20,UPO,2011-2015,incoming
+Zambia,ZM,20,UPO,2011-2015,incoming
+Bhutan,BT,18,UPO,2011-2015,incoming
+Ivory Coast,CI,17,UPO,2011-2015,incoming
+El Salvador,SV,16,UPO,2011-2015,incoming
+Guadeloupe,GP,15,UPO,2011-2015,incoming
+Antigua and Barbuda,AG,15,UPO,2011-2015,incoming
+Angola,AO,14,UPO,2011-2015,incoming
+Zimbabwe,ZW,14,UPO,2011-2015,incoming
+Paraguay,PY,13,UPO,2011-2015,incoming
+Burkina Faso,BF,13,UPO,2011-2015,incoming
+Réunion,RE,13,UPO,2011-2015,incoming
+Myanmar,MM,12,UPO,2011-2015,incoming
+Libya,LY,12,UPO,2011-2015,incoming
+Malawi,MW,11,UPO,2011-2015,incoming
+Barbados,BB,10,UPO,2011-2015,incoming
+New Caledonia,NC,10,UPO,2011-2015,incoming
+Sudan,SD,9,UPO,2011-2015,incoming
+Burundi,BI,9,UPO,2011-2015,incoming
+Grenada,GD,9,UPO,2011-2015,incoming
+Guatemala,GT,9,UPO,2011-2015,incoming
+Rwanda,RW,9,UPO,2011-2015,incoming
+Honduras,HN,8,UPO,2011-2015,incoming
+Gabon,GA,8,UPO,2011-2015,incoming
+Niger,NE,7,UPO,2011-2015,incoming
+Svalbard and Jan Mayen,SJ,7,UPO,2011-2015,incoming
+Palau,PW,7,UPO,2011-2015,incoming
+Madagascar,MG,7,UPO,2011-2015,incoming
+American Samoa,AS,7,UPO,2011-2015,incoming
+Fiji,FJ,7,UPO,2011-2015,incoming
+Namibia,,6,UPO,2011-2015,incoming
+Nicaragua,NI,6,UPO,2011-2015,incoming
+Syria,SY,6,UPO,2011-2015,incoming
+Albania,AL,6,UPO,2011-2015,incoming
+Liechtenstein,LI,5,UPO,2011-2015,incoming
+DR Congo,CD,5,UPO,2011-2015,incoming
+Trinidad and Tobago,TT,5,UPO,2011-2015,incoming
+San Marino,SM,5,UPO,2011-2015,incoming
+Dominican Republic,DO,4,UPO,2011-2015,incoming
+Maldives,MV,4,UPO,2011-2015,incoming
+French Guiana,GF,4,UPO,2011-2015,incoming
+Togo,TG,3,UPO,2011-2015,incoming
+Kosovo,XK,3,UPO,2011-2015,incoming
+Bolivia,BO,3,UPO,2011-2015,incoming
+Monaco,MC,3,UPO,2011-2015,incoming
+North Korea,KP,3,UPO,2011-2015,incoming
+Laos,LA,3,UPO,2011-2015,incoming
+St Kitts and Nevis,KN,3,UPO,2011-2015,incoming
+Djibouti,DJ,3,UPO,2011-2015,incoming
+French Polynesia,PF,3,UPO,2011-2015,incoming
+Brunei,BN,2,UPO,2011-2015,incoming
+Mali,ML,2,UPO,2011-2015,incoming
+Suriname,SR,2,UPO,2011-2015,incoming
+Botswana,BW,2,UPO,2011-2015,incoming
+Afghanistan,AF,2,UPO,2011-2015,incoming
+The Gambia,GM,2,UPO,2011-2015,incoming
+Seychelles,SC,2,UPO,2011-2015,incoming
+Martinique,MQ,1,UPO,2011-2015,incoming
+Eswatini,SZ,1,UPO,2011-2015,incoming
+Papua New Guinea,PG,1,UPO,2011-2015,incoming
+Congo Republic,CG,1,UPO,2011-2015,incoming
+Mauritania,MR,1,UPO,2011-2015,incoming
+Lesotho,LS,1,UPO,2011-2015,incoming
+St Vincent and Grenadines,VC,1,UPO,2011-2015,incoming
+Viet Nam,VN,1,UPO,2011-2015,incoming
+Cayman Islands,KY,1,UPO,2011-2015,incoming
+British Virgin Islands,VG,1,UPO,2011-2015,incoming
+Former Yugoslav Republic of Macedonia,MK,1,UPO,2011-2015,incoming
+Bahamas,BS,1,UPO,2011-2015,incoming
+Bermuda,BM,1,UPO,2011-2015,incoming
+European Union,EU,1,UPO,2011-2015,incoming
+Curaçao,CW,1,UPO,2011-2015,incoming

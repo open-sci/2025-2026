@@ -1,0 +1,228 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,1548577,UNIMI,2011-2015,incoming
+France,FR,893128,UNIMI,2011-2015,incoming
+Italy,IT,880522,UNIMI,2011-2015,incoming
+United Kingdom,GB,512074,UNIMI,2011-2015,incoming
+Germany,DE,393483,UNIMI,2011-2015,incoming
+Spain,ES,263435,UNIMI,2011-2015,incoming
+China,CN,260662,UNIMI,2011-2015,incoming
+Japan,JP,211396,UNIMI,2011-2015,incoming
+Canada,CA,183192,UNIMI,2011-2015,incoming
+The Netherlands,NL,153561,UNIMI,2011-2015,incoming
+Australia,AU,151128,UNIMI,2011-2015,incoming
+Switzerland,CH,125293,UNIMI,2011-2015,incoming
+Russia,RU,110490,UNIMI,2011-2015,incoming
+Brazil,BR,105947,UNIMI,2011-2015,incoming
+South Korea,KR,94745,UNIMI,2011-2015,incoming
+India,IN,86275,UNIMI,2011-2015,incoming
+Poland,PL,77819,UNIMI,2011-2015,incoming
+Denmark,DK,70181,UNIMI,2011-2015,incoming
+Belgium,BE,66002,UNIMI,2011-2015,incoming
+Sweden,SE,64568,UNIMI,2011-2015,incoming
+Türkiye,TR,62855,UNIMI,2011-2015,incoming
+Taiwan,TW,62751,UNIMI,2011-2015,incoming
+Finland,FI,59115,UNIMI,2011-2015,incoming
+Greece,GR,49250,UNIMI,2011-2015,incoming
+Portugal,PT,41951,UNIMI,2011-2015,incoming
+Austria,AT,41661,UNIMI,2011-2015,incoming
+Norway,NO,37352,UNIMI,2011-2015,incoming
+Czechia,CZ,35465,UNIMI,2011-2015,incoming
+Israel,IL,34322,UNIMI,2011-2015,incoming
+Argentina,AR,32326,UNIMI,2011-2015,incoming
+Hungary,HU,29886,UNIMI,2011-2015,incoming
+South Africa,ZA,29850,UNIMI,2011-2015,incoming
+Iran,IR,25936,UNIMI,2011-2015,incoming
+Ireland,IE,25702,UNIMI,2011-2015,incoming
+China (People's Republic of),CN,24725,UNIMI,2011-2015,incoming
+Mexico,MX,21102,UNIMI,2011-2015,incoming
+Chile,CL,21024,UNIMI,2011-2015,incoming
+Netherlands,NL,20802,UNIMI,2011-2015,incoming
+Singapore,SG,19982,UNIMI,2011-2015,incoming
+Hong Kong,HK,18470,UNIMI,2011-2015,incoming
+Romania,RO,17808,UNIMI,2011-2015,incoming
+Slovakia,SK,17783,UNIMI,2011-2015,incoming
+Serbia,RS,14206,UNIMI,2011-2015,incoming
+Slovenia,SI,14061,UNIMI,2011-2015,incoming
+Morocco,MA,13571,UNIMI,2011-2015,incoming
+Belarus,BY,12550,UNIMI,2011-2015,incoming
+New Zealand,NZ,11483,UNIMI,2011-2015,incoming
+Croatia,HR,10670,UNIMI,2011-2015,incoming
+Colombia,CO,10051,UNIMI,2011-2015,incoming
+Egypt,EG,9027,UNIMI,2011-2015,incoming
+Thailand,TH,8465,UNIMI,2011-2015,incoming
+Saudi Arabia,SA,8226,UNIMI,2011-2015,incoming
+Azerbaijan,AZ,8219,UNIMI,2011-2015,incoming
+Malaysia,MY,8064,UNIMI,2011-2015,incoming
+Georgia,GE,7642,UNIMI,2011-2015,incoming
+Pakistan,PK,7136,UNIMI,2011-2015,incoming
+Ukraine,UA,7083,UNIMI,2011-2015,incoming
+Bulgaria,BG,5055,UNIMI,2011-2015,incoming
+Armenia,AM,4619,UNIMI,2011-2015,incoming
+Estonia,EE,4385,UNIMI,2011-2015,incoming
+Korea (Republic of),KR,4374,UNIMI,2011-2015,incoming
+Tunisia,TN,3363,UNIMI,2011-2015,incoming
+Lebanon,LB,3313,UNIMI,2011-2015,incoming
+Qatar,QA,2937,UNIMI,2011-2015,incoming
+Ethiopia,ET,2724,UNIMI,2011-2015,incoming
+Cyprus,CY,2669,UNIMI,2011-2015,incoming
+Vietnam,VN,2665,UNIMI,2011-2015,incoming
+Iceland,IS,2608,UNIMI,2011-2015,incoming
+Nigeria,NG,2460,UNIMI,2011-2015,incoming
+Puerto Rico,PR,2284,UNIMI,2011-2015,incoming
+Lithuania,LT,2121,UNIMI,2011-2015,incoming
+United Arab Emirates,AE,1674,UNIMI,2011-2015,incoming
+Russian Federation,RU,1656,UNIMI,2011-2015,incoming
+Peru,PE,1628,UNIMI,2011-2015,incoming
+Uganda,UG,1614,UNIMI,2011-2015,incoming
+Philippines,PH,1595,UNIMI,2011-2015,incoming
+Jordan,JO,1443,UNIMI,2011-2015,incoming
+Czech Republic,CZ,1415,UNIMI,2011-2015,incoming
+Indonesia,ID,1409,UNIMI,2011-2015,incoming
+Kenya,KE,1405,UNIMI,2011-2015,incoming
+Bahrain,BH,1403,UNIMI,2011-2015,incoming
+Uruguay,UY,1365,UNIMI,2011-2015,incoming
+Tanzania,TZ,1276,UNIMI,2011-2015,incoming
+Luxembourg,LU,1029,UNIMI,2011-2015,incoming
+Bangladesh,BD,1015,UNIMI,2011-2015,incoming
+Ghana,GH,970,UNIMI,2011-2015,incoming
+Cuba,CU,949,UNIMI,2011-2015,incoming
+Algeria,DZ,844,UNIMI,2011-2015,incoming
+Jamaica,JM,821,UNIMI,2011-2015,incoming
+Iran (Islamic Republic of),IR,809,UNIMI,2011-2015,incoming
+Sri Lanka,LK,727,UNIMI,2011-2015,incoming
+Venezuela,VE,714,UNIMI,2011-2015,incoming
+Latvia,LV,707,UNIMI,2011-2015,incoming
+Palestine,PS,704,UNIMI,2011-2015,incoming
+Uzbekistan,UZ,691,UNIMI,2011-2015,incoming
+Ecuador,EC,673,UNIMI,2011-2015,incoming
+Turkey,TR,653,UNIMI,2011-2015,incoming
+Cameroon,CM,652,UNIMI,2011-2015,incoming
+Oman,OM,620,UNIMI,2011-2015,incoming
+Nepal,NP,605,UNIMI,2011-2015,incoming
+Zambia,ZM,589,UNIMI,2011-2015,incoming
+Kuwait,KW,522,UNIMI,2011-2015,incoming
+Bosnia and Herzegovina,BA,512,UNIMI,2011-2015,incoming
+Iraq,IQ,460,UNIMI,2011-2015,incoming
+Guadeloupe,GP,444,UNIMI,2011-2015,incoming
+Benin,BJ,441,UNIMI,2011-2015,incoming
+Malta,MT,422,UNIMI,2011-2015,incoming
+Malawi,MW,416,UNIMI,2011-2015,incoming
+Cambodia,KH,392,UNIMI,2011-2015,incoming
+Kazakhstan,KZ,382,UNIMI,2011-2015,incoming
+Macao,MO,368,UNIMI,2011-2015,incoming
+Mozambique,MZ,363,UNIMI,2011-2015,incoming
+Senegal,SN,358,UNIMI,2011-2015,incoming
+Costa Rica,CR,343,UNIMI,2011-2015,incoming
+Sudan,SD,320,UNIMI,2011-2015,incoming
+North Macedonia,MK,295,UNIMI,2011-2015,incoming
+Réunion,RE,280,UNIMI,2011-2015,incoming
+Zimbabwe,ZW,275,UNIMI,2011-2015,incoming
+El Salvador,SV,274,UNIMI,2011-2015,incoming
+Panama,PA,272,UNIMI,2011-2015,incoming
+Burkina Faso,BF,272,UNIMI,2011-2015,incoming
+Ivory Coast,CI,254,UNIMI,2011-2015,incoming
+Myanmar,MM,226,UNIMI,2011-2015,incoming
+Moldova,MD,218,UNIMI,2011-2015,incoming
+Yemen,YE,208,UNIMI,2011-2015,incoming
+Albania,AL,199,UNIMI,2011-2015,incoming
+Rwanda,RW,178,UNIMI,2011-2015,incoming
+Bhutan,BT,172,UNIMI,2011-2015,incoming
+Grenada,GD,171,UNIMI,2011-2015,incoming
+Gabon,GA,170,UNIMI,2011-2015,incoming
+New Caledonia,NC,168,UNIMI,2011-2015,incoming
+Botswana,BW,157,UNIMI,2011-2015,incoming
+Antigua and Barbuda,AG,148,UNIMI,2011-2015,incoming
+Syria,SY,141,UNIMI,2011-2015,incoming
+Guatemala,GT,141,UNIMI,2011-2015,incoming
+Niger,NE,140,UNIMI,2011-2015,incoming
+Curaçao,CW,135,UNIMI,2011-2015,incoming
+Mongolia,MN,134,UNIMI,2011-2015,incoming
+American Samoa,AS,132,UNIMI,2011-2015,incoming
+Fiji,FJ,129,UNIMI,2011-2015,incoming
+DR Congo,CD,123,UNIMI,2011-2015,incoming
+Angola,AO,122,UNIMI,2011-2015,incoming
+Guinea-Bissau,GW,114,UNIMI,2011-2015,incoming
+Honduras,HN,112,UNIMI,2011-2015,incoming
+Somalia,SO,105,UNIMI,2011-2015,incoming
+Libya,LY,97,UNIMI,2011-2015,incoming
+Madagascar,MG,93,UNIMI,2011-2015,incoming
+Mali,ML,82,UNIMI,2011-2015,incoming
+Montenegro,ME,81,UNIMI,2011-2015,incoming
+Papua New Guinea,PG,77,UNIMI,2011-2015,incoming
+Bolivia,BO,74,UNIMI,2011-2015,incoming
+Namibia,,67,UNIMI,2011-2015,incoming
+Paraguay,PY,67,UNIMI,2011-2015,incoming
+Monaco,MC,67,UNIMI,2011-2015,incoming
+Palau,PW,66,UNIMI,2011-2015,incoming
+Barbados,BB,65,UNIMI,2011-2015,incoming
+Mauritius,MU,64,UNIMI,2011-2015,incoming
+Trinidad and Tobago,TT,62,UNIMI,2011-2015,incoming
+French Guiana,GF,59,UNIMI,2011-2015,incoming
+Seychelles,SC,55,UNIMI,2011-2015,incoming
+San Marino,SM,52,UNIMI,2011-2015,incoming
+Togo,TG,49,UNIMI,2011-2015,incoming
+Liechtenstein,LI,49,UNIMI,2011-2015,incoming
+Kosovo,XK,48,UNIMI,2011-2015,incoming
+Laos,LA,46,UNIMI,2011-2015,incoming
+Congo Republic,CG,46,UNIMI,2011-2015,incoming
+Greenland,GL,45,UNIMI,2011-2015,incoming
+Brunei,BN,43,UNIMI,2011-2015,incoming
+St Kitts and Nevis,KN,42,UNIMI,2011-2015,incoming
+Kyrgyzstan,KG,40,UNIMI,2011-2015,incoming
+Nicaragua,NI,38,UNIMI,2011-2015,incoming
+Afghanistan,AF,32,UNIMI,2011-2015,incoming
+Dominican Republic,DO,32,UNIMI,2011-2015,incoming
+Viet Nam,VN,29,UNIMI,2011-2015,incoming
+Tanzania (United Republic of),TZ,28,UNIMI,2011-2015,incoming
+Martinique,MQ,28,UNIMI,2011-2015,incoming
+Cote d'Ivoire,CI,25,UNIMI,2011-2015,incoming
+Faroe Islands,FO,23,UNIMI,2011-2015,incoming
+The Gambia,GM,21,UNIMI,2011-2015,incoming
+French Polynesia,PF,19,UNIMI,2011-2015,incoming
+Belize,BZ,19,UNIMI,2011-2015,incoming
+Maldives,MV,18,UNIMI,2011-2015,incoming
+Burundi,BI,18,UNIMI,2011-2015,incoming
+Tajikistan,TJ,17,UNIMI,2011-2015,incoming
+Svalbard and Jan Mayen,SJ,17,UNIMI,2011-2015,incoming
+Central African Republic,CF,15,UNIMI,2011-2015,incoming
+Gibraltar,GI,14,UNIMI,2011-2015,incoming
+Former Yugoslav Republic of Macedonia,MK,14,UNIMI,2011-2015,incoming
+European Union,EU,13,UNIMI,2011-2015,incoming
+Guam,GU,12,UNIMI,2011-2015,incoming
+North Korea,KP,11,UNIMI,2011-2015,incoming
+Lesotho,LS,11,UNIMI,2011-2015,incoming
+Haiti,HT,10,UNIMI,2011-2015,incoming
+Mauritania,MR,10,UNIMI,2011-2015,incoming
+Chad,TD,9,UNIMI,2011-2015,incoming
+Sierra Leone,SL,9,UNIMI,2011-2015,incoming
+St Vincent and Grenadines,VC,8,UNIMI,2011-2015,incoming
+Eswatini,SZ,6,UNIMI,2011-2015,incoming
+Bermuda,BM,6,UNIMI,2011-2015,incoming
+Guinea,GN,6,UNIMI,2011-2015,incoming
+Guyana,GY,6,UNIMI,2011-2015,incoming
+Saint Lucia,LC,6,UNIMI,2011-2015,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,5,UNIMI,2011-2015,incoming
+Liberia,LR,5,UNIMI,2011-2015,incoming
+Congo (Democratic Republic of),CD,5,UNIMI,2011-2015,incoming
+Sint Maarten,SX,5,UNIMI,2011-2015,incoming
+Cayman Islands,KY,5,UNIMI,2011-2015,incoming
+Suriname,SR,5,UNIMI,2011-2015,incoming
+U.S. Virgin Islands,VI,4,UNIMI,2011-2015,incoming
+Turkmenistan,TM,4,UNIMI,2011-2015,incoming
+Bahamas,BS,4,UNIMI,2011-2015,incoming
+Jersey,JE,4,UNIMI,2011-2015,incoming
+Montserrat,MS,4,UNIMI,2011-2015,incoming
+Micronesia,FM,3,UNIMI,2011-2015,incoming
+South Sudan,SS,3,UNIMI,2011-2015,incoming
+Syrian Arab Republic,SY,3,UNIMI,2011-2015,incoming
+Andorra,AD,3,UNIMI,2011-2015,incoming
+Cabo Verde,CV,3,UNIMI,2011-2015,incoming
+Djibouti,DJ,2,UNIMI,2011-2015,incoming
+Palestinian-administered areas,PS,2,UNIMI,2011-2015,incoming
+Eritrea,ER,1,UNIMI,2011-2015,incoming
+Timor-Leste,TL,1,UNIMI,2011-2015,incoming
+"Korea, Democratic People's Republic of",KP,1,UNIMI,2011-2015,incoming
+Moldova (Republic of),MD,1,UNIMI,2011-2015,incoming
+United States Minor Outlying Islands,UM,1,UNIMI,2011-2015,incoming
+Marshall Islands,MH,1,UNIMI,2011-2015,incoming
+Libyan Arab Jamahiriya,LY,1,UNIMI,2011-2015,incoming

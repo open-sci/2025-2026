@@ -1,0 +1,203 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,641831,UNIBO,2006-2010,incoming
+Italy,IT,424956,UNIBO,2006-2010,incoming
+France,FR,361494,UNIBO,2006-2010,incoming
+United Kingdom,GB,163179,UNIBO,2006-2010,incoming
+Germany,DE,147470,UNIBO,2006-2010,incoming
+Spain,ES,88060,UNIBO,2006-2010,incoming
+Japan,JP,71323,UNIBO,2006-2010,incoming
+China,CN,58179,UNIBO,2006-2010,incoming
+Canada,CA,53044,UNIBO,2006-2010,incoming
+Russia,RU,50984,UNIBO,2006-2010,incoming
+Switzerland,CH,48762,UNIBO,2006-2010,incoming
+The Netherlands,NL,41654,UNIBO,2006-2010,incoming
+South Korea,KR,37764,UNIBO,2006-2010,incoming
+India,IN,35410,UNIBO,2006-2010,incoming
+Australia,AU,33186,UNIBO,2006-2010,incoming
+Brazil,BR,29827,UNIBO,2006-2010,incoming
+Poland,PL,26580,UNIBO,2006-2010,incoming
+Belgium,BE,26008,UNIBO,2006-2010,incoming
+Finland,FI,24164,UNIBO,2006-2010,incoming
+Greece,GR,21169,UNIBO,2006-2010,incoming
+Taiwan,TW,20431,UNIBO,2006-2010,incoming
+Türkiye,TR,18334,UNIBO,2006-2010,incoming
+Sweden,SE,17941,UNIBO,2006-2010,incoming
+Austria,AT,13644,UNIBO,2006-2010,incoming
+Hungary,HU,12668,UNIBO,2006-2010,incoming
+Mexico,MX,12612,UNIBO,2006-2010,incoming
+Denmark,DK,12309,UNIBO,2006-2010,incoming
+Portugal,PT,11081,UNIBO,2006-2010,incoming
+Czechia,CZ,10198,UNIBO,2006-2010,incoming
+Slovakia,SK,10013,UNIBO,2006-2010,incoming
+Israel,IL,9312,UNIBO,2006-2010,incoming
+Norway,NO,8690,UNIBO,2006-2010,incoming
+China (People's Republic of),CN,8258,UNIBO,2006-2010,incoming
+Ireland,IE,7610,UNIBO,2006-2010,incoming
+Croatia,HR,6110,UNIBO,2006-2010,incoming
+Iran,IR,5844,UNIBO,2006-2010,incoming
+Argentina,AR,5761,UNIBO,2006-2010,incoming
+New Zealand,NZ,5268,UNIBO,2006-2010,incoming
+Chile,CL,5211,UNIBO,2006-2010,incoming
+Hong Kong,HK,5167,UNIBO,2006-2010,incoming
+Ukraine,UA,4528,UNIBO,2006-2010,incoming
+Netherlands,NL,4335,UNIBO,2006-2010,incoming
+Bulgaria,BG,4233,UNIBO,2006-2010,incoming
+Slovenia,SI,4193,UNIBO,2006-2010,incoming
+Serbia,RS,4162,UNIBO,2006-2010,incoming
+Colombia,CO,4043,UNIBO,2006-2010,incoming
+Singapore,SG,3999,UNIBO,2006-2010,incoming
+South Africa,ZA,3595,UNIBO,2006-2010,incoming
+Cyprus,CY,3337,UNIBO,2006-2010,incoming
+Pakistan,PK,3321,UNIBO,2006-2010,incoming
+Georgia,GE,3094,UNIBO,2006-2010,incoming
+Belarus,BY,2906,UNIBO,2006-2010,incoming
+Romania,RO,2576,UNIBO,2006-2010,incoming
+Armenia,AM,2302,UNIBO,2006-2010,incoming
+Puerto Rico,PR,2000,UNIBO,2006-2010,incoming
+Uzbekistan,UZ,1872,UNIBO,2006-2010,incoming
+Estonia,EE,1666,UNIBO,2006-2010,incoming
+Azerbaijan,AZ,1485,UNIBO,2006-2010,incoming
+Egypt,EG,1409,UNIBO,2006-2010,incoming
+Morocco,MA,1251,UNIBO,2006-2010,incoming
+Malaysia,MY,1236,UNIBO,2006-2010,incoming
+Thailand,TH,1073,UNIBO,2006-2010,incoming
+Korea (Republic of),KR,1061,UNIBO,2006-2010,incoming
+Tunisia,TN,917,UNIBO,2006-2010,incoming
+Jordan,JO,856,UNIBO,2006-2010,incoming
+Cuba,CU,657,UNIBO,2006-2010,incoming
+Saudi Arabia,SA,631,UNIBO,2006-2010,incoming
+Ecuador,EC,603,UNIBO,2006-2010,incoming
+Lithuania,LT,566,UNIBO,2006-2010,incoming
+Russian Federation,RU,545,UNIBO,2006-2010,incoming
+Peru,PE,490,UNIBO,2006-2010,incoming
+Vietnam,VN,442,UNIBO,2006-2010,incoming
+Ghana,GH,411,UNIBO,2006-2010,incoming
+Lebanon,LB,381,UNIBO,2006-2010,incoming
+United Arab Emirates,AE,354,UNIBO,2006-2010,incoming
+Iceland,IS,322,UNIBO,2006-2010,incoming
+Algeria,DZ,311,UNIBO,2006-2010,incoming
+Qatar,QA,309,UNIBO,2006-2010,incoming
+Indonesia,ID,297,UNIBO,2006-2010,incoming
+Uruguay,UY,292,UNIBO,2006-2010,incoming
+Philippines,PH,271,UNIBO,2006-2010,incoming
+Ethiopia,ET,259,UNIBO,2006-2010,incoming
+Montenegro,ME,249,UNIBO,2006-2010,incoming
+Luxembourg,LU,244,UNIBO,2006-2010,incoming
+Mongolia,MN,199,UNIBO,2006-2010,incoming
+Venezuela,VE,190,UNIBO,2006-2010,incoming
+Nigeria,NG,186,UNIBO,2006-2010,incoming
+Kenya,KE,181,UNIBO,2006-2010,incoming
+Czech Republic,CZ,179,UNIBO,2006-2010,incoming
+Réunion,RE,164,UNIBO,2006-2010,incoming
+Kazakhstan,KZ,156,UNIBO,2006-2010,incoming
+Bahrain,BH,149,UNIBO,2006-2010,incoming
+Bangladesh,BD,145,UNIBO,2006-2010,incoming
+Latvia,LV,140,UNIBO,2006-2010,incoming
+Tanzania,TZ,135,UNIBO,2006-2010,incoming
+Kuwait,KW,133,UNIBO,2006-2010,incoming
+Sri Lanka,LK,123,UNIBO,2006-2010,incoming
+Turkey,TR,115,UNIBO,2006-2010,incoming
+Cameroon,CM,109,UNIBO,2006-2010,incoming
+Syria,SY,105,UNIBO,2006-2010,incoming
+Palestine,PS,88,UNIBO,2006-2010,incoming
+Nepal,NP,88,UNIBO,2006-2010,incoming
+Bosnia and Herzegovina,BA,84,UNIBO,2006-2010,incoming
+Uganda,UG,77,UNIBO,2006-2010,incoming
+Mozambique,MZ,76,UNIBO,2006-2010,incoming
+Benin,BJ,72,UNIBO,2006-2010,incoming
+Oman,OM,71,UNIBO,2006-2010,incoming
+Costa Rica,CR,70,UNIBO,2006-2010,incoming
+Malta,MT,65,UNIBO,2006-2010,incoming
+Guadeloupe,GP,64,UNIBO,2006-2010,incoming
+Seychelles,SC,64,UNIBO,2006-2010,incoming
+Jamaica,JM,60,UNIBO,2006-2010,incoming
+Cambodia,KH,53,UNIBO,2006-2010,incoming
+Macao,MO,50,UNIBO,2006-2010,incoming
+Bolivia,BO,49,UNIBO,2006-2010,incoming
+Iran (Islamic Republic of),IR,48,UNIBO,2006-2010,incoming
+Brunei,BN,47,UNIBO,2006-2010,incoming
+Yemen,YE,45,UNIBO,2006-2010,incoming
+Moldova,MD,44,UNIBO,2006-2010,incoming
+San Marino,SM,42,UNIBO,2006-2010,incoming
+Iraq,IQ,40,UNIBO,2006-2010,incoming
+North Macedonia,MK,39,UNIBO,2006-2010,incoming
+Angola,AO,38,UNIBO,2006-2010,incoming
+European Union,EU,38,UNIBO,2006-2010,incoming
+New Caledonia,NC,37,UNIBO,2006-2010,incoming
+Zambia,ZM,36,UNIBO,2006-2010,incoming
+Burkina Faso,BF,36,UNIBO,2006-2010,incoming
+Zimbabwe,ZW,34,UNIBO,2006-2010,incoming
+Albania,AL,34,UNIBO,2006-2010,incoming
+Tajikistan,TJ,33,UNIBO,2006-2010,incoming
+Bhutan,BT,30,UNIBO,2006-2010,incoming
+Panama,PA,28,UNIBO,2006-2010,incoming
+Gabon,GA,26,UNIBO,2006-2010,incoming
+Curaçao,CW,24,UNIBO,2006-2010,incoming
+El Salvador,SV,23,UNIBO,2006-2010,incoming
+Senegal,SN,22,UNIBO,2006-2010,incoming
+Botswana,BW,22,UNIBO,2006-2010,incoming
+Namibia,,21,UNIBO,2006-2010,incoming
+Guatemala,GT,20,UNIBO,2006-2010,incoming
+Antigua and Barbuda,AG,19,UNIBO,2006-2010,incoming
+Palau,PW,19,UNIBO,2006-2010,incoming
+Myanmar,MM,19,UNIBO,2006-2010,incoming
+Libya,LY,17,UNIBO,2006-2010,incoming
+Trinidad and Tobago,TT,15,UNIBO,2006-2010,incoming
+Sudan,SD,15,UNIBO,2006-2010,incoming
+Mauritius,MU,14,UNIBO,2006-2010,incoming
+Somalia,SO,14,UNIBO,2006-2010,incoming
+Grenada,GD,13,UNIBO,2006-2010,incoming
+Malawi,MW,13,UNIBO,2006-2010,incoming
+Nicaragua,NI,12,UNIBO,2006-2010,incoming
+Paraguay,PY,11,UNIBO,2006-2010,incoming
+Mali,ML,10,UNIBO,2006-2010,incoming
+Papua New Guinea,PG,8,UNIBO,2006-2010,incoming
+DR Congo,CD,8,UNIBO,2006-2010,incoming
+American Samoa,AS,8,UNIBO,2006-2010,incoming
+Ivory Coast,CI,8,UNIBO,2006-2010,incoming
+Kyrgyzstan,KG,8,UNIBO,2006-2010,incoming
+Guinea-Bissau,GW,8,UNIBO,2006-2010,incoming
+French Guiana,GF,8,UNIBO,2006-2010,incoming
+Barbados,BB,7,UNIBO,2006-2010,incoming
+Madagascar,MG,7,UNIBO,2006-2010,incoming
+Kosovo,XK,6,UNIBO,2006-2010,incoming
+Fiji,FJ,6,UNIBO,2006-2010,incoming
+Maldives,MV,6,UNIBO,2006-2010,incoming
+Burundi,BI,6,UNIBO,2006-2010,incoming
+Rwanda,RW,5,UNIBO,2006-2010,incoming
+French Polynesia,PF,5,UNIBO,2006-2010,incoming
+Guam,GU,4,UNIBO,2006-2010,incoming
+Dominican Republic,DO,4,UNIBO,2006-2010,incoming
+Afghanistan,AF,4,UNIBO,2006-2010,incoming
+Greenland,GL,4,UNIBO,2006-2010,incoming
+Timor-Leste,TL,4,UNIBO,2006-2010,incoming
+Lesotho,LS,4,UNIBO,2006-2010,incoming
+Svalbard and Jan Mayen,SJ,4,UNIBO,2006-2010,incoming
+Bermuda,BM,3,UNIBO,2006-2010,incoming
+Laos,LA,3,UNIBO,2006-2010,incoming
+Togo,TG,3,UNIBO,2006-2010,incoming
+Honduras,HN,3,UNIBO,2006-2010,incoming
+Niger,NE,3,UNIBO,2006-2010,incoming
+Belize,BZ,3,UNIBO,2006-2010,incoming
+Mauritania,MR,3,UNIBO,2006-2010,incoming
+Chad,TD,2,UNIBO,2006-2010,incoming
+North Korea,KP,2,UNIBO,2006-2010,incoming
+Liechtenstein,LI,2,UNIBO,2006-2010,incoming
+Sint Maarten,SX,2,UNIBO,2006-2010,incoming
+St Kitts and Nevis,KN,2,UNIBO,2006-2010,incoming
+Haiti,HT,2,UNIBO,2006-2010,incoming
+Congo Republic,CG,2,UNIBO,2006-2010,incoming
+Gibraltar,GI,2,UNIBO,2006-2010,incoming
+Cabo Verde,CV,1,UNIBO,2006-2010,incoming
+Faroe Islands,FO,1,UNIBO,2006-2010,incoming
+Marshall Islands,MH,1,UNIBO,2006-2010,incoming
+Central African Republic,CF,1,UNIBO,2006-2010,incoming
+Monaco,MC,1,UNIBO,2006-2010,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,1,UNIBO,2006-2010,incoming
+Djibouti,DJ,1,UNIBO,2006-2010,incoming
+Tanzania (United Republic of),TZ,1,UNIBO,2006-2010,incoming
+U.S. Virgin Islands,VI,1,UNIBO,2006-2010,incoming
+Martinique,MQ,1,UNIBO,2006-2010,incoming
+Eswatini,SZ,1,UNIBO,2006-2010,incoming
+Montserrat,MS,1,UNIBO,2006-2010,incoming
+Northern Mariana Islands,MP,1,UNIBO,2006-2010,incoming

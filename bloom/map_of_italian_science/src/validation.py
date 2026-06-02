@@ -4,7 +4,10 @@ import pandas as pd
 from .data_utils import (
     INSTITUTIONS,
     load_country_data, 
-    load_org_data
+    load_org_data,
+    load_temporal_dataset,
+    YEAR_BLOCKS,
+    ANNUALIZED_BASE_PATH
 )
 
 def discover_country_name_variants(base_path):
@@ -111,3 +114,26 @@ def export_cleaned_csvs(
                 print(
                     f"Skipped {inst} {direction}"
                 )
+
+def export_cleaned_csvs_temporal(output_dir: Path):
+    output_dir = Path(output_dir)
+    saved, skipped = 0, 0
+    
+    for inst in INSTITUTIONS:
+        for y_block in YEAR_BLOCKS:
+            for direction in ["incoming", "outgoing"]:
+                for dataset_type in ["organizations", "countries"]: 
+                    try:
+                        df = load_temporal_dataset(inst, direction, y_block, dataset_type)
+                        
+                        out_dir = output_dir / inst / y_block
+                        out_dir.mkdir(parents=True, exist_ok=True)
+                        
+                        out_file = out_dir / f"citation_counts_{dataset_type}_{direction}_clean.csv"
+                        df.to_csv(out_file, index=False)
+                        saved += 1
+                        
+                    except FileNotFoundError:
+                        skipped += 1
+                        
+    print(f"\nTemporal Export complete: {saved} files processed successfully, {skipped} files skipped.")

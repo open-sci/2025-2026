@@ -1,0 +1,222 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,1723541,UNIBO,2011-2015,incoming
+France,FR,1013139,UNIBO,2011-2015,incoming
+Italy,IT,957106,UNIBO,2011-2015,incoming
+United Kingdom,GB,459677,UNIBO,2011-2015,incoming
+Germany,DE,418671,UNIBO,2011-2015,incoming
+Spain,ES,273315,UNIBO,2011-2015,incoming
+China,CN,234432,UNIBO,2011-2015,incoming
+Japan,JP,216334,UNIBO,2011-2015,incoming
+Russia,RU,185657,UNIBO,2011-2015,incoming
+India,IN,145069,UNIBO,2011-2015,incoming
+Canada,CA,144717,UNIBO,2011-2015,incoming
+Switzerland,CH,132103,UNIBO,2011-2015,incoming
+The Netherlands,NL,129372,UNIBO,2011-2015,incoming
+South Korea,KR,126417,UNIBO,2011-2015,incoming
+Brazil,BR,120381,UNIBO,2011-2015,incoming
+Türkiye,TR,118484,UNIBO,2011-2015,incoming
+Australia,AU,113225,UNIBO,2011-2015,incoming
+Poland,PL,97559,UNIBO,2011-2015,incoming
+Belgium,BE,82597,UNIBO,2011-2015,incoming
+Greece,GR,70680,UNIBO,2011-2015,incoming
+Finland,FI,65837,UNIBO,2011-2015,incoming
+Hungary,HU,63817,UNIBO,2011-2015,incoming
+Taiwan,TW,61439,UNIBO,2011-2015,incoming
+Sweden,SE,57911,UNIBO,2011-2015,incoming
+Mexico,MX,51736,UNIBO,2011-2015,incoming
+Portugal,PT,48355,UNIBO,2011-2015,incoming
+Czechia,CZ,45799,UNIBO,2011-2015,incoming
+Austria,AT,45055,UNIBO,2011-2015,incoming
+Denmark,DK,42365,UNIBO,2011-2015,incoming
+Norway,NO,39581,UNIBO,2011-2015,incoming
+Israel,IL,32425,UNIBO,2011-2015,incoming
+Iran,IR,31955,UNIBO,2011-2015,incoming
+Croatia,HR,28714,UNIBO,2011-2015,incoming
+Argentina,AR,28605,UNIBO,2011-2015,incoming
+China (People's Republic of),CN,27120,UNIBO,2011-2015,incoming
+South Africa,ZA,27001,UNIBO,2011-2015,incoming
+Slovakia,SK,26282,UNIBO,2011-2015,incoming
+Chile,CL,23220,UNIBO,2011-2015,incoming
+Ireland,IE,21077,UNIBO,2011-2015,incoming
+Serbia,RS,20389,UNIBO,2011-2015,incoming
+Romania,RO,20280,UNIBO,2011-2015,incoming
+Belarus,BY,18916,UNIBO,2011-2015,incoming
+New Zealand,NZ,18904,UNIBO,2011-2015,incoming
+Colombia,CO,18787,UNIBO,2011-2015,incoming
+Bulgaria,BG,18248,UNIBO,2011-2015,incoming
+Ukraine,UA,16509,UNIBO,2011-2015,incoming
+Egypt,EG,16428,UNIBO,2011-2015,incoming
+Hong Kong,HK,15329,UNIBO,2011-2015,incoming
+Pakistan,PK,15235,UNIBO,2011-2015,incoming
+Morocco,MA,15163,UNIBO,2011-2015,incoming
+Netherlands,NL,14490,UNIBO,2011-2015,incoming
+Slovenia,SI,14031,UNIBO,2011-2015,incoming
+Georgia,GE,12672,UNIBO,2011-2015,incoming
+Singapore,SG,11868,UNIBO,2011-2015,incoming
+Armenia,AM,9970,UNIBO,2011-2015,incoming
+Azerbaijan,AZ,9768,UNIBO,2011-2015,incoming
+Malaysia,MY,9440,UNIBO,2011-2015,incoming
+Puerto Rico,PR,8580,UNIBO,2011-2015,incoming
+Estonia,EE,8557,UNIBO,2011-2015,incoming
+Thailand,TH,8235,UNIBO,2011-2015,incoming
+Cyprus,CY,8072,UNIBO,2011-2015,incoming
+Saudi Arabia,SA,7269,UNIBO,2011-2015,incoming
+Lithuania,LT,7008,UNIBO,2011-2015,incoming
+Vietnam,VN,2977,UNIBO,2011-2015,incoming
+Peru,PE,2947,UNIBO,2011-2015,incoming
+Korea (Republic of),KR,2934,UNIBO,2011-2015,incoming
+Tunisia,TN,2417,UNIBO,2011-2015,incoming
+Qatar,QA,2268,UNIBO,2011-2015,incoming
+Uzbekistan,UZ,2146,UNIBO,2011-2015,incoming
+Jordan,JO,2087,UNIBO,2011-2015,incoming
+Cuba,CU,1929,UNIBO,2011-2015,incoming
+Russian Federation,RU,1860,UNIBO,2011-2015,incoming
+Iceland,IS,1689,UNIBO,2011-2015,incoming
+Ethiopia,ET,1403,UNIBO,2011-2015,incoming
+Czech Republic,CZ,1390,UNIBO,2011-2015,incoming
+Nigeria,NG,1346,UNIBO,2011-2015,incoming
+United Arab Emirates,AE,1308,UNIBO,2011-2015,incoming
+Lebanon,LB,1270,UNIBO,2011-2015,incoming
+Ecuador,EC,1231,UNIBO,2011-2015,incoming
+Algeria,DZ,1206,UNIBO,2011-2015,incoming
+Philippines,PH,1146,UNIBO,2011-2015,incoming
+Turkey,TR,1074,UNIBO,2011-2015,incoming
+Indonesia,ID,1020,UNIBO,2011-2015,incoming
+Sri Lanka,LK,771,UNIBO,2011-2015,incoming
+Uruguay,UY,765,UNIBO,2011-2015,incoming
+Ghana,GH,758,UNIBO,2011-2015,incoming
+Bangladesh,BD,718,UNIBO,2011-2015,incoming
+Kenya,KE,714,UNIBO,2011-2015,incoming
+Bahrain,BH,700,UNIBO,2011-2015,incoming
+Luxembourg,LU,677,UNIBO,2011-2015,incoming
+Iran (Islamic Republic of),IR,639,UNIBO,2011-2015,incoming
+Latvia,LV,620,UNIBO,2011-2015,incoming
+Uganda,UG,535,UNIBO,2011-2015,incoming
+Venezuela,VE,527,UNIBO,2011-2015,incoming
+Tanzania,TZ,486,UNIBO,2011-2015,incoming
+Réunion,RE,470,UNIBO,2011-2015,incoming
+Bosnia and Herzegovina,BA,455,UNIBO,2011-2015,incoming
+Malta,MT,431,UNIBO,2011-2015,incoming
+Oman,OM,428,UNIBO,2011-2015,incoming
+Jamaica,JM,417,UNIBO,2011-2015,incoming
+Kuwait,KW,407,UNIBO,2011-2015,incoming
+Cameroon,CM,360,UNIBO,2011-2015,incoming
+Palestine,PS,321,UNIBO,2011-2015,incoming
+Iraq,IQ,319,UNIBO,2011-2015,incoming
+Guadeloupe,GP,315,UNIBO,2011-2015,incoming
+Kazakhstan,KZ,305,UNIBO,2011-2015,incoming
+San Marino,SM,299,UNIBO,2011-2015,incoming
+North Macedonia,MK,288,UNIBO,2011-2015,incoming
+Benin,BJ,284,UNIBO,2011-2015,incoming
+Nepal,NP,274,UNIBO,2011-2015,incoming
+Macao,MO,274,UNIBO,2011-2015,incoming
+Costa Rica,CR,230,UNIBO,2011-2015,incoming
+Mongolia,MN,221,UNIBO,2011-2015,incoming
+Mozambique,MZ,216,UNIBO,2011-2015,incoming
+Montenegro,ME,204,UNIBO,2011-2015,incoming
+Zambia,ZM,194,UNIBO,2011-2015,incoming
+Burkina Faso,BF,191,UNIBO,2011-2015,incoming
+Suriname,SR,176,UNIBO,2011-2015,incoming
+Antigua and Barbuda,AG,174,UNIBO,2011-2015,incoming
+Sudan,SD,170,UNIBO,2011-2015,incoming
+Yemen,YE,154,UNIBO,2011-2015,incoming
+Zimbabwe,ZW,148,UNIBO,2011-2015,incoming
+Namibia,,145,UNIBO,2011-2015,incoming
+Cambodia,KH,141,UNIBO,2011-2015,incoming
+Moldova,MD,139,UNIBO,2011-2015,incoming
+Angola,AO,137,UNIBO,2011-2015,incoming
+New Caledonia,NC,137,UNIBO,2011-2015,incoming
+Senegal,SN,135,UNIBO,2011-2015,incoming
+Panama,PA,129,UNIBO,2011-2015,incoming
+Brunei,BN,126,UNIBO,2011-2015,incoming
+Seychelles,SC,119,UNIBO,2011-2015,incoming
+Albania,AL,116,UNIBO,2011-2015,incoming
+Bhutan,BT,115,UNIBO,2011-2015,incoming
+Paraguay,PY,104,UNIBO,2011-2015,incoming
+Trinidad and Tobago,TT,103,UNIBO,2011-2015,incoming
+Libya,LY,100,UNIBO,2011-2015,incoming
+Myanmar,MM,94,UNIBO,2011-2015,incoming
+Syria,SY,88,UNIBO,2011-2015,incoming
+DR Congo,CD,88,UNIBO,2011-2015,incoming
+Ivory Coast,CI,86,UNIBO,2011-2015,incoming
+Malawi,MW,82,UNIBO,2011-2015,incoming
+Kosovo,XK,79,UNIBO,2011-2015,incoming
+Grenada,GD,78,UNIBO,2011-2015,incoming
+Guatemala,GT,78,UNIBO,2011-2015,incoming
+Botswana,BW,77,UNIBO,2011-2015,incoming
+Tajikistan,TJ,72,UNIBO,2011-2015,incoming
+El Salvador,SV,69,UNIBO,2011-2015,incoming
+Gabon,GA,67,UNIBO,2011-2015,incoming
+Papua New Guinea,PG,64,UNIBO,2011-2015,incoming
+Bolivia,BO,64,UNIBO,2011-2015,incoming
+Mali,ML,61,UNIBO,2011-2015,incoming
+Fiji,FJ,58,UNIBO,2011-2015,incoming
+Rwanda,RW,58,UNIBO,2011-2015,incoming
+Niger,NE,55,UNIBO,2011-2015,incoming
+Barbados,BB,52,UNIBO,2011-2015,incoming
+Viet Nam,VN,51,UNIBO,2011-2015,incoming
+Mauritius,MU,51,UNIBO,2011-2015,incoming
+American Samoa,AS,51,UNIBO,2011-2015,incoming
+Somalia,SO,49,UNIBO,2011-2015,incoming
+Madagascar,MG,47,UNIBO,2011-2015,incoming
+Curaçao,CW,46,UNIBO,2011-2015,incoming
+Svalbard and Jan Mayen,SJ,45,UNIBO,2011-2015,incoming
+Gibraltar,GI,45,UNIBO,2011-2015,incoming
+Nicaragua,NI,44,UNIBO,2011-2015,incoming
+French Polynesia,PF,37,UNIBO,2011-2015,incoming
+Honduras,HN,34,UNIBO,2011-2015,incoming
+French Guiana,GF,32,UNIBO,2011-2015,incoming
+Kyrgyzstan,KG,27,UNIBO,2011-2015,incoming
+Dominican Republic,DO,27,UNIBO,2011-2015,incoming
+Afghanistan,AF,22,UNIBO,2011-2015,incoming
+Greenland,GL,21,UNIBO,2011-2015,incoming
+Monaco,MC,20,UNIBO,2011-2015,incoming
+Palau,PW,19,UNIBO,2011-2015,incoming
+Togo,TG,18,UNIBO,2011-2015,incoming
+St Kitts and Nevis,KN,17,UNIBO,2011-2015,incoming
+North Korea,KP,16,UNIBO,2011-2015,incoming
+Guam,GU,15,UNIBO,2011-2015,incoming
+Laos,LA,15,UNIBO,2011-2015,incoming
+The Gambia,GM,14,UNIBO,2011-2015,incoming
+Montserrat,MS,14,UNIBO,2011-2015,incoming
+Maldives,MV,13,UNIBO,2011-2015,incoming
+Faroe Islands,FO,13,UNIBO,2011-2015,incoming
+European Union,EU,12,UNIBO,2011-2015,incoming
+Bermuda,BM,11,UNIBO,2011-2015,incoming
+Burundi,BI,10,UNIBO,2011-2015,incoming
+Eswatini,SZ,10,UNIBO,2011-2015,incoming
+Bahamas,BS,9,UNIBO,2011-2015,incoming
+Congo Republic,CG,9,UNIBO,2011-2015,incoming
+Martinique,MQ,8,UNIBO,2011-2015,incoming
+Cabo Verde,CV,8,UNIBO,2011-2015,incoming
+Tanzania (United Republic of),TZ,7,UNIBO,2011-2015,incoming
+Liechtenstein,LI,7,UNIBO,2011-2015,incoming
+South Sudan,SS,6,UNIBO,2011-2015,incoming
+Micronesia,FM,6,UNIBO,2011-2015,incoming
+Turkmenistan,TM,5,UNIBO,2011-2015,incoming
+Mauritania,MR,5,UNIBO,2011-2015,incoming
+Guinea-Bissau,GW,4,UNIBO,2011-2015,incoming
+Central African Republic,CF,4,UNIBO,2011-2015,incoming
+Chad,TD,3,UNIBO,2011-2015,incoming
+Lesotho,LS,3,UNIBO,2011-2015,incoming
+Former Yugoslav Republic of Macedonia,MK,3,UNIBO,2011-2015,incoming
+Belize,BZ,3,UNIBO,2011-2015,incoming
+U.S. Virgin Islands,VI,3,UNIBO,2011-2015,incoming
+St Vincent and Grenadines,VC,3,UNIBO,2011-2015,incoming
+Cote d'Ivoire,CI,2,UNIBO,2011-2015,incoming
+Sint Maarten,SX,2,UNIBO,2011-2015,incoming
+Åland,AX,2,UNIBO,2011-2015,incoming
+Liberia,LR,2,UNIBO,2011-2015,incoming
+Samoa,WS,1,UNIBO,2011-2015,incoming
+Congo (Democratic Republic of),CD,1,UNIBO,2011-2015,incoming
+Guinea,GN,1,UNIBO,2011-2015,incoming
+Guyana,GY,1,UNIBO,2011-2015,incoming
+Eritrea,ER,1,UNIBO,2011-2015,incoming
+Djibouti,DJ,1,UNIBO,2011-2015,incoming
+Syrian Arab Republic,SY,1,UNIBO,2011-2015,incoming
+Sierra Leone,SL,1,UNIBO,2011-2015,incoming
+Falkland Islands,FK,1,UNIBO,2011-2015,incoming
+Haiti,HT,1,UNIBO,2011-2015,incoming
+Equatorial Guinea,GQ,1,UNIBO,2011-2015,incoming
+Isle of Man,IM,1,UNIBO,2011-2015,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,1,UNIBO,2011-2015,incoming
