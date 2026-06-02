@@ -1,0 +1,346 @@
+{
+  "elapsed_seconds": 71.33,
+  "ended_at": "2026-05-28T14:27:12.918429+00:00",
+  "top_n": 10,
+  "universities_processed": [
+    "SNS",
+    "UNIBO",
+    "UNIMI",
+    "UNIPD",
+    "UNITO",
+    "UPO"
+  ],
+  "combined_unique_cited_omids": 476241,
+  "combined_top_cited": [
+    {
+      "omid": "omid:br/06250984317",
+      "citation_count": 61499
+    },
+    {
+      "omid": "omid:br/061301363837",
+      "citation_count": 53430
+    },
+    {
+      "omid": "omid:br/06110995080",
+      "citation_count": 40137
+    },
+    {
+      "omid": "omid:br/061901516871",
+      "citation_count": 22221
+    },
+    {
+      "omid": "omid:br/06702118919",
+      "citation_count": 21702
+    },
+    {
+      "omid": "omid:br/06130528421",
+      "citation_count": 19758
+    },
+    {
+      "omid": "omid:br/06803192878",
+      "citation_count": 18910
+    },
+    {
+      "omid": "omid:br/06130393486",
+      "citation_count": 18078
+    },
+    {
+      "omid": "omid:br/062202117483",
+      "citation_count": 17628
+    },
+    {
+      "omid": "omid:br/06150802937",
+      "citation_count": 13394
+    }
+  ],
+  "per_university": {
+    "SNS": {
+      "university": "SNS",
+      "rows_read": 923963,
+      "unique_cited_omids": 11501,
+      "top_cited": [
+        {
+          "omid": "omid:br/061702622356",
+          "citation_count": 13178
+        },
+        {
+          "omid": "omid:br/06404322937",
+          "citation_count": 12340
+        },
+        {
+          "omid": "omid:br/061903892263",
+          "citation_count": 7761
+        },
+        {
+          "omid": "omid:br/06302832238",
+          "citation_count": 6318
+        },
+        {
+          "omid": "omid:br/06302833102",
+          "citation_count": 3642
+        },
+        {
+          "omid": "omid:br/06803499835",
+          "citation_count": 3548
+        },
+        {
+          "omid": "omid:br/061801843186",
+          "citation_count": 2763
+        },
+        {
+          "omid": "omid:br/061801842692",
+          "citation_count": 2728
+        },
+        {
+          "omid": "omid:br/06160717241",
+          "citation_count": 2474
+        },
+        {
+          "omid": "omid:br/062501605719",
+          "citation_count": 2294
+        }
+      ],
+      "output_csv_size_bytes": 777
+    },
+    "UNIBO": {
+      "university": "UNIBO",
+      "rows_read": 9834395,
+      "unique_cited_omids": 132523,
+      "top_cited": [
+        {
+          "omid": "omid:br/06404322937",
+          "citation_count": 12340
+        },
+        {
+          "omid": "omid:br/061702134027",
+          "citation_count": 11381
+        },
+        {
+          "omid": "omid:br/062603741647",
+          "citation_count": 9244
+        },
+        {
+          "omid": "omid:br/064601050",
+          "citation_count": 8750
+        },
+        {
+          "omid": "omid:br/061401707282",
+          "citation_count": 8144
+        },
+        {
+          "omid": "omid:br/061201939457",
+          "citation_count": 7762
+        },
+        {
+          "omid": "omid:br/061903892263",
+          "citation_count": 7761
+        },
+        {
+          "omid": "omid:br/0630600948",
+          "citation_count": 7311
+        },
+        {
+          "omid": "omid:br/0660902030",
+          "citation_count": 7229
+        },
+        {
+          "omid": "omid:br/061801723121",
+          "citation_count": 6635
+        }
+      ],
+      "output_csv_size_bytes": 809
+    },
+    "UNIMI": {
+      "university": "UNIMI",
+      "rows_read": 12190001,
+      "unique_cited_omids": 147855,
+      "top_cited": [
+        {
+          "omid": "omid:br/06250984317",
+          "citation_count": 61499
+        },
+        {
+          "omid": "omid:br/061301363837",
+          "citation_count": 53430
+        },
+        {
+          "omid": "omid:br/06110995080",
+          "citation_count": 40137
+        },
+        {
+          "omid": "omid:br/061901516871",
+          "citation_count": 22221
+        },
+        {
+          "omid": "omid:br/06702118919",
+          "citation_count": 21702
+        },
+        {
+          "omid": "omid:br/06130528421",
+          "citation_count": 19758
+        },
+        {
+          "omid": "omid:br/06803192878",
+          "citation_count": 18910
+        },
+        {
+          "omid": "omid:br/061301363836",
+          "citation_count": 12915
+        },
+        {
+          "omid": "omid:br/061702134027",
+          "citation_count": 11381
+        },
+        {
+          "omid": "omid:br/0660599373",
+          "citation_count": 10726
+        }
+      ],
+      "output_csv_size_bytes": 877
+    },
+    "UNIPD": {
+      "university": "UNIPD",
+      "rows_read": 10074834,
+      "unique_cited_omids": 132363,
+      "top_cited": [
+        {
+          "omid": "omid:br/06130528421",
+          "citation_count": 19758
+        },
+        {
+          "omid": "omid:br/06130393486",
+          "citation_count": 18078
+        },
+        {
+          "omid": "omid:br/06150802937",
+          "citation_count": 13394
+        },
+        {
+          "omid": "omid:br/062602913974",
+          "citation_count": 10244
+        },
+        {
+          "omid": "omid:br/06101487162",
+          "citation_count": 10058
+        },
+        {
+          "omid": "omid:br/06804294600",
+          "citation_count": 8756
+        },
+        {
+          "omid": "omid:br/062201716518",
+          "citation_count": 8602
+        },
+        {
+          "omid": "omid:br/061401707282",
+          "citation_count": 8144
+        },
+        {
+          "omid": "omid:br/061903892263",
+          "citation_count": 7761
+        },
+        {
+          "omid": "omid:br/061703084912",
+          "citation_count": 7575
+        }
+      ],
+      "output_csv_size_bytes": 826
+    },
+    "UNITO": {
+      "university": "UNITO",
+      "rows_read": 6839419,
+      "unique_cited_omids": 85869,
+      "top_cited": [
+        {
+          "omid": "omid:br/062202117483",
+          "citation_count": 17628
+        },
+        {
+          "omid": "omid:br/061102241196",
+          "citation_count": 7553
+        },
+        {
+          "omid": "omid:br/061801723121",
+          "citation_count": 6635
+        },
+        {
+          "omid": "omid:br/06260277691",
+          "citation_count": 6464
+        },
+        {
+          "omid": "omid:br/06302832238",
+          "citation_count": 6318
+        },
+        {
+          "omid": "omid:br/062401153372",
+          "citation_count": 6128
+        },
+        {
+          "omid": "omid:br/06201543145",
+          "citation_count": 5762
+        },
+        {
+          "omid": "omid:br/0680682711",
+          "citation_count": 5748
+        },
+        {
+          "omid": "omid:br/062201716070",
+          "citation_count": 5029
+        },
+        {
+          "omid": "omid:br/06802505334",
+          "citation_count": 4916
+        }
+      ],
+      "output_csv_size_bytes": 824
+    },
+    "UPO": {
+      "university": "UPO",
+      "rows_read": 1565718,
+      "unique_cited_omids": 19906,
+      "top_cited": [
+        {
+          "omid": "omid:br/061101859686",
+          "citation_count": 8303
+        },
+        {
+          "omid": "omid:br/0690909737",
+          "citation_count": 6909
+        },
+        {
+          "omid": "omid:br/06302832238",
+          "citation_count": 6318
+        },
+        {
+          "omid": "omid:br/0660620583",
+          "citation_count": 4863
+        },
+        {
+          "omid": "omid:br/062203336261",
+          "citation_count": 4654
+        },
+        {
+          "omid": "omid:br/0670645147",
+          "citation_count": 4566
+        },
+        {
+          "omid": "omid:br/061102741485",
+          "citation_count": 4384
+        },
+        {
+          "omid": "omid:br/06201032732",
+          "citation_count": 4040
+        },
+        {
+          "omid": "omid:br/0603930716",
+          "citation_count": 3704
+        },
+        {
+          "omid": "omid:br/068019919",
+          "citation_count": 3680
+        }
+      ],
+      "output_csv_size_bytes": 797
+    }
+  }
+}

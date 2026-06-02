@@ -1,0 +1,223 @@
+country_name,country_code,count
+United States,US,1536904
+France,FR,984125
+Italy,IT,900530
+United Kingdom,GB,420716
+Germany,DE,362138
+Spain,ES,251605
+China,CN,203490
+Japan,JP,152520
+Russia,RU,139544
+Canada,CA,126283
+India,IN,124419
+Switzerland,CH,118242
+The Netherlands,NL,110601
+South Korea,KR,109791
+Australia,AU,105802
+Brazil,BR,96656
+Poland,PL,82855
+Türkiye,TR,81083
+Belgium,BE,79263
+Finland,FI,76658
+Taiwan,TW,58525
+Hungary,HU,57501
+Greece,GR,47931
+Sweden,SE,46659
+Mexico,MX,46347
+Denmark,DK,43272
+Austria,AT,38116
+Portugal,PT,34647
+Norway,NO,31605
+Czechia,CZ,31026
+Iran,IR,26380
+Croatia,HR,25440
+Ireland,IE,23554
+China (People's Republic of),CN,23064
+Chile,CL,21361
+South Africa,ZA,21353
+Israel,IL,20964
+Argentina,AR,20189
+New Zealand,NZ,18276
+Slovakia,SK,16165
+Bulgaria,BG,15587
+Netherlands,NL,14328
+Egypt,EG,14258
+Ukraine,UA,13954
+Colombia,CO,13730
+Serbia,RS,12906
+Pakistan,PK,12717
+Romania,RO,12464
+Hong Kong,HK,12158
+Singapore,SG,12150
+Belarus,BY,9746
+Slovenia,SI,8824
+Estonia,EE,7847
+Georgia,GE,7660
+Malaysia,MY,7613
+Puerto Rico,PR,7265
+Thailand,TH,7157
+Armenia,AM,6925
+Cyprus,CY,6635
+Saudi Arabia,SA,6594
+Lithuania,LT,6001
+Morocco,MA,5441
+Azerbaijan,AZ,3072
+Korea (Republic of),KR,2707
+Peru,PE,2615
+Vietnam,VN,2325
+Qatar,QA,2177
+Russian Federation,RU,2166
+Iceland,IS,2103
+Uzbekistan,UZ,1953
+Tunisia,TN,1750
+Cuba,CU,1750
+Czech Republic,CZ,1567
+Jordan,JO,1510
+United Arab Emirates,AE,1150
+Lebanon,LB,1135
+Ethiopia,ET,1092
+Turkey,TR,1049
+Nigeria,NG,968
+Algeria,DZ,918
+Ecuador,EC,905
+Philippines,PH,841
+Luxembourg,LU,822
+Uruguay,UY,805
+Indonesia,ID,804
+Bangladesh,BD,665
+Sri Lanka,LK,653
+Latvia,LV,641
+Bahrain,BH,634
+Venezuela,VE,624
+Jamaica,JM,600
+Ghana,GH,533
+Oman,OM,466
+Kenya,KE,450
+Iran (Islamic Republic of),IR,407
+Uganda,UG,399
+Macao,MO,393
+Tanzania,TZ,393
+Namibia,NA,388
+Barbados,BB,367
+Kazakhstan,KZ,333
+Costa Rica,CR,328
+Bosnia and Herzegovina,BA,317
+Cameroon,CM,308
+Guadeloupe,GP,302
+Réunion,RE,300
+Iraq,IQ,267
+Kuwait,KW,266
+Malta,MT,259
+Palestine,PS,250
+Nepal,NP,245
+Benin,BJ,236
+Montenegro,ME,220
+Mongolia,MN,213
+Mozambique,MZ,191
+Albania,AL,183
+Cambodia,KH,182
+North Macedonia,MK,160
+Burkina Faso,BF,159
+Moldova,MD,158
+Yemen,YE,153
+Senegal,SN,137
+Panama,PA,132
+Zimbabwe,ZW,129
+Grenada,GD,125
+Angola,AO,117
+Paraguay,PY,112
+Bhutan,BT,111
+Sudan,SD,106
+Malawi,MW,94
+Zambia,ZM,93
+Myanmar,MM,76
+Ivory Coast,CI,75
+Guatemala,GT,74
+Antigua and Barbuda,AG,74
+Curaçao,CW,71
+Syria,SY,64
+Tajikistan,TJ,63
+Honduras,HN,60
+Brunei,BN,57
+Botswana,BW,56
+Rwanda,RW,56
+El Salvador,SV,55
+Trinidad and Tobago,TT,55
+Bolivia,BO,54
+Fiji,FJ,52
+Nicaragua,NI,52
+DR Congo,CD,50
+New Caledonia,NC,48
+Seychelles,SC,48
+French Polynesia,PF,47
+Palau,PW,45
+Niger,NE,45
+Somalia,SO,45
+Gabon,GA,44
+San Marino,SM,44
+French Guiana,GF,41
+Kosovo,XK,39
+Libya,LY,36
+Mali,ML,34
+Burundi,BI,33
+Greenland,GL,33
+Mauritius,MU,32
+Madagascar,MG,31
+American Samoa,AS,30
+Dominican Republic,DO,26
+Togo,TG,26
+Liechtenstein,LI,26
+Monaco,MC,26
+Kyrgyzstan,KG,24
+Congo Republic,CG,21
+Eritrea,ER,20
+European Union,EU,19
+Papua New Guinea,PG,18
+Viet Nam,VN,17
+St Kitts and Nevis,KN,16
+Svalbard and Jan Mayen,SJ,15
+Gibraltar,GI,15
+Tanzania (United Republic of),TZ,11
+Maldives,MV,10
+Faroe Islands,FO,10
+Liberia,LR,10
+Sierra Leone,SL,9
+Laos,LA,9
+Guinea-Bissau,GW,9
+Suriname,SR,8
+Martinique,MQ,8
+Central African Republic,CF,7
+Bermuda,BM,5
+The Gambia,GM,5
+South Sudan,SS,4
+Jersey,JE,4
+Afghanistan,AF,4
+Mauritania,MR,4
+Lesotho,LS,4
+Tonga,TO,3
+Cabo Verde,CV,3
+Falkland Islands,FK,3
+Chad,TD,2
+Guam,GU,2
+Sint Maarten,SX,2
+"Virgin Islands, U.S.",VI,2
+North Korea,KP,2
+Guyana,GY,2
+Montserrat,MS,2
+Haiti,HT,2
+"Bonaire, Sint Eustatius, and Saba",BQ,2
+St Vincent and Grenadines,VC,2
+Isle of Man,IM,2
+Andorra,AD,1
+Djibouti,DJ,1
+U.S. Virgin Islands,VI,1
+Lao (People's Democratic Republic),LA,1
+Belize,BZ,1
+Marshall Islands,MH,1
+Guinea,GN,1
+Saint Lucia,LC,1
+British Virgin Islands,VG,1
+Bahamas,BS,1
+Palestinian-administered areas,PS,1
+Timor-Leste,TL,1
+Former Yugoslav Republic of Macedonia,MK,1
