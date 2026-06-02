@@ -12,7 +12,19 @@ BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts"
 
 INSTITUTIONS = ["UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO", "SNS"]
 
+EXCLUDE_ITALIAN_PARTNERS = False
+
 INSTITUTION_LABELS = {
+    "UNIBO": "University of Bologna",
+    "UNIMI": "University of Milan",
+    "UNIPD": "University of Padua",
+    "UNITO": "University of Turin",
+    "UPO":   "University of Eastern Piedmont",
+    "SNS":   "Scuola Normale Superiore",
+}
+
+# Legal name as it appears in the CSV — used to exclude only the focal institution
+INSTITUTION_SELF_NAMES = {
     "UNIBO": "University of Bologna",
     "UNIMI": "University of Milan",
     "UNIPD": "University of Padua",
@@ -173,3 +185,67 @@ def to_iso3(code2):
         return pycountry.countries.get(alpha_2=code2).alpha_3
     except AttributeError:
         return None
+    
+
+def load_org_data(institution: str, direction: str) -> pd.DataFrame:
+    """Load and clean the org-level CSV for one institution and direction.
+
+    Cleaning steps (mirrors load_country_data in the country-level notebook):
+      1. Drop rows with missing country_code, country_name, or ror.
+      2. Normalise country_code formatting (strip whitespace, uppercase).
+      3. Apply COUNTRY_NAMES canonical mapping (same dict as country notebook).
+      4. Aggregate counts for rows sharing the same (ror, country_code) after mapping.
+      5. Remove the focal institution's own self-citation row.
+
+    Returns
+    -------
+    pd.DataFrame with columns: ror, legal_name, country_code, country_name,
+                                count, institution, direction
+    """
+    path = BASE_PATH / institution / f"citation_counts_organizations_{direction}.csv"
+    df   = pd.read_csv(path)
+
+    # 1. Drop rows missing key identifiers
+    df = df.dropna(subset=["country_code", "country_name", "legal_name"])
+    df = df[df["country_code"].str.strip() != ""]
+
+    # 2. Normalise country_code
+    df["country_code"] = df["country_code"].str.strip().str.upper()
+
+    # 3. Apply canonical country name mapping
+    df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
+
+    # 4. Aggregate counts for any (ror, country_code) duplicates after mapping
+    group_cols = ["ror", "legal_name", "country_code", "country_name"] if "ror" in df.columns                  else ["legal_name", "country_code", "country_name"]
+    df = df.groupby(group_cols, as_index=False)["count"].sum()
+
+    # 5. Remove the focal institution's own self-citation row
+    self_name = INSTITUTION_SELF_NAMES[institution]
+    df = df[df["legal_name"] != self_name].copy()
+
+    # 6. Optionally exclude all other Italian partner institutions
+    #    (mirrors the country-level analysis which excludes country_code == "IT")
+    if EXCLUDE_ITALIAN_PARTNERS:
+        df = df[df["country_code"] != "IT"].copy()
+
+    # Add metadata
+    df["institution"] = institution
+    df["direction"]   = direction
+
+    return df
+
+
+def load_all_available() -> dict:
+    """Load all institutions for which CSV files are present.
+    Returns: {inst_key: (incoming_df, outgoing_df)}
+    """
+    datasets = {}
+    for inst in INSTITUTIONS:
+        try:
+            inb = load_org_data(inst, "incoming")
+            out = load_org_data(inst, "outgoing")
+            datasets[inst] = (inb, out)
+            print(f"✓ {inst}: incoming {len(inb):,} orgs · outgoing {len(out):,} orgs")
+        except FileNotFoundError:
+            print(f"○ {inst}: data not yet available — skipped")
+    return datasets

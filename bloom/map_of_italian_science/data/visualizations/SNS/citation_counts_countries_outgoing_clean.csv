@@ -1,0 +1,183 @@
+country_code,country_name,count,institution,direction
+AE,United Arab Emirates,618,SNS,outgoing
+AF,Afghanistan,3,SNS,outgoing
+AG,Antigua and Barbuda,7,SNS,outgoing
+AL,Albania,14,SNS,outgoing
+AM,Armenia,11396,SNS,outgoing
+AO,Angola,23,SNS,outgoing
+AR,Argentina,13259,SNS,outgoing
+AS,American Samoa,7,SNS,outgoing
+AT,Austria,33124,SNS,outgoing
+AU,Australia,71926,SNS,outgoing
+AZ,Azerbaijan,4767,SNS,outgoing
+BA,Bosnia and Herzegovina,190,SNS,outgoing
+BB,Barbados,19,SNS,outgoing
+BD,Bangladesh,165,SNS,outgoing
+BE,Belgium,73148,SNS,outgoing
+BF,Burkina Faso,20,SNS,outgoing
+BG,Bulgaria,26224,SNS,outgoing
+BH,Bahrain,536,SNS,outgoing
+BI,Burundi,15,SNS,outgoing
+BJ,Benin,28,SNS,outgoing
+BM,Bermuda,5,SNS,outgoing
+BN,Brunei,16,SNS,outgoing
+BO,Bolivia,5,SNS,outgoing
+BR,Brazil,104930,SNS,outgoing
+BT,Bhutan,8,SNS,outgoing
+BW,Botswana,6,SNS,outgoing
+BY,Belarus,17386,SNS,outgoing
+CA,Canada,98583,SNS,outgoing
+CD,DR Congo,34,SNS,outgoing
+CG,Congo Republic,4,SNS,outgoing
+CH,Switzerland,153421,SNS,outgoing
+CI,Ivory Coast,4,SNS,outgoing
+CL,Chile,18126,SNS,outgoing
+CM,Cameroon,40,SNS,outgoing
+CN,China,175110,SNS,outgoing
+CO,Colombia,25654,SNS,outgoing
+CR,Costa Rica,56,SNS,outgoing
+CU,Cuba,380,SNS,outgoing
+CW,Curaçao,2,SNS,outgoing
+CY,Cyprus,12757,SNS,outgoing
+CZ,Czechia,31330,SNS,outgoing
+DE,Germany,331879,SNS,outgoing
+DK,Denmark,32608,SNS,outgoing
+DO,Dominican Republic,2,SNS,outgoing
+DZ,Algeria,229,SNS,outgoing
+EC,Ecuador,13791,SNS,outgoing
+EE,Estonia,9430,SNS,outgoing
+EG,Egypt,13733,SNS,outgoing
+ES,Spain,220170,SNS,outgoing
+ET,Ethiopia,66,SNS,outgoing
+EU,European Union,21,SNS,outgoing
+FI,Finland,84553,SNS,outgoing
+FJ,Fiji,2,SNS,outgoing
+FR,France,886781,SNS,outgoing
+GA,Gabon,4,SNS,outgoing
+GB,United Kingdom,456472,SNS,outgoing
+GD,Grenada,5,SNS,outgoing
+GE,Georgia,16781,SNS,outgoing
+GF,French Guiana,16,SNS,outgoing
+GH,Ghana,583,SNS,outgoing
+GI,Gibraltar,1,SNS,outgoing
+GL,Greenland,8,SNS,outgoing
+GP,Guadeloupe,6,SNS,outgoing
+GR,Greece,63545,SNS,outgoing
+GT,Guatemala,966,SNS,outgoing
+GU,Guam,1,SNS,outgoing
+HK,Hong Kong,7972,SNS,outgoing
+HN,Honduras,262,SNS,outgoing
+HR,Croatia,30093,SNS,outgoing
+HT,Haiti,1,SNS,outgoing
+HU,Hungary,74607,SNS,outgoing
+ID,Indonesia,290,SNS,outgoing
+IE,Ireland,19046,SNS,outgoing
+IL,Israel,23710,SNS,outgoing
+IN,India,153168,SNS,outgoing
+IQ,Iraq,47,SNS,outgoing
+IR,Iran,18851,SNS,outgoing
+IS,Iceland,359,SNS,outgoing
+IT,Italy,788104,SNS,outgoing
+JE,Jersey,1,SNS,outgoing
+JM,Jamaica,51,SNS,outgoing
+JO,Jordan,880,SNS,outgoing
+JP,Japan,195846,SNS,outgoing
+KE,Kenya,46,SNS,outgoing
+KG,Kyrgyzstan,1,SNS,outgoing
+KH,Cambodia,38,SNS,outgoing
+KN,St Kitts and Nevis,4,SNS,outgoing
+KP,North Korea,1,SNS,outgoing
+KR,South Korea,139229,SNS,outgoing
+KW,Kuwait,2357,SNS,outgoing
+KY,Cayman Islands,3,SNS,outgoing
+KZ,Kazakhstan,76,SNS,outgoing
+LA,Laos,6,SNS,outgoing
+LB,Lebanon,122,SNS,outgoing
+LI,Liechtenstein,3,SNS,outgoing
+LK,Sri Lanka,8328,SNS,outgoing
+LT,Lithuania,8861,SNS,outgoing
+LU,Luxembourg,406,SNS,outgoing
+LV,Latvia,5048,SNS,outgoing
+LY,Libya,1,SNS,outgoing
+MA,Morocco,6600,SNS,outgoing
+MC,Monaco,588,SNS,outgoing
+MD,Moldova,16,SNS,outgoing
+ME,Montenegro,3324,SNS,outgoing
+MG,Madagascar,6,SNS,outgoing
+MK,North Macedonia,12,SNS,outgoing
+ML,Mali,1,SNS,outgoing
+MM,Myanmar,8,SNS,outgoing
+MN,Mongolia,361,SNS,outgoing
+MO,Macao,36,SNS,outgoing
+MR,Mauritania,1,SNS,outgoing
+MS,Montserrat,5,SNS,outgoing
+MT,Malta,242,SNS,outgoing
+MU,Mauritius,3,SNS,outgoing
+MV,Maldives,2,SNS,outgoing
+MW,Malawi,2,SNS,outgoing
+MX,Mexico,44783,SNS,outgoing
+MY,Malaysia,13464,SNS,outgoing
+MZ,Mozambique,92,SNS,outgoing
+NC,New Caledonia,13,SNS,outgoing
+NE,Niger,5,SNS,outgoing
+NG,Nigeria,133,SNS,outgoing
+NI,Nicaragua,4,SNS,outgoing
+NL,The Netherlands,108248,SNS,outgoing
+NO,Norway,17911,SNS,outgoing
+NP,Nepal,20,SNS,outgoing
+NZ,New Zealand,17289,SNS,outgoing
+OC,Oceania,1,SNS,outgoing
+OM,Oman,37,SNS,outgoing
+PA,Panama,19,SNS,outgoing
+PE,Peru,445,SNS,outgoing
+PF,French Polynesia,5,SNS,outgoing
+PG,Papua New Guinea,3,SNS,outgoing
+PH,Philippines,707,SNS,outgoing
+PK,Pakistan,17534,SNS,outgoing
+PL,Poland,105249,SNS,outgoing
+PR,Puerto Rico,12922,SNS,outgoing
+PS,Palestine,108,SNS,outgoing
+PT,Portugal,24936,SNS,outgoing
+PW,Palau,1,SNS,outgoing
+PY,Paraguay,6,SNS,outgoing
+QA,Qatar,2134,SNS,outgoing
+RE,Réunion,68,SNS,outgoing
+RO,Romania,12829,SNS,outgoing
+RS,Serbia,14930,SNS,outgoing
+RU,Russia,232167,SNS,outgoing
+RW,Rwanda,8,SNS,outgoing
+SA,Saudi Arabia,2690,SNS,outgoing
+SB,Solomon Islands,1,SNS,outgoing
+SD,Sudan,5,SNS,outgoing
+SE,Sweden,32031,SNS,outgoing
+SG,Singapore,6299,SNS,outgoing
+SI,Slovenia,14235,SNS,outgoing
+SK,Slovakia,20991,SNS,outgoing
+SL,Sierra Leone,10,SNS,outgoing
+SM,San Marino,7,SNS,outgoing
+SN,Senegal,23,SNS,outgoing
+SO,Somalia,3,SNS,outgoing
+SR,Suriname,51,SNS,outgoing
+SV,El Salvador,4,SNS,outgoing
+SY,Syria,3,SNS,outgoing
+SZ,Eswatini,1,SNS,outgoing
+TH,Thailand,8895,SNS,outgoing
+TJ,Tajikistan,65,SNS,outgoing
+TN,Tunisia,385,SNS,outgoing
+TR,Turkey,120762,SNS,outgoing
+TT,Trinidad and Tobago,1,SNS,outgoing
+TW,Taiwan,59405,SNS,outgoing
+TZ,Tanzania,765,SNS,outgoing
+UA,Ukraine,18857,SNS,outgoing
+UG,Uganda,305,SNS,outgoing
+US,United States,1895148,SNS,outgoing
+UY,Uruguay,260,SNS,outgoing
+UZ,Uzbekistan,2222,SNS,outgoing
+VE,Venezuela,131,SNS,outgoing
+VI,U.S. Virgin Islands,6,SNS,outgoing
+VN,Vietnam,2543,SNS,outgoing
+XK,Kosovo,1,SNS,outgoing
+YE,Yemen,22,SNS,outgoing
+ZA,South Africa,12778,SNS,outgoing
+ZM,Zambia,7,SNS,outgoing
+ZW,Zimbabwe,795,SNS,outgoing

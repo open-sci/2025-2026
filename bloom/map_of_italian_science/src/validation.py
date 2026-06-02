@@ -3,7 +3,8 @@ import pandas as pd
 
 from .data_utils import (
     INSTITUTIONS,
-    load_country_data
+    load_country_data, 
+    load_org_data
 )
 
 def discover_country_name_variants(base_path):
@@ -40,86 +41,73 @@ def discover_country_name_variants(base_path):
                     .sort_values("country_code")
                 )
 
-def validate_dataset(df):
+def validate_dataset(df, duplicate_subset):
+    """
+    Generic validation for cleaned datasets.
+    """
+
     print("Checking dataset...")
+
     dupes = df[
         df.duplicated(
-            subset=["country_code"],
+            subset=duplicate_subset,
             keep=False
         )
     ]
 
     if dupes.empty:
-        print("✓ No duplicate country codes")
+        print("✓ No duplicates found")
     else:
-        print("✗ Duplicate country codes found")
+        print("✗ Duplicates found")
         print(dupes)
 
-    if (
-        df[
-            ["country_code",
-             "country_name",
-             "count"]
-        ]
-        .isnull()
-        .any()
-        .any()
-    ):
+    if df.isnull().any().any():
         print("✗ Missing values found")
     else:
         print("✓ No missing values")
 
-def validate_all(base_path):
-    found_issues = False
-    for inst in INSTITUTIONS:
-        for direction in ["incoming", "outgoing"]:
-            df = load_country_data(
-                inst,
-                direction,
-                base_path
-            )
-            dupes = df[
-                df.duplicated(
-                    subset=["country_code"],
-                    keep=False
-                )
-            ]
 
-            if not dupes.empty:
+def export_cleaned_csvs(
+    loader_function,
+    filename_prefix: str,
+    output_dir: Path,
+    institutions,
+):
+    """
+    Export cleaned datasets using the provided loader.
+
+    Parameters
+    ----------
+    loader_function : callable
+        e.g. load_country_data or load_org_data
+
+    filename_prefix : str
+        'countries' or 'organizations'
+
+    output_dir : Path
+
+    institutions : iterable
+        INSTITUTIONS list/dict
+    """
+
+    output_dir = Path(output_dir)
+
+    for inst in institutions:
+        for direction in ["incoming", "outgoing"]:
+            try:
+                df = loader_function(inst, direction)
+                out_path = (
+                    output_dir
+                    / inst
+                    / f"citation_counts_{filename_prefix}_{direction}_clean.csv"
+                )
+                out_path.parent.mkdir(
+                    parents=True,
+                    exist_ok=True
+                )
+                df.to_csv(out_path, index=False)
+                print(f"Saved: {out_path}")
+            except FileNotFoundError:
                 print(
-                    f"✗ {inst} {direction}: duplicates found"
+                    f"Skipped {inst} {direction}"
                 )
-                print(dupes)
-                found_issues = True
-
-    if not found_issues:
-        print(
-            "✓ No duplicate country codes found in any dataset"
-        )
-
-def export_cleaned_csvs(base_path, output_path):
-    for inst in INSTITUTIONS:
-        for direction in ["incoming", "outgoing"]:
-            df = load_country_data(
-                inst,
-                direction,
-                base_path
-            )
-
-            out_file = (
-                Path(output_path)
-                / inst
-                / f"citation_counts_countries_{direction}_clean.csv"
-            )
-
-            out_file.parent.mkdir(
-                parents=True,
-                exist_ok=True
-            )
-
-            df.to_csv(
-                out_file,
-                index=False
-            )
-
-            print(f"Saved: {out_file}")

@@ -1,0 +1,221 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,3,UNITO,outgoing
+AE,United Arab Emirates,6193,UNITO,outgoing
+AF,Afghanistan,55,UNITO,outgoing
+AG,Antigua and Barbuda,424,UNITO,outgoing
+AL,Albania,499,UNITO,outgoing
+AM,Armenia,17758,UNITO,outgoing
+AO,Angola,670,UNITO,outgoing
+AR,Argentina,63241,UNITO,outgoing
+AS,American Samoa,251,UNITO,outgoing
+AT,Austria,134338,UNITO,outgoing
+AU,Australia,409020,UNITO,outgoing
+AW,Aruba,1,UNITO,outgoing
+AZ,Azerbaijan,11505,UNITO,outgoing
+BA,Bosnia and Herzegovina,1991,UNITO,outgoing
+BB,Barbados,212,UNITO,outgoing
+BD,Bangladesh,3218,UNITO,outgoing
+BE,Belgium,247848,UNITO,outgoing
+BF,Burkina Faso,363,UNITO,outgoing
+BG,Bulgaria,39799,UNITO,outgoing
+BH,Bahrain,3326,UNITO,outgoing
+BI,Burundi,119,UNITO,outgoing
+BJ,Benin,998,UNITO,outgoing
+BM,Bermuda,145,UNITO,outgoing
+BN,Brunei,270,UNITO,outgoing
+BO,Bolivia,922,UNITO,outgoing
+BQ,"Bonaire, Sint Eustatius, and Saba",7,UNITO,outgoing
+BR,Brazil,237751,UNITO,outgoing
+BS,Bahamas,26,UNITO,outgoing
+BT,Bhutan,227,UNITO,outgoing
+BW,Botswana,332,UNITO,outgoing
+BY,Belarus,28075,UNITO,outgoing
+BZ,Belize,21,UNITO,outgoing
+CA,Canada,470773,UNITO,outgoing
+CD,DR Congo,627,UNITO,outgoing
+CF,Central African Republic,34,UNITO,outgoing
+CG,Congo Republic,75,UNITO,outgoing
+CH,Switzerland,418452,UNITO,outgoing
+CI,Ivory Coast,419,UNITO,outgoing
+CL,Chile,38542,UNITO,outgoing
+CM,Cameroon,1108,UNITO,outgoing
+CN,China,772710,UNITO,outgoing
+CO,Colombia,36293,UNITO,outgoing
+CR,Costa Rica,1331,UNITO,outgoing
+CU,Cuba,4556,UNITO,outgoing
+CV,Cabo Verde,41,UNITO,outgoing
+CW,Curaçao,251,UNITO,outgoing
+CY,Cyprus,22001,UNITO,outgoing
+CZ,Czechia,104915,UNITO,outgoing
+DE,Germany,1189999,UNITO,outgoing
+DJ,Djibouti,3,UNITO,outgoing
+DK,Denmark,165548,UNITO,outgoing
+DM,Dominica,1,UNITO,outgoing
+DO,Dominican Republic,258,UNITO,outgoing
+DZ,Algeria,2488,UNITO,outgoing
+EC,Ecuador,18257,UNITO,outgoing
+EE,Estonia,19598,UNITO,outgoing
+EG,Egypt,27096,UNITO,outgoing
+ER,Eritrea,19,UNITO,outgoing
+ES,Spain,646346,UNITO,outgoing
+ET,Ethiopia,5374,UNITO,outgoing
+EU,European Union,138,UNITO,outgoing
+FI,Finland,196654,UNITO,outgoing
+FJ,Fiji,323,UNITO,outgoing
+FM,Micronesia,18,UNITO,outgoing
+FO,Faroe Islands,26,UNITO,outgoing
+FR,France,2414267,UNITO,outgoing
+GA,Gabon,440,UNITO,outgoing
+GB,United Kingdom,1559899,UNITO,outgoing
+GD,Grenada,361,UNITO,outgoing
+GE,Georgia,27264,UNITO,outgoing
+GF,French Guiana,512,UNITO,outgoing
+GH,Ghana,3065,UNITO,outgoing
+GI,Gibraltar,94,UNITO,outgoing
+GL,Greenland,97,UNITO,outgoing
+GM,The Gambia,75,UNITO,outgoing
+GN,Guinea,16,UNITO,outgoing
+GP,Guadeloupe,1327,UNITO,outgoing
+GQ,Equatorial Guinea,1,UNITO,outgoing
+GR,Greece,141079,UNITO,outgoing
+GT,Guatemala,1649,UNITO,outgoing
+GU,Guam,29,UNITO,outgoing
+GW,Guinea-Bissau,98,UNITO,outgoing
+GY,Guyana,138,UNITO,outgoing
+HK,Hong Kong,49445,UNITO,outgoing
+HN,Honduras,234,UNITO,outgoing
+HR,Croatia,60090,UNITO,outgoing
+HT,Haiti,41,UNITO,outgoing
+HU,Hungary,132300,UNITO,outgoing
+ID,Indonesia,8050,UNITO,outgoing
+IE,Ireland,67765,UNITO,outgoing
+IL,Israel,91355,UNITO,outgoing
+IM,Isle of Man,10,UNITO,outgoing
+IN,India,309216,UNITO,outgoing
+IQ,Iraq,1434,UNITO,outgoing
+IR,Iran,54935,UNITO,outgoing
+IS,Iceland,7204,UNITO,outgoing
+IT,Italy,2371095,UNITO,outgoing
+JE,Jersey,40,UNITO,outgoing
+JM,Jamaica,1257,UNITO,outgoing
+JO,Jordan,5669,UNITO,outgoing
+JP,Japan,523139,UNITO,outgoing
+KE,Kenya,3879,UNITO,outgoing
+KG,Kyrgyzstan,219,UNITO,outgoing
+KH,Cambodia,799,UNITO,outgoing
+KN,St Kitts and Nevis,156,UNITO,outgoing
+KP,North Korea,11,UNITO,outgoing
+KR,South Korea,295480,UNITO,outgoing
+KW,Kuwait,3611,UNITO,outgoing
+KY,Cayman Islands,16,UNITO,outgoing
+KZ,Kazakhstan,1561,UNITO,outgoing
+LA,Laos,168,UNITO,outgoing
+LB,Lebanon,4615,UNITO,outgoing
+LC,Saint Lucia,13,UNITO,outgoing
+LI,Liechtenstein,162,UNITO,outgoing
+LK,Sri Lanka,10899,UNITO,outgoing
+LR,Liberia,46,UNITO,outgoing
+LS,Lesotho,3,UNITO,outgoing
+LT,Lithuania,13338,UNITO,outgoing
+LU,Luxembourg,3062,UNITO,outgoing
+LV,Latvia,8682,UNITO,outgoing
+LY,Libya,152,UNITO,outgoing
+MA,Morocco,16970,UNITO,outgoing
+MC,Monaco,246,UNITO,outgoing
+MD,Moldova,487,UNITO,outgoing
+ME,Montenegro,4352,UNITO,outgoing
+MG,Madagascar,506,UNITO,outgoing
+MH,Marshall Islands,2,UNITO,outgoing
+MK,North Macedonia,1016,UNITO,outgoing
+ML,Mali,165,UNITO,outgoing
+MM,Myanmar,686,UNITO,outgoing
+MN,Mongolia,6636,UNITO,outgoing
+MO,Macao,1021,UNITO,outgoing
+MP,Northern Mariana Islands,4,UNITO,outgoing
+MQ,Martinique,82,UNITO,outgoing
+MR,Mauritania,33,UNITO,outgoing
+MS,Montserrat,50,UNITO,outgoing
+MT,Malta,1666,UNITO,outgoing
+MU,Mauritius,324,UNITO,outgoing
+MV,Maldives,75,UNITO,outgoing
+MW,Malawi,550,UNITO,outgoing
+MX,Mexico,98445,UNITO,outgoing
+MY,Malaysia,31151,UNITO,outgoing
+MZ,Mozambique,999,UNITO,outgoing
+NC,New Caledonia,339,UNITO,outgoing
+NE,Niger,224,UNITO,outgoing
+NG,Nigeria,4772,UNITO,outgoing
+NI,Nicaragua,253,UNITO,outgoing
+NL,The Netherlands,517491,UNITO,outgoing
+NO,Norway,103045,UNITO,outgoing
+NP,Nepal,1411,UNITO,outgoing
+NZ,New Zealand,49031,UNITO,outgoing
+OC,Oceania,9,UNITO,outgoing
+OM,Oman,1118,UNITO,outgoing
+PA,Panama,1649,UNITO,outgoing
+PE,Peru,7992,UNITO,outgoing
+PF,French Polynesia,78,UNITO,outgoing
+PG,Papua New Guinea,144,UNITO,outgoing
+PH,Philippines,7030,UNITO,outgoing
+PK,Pakistan,42291,UNITO,outgoing
+PL,Poland,203714,UNITO,outgoing
+PR,Puerto Rico,18196,UNITO,outgoing
+PS,Palestine,3060,UNITO,outgoing
+PT,Portugal,110848,UNITO,outgoing
+PW,Palau,172,UNITO,outgoing
+PY,Paraguay,290,UNITO,outgoing
+QA,Qatar,9439,UNITO,outgoing
+RE,Réunion,1855,UNITO,outgoing
+RO,Romania,37231,UNITO,outgoing
+RS,Serbia,28176,UNITO,outgoing
+RU,Russia,345260,UNITO,outgoing
+RW,Rwanda,234,UNITO,outgoing
+SA,Saudi Arabia,17334,UNITO,outgoing
+SB,Solomon Islands,1,UNITO,outgoing
+SC,Seychelles,146,UNITO,outgoing
+SD,Sudan,494,UNITO,outgoing
+SE,Sweden,196554,UNITO,outgoing
+SG,Singapore,45288,UNITO,outgoing
+SI,Slovenia,27251,UNITO,outgoing
+SJ,Svalbard and Jan Mayen,114,UNITO,outgoing
+SK,Slovakia,48940,UNITO,outgoing
+SL,Sierra Leone,182,UNITO,outgoing
+SM,San Marino,110,UNITO,outgoing
+SN,Senegal,552,UNITO,outgoing
+SO,Somalia,323,UNITO,outgoing
+SR,Suriname,34,UNITO,outgoing
+SS,South Sudan,21,UNITO,outgoing
+SV,El Salvador,394,UNITO,outgoing
+SX,Sint Maarten,8,UNITO,outgoing
+SY,Syria,359,UNITO,outgoing
+SZ,Eswatini,13,UNITO,outgoing
+TD,Chad,33,UNITO,outgoing
+TG,Togo,71,UNITO,outgoing
+TH,Thailand,30172,UNITO,outgoing
+TJ,Tajikistan,129,UNITO,outgoing
+TL,Timor-Leste,2,UNITO,outgoing
+TM,Turkmenistan,8,UNITO,outgoing
+TN,Tunisia,8128,UNITO,outgoing
+TO,Tonga,5,UNITO,outgoing
+TR,Turkey,200788,UNITO,outgoing
+TT,Trinidad and Tobago,146,UNITO,outgoing
+TW,Taiwan,118506,UNITO,outgoing
+TZ,Tanzania,3198,UNITO,outgoing
+UA,Ukraine,29772,UNITO,outgoing
+UG,Uganda,2041,UNITO,outgoing
+UM,United States Minor Outlying Islands,1,UNITO,outgoing
+US,United States,5802385,UNITO,outgoing
+UY,Uruguay,2402,UNITO,outgoing
+UZ,Uzbekistan,7688,UNITO,outgoing
+VE,Venezuela,2188,UNITO,outgoing
+VG,British Virgin Islands,2,UNITO,outgoing
+VI,U.S. Virgin Islands,24,UNITO,outgoing
+VN,Vietnam,8038,UNITO,outgoing
+VU,Vanuatu,6,UNITO,outgoing
+WS,Samoa,3,UNITO,outgoing
+XK,Kosovo,103,UNITO,outgoing
+YE,Yemen,421,UNITO,outgoing
+YT,Mayotte,4,UNITO,outgoing
+ZA,South Africa,67954,UNITO,outgoing
+ZM,Zambia,521,UNITO,outgoing
+ZW,Zimbabwe,703,UNITO,outgoing
