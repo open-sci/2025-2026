@@ -3,8 +3,8 @@
 ============================================================
 
 Original iris_oc_index rows:      12470167
-Matched rows (with venues):       11901684 (95.44%)
-No-match rows (no venues):        568483 (4.56%)
+Matched rows (with venues):       11908709 (95.50%)
+No-match rows (no venues):        561458 (4.50%)
 Total identified in tarfile:      12470167 (100.00%)
 Skipped/Not found:                0 (0.00%)
 ============================================================
@@ -12,49 +12,49 @@ Skipped/Not found:                0 (0.00%)
 ============================================================
 2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
 ============================================================
-Initial Records: 11901684
+Initial Records: 11908709
 
-Records With ISSNs On Both Sides: 11241327
-Records Without ISSNs: 660357
+Records With ISSNs On Both Sides: 11247966
+Records Without ISSNs: 660743
 
-Matched Records: 11169745
-Unmatched Records: 71582
+Matched Records: 11177853
+Unmatched Records: 70113
 
 Verification: No duplicates created during mapping.
 
-Citing Match Rate (SCImago): 93.69%
-Citing Match Rate (DOAJ): 26.69%
+Citing Match Rate (SCImago): 94.02%
+Citing Match Rate (DOAJ): 26.73%
 
-Cited Match Rate (SCImago): 94.65%
-Cited Match Rate (DOAJ): 16.00%
+Cited Match Rate (SCImago): 94.75%
+Cited Match Rate (DOAJ): 15.89%
 
 ============================================================
 3 ADD LOC CATEGORY COMPLETE
 ============================================================
 JSON index built: 7 area labels, 175 category labels
-CSV loaded: 11169745 rows
-  Multidisciplinary : 826784 columns
-  Others            : 428961 columns
+CSV loaded: 11177853 rows
+  Multidisciplinary : 840532 columns
+  Others            : 424715 columns
 
 Done.
-  output_cat.csv : 9998106 rows (89.5%) — both sides resolved
-  miss_loc.csv   : 1171639 rows (10.5%) — at least one side missing
+  output_cat.csv : 10036672 rows (89.8%) — both sides resolved
+  miss_loc.csv   : 1141181 rows (10.2%) — at least one side missing
 ============================================================
 4 Aggregation
 ============================================================
 
-Total input rows: 9,998,106
+Total input rows: 10,036,672
 
 BEFORE EXPANSION (Input File Counts):
-  Incoming:  5,197,996 (51.99%)
-  Outgoing:  4,377,188 (43.78%)
-  Internal:  422,922 (4.23%)
-  Total:     9,998,106
+  Incoming:  5,216,971 (51.98%)
+  Outgoing:  4,395,287 (43.79%)
+  Internal:  424,414 (4.23%)
+  Total:     10,036,672
 
 AFTER EXPANSION (Individual Discipline Citations):
-  Incoming:  11,486,365 (49.68%)
-  Outgoing:  10,620,869 (45.94%)
-  Internal:  1,012,583 (4.38%)
-  Total:     23,119,817
+  Incoming:  11,538,310 (49.66%)
+  Outgoing:  10,681,787 (45.97%)
+  Internal:  1,016,553 (4.37%)
+  Total:     23,236,650
 
-Expansion Ratio: 2.31x
+Expansion Ratio: 2.32x
