@@ -33,7 +33,7 @@ Cited Match Rate (DOAJ): 17.40%
 JSON index built: 7 area labels, 175 category labels
 CSV loaded: 6264490 rows
   Multidisciplinary : 479644 columns
-  Others            : 292218 columns
+  Others            : 274450 columns
 
 Done.
   output_cat.csv : 5643596 rows (90.1%) — both sides resolved
@@ -51,9 +51,9 @@ BEFORE EXPANSION (Input File Counts):
   Total:     5,643,596
 
 AFTER EXPANSION (Individual Discipline Citations):
-  Incoming:  6,371,152 (44.25%)
-  Outgoing:  7,411,999 (51.48%)
-  Internal:  615,711 (4.28%)
-  Total:     14,398,862
+  Incoming:  6,377,543 (44.24%)
+  Outgoing:  7,421,321 (51.48%)
+  Internal:  616,136 (4.27%)
+  Total:     14,415,000
 
 Expansion Ratio: 2.55x
