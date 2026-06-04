@@ -16,13 +16,13 @@ Initial Records: 897919
 Records With ISSNs On Both Sides: 840660
 Records Without ISSNs: 57259
 
-Matched Records: 820376
-Unmatched Records: 20284
+Matched Records: 820375
+Unmatched Records: 20285
 
 Verification: No duplicates created during mapping.
 
 Citing Match Rate (SCImago): 92.50%
-Citing Match Rate (DOAJ): 33.97%
+Citing Match Rate (DOAJ): 33.95%
 
 Cited Match Rate (SCImago): 90.86%
 Cited Match Rate (DOAJ): 33.18%
@@ -31,31 +31,31 @@ Cited Match Rate (DOAJ): 33.18%
 3 ADD LOC CATEGORY COMPLETE
 ============================================================
 JSON index built: 7 area labels, 175 category labels
-CSV loaded: 820376 rows
+CSV loaded: 820375 rows
   Multidisciplinary : 66587 columns
-  Others            : 16147 columns
+  Others            : 16005 columns
 
 Done.
-  output_cat.csv : 687851 rows (83.8%) — both sides resolved
-  miss_loc.csv   : 132525 rows (16.2%) — at least one side missing
+  output_cat.csv : 687832 rows (83.8%) — both sides resolved
+  miss_loc.csv   : 132543 rows (16.2%) — at least one side missing
 
 ======================================================================
 AGGREGATION REPORT
 ======================================================================
 
-Total input rows: 687851
+Total input rows: 687,832
 
 BEFORE EXPANSION (Input File Counts):
-  Incoming:  339995 (49.43%)
-  Outgoing:  306352 (44.54%)
-  Internal:  41504 (6.03%)
-  Total:     687851
+  Incoming:  339,988 (49.43%)
+  Outgoing:  306,340 (44.54%)
+  Internal:  41,504 (6.03%)
+  Total:     687,832
 
 AFTER EXPANSION (Individual Discipline Citations):
-  Incoming:  647522 (46.80%)
-  Outgoing:  663057 (47.92%)
-  Internal:  73114 (5.28%)
-  Total:     1383693
+  Incoming:  647,658 (46.79%)
+  Outgoing:  663,285 (47.92%)
+  Internal:  73,116 (5.28%)
+  Total:     1,384,059
 
 Expansion Ratio: 2.01x
 ======================================================================
