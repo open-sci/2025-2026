@@ -1,7 +1,7 @@
 # Material
 
 ## Members
-[Yigit Ak](https://github.com/yigittakk), roles:
+[Yiğit Ak](https://github.com/yigittakk), roles:
 * <<CRediT role 1>>, <<description 1>>
 * <<CRediT role 2>>, <<description 2>>
 * ...
@@ -11,17 +11,17 @@
 * <<CRediT role 2>>, <<description 2>>
 * ...
 
-[Chen Qinghao](https://github.com/ChenQingHa), roles:
-* <<CRediT role 1>>, <<description 1>>
-* <<CRediT role 2>>, <<description 2>>
-* ...
-
-[Maryam Dadrasrazi](https://github.com/Maryamdadras), roles:
+[Qinghao Chen](https://github.com/ChenQingHa), roles:
 * <<CRediT role 1>>, <<description 1>>
 * <<CRediT role 2>>, <<description 2>>
 * ...
 
 [Nicol D'Amelio](https://github.com/nicoldamelio), roles:
+* <<CRediT role 1>>, <<description 1>>
+* <<CRediT role 2>>, <<description 2>>
+* ...
+
+[Maryam Dadrasrazi](https://github.com/Maryamdadras), roles:
 * <<CRediT role 1>>, <<description 1>>
 * <<CRediT role 2>>, <<description 2>>
 * ...

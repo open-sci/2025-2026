@@ -10,7 +10,7 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Yigit
+  - given-names: Yiğit
     family-names: Ak
     email: yigit.ak@studio.unibo.it
     affiliation: University of Bologna, Bologna, Italy
@@ -20,21 +20,21 @@ authors:
     email: tommaso.barbato@studio.unibo.it
     affiliation: University of Bologna, Bologna, Italy
     orcid: 'https://orcid.org/0009-0007-0093-4304'
-  - given-names: Chen
-    family-names: Qinghao
+  - given-names: Qinghao
+    family-names: Chen
     email: luyihehu@gmail.com
     affiliation: University of Bologna, Bologna, Italy
     orcid: 'https://orcid.org/0009-0000-9290-0222'
-  - given-names: Maryam
-    family-names: Dadrasrazi
-    email: maryam.dadrasrazi@studio.unibo.it
-    affiliation: University of Bologna, Bologna, Italy
-    orcid: 'https://orcid.org/0009-0005-9585-5662'
   - given-names: Nicol
     family-names: D'Amelio
     email: nicol.damelio@studio.unibo.it
     affiliation: University of Bologna, Bologna, Italy
     orcid: 'https://orcid.org/0009-0004-8197-6255'
+  - given-names: Maryam
+    family-names: Dadrasrazi
+    email: maryam.dadrasrazi@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0005-9585-5662'
   - given-names: Ilaria
     family-names: De Dominicis
     email: ilaria.dedominicis2@studio.unibo.it
