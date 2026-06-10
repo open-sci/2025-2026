@@ -16,7 +16,7 @@
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/flow.js"></script>
-    
+
     <!-- Plotly -->
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 </head>
@@ -62,138 +62,175 @@
             </div>
         </section>
 
-        <section class="section map-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Research Question I: The Map of Italian Science</h2>
-                <div class="two-column">
-                    <div class="text-column">
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum.</p>
-                        <p class="text highlight">In this interactive map, you will be able to see the strongest
-                            connections and the most influential regional networks.</p>
-                    </div>
-                    <div class="visual-column">
-                        <div class="visual-placeholder" id="map-visualization">
-                            <img src="" alt="Map of Italian Science" class="demo-image">
-                            <!-- Visualizations will be injected here -->
+        <!-- Research Question Navigation -->
+        <div class="rq-nav">
+            <button class="rq-btn active" data-target="rq1">
+                <div class="rq-btn-header">
+                    <span class="rq-num">I</span>
+                    <span class="rq-text">The Map of Italian Science</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-dot"></div>
+                </div>
+            </button>
+            <button class="rq-btn" data-target="rq2">
+                <div class="rq-btn-header">
+                    <span class="rq-num">II</span>
+                    <span class="rq-text">Disciplinary Flows</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-dot"></div>
+                </div>
+            </button>
+        </div>
+
+        <div id="rq1" class="rq-section active">
+            <!-- Research Question I: The Map of Italian Science -->
+            <section class="section dark-section map-section slide-up question1">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Research Question I: The Map of Italian Science</h2>
+                    <div class="two-column">
+                        <div class="text-column">
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu
+                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.</p>
+                            <p class="text highlight">In this interactive map, you will be able to see the strongest
+                                connections and the most influential regional networks.</p>
+                        </div>
+                        <div class="visual-column">
+                            <div class="visual-placeholder" id="map-visualization">
+                                <img src="" alt="Map of Italian Science" class="demo-image">
+                                <!-- Visualizations will be injected here -->
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="content-wrapper">
-                <div class="vis-controls" id="controls">
-                    <label for="institution-select">Select Institution: </label>
-                    <select id="institution-select">
-                        <option value="unibo">UNIBO</option>
-                        <option value="unimi">UNIMI</option>
-                        <option value="unito">UNITO</option>
-                        <option value="unipd">UNIPD</option>
-                        <option value="sns">SNS</option>
-                        <option value="upo">UPO</option>
-                    </select>
+                <div class="content-wrapper">
+                    <div class="vis-controls" id="controls">
+                        <label for="institution-select">Select Institution: </label>
+                        <select id="institution-select">
+                            <option value="unibo">UNIBO</option>
+                            <option value="unimi">UNIMI</option>
+                            <option value="unito">UNITO</option>
+                            <option value="unipd">UNIPD</option>
+                            <option value="sns">SNS</option>
+                            <option value="upo">UPO</option>
+                        </select>
 
-                    <label for="direction-select">Flow Direction: </label>
-                    <select id="direction-select">
-                        <!-- <option value="both">Both</option> -->
-                        <option value="incoming">Incoming</option>
-                        <option value="outgoing">Outgoing</option>
-                    </select>
-                </div>
-                <div id="chartdiv"></div>
-            </div>
-        </section>
-        
-        
-        <!-- country analysis -->
-        <section class="section dark-section disciplinary-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Research Question II: Disciplinary Flows</h2>
-                <div class="two-column reverse">
-                    <div class="text-column">
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.</p>
-                        <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                        <p class="text highlight">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur.
-                        </p>
+                        <label for="direction-select">Flow Direction: </label>
+                        <select id="direction-select">
+                            <!-- <option value="both">Both</option> -->
+                            <option value="incoming">Incoming</option>
+                            <option value="outgoing">Outgoing</option>
+                        </select>
                     </div>
-                    <div class="visual-column">
-                        <div class="visual-placeholder" id="discipline-visualization">
-                            <img src="" alt="Disciplinary Fields Chart" class="demo-image">
-                            <!-- Visualizations will be injected here -->
+                    <div id="chartdiv"></div>
+                </div>
+            </section>
+
+
+            <!-- country analysis -->
+
+
+            <!-- organization analysis -->
+            <section id="organisations" class="section sankey-section slide-up question1">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Organizations Analysis</h2>
+                    <div class="two-column">
+                        <div class="text-column">
+                            <p class="text"></p>
+                            <p class="text"></p>
+                            <p class="text highlight"></p>
+                        </div>
+                        <div class="text-column legend-column">
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- organization analysis -->
-        <section id="organisations" class="section sankey-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Organizations Analysis</h2>
-                <div class="two-column">
-                    <div class="text-column">
-                        <p class="text"></p>
-                        <p class="text"></p>
-                        <p class="text highlight"></p>
-                    </div>
-                    <div class="text-column legend-column">
+                <div class="content-wrapper" style="margin-bottom: 2rem;">
+                    <div class="vis-controls" id="org-controls">
+                        <label for="org-view-select">Visualization View: </label>
+                        <select id="org-view-select">
+                            <option value="sankey">Top Citations Flow (Sankey Diagram)</option>
+                            <option value="scatter">Reciprocity Scatter Plot</option>
+                        </select>
                     </div>
                 </div>
-            </div>
-            <div class="content-wrapper" style="margin-bottom: 2rem;">
-                <div class="vis-controls" id="org-controls">
-                    <label for="org-view-select">Visualization View: </label>
-                    <select id="org-view-select">
-                        <option value="sankey">Top Citations Flow (Sankey Diagram)</option>
-                        <option value="scatter">Reciprocity Scatter Plot</option>
-                    </select>
+
+                <div id="org-visualizations-container" style="position: relative; width: 100%; height: 740px;">
+                    <div id="sankey-chartdiv"
+                        style="position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light); box-shadow: 0 20px 40px rgba(50, 14, 59, 0.12); border: 1px solid rgba(50, 14, 59, 0.07);">
+                    </div>
+                    <div id="scatter-chartdiv"
+                        style="display: none; position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
+                        <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...</div>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <div id="org-visualizations-container" style="position: relative; width: 100%; height: 740px;">
-                <div id="sankey-chartdiv" style="position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light); box-shadow: 0 20px 40px rgba(50, 14, 59, 0.12); border: 1px solid rgba(50, 14, 59, 0.07);"></div>
-                <div id="scatter-chartdiv" style="display: none; position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
-                    <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...</div>
+            <!-- Sunburst -->
+            <section id="sunburst" class="section sunburst-section slide-up question1">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Countries and Organizations Analysis</h2>
                 </div>
-            </div>
-        </section>
 
-        <!-- Sunburst -->
-        <section id="sunburst" class="section sunburst-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Countries and Organizations Analysis</h2>
-            </div>
+                <div class="content-wrapper" style="margin-bottom: 2rem;">
+                    <div class="vis-controls" id="sunburst-controls">
+                        <label for="sunburst-inst-select">Institution: </label>
+                        <select id="sunburst-inst-select">
+                            <option value="UNIBO">University of Bologna</option>
+                            <option value="UNIMI">University of Milan</option>
+                            <option value="UNIPD">University of Padua</option>
+                            <option value="UNITO">University of Turin</option>
+                            <option value="UPO">University of Eastern Piedmont</option>
+                            <option value="SNS">Scuola Normale Superiore</option>
+                        </select>
 
-            <div class="content-wrapper" style="margin-bottom: 2rem;">
-                <div class="vis-controls" id="sunburst-controls">
-                    <label for="sunburst-inst-select">Institution: </label>
-                    <select id="sunburst-inst-select">
-                        <option value="UNIBO">University of Bologna</option>
-                        <option value="UNIMI">University of Milan</option>
-                        <option value="UNIPD">University of Padua</option>
-                        <option value="UNITO">University of Turin</option>
-                        <option value="UPO">University of Eastern Piedmont</option>
-                        <option value="SNS">Scuola Normale Superiore</option>
-                    </select>
-
-                    <label for="sunburst-dir-select">Direction: </label>
-                    <select id="sunburst-dir-select">
-                        <option value="incoming">Incoming citations</option>
-                        <option value="outgoing">Outgoing citations</option>
-                    </select>
+                        <label for="sunburst-dir-select">Direction: </label>
+                        <select id="sunburst-dir-select">
+                            <option value="incoming">Incoming citations</option>
+                            <option value="outgoing">Outgoing citations</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
 
-            <div id="sunburst-chartdiv">
-                <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
-            </div>
-        </section>
+                <div id="sunburst-chartdiv">
+                    <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
+                </div>
+            </section>
+        </div> <!-- End of RQ1 -->
+
+        <!-- Research question II: Disciplinary Flows -->
+        <div id="rq2" class="rq-section">
+            <section class="section dark-section disciplinary-section slide-up question2">
+                <div class="content-wrapper">
+                    <h2 class="section-title">Research Question II: Disciplinary Flows</h2>
+                    <div class="two-column reverse">
+                        <div class="text-column">
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <p class="text highlight">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                        <div class="visual-column">
+                            <div class="visual-placeholder" id="discipline-visualization">
+                                <img src="" alt="Disciplinary Fields Chart" class="demo-image">
+                                <!-- Visualizations will be injected here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> <!-- End of RQ2 -->
 
         <section class="section conclusion slide-up">
             <div class="content-wrapper">

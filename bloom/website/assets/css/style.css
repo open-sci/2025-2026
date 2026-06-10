@@ -695,3 +695,191 @@ h3 {
 .updatemenu-button.active .updatemenu-item-text {
     fill: var(--color-primary) !important;
 }
+
+/* ── Research Question Navigation ─────────────────────────────────────────── */
+.rq-nav {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%) translateX(-20px);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    pointer-events: none;
+    /* Only the buttons should be clickable */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rq-nav.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}
+
+.rq-btn {
+    pointer-events: auto;
+    background-color: var(--color-bg-dark);
+    border: 1px solid rgba(183, 153, 13, 0.3);
+    border-radius: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(50, 14, 59, 0.2);
+}
+
+.rq-btn-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+}
+
+.rq-btn.active {
+    border-color: var(--color-accent);
+    height: 160px;
+}
+
+.rq-btn:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 15px rgba(183, 153, 13, 0.3);
+}
+
+.rq-btn .rq-num {
+    font-family: var(--font-heading);
+    color: var(--color-text-light);
+    font-weight: 600;
+    font-size: 1.2rem;
+    min-width: 34px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.rq-btn.active .rq-num,
+.rq-btn:hover .rq-num {
+    color: var(--color-accent);
+}
+
+.rq-btn .rq-text {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    background-color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    color: var(--color-text-dark);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.90rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(50, 14, 59, 0.3);
+    pointer-events: none;
+}
+
+.rq-btn:hover .rq-text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.progress-track {
+    width: 2px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 24px;
+    margin-top: 0;
+    border-radius: 2px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.rq-btn.active .progress-track {
+    opacity: 1;
+}
+
+.progress-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -4px;
+    box-shadow: 0 0 8px var(--color-accent);
+}
+
+/* Sections visibility toggle */
+.rq-section {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    left: -9999px;
+    width: 100%;
+}
+
+.rq-section.active {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    left: 0;
+    animation: fadeInSection 0.5s ease-in-out;
+}
+
+@keyframes fadeInSection {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 900px) {
+    .rq-nav {
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-20px);
+        flex-direction: row;
+    }
+
+    .rq-nav.visible {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    .rq-btn {
+        width: auto;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+    .rq-btn .rq-text {
+        display: none;
+    }
+
+    .rq-btn.active,
+    .rq-btn:hover {
+        width: auto;
+    }
+}

@@ -6,6 +6,43 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalHeight = document.body.scrollHeight - window.innerHeight;
         const progress = (window.scrollY / totalHeight) * 100;
         progressBar.style.width = `${progress}%`;
+
+        // Toggle visibility of Research Question Navigation
+        const rqNav = document.querySelector('.rq-nav');
+        const projectSection = document.getElementById('project');
+        if (rqNav && projectSection) {
+            // Show nav when we scroll past the top of the project section minus half window height
+            if (window.scrollY > projectSection.offsetTop - (window.innerHeight / 2)) {
+                rqNav.classList.add('visible');
+            } else {
+                rqNav.classList.remove('visible');
+            }
+        }
+
+        // Update active button progress dot
+        const activeSection = document.querySelector('.rq-section.active');
+        const activeBtn = document.querySelector('.rq-btn.active');
+        if (activeSection && activeBtn) {
+            const dot = activeBtn.querySelector('.progress-dot');
+            const track = activeBtn.querySelector('.progress-track');
+            if (dot && track) {
+                const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 80;
+                const sectionTop = activeSection.offsetTop - navbarHeight;
+                const scrollableDistance = activeSection.offsetHeight - window.innerHeight + navbarHeight;
+                
+                let sectionProgress = 0;
+                if (scrollableDistance > 0) {
+                    sectionProgress = (window.scrollY - sectionTop) / scrollableDistance;
+                }
+                
+                // Clamp between 0 and 1
+                sectionProgress = Math.max(0, Math.min(1, sectionProgress));
+                
+                // Max distance the dot can move
+                const maxTop = track.offsetHeight - dot.offsetHeight;
+                dot.style.top = `${sectionProgress * maxTop}px`;
+            }
+        }
     });
 
     // Intersection Observer for scroll animations
@@ -201,4 +238,56 @@ am5.ready(function () {
     });
 
     chart.appear(1000, 100);
+});
+
+// --- Research Question Navigation ---
+document.addEventListener('DOMContentLoaded', () => {
+    const rqBtns = document.querySelectorAll('.rq-btn');
+    const rqSections = document.querySelectorAll('.rq-section');
+
+    if (rqBtns.length === 0) return;
+
+    rqBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetId = btn.getAttribute('data-target');
+
+            // Update buttons
+            rqBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Update sections
+            rqSections.forEach(section => {
+                if (section.id === targetId) {
+                    section.classList.add('active');
+                } else {
+                    section.classList.remove('active');
+                }
+            });
+
+            // Re-trigger scroll animations for the newly visible section
+            setTimeout(() => {
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    const animatedElements = targetSection.querySelectorAll('.fade-in, .slide-up');
+                    animatedElements.forEach(el => {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top < window.innerHeight) {
+                            el.classList.add('visible');
+                        }
+                    });
+
+                    // Scroll to the top of the newly active section (offset for navbar)
+                    const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 80;
+                    const sectionTop = targetSection.getBoundingClientRect().top + window.pageYOffset;
+                    window.scrollTo({
+                        top: sectionTop - navbarHeight - 20, // 20px extra padding for breathing room
+                        behavior: 'smooth'
+                    });
+                }
+
+                // Dispatch resize event to fix any charts that need to adjust to visibility
+                window.dispatchEvent(new Event('resize'));
+            }, 100);
+        });
+    });
 });
