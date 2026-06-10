@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Citation Flows in Italian Science</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
         rel="stylesheet">
@@ -15,13 +15,17 @@
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/flow.js"></script>
+    
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="nav-content">
             <a href="#" class="nav-logo">
-                <img src="logo.png" alt="Bloom Logo" class="logo-img">
+                <img src="assets/img/white_logo.png" alt="Bloom Logo" class="logo-img">
                 <span class="logo-text">Bloom</span>
             </a>
             <ul class="nav-links">
@@ -81,7 +85,7 @@
                 </div>
             </div>
             <div class="content-wrapper">
-                <div id="controls">
+                <div class="vis-controls" id="controls">
                     <label for="institution-select">Select Institution: </label>
                     <select id="institution-select">
                         <option value="unibo">UNIBO</option>
@@ -102,7 +106,9 @@
                 <div id="chartdiv"></div>
             </div>
         </section>
-
+        
+        
+        <!-- country analysis -->
         <section class="section dark-section disciplinary-section slide-up">
             <div class="content-wrapper">
                 <h2 class="section-title">Research Question II: Disciplinary Flows</h2>
@@ -123,6 +129,69 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- organization analysis -->
+        <section id="organisations" class="section sankey-section slide-up">
+            <div class="content-wrapper">
+                <h2 class="section-title">Organizations Analysis</h2>
+                <div class="two-column">
+                    <div class="text-column">
+                        <p class="text"></p>
+                        <p class="text"></p>
+                        <p class="text highlight"></p>
+                    </div>
+                    <div class="text-column legend-column">
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper" style="margin-bottom: 2rem;">
+                <div class="vis-controls" id="org-controls">
+                    <label for="org-view-select">Visualization View: </label>
+                    <select id="org-view-select">
+                        <option value="sankey">Top Citations Flow (Sankey Diagram)</option>
+                        <option value="scatter">Reciprocity Scatter Plot</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="org-visualizations-container" style="position: relative; width: 100%; height: 740px;">
+                <div id="sankey-chartdiv" style="position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light); box-shadow: 0 20px 40px rgba(50, 14, 59, 0.12); border: 1px solid rgba(50, 14, 59, 0.07);"></div>
+                <div id="scatter-chartdiv" style="display: none; position: absolute; top: 0; left: 0; width: 98vw; margin-left: calc(-49vw + 50%); height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
+                    <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sunburst -->
+        <section id="sunburst" class="section sunburst-section slide-up">
+            <div class="content-wrapper">
+                <h2 class="section-title">Countries and Organizations Analysis</h2>
+            </div>
+
+            <div class="content-wrapper" style="margin-bottom: 2rem;">
+                <div class="vis-controls" id="sunburst-controls">
+                    <label for="sunburst-inst-select">Institution: </label>
+                    <select id="sunburst-inst-select">
+                        <option value="UNIBO">University of Bologna</option>
+                        <option value="UNIMI">University of Milan</option>
+                        <option value="UNIPD">University of Padua</option>
+                        <option value="UNITO">University of Turin</option>
+                        <option value="UPO">University of Eastern Piedmont</option>
+                        <option value="SNS">Scuola Normale Superiore</option>
+                    </select>
+
+                    <label for="sunburst-dir-select">Direction: </label>
+                    <select id="sunburst-dir-select">
+                        <option value="incoming">Incoming citations</option>
+                        <option value="outgoing">Outgoing citations</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="sunburst-chartdiv">
+                <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
             </div>
         </section>
 
@@ -172,11 +241,15 @@
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/flow.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
 
-    <script src="app.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/sankey.js"></script>
+    <script src="assets/js/sunburst.js"></script>
+
 
 </body>
 
