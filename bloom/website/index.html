@@ -80,6 +80,27 @@
                     </div>
                 </div>
             </div>
+            <div class="content-wrapper">
+                <div id="controls">
+                    <label for="institution-select">Select Institution: </label>
+                    <select id="institution-select">
+                        <option value="unibo">UNIBO</option>
+                        <option value="unimi">UNIMI</option>
+                        <option value="unito">UNITO</option>
+                        <option value="unipd">UNIPD</option>
+                        <option value="sns">SNS</option>
+                        <option value="upo">UPO</option>
+                    </select>
+
+                    <label for="direction-select">Flow Direction: </label>
+                    <select id="direction-select">
+                        <!-- <option value="both">Both</option> -->
+                        <option value="incoming">Incoming</option>
+                        <option value="outgoing">Outgoing</option>
+                    </select>
+                </div>
+                <div id="chartdiv"></div>
+            </div>
         </section>
 
         <section class="section dark-section disciplinary-section slide-up">
@@ -147,7 +168,16 @@
         </div>
     </footer>
 
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <script src="app.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
