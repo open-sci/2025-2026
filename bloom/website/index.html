@@ -16,7 +16,10 @@
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/flow.js"></script>
-
+    <!-- amCharts XY module — required for the grouped bar chart (§B) -->
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <!-- amCharts Animated theme -->
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <!-- Plotly -->
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 </head>
@@ -224,9 +227,6 @@
                     </div>
 
                     <div class="content-wrapper" style="margin-top: 5rem;">
-<<<<<<< Updated upstream
-                        <div class="flow-aligned-container">
-=======
                     <div class="flow-aligned-container">
                         
                         <!-- United States Row -->
@@ -252,7 +252,6 @@
                                 </p>
                             </div>
                         </div>
->>>>>>> Stashed changes
 
                             <!-- United States Row -->
                             <div class="flow-aligned-row">
@@ -336,10 +335,7 @@
 
                         </div>
                     </div>
-<<<<<<< Updated upstream
-=======
                 </div>
->>>>>>> Stashed changes
             </section>
 
 
@@ -434,34 +430,380 @@
 
 
         </div> <!-- End of RQ1 -->
+<!-- ============================================================
+             ██████╗  ██████╗ ██████╗
+             ██╔══██╗██╔═══██╗╚════██╗
+             ██████╔╝██║   ██║ █████╔╝
+             ██╔══██╗██║▄▄ ██║██╔═══╝
+             ██║  ██║╚██████╔╝███████╗
+             RESEARCH QUESTION II — DISCIPLINARY FLOWS
+             All new content begins here.
+ ============================================================ -->
 
-        <!-- Research question II: Disciplinary Flows -->
-        <div id="rq2" class="rq-section">
-            <section class="section dark-section disciplinary-section slide-up question2">
-                <div class="content-wrapper">
-                    <h2 class="section-title">Research Question II: Disciplinary Flows</h2>
-                    <div class="two-column reverse">
-                        <div class="text-column">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                            <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.</p>
-                            <p class="text highlight">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum
-                                dolore eu fugiat nulla pariatur.
-                            </p>
+        <!-- ============================================================
+             §A — THE CLASSIFICATION
+             Pill-based discipline display. LOC Main + two extra categories.
+             Background: light (default)
+             ============================================================ -->
+        <section id="rq2" class="section rq2-intro-section slide-up">
+            <div class="content-wrapper">
+
+                <!-- RQ2 SECTION LABEL — edit label text here -->
+                <p class="rq2-label">Research Question II</p>
+
+                <!-- SECTION TITLE — edit here -->
+                <h2 class="section-title">Disciplinary Flows</h2>
+
+                <!-- INTRO TEXT — edit here -->
+                <p class="text">
+                    Which scholarly disciplines cite the publications of these six Italian universities, and which
+                    do they cite in return? To answer this, we traced over 80 million citation records across
+                    all institutions and mapped them onto a shared classification system.
+                </p>
+
+                <!-- ── §A: Discipline pills ──────────────────────────────────
+                     HOW TO EDIT:
+                     • To rename a pill: edit the text inside <span class="disc-pill">
+                     • To add a pill: copy a <span class="disc-pill"> line and paste it
+                     • To remove a pill: delete its <span class="disc-pill"> line
+                     • The two LOC MAIN CATEGORIES groups are separate from the
+                       ADDITIONAL CATEGORIES group — keep them in their own .disc-row
+                     ──────────────────────────────────────────────────────── -->
+                <div class="disc-section">
+
+                    <!-- SUBSECTION LABEL — edit here -->
+                    <p class="disc-group-label">
+                        LOC Main Classifications
+                        <!-- FOOTNOTE MARKER — links to the note below -->
+                        <sup><a href="#loc-note" class="disc-footnote-link">*</a></sup>
+                    </p>
+
+                    <!-- SUBSECTION DESCRIPTION — edit here -->
+                    <p class="disc-group-desc">
+                        Disciplines are based on the <strong>Library of Congress (LOC) Main Classifications</strong>,
+                        a broad internationally recognized scheme. 
+                    </p>
+
+                    <!-- LOC Main pill row — edit pill labels here -->
+                    <div class="disc-row">
+                        <!-- Each span is one pill. Edit text freely. -->
+                        <span class="disc-pill">Science</span>
+                        <span class="disc-pill">Medicine</span>
+                        <span class="disc-pill">Geography &amp; Anthropology</span>
+                        <span class="disc-pill">Technology</span>
+                        <span class="disc-pill">Agriculture</span>
+                        <span class="disc-pill">Social Sciences</span>
+                        <span class="disc-pill">Education</span>
+                        <span class="disc-pill">Political Science</span>
+                        <span class="disc-pill">Philosophy / Psychology / Religion</span>
+                        <span class="disc-pill">Language &amp; Literature</span>
+                    </div>
+
+                    <!-- ── ADDITIONAL CATEGORIES ────────────────────────────
+                         These two are NOT part of the LOC Main Classifications.
+                         They were added during preprocessing to handle edge cases.
+                         Edit the label, description, and pill contents here.
+                    -->
+                    <p class="disc-group-label disc-group-label--extra">
+                        Additional Categories
+                        <!-- Inline note explaining why these exist -->
+                        <span class="disc-extra-note">
+                            — not part of the LOC Main Classifications; added during preprocessing
+                        </span>
+                    </p>
+
+                    <div class="disc-row disc-row--extra">
+
+                        <!-- MULTIDISCIPLINARY pill + mini card -->
+                        <div class="disc-pill-card">
+                            <span class="disc-pill disc-pill--extra">Multidisciplinary</span>
+                            <!-- MINI CARD DESCRIPTION — edit here -->
+                            <span class="disc-pill-card-desc">
+                                Records that were categorized as "Multidisciplinary" in the original dataset, without a more specific LOC classification. 
+                            </span>
                         </div>
-                        <div class="visual-column">
-                            <div class="visual-placeholder" id="discipline-visualization">
-                                <img src="" alt="Disciplinary Fields Chart" class="demo-image">
-                                <!-- Visualizations will be injected here -->
+
+                        <!-- OTHERS pill + mini card -->
+                        <div class="disc-pill-card">
+                            <span class="disc-pill disc-pill--extra">Others</span>
+                            <!-- MINI CARD DESCRIPTION — edit abbreviations here -->
+                            <span class="disc-pill-card-desc">
+                                Records that could not be mapped to any LOC category, or disciplines with very few records, including:
+                                <em>Fine Arts · Law · Bibliography/Library Science · Auxiliary Sciences of History · Music · General Works · Naval Science</em>
+                            </span>
+                        </div>
+
+                    </div><!-- /disc-row--extra -->
+
+                    <!-- LOC FOOTNOTE — edit footnote text here -->
+                    <p class="disc-footnote" id="loc-note">
+                        * LOC Main Classifications:
+                        <a href="https://www.loc.gov/catdir/cpso/lcco/" target="_blank" rel="noopener">
+                            Library of Congress Classification Outline
+                        </a>
+                    </p>
+
+                </div><!-- /disc-section -->
+
+                <!-- TRANSITION TEXT — edit here (connects §A to §B) -->
+                <div class="section-bridge">
+                    <p>Now let's look at how these disciplines appear in the data.</p>
+                    <!-- <span class="bridge-arrow">↓</span> -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ============================================================
+             §B — THE LANDSCAPE
+             Question (heading) → Answer text + chart side by side.
+             Default view: ALL institutions combined.
+             Background: dark
+             ============================================================ -->
+        <section class="section dark-section rq2-landscape-section slide-up">
+            <div class="content-wrapper">
+
+                <!-- QUESTION — displayed as a styled heading, no Q tag -->
+                <!-- QUESTION TEXT — edit here -->
+                <p class="landscape-question">
+                    What disciplines appear most in citation activity across the six institutions?
+                </p>
+
+                <!-- ANSWER HEADLINE — the punchy one-liner answer -->
+                <!-- ANSWER HEADLINE TEXT — edit here -->
+                <p class="landscape-answer-headline">
+                    Science and Medicine account for over 60% of all citation activity, 
+                    but every institution tells a different story.
+                </p>
+
+                <!-- TWO-COLUMN: text left, chart right -->
+                <div class="landscape-body">
+
+                    <!-- LEFT: explanation text + institution callouts -->
+                    <div class="landscape-text">
+
+                        <!-- ANSWER EXPLANATION — edit here -->
+                        <!-- landscape-explanation is smaller than .text — edit font size in style.css -->
+                        <p class="landscape-explanation">
+                            Across all six institutions, two disciplines dominate: Science (≈32%) and Medicine
+                            (≈31%). The remaining categories — Geography/Anthropology, Technology, Agriculture,
+                            and others each contribute between 2–7%. Yet beneath this shared dominance, the
+                            balance shifts from one university to the next.
+                        </p>
+
+                        <!-- INSTITUTION CALLOUT LIST — edit labels and descriptions here -->
+                        <ul class="inst-callouts">
+                            <li><strong>UNIMI</strong> : Medicine-heavy. Medicine leads both citing and cited, with the largest gap between the top two disciplines and the rest of any institution.</li>
+                            <li><strong>SNS</strong> : Science-dominant. Science alone accounts for ~50% of citing and ~56% of cited activity. Medicine is a distant second.</li>
+                            <li><strong>UPO</strong> : Science and Medicine equally dominant, making UPO the most concentrated Science–Medicine institution overall.</li>
+                            <li><strong>UNITO</strong> : Shifts toward Medicine on the cited side, with Agriculture as a notable secondary discipline.</li>
+                            <li><strong>UNIBO &amp; UNIPD</strong> : Science-led but the most broadly distributed, with visible contributions from Technology, Geography, and Social Sciences.</li>
+                        </ul>
+
+                    </div><!-- /landscape-text -->
+
+                    <!-- RIGHT: institution buttons + stacked bar + grouped bar -->
+                    <div class="landscape-chart-col">
+
+                        <!-- INSTITUTION SELECTOR — top of chart column
+                             data-inst values must match keys in LANDSCAPE_DATA in script.js.
+                             Edit button labels here. -->
+                        <div class="chart-controls">
+                            <span class="chart-control-label">View by institution</span>
+                            <div class="inst-btn-group">
+                                <button class="inst-btn active" data-inst="ALL">All</button>
+                                <button class="inst-btn" data-inst="UNIBO">UNIBO</button>
+                                <button class="inst-btn" data-inst="UNIMI">UNIMI</button>
+                                <button class="inst-btn" data-inst="UNIPD">UNIPD</button>
+                                <button class="inst-btn" data-inst="UNITO">UNITO</button>
+                                <button class="inst-btn" data-inst="UPO">UPO</button>
+                                <button class="inst-btn" data-inst="SNS">SNS</button>
+                            </div>
+                        </div>
+
+                        <!-- TOP: 100% stacked bar (1 bar, thin) — CHART SUBLABEL edit here -->
+                        <p class="chart-sublabel">Discipline share of citation records</p>
+                        <div id="landscape-chart-stacked"></div>
+
+                        <!-- BOTTOM: grouped bar (Citing vs Cited) — CHART SUBLABEL edit here -->
+                        <p class="chart-sublabel" style="margin-top:1.2rem">Citing / Cited volume by discipline</p>
+                        <div id="landscape-chart-grouped"></div>
+
+                        <!-- CHART CAPTION — edit here -->
+                        <p class="chart-note">
+                            Hover over any bar to see exact values.
+                            Citing = disciplines that cite this institution's publications.
+                            Cited = disciplines cited by this institution's publications.
+                        </p>
+
+                    </div><!-- /landscape-chart-col -->
+
+                </div><!-- /landscape-body -->
+
+                <!-- TRANSITION TEXT — edit here -->
+                <div class="section-bridge section-bridge--dark">
+                    <p>These counts show <em>which</em> disciplines appear. Next, we trace the flows: <em>who cites whom</em>. </p>
+                    <!-- <span class="bridge-arrow">↓</span> -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ============================================================
+             §C-1 — SUNBURST: WHO CITES WHOM?
+             Background: light
+             ============================================================ -->
+        <section class="section rq2-sunburst-section slide-up">
+            <div class="content-wrapper">
+
+                <!-- QUESTION — edit here -->
+                <p class="landscape-question" style="color: var(--color-primary); opacity: 0.6">
+                    When disciplines cite, where do their citations go?
+                </p>
+
+                <!-- ANSWER HEADLINE — edit here -->
+                <p class="landscape-answer-headline" style="color: var(--color-primary)">
+                    Large disciplines are self-contained.<br>Smaller ones tend to be evenly distributed while orbiting Science and Medicine.
+                </p>
+
+                <div class="sunburst-body">
+
+                    <!-- LEFT: explanation + controls -->
+                    <div class="sunburst-text">
+
+                        <!-- EXPLANATION — edit here -->
+                        <p class="landscape-explanation" style="color: #444">
+                            Each segment shows the share of a discipline that is <em>citing</em> the selected institution.
+                            Click any segment to drill down, and it will become the inner ring.
+                            The outer ring reveals what disciplines are the works they cite.
+                            Click the center to reset.
+                        </p>
+
+                        <!-- INSTITUTION SELECTOR -->
+                        <div class="chart-controls" style="flex-direction:column; align-items:flex-start; gap:0.5rem">
+                            <span class="chart-control-label" style="color:#666">Institution</span>
+                            <div class="inst-btn-group">
+                                <!-- data-sunburst values must match keys in SUNBURST_DATA in script.js -->
+                                <button class="inst-btn sunburst-inst-btn active" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="ALL">All</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIBO">UNIBO</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIMI">UNIMI</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIPD">UNIPD</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNITO">UNITO</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UPO">UPO</button>
+                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="SNS">SNS</button>
+                            </div>
+                        </div>
+
+                        <!-- SELECTED DISCIPLINE INFO — filled by JS on click -->
+                        <div class="sunburst-info" id="sunburst-info">
+                            <p class="sunburst-info-hint">Click an inner segment to explore a discipline's citation flows.</p>
+                        </div>
+
+                    </div><!-- /sunburst-text -->
+
+                    <!-- RIGHT: chart -->
+                    <div class="sunburst-chart-col">
+                        <!-- amCharts Sunburst renders here -->
+                        <div id="sunburst-chart"></div>
+                        <!-- CAPTION — edit here -->
+                        <p class="chart-note" style="color:#999">
+                            Inner ring = citing discipline share. Outer ring = cited discipline breakdown.
+                            All flow types (Incoming, Internal, Outgoing) combined.
+                        </p>
+                    </div>
+
+                </div><!-- /sunburst-body -->
+
+                <!-- TRANSITION -->
+                <div class="section-bridge">
+                    <p>The sunburst shows the aggregate picture. Now, trace the flows institution by institution.</p>
+                    <!-- <span class="bridge-arrow">↓</span> -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ============================================================
+             §C-2 — SANKEY: CITATION FLOW EXPLORER
+             Background: dark
+             ============================================================ -->
+        <section class="section dark-section rq2-sankey-section slide-up">
+            <div class="content-wrapper">
+
+                <!-- QUESTION -->
+                <p class="landscape-question">How do citation flows differ across institutions and flow types?</p>
+
+                <!-- ANSWER HEADLINE -->
+                <p class="landscape-answer-headline">
+                    Trace the exact path of citations —<br>from discipline to discipline.
+                </p>
+
+                <!-- CONTROLS — two rows -->
+                <div class="sankey-controls">
+
+                    <!-- ROW 1: Institution + Flow type -->
+                    <div class="sankey-controls-row">
+                        <div class="sankey-control-group">
+                            <span class="chart-control-label">Institution</span>
+                            <div class="inst-btn-group">
+                                <button class="inst-btn sankey-inst-btn active" data-inst="UNIBO">UNIBO</button>
+                                <button class="inst-btn sankey-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                <button class="inst-btn sankey-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                <button class="inst-btn sankey-inst-btn" data-inst="UNITO">UNITO</button>
+                                <button class="inst-btn sankey-inst-btn" data-inst="UPO">UPO</button>
+                                <button class="inst-btn sankey-inst-btn" data-inst="SNS">SNS</button>
+                            </div>
+                        </div>
+                        <div class="sankey-control-group">
+                            <span class="chart-control-label">Flow type</span>
+                            <div class="inst-btn-group">
+                                <button class="inst-btn sankey-flow-btn active" data-flow="All">All</button>
+                                <button class="inst-btn sankey-flow-btn" data-flow="Incoming">Incoming</button>
+                                <button class="inst-btn sankey-flow-btn" data-flow="Outgoing">Outgoing</button>
+                                <button class="inst-btn sankey-flow-btn" data-flow="Internal">Internal</button>
                             </div>
                         </div>
                     </div>
+
+                    <!-- ROW 2: Citing + Cited discipline (same row, multiple select) -->
+                    <div class="sankey-controls-row sankey-disc-row">
+                        <div class="sankey-control-group">
+                            <span class="chart-control-label">Citing discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <!-- multiple select: populated by JS -->
+                            <select class="sankey-select sankey-select--multi" id="sankey-citing-filter" multiple size="5">
+                            </select>
+                        </div>
+                        <div class="sankey-control-group">
+                            <span class="chart-control-label">Cited discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <select class="sankey-select sankey-select--multi" id="sankey-cited-filter" multiple size="5">
+                            </select>
+                        </div>
+                    </div>
+
+                </div><!-- /sankey-controls -->
+
+                <!-- CHART — white bg wrapper -->
+                <div class="sankey-chart-wrapper">
+                    <div id="sankey-chart"></div>
                 </div>
-            </section>
-        </div> <!-- End of RQ2 -->
+
+                <!-- CAPTION -->
+                <p class="chart-note">
+                    Left nodes = citing disciplines. Right nodes = cited disciplines.
+                    Link width = citation volume. Hover for exact counts.
+                </p>
+
+                <!-- CLOSING BRIDGE -->
+                <div class="section-bridge section-bridge--dark">
+                    <p>Every filter is a new question. The data is yours to explore.</p>
+                </div>
+
+            </div>
+        </section>
+
 
         <section class="section conclusion slide-up">
             <div class="content-wrapper">

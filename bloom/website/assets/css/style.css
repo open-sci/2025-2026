@@ -1114,3 +1114,1005 @@ h3 {
         padding: 0.6rem 0.9rem;
     }
 }
+
+
+/*-----RQ2-----*/
+/* ================================================================
+   style.css — Bloom: Citation Flows in Italian Science
+   ================================================================
+   Contents:
+     1. Design tokens (CSS custom properties)
+     2. Reset & base
+     3. Typography
+     4. Layout utilities
+     5. Navigation bar
+     6. Hero section
+     7. Scroll indicator & progress bar
+     8. Section animations (.fade-in / .slide-up)
+     9. Buttons
+    10. Footer
+    11. §A — LOC Classification cards
+    12. §B — Landscape chart section (Q/A structure)
+    13. Responsive overrides
+
+   HOW TO RESTYLE:
+   - Colours: edit the CSS variables in Section 1 (:root block).
+   - Fonts: edit --font-heading and --font-body in :root.
+   - Card sizes, gaps, border radii: see Sections 11–12.
+   ================================================================ */
+
+
+/* ================================================================
+   1. DESIGN TOKENS
+   Edit these variables to restyle the entire page at once.
+   ================================================================ */
+
+:root {
+    /* -- Brand colours ----------------------------------------- */
+    --color-primary:    #320E3B;   /* Dark purple — main brand colour  */
+    --color-accent:     #B7990D;   /* Gold — hover states, highlights  */
+    --color-bg-light:   #F8F9FA;   /* Default section background       */
+    --color-bg-dark:    #2A0C32;   /* Dark section background          */
+    --color-text-dark:  #1A1A1A;   /* Body text on light backgrounds   */
+    --color-text-light: #FFFFFF;   /* Body text on dark backgrounds    */
+
+    /* -- Typography -------------------------------------------- */
+    --font-heading: 'Playfair Display', serif;
+    --font-body:    'Inter', sans-serif;
+
+    /* -- RQ2-specific tokens ------------------------------------ */
+    /* Classification card colours */
+    --disc-card-bg:          #FFFFFF;
+    --disc-card-border:      rgba(50, 14, 59, 0.10);
+    --disc-card-bg-high:     rgba(183, 153, 13, 0.08);   /* High-range card tint  */
+    --disc-card-border-high: rgba(183, 153, 13, 0.45);   /* High-range card border */
+    --disc-card-bg-others:   rgba(50, 14, 59, 0.04);     /* Others (collapsed) card */
+    --disc-abbr-bg:          rgba(50, 14, 59, 0.08);     /* Abbreviation badge bg  */
+    --disc-abbr-color:       #320E3B;                    /* Abbreviation badge text */
+
+    /* Q/A block colours */
+    --qa-q-bg:     rgba(24, 95, 165, 0.07);
+    --qa-q-border: rgba(24, 95, 165, 0.25);
+    --qa-tag-q-bg: #185FA5;
+    --qa-tag-q-text: #FFFFFF;
+    --qa-tag-a-bg: #B7990D;
+    --qa-tag-a-text: #FFFFFF;
+
+    /* Chart section */
+    --chart-bg: rgba(0, 0, 0, 0.15);
+
+    /* Section bridge arrow */
+    --bridge-color: rgba(255, 255, 255, 0.4);   /* on dark bg */
+    --bridge-color-light: rgba(50, 14, 59, 0.4); /* on light bg */
+}
+
+
+/* ================================================================
+   2. RESET & BASE
+   ================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+
+/* ================================================================
+   3. TYPOGRAPHY
+   ================================================================ */
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/* -- Page title (hero H1) */
+.title {
+    font-size: 4.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+/* -- Hero subtitle */
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #555;
+    max-width: 600px;
+}
+
+/* -- Section headings */
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+/* Gold underline accent on section headings */
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: var(--color-accent);
+}
+
+/* -- Body text */
+.text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    color: #444;
+}
+
+/* -- Highlighted pull-quote */
+.highlight {
+    font-weight: 600;
+    color: var(--color-primary);
+    border-left: 4px solid var(--color-accent);
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+/* -- Small helper text */
+.text-sm {
+    font-size: 1rem;
+    color: #555;
+    max-width: 760px;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+
+/* ================================================================
+   4. LAYOUT UTILITIES
+   ================================================================ */
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* -- Standard full-height section */
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 0;
+}
+
+/* -- Two-column grid */
+.two-column {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.two-column.reverse {
+    flex-direction: row-reverse;
+}
+.text-column  { flex: 1; }
+.visual-column { flex: 1; }
+
+/* -- Visual placeholder (image/chart containers) */
+.visual-placeholder {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background-color: #E9ECEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 40px rgba(50, 14, 59, 0.1);
+    border: 1px solid rgba(50, 14, 59, 0.05);
+    overflow: hidden;
+    position: relative;
+}
+.demo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.visual-placeholder:hover .demo-image {
+    transform: scale(1.05);
+}
+
+/* -- Dark background section */
+.dark-section {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+}
+.dark-section h1,
+.dark-section h2,
+.dark-section h3 { color: var(--color-text-light); }
+.dark-section .text          { color: rgba(255, 255, 255, 0.9); }
+.dark-section .text-sm       { color: rgba(255, 255, 255, 0.75); }
+.dark-section .highlight     { color: var(--color-accent); border-color: var(--color-accent); }
+.dark-section .section-title::after { background-color: var(--color-accent); }
+
+
+/* ================================================================
+   5. NAVIGATION BAR — unchanged
+   ================================================================ */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: color-mix(in srgb, var(--color-bg-dark), transparent 20%);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(50, 14, 59, 0.1);
+    transition: all 0.3s ease;
+}
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.nav-logo:hover { transform: translateY(-1px); opacity: 0.95; }
+.logo-img       { height: 60px; width: auto; object-fit: contain; }
+.nav-links      { display: flex; list-style: none; gap: 2rem; }
+.nav-links a {
+    text-decoration: none;
+    color: var(--color-text-light);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover { color: var(--color-accent); }
+
+
+/* ================================================================
+   6. HERO SECTION — unchanged
+   ================================================================ */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-bg-dark);
+}
+.hero-bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+    color: var(--color-text-light);
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-content .title    { color: var(--color-text-light); max-width: 600px; width: 100%; }
+.hero-content .subtitle { color: rgba(255,255,255,0.8); max-width: 600px; width: 100%; }
+.hero-content .scroll-indicator { pointer-events: auto; max-width: 600px; width: 100%; }
+
+
+/* ================================================================
+   7. SCROLL INDICATOR & PROGRESS BAR — unchanged
+   ================================================================ */
+
+.scroll-indicator {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #777;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mouse {
+    width: 30px; height: 50px;
+    border: 2px solid var(--color-bg-light);
+    border-radius: 15px;
+    position: relative;
+}
+.wheel {
+    width: 4px; height: 8px;
+    background-color: var(--color-accent);
+    border-radius: 2px;
+    position: absolute;
+    top: 10px; left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+}
+@keyframes scroll {
+    0%   { top: 10px; opacity: 1; }
+    100% { top: 25px; opacity: 0; }
+}
+
+#progress-bar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: var(--color-accent);
+    z-index: 1001;
+    transition: width 0.1s ease;
+}
+
+
+/* ================================================================
+   8. SECTION ANIMATIONS — unchanged
+   ================================================================ */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+.fade-in.visible { opacity: 1; }
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.slide-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ================================================================
+   9. BUTTONS — unchanged
+   ================================================================ */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: var(--font-body);
+}
+.primary-btn {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border: 2px solid var(--color-primary);
+}
+.primary-btn:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(183, 153, 13, 0.2);
+}
+
+
+/* ================================================================
+   10. FOOTER — unchanged
+   ================================================================ */
+
+.footer {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--color-primary);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+.footer p { margin-bottom: 0.5rem; }
+
+
+/* ================================================================
+   11. §A — LOC CLASSIFICATION PILLS
+   ================================================================ */
+
+/* -- RQ2 section label (small eyebrow above section title) ------- */
+.rq2-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-accent);
+    margin-bottom: 0.75rem;
+}
+
+/* -- Discipline section wrapper ---------------------------------- */
+.disc-section {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* -- Group label (e.g. "LOC Main Classifications") --------------- */
+.disc-group-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--color-primary);
+    margin-bottom: 0.6rem;
+    /* LABEL COLOUR — edit color above */
+}
+
+/* -- "Additional Categories" label variant ----------------------- */
+.disc-group-label--extra {
+    margin-top: 1.6rem;
+    color: #666;
+}
+
+/* -- Inline note next to "Additional Categories" label ----------- */
+.disc-extra-note {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #888;
+    font-style: italic;
+}
+
+/* -- Short description below group label ------------------------- */
+.disc-group-desc {
+    font-size: 0.88rem;
+    color: #555;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 0.9rem;
+}
+
+/* -- Pill row (flex-wrap container) ------------------------------ */
+.disc-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 0.5rem;
+}
+
+/* -- Individual discipline pill ---------------------------------- */
+.disc-pill {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 500;
+    /* PILL COLOURS — edit background and color here */
+    background: rgba(50, 14, 59, 0.07);
+    color: var(--color-primary);
+    border: 1px solid rgba(50, 14, 59, 0.15);
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* -- Extra category pill variant (Multidisciplinary, Others) ----- */
+.disc-pill--extra {
+    /* EXTRA PILL COLOURS — edit here */
+    background: rgba(183, 153, 13, 0.08);
+    color: #6b5800;
+    border-color: rgba(183, 153, 13, 0.3);
+    font-style: italic;
+}
+
+/* -- Extra categories row: pill + mini desc side by side --------- */
+.disc-row--extra {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+/* -- Mini card wrapping extra pill + its description ------------- */
+.disc-pill-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 320px;
+}
+
+/* -- Description text inside mini card --------------------------- */
+.disc-pill-card-desc {
+    font-size: 0.78rem;
+    color: #777;
+    line-height: 1.5;
+    padding-left: 0.2rem;
+}
+
+/* -- Footnote link (superscript *) ------------------------------- */
+.disc-footnote-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.disc-footnote-link:hover { text-decoration: underline; }
+
+/* -- Footnote text at the bottom --------------------------------- */
+.disc-footnote {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 1.2rem;
+    line-height: 1.5;
+}
+.disc-footnote a { color: var(--color-accent); }
+.disc-footnote a:hover { text-decoration: underline; }
+
+/* -- Section bridge (transition text + bouncing arrow) ----------- */
+.section-bridge {
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--bridge-color-light);
+}
+.section-bridge p {
+    font-size: 1rem;
+    /* font-style: italic; */
+    margin-bottom: 0.5rem;
+    color: inherit;
+}
+.section-bridge--dark { color: var(--bridge-color); }
+
+.bridge-arrow {
+    display: block;
+    font-size: 2rem;
+    animation: bounce 1.8s infinite;
+    color: var(--color-accent);
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(6px); }
+}
+
+
+/* ================================================================
+   12. §B — LANDSCAPE SECTION (Question → Answer + Chart)
+   ================================================================ */
+
+/* -- Question heading -------------------------------------------- */
+.landscape-question {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.55);
+    /* QUESTION STYLE — edit font-size and color here */
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.01em;
+}
+
+/* -- Answer headline (punchy one-liner) -------------------------- */
+.landscape-answer-headline {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-accent);
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    /* ANSWER HEADLINE STYLE — edit font-size and color here */
+}
+
+/* -- Two-column body: text left, chart right --------------------- */
+.landscape-body {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+/* -- Left text column -------------------------------------------- */
+.landscape-text {
+    flex: 0 0 360px;          /* fixed width; adjust px to widen/narrow text column */
+    min-width: 0;
+}
+
+/* -- Right chart column ------------------------------------------ */
+.landscape-chart-col {
+    flex: 1;
+    min-width: 0;
+}
+
+/* -- Institution label above the chart (populated by JS) --------- */
+#landscape-inst-label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.6rem;
+    min-height: 1.2em; /* prevents layout shift when text changes */
+}
+
+/* -- Chart controls row ----------------------------------------- */
+.chart-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+}
+
+/* -- "View by institution" label --------------------------------- */
+.chart-control-label {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+/* -- Button group ------------------------------------------------ */
+.inst-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+/* -- Individual institution toggle button ----------------------- */
+.inst-btn {
+    font-family: var(--font-body);
+    padding: 0.3rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.inst-btn:hover {
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.45);
+}
+/* Active / selected state — edit accent colour here */
+.inst-btn.active {
+    background: var(--color-accent);
+    color: #1a1a1a;
+    border-color: var(--color-accent);
+}
+
+/* -- Answer explanation text (one size smaller than .text) ------- */
+/* EXPLANATION FONT SIZE — edit font-size here */
+.landscape-explanation {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin-bottom: 1.4rem;
+    max-width: 100%;
+}
+
+/* -- Chart header (sublabel / back-button row) ------------------- */
+.chart-header {
+    margin-bottom: 0.5rem;
+}
+.chart-header-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+/* -- "← All institutions" back button --------------------------- */
+.chart-back-btn {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: transparent;
+    color: var(--color-accent);
+    border: 1px solid rgba(183, 153, 13, 0.4);
+    border-radius: 20px;
+    padding: 0.28rem 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+.chart-back-btn:hover {
+    background: rgba(183, 153, 13, 0.12);
+    border-color: var(--color-accent);
+}
+
+/* -- Institution name shown in detail view ----------------------- */
+.chart-detail-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+/* -- "Click a bar to drill down" hint text ----------------------- */
+.chart-sublabel-hint {
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.68rem;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.chart-sublabel {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.35);
+    margin-bottom: 0.4rem;
+    /* SUBLABEL COLOUR — edit color here */
+}
+
+/* -- Thin separator between top and bottom chart ---------------- */
+.chart-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin: 1.2rem 0;
+}
+
+/* -- Stacked bar canvas (top, always 1 thin bar + legend) ------- */
+#landscape-chart-stacked {
+    height: 160px;   /* 1 bar only — increase if legend wraps to more rows */
+    width: 100%;
+}
+
+/* -- Grouped bar canvas (bottom) -------------------------------- */
+#landscape-chart-grouped {
+    height: 420px;   /* GROUPED CHART HEIGHT — increase if bars feel cramped */
+    width: 100%;
+}
+
+/* -- Chart caption ---------------------------------------------- */
+.chart-note {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.35);
+    margin-top: 0.6rem;
+    line-height: 1.5;
+}
+
+/* -- Institution callout list (in text column) ------------------- */
+.inst-callouts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+.inst-callouts li {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.75);
+    padding-left: 0.85rem;
+    border-left: 2px solid rgba(183, 153, 13, 0.45);
+    line-height: 1.5;
+}
+.inst-callouts li strong {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+
+/* ================================================================
+   §C-2 — SANKEY SECTION
+   ================================================================ */
+
+/* ================================================================
+   §C-2 — SANKEY SECTION
+   ================================================================ */
+
+/* Sankey section — wider than default 1200px content-wrapper */
+.rq2-sankey-section .content-wrapper {
+    /* SANKEY SECTION WIDTH — edit max-width here */
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Each row: horizontal flex */
+.sankey-controls-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    align-items: flex-start;
+}
+
+/* Discipline row: two selects side by side, equal width */
+.sankey-disc-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.sankey-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+/* Hint text next to label */
+.sankey-select-hint {
+    font-size: 0.68rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+/* Multiple select box */
+.sankey-select--multi {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    background: rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 6px;
+    padding: 0.2rem 0;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+    /* Show all 12 disciplines */
+    height: auto;
+}
+.sankey-select--multi option {
+    padding: 4px 10px;
+    background: #2A0C32;
+    color: rgba(255,255,255,0.85);
+}
+.sankey-select--multi option:checked {
+    background: var(--color-accent);
+    color: #1a1a1a;
+}
+.sankey-select--multi:focus { border-color: var(--color-accent); }
+
+/* Chart wrapper — white semi-transparent background */
+.sankey-chart-wrapper {
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+/* Sankey chart canvas */
+#sankey-chart {
+    /* CHART HEIGHT — taller gives nodes more room to spread */
+    height: 650px;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .sankey-disc-row { grid-template-columns: 1fr; }
+    #sankey-chart { height: 380px; }
+}
+
+
+/* ================================================================
+   §C-1 — SUNBURST SECTION
+   ================================================================ */
+
+.sunburst-body {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+.sunburst-text      { flex: 0 0 300px; min-width: 0; }
+.sunburst-chart-col { flex: 1; min-width: 0; }
+
+/* SUNBURST CHART HEIGHT — square looks best */
+#sunburst-chart { width: 100%; height: 500px; }
+
+/* Info panel */
+.sunburst-info {
+    margin-top: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid rgba(50,14,59,0.12);
+    border-radius: 10px;
+    background: rgba(50,14,59,0.03);
+    min-height: 80px;
+}
+.sunburst-info-hint  { font-size:0.82rem; color:#aaa; font-style:italic; line-height:1.5; }
+.sunburst-info-pair  { font-size:1rem; font-weight:600; color:var(--color-primary); margin-bottom:0.4rem; }
+.sunburst-info-citing { color:var(--color-primary); }
+.sunburst-info-arrow  { color:var(--color-accent); margin:0 0.2rem; }
+.sunburst-info-cited  { color:var(--color-primary); }
+.sunburst-info-stat  { font-size:0.85rem; color:#555; margin-bottom:0.25rem; line-height:1.5; }
+.sunburst-info-count { font-size:0.78rem; color:#999; }
+
+/* Button overrides for light background */
+.sunburst-inst-btn.active {
+    background: var(--color-primary) !important;
+    color: #fff !important;
+    border-color: var(--color-primary) !important;
+}
+.sunburst-inst-btn:hover {
+    color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    background: rgba(50,14,59,0.06) !important;
+}
+
+
+/* ================================================================
+   13. RESPONSIVE OVERRIDES
+   ================================================================ */
+
+@media (max-width: 900px) {
+
+    /* -- Layout resets ------------------------------------------ */
+    .two-column,
+    .two-column.reverse { flex-direction: column; gap: 2rem; }
+
+    /* -- Typography resets -------------------------------------- */
+    .title { font-size: 3rem; }
+
+    /* -- Section spacing ---------------------------------------- */
+    .section           { padding: 6rem 0 4rem 0; min-height: auto; }
+    .hero              { padding-top: 8rem; }
+    .hero-content {
+        align-items: center;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0 auto;
+    }
+    .hero-content .title,
+    .hero-content .subtitle { max-width: 100%; text-align: center; }
+    .hero-content .scroll-indicator { max-width: 100%; justify-content: center; }
+
+    /* -- §A: pills wrap naturally on mobile — no change needed -- */
+    .disc-row--extra    { flex-direction: column; gap: 0.75rem; }
+    .disc-pill-card     { max-width: 100%; }
+
+    /* -- §B: stack text above chart on mobile ------------------- */
+    .landscape-body     { flex-direction: column; gap: 2rem; }
+    .landscape-text     { flex: none; width: 100%; }
+    .landscape-answer-headline { font-size: 1.4rem; }
+
+    /* -- Chart controls: stack on mobile ------------------------ */
+    .chart-controls     { flex-direction: column; align-items: flex-start; }
+
+    /* -- Sunburst: stack on mobile ------------------------------ */
+    .sunburst-body   { flex-direction: column; gap: 2rem; }
+    .sunburst-text   { flex: none; width: 100%; }
+    #sunburst-chart  { height: 360px; }
+
+    /* -- Chart heights on mobile -------------------------------- */
+    #landscape-chart-stacked { height: 180px; }
+    #landscape-chart-grouped { height: 340px; }
+}
