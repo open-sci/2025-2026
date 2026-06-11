@@ -574,17 +574,6 @@ h3 {
     background-color: var(--color-bg-light);
 }
 
-#sankey-chartdiv {
-    width: 98vw;
-    margin-left: calc(-49vw + 50%);
-    height: 740px;
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: var(--color-bg-light);
-    box-shadow: 0 20px 40px rgba(50, 14, 59, 0.12);
-    border: 1px solid rgba(50, 14, 59, 0.07);
-}
-
 .sankey-controls-wrapper {
     margin-top: 2.5rem;
 }
@@ -1025,9 +1014,103 @@ h3 {
         gap: 2rem;
         text-align: center;
     }
-    
+
     .flow-aligned-visual {
         flex: auto;
         width: 100%;
+    }
+}
+
+/* ── Org-View Toggle Buttons ──────────────────────────────────────────────── */
+.org-view-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    background-color: var(--color-bg-dark);
+    border: 1px solid rgba(183, 153, 13, 0.35);
+    border-radius: 40px;
+    padding: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.org-view-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 35px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    white-space: nowrap;
+}
+
+.org-view-btn .org-btn-icon {
+    font-size: 1rem;
+    line-height: 1;
+    transition: color 0.28s ease;
+    color: rgba(183, 153, 13, 0.5);
+}
+
+.org-view-btn .org-btn-label {
+    transition: color 0.28s ease;
+}
+
+/* Hover — light gold shimmer */
+.org-view-btn:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(183, 153, 13, 0.12);
+}
+
+.org-view-btn:hover .org-btn-icon {
+    color: var(--color-accent);
+}
+
+/* Active / selected state */
+.org-view-btn.active {
+    background: linear-gradient(135deg, #B7990D 0%, #d4b441 50%, #B7990D 100%);
+    color: var(--color-bg-dark);
+    box-shadow:
+        0 3px 12px rgba(183, 153, 13, 0.45),
+        0 1px 3px rgba(0,0,0,0.3),
+        inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.org-view-btn.active .org-btn-icon {
+    color: var(--color-bg-dark);
+}
+
+.org-view-btn.active:hover {
+    background: linear-gradient(135deg, #c9ab1a 0%, #e0c450 50%, #c9ab1a 100%);
+    color: var(--color-bg-dark);
+    box-shadow:
+        0 5px 18px rgba(183, 153, 13, 0.55),
+        0 2px 6px rgba(0,0,0,0.3),
+        inset 0 1px 0 rgba(255,255,255,0.3);
+    transform: translateY(-1px);
+}
+
+/* Focus ring for accessibility */
+.org-view-btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    .org-view-btn .org-btn-label {
+        display: none;
+    }
+    .org-view-btn {
+        padding: 0.6rem 0.9rem;
     }
 }

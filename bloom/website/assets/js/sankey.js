@@ -1,6 +1,7 @@
 (function () {
 
-  // Config
+  var currentAllResults = null;
+  var currentRoot = null;  // Config
   var INSTITUTIONS = ["UNIBO", "UNIMI", "UNIPD", "UNITO", "SNS", "UPO"];
   var INST_LABELS = {
     UNIBO: "UNIBO",
@@ -39,14 +40,18 @@
   }
 
   // ── Data builder ─────────────────────────────────────────────────────────────
-  function buildAllData(allResults) {
+  function buildAllData(allResults, excludeItaly) {
     // allResults: [ [incRows, outRows], ... ] one pair per institution (same order as INSTITUTIONS)
 
     // 1. Compute per-institution top-15 org lists
     //    We want the top-15 by citation count *for that institution*
     function topN(rows, n) {
       return rows
-        .filter(function (r) { return r.legal_name && r.count > 0; })
+        .filter(function (r) {
+          if (!r.legal_name || r.count <= 0) return false;
+          if (excludeItaly && r.country_code === "IT") return false;
+          return true;
+        })
         .sort(function (a, b) { return b.count - a.count; })
         .slice(0, n);
     }
@@ -91,14 +96,20 @@
   }
 
   // ── Chart builder ─────────────────────────────────────────────────────────────
-  function buildChart(allResults) {
+  function buildChart(allResults, excludeItaly) {
     var div = document.getElementById(DIV_ID);
     if (!div) return;
+
+    if (currentRoot) {
+      currentRoot.dispose();
+      currentRoot = null;
+    }
 
     div.innerHTML = "";
 
     // Root + theme
-    var root = am5.Root.new(DIV_ID);
+    currentRoot = am5.Root.new(DIV_ID);
+    var root = currentRoot;
     root.setThemes([am5themes_Animated.new(root)]);
 
     // Sankey series
@@ -109,9 +120,9 @@
         valueField: "value",
         nodeWidth: 20,
         nodePadding: 5,
-        paddingLeft: 150,
-        paddingRight: 150,
-        paddingTop: 15,
+        paddingLeft: 30,
+        paddingRight: 30,
+        paddingTop: 55,
         paddingBottom: 15,
         orientation: "horizontal"
       })
@@ -138,8 +149,16 @@
       var label = INST_LABELS[inst];
       instLabelSet[label] = INST_COLORS[inst];
       var incTotal = 0, outTotal = 0;
-      allResults[idx][0].forEach(function (r) { if (r.count) incTotal += r.count; });
-      allResults[idx][1].forEach(function (r) { if (r.count) outTotal += r.count; });
+      allResults[idx][0].forEach(function (r) {
+        if (r.count) {
+          if (!excludeItaly || r.country_code !== "IT") incTotal += r.count;
+        }
+      });
+      allResults[idx][1].forEach(function (r) {
+        if (r.count) {
+          if (!excludeItaly || r.country_code !== "IT") outTotal += r.count;
+        }
+      });
       instTotalMap[label] = { incoming: incTotal, outgoing: outTotal };
     });
 
@@ -221,10 +240,32 @@
       fillOpacity: 0.50
     });
 
+    // Add moving flow bullets
+    // Removing the bullet logic because it was adding bullets to Sankey Nodes instead of Links, breaking the layout.
+
     // ── Format nodes after data is validated ────────────
     series.events.on("datavalidated", function () {
       var orgColorMap = {};
-      var colorSet = am5.ColorSet.new(root, { step: 2 });
+      
+      // Implement the sunburst tinting logic to match exactly
+      function tint(hex, factor) {
+        var r = (hex >> 16) & 0xff;
+        var g = (hex >> 8) & 0xff;
+        var b = hex & 0xff;
+        var newR = Math.round(r + (255 - r) * factor);
+        var newG = Math.round(g + (255 - g) * factor);
+        var newB = Math.round(b + (255 - b) * factor);
+        return (newR << 16) | (newG << 8) | newB;
+      }
+      
+      var sunburstColors = [
+        0x4D1343, 0xd62728, 0x843c39, 0xE8743B, 0xe6550d,
+        0xBE8B20, 0xF4C430, 0xB7990D, 0xFFE94D, 0x637939,
+        0xA3E635, 0x2ca02c, 0x97DFFC, 0x1f77b4, 0xaec7e8,
+        0x4361EE, 0x5254a3, 0x9467bd, 0x5B2C6F, 0x320E3B
+      ].map(function(c) { return am5.color(tint(c, 0.3)); });
+      
+      var colorSet = am5.ColorSet.new(root, { colors: sunburstColors });
       var colorIndex = 0;
 
       series.nodes.dataItems.forEach(function (di) {
@@ -234,7 +275,7 @@
 
         if (instLabelSet[name] !== undefined) {
           rect.setAll({
-            fill: am5.color(0xB7990D),   // site gold accent
+            fill: am5.color(instLabelSet[name]),   // matching sunburst inst color
             fillOpacity: 1,
             strokeOpacity: 0
           });
@@ -244,7 +285,7 @@
             y: am5.p50,
             centerX: am5.p50,
             centerY: am5.p50,
-            fill: am5.color(0x320E3B),   // Dark purple for contrast on pale gold
+            fill: am5.color(0xFFFFFF),   // White for contrast on dark colors
             fontWeight: "700",
             fontSize: 12
           });
@@ -255,30 +296,31 @@
             orgColorMap[cleanName] = colorSet.getIndex(colorIndex++);
           }
           rect.set("fill", orgColorMap[cleanName]);
+
+          // Position the left nodes (INC) outside to the left, 
+          // and right nodes (OUT) outside to the right.
+          if (name.startsWith("INC:")) {
+            label.setAll({
+              x: am5.p0,
+              centerX: am5.p100,
+              paddingRight: 8,
+              forceHidden: true
+            });
+          } else if (name.startsWith("OUT:")) {
+            label.setAll({
+              x: am5.p100,
+              centerX: am5.p0,
+              paddingLeft: 8,
+              forceHidden: true
+            });
+          }
         }
       });
     });
 
-    // ── Hide labels for smaller organization nodes ────────────
-    series.nodes.rectangles.template.events.on("boundschanged", function (e) {
-      var rect = e.target;
-      var di = rect.dataItem;
-      if (!di) return;
-      var name = di.get("name") || "";
-      var label = di.get("label");
-
-      if (label && instLabelSet[name] === undefined) {
-        // Hide if the node's physical height is less than 16px to prevent label clutter
-        if (rect.height() < 16) {
-          label.set("forceHidden", true);
-        } else {
-          label.set("forceHidden", false);
-        }
-      }
-    });
 
     // ── Set data + animate ────────────────────────────────────────────────────
-    var links = buildAllData(allResults);
+    var links = buildAllData(allResults, excludeItaly);
     series.data.setAll(links);
     series.appear(1200, 100);
   }
@@ -300,10 +342,50 @@
 
     Promise.all(fetchPromises)
       .then(function (allResults) {
-        buildChart(allResults);
+        currentAllResults = allResults;
+        
+        var targetDiv = document.getElementById(DIV_ID);
+        if (!targetDiv) return;
+
+        // Clear loading message once data is ready so it sits blank until scrolled into view
+        targetDiv.innerHTML = "";
+
+        // Use IntersectionObserver to delay chart building and animation until in view
+        if ("IntersectionObserver" in window) {
+          var observer = new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting) {
+              if (!currentRoot) {
+                buildChart(currentAllResults, false);
+              }
+              observer.disconnect();
+            }
+          }, { threshold: 0.15 });
+
+          observer.observe(targetDiv);
+        } else {
+          // Fallback if IntersectionObserver is not supported
+          buildChart(currentAllResults, false);
+        }
+
+        // Setup scatter plot loading on scroll
+        var scatterDiv = document.getElementById("scatter-chartdiv");
+        if (scatterDiv) {
+          if ("IntersectionObserver" in window) {
+            var scatterObserver = new IntersectionObserver(function(entries) {
+              if (entries[0].isIntersecting) {
+                loadScatter();
+                scatterObserver.disconnect();
+              }
+            }, { threshold: 0.1 });
+            scatterObserver.observe(scatterDiv);
+          } else {
+            loadScatter();
+          }
+        }
       })
       .catch(function (err) {
         console.error("Sankey load error:", err);
+        var div = document.getElementById(DIV_ID);
         if (div) {
           div.innerHTML =
             '<div class="sankey-loading sankey-error">Could not load data. Check CSV paths.</div>';
@@ -335,21 +417,34 @@
 
   // ── Toggle UI Logic ───────────────────────────────
   function initUI() {
-    var select = document.getElementById("org-view-select");
-    var sankeyDiv = document.getElementById("sankey-chartdiv");
-    var scatterDiv = document.getElementById("scatter-chartdiv");
+    var sankeyBtn  = document.getElementById("org-btn-sankey");
+    var sankeyNoItBtn = document.getElementById("org-btn-sankey-no-italy");
 
-    if (select && sankeyDiv && scatterDiv) {
-      select.addEventListener("change", function() {
-        if (this.value === "sankey") {
-           sankeyDiv.style.display = "block";
-           scatterDiv.style.display = "none";
-        } else {
-           sankeyDiv.style.display = "none";
-           scatterDiv.style.display = "block";
-           loadScatter();
+    if (!sankeyBtn) return;
+
+    function switchTo(view) {
+        sankeyBtn.classList.remove("active");
+        sankeyBtn.setAttribute("aria-pressed", "false");
+        if (sankeyNoItBtn) {
+            sankeyNoItBtn.classList.remove("active");
+            sankeyNoItBtn.setAttribute("aria-pressed", "false");
         }
-      });
+
+        var excludeItaly = (view === "sankey-no-italy");
+        var activeBtn = excludeItaly ? sankeyNoItBtn : sankeyBtn;
+        if (activeBtn) {
+            activeBtn.classList.add("active");
+            activeBtn.setAttribute("aria-pressed", "true");
+        }
+
+        if (currentAllResults) {
+            buildChart(currentAllResults, excludeItaly);
+        }
+    }
+
+    sankeyBtn.addEventListener("click",  function() { switchTo("sankey"); });
+    if (sankeyNoItBtn) {
+        sankeyNoItBtn.addEventListener("click", function() { switchTo("sankey-no-italy"); });
     }
   }
 
