@@ -330,76 +330,7 @@
     var scatterDiv = document.getElementById("scatter-chartdiv");
     if (!scatterDiv) return;
 
-    fetch("assets/data/reciprocity_scatter.json")
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        var layout = data.layout || {};
-
-        // ── Match the map's dark background ──────────────────────────────
-        layout.paper_bgcolor = "#2A0C32";   // --color-bg-dark
-        layout.plot_bgcolor  = "rgba(50, 14, 59, 0.35)";  // subtle dark purple tint
-
-        // ── Typography to match site (Inter, light text) ─────────────────
-        var fontStyle = { family: "Inter, sans-serif", color: "#FFFFFF", size: 13 };
-        layout.font = fontStyle;
-
-        // ── Axes: light grid lines, white labels ──────────────────────────
-        var axisCommon = {
-          gridcolor: "rgba(255,255,255,0.10)",
-          zerolinecolor: "rgba(255,255,255,0.15)",
-          tickcolor: "rgba(255,255,255,0.5)",
-          tickfont: { family: "Inter, sans-serif", color: "rgba(255,255,255,0.85)", size: 12 },
-          titlefont: { family: "Inter, sans-serif", color: "#B7990D", size: 13 },  // gold axis titles
-          linecolor: "rgba(255,255,255,0.15)"
-        };
-        layout.xaxis = Object.assign(layout.xaxis || {}, axisCommon);
-        layout.yaxis = Object.assign(layout.yaxis || {}, axisCommon);
-
-        // ── Title ─────────────────────────────────────────────────────────
-        if (layout.title && typeof layout.title === "object") {
-          layout.title.font = { family: "Playfair Display, serif", color: "#FFFFFF", size: 16 };
-          layout.title.x = 0.5;
-        }
-
-        // ── Legend ────────────────────────────────────────────────────────
-        layout.legend = {
-          font: { family: "Inter, sans-serif", color: "rgba(255,255,255,0.9)", size: 11 },
-          bgcolor: "rgba(50, 14, 59, 0.7)",
-          bordercolor: "rgba(183, 153, 13, 0.4)",   // gold border
-          borderwidth: 1,
-          title: { font: { family: "Inter, sans-serif", color: "#B7990D", size: 12 } }
-        };
-
-        // ── Plotly dropdown menu — match site glass-effect control ────────
-        if (layout.updatemenus && layout.updatemenus.length > 0) {
-          layout.updatemenus[0] = Object.assign(layout.updatemenus[0], {
-            bgcolor: "rgba(42, 12, 50, 0.85)",       // dark purple glass
-            bordercolor: "rgba(183, 153, 13, 0.6)",  // gold border
-            font: { family: "Inter, sans-serif", color: "#FFFFFF", size: 12 },
-            active: 0,
-          });
-          // Style each button
-          if (layout.updatemenus[0].buttons) {
-            layout.updatemenus[0].buttons.forEach(function(btn) {
-              btn.bgcolor = "rgba(50, 14, 59, 0.0)";
-            });
-          }
-        }
-
-        // ── Margins ───────────────────────────────────────────────────────
-        layout.margin = { t: 120, r: 30, b: 60, l: 70 };
-        layout.autosize = true;
-        delete layout.width;
-        layout.height = 700;
-
-        scatterDiv.innerHTML = ""; // Clear loading message
-        scatterDiv.style.backgroundColor = "#2A0C32";
-        Plotly.newPlot(scatterDiv, data.data, layout, { responsive: true, displayModeBar: false });
-      })
-      .catch(function(err) {
-        console.error("Scatter plot load error:", err);
-        scatterDiv.innerHTML = '<div class="sankey-loading sankey-error">Could not load scatter plot data.</div>';
-      });
+    scatterDiv.innerHTML = '<iframe src="visualizations/reciprocity.html" width="100%" height="100%" frameborder="0" style="border-radius: 12px; background-color: #2A0C32;"></iframe>';
   }
 
   // ── Toggle UI Logic ───────────────────────────────

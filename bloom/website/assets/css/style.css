@@ -583,34 +583,6 @@ h3 {
     margin-top: 2.5rem;
 }
 
-
-/* Legend */
-.sankey-legend {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    padding: 1.5rem;
-    background: rgba(42, 12, 50, 0.06);
-    border-radius: 10px;
-    border-left: 4px solid var(--color-accent);
-}
-
-.legend-item {
-    font-family: var(--font-body);
-    font-size: 1rem;
-    font-weight: 500;
-    color: #444;
-    letter-spacing: 0.3px;
-}
-
-.legend-incoming {
-    color: #2a9d8f;
-}
-
-.legend-outgoing {
-    color: #e76f51;
-}
-
 /* Loading / error states */
 .sankey-loading {
     display: flex;
@@ -644,64 +616,6 @@ h3 {
     position: relative;
 }
 
-
-
-.sunburst-how-to {
-    background: rgba(183, 153, 13, 0.06);
-    border-left: 4px solid var(--color-accent);
-    border-radius: 0 10px 10px 0;
-    padding: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-.how-to-title {
-    font-family: var(--font-body);
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--color-accent) !important;
-    margin-bottom: 1rem;
-}
-
-.how-to-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.how-to-list li {
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.85);
-    padding-left: 1.25rem;
-    position: relative;
-}
-
-.how-to-list li::before {
-    content: "›";
-    position: absolute;
-    left: 0;
-    color: var(--color-accent);
-    font-weight: 700;
-}
-
-.how-to-list li strong {
-    color: var(--color-accent);
-}
-
-/* Plotly Dropdown (Scatter Plot) Overrides */
-.updatemenu-button:hover .updatemenu-item-rect,
-.updatemenu-button.active .updatemenu-item-rect {
-    fill: var(--color-accent) !important;
-}
-
-.updatemenu-button:hover .updatemenu-item-text,
-.updatemenu-button.active .updatemenu-item-text {
-    fill: var(--color-primary) !important;
-}
 
 /* ── Research Question Navigation ─────────────────────────────────────────── */
 .rq-nav {
