@@ -84,6 +84,36 @@ h3 {
     margin-top: 2rem;
 }
 
+/* -- Reminder Callout Box */
+.reminder-callout {
+    display: flex;
+    gap: 1rem;
+    background: rgba(183, 153, 13, 0.05); /* very light gold tint */
+    border: 1px solid rgba(183, 153, 13, 0.25);
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin-top: 2.5rem;
+    align-items: flex-start;
+    box-shadow: 0 4px 15px rgba(50, 14, 59, 0.03);
+}
+
+.reminder-icon {
+    font-size: 1.2rem;
+    color: var(--color-accent);
+    line-height: 1.1;
+    margin-top: 0.1rem;
+}
+
+.reminder-content {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.reminder-content strong {
+    color: var(--color-primary);
+}
+
 /* Layout */
 .content-wrapper {
     width: 100%;
@@ -127,31 +157,6 @@ h3 {
 
 .visual-column.large {
     flex: 2;
-}
-
-.visual-placeholder {
-    width: 100%;
-    aspect-ratio: 4/3;
-    background-color: #E9ECEF;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 20px 40px rgba(50, 14, 59, 0.1);
-    border: 1px solid rgba(50, 14, 59, 0.05);
-    overflow: hidden;
-    position: relative;
-}
-
-.demo-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.visual-placeholder:hover .demo-image {
-    transform: scale(1.05);
 }
 
 /* Dark Section styling */
@@ -441,10 +446,10 @@ h3 {
     background: rgba(42, 12, 50, 0.4);
     padding: 1rem 2rem;
     border-radius: 12px;
-    border: 1px solid rgba(50, 14, 59, 0.2);
+    /* border: 1px solid rgba(50, 14, 59, 0.2); */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); */
 }
 
 .vis-controls label {
@@ -908,6 +913,31 @@ h3 {
     font-size: 0.95rem;
 }
 
+.flow-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.flow-badge-out {
+    background: #ede8f4;
+    color: #320E3B;
+}
+
+.flow-badge-in {
+    background: #fdf6d8;
+    color: #7a6208;
+}
+
+.flow-badge-bal {
+    background: #eaf5ee;
+    color: #1a6e31;
+}
+
 /* --- Hand-drawn Underline --- */
 .hand-drawn-underline {
     position: relative;
@@ -1008,6 +1038,7 @@ h3 {
 }
 
 @media (max-width: 900px) {
+
     .flow-aligned-row,
     .flow-aligned-row:nth-child(even) {
         flex-direction: column;
@@ -1082,8 +1113,8 @@ h3 {
     color: var(--color-bg-dark);
     box-shadow:
         0 3px 12px rgba(183, 153, 13, 0.45),
-        0 1px 3px rgba(0,0,0,0.3),
-        inset 0 1px 0 rgba(255,255,255,0.25);
+        0 1px 3px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .org-view-btn.active .org-btn-icon {
@@ -1095,8 +1126,8 @@ h3 {
     color: var(--color-bg-dark);
     box-shadow:
         0 5px 18px rgba(183, 153, 13, 0.55),
-        0 2px 6px rgba(0,0,0,0.3),
-        inset 0 1px 0 rgba(255,255,255,0.3);
+        0 2px 6px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
     transform: translateY(-1px);
 }
 
@@ -1110,6 +1141,7 @@ h3 {
     .org-view-btn .org-btn-label {
         display: none;
     }
+
     .org-view-btn {
         padding: 0.6rem 0.9rem;
     }
@@ -1149,29 +1181,40 @@ h3 {
 
 :root {
     /* -- Brand colours ----------------------------------------- */
-    --color-primary:    #320E3B;   /* Dark purple — main brand colour  */
-    --color-accent:     #B7990D;   /* Gold — hover states, highlights  */
-    --color-bg-light:   #F8F9FA;   /* Default section background       */
-    --color-bg-dark:    #2A0C32;   /* Dark section background          */
-    --color-text-dark:  #1A1A1A;   /* Body text on light backgrounds   */
-    --color-text-light: #FFFFFF;   /* Body text on dark backgrounds    */
+    --color-primary: #320E3B;
+    /* Dark purple — main brand colour  */
+    --color-accent: #B7990D;
+    /* Gold — hover states, highlights  */
+    --color-bg-light: #F8F9FA;
+    /* Default section background       */
+    --color-bg-dark: #2A0C32;
+    /* Dark section background          */
+    --color-text-dark: #1A1A1A;
+    /* Body text on light backgrounds   */
+    --color-text-light: #FFFFFF;
+    /* Body text on dark backgrounds    */
 
     /* -- Typography -------------------------------------------- */
     --font-heading: 'Playfair Display', serif;
-    --font-body:    'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
 
     /* -- RQ2-specific tokens ------------------------------------ */
     /* Classification card colours */
-    --disc-card-bg:          #FFFFFF;
-    --disc-card-border:      rgba(50, 14, 59, 0.10);
-    --disc-card-bg-high:     rgba(183, 153, 13, 0.08);   /* High-range card tint  */
-    --disc-card-border-high: rgba(183, 153, 13, 0.45);   /* High-range card border */
-    --disc-card-bg-others:   rgba(50, 14, 59, 0.04);     /* Others (collapsed) card */
-    --disc-abbr-bg:          rgba(50, 14, 59, 0.08);     /* Abbreviation badge bg  */
-    --disc-abbr-color:       #320E3B;                    /* Abbreviation badge text */
+    --disc-card-bg: #FFFFFF;
+    --disc-card-border: rgba(50, 14, 59, 0.10);
+    --disc-card-bg-high: rgba(183, 153, 13, 0.08);
+    /* High-range card tint  */
+    --disc-card-border-high: rgba(183, 153, 13, 0.45);
+    /* High-range card border */
+    --disc-card-bg-others: rgba(50, 14, 59, 0.04);
+    /* Others (collapsed) card */
+    --disc-abbr-bg: rgba(50, 14, 59, 0.08);
+    /* Abbreviation badge bg  */
+    --disc-abbr-color: #320E3B;
+    /* Abbreviation badge text */
 
     /* Q/A block colours */
-    --qa-q-bg:     rgba(24, 95, 165, 0.07);
+    --qa-q-bg: rgba(24, 95, 165, 0.07);
     --qa-q-border: rgba(24, 95, 165, 0.25);
     --qa-tag-q-bg: #185FA5;
     --qa-tag-q-text: #FFFFFF;
@@ -1182,8 +1225,10 @@ h3 {
     --chart-bg: rgba(0, 0, 0, 0.15);
 
     /* Section bridge arrow */
-    --bridge-color: rgba(255, 255, 255, 0.4);   /* on dark bg */
-    --bridge-color-light: rgba(50, 14, 59, 0.4); /* on light bg */
+    --bridge-color: rgba(255, 255, 255, 0.4);
+    /* on dark bg */
+    --bridge-color-light: rgba(50, 14, 59, 0.4);
+    /* on light bg */
 }
 
 
@@ -1210,7 +1255,9 @@ body {
    3. TYPOGRAPHY
    ================================================================ */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--font-heading);
     color: var(--color-primary);
     font-weight: 600;
@@ -1238,6 +1285,7 @@ h1, h2, h3 {
     position: relative;
     display: inline-block;
 }
+
 /* Gold underline accent on section headings */
 .section-title::after {
     content: '';
@@ -1301,11 +1349,18 @@ h1, h2, h3 {
     gap: 4rem;
     align-items: center;
 }
+
 .two-column.reverse {
     flex-direction: row-reverse;
 }
-.text-column  { flex: 1; }
-.visual-column { flex: 1; }
+
+.text-column {
+    flex: 1;
+}
+
+.visual-column {
+    flex: 1;
+}
 
 /* -- Visual placeholder (image/chart containers) */
 .visual-placeholder {
@@ -1321,12 +1376,14 @@ h1, h2, h3 {
     overflow: hidden;
     position: relative;
 }
+
 .demo-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
+
 .visual-placeholder:hover .demo-image {
     transform: scale(1.05);
 }
@@ -1336,13 +1393,29 @@ h1, h2, h3 {
     background-color: var(--color-bg-dark);
     color: var(--color-text-light);
 }
+
 .dark-section h1,
 .dark-section h2,
-.dark-section h3 { color: var(--color-text-light); }
-.dark-section .text          { color: rgba(255, 255, 255, 0.9); }
-.dark-section .text-sm       { color: rgba(255, 255, 255, 0.75); }
-.dark-section .highlight     { color: var(--color-accent); border-color: var(--color-accent); }
-.dark-section .section-title::after { background-color: var(--color-accent); }
+.dark-section h3 {
+    color: var(--color-text-light);
+}
+
+.dark-section .text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.dark-section .text-sm {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.dark-section .highlight {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.dark-section .section-title::after {
+    background-color: var(--color-accent);
+}
 
 
 /* ================================================================
@@ -1360,6 +1433,7 @@ h1, h2, h3 {
     border-bottom: 1px solid rgba(50, 14, 59, 0.1);
     transition: all 0.3s ease;
 }
+
 .nav-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -1368,6 +1442,7 @@ h1, h2, h3 {
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-logo {
     font-family: var(--font-heading);
     font-size: 1.6rem;
@@ -1379,9 +1454,24 @@ h1, h2, h3 {
     gap: 0.75rem;
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
-.nav-logo:hover { transform: translateY(-1px); opacity: 0.95; }
-.logo-img       { height: 60px; width: auto; object-fit: contain; }
-.nav-links      { display: flex; list-style: none; gap: 2rem; }
+
+.nav-logo:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
 .nav-links a {
     text-decoration: none;
     color: var(--color-text-light);
@@ -1391,7 +1481,10 @@ h1, h2, h3 {
     letter-spacing: 1px;
     transition: color 0.3s ease;
 }
-.nav-links a:hover { color: var(--color-accent); }
+
+.nav-links a:hover {
+    color: var(--color-accent);
+}
 
 
 /* ================================================================
@@ -1403,13 +1496,17 @@ h1, h2, h3 {
     overflow: hidden;
     background-color: var(--color-bg-dark);
 }
+
 .hero-bg {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 1;
     opacity: 0.8;
 }
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -1424,9 +1521,24 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: flex-start;
 }
-.hero-content .title    { color: var(--color-text-light); max-width: 600px; width: 100%; }
-.hero-content .subtitle { color: rgba(255,255,255,0.8); max-width: 600px; width: 100%; }
-.hero-content .scroll-indicator { pointer-events: auto; max-width: 600px; width: 100%; }
+
+.hero-content .title {
+    color: var(--color-text-light);
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-content .subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-content .scroll-indicator {
+    pointer-events: auto;
+    max-width: 600px;
+    width: 100%;
+}
 
 
 /* ================================================================
@@ -1443,24 +1555,37 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 .mouse {
-    width: 30px; height: 50px;
+    width: 30px;
+    height: 50px;
     border: 2px solid var(--color-bg-light);
     border-radius: 15px;
     position: relative;
 }
+
 .wheel {
-    width: 4px; height: 8px;
+    width: 4px;
+    height: 8px;
     background-color: var(--color-accent);
     border-radius: 2px;
     position: absolute;
-    top: 10px; left: 50%;
+    top: 10px;
+    left: 50%;
     transform: translateX(-50%);
     animation: scroll 1.5s infinite;
 }
+
 @keyframes scroll {
-    0%   { top: 10px; opacity: 1; }
-    100% { top: 25px; opacity: 0; }
+    0% {
+        top: 10px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 25px;
+        opacity: 0;
+    }
 }
 
 #progress-bar {
@@ -1483,13 +1608,17 @@ h1, h2, h3 {
     opacity: 0;
     transition: opacity 1.5s ease;
 }
-.fade-in.visible { opacity: 1; }
+
+.fade-in.visible {
+    opacity: 1;
+}
 
 .slide-up {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease, transform 1s ease;
 }
+
 .slide-up.visible {
     opacity: 1;
     transform: translateY(0);
@@ -1511,11 +1640,13 @@ h1, h2, h3 {
     cursor: pointer;
     font-family: var(--font-body);
 }
+
 .primary-btn {
     background-color: var(--color-primary);
     color: var(--color-text-light);
     border: 2px solid var(--color-primary);
 }
+
 .primary-btn:hover {
     background-color: var(--color-accent);
     border-color: var(--color-accent);
@@ -1536,15 +1667,18 @@ h1, h2, h3 {
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
 }
-.footer p { margin-bottom: 0.5rem; }
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
 
 
 /* ================================================================
    11. §A — LOC CLASSIFICATION PILLS
    ================================================================ */
 
-/* -- RQ2 section label (small eyebrow above section title) ------- */
-.rq2-label {
+/* -- RQ section label (small eyebrow above section title) ------- */
+.rq-label {
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -1658,7 +1792,10 @@ h1, h2, h3 {
     text-decoration: none;
     font-size: 0.7rem;
 }
-.disc-footnote-link:hover { text-decoration: underline; }
+
+.disc-footnote-link:hover {
+    text-decoration: underline;
+}
 
 /* -- Footnote text at the bottom --------------------------------- */
 .disc-footnote {
@@ -1667,8 +1804,14 @@ h1, h2, h3 {
     margin-top: 1.2rem;
     line-height: 1.5;
 }
-.disc-footnote a { color: var(--color-accent); }
-.disc-footnote a:hover { text-decoration: underline; }
+
+.disc-footnote a {
+    color: var(--color-accent);
+}
+
+.disc-footnote a:hover {
+    text-decoration: underline;
+}
 
 /* -- Section bridge (transition text + bouncing arrow) ----------- */
 .section-bridge {
@@ -1676,13 +1819,17 @@ h1, h2, h3 {
     text-align: center;
     color: var(--bridge-color-light);
 }
+
 .section-bridge p {
     font-size: 1rem;
     /* font-style: italic; */
     margin-bottom: 0.5rem;
     color: inherit;
 }
-.section-bridge--dark { color: var(--bridge-color); }
+
+.section-bridge--dark {
+    color: var(--bridge-color);
+}
 
 .bridge-arrow {
     display: block;
@@ -1690,9 +1837,17 @@ h1, h2, h3 {
     animation: bounce 1.8s infinite;
     color: var(--color-accent);
 }
+
 @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50%       { transform: translateY(6px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(6px);
+    }
 }
 
 
@@ -1732,7 +1887,8 @@ h1, h2, h3 {
 
 /* -- Left text column -------------------------------------------- */
 .landscape-text {
-    flex: 0 0 360px;          /* fixed width; adjust px to widen/narrow text column */
+    flex: 0 0 360px;
+    /* fixed width; adjust px to widen/narrow text column */
     min-width: 0;
 }
 
@@ -1751,7 +1907,8 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.6rem;
-    min-height: 1.2em; /* prevents layout shift when text changes */
+    min-height: 1.2em;
+    /* prevents layout shift when text changes */
 }
 
 /* -- Chart controls row ----------------------------------------- */
@@ -1794,10 +1951,12 @@ h1, h2, h3 {
     cursor: pointer;
     transition: all 0.2s ease;
 }
+
 .inst-btn:hover {
     color: var(--color-text-light);
     border-color: rgba(255, 255, 255, 0.45);
 }
+
 /* Active / selected state — edit accent colour here */
 .inst-btn.active {
     background: var(--color-accent);
@@ -1819,6 +1978,7 @@ h1, h2, h3 {
 .chart-header {
     margin-bottom: 0.5rem;
 }
+
 .chart-header-detail {
     display: flex;
     align-items: center;
@@ -1842,6 +2002,7 @@ h1, h2, h3 {
     transition: all 0.2s ease;
     white-space: nowrap;
 }
+
 .chart-back-btn:hover {
     background: rgba(183, 153, 13, 0.12);
     border-color: var(--color-accent);
@@ -1885,13 +2046,15 @@ h1, h2, h3 {
 
 /* -- Stacked bar canvas (top, always 1 thin bar + legend) ------- */
 #landscape-chart-stacked {
-    height: 160px;   /* 1 bar only — increase if legend wraps to more rows */
+    height: 160px;
+    /* 1 bar only — increase if legend wraps to more rows */
     width: 100%;
 }
 
 /* -- Grouped bar canvas (bottom) -------------------------------- */
 #landscape-chart-grouped {
-    height: 420px;   /* GROUPED CHART HEIGHT — increase if bars feel cramped */
+    height: 420px;
+    /* GROUPED CHART HEIGHT — increase if bars feel cramped */
     width: 100%;
 }
 
@@ -1912,6 +2075,7 @@ h1, h2, h3 {
     flex-direction: column;
     gap: 0.55rem;
 }
+
 .inst-callouts li {
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.75);
@@ -1919,6 +2083,7 @@ h1, h2, h3 {
     border-left: 2px solid rgba(183, 153, 13, 0.45);
     line-height: 1.5;
 }
+
 .inst-callouts li strong {
     color: var(--color-accent);
     font-weight: 600;
@@ -1968,7 +2133,7 @@ h1, h2, h3 {
 .sankey-select-hint {
     font-size: 0.68rem;
     font-weight: 400;
-    color: rgba(255,255,255,0.3);
+    color: rgba(255, 255, 255, 0.3);
     letter-spacing: 0;
     text-transform: none;
 }
@@ -1977,9 +2142,9 @@ h1, h2, h3 {
 .sankey-select--multi {
     font-family: var(--font-body);
     font-size: 0.78rem;
-    background: rgba(255,255,255,0.07);
-    color: rgba(255,255,255,0.85);
-    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255, 255, 255, 0.07);
+    color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 6px;
     padding: 0.2rem 0;
     width: 100%;
@@ -1989,20 +2154,25 @@ h1, h2, h3 {
     /* Show all 12 disciplines */
     height: auto;
 }
+
 .sankey-select--multi option {
     padding: 4px 10px;
     background: #2A0C32;
-    color: rgba(255,255,255,0.85);
+    color: rgba(255, 255, 255, 0.85);
 }
+
 .sankey-select--multi option:checked {
     background: var(--color-accent);
     color: #1a1a1a;
 }
-.sankey-select--multi:focus { border-color: var(--color-accent); }
+
+.sankey-select--multi:focus {
+    border-color: var(--color-accent);
+}
 
 /* Chart wrapper — white semi-transparent background */
 .sankey-chart-wrapper {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 0.75rem;
     margin-top: 0.5rem;
@@ -2017,8 +2187,13 @@ h1, h2, h3 {
 
 /* Responsive */
 @media (max-width: 900px) {
-    .sankey-disc-row { grid-template-columns: 1fr; }
-    #sankey-chart { height: 380px; }
+    .sankey-disc-row {
+        grid-template-columns: 1fr;
+    }
+
+    #sankey-chart {
+        height: 380px;
+    }
 }
 
 
@@ -2032,28 +2207,71 @@ h1, h2, h3 {
     align-items: flex-start;
     margin-top: 1.5rem;
 }
-.sunburst-text      { flex: 0 0 300px; min-width: 0; }
-.sunburst-chart-col { flex: 1; min-width: 0; }
+
+.sunburst-text {
+    flex: 0 0 300px;
+    min-width: 0;
+}
+
+.sunburst-chart-col {
+    flex: 1;
+    min-width: 0;
+}
 
 /* SUNBURST CHART HEIGHT — square looks best */
-#sunburst-chart { width: 100%; height: 500px; }
+#sunburst-chart {
+    width: 100%;
+    height: 500px;
+}
 
 /* Info panel */
 .sunburst-info {
     margin-top: 1.5rem;
     padding: 1rem 1.1rem;
-    border: 1px solid rgba(50,14,59,0.12);
+    border: 1px solid rgba(50, 14, 59, 0.12);
     border-radius: 10px;
-    background: rgba(50,14,59,0.03);
+    background: rgba(50, 14, 59, 0.03);
     min-height: 80px;
 }
-.sunburst-info-hint  { font-size:0.82rem; color:#aaa; font-style:italic; line-height:1.5; }
-.sunburst-info-pair  { font-size:1rem; font-weight:600; color:var(--color-primary); margin-bottom:0.4rem; }
-.sunburst-info-citing { color:var(--color-primary); }
-.sunburst-info-arrow  { color:var(--color-accent); margin:0 0.2rem; }
-.sunburst-info-cited  { color:var(--color-primary); }
-.sunburst-info-stat  { font-size:0.85rem; color:#555; margin-bottom:0.25rem; line-height:1.5; }
-.sunburst-info-count { font-size:0.78rem; color:#999; }
+
+.sunburst-info-hint {
+    font-size: 0.82rem;
+    color: #aaa;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.sunburst-info-pair {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.4rem;
+}
+
+.sunburst-info-citing {
+    color: var(--color-primary);
+}
+
+.sunburst-info-arrow {
+    color: var(--color-accent);
+    margin: 0 0.2rem;
+}
+
+.sunburst-info-cited {
+    color: var(--color-primary);
+}
+
+.sunburst-info-stat {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+}
+
+.sunburst-info-count {
+    font-size: 0.78rem;
+    color: #999;
+}
 
 /* Button overrides for light background */
 .sunburst-inst-btn.active {
@@ -2061,10 +2279,11 @@ h1, h2, h3 {
     color: #fff !important;
     border-color: var(--color-primary) !important;
 }
+
 .sunburst-inst-btn:hover {
     color: var(--color-primary) !important;
     border-color: var(--color-primary) !important;
-    background: rgba(50,14,59,0.06) !important;
+    background: rgba(50, 14, 59, 0.06) !important;
 }
 
 
@@ -2076,14 +2295,26 @@ h1, h2, h3 {
 
     /* -- Layout resets ------------------------------------------ */
     .two-column,
-    .two-column.reverse { flex-direction: column; gap: 2rem; }
+    .two-column.reverse {
+        flex-direction: column;
+        gap: 2rem;
+    }
 
     /* -- Typography resets -------------------------------------- */
-    .title { font-size: 3rem; }
+    .title {
+        font-size: 3rem;
+    }
 
     /* -- Section spacing ---------------------------------------- */
-    .section           { padding: 6rem 0 4rem 0; min-height: auto; }
-    .hero              { padding-top: 8rem; }
+    .section {
+        padding: 6rem 0 4rem 0;
+        min-height: auto;
+    }
+
+    .hero {
+        padding-top: 8rem;
+    }
+
     .hero-content {
         align-items: center;
         text-align: center;
@@ -2091,28 +2322,70 @@ h1, h2, h3 {
         padding-right: 2rem;
         margin: 0 auto;
     }
+
     .hero-content .title,
-    .hero-content .subtitle { max-width: 100%; text-align: center; }
-    .hero-content .scroll-indicator { max-width: 100%; justify-content: center; }
+    .hero-content .subtitle {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-content .scroll-indicator {
+        max-width: 100%;
+        justify-content: center;
+    }
 
     /* -- §A: pills wrap naturally on mobile — no change needed -- */
-    .disc-row--extra    { flex-direction: column; gap: 0.75rem; }
-    .disc-pill-card     { max-width: 100%; }
+    .disc-row--extra {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .disc-pill-card {
+        max-width: 100%;
+    }
 
     /* -- §B: stack text above chart on mobile ------------------- */
-    .landscape-body     { flex-direction: column; gap: 2rem; }
-    .landscape-text     { flex: none; width: 100%; }
-    .landscape-answer-headline { font-size: 1.4rem; }
+    .landscape-body {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .landscape-text {
+        flex: none;
+        width: 100%;
+    }
+
+    .landscape-answer-headline {
+        font-size: 1.4rem;
+    }
 
     /* -- Chart controls: stack on mobile ------------------------ */
-    .chart-controls     { flex-direction: column; align-items: flex-start; }
+    .chart-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     /* -- Sunburst: stack on mobile ------------------------------ */
-    .sunburst-body   { flex-direction: column; gap: 2rem; }
-    .sunburst-text   { flex: none; width: 100%; }
-    #sunburst-chart  { height: 360px; }
+    .sunburst-body {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sunburst-text {
+        flex: none;
+        width: 100%;
+    }
+
+    #sunburst-chart {
+        height: 360px;
+    }
 
     /* -- Chart heights on mobile -------------------------------- */
-    #landscape-chart-stacked { height: 180px; }
-    #landscape-chart-grouped { height: 340px; }
+    #landscape-chart-stacked {
+        height: 180px;
+    }
+
+    #landscape-chart-grouped {
+        height: 340px;
+    }
 }

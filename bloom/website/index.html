@@ -93,7 +93,8 @@
             <!-- Research Question I: The Map of Italian Science -->
             <section class="section dark-section map-section slide-up question1">
                 <div class="content-wrapper">
-                    <h2 class="section-title">Research Question I: The Map of Italian Science</h2>
+                    <p class="rq-label">Research Question I</p>
+                    <h2 class="section-title">The Map of Italian Science</h2>
                     <div>
                         <div class="text-column">
                             <p class="text">
@@ -129,23 +130,27 @@
                             and between incoming and outgoing flows.
                         </p>
                     </div>
-                    <div class="vis-controls" id="controls">
-                        <label for="institution-select">Select Institution: </label>
-                        <select id="institution-select">
-                            <option value="unibo">UNIBO</option>
-                            <option value="unimi">UNIMI</option>
-                            <option value="unito">UNITO</option>
-                            <option value="unipd">UNIPD</option>
-                            <option value="sns">SNS</option>
-                            <option value="upo">UPO</option>
-                        </select>
+                    <div class="vis-controls" id="controls"
+                        style="flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+                        <div class="chart-controls">
+                            <span class="chart-control-label">Select Institution</span>
+                            <div class="inst-btn-group map-inst-btn-group">
+                                <button class="inst-btn map-inst-btn active" data-inst="unibo">UNIBO</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unimi">UNIMI</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unito">UNITO</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unipd">UNIPD</button>
+                                <button class="inst-btn map-inst-btn" data-inst="sns">SNS</button>
+                                <button class="inst-btn map-inst-btn" data-inst="upo">UPO</button>
+                            </div>
+                        </div>
 
-                        <label for="direction-select">Flow Direction: </label>
-                        <select id="direction-select">
-                            <!-- <option value="both">Both</option> -->
-                            <option value="incoming">Incoming</option>
-                            <option value="outgoing">Outgoing</option>
-                        </select>
+                        <div class="chart-controls">
+                            <span class="chart-control-label">Flow Direction</span>
+                            <div class="inst-btn-group map-dir-btn-group">
+                                <button class="inst-btn map-dir-btn active" data-dir="incoming">Incoming</button>
+                                <button class="inst-btn map-dir-btn" data-dir="outgoing">Outgoing</button>
+                            </div>
+                        </div>
                     </div>
                     <!-- Interactive Map -->
                     <div id="chartdiv"></div>
@@ -186,17 +191,35 @@
                         <div class="text-column">
                             <!-- <h2 class="section-title">The Shared Skeleton</h2> -->
                             <p class="text">
-                                Each bubble represents a country, sized by its average citation volume across all six
-                                institutions.
-                                Universal partners (present in all six institutions' top 12) are highlighted in gold,
-                                while
-                                others remain subtle.
+                                Each bubble is a country. <br> <span class="hand-drawn-underline">Size</span> reflects
+                                citation volume. Gold bubbles appear in
+                                every
+                                institution's top 12 — click to see which institutions share them.
                             </p>
+                            <p class="text">
+                                Below the top six, the shared skeleton begins to fracture.
+                                <br><span class="hand-drawn-circle">Japan</span> appears for the four large universities
+                                — but <strong>UPO</strong> replaces it with <span>India</span>, <strong>SNS</strong>
+                                with
+                                <span class="hand-drawn-circle">Russia</span>. <span class="hand-drawn-circle">South
+                                    Korea</span> and <span class="hand-drawn-circle">Türkiye</span> appear only for the
+                                two smallest institutions.
+                            </p>
+                            <div class="reminder-callout">
+                                <span class="reminder-icon">💡</span>
+                                <div class="reminder-content">
+                                    <strong>Keep in mind:</strong> UNIBO, UNIMI, UNIPD, and UNITO operate at five to ten
+                                    times the citation
+                                    volume of UPO and SNS. The meaningful comparison here is not the raw volume that
+                                    flows — but which
+                                    countries appear, and how balanced the exchange is.
+                                </div>
+                            </div>
                         </div>
                         <div class="visual-column large">
                             <div class="bubble-legend-wrapper">
                                 <div class="custom-legend">
-                                    <p class="legend-title">Hover over a country to see which institutions share it as a
+                                    <p class="legend-title">Click on a country to see which institutions share it as a
                                         top
                                         citation partner.</p>
                                     <div class="legend-items">
@@ -222,50 +245,37 @@
                 <div class="content-wrapper">
                     <div class="text-column center-content">
                         <p class="text highlight">
-                            The shared skeleton is real, but it masks three things worth paying attention to.
+                            The shared skeleton is real — but knowing which countries appear
+                            tells you nothing about whether the exchange is equal. <span class="hand-drawn-underline">It
+                                isn't.</span>
                         </p>
                     </div>
 
                     <div class="content-wrapper" style="margin-top: 5rem;">
-                    <div class="flow-aligned-container">
-                        
-                        <!-- United States Row -->
-                        <div class="flow-aligned-row">
-                            <div class="flow-aligned-visual">
-                                <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                    <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                    <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <polyline points="32,6 24,12 32,18" fill="none" stroke="var(--color-primary)"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
-                                </svg>
-                                <div class="flow-visual-desc" style="text-align: center; width: 100%;">(outgoing &gt;&gt; incoming)</div>
-                            </div>
-                            <div class="flow-aligned-text">
-                                <p class="text">
-                                    The relationship with the <span class="hand-drawn-circle">
-                                        <strong>United States</strong>
-                                    </span> is unbalanced.
-                                    Across all six institutions, Italian universities cite American
-                                    science far more than American science cites them back.
-                                </p>
-                            </div>
-                        </div>
+                        <div class="flow-aligned-container">
 
                             <!-- United States Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                        <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <polyline points="32,6 24,12 32,18" fill="none" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                    <div class="flow-badge flow-badge-out">Italy cites more</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <defs>
+                                            <marker id="arr-out" markerWidth="6" markerHeight="6" refX="5" refY="3"
+                                                orient="auto">
+                                                <path d="M0,0 L6,3 L0,6 Z" fill="#320E3B" />
+                                            </marker>
+                                        </defs>
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 23.5%</text>
+                                        <line x1="6" y1="22" x2="126" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="22" r="3" fill="#B7990D" />
+                                        <circle cx="126" cy="22" r="3" fill="#B7990D" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 29.6%</text>
+                                        <line x1="6" y1="46" x2="158" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" marker-end="url(#arr-out)" />
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(outgoing
-                                        &gt;&gt; incoming)</div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
@@ -281,25 +291,34 @@
                             <!-- China Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-red)" />
-                                        <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <polyline points="188,6 196,12 188,18" fill="none" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-red)" />
+                                    <div class="flow-badge flow-badge-in">China cites more</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <defs>
+                                            <marker id="arr-in" markerWidth="6" markerHeight="6" refX="1" refY="3"
+                                                orient="auto">
+                                                <path d="M6,0 L0,3 L6,6 Z" fill="#B7990D" />
+                                            </marker>
+                                        </defs>
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 7.2%</text>
+                                        <line x1="6" y1="22" x2="148" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" marker-end="url(#arr-in)" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 3.2%</text>
+                                        <line x1="6" y1="46" x2="66" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="46" r="3" fill="#320E3B" />
+                                        <circle cx="66" cy="46" r="3" fill="#320E3B" />
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(incoming
-                                        &gt;&gt; outgoing)</div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
                                         <span class="hand-drawn-circle"><strong>China</strong></span> inverts the
                                         pattern.
-                                        Chinese publications cite Italian
-                                        research more than Italian research cites Chinese publications back —
-                                        likely reflecting Western-centric citation practices and disciplinary
-                                        differences between the two scientific communities.
+                                        Chinese publications cite Italian research more than Italian research
+                                        cites Chinese publications back — likely reflecting Western-centric
+                                        citation practices and disciplinary differences between the two
+                                        scientific communities.
                                     </p>
                                 </div>
                             </div>
@@ -307,25 +326,28 @@
                             <!-- France Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                        <line x1="24" y1="12" x2="95" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <text x="110" y="18" font-family="var(--font-body)" font-size="20"
-                                            fill="var(--color-primary)" text-anchor="middle" font-weight="bold">≈</text>
-                                        <line x1="125" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                    <div class="flow-badge flow-badge-bal">Balanced</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 12.7%</text>
+                                        <line x1="6" y1="22" x2="138" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="22" r="3" fill="#B7990D" />
+                                        <circle cx="138" cy="22" r="3" fill="#B7990D" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 12.9%</text>
+                                        <line x1="6" y1="46" x2="139" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="46" r="3" fill="#320E3B" />
+                                        <circle cx="139" cy="46" r="3" fill="#320E3B" />
+                                        <text x="144" y="38" font-size="20" fill="#1a6e31"
+                                            font-family="var(--font-body)" font-weight="500">≈</text>
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(balanced)
-                                    </div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
                                         <span class="hand-drawn-circle"><strong>France</strong></span> is the exception:
-                                        a
-                                        genuinely balanced
-                                        partner.
+                                        a genuinely balanced partner.
                                         Citation flows in both directions are roughly equal across all six
                                         institutions — a sign of real bilateral collaboration, rooted in shared
                                         European research infrastructure.
@@ -344,22 +366,28 @@
                 <div class="content-wrapper">
                     <div>
                         <div class="text-column center-content">
-                            <p class="text highlight">Moving from countries to <span class="hand-drawn-underline">organizations</span> reveals a similar structural convergence: all six Italian institutions engage with the same core set of international partners.</p>
+                            <p class="text highlight">Moving from countries to <span
+                                    class="hand-drawn-underline">organizations</span> reveals a similar structural
+                                convergence: all six Italian institutions engage with the same core set of international
+                                partners.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Sankey Row -->
-                <div style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
-                    
+                <div
+                    style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
+
                     <!-- Buttons in top right -->
                     <div style="grid-column: 2; grid-row: 1; display: flex; justify-content: center;">
                         <div class="org-view-toggle" id="org-controls" style="margin: 0;">
-                            <button class="org-view-btn active" id="org-btn-sankey" data-view="sankey" aria-pressed="true">
+                            <button class="org-view-btn active" id="org-btn-sankey" data-view="sankey"
+                                aria-pressed="true">
                                 <span class="org-btn-icon">⇄</span>
                                 <span class="org-btn-label">Italy included</span>
                             </button>
-                            <button class="org-view-btn" id="org-btn-sankey-no-italy" data-view="sankey-no-italy" aria-pressed="false">
+                            <button class="org-view-btn" id="org-btn-sankey-no-italy" data-view="sankey-no-italy"
+                                aria-pressed="false">
                                 <span class="org-btn-icon">⇄</span>
                                 <span class="org-btn-label">Italy excluded</span>
                             </button>
@@ -368,30 +396,42 @@
 
                     <!-- Text in bottom left -->
                     <div style="grid-column: 1; grid-row: 2;">
-                        <p class="text"><span class="hand-drawn-circle">CNRS</span> stands out as the single organization with the highest citation volume across all six institutions — and uniquely, its bubble sits almost exactly on the diagonal line of perfect symmetry, meaning Italian universities cite it as much as it cites them.</p>
+                        <p class="text"><span class="hand-drawn-circle">CNRS</span> stands out as the single
+                            organization with the highest citation volume across all six institutions — and uniquely,
+                            its bubble sits almost exactly on the diagonal line of perfect symmetry, meaning Italian
+                            universities cite it as much as it cites them.</p>
                     </div>
 
                     <!-- Diagram Box in bottom right -->
                     <div style="grid-column: 2; grid-row: 2; position: relative; width: 100%; height: 740px;">
-                        <div id="sankey-chartdiv" style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light);"></div>
+                        <div id="sankey-chartdiv"
+                            style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light);">
+                        </div>
                         <!-- Legend overlaid inside the box at the top center -->
-                        <div id="sankey-legend" style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: var(--font-body, 'Inter', sans-serif); color: var(--color-text-dark, #1A1A1A); font-size: 0.80rem; pointer-events: none;">
-                            <span>Incoming (Left) &nbsp;→&nbsp; Italian Institutions (Center) &nbsp;→&nbsp; Outgoing (Right)</span>
+                        <div id="sankey-legend"
+                            style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: var(--font-body, 'Inter', sans-serif); color: var(--color-text-dark, #1A1A1A); font-size: 0.80rem; pointer-events: none;">
+                            <span>Incoming (Left) &nbsp;→&nbsp; Italian Institutions (Center) &nbsp;→&nbsp; Outgoing
+                                (Right)</span>
                         </div>
                     </div>
 
                 </div>
-                
+
                 <!-- scatter plot -->
-                <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: 2rem; padding-right: max(2rem, calc((100vw - 1200px) / 2));">
+                <div
+                    style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: 2rem; padding-right: max(2rem, calc((100vw - 1200px) / 2));">
                     <div>
-                        <div id="scatter-chartdiv" style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
-                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...</div>
+                        <div id="scatter-chartdiv"
+                            style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
+                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...
+                            </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 style="font-family: var(--font-heading); color: var(--color-primary); font-size: 1.5rem; margin-bottom: 1rem;">Reciprocity</h3>
+                        <h3
+                            style="font-family: var(--font-heading); color: var(--color-primary); font-size: 1.5rem; margin-bottom: 1rem;">
+                            Reciprocity</h3>
                         <p class="text">analysis</p>
                     </div>
                 </div>
@@ -430,7 +470,7 @@
 
 
         </div> <!-- End of RQ1 -->
-<!-- ============================================================
+        <!-- ============================================================
              ██████╗  ██████╗ ██████╗
              ██╔══██╗██╔═══██╗╚════██╗
              ██████╔╝██║   ██║ █████╔╝
@@ -448,8 +488,8 @@
         <section id="rq2" class="section rq2-intro-section slide-up">
             <div class="content-wrapper">
 
-                <!-- RQ2 SECTION LABEL — edit label text here -->
-                <p class="rq2-label">Research Question II</p>
+                <!-- RQ SECTION LABEL — edit label text here -->
+                <p class="rq-label">Research Question II</p>
 
                 <!-- SECTION TITLE — edit here -->
                 <h2 class="section-title">Disciplinary Flows</h2>
@@ -481,7 +521,7 @@
                     <!-- SUBSECTION DESCRIPTION — edit here -->
                     <p class="disc-group-desc">
                         Disciplines are based on the <strong>Library of Congress (LOC) Main Classifications</strong>,
-                        a broad internationally recognized scheme. 
+                        a broad internationally recognized scheme.
                     </p>
 
                     <!-- LOC Main pill row — edit pill labels here -->
@@ -519,7 +559,8 @@
                             <span class="disc-pill disc-pill--extra">Multidisciplinary</span>
                             <!-- MINI CARD DESCRIPTION — edit here -->
                             <span class="disc-pill-card-desc">
-                                Records that were categorized as "Multidisciplinary" in the original dataset, without a more specific LOC classification. 
+                                Records that were categorized as "Multidisciplinary" in the original dataset, without a
+                                more specific LOC classification.
                             </span>
                         </div>
 
@@ -528,8 +569,10 @@
                             <span class="disc-pill disc-pill--extra">Others</span>
                             <!-- MINI CARD DESCRIPTION — edit abbreviations here -->
                             <span class="disc-pill-card-desc">
-                                Records that could not be mapped to any LOC category, or disciplines with very few records, including:
-                                <em>Fine Arts · Law · Bibliography/Library Science · Auxiliary Sciences of History · Music · General Works · Naval Science</em>
+                                Records that could not be mapped to any LOC category, or disciplines with very few
+                                records, including:
+                                <em>Fine Arts · Law · Bibliography/Library Science · Auxiliary Sciences of History ·
+                                    Music · General Works · Naval Science</em>
                             </span>
                         </div>
 
@@ -573,7 +616,7 @@
                 <!-- ANSWER HEADLINE — the punchy one-liner answer -->
                 <!-- ANSWER HEADLINE TEXT — edit here -->
                 <p class="landscape-answer-headline">
-                    Science and Medicine account for over 60% of all citation activity, 
+                    Science and Medicine account for over 60% of all citation activity,
                     but every institution tells a different story.
                 </p>
 
@@ -594,11 +637,16 @@
 
                         <!-- INSTITUTION CALLOUT LIST — edit labels and descriptions here -->
                         <ul class="inst-callouts">
-                            <li><strong>UNIMI</strong> : Medicine-heavy. Medicine leads both citing and cited, with the largest gap between the top two disciplines and the rest of any institution.</li>
-                            <li><strong>SNS</strong> : Science-dominant. Science alone accounts for ~50% of citing and ~56% of cited activity. Medicine is a distant second.</li>
-                            <li><strong>UPO</strong> : Science and Medicine equally dominant, making UPO the most concentrated Science–Medicine institution overall.</li>
-                            <li><strong>UNITO</strong> : Shifts toward Medicine on the cited side, with Agriculture as a notable secondary discipline.</li>
-                            <li><strong>UNIBO &amp; UNIPD</strong> : Science-led but the most broadly distributed, with visible contributions from Technology, Geography, and Social Sciences.</li>
+                            <li><strong>UNIMI</strong> : Medicine-heavy. Medicine leads both citing and cited, with the
+                                largest gap between the top two disciplines and the rest of any institution.</li>
+                            <li><strong>SNS</strong> : Science-dominant. Science alone accounts for ~50% of citing and
+                                ~56% of cited activity. Medicine is a distant second.</li>
+                            <li><strong>UPO</strong> : Science and Medicine equally dominant, making UPO the most
+                                concentrated Science–Medicine institution overall.</li>
+                            <li><strong>UNITO</strong> : Shifts toward Medicine on the cited side, with Agriculture as a
+                                notable secondary discipline.</li>
+                            <li><strong>UNIBO &amp; UNIPD</strong> : Science-led but the most broadly distributed, with
+                                visible contributions from Technology, Geography, and Social Sciences.</li>
                         </ul>
 
                     </div><!-- /landscape-text -->
@@ -612,13 +660,13 @@
                         <div class="chart-controls">
                             <span class="chart-control-label">View by institution</span>
                             <div class="inst-btn-group">
-                                <button class="inst-btn active" data-inst="ALL">All</button>
-                                <button class="inst-btn" data-inst="UNIBO">UNIBO</button>
-                                <button class="inst-btn" data-inst="UNIMI">UNIMI</button>
-                                <button class="inst-btn" data-inst="UNIPD">UNIPD</button>
-                                <button class="inst-btn" data-inst="UNITO">UNITO</button>
-                                <button class="inst-btn" data-inst="UPO">UPO</button>
-                                <button class="inst-btn" data-inst="SNS">SNS</button>
+                                <button class="inst-btn landscape-inst-btn active" data-inst="ALL">All</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIBO">UNIBO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNITO">UNITO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UPO">UPO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="SNS">SNS</button>
                             </div>
                         </div>
 
@@ -643,7 +691,8 @@
 
                 <!-- TRANSITION TEXT — edit here -->
                 <div class="section-bridge section-bridge--dark">
-                    <p>These counts show <em>which</em> disciplines appear. Next, we trace the flows: <em>who cites whom</em>. </p>
+                    <p>These counts show <em>which</em> disciplines appear. Next, we trace the flows: <em>who cites
+                            whom</em>. </p>
                     <!-- <span class="bridge-arrow">↓</span> -->
                 </div>
 
@@ -665,7 +714,8 @@
 
                 <!-- ANSWER HEADLINE — edit here -->
                 <p class="landscape-answer-headline" style="color: var(--color-primary)">
-                    Large disciplines are self-contained.<br>Smaller ones tend to be evenly distributed while orbiting Science and Medicine.
+                    Large disciplines are self-contained.<br>Smaller ones tend to be evenly distributed while orbiting
+                    Science and Medicine.
                 </p>
 
                 <div class="sunburst-body">
@@ -675,7 +725,8 @@
 
                         <!-- EXPLANATION — edit here -->
                         <p class="landscape-explanation" style="color: #444">
-                            Each segment shows the share of a discipline that is <em>citing</em> the selected institution.
+                            Each segment shows the share of a discipline that is <em>citing</em> the selected
+                            institution.
                             Click any segment to drill down, and it will become the inner ring.
                             The outer ring reveals what disciplines are the works they cite.
                             Click the center to reset.
@@ -686,19 +737,34 @@
                             <span class="chart-control-label" style="color:#666">Institution</span>
                             <div class="inst-btn-group">
                                 <!-- data-sunburst values must match keys in SUNBURST_DATA in script.js -->
-                                <button class="inst-btn sunburst-inst-btn active" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="ALL">All</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIBO">UNIBO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIMI">UNIMI</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIPD">UNIPD</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNITO">UNITO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UPO">UPO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="SNS">SNS</button>
+                                <button class="inst-btn sunburst-inst-btn active"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="ALL">All</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIBO">UNIBO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIMI">UNIMI</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIPD">UNIPD</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNITO">UNITO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UPO">UPO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="SNS">SNS</button>
                             </div>
                         </div>
 
                         <!-- SELECTED DISCIPLINE INFO — filled by JS on click -->
                         <div class="sunburst-info" id="sunburst-info">
-                            <p class="sunburst-info-hint">Click an inner segment to explore a discipline's citation flows.</p>
+                            <p class="sunburst-info-hint">Click an inner segment to explore a discipline's citation
+                                flows.</p>
                         </div>
 
                     </div><!-- /sunburst-text -->
@@ -771,14 +837,18 @@
                     <!-- ROW 2: Citing + Cited discipline (same row, multiple select) -->
                     <div class="sankey-controls-row sankey-disc-row">
                         <div class="sankey-control-group">
-                            <span class="chart-control-label">Citing discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <span class="chart-control-label">Citing discipline <span
+                                    class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
                             <!-- multiple select: populated by JS -->
-                            <select class="sankey-select sankey-select--multi" id="sankey-citing-filter" multiple size="5">
+                            <select class="sankey-select sankey-select--multi" id="sankey-citing-filter" multiple
+                                size="5">
                             </select>
                         </div>
                         <div class="sankey-control-group">
-                            <span class="chart-control-label">Cited discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
-                            <select class="sankey-select sankey-select--multi" id="sankey-cited-filter" multiple size="5">
+                            <span class="chart-control-label">Cited discipline <span
+                                    class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <select class="sankey-select sankey-select--multi" id="sankey-cited-filter" multiple
+                                size="5">
                             </select>
                         </div>
                     </div>

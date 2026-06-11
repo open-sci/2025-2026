@@ -1000,9 +1000,9 @@ document.addEventListener('DOMContentLoaded', function() {
     switchInstitution("ALL");
 
     /* Institution button clicks */
-    document.querySelectorAll('.inst-btn').forEach(function(btn) {
+    document.querySelectorAll('.landscape-inst-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
-            document.querySelectorAll('.inst-btn').forEach(function(b) {
+            document.querySelectorAll('.landscape-inst-btn').forEach(function(b) {
                 b.classList.remove('active');
             });
             this.classList.add('active');
