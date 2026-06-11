@@ -3,6 +3,7 @@
     /* Dark Purple */
     --color-accent: #B7990D;
     /* Gold */
+    --color-red: #6f1a07;
     --color-bg-light: #F8F9FA;
     --color-bg-dark: #2A0C32;
     /* Slightly darker shade of primary */
@@ -97,6 +98,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     padding: 6rem 0;
+    position: relative;
 }
 
 .two-column {
@@ -121,6 +123,10 @@ h3 {
 
 .visual-column {
     flex: 1;
+}
+
+.visual-column.large {
+    flex: 2;
 }
 
 .visual-placeholder {
@@ -848,5 +854,180 @@ h3 {
     .rq-btn.active,
     .rq-btn:hover {
         width: auto;
+    }
+}
+
+/* --- Discrete Section Connectors --- */
+.section-connector {
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.85;
+}
+
+.connector-line {
+    stroke-dasharray: 8 8;
+    animation: flow-down 1.5s linear infinite;
+}
+
+@keyframes flow-down {
+    from {
+        stroke-dashoffset: 16;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* --- Flow Visual Container (Index page) --- */
+.flow-visual-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    color: var(--color-primary);
+    background: transparent;
+    padding: 3.5rem 3rem;
+    justify-content: center;
+}
+
+.flow-visual-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flow-visual-country {
+    width: 140px;
+    font-weight: 600;
+}
+
+.flow-visual-svg {
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.flow-visual-desc {
+    width: 180px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* --- Hand-drawn Underline --- */
+.hand-drawn-underline {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.hand-drawn-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: -2%;
+    width: 0;
+    height: 16px;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 20'%3E%3Cpath d='M2 14 C 20 12, 80 16, 98 13' stroke='%23B7990D' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat left center;
+    background-size: 100% 100%;
+    z-index: -1;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slide-up.visible .hand-drawn-underline::after,
+.fade-in.visible .hand-drawn-underline::after,
+.hand-drawn-underline.visible::after {
+    width: 104%;
+    transition-delay: 0.5s;
+}
+
+/* --- Hand-drawn Circle --- */
+.hand-drawn-circle {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.hand-drawn-circle::after {
+    content: '';
+    position: absolute;
+    top: -15%;
+    left: -10%;
+    width: 120%;
+    height: 130%;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100'%3E%3Cpath d='M 45 8 C 75 2, 98 25, 95 50 C 92 75, 75 98, 50 95 C 25 92, 2 75, 5 50 C 8 25, 30 5, 60 8' stroke='%23B7990D' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: -1;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    transition: clip-path 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slide-up.visible .hand-drawn-circle::after,
+.fade-in.visible .hand-drawn-circle::after,
+.hand-drawn-circle.visible::after {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition-delay: 0.5s;
+}
+
+/* --- Flow Aligned Layout --- */
+.flow-aligned-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flow-aligned-row {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.flow-aligned-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.flow-aligned-visual {
+    flex: 0 0 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.flow-aligned-visual svg {
+    width: 100%;
+    max-width: 250px;
+    overflow: visible;
+}
+
+.flow-aligned-text {
+    flex: 1;
+}
+
+.flow-aligned-text .text {
+    margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+    .flow-aligned-row,
+    .flow-aligned-row:nth-child(even) {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .flow-aligned-visual {
+        flex: auto;
+        width: 100%;
     }
 }

@@ -291,3 +291,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// --- Discrete Section Connectors ---
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.section');
+    sections.forEach((sec, index) => {
+        // Skip the very last section (footer/credits usually)
+        if (index === sections.length - 1) return;
+        
+        // Also skip the hero section if we don't want an arrow pointing down from the map 
+        // (but hero usually already has a scroll indicator, so we skip it)
+        if (sec.classList.contains('hero')) return;
+
+        const arrowContainer = document.createElement('div');
+        arrowContainer.className = 'section-connector';
+        arrowContainer.innerHTML = `
+            <svg width="60" height="150" viewBox="0 0 60 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 30 0 C 30 35, 55 35, 55 65 C 55 95, 30 95, 30 130" stroke="var(--color-accent)" stroke-width="3" stroke-dasharray="8 8" class="connector-line" stroke-linecap="round" />
+                <path d="M 15 115 L 30 130 L 45 115" stroke="var(--color-accent)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        `;
+        sec.appendChild(arrowContainer);
+    });
+});

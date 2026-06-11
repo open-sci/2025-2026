@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Citation Flows in Italian Science</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
 
     <!-- amCharts 5 Resources -->
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
@@ -34,6 +36,8 @@
         </div>
     </nav>
     <div id="progress-bar"></div>
+
+
 
     <header class="section hero fade-in">
         <div id="hero-map" class="hero-bg"></div>
@@ -146,14 +150,15 @@
             </section>
 
 
-            <!-- country analysis -->
+            <!-- Country Analysis -->
             <section class="section slide-up question1">
                 <div class="content-wrapper">
                     <div>
                         <div class="text-column center-content">
                             <p class="text highlight">
-                                The first thing the data tells you is how similar the six institutions are. Regardless
-                                of size, location, or disciplinary focus,
+                                The first thing the data tells you is how <span
+                                    class="hand-drawn-underline">similar</span>
+                                the six institutions are. Regardless of size, location, or disciplinary focus,
                                 all six Italian universities draw from and contribute to the same core group of
                                 countries.
                             </p>
@@ -174,37 +179,130 @@
             <!-- Bubble Visualization -->
             <section id="bubble-viz" class="section bubble-viz slide-up">
                 <div class="content-wrapper">
-                    <h2 class="section-title" style="text-align: center;">The Shared Skeleton</h2>
-                    <div class="text-column center-content">
-                        <p class="text">
-                            Each bubble represents a country, sized by its average citation volume across all six
-                            institutions.
-                            Universal partners (present in all six institutions' top 12) are highlighted in gold, while
-                            others remain subtle.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="content-wrapper bubble-legend-wrapper">
-                    <div class="custom-legend">
-                        <p class="legend-title">Hover over a country to see which institutions share it as a top
-                            citation partner.</p>
-                        <div class="legend-items">
-                            <span class="legend-item">
-                                <span class="legend-dot universal"></span>
-                                Universal — all 6 institutions
-                            </span>
-                            <span class="legend-item">
-                                <span class="legend-dot partial"></span>
-                                Partial — some institutions
-                            </span>
+                    <div class="two-column">
+                        <div class="text-column">
+                            <!-- <h2 class="section-title">The Shared Skeleton</h2> -->
+                            <p class="text">
+                                Each bubble represents a country, sized by its average citation volume across all six
+                                institutions.
+                                Universal partners (present in all six institutions' top 12) are highlighted in gold,
+                                while
+                                others remain subtle.
+                            </p>
+                        </div>
+                        <div class="visual-column large">
+                            <div class="bubble-legend-wrapper">
+                                <div class="custom-legend">
+                                    <p class="legend-title">Hover over a country to see which institutions share it as a
+                                        top
+                                        citation partner.</p>
+                                    <div class="legend-items">
+                                        <span class="legend-item">
+                                            <span class="legend-dot universal"></span>
+                                            Universal — all 6 institutions
+                                        </span>
+                                        <span class="legend-item">
+                                            <span class="legend-dot partial"></span>
+                                            Partial — some institutions
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="bubble-chartdiv" style="width: 100%; height: 600px;">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="content-wrapper" style="margin-top: 2rem;">
-                    <div id="bubble-chartdiv" style="width: 100%; height: 700px;">
+            </section>
+
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div class="text-column center-content">
+                        <p class="text highlight">
+                            The shared skeleton is real, but it masks three things worth paying attention to.
+                        </p>
                     </div>
-                </div>
+
+                         <div class="content-wrapper" style="margin-top: 5rem;">
+                    <div class="flow-aligned-container">
+                        
+                        <!-- United States Row -->
+                        <div class="flow-aligned-row">
+                            <div class="flow-aligned-visual">
+                                <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
+                                    <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
+                                    <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <polyline points="32,6 24,12 32,18" fill="none" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                </svg>
+                                <div class="flow-visual-desc" style="text-align: center; width: 100%;">(outgoing &gt;&gt; incoming)</div>
+                            </div>
+                            <div class="flow-aligned-text">
+                                <p class="text">
+                                    The relationship with the <span class="hand-drawn-circle">
+                                        <strong>United States</strong>
+                                    </span> is unbalanced.
+                                    Across all six institutions, Italian universities cite American
+                                    science far more than American science cites them back.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- China Row -->
+                        <div class="flow-aligned-row">
+                            <div class="flow-aligned-visual">
+                                <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
+                                    <circle cx="12" cy="12" r="5" fill="var(--color-red)" />
+                                    <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <polyline points="188,6 196,12 188,18" fill="none" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="208" cy="12" r="5" fill="var(--color-red)" />
+                                </svg>
+                                <div class="flow-visual-desc" style="text-align: center; width: 100%;">(incoming &gt;&gt; outgoing)</div>
+                            </div>
+                            <div class="flow-aligned-text">
+                                <p class="text">
+                                    <span class="hand-drawn-circle"><strong>China</strong></span> inverts the pattern.
+                                    Chinese publications cite Italian
+                                    research more than Italian research cites Chinese publications back —
+                                    likely reflecting Western-centric citation practices and disciplinary
+                                    differences between the two scientific communities.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- France Row -->
+                        <div class="flow-aligned-row">
+                            <div class="flow-aligned-visual">
+                                <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
+                                    <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
+                                    <line x1="24" y1="12" x2="95" y2="12" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <text x="110" y="18" font-family="var(--font-body)" font-size="20"
+                                        fill="var(--color-primary)" text-anchor="middle" font-weight="bold">≈</text>
+                                    <line x1="125" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                </svg>
+                                <div class="flow-visual-desc" style="text-align: center; width: 100%;">(balanced)</div>
+                            </div>
+                            <div class="flow-aligned-text">
+                                <p class="text">
+                                    <span class="hand-drawn-circle"><strong>France</strong></span> is the exception: a
+                                    genuinely balanced
+                                    partner.
+                                    Citation flows in both directions are roughly equal across all six
+                                    institutions — a sign of real bilateral collaboration, rooted in shared
+                                    European research infrastructure.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>              </div>
             </section>
 
 

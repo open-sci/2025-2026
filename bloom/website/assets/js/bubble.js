@@ -38,6 +38,7 @@ am5.ready(function () {
                 topDepth: 1,
                 initialDepth: 1,
                 downDepth: 1,
+                // collapsedField: "collapsed",
                 valueField: "value",
                 categoryField: "name",
                 childDataField: "children",
@@ -101,7 +102,27 @@ am5.ready(function () {
         });
 
         series.data.setAll([globalBubbleData]);
-        console.log("[bubble] data set, calling appear()");
+
+        series.events.once("datavalidated", function () {
+            setTimeout(function () {
+                series.nodes.each(function (node) {
+                    var dataItem = node.dataItem;
+                    if (!dataItem) return;
+                    var depth = dataItem.get("depth");
+                    if (depth === 1) {
+                        // Force the node into collapsed state by toggling active
+                        node.set("active", false);
+                        var children = dataItem.get("children");
+                        if (children) {
+                            children.each(function (childDataItem) {
+                                childDataItem.get("node").hide();
+                            });
+                        }
+                    }
+                });
+            }, 300);
+        });
+
         series.appear(1000, 100);
     }
 
@@ -192,6 +213,7 @@ am5.ready(function () {
                     name: c.name,
                     value: c.value,
                     universal: c.universal,
+                    // collapsed: true, // collapse nodes after data load
                     details: c.universal ? `All 6 institutions` : `${c.inTop12Count} of 6 institutions`,
                     children: c.connectedInsts.map(inst => {
                         return { name: inst, value: c.instCounts[inst] };
@@ -200,7 +222,7 @@ am5.ready(function () {
             });
 
             globalBubbleData = {
-                name: "Root",
+                name: "Italian Science",
                 value: 0,
                 children: children
             };
