@@ -89,28 +89,41 @@
             <section class="section dark-section map-section slide-up question1">
                 <div class="content-wrapper">
                     <h2 class="section-title">Research Question I: The Map of Italian Science</h2>
-                    <div class="two-column">
+                    <div>
                         <div class="text-column">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                            <p class="text highlight">In this interactive map, you will be able to see the strongest
-                                connections and the most influential regional networks.</p>
-                        </div>
-                        <div class="visual-column">
-                            <div class="visual-placeholder" id="map-visualization">
-                                <img src="" alt="Map of Italian Science" class="demo-image">
-                                <!-- Visualizations will be injected here -->
-                            </div>
+                            <p class="text">
+                                Every scientific publication is a node in a global network — it cites and is cited,
+                                connecting researchers across institutions,
+                                disciplines, and borders. But which borders? And do all Italian universities connect to
+                                the world in the same way, or does each
+                                institution carry its own geographic signature?
+                            </p>
+                            <p class="text">
+                                The Map of Italian Science traces the citation flows of six major Italian research
+                                institutions — the University of Bologna,
+                                the University of Milan, the University of Padua, the University of Turin, the
+                                University of Eastern Piedmont, and the Scuola
+                                Normale Superiore — using open bibliographic data from OpenCitations. For each
+                                institution, we mapped both directions: which
+                                countries and organizations cite their research (incoming), and which countries and
+                                organizations they cite in return (outgoing).
+                            </p>
+                            <p class="text highlight">
+                                The result is a portrait of Italian science as a networked system — who it talks to, who
+                                talks back, and where the conversation
+                                is uneven.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="content-wrapper">
+                    <div>
+                        <p class="text">
+                            The map shows the top 40 citation partners for each institution, in both directions. Use the
+                            controls to switch between institutions
+                            and between incoming and outgoing flows.
+                        </p>
+                    </div>
                     <div class="vis-controls" id="controls">
                         <label for="institution-select">Select Institution: </label>
                         <select id="institution-select">
@@ -129,12 +142,72 @@
                             <option value="outgoing">Outgoing</option>
                         </select>
                     </div>
+                    <!-- Interactive Map -->
                     <div id="chartdiv"></div>
                 </div>
             </section>
 
 
             <!-- country analysis -->
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div>
+                        <div class="text-column center-content">
+                            <p class="text highlight">
+                                The first thing the data tells you is how similar the six institutions are. Regardless
+                                of size, location, or disciplinary focus,
+                                all six Italian universities draw from and contribute to the same core group of
+                                countries.
+                            </p>
+                            <p class="text">This is not a coincidence — it reflects the structure of global science
+                                itself, where a small number of countries
+                                concentrate the majority of research output, journal infrastructure, and citation
+                                activity.
+                            </p>
+                            <p class="text">Six countries appear in the top 12 citation partners of every institution,
+                                in both directions: the United States, France,
+                                the United Kingdom, Germany, China, and Spain.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bubble Visualization -->
+            <section id="bubble-viz" class="section bubble-viz slide-up">
+                <div class="content-wrapper">
+                    <h2 class="section-title" style="text-align: center;">The Shared Skeleton</h2>
+                    <div class="text-column center-content">
+                        <p class="text">
+                            Each bubble represents a country, sized by its average citation volume across all six
+                            institutions.
+                            Universal partners (present in all six institutions' top 12) are highlighted in gold, while
+                            others remain subtle.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-wrapper bubble-legend-wrapper">
+                    <div class="custom-legend">
+                        <p class="legend-title">Hover over a country to see which institutions share it as a top
+                            citation partner.</p>
+                        <div class="legend-items">
+                            <span class="legend-item">
+                                <span class="legend-dot universal"></span>
+                                Universal — all 6 institutions
+                            </span>
+                            <span class="legend-item">
+                                <span class="legend-dot partial"></span>
+                                Partial — some institutions
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrapper" style="margin-top: 2rem;">
+                    <div id="bubble-chartdiv" style="width: 100%; height: 700px;">
+                    </div>
+                </div>
+            </section>
 
 
             <!-- organization analysis -->
@@ -202,6 +275,8 @@
                     <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
                 </div>
             </section>
+
+
         </div> <!-- End of RQ1 -->
 
         <!-- Research question II: Disciplinary Flows -->
@@ -276,6 +351,7 @@
 
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/flow.js"></script>
@@ -286,6 +362,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/sankey.js"></script>
     <script src="assets/js/sunburst.js"></script>
+    <script src="assets/js/bubble.js"></script>
 
 
 </body>

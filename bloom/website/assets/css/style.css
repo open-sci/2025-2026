@@ -85,6 +85,7 @@ h3 {
 
 /* Layout */
 .content-wrapper {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -110,6 +111,12 @@ h3 {
 
 .text-column {
     flex: 1;
+}
+
+.center-content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .visual-column {
@@ -853,6 +860,52 @@ h3 {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Bubble Chart Custom Legend */
+.bubble-legend-wrapper {
+    margin-top: 2rem;
+}
+
+.custom-legend {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: var(--font-body, "Inter", sans-serif);
+    color: var(--color-text-dark, #1A1A1A);
+}
+
+.custom-legend .legend-title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.custom-legend .legend-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.custom-legend .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.custom-legend .legend-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.custom-legend .legend-dot.universal {
+    background-color: #B7990D;
+}
+
+.custom-legend .legend-dot.partial {
+    background-color: #4a3070;
 }
 
 @media (max-width: 900px) {
