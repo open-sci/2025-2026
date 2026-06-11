@@ -1,190 +1,179 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,186586,UPO,2021-2025,outgoing
-Italy,IT,147050,UPO,2021-2025,outgoing
-France,FR,126866,UPO,2021-2025,outgoing
-United Kingdom,GB,47636,UPO,2021-2025,outgoing
-India,IN,46524,UPO,2021-2025,outgoing
-China,CN,45742,UPO,2021-2025,outgoing
-Germany,DE,45447,UPO,2021-2025,outgoing
-South Korea,KR,37232,UPO,2021-2025,outgoing
-Spain,ES,30612,UPO,2021-2025,outgoing
-Türkiye,TR,28328,UPO,2021-2025,outgoing
-Poland,PL,21506,UPO,2021-2025,outgoing
-Russia,RU,21040,UPO,2021-2025,outgoing
-Brazil,BR,21025,UPO,2021-2025,outgoing
-Finland,FI,20354,UPO,2021-2025,outgoing
-Switzerland,CH,19269,UPO,2021-2025,outgoing
-Japan,JP,16397,UPO,2021-2025,outgoing
-Belgium,BE,13736,UPO,2021-2025,outgoing
-Greece,GR,13637,UPO,2021-2025,outgoing
-Mexico,MX,13496,UPO,2021-2025,outgoing
-Hungary,HU,12464,UPO,2021-2025,outgoing
-The Netherlands,NL,12429,UPO,2021-2025,outgoing
-Croatia,HR,10237,UPO,2021-2025,outgoing
-Czechia,CZ,9501,UPO,2021-2025,outgoing
-Norway,NO,8794,UPO,2021-2025,outgoing
-Canada,CA,8282,UPO,2021-2025,outgoing
-Taiwan,TW,8154,UPO,2021-2025,outgoing
-Australia,AU,7755,UPO,2021-2025,outgoing
-Slovakia,SK,7292,UPO,2021-2025,outgoing
-Austria,AT,6916,UPO,2021-2025,outgoing
-Bulgaria,BG,6135,UPO,2021-2025,outgoing
-South Africa,ZA,6120,UPO,2021-2025,outgoing
-Iran,IR,6061,UPO,2021-2025,outgoing
-Egypt,EG,6023,UPO,2021-2025,outgoing
-Denmark,DK,5986,UPO,2021-2025,outgoing
-Pakistan,PK,5757,UPO,2021-2025,outgoing
-Sweden,SE,5501,UPO,2021-2025,outgoing
-Romania,RO,5289,UPO,2021-2025,outgoing
-Ukraine,UA,4786,UPO,2021-2025,outgoing
-Colombia,CO,4409,UPO,2021-2025,outgoing
-Thailand,TH,4171,UPO,2021-2025,outgoing
-Portugal,PT,4004,UPO,2021-2025,outgoing
-Ecuador,EC,3908,UPO,2021-2025,outgoing
-Sri Lanka,LK,3894,UPO,2021-2025,outgoing
-Serbia,RS,3458,UPO,2021-2025,outgoing
-Ireland,IE,3285,UPO,2021-2025,outgoing
-New Zealand,NZ,3107,UPO,2021-2025,outgoing
-Armenia,AM,2779,UPO,2021-2025,outgoing
-Malaysia,MY,2610,UPO,2021-2025,outgoing
-Cyprus,CY,2571,UPO,2021-2025,outgoing
-Latvia,LV,2487,UPO,2021-2025,outgoing
-Georgia,GE,2341,UPO,2021-2025,outgoing
-Puerto Rico,PR,2320,UPO,2021-2025,outgoing
-Lithuania,LT,2078,UPO,2021-2025,outgoing
-Estonia,EE,2061,UPO,2021-2025,outgoing
-Israel,IL,1957,UPO,2021-2025,outgoing
-Indonesia,ID,1944,UPO,2021-2025,outgoing
-Montenegro,ME,1820,UPO,2021-2025,outgoing
-Kuwait,KW,1816,UPO,2021-2025,outgoing
-Azerbaijan,AZ,1759,UPO,2021-2025,outgoing
-Peru,PE,1747,UPO,2021-2025,outgoing
-Chile,CL,1726,UPO,2021-2025,outgoing
-Belarus,BY,1576,UPO,2021-2025,outgoing
-Cuba,CU,1548,UPO,2021-2025,outgoing
-China (People's Republic of),CN,1482,UPO,2021-2025,outgoing
-Hong Kong,HK,1400,UPO,2021-2025,outgoing
-Netherlands,NL,1372,UPO,2021-2025,outgoing
-Turkey,TR,1155,UPO,2021-2025,outgoing
-Singapore,SG,1131,UPO,2021-2025,outgoing
-Argentina,AR,1032,UPO,2021-2025,outgoing
-Qatar,QA,883,UPO,2021-2025,outgoing
-Saudi Arabia,SA,741,UPO,2021-2025,outgoing
-Slovenia,SI,634,UPO,2021-2025,outgoing
-Philippines,PH,548,UPO,2021-2025,outgoing
-Korea (Republic of),KR,487,UPO,2021-2025,outgoing
-Morocco,MA,444,UPO,2021-2025,outgoing
-United Arab Emirates,AE,387,UPO,2021-2025,outgoing
-Ethiopia,ET,283,UPO,2021-2025,outgoing
-Nigeria,NG,281,UPO,2021-2025,outgoing
-Tunisia,TN,277,UPO,2021-2025,outgoing
-Bangladesh,BD,241,UPO,2021-2025,outgoing
-Lebanon,LB,206,UPO,2021-2025,outgoing
-Vietnam,VN,204,UPO,2021-2025,outgoing
-Uzbekistan,UZ,170,UPO,2021-2025,outgoing
-Guatemala,GT,169,UPO,2021-2025,outgoing
-Czech Republic,CZ,156,UPO,2021-2025,outgoing
-Russian Federation,RU,147,UPO,2021-2025,outgoing
-Iraq,IQ,140,UPO,2021-2025,outgoing
-Iceland,IS,138,UPO,2021-2025,outgoing
-Luxembourg,LU,135,UPO,2021-2025,outgoing
-Palestine,PS,127,UPO,2021-2025,outgoing
-Ghana,GH,116,UPO,2021-2025,outgoing
-Jordan,JO,110,UPO,2021-2025,outgoing
-Iran (Islamic Republic of),IR,108,UPO,2021-2025,outgoing
-Mongolia,MN,91,UPO,2021-2025,outgoing
-Uruguay,UY,84,UPO,2021-2025,outgoing
-Kenya,KE,81,UPO,2021-2025,outgoing
-Uganda,UG,78,UPO,2021-2025,outgoing
-North Macedonia,MK,77,UPO,2021-2025,outgoing
-Macao,MO,61,UPO,2021-2025,outgoing
-Algeria,DZ,58,UPO,2021-2025,outgoing
-Bahrain,BH,57,UPO,2021-2025,outgoing
-Malta,MT,53,UPO,2021-2025,outgoing
-Kazakhstan,KZ,51,UPO,2021-2025,outgoing
-Nepal,NP,42,UPO,2021-2025,outgoing
-Antigua and Barbuda,AG,40,UPO,2021-2025,outgoing
-Zambia,ZM,38,UPO,2021-2025,outgoing
-Oman,OM,38,UPO,2021-2025,outgoing
-Yemen,YE,36,UPO,2021-2025,outgoing
-Cambodia,KH,34,UPO,2021-2025,outgoing
-Rwanda,RW,34,UPO,2021-2025,outgoing
-Cameroon,CM,33,UPO,2021-2025,outgoing
-Tanzania,TZ,32,UPO,2021-2025,outgoing
-Venezuela,VE,32,UPO,2021-2025,outgoing
-Zimbabwe,ZW,28,UPO,2021-2025,outgoing
-Panama,PA,28,UPO,2021-2025,outgoing
-Myanmar,MM,28,UPO,2021-2025,outgoing
-Bosnia and Herzegovina,BA,27,UPO,2021-2025,outgoing
-Gabon,GA,27,UPO,2021-2025,outgoing
-Jamaica,JM,26,UPO,2021-2025,outgoing
-Libya,LY,25,UPO,2021-2025,outgoing
-Sudan,SD,23,UPO,2021-2025,outgoing
-American Samoa,AS,23,UPO,2021-2025,outgoing
-Sierra Leone,SL,18,UPO,2021-2025,outgoing
-Moldova,MD,18,UPO,2021-2025,outgoing
-DR Congo,CD,17,UPO,2021-2025,outgoing
-Costa Rica,CR,16,UPO,2021-2025,outgoing
-Albania,AL,16,UPO,2021-2025,outgoing
-Grenada,GD,14,UPO,2021-2025,outgoing
-Somalia,SO,12,UPO,2021-2025,outgoing
-Guadeloupe,GP,12,UPO,2021-2025,outgoing
-Niger,NE,12,UPO,2021-2025,outgoing
-Afghanistan,AF,11,UPO,2021-2025,outgoing
-El Salvador,SV,11,UPO,2021-2025,outgoing
-Belize,BZ,11,UPO,2021-2025,outgoing
-Mozambique,MZ,10,UPO,2021-2025,outgoing
-Fiji,FJ,10,UPO,2021-2025,outgoing
-Benin,BJ,10,UPO,2021-2025,outgoing
-Paraguay,PY,8,UPO,2021-2025,outgoing
-Senegal,SN,8,UPO,2021-2025,outgoing
-Syria,SY,8,UPO,2021-2025,outgoing
-Brunei,BN,8,UPO,2021-2025,outgoing
-The Gambia,GM,8,UPO,2021-2025,outgoing
-Réunion,RE,8,UPO,2021-2025,outgoing
-Bhutan,BT,7,UPO,2021-2025,outgoing
-Kyrgyzstan,KG,7,UPO,2021-2025,outgoing
-Angola,AO,7,UPO,2021-2025,outgoing
-Dominican Republic,DO,7,UPO,2021-2025,outgoing
-Mauritius,MU,6,UPO,2021-2025,outgoing
-Namibia,,6,UPO,2021-2025,outgoing
-Trinidad and Tobago,TT,6,UPO,2021-2025,outgoing
-Malawi,MW,5,UPO,2021-2025,outgoing
-Laos,LA,5,UPO,2021-2025,outgoing
-Former Yugoslav Republic of Macedonia,MK,5,UPO,2021-2025,outgoing
-Curaçao,CW,5,UPO,2021-2025,outgoing
-Liechtenstein,LI,5,UPO,2021-2025,outgoing
-St Kitts and Nevis,KN,4,UPO,2021-2025,outgoing
-Bahamas,BS,4,UPO,2021-2025,outgoing
-Burkina Faso,BF,4,UPO,2021-2025,outgoing
-Congo Republic,CG,4,UPO,2021-2025,outgoing
-Bolivia,BO,3,UPO,2021-2025,outgoing
-Cabo Verde,CV,3,UPO,2021-2025,outgoing
-Botswana,BW,3,UPO,2021-2025,outgoing
-Sint Maarten,SX,3,UPO,2021-2025,outgoing
-Kosovo,XK,3,UPO,2021-2025,outgoing
-Palau,PW,2,UPO,2021-2025,outgoing
-Faroe Islands,FO,2,UPO,2021-2025,outgoing
-French Guiana,GF,2,UPO,2021-2025,outgoing
-Martinique,MQ,2,UPO,2021-2025,outgoing
-Andorra,AD,2,UPO,2021-2025,outgoing
-European Union,EU,2,UPO,2021-2025,outgoing
-Barbados,BB,2,UPO,2021-2025,outgoing
-Nicaragua,NI,2,UPO,2021-2025,outgoing
-Mali,ML,2,UPO,2021-2025,outgoing
-Seychelles,SC,2,UPO,2021-2025,outgoing
-Palestinian-administered areas,PS,2,UPO,2021-2025,outgoing
-Togo,TG,1,UPO,2021-2025,outgoing
-Honduras,HN,1,UPO,2021-2025,outgoing
-Tuvalu,TV,1,UPO,2021-2025,outgoing
-Burundi,BI,1,UPO,2021-2025,outgoing
-Monaco,MC,1,UPO,2021-2025,outgoing
-Central African Republic,CF,1,UPO,2021-2025,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,1,UPO,2021-2025,outgoing
-Haiti,HT,1,UPO,2021-2025,outgoing
-Madagascar,MG,1,UPO,2021-2025,outgoing
-Timor-Leste,TL,1,UPO,2021-2025,outgoing
-Ivory Coast,CI,1,UPO,2021-2025,outgoing
-Viet Nam,VN,1,UPO,2021-2025,outgoing
-Bermuda,BM,1,UPO,2021-2025,outgoing
-Greenland,GL,1,UPO,2021-2025,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AD,Andorra,2,UPO,2021-2025,outgoing
+AE,United Arab Emirates,387,UPO,2021-2025,outgoing
+AF,Afghanistan,11,UPO,2021-2025,outgoing
+AG,Antigua and Barbuda,40,UPO,2021-2025,outgoing
+AL,Albania,16,UPO,2021-2025,outgoing
+AM,Armenia,2779,UPO,2021-2025,outgoing
+AO,Angola,7,UPO,2021-2025,outgoing
+AR,Argentina,1032,UPO,2021-2025,outgoing
+AS,American Samoa,23,UPO,2021-2025,outgoing
+AT,Austria,6916,UPO,2021-2025,outgoing
+AU,Australia,7755,UPO,2021-2025,outgoing
+AZ,Azerbaijan,1759,UPO,2021-2025,outgoing
+BA,Bosnia and Herzegovina,27,UPO,2021-2025,outgoing
+BB,Barbados,2,UPO,2021-2025,outgoing
+BD,Bangladesh,241,UPO,2021-2025,outgoing
+BE,Belgium,13736,UPO,2021-2025,outgoing
+BF,Burkina Faso,4,UPO,2021-2025,outgoing
+BG,Bulgaria,6135,UPO,2021-2025,outgoing
+BH,Bahrain,57,UPO,2021-2025,outgoing
+BI,Burundi,1,UPO,2021-2025,outgoing
+BJ,Benin,10,UPO,2021-2025,outgoing
+BM,Bermuda,1,UPO,2021-2025,outgoing
+BN,Brunei,8,UPO,2021-2025,outgoing
+BO,Bolivia,3,UPO,2021-2025,outgoing
+BQ,"Bonaire, Sint Eustatius, and Saba",1,UPO,2021-2025,outgoing
+BR,Brazil,21025,UPO,2021-2025,outgoing
+BS,Bahamas,4,UPO,2021-2025,outgoing
+BT,Bhutan,7,UPO,2021-2025,outgoing
+BW,Botswana,3,UPO,2021-2025,outgoing
+BY,Belarus,1576,UPO,2021-2025,outgoing
+BZ,Belize,11,UPO,2021-2025,outgoing
+CA,Canada,8282,UPO,2021-2025,outgoing
+CD,DR Congo,17,UPO,2021-2025,outgoing
+CF,Central African Republic,1,UPO,2021-2025,outgoing
+CG,Congo Republic,4,UPO,2021-2025,outgoing
+CH,Switzerland,19269,UPO,2021-2025,outgoing
+CI,Ivory Coast,1,UPO,2021-2025,outgoing
+CL,Chile,1726,UPO,2021-2025,outgoing
+CM,Cameroon,33,UPO,2021-2025,outgoing
+CN,China,47224,UPO,2021-2025,outgoing
+CO,Colombia,4409,UPO,2021-2025,outgoing
+CR,Costa Rica,16,UPO,2021-2025,outgoing
+CU,Cuba,1548,UPO,2021-2025,outgoing
+CV,Cabo Verde,3,UPO,2021-2025,outgoing
+CW,Curaçao,5,UPO,2021-2025,outgoing
+CY,Cyprus,2571,UPO,2021-2025,outgoing
+CZ,Czechia,9657,UPO,2021-2025,outgoing
+DE,Germany,45447,UPO,2021-2025,outgoing
+DK,Denmark,5986,UPO,2021-2025,outgoing
+DO,Dominican Republic,7,UPO,2021-2025,outgoing
+DZ,Algeria,58,UPO,2021-2025,outgoing
+EC,Ecuador,3908,UPO,2021-2025,outgoing
+EE,Estonia,2061,UPO,2021-2025,outgoing
+EG,Egypt,6023,UPO,2021-2025,outgoing
+ES,Spain,30612,UPO,2021-2025,outgoing
+ET,Ethiopia,283,UPO,2021-2025,outgoing
+EU,European Union,2,UPO,2021-2025,outgoing
+FI,Finland,20354,UPO,2021-2025,outgoing
+FJ,Fiji,10,UPO,2021-2025,outgoing
+FO,Faroe Islands,2,UPO,2021-2025,outgoing
+FR,France,126866,UPO,2021-2025,outgoing
+GA,Gabon,27,UPO,2021-2025,outgoing
+GB,United Kingdom,47636,UPO,2021-2025,outgoing
+GD,Grenada,14,UPO,2021-2025,outgoing
+GE,Georgia,2341,UPO,2021-2025,outgoing
+GF,French Guiana,2,UPO,2021-2025,outgoing
+GH,Ghana,116,UPO,2021-2025,outgoing
+GL,Greenland,1,UPO,2021-2025,outgoing
+GM,The Gambia,8,UPO,2021-2025,outgoing
+GP,Guadeloupe,12,UPO,2021-2025,outgoing
+GR,Greece,13637,UPO,2021-2025,outgoing
+GT,Guatemala,169,UPO,2021-2025,outgoing
+HK,Hong Kong,1400,UPO,2021-2025,outgoing
+HN,Honduras,1,UPO,2021-2025,outgoing
+HR,Croatia,10237,UPO,2021-2025,outgoing
+HT,Haiti,1,UPO,2021-2025,outgoing
+HU,Hungary,12464,UPO,2021-2025,outgoing
+ID,Indonesia,1944,UPO,2021-2025,outgoing
+IE,Ireland,3285,UPO,2021-2025,outgoing
+IL,Israel,1957,UPO,2021-2025,outgoing
+IN,India,46524,UPO,2021-2025,outgoing
+IQ,Iraq,140,UPO,2021-2025,outgoing
+IR,Iran,6169,UPO,2021-2025,outgoing
+IS,Iceland,138,UPO,2021-2025,outgoing
+IT,Italy,147050,UPO,2021-2025,outgoing
+JM,Jamaica,26,UPO,2021-2025,outgoing
+JO,Jordan,110,UPO,2021-2025,outgoing
+JP,Japan,16397,UPO,2021-2025,outgoing
+KE,Kenya,81,UPO,2021-2025,outgoing
+KG,Kyrgyzstan,7,UPO,2021-2025,outgoing
+KH,Cambodia,34,UPO,2021-2025,outgoing
+KN,St Kitts and Nevis,4,UPO,2021-2025,outgoing
+KR,South Korea,37719,UPO,2021-2025,outgoing
+KW,Kuwait,1816,UPO,2021-2025,outgoing
+KZ,Kazakhstan,51,UPO,2021-2025,outgoing
+LA,Laos,5,UPO,2021-2025,outgoing
+LB,Lebanon,206,UPO,2021-2025,outgoing
+LI,Liechtenstein,5,UPO,2021-2025,outgoing
+LK,Sri Lanka,3894,UPO,2021-2025,outgoing
+LT,Lithuania,2078,UPO,2021-2025,outgoing
+LU,Luxembourg,135,UPO,2021-2025,outgoing
+LV,Latvia,2487,UPO,2021-2025,outgoing
+LY,Libya,25,UPO,2021-2025,outgoing
+MA,Morocco,444,UPO,2021-2025,outgoing
+MC,Monaco,1,UPO,2021-2025,outgoing
+MD,Moldova,18,UPO,2021-2025,outgoing
+ME,Montenegro,1820,UPO,2021-2025,outgoing
+MG,Madagascar,1,UPO,2021-2025,outgoing
+MK,North Macedonia,82,UPO,2021-2025,outgoing
+ML,Mali,2,UPO,2021-2025,outgoing
+MM,Myanmar,28,UPO,2021-2025,outgoing
+MN,Mongolia,91,UPO,2021-2025,outgoing
+MO,Macao,61,UPO,2021-2025,outgoing
+MQ,Martinique,2,UPO,2021-2025,outgoing
+MT,Malta,53,UPO,2021-2025,outgoing
+MU,Mauritius,6,UPO,2021-2025,outgoing
+MW,Malawi,5,UPO,2021-2025,outgoing
+MX,Mexico,13496,UPO,2021-2025,outgoing
+MY,Malaysia,2610,UPO,2021-2025,outgoing
+MZ,Mozambique,10,UPO,2021-2025,outgoing
+NE,Niger,12,UPO,2021-2025,outgoing
+NG,Nigeria,281,UPO,2021-2025,outgoing
+NI,Nicaragua,2,UPO,2021-2025,outgoing
+NL,The Netherlands,13801,UPO,2021-2025,outgoing
+NO,Norway,8794,UPO,2021-2025,outgoing
+NP,Nepal,42,UPO,2021-2025,outgoing
+NZ,New Zealand,3107,UPO,2021-2025,outgoing
+OM,Oman,38,UPO,2021-2025,outgoing
+PA,Panama,28,UPO,2021-2025,outgoing
+PE,Peru,1747,UPO,2021-2025,outgoing
+PH,Philippines,548,UPO,2021-2025,outgoing
+PK,Pakistan,5757,UPO,2021-2025,outgoing
+PL,Poland,21506,UPO,2021-2025,outgoing
+PR,Puerto Rico,2320,UPO,2021-2025,outgoing
+PS,Palestine,129,UPO,2021-2025,outgoing
+PT,Portugal,4004,UPO,2021-2025,outgoing
+PW,Palau,2,UPO,2021-2025,outgoing
+PY,Paraguay,8,UPO,2021-2025,outgoing
+QA,Qatar,883,UPO,2021-2025,outgoing
+RE,Réunion,8,UPO,2021-2025,outgoing
+RO,Romania,5289,UPO,2021-2025,outgoing
+RS,Serbia,3458,UPO,2021-2025,outgoing
+RU,Russia,21187,UPO,2021-2025,outgoing
+RW,Rwanda,34,UPO,2021-2025,outgoing
+SA,Saudi Arabia,741,UPO,2021-2025,outgoing
+SC,Seychelles,2,UPO,2021-2025,outgoing
+SD,Sudan,23,UPO,2021-2025,outgoing
+SE,Sweden,5501,UPO,2021-2025,outgoing
+SG,Singapore,1131,UPO,2021-2025,outgoing
+SI,Slovenia,634,UPO,2021-2025,outgoing
+SK,Slovakia,7292,UPO,2021-2025,outgoing
+SL,Sierra Leone,18,UPO,2021-2025,outgoing
+SN,Senegal,8,UPO,2021-2025,outgoing
+SO,Somalia,12,UPO,2021-2025,outgoing
+SV,El Salvador,11,UPO,2021-2025,outgoing
+SX,Sint Maarten,3,UPO,2021-2025,outgoing
+SY,Syria,8,UPO,2021-2025,outgoing
+TG,Togo,1,UPO,2021-2025,outgoing
+TH,Thailand,4171,UPO,2021-2025,outgoing
+TL,Timor-Leste,1,UPO,2021-2025,outgoing
+TN,Tunisia,277,UPO,2021-2025,outgoing
+TR,Turkey,29483,UPO,2021-2025,outgoing
+TT,Trinidad and Tobago,6,UPO,2021-2025,outgoing
+TV,Tuvalu,1,UPO,2021-2025,outgoing
+TW,Taiwan,8154,UPO,2021-2025,outgoing
+TZ,Tanzania,32,UPO,2021-2025,outgoing
+UA,Ukraine,4786,UPO,2021-2025,outgoing
+UG,Uganda,78,UPO,2021-2025,outgoing
+US,United States,186586,UPO,2021-2025,outgoing
+UY,Uruguay,84,UPO,2021-2025,outgoing
+UZ,Uzbekistan,170,UPO,2021-2025,outgoing
+VE,Venezuela,32,UPO,2021-2025,outgoing
+VN,Vietnam,205,UPO,2021-2025,outgoing
+XK,Kosovo,3,UPO,2021-2025,outgoing
+YE,Yemen,36,UPO,2021-2025,outgoing
+ZA,South Africa,6120,UPO,2021-2025,outgoing
+ZM,Zambia,38,UPO,2021-2025,outgoing
+ZW,Zimbabwe,28,UPO,2021-2025,outgoing

@@ -1,188 +1,177 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,468049,SNS,2016-2020,incoming
-France,FR,250645,SNS,2016-2020,incoming
-Italy,IT,232962,SNS,2016-2020,incoming
-China,CN,113838,SNS,2016-2020,incoming
-United Kingdom,GB,107905,SNS,2016-2020,incoming
-Germany,DE,101679,SNS,2016-2020,incoming
-Russia,RU,92819,SNS,2016-2020,incoming
-India,IN,68878,SNS,2016-2020,incoming
-Spain,ES,68486,SNS,2016-2020,incoming
-Japan,JP,54889,SNS,2016-2020,incoming
-South Korea,KR,46527,SNS,2016-2020,incoming
-Türkiye,TR,42945,SNS,2016-2020,incoming
-Brazil,BR,41556,SNS,2016-2020,incoming
-Switzerland,CH,40416,SNS,2016-2020,incoming
-Poland,PL,38120,SNS,2016-2020,incoming
-Hungary,HU,30754,SNS,2016-2020,incoming
-The Netherlands,NL,26537,SNS,2016-2020,incoming
-Belgium,BE,24482,SNS,2016-2020,incoming
-Australia,AU,24280,SNS,2016-2020,incoming
-Greece,GR,22997,SNS,2016-2020,incoming
-Canada,CA,22977,SNS,2016-2020,incoming
-Finland,FI,22103,SNS,2016-2020,incoming
-Taiwan,TW,21471,SNS,2016-2020,incoming
-Mexico,MX,16797,SNS,2016-2020,incoming
-Portugal,PT,14041,SNS,2016-2020,incoming
-Czechia,CZ,13054,SNS,2016-2020,incoming
-China (People's Republic of),CN,12362,SNS,2016-2020,incoming
-Croatia,HR,12290,SNS,2016-2020,incoming
-Sweden,SE,11262,SNS,2016-2020,incoming
-Denmark,DK,10514,SNS,2016-2020,incoming
-Austria,AT,9982,SNS,2016-2020,incoming
-Bulgaria,BG,9552,SNS,2016-2020,incoming
-Colombia,CO,9161,SNS,2016-2020,incoming
-Belarus,BY,8847,SNS,2016-2020,incoming
-Iran,IR,8394,SNS,2016-2020,incoming
-Slovakia,SK,8351,SNS,2016-2020,incoming
-Pakistan,PK,8344,SNS,2016-2020,incoming
-Chile,CL,8104,SNS,2016-2020,incoming
-Ukraine,UA,7843,SNS,2016-2020,incoming
-Georgia,GE,7651,SNS,2016-2020,incoming
-Argentina,AR,7510,SNS,2016-2020,incoming
-Malaysia,MY,7366,SNS,2016-2020,incoming
-Norway,NO,7281,SNS,2016-2020,incoming
-South Africa,ZA,6886,SNS,2016-2020,incoming
-New Zealand,NZ,6839,SNS,2016-2020,incoming
-Israel,IL,6718,SNS,2016-2020,incoming
-Romania,RO,6157,SNS,2016-2020,incoming
-Serbia,RS,5655,SNS,2016-2020,incoming
-Ireland,IE,5577,SNS,2016-2020,incoming
-Hong Kong,HK,5253,SNS,2016-2020,incoming
-Ecuador,EC,4501,SNS,2016-2020,incoming
-Armenia,AM,4213,SNS,2016-2020,incoming
-Thailand,TH,4002,SNS,2016-2020,incoming
-Slovenia,SI,3989,SNS,2016-2020,incoming
-Morocco,MA,3958,SNS,2016-2020,incoming
-Cyprus,CY,3725,SNS,2016-2020,incoming
-Estonia,EE,3604,SNS,2016-2020,incoming
-Puerto Rico,PR,3564,SNS,2016-2020,incoming
-Lithuania,LT,3225,SNS,2016-2020,incoming
-Netherlands,NL,2859,SNS,2016-2020,incoming
-Turkey,TR,2838,SNS,2016-2020,incoming
-Singapore,SG,2823,SNS,2016-2020,incoming
-Egypt,EG,2744,SNS,2016-2020,incoming
-Azerbaijan,AZ,2732,SNS,2016-2020,incoming
-Saudi Arabia,SA,2183,SNS,2016-2020,incoming
-Vietnam,VN,2064,SNS,2016-2020,incoming
-Russian Federation,RU,1929,SNS,2016-2020,incoming
-Sri Lanka,LK,1662,SNS,2016-2020,incoming
-Latvia,LV,1256,SNS,2016-2020,incoming
-Qatar,QA,684,SNS,2016-2020,incoming
-Uzbekistan,UZ,645,SNS,2016-2020,incoming
-Mongolia,MN,637,SNS,2016-2020,incoming
-Korea (Republic of),KR,615,SNS,2016-2020,incoming
-Indonesia,ID,569,SNS,2016-2020,incoming
-United Arab Emirates,AE,472,SNS,2016-2020,incoming
-Czech Republic,CZ,469,SNS,2016-2020,incoming
-Guatemala,GT,424,SNS,2016-2020,incoming
-Zimbabwe,ZW,390,SNS,2016-2020,incoming
-Montenegro,ME,376,SNS,2016-2020,incoming
-Peru,PE,375,SNS,2016-2020,incoming
-Algeria,DZ,339,SNS,2016-2020,incoming
-Cuba,CU,307,SNS,2016-2020,incoming
-Bangladesh,BD,306,SNS,2016-2020,incoming
-Tunisia,TN,288,SNS,2016-2020,incoming
-Monaco,MC,275,SNS,2016-2020,incoming
-Iceland,IS,256,SNS,2016-2020,incoming
-Kazakhstan,KZ,241,SNS,2016-2020,incoming
-Philippines,PH,239,SNS,2016-2020,incoming
-Bahrain,BH,226,SNS,2016-2020,incoming
-Bosnia and Herzegovina,BA,203,SNS,2016-2020,incoming
-Ghana,GH,175,SNS,2016-2020,incoming
-Luxembourg,LU,166,SNS,2016-2020,incoming
-Lebanon,LB,164,SNS,2016-2020,incoming
-Uruguay,UY,164,SNS,2016-2020,incoming
-Nigeria,NG,137,SNS,2016-2020,incoming
-Iraq,IQ,124,SNS,2016-2020,incoming
-Ethiopia,ET,112,SNS,2016-2020,incoming
-Iran (Islamic Republic of),IR,111,SNS,2016-2020,incoming
-Macao,MO,104,SNS,2016-2020,incoming
-Mozambique,MZ,91,SNS,2016-2020,incoming
-Uganda,UG,88,SNS,2016-2020,incoming
-Malta,MT,87,SNS,2016-2020,incoming
-Palestine,PS,86,SNS,2016-2020,incoming
-Jordan,JO,85,SNS,2016-2020,incoming
-Cameroon,CM,83,SNS,2016-2020,incoming
-Moldova,MD,74,SNS,2016-2020,incoming
-Honduras,HN,65,SNS,2016-2020,incoming
-Yemen,YE,60,SNS,2016-2020,incoming
-Venezuela,VE,47,SNS,2016-2020,incoming
-Costa Rica,CR,45,SNS,2016-2020,incoming
-Benin,BJ,41,SNS,2016-2020,incoming
-Cambodia,KH,40,SNS,2016-2020,incoming
-Kuwait,KW,35,SNS,2016-2020,incoming
-Bolivia,BO,35,SNS,2016-2020,incoming
-North Macedonia,MK,33,SNS,2016-2020,incoming
-Oman,OM,33,SNS,2016-2020,incoming
-Kenya,KE,31,SNS,2016-2020,incoming
-Tajikistan,TJ,30,SNS,2016-2020,incoming
-Bhutan,BT,30,SNS,2016-2020,incoming
-Nepal,NP,29,SNS,2016-2020,incoming
-U.S. Virgin Islands,VI,25,SNS,2016-2020,incoming
-Réunion,RE,25,SNS,2016-2020,incoming
-Viet Nam,VN,24,SNS,2016-2020,incoming
-Tanzania,TZ,23,SNS,2016-2020,incoming
-Namibia,,16,SNS,2016-2020,incoming
-Senegal,SN,16,SNS,2016-2020,incoming
-Mauritius,MU,16,SNS,2016-2020,incoming
-Jamaica,JM,15,SNS,2016-2020,incoming
-Nicaragua,NI,14,SNS,2016-2020,incoming
-Sudan,SD,12,SNS,2016-2020,incoming
-Albania,AL,11,SNS,2016-2020,incoming
-French Polynesia,PF,11,SNS,2016-2020,incoming
-Guadeloupe,GP,10,SNS,2016-2020,incoming
-Botswana,BW,10,SNS,2016-2020,incoming
-Trinidad and Tobago,TT,10,SNS,2016-2020,incoming
-Rwanda,RW,9,SNS,2016-2020,incoming
-New Caledonia,NC,9,SNS,2016-2020,incoming
-Panama,PA,9,SNS,2016-2020,incoming
-Paraguay,PY,9,SNS,2016-2020,incoming
-Angola,AO,9,SNS,2016-2020,incoming
-Burkina Faso,BF,7,SNS,2016-2020,incoming
-North Korea,KP,6,SNS,2016-2020,incoming
-Burundi,BI,6,SNS,2016-2020,incoming
-Ivory Coast,CI,5,SNS,2016-2020,incoming
-St Kitts and Nevis,KN,5,SNS,2016-2020,incoming
-Syria,SY,5,SNS,2016-2020,incoming
-El Salvador,SV,4,SNS,2016-2020,incoming
-Madagascar,MG,4,SNS,2016-2020,incoming
-Kosovo,XK,4,SNS,2016-2020,incoming
-Antigua and Barbuda,AG,4,SNS,2016-2020,incoming
-DR Congo,CD,4,SNS,2016-2020,incoming
-Myanmar,MM,3,SNS,2016-2020,incoming
-Zambia,ZM,3,SNS,2016-2020,incoming
-Togo,TG,3,SNS,2016-2020,incoming
-Fiji,FJ,2,SNS,2016-2020,incoming
-Liechtenstein,LI,2,SNS,2016-2020,incoming
-Afghanistan,AF,2,SNS,2016-2020,incoming
-Barbados,BB,2,SNS,2016-2020,incoming
-Malawi,MW,2,SNS,2016-2020,incoming
-Guam,GU,2,SNS,2016-2020,incoming
-Mali,ML,2,SNS,2016-2020,incoming
-Tanzania (United Republic of),TZ,2,SNS,2016-2020,incoming
-Somalia,SO,2,SNS,2016-2020,incoming
-Lesotho,LS,2,SNS,2016-2020,incoming
-Brunei,BN,2,SNS,2016-2020,incoming
-Falkland Islands,FK,1,SNS,2016-2020,incoming
-Haiti,HT,1,SNS,2016-2020,incoming
-Grenada,GD,1,SNS,2016-2020,incoming
-Congo Republic,CG,1,SNS,2016-2020,incoming
-Belize,BZ,1,SNS,2016-2020,incoming
-Guinea,GN,1,SNS,2016-2020,incoming
-Svalbard and Jan Mayen,SJ,1,SNS,2016-2020,incoming
-American Samoa,AS,1,SNS,2016-2020,incoming
-Laos,LA,1,SNS,2016-2020,incoming
-Lao (People's Democratic Republic),LA,1,SNS,2016-2020,incoming
-San Marino,SM,1,SNS,2016-2020,incoming
-Kyrgyzstan,KG,1,SNS,2016-2020,incoming
-Gabon,GA,1,SNS,2016-2020,incoming
-Cabo Verde,CV,1,SNS,2016-2020,incoming
-Mauritania,MR,1,SNS,2016-2020,incoming
-Bahamas,BS,1,SNS,2016-2020,incoming
-Greenland,GL,1,SNS,2016-2020,incoming
-Papua New Guinea,PG,1,SNS,2016-2020,incoming
-European Union,EU,1,SNS,2016-2020,incoming
-French Guiana,GF,1,SNS,2016-2020,incoming
-Gibraltar,GI,1,SNS,2016-2020,incoming
-Seychelles,SC,1,SNS,2016-2020,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,472,SNS,2016-2020,incoming
+AF,Afghanistan,2,SNS,2016-2020,incoming
+AG,Antigua and Barbuda,4,SNS,2016-2020,incoming
+AL,Albania,11,SNS,2016-2020,incoming
+AM,Armenia,4213,SNS,2016-2020,incoming
+AO,Angola,9,SNS,2016-2020,incoming
+AR,Argentina,7510,SNS,2016-2020,incoming
+AS,American Samoa,1,SNS,2016-2020,incoming
+AT,Austria,9982,SNS,2016-2020,incoming
+AU,Australia,24280,SNS,2016-2020,incoming
+AZ,Azerbaijan,2732,SNS,2016-2020,incoming
+BA,Bosnia and Herzegovina,203,SNS,2016-2020,incoming
+BB,Barbados,2,SNS,2016-2020,incoming
+BD,Bangladesh,306,SNS,2016-2020,incoming
+BE,Belgium,24482,SNS,2016-2020,incoming
+BF,Burkina Faso,7,SNS,2016-2020,incoming
+BG,Bulgaria,9552,SNS,2016-2020,incoming
+BH,Bahrain,226,SNS,2016-2020,incoming
+BI,Burundi,6,SNS,2016-2020,incoming
+BJ,Benin,41,SNS,2016-2020,incoming
+BN,Brunei,2,SNS,2016-2020,incoming
+BO,Bolivia,35,SNS,2016-2020,incoming
+BR,Brazil,41556,SNS,2016-2020,incoming
+BS,Bahamas,1,SNS,2016-2020,incoming
+BT,Bhutan,30,SNS,2016-2020,incoming
+BW,Botswana,10,SNS,2016-2020,incoming
+BY,Belarus,8847,SNS,2016-2020,incoming
+BZ,Belize,1,SNS,2016-2020,incoming
+CA,Canada,22977,SNS,2016-2020,incoming
+CD,DR Congo,4,SNS,2016-2020,incoming
+CG,Congo Republic,1,SNS,2016-2020,incoming
+CH,Switzerland,40416,SNS,2016-2020,incoming
+CI,Ivory Coast,5,SNS,2016-2020,incoming
+CL,Chile,8104,SNS,2016-2020,incoming
+CM,Cameroon,83,SNS,2016-2020,incoming
+CN,China,126200,SNS,2016-2020,incoming
+CO,Colombia,9161,SNS,2016-2020,incoming
+CR,Costa Rica,45,SNS,2016-2020,incoming
+CU,Cuba,307,SNS,2016-2020,incoming
+CV,Cabo Verde,1,SNS,2016-2020,incoming
+CY,Cyprus,3725,SNS,2016-2020,incoming
+CZ,Czechia,13523,SNS,2016-2020,incoming
+DE,Germany,101679,SNS,2016-2020,incoming
+DK,Denmark,10514,SNS,2016-2020,incoming
+DZ,Algeria,339,SNS,2016-2020,incoming
+EC,Ecuador,4501,SNS,2016-2020,incoming
+EE,Estonia,3604,SNS,2016-2020,incoming
+EG,Egypt,2744,SNS,2016-2020,incoming
+ES,Spain,68486,SNS,2016-2020,incoming
+ET,Ethiopia,112,SNS,2016-2020,incoming
+EU,European Union,1,SNS,2016-2020,incoming
+FI,Finland,22103,SNS,2016-2020,incoming
+FJ,Fiji,2,SNS,2016-2020,incoming
+FK,Falkland Islands,1,SNS,2016-2020,incoming
+FR,France,250645,SNS,2016-2020,incoming
+GA,Gabon,1,SNS,2016-2020,incoming
+GB,United Kingdom,107905,SNS,2016-2020,incoming
+GD,Grenada,1,SNS,2016-2020,incoming
+GE,Georgia,7651,SNS,2016-2020,incoming
+GF,French Guiana,1,SNS,2016-2020,incoming
+GH,Ghana,175,SNS,2016-2020,incoming
+GI,Gibraltar,1,SNS,2016-2020,incoming
+GL,Greenland,1,SNS,2016-2020,incoming
+GN,Guinea,1,SNS,2016-2020,incoming
+GP,Guadeloupe,10,SNS,2016-2020,incoming
+GR,Greece,22997,SNS,2016-2020,incoming
+GT,Guatemala,424,SNS,2016-2020,incoming
+GU,Guam,2,SNS,2016-2020,incoming
+HK,Hong Kong,5253,SNS,2016-2020,incoming
+HN,Honduras,65,SNS,2016-2020,incoming
+HR,Croatia,12290,SNS,2016-2020,incoming
+HT,Haiti,1,SNS,2016-2020,incoming
+HU,Hungary,30754,SNS,2016-2020,incoming
+ID,Indonesia,569,SNS,2016-2020,incoming
+IE,Ireland,5577,SNS,2016-2020,incoming
+IL,Israel,6718,SNS,2016-2020,incoming
+IN,India,68878,SNS,2016-2020,incoming
+IQ,Iraq,124,SNS,2016-2020,incoming
+IR,Iran,8505,SNS,2016-2020,incoming
+IS,Iceland,256,SNS,2016-2020,incoming
+IT,Italy,232962,SNS,2016-2020,incoming
+JM,Jamaica,15,SNS,2016-2020,incoming
+JO,Jordan,85,SNS,2016-2020,incoming
+JP,Japan,54889,SNS,2016-2020,incoming
+KE,Kenya,31,SNS,2016-2020,incoming
+KG,Kyrgyzstan,1,SNS,2016-2020,incoming
+KH,Cambodia,40,SNS,2016-2020,incoming
+KN,St Kitts and Nevis,5,SNS,2016-2020,incoming
+KP,North Korea,6,SNS,2016-2020,incoming
+KR,South Korea,47142,SNS,2016-2020,incoming
+KW,Kuwait,35,SNS,2016-2020,incoming
+KZ,Kazakhstan,241,SNS,2016-2020,incoming
+LA,Laos,2,SNS,2016-2020,incoming
+LB,Lebanon,164,SNS,2016-2020,incoming
+LI,Liechtenstein,2,SNS,2016-2020,incoming
+LK,Sri Lanka,1662,SNS,2016-2020,incoming
+LS,Lesotho,2,SNS,2016-2020,incoming
+LT,Lithuania,3225,SNS,2016-2020,incoming
+LU,Luxembourg,166,SNS,2016-2020,incoming
+LV,Latvia,1256,SNS,2016-2020,incoming
+MA,Morocco,3958,SNS,2016-2020,incoming
+MC,Monaco,275,SNS,2016-2020,incoming
+MD,Moldova,74,SNS,2016-2020,incoming
+ME,Montenegro,376,SNS,2016-2020,incoming
+MG,Madagascar,4,SNS,2016-2020,incoming
+MK,North Macedonia,33,SNS,2016-2020,incoming
+ML,Mali,2,SNS,2016-2020,incoming
+MM,Myanmar,3,SNS,2016-2020,incoming
+MN,Mongolia,637,SNS,2016-2020,incoming
+MO,Macao,104,SNS,2016-2020,incoming
+MR,Mauritania,1,SNS,2016-2020,incoming
+MT,Malta,87,SNS,2016-2020,incoming
+MU,Mauritius,16,SNS,2016-2020,incoming
+MW,Malawi,2,SNS,2016-2020,incoming
+MX,Mexico,16797,SNS,2016-2020,incoming
+MY,Malaysia,7366,SNS,2016-2020,incoming
+MZ,Mozambique,91,SNS,2016-2020,incoming
+NC,New Caledonia,9,SNS,2016-2020,incoming
+NG,Nigeria,137,SNS,2016-2020,incoming
+NI,Nicaragua,14,SNS,2016-2020,incoming
+NL,The Netherlands,29396,SNS,2016-2020,incoming
+NO,Norway,7281,SNS,2016-2020,incoming
+NP,Nepal,29,SNS,2016-2020,incoming
+NZ,New Zealand,6839,SNS,2016-2020,incoming
+OM,Oman,33,SNS,2016-2020,incoming
+PA,Panama,9,SNS,2016-2020,incoming
+PE,Peru,375,SNS,2016-2020,incoming
+PF,French Polynesia,11,SNS,2016-2020,incoming
+PG,Papua New Guinea,1,SNS,2016-2020,incoming
+PH,Philippines,239,SNS,2016-2020,incoming
+PK,Pakistan,8344,SNS,2016-2020,incoming
+PL,Poland,38120,SNS,2016-2020,incoming
+PR,Puerto Rico,3564,SNS,2016-2020,incoming
+PS,Palestine,86,SNS,2016-2020,incoming
+PT,Portugal,14041,SNS,2016-2020,incoming
+PY,Paraguay,9,SNS,2016-2020,incoming
+QA,Qatar,684,SNS,2016-2020,incoming
+RE,Réunion,25,SNS,2016-2020,incoming
+RO,Romania,6157,SNS,2016-2020,incoming
+RS,Serbia,5655,SNS,2016-2020,incoming
+RU,Russia,94748,SNS,2016-2020,incoming
+RW,Rwanda,9,SNS,2016-2020,incoming
+SA,Saudi Arabia,2183,SNS,2016-2020,incoming
+SC,Seychelles,1,SNS,2016-2020,incoming
+SD,Sudan,12,SNS,2016-2020,incoming
+SE,Sweden,11262,SNS,2016-2020,incoming
+SG,Singapore,2823,SNS,2016-2020,incoming
+SI,Slovenia,3989,SNS,2016-2020,incoming
+SJ,Svalbard and Jan Mayen,1,SNS,2016-2020,incoming
+SK,Slovakia,8351,SNS,2016-2020,incoming
+SM,San Marino,1,SNS,2016-2020,incoming
+SN,Senegal,16,SNS,2016-2020,incoming
+SO,Somalia,2,SNS,2016-2020,incoming
+SV,El Salvador,4,SNS,2016-2020,incoming
+SY,Syria,5,SNS,2016-2020,incoming
+TG,Togo,3,SNS,2016-2020,incoming
+TH,Thailand,4002,SNS,2016-2020,incoming
+TJ,Tajikistan,30,SNS,2016-2020,incoming
+TN,Tunisia,288,SNS,2016-2020,incoming
+TR,Turkey,45783,SNS,2016-2020,incoming
+TT,Trinidad and Tobago,10,SNS,2016-2020,incoming
+TW,Taiwan,21471,SNS,2016-2020,incoming
+TZ,Tanzania,25,SNS,2016-2020,incoming
+UA,Ukraine,7843,SNS,2016-2020,incoming
+UG,Uganda,88,SNS,2016-2020,incoming
+US,United States,468049,SNS,2016-2020,incoming
+UY,Uruguay,164,SNS,2016-2020,incoming
+UZ,Uzbekistan,645,SNS,2016-2020,incoming
+VE,Venezuela,47,SNS,2016-2020,incoming
+VI,U.S. Virgin Islands,25,SNS,2016-2020,incoming
+VN,Vietnam,2088,SNS,2016-2020,incoming
+XK,Kosovo,4,SNS,2016-2020,incoming
+YE,Yemen,60,SNS,2016-2020,incoming
+ZA,South Africa,6886,SNS,2016-2020,incoming
+ZM,Zambia,3,SNS,2016-2020,incoming
+ZW,Zimbabwe,390,SNS,2016-2020,incoming

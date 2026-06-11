@@ -1,243 +1,224 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,2326571,UNIBO,2016-2020,incoming
-France,FR,1397204,UNIBO,2016-2020,incoming
-Italy,IT,1170505,UNIBO,2016-2020,incoming
-United Kingdom,GB,707453,UNIBO,2016-2020,incoming
-China,CN,637473,UNIBO,2016-2020,incoming
-Germany,DE,619931,UNIBO,2016-2020,incoming
-Spain,ES,429511,UNIBO,2016-2020,incoming
-Japan,JP,300261,UNIBO,2016-2020,incoming
-Australia,AU,268895,UNIBO,2016-2020,incoming
-India,IN,237422,UNIBO,2016-2020,incoming
-Canada,CA,234005,UNIBO,2016-2020,incoming
-Russia,RU,227158,UNIBO,2016-2020,incoming
-The Netherlands,NL,213191,UNIBO,2016-2020,incoming
-Brazil,BR,191244,UNIBO,2016-2020,incoming
-South Korea,KR,188718,UNIBO,2016-2020,incoming
-Switzerland,CH,179418,UNIBO,2016-2020,incoming
-Poland,PL,146424,UNIBO,2016-2020,incoming
-Türkiye,TR,111428,UNIBO,2016-2020,incoming
-Belgium,BE,108401,UNIBO,2016-2020,incoming
-Taiwan,TW,95262,UNIBO,2016-2020,incoming
-Denmark,DK,94802,UNIBO,2016-2020,incoming
-Sweden,SE,92614,UNIBO,2016-2020,incoming
-Portugal,PT,91300,UNIBO,2016-2020,incoming
-Greece,GR,84845,UNIBO,2016-2020,incoming
-Finland,FI,82390,UNIBO,2016-2020,incoming
-Iran,IR,81357,UNIBO,2016-2020,incoming
-Hungary,HU,79566,UNIBO,2016-2020,incoming
-Austria,AT,69633,UNIBO,2016-2020,incoming
-China (People's Republic of),CN,65297,UNIBO,2016-2020,incoming
-Czechia,CZ,58214,UNIBO,2016-2020,incoming
-Norway,NO,57363,UNIBO,2016-2020,incoming
-Mexico,MX,56191,UNIBO,2016-2020,incoming
-South Africa,ZA,53148,UNIBO,2016-2020,incoming
-Chile,CL,51043,UNIBO,2016-2020,incoming
-Israel,IL,46709,UNIBO,2016-2020,incoming
-Argentina,AR,42654,UNIBO,2016-2020,incoming
-Hong Kong,HK,37396,UNIBO,2016-2020,incoming
-Ireland,IE,36101,UNIBO,2016-2020,incoming
-Netherlands,NL,34601,UNIBO,2016-2020,incoming
-Croatia,HR,33039,UNIBO,2016-2020,incoming
-Slovakia,SK,31325,UNIBO,2016-2020,incoming
-Romania,RO,30374,UNIBO,2016-2020,incoming
-Malaysia,MY,26564,UNIBO,2016-2020,incoming
-Singapore,SG,26537,UNIBO,2016-2020,incoming
-Pakistan,PK,25408,UNIBO,2016-2020,incoming
-New Zealand,NZ,25233,UNIBO,2016-2020,incoming
-Colombia,CO,25087,UNIBO,2016-2020,incoming
-Belarus,BY,23923,UNIBO,2016-2020,incoming
-Serbia,RS,22003,UNIBO,2016-2020,incoming
-Egypt,EG,20439,UNIBO,2016-2020,incoming
-Slovenia,SI,18930,UNIBO,2016-2020,incoming
-Morocco,MA,18595,UNIBO,2016-2020,incoming
-Saudi Arabia,SA,18275,UNIBO,2016-2020,incoming
-Bulgaria,BG,18095,UNIBO,2016-2020,incoming
-Ukraine,UA,17717,UNIBO,2016-2020,incoming
-Thailand,TH,17296,UNIBO,2016-2020,incoming
-Georgia,GE,15569,UNIBO,2016-2020,incoming
-Vietnam,VN,12944,UNIBO,2016-2020,incoming
-Ethiopia,ET,11135,UNIBO,2016-2020,incoming
-Azerbaijan,AZ,10581,UNIBO,2016-2020,incoming
-Estonia,EE,10509,UNIBO,2016-2020,incoming
-Armenia,AM,9526,UNIBO,2016-2020,incoming
-Cyprus,CY,8519,UNIBO,2016-2020,incoming
-Indonesia,ID,8112,UNIBO,2016-2020,incoming
-Nigeria,NG,7683,UNIBO,2016-2020,incoming
-Ecuador,EC,7581,UNIBO,2016-2020,incoming
-Lithuania,LT,7458,UNIBO,2016-2020,incoming
-Korea (Republic of),KR,7294,UNIBO,2016-2020,incoming
-United Arab Emirates,AE,6609,UNIBO,2016-2020,incoming
-Qatar,QA,6481,UNIBO,2016-2020,incoming
-Puerto Rico,PR,6068,UNIBO,2016-2020,incoming
-Tunisia,TN,5941,UNIBO,2016-2020,incoming
-Russian Federation,RU,5571,UNIBO,2016-2020,incoming
-Turkey,TR,5145,UNIBO,2016-2020,incoming
-Philippines,PH,4738,UNIBO,2016-2020,incoming
-Bangladesh,BD,4703,UNIBO,2016-2020,incoming
-Peru,PE,4229,UNIBO,2016-2020,incoming
-Jordan,JO,4180,UNIBO,2016-2020,incoming
-Lebanon,LB,4173,UNIBO,2016-2020,incoming
-Iceland,IS,4164,UNIBO,2016-2020,incoming
-Sri Lanka,LK,3719,UNIBO,2016-2020,incoming
-Latvia,LV,3418,UNIBO,2016-2020,incoming
-Algeria,DZ,3315,UNIBO,2016-2020,incoming
-Kenya,KE,3156,UNIBO,2016-2020,incoming
-Ghana,GH,3144,UNIBO,2016-2020,incoming
-Bahrain,BH,2991,UNIBO,2016-2020,incoming
-Czech Republic,CZ,2756,UNIBO,2016-2020,incoming
-Iraq,IQ,2745,UNIBO,2016-2020,incoming
-Luxembourg,LU,2428,UNIBO,2016-2020,incoming
-Uzbekistan,UZ,2335,UNIBO,2016-2020,incoming
-Uganda,UG,2215,UNIBO,2016-2020,incoming
-Nepal,NP,1976,UNIBO,2016-2020,incoming
-Kazakhstan,KZ,1862,UNIBO,2016-2020,incoming
-Cuba,CU,1853,UNIBO,2016-2020,incoming
-Uruguay,UY,1849,UNIBO,2016-2020,incoming
-Palestine,PS,1758,UNIBO,2016-2020,incoming
-Bosnia and Herzegovina,BA,1663,UNIBO,2016-2020,incoming
-Tanzania,TZ,1628,UNIBO,2016-2020,incoming
-Iran (Islamic Republic of),IR,1520,UNIBO,2016-2020,incoming
-Cameroon,CM,1455,UNIBO,2016-2020,incoming
-Macao,MO,1295,UNIBO,2016-2020,incoming
-North Macedonia,MK,1263,UNIBO,2016-2020,incoming
-Malta,MT,1247,UNIBO,2016-2020,incoming
-Mozambique,MZ,1247,UNIBO,2016-2020,incoming
-Kuwait,KW,1242,UNIBO,2016-2020,incoming
-Oman,OM,1203,UNIBO,2016-2020,incoming
-Mongolia,MN,1118,UNIBO,2016-2020,incoming
-Antigua and Barbuda,AG,1064,UNIBO,2016-2020,incoming
-Cambodia,KH,1013,UNIBO,2016-2020,incoming
-Venezuela,VE,957,UNIBO,2016-2020,incoming
-Guatemala,GT,930,UNIBO,2016-2020,incoming
-Zimbabwe,ZW,898,UNIBO,2016-2020,incoming
-Montenegro,ME,897,UNIBO,2016-2020,incoming
-Jamaica,JM,878,UNIBO,2016-2020,incoming
-Monaco,MC,863,UNIBO,2016-2020,incoming
-Costa Rica,CR,842,UNIBO,2016-2020,incoming
-Yemen,YE,829,UNIBO,2016-2020,incoming
-Malawi,MW,810,UNIBO,2016-2020,incoming
-Guadeloupe,GP,734,UNIBO,2016-2020,incoming
-Sudan,SD,721,UNIBO,2016-2020,incoming
-Réunion,RE,719,UNIBO,2016-2020,incoming
-Benin,BJ,717,UNIBO,2016-2020,incoming
-Rwanda,RW,714,UNIBO,2016-2020,incoming
-Zambia,ZM,712,UNIBO,2016-2020,incoming
-Myanmar,MM,677,UNIBO,2016-2020,incoming
-Panama,PA,601,UNIBO,2016-2020,incoming
-San Marino,SM,560,UNIBO,2016-2020,incoming
-Botswana,BW,558,UNIBO,2016-2020,incoming
-Senegal,SN,541,UNIBO,2016-2020,incoming
-Burkina Faso,BF,490,UNIBO,2016-2020,incoming
-Namibia,,485,UNIBO,2016-2020,incoming
-Angola,AO,448,UNIBO,2016-2020,incoming
-Albania,AL,437,UNIBO,2016-2020,incoming
-Moldova,MD,434,UNIBO,2016-2020,incoming
-DR Congo,CD,423,UNIBO,2016-2020,incoming
-New Caledonia,NC,391,UNIBO,2016-2020,incoming
-American Samoa,AS,374,UNIBO,2016-2020,incoming
-Kyrgyzstan,KG,355,UNIBO,2016-2020,incoming
-St Kitts and Nevis,KN,350,UNIBO,2016-2020,incoming
-Ivory Coast,CI,331,UNIBO,2016-2020,incoming
-Paraguay,PY,317,UNIBO,2016-2020,incoming
-Gabon,GA,315,UNIBO,2016-2020,incoming
-Fiji,FJ,310,UNIBO,2016-2020,incoming
-Kosovo,XK,310,UNIBO,2016-2020,incoming
-Grenada,GD,289,UNIBO,2016-2020,incoming
-El Salvador,SV,280,UNIBO,2016-2020,incoming
-Niger,NE,257,UNIBO,2016-2020,incoming
-French Guiana,GF,238,UNIBO,2016-2020,incoming
-Mauritius,MU,235,UNIBO,2016-2020,incoming
-Bolivia,BO,235,UNIBO,2016-2020,incoming
-Trinidad and Tobago,TT,228,UNIBO,2016-2020,incoming
-Nicaragua,NI,228,UNIBO,2016-2020,incoming
-Syria,SY,227,UNIBO,2016-2020,incoming
-Bhutan,BT,226,UNIBO,2016-2020,incoming
-Dominican Republic,DO,191,UNIBO,2016-2020,incoming
-Viet Nam,VN,190,UNIBO,2016-2020,incoming
-Tajikistan,TJ,187,UNIBO,2016-2020,incoming
-French Polynesia,PF,186,UNIBO,2016-2020,incoming
-Libya,LY,184,UNIBO,2016-2020,incoming
-Madagascar,MG,175,UNIBO,2016-2020,incoming
-Papua New Guinea,PG,172,UNIBO,2016-2020,incoming
-Brunei,BN,158,UNIBO,2016-2020,incoming
-Somalia,SO,141,UNIBO,2016-2020,incoming
-Laos,LA,133,UNIBO,2016-2020,incoming
-U.S. Virgin Islands,VI,116,UNIBO,2016-2020,incoming
-Honduras,HN,115,UNIBO,2016-2020,incoming
-Congo Republic,CG,110,UNIBO,2016-2020,incoming
-Afghanistan,AF,110,UNIBO,2016-2020,incoming
-Mali,ML,101,UNIBO,2016-2020,incoming
-The Gambia,GM,98,UNIBO,2016-2020,incoming
-Sierra Leone,SL,94,UNIBO,2016-2020,incoming
-Tanzania (United Republic of),TZ,92,UNIBO,2016-2020,incoming
-Martinique,MQ,90,UNIBO,2016-2020,incoming
-Liechtenstein,LI,82,UNIBO,2016-2020,incoming
-Greenland,GL,80,UNIBO,2016-2020,incoming
-Togo,TG,77,UNIBO,2016-2020,incoming
-Barbados,BB,76,UNIBO,2016-2020,incoming
-Gibraltar,GI,75,UNIBO,2016-2020,incoming
-Palau,PW,74,UNIBO,2016-2020,incoming
-Liberia,LR,69,UNIBO,2016-2020,incoming
-Micronesia,FM,61,UNIBO,2016-2020,incoming
-Bahamas,BS,52,UNIBO,2016-2020,incoming
-Former Yugoslav Republic of Macedonia,MK,51,UNIBO,2016-2020,incoming
-European Union,EU,51,UNIBO,2016-2020,incoming
-North Korea,KP,51,UNIBO,2016-2020,incoming
-Guyana,GY,50,UNIBO,2016-2020,incoming
-Chad,TD,47,UNIBO,2016-2020,incoming
-Faroe Islands,FO,46,UNIBO,2016-2020,incoming
-Curaçao,CW,44,UNIBO,2016-2020,incoming
-Svalbard and Jan Mayen,SJ,41,UNIBO,2016-2020,incoming
-Guinea-Bissau,GW,37,UNIBO,2016-2020,incoming
-Seychelles,SC,36,UNIBO,2016-2020,incoming
-Cote d'Ivoire,CI,35,UNIBO,2016-2020,incoming
-Burundi,BI,33,UNIBO,2016-2020,incoming
-Suriname,SR,33,UNIBO,2016-2020,incoming
-Bermuda,BM,29,UNIBO,2016-2020,incoming
-Guinea,GN,26,UNIBO,2016-2020,incoming
-Eswatini,SZ,21,UNIBO,2016-2020,incoming
-Maldives,MV,19,UNIBO,2016-2020,incoming
-Haiti,HT,18,UNIBO,2016-2020,incoming
-Cabo Verde,CV,17,UNIBO,2016-2020,incoming
-Timor-Leste,TL,17,UNIBO,2016-2020,incoming
-South Sudan,SS,14,UNIBO,2016-2020,incoming
-Guam,GU,13,UNIBO,2016-2020,incoming
-Belize,BZ,13,UNIBO,2016-2020,incoming
-"Bonaire, Sint Eustatius, and Saba",BQ,13,UNIBO,2016-2020,incoming
-Congo (Democratic Republic of),CD,12,UNIBO,2016-2020,incoming
-Sint Maarten,SX,12,UNIBO,2016-2020,incoming
-Mauritania,MR,11,UNIBO,2016-2020,incoming
-Isle of Man,IM,9,UNIBO,2016-2020,incoming
-Lesotho,LS,8,UNIBO,2016-2020,incoming
-Saint Lucia,LC,8,UNIBO,2016-2020,incoming
-Vanuatu,VU,8,UNIBO,2016-2020,incoming
-Palestinian-administered areas,PS,8,UNIBO,2016-2020,incoming
-Eritrea,ER,7,UNIBO,2016-2020,incoming
-Turks and Caicos Islands,TC,7,UNIBO,2016-2020,incoming
-Central African Republic,CF,7,UNIBO,2016-2020,incoming
-Turkmenistan,TM,7,UNIBO,2016-2020,incoming
-Djibouti,DJ,6,UNIBO,2016-2020,incoming
-Andorra,AD,6,UNIBO,2016-2020,incoming
-Solomon Islands,SB,6,UNIBO,2016-2020,incoming
-Samoa,WS,5,UNIBO,2016-2020,incoming
-St Vincent and Grenadines,VC,5,UNIBO,2016-2020,incoming
-Falkland Islands,FK,4,UNIBO,2016-2020,incoming
-Mayotte,YT,4,UNIBO,2016-2020,incoming
-Dominica,DM,4,UNIBO,2016-2020,incoming
-Lao (People's Democratic Republic),LA,4,UNIBO,2016-2020,incoming
-British Virgin Islands,VG,3,UNIBO,2016-2020,incoming
-Moldova (Republic of),MD,3,UNIBO,2016-2020,incoming
-Jersey,JE,3,UNIBO,2016-2020,incoming
-Montserrat,MS,3,UNIBO,2016-2020,incoming
-Syrian Arab Republic,SY,3,UNIBO,2016-2020,incoming
-Aruba,AW,2,UNIBO,2016-2020,incoming
-Kiribati,KI,2,UNIBO,2016-2020,incoming
-Åland,AX,2,UNIBO,2016-2020,incoming
-United States Minor Outlying Islands,UM,1,UNIBO,2016-2020,incoming
-Swaziland,SZ,1,UNIBO,2016-2020,incoming
-"Virgin Islands, U.S.",VI,1,UNIBO,2016-2020,incoming
-Tonga,TO,1,UNIBO,2016-2020,incoming
-Tuvalu,TV,1,UNIBO,2016-2020,incoming
-Cayman Islands,KY,1,UNIBO,2016-2020,incoming
-Northern Mariana Islands,MP,1,UNIBO,2016-2020,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AD,Andorra,6,UNIBO,2016-2020,incoming
+AE,United Arab Emirates,6609,UNIBO,2016-2020,incoming
+AF,Afghanistan,110,UNIBO,2016-2020,incoming
+AG,Antigua and Barbuda,1064,UNIBO,2016-2020,incoming
+AL,Albania,437,UNIBO,2016-2020,incoming
+AM,Armenia,9526,UNIBO,2016-2020,incoming
+AO,Angola,448,UNIBO,2016-2020,incoming
+AR,Argentina,42654,UNIBO,2016-2020,incoming
+AS,American Samoa,374,UNIBO,2016-2020,incoming
+AT,Austria,69633,UNIBO,2016-2020,incoming
+AU,Australia,268895,UNIBO,2016-2020,incoming
+AW,Aruba,2,UNIBO,2016-2020,incoming
+AX,Åland,2,UNIBO,2016-2020,incoming
+AZ,Azerbaijan,10581,UNIBO,2016-2020,incoming
+BA,Bosnia and Herzegovina,1663,UNIBO,2016-2020,incoming
+BB,Barbados,76,UNIBO,2016-2020,incoming
+BD,Bangladesh,4703,UNIBO,2016-2020,incoming
+BE,Belgium,108401,UNIBO,2016-2020,incoming
+BF,Burkina Faso,490,UNIBO,2016-2020,incoming
+BG,Bulgaria,18095,UNIBO,2016-2020,incoming
+BH,Bahrain,2991,UNIBO,2016-2020,incoming
+BI,Burundi,33,UNIBO,2016-2020,incoming
+BJ,Benin,717,UNIBO,2016-2020,incoming
+BM,Bermuda,29,UNIBO,2016-2020,incoming
+BN,Brunei,158,UNIBO,2016-2020,incoming
+BO,Bolivia,235,UNIBO,2016-2020,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",13,UNIBO,2016-2020,incoming
+BR,Brazil,191244,UNIBO,2016-2020,incoming
+BS,Bahamas,52,UNIBO,2016-2020,incoming
+BT,Bhutan,226,UNIBO,2016-2020,incoming
+BW,Botswana,558,UNIBO,2016-2020,incoming
+BY,Belarus,23923,UNIBO,2016-2020,incoming
+BZ,Belize,13,UNIBO,2016-2020,incoming
+CA,Canada,234005,UNIBO,2016-2020,incoming
+CD,DR Congo,435,UNIBO,2016-2020,incoming
+CF,Central African Republic,7,UNIBO,2016-2020,incoming
+CG,Congo Republic,110,UNIBO,2016-2020,incoming
+CH,Switzerland,179418,UNIBO,2016-2020,incoming
+CI,Ivory Coast,366,UNIBO,2016-2020,incoming
+CL,Chile,51043,UNIBO,2016-2020,incoming
+CM,Cameroon,1455,UNIBO,2016-2020,incoming
+CN,China,702770,UNIBO,2016-2020,incoming
+CO,Colombia,25087,UNIBO,2016-2020,incoming
+CR,Costa Rica,842,UNIBO,2016-2020,incoming
+CU,Cuba,1853,UNIBO,2016-2020,incoming
+CV,Cabo Verde,17,UNIBO,2016-2020,incoming
+CW,Curaçao,44,UNIBO,2016-2020,incoming
+CY,Cyprus,8519,UNIBO,2016-2020,incoming
+CZ,Czechia,60970,UNIBO,2016-2020,incoming
+DE,Germany,619931,UNIBO,2016-2020,incoming
+DJ,Djibouti,6,UNIBO,2016-2020,incoming
+DK,Denmark,94802,UNIBO,2016-2020,incoming
+DM,Dominica,4,UNIBO,2016-2020,incoming
+DO,Dominican Republic,191,UNIBO,2016-2020,incoming
+DZ,Algeria,3315,UNIBO,2016-2020,incoming
+EC,Ecuador,7581,UNIBO,2016-2020,incoming
+EE,Estonia,10509,UNIBO,2016-2020,incoming
+EG,Egypt,20439,UNIBO,2016-2020,incoming
+ER,Eritrea,7,UNIBO,2016-2020,incoming
+ES,Spain,429511,UNIBO,2016-2020,incoming
+ET,Ethiopia,11135,UNIBO,2016-2020,incoming
+EU,European Union,51,UNIBO,2016-2020,incoming
+FI,Finland,82390,UNIBO,2016-2020,incoming
+FJ,Fiji,310,UNIBO,2016-2020,incoming
+FK,Falkland Islands,4,UNIBO,2016-2020,incoming
+FM,Micronesia,61,UNIBO,2016-2020,incoming
+FO,Faroe Islands,46,UNIBO,2016-2020,incoming
+FR,France,1397204,UNIBO,2016-2020,incoming
+GA,Gabon,315,UNIBO,2016-2020,incoming
+GB,United Kingdom,707453,UNIBO,2016-2020,incoming
+GD,Grenada,289,UNIBO,2016-2020,incoming
+GE,Georgia,15569,UNIBO,2016-2020,incoming
+GF,French Guiana,238,UNIBO,2016-2020,incoming
+GH,Ghana,3144,UNIBO,2016-2020,incoming
+GI,Gibraltar,75,UNIBO,2016-2020,incoming
+GL,Greenland,80,UNIBO,2016-2020,incoming
+GM,The Gambia,98,UNIBO,2016-2020,incoming
+GN,Guinea,26,UNIBO,2016-2020,incoming
+GP,Guadeloupe,734,UNIBO,2016-2020,incoming
+GR,Greece,84845,UNIBO,2016-2020,incoming
+GT,Guatemala,930,UNIBO,2016-2020,incoming
+GU,Guam,13,UNIBO,2016-2020,incoming
+GW,Guinea-Bissau,37,UNIBO,2016-2020,incoming
+GY,Guyana,50,UNIBO,2016-2020,incoming
+HK,Hong Kong,37396,UNIBO,2016-2020,incoming
+HN,Honduras,115,UNIBO,2016-2020,incoming
+HR,Croatia,33039,UNIBO,2016-2020,incoming
+HT,Haiti,18,UNIBO,2016-2020,incoming
+HU,Hungary,79566,UNIBO,2016-2020,incoming
+ID,Indonesia,8112,UNIBO,2016-2020,incoming
+IE,Ireland,36101,UNIBO,2016-2020,incoming
+IL,Israel,46709,UNIBO,2016-2020,incoming
+IM,Isle of Man,9,UNIBO,2016-2020,incoming
+IN,India,237422,UNIBO,2016-2020,incoming
+IQ,Iraq,2745,UNIBO,2016-2020,incoming
+IR,Iran,82877,UNIBO,2016-2020,incoming
+IS,Iceland,4164,UNIBO,2016-2020,incoming
+IT,Italy,1170505,UNIBO,2016-2020,incoming
+JE,Jersey,3,UNIBO,2016-2020,incoming
+JM,Jamaica,878,UNIBO,2016-2020,incoming
+JO,Jordan,4180,UNIBO,2016-2020,incoming
+JP,Japan,300261,UNIBO,2016-2020,incoming
+KE,Kenya,3156,UNIBO,2016-2020,incoming
+KG,Kyrgyzstan,355,UNIBO,2016-2020,incoming
+KH,Cambodia,1013,UNIBO,2016-2020,incoming
+KI,Kiribati,2,UNIBO,2016-2020,incoming
+KN,St Kitts and Nevis,350,UNIBO,2016-2020,incoming
+KP,North Korea,51,UNIBO,2016-2020,incoming
+KR,South Korea,196012,UNIBO,2016-2020,incoming
+KW,Kuwait,1242,UNIBO,2016-2020,incoming
+KY,Cayman Islands,1,UNIBO,2016-2020,incoming
+KZ,Kazakhstan,1862,UNIBO,2016-2020,incoming
+LA,Laos,137,UNIBO,2016-2020,incoming
+LB,Lebanon,4173,UNIBO,2016-2020,incoming
+LC,Saint Lucia,8,UNIBO,2016-2020,incoming
+LI,Liechtenstein,82,UNIBO,2016-2020,incoming
+LK,Sri Lanka,3719,UNIBO,2016-2020,incoming
+LR,Liberia,69,UNIBO,2016-2020,incoming
+LS,Lesotho,8,UNIBO,2016-2020,incoming
+LT,Lithuania,7458,UNIBO,2016-2020,incoming
+LU,Luxembourg,2428,UNIBO,2016-2020,incoming
+LV,Latvia,3418,UNIBO,2016-2020,incoming
+LY,Libya,184,UNIBO,2016-2020,incoming
+MA,Morocco,18595,UNIBO,2016-2020,incoming
+MC,Monaco,863,UNIBO,2016-2020,incoming
+MD,Moldova,437,UNIBO,2016-2020,incoming
+ME,Montenegro,897,UNIBO,2016-2020,incoming
+MG,Madagascar,175,UNIBO,2016-2020,incoming
+MK,North Macedonia,1314,UNIBO,2016-2020,incoming
+ML,Mali,101,UNIBO,2016-2020,incoming
+MM,Myanmar,677,UNIBO,2016-2020,incoming
+MN,Mongolia,1118,UNIBO,2016-2020,incoming
+MO,Macao,1295,UNIBO,2016-2020,incoming
+MP,Northern Mariana Islands,1,UNIBO,2016-2020,incoming
+MQ,Martinique,90,UNIBO,2016-2020,incoming
+MR,Mauritania,11,UNIBO,2016-2020,incoming
+MS,Montserrat,3,UNIBO,2016-2020,incoming
+MT,Malta,1247,UNIBO,2016-2020,incoming
+MU,Mauritius,235,UNIBO,2016-2020,incoming
+MV,Maldives,19,UNIBO,2016-2020,incoming
+MW,Malawi,810,UNIBO,2016-2020,incoming
+MX,Mexico,56191,UNIBO,2016-2020,incoming
+MY,Malaysia,26564,UNIBO,2016-2020,incoming
+MZ,Mozambique,1247,UNIBO,2016-2020,incoming
+NC,New Caledonia,391,UNIBO,2016-2020,incoming
+NE,Niger,257,UNIBO,2016-2020,incoming
+NG,Nigeria,7683,UNIBO,2016-2020,incoming
+NI,Nicaragua,228,UNIBO,2016-2020,incoming
+NL,The Netherlands,247792,UNIBO,2016-2020,incoming
+NO,Norway,57363,UNIBO,2016-2020,incoming
+NP,Nepal,1976,UNIBO,2016-2020,incoming
+NZ,New Zealand,25233,UNIBO,2016-2020,incoming
+OM,Oman,1203,UNIBO,2016-2020,incoming
+PA,Panama,601,UNIBO,2016-2020,incoming
+PE,Peru,4229,UNIBO,2016-2020,incoming
+PF,French Polynesia,186,UNIBO,2016-2020,incoming
+PG,Papua New Guinea,172,UNIBO,2016-2020,incoming
+PH,Philippines,4738,UNIBO,2016-2020,incoming
+PK,Pakistan,25408,UNIBO,2016-2020,incoming
+PL,Poland,146424,UNIBO,2016-2020,incoming
+PR,Puerto Rico,6068,UNIBO,2016-2020,incoming
+PS,Palestine,1766,UNIBO,2016-2020,incoming
+PT,Portugal,91300,UNIBO,2016-2020,incoming
+PW,Palau,74,UNIBO,2016-2020,incoming
+PY,Paraguay,317,UNIBO,2016-2020,incoming
+QA,Qatar,6481,UNIBO,2016-2020,incoming
+RE,Réunion,719,UNIBO,2016-2020,incoming
+RO,Romania,30374,UNIBO,2016-2020,incoming
+RS,Serbia,22003,UNIBO,2016-2020,incoming
+RU,Russia,232729,UNIBO,2016-2020,incoming
+RW,Rwanda,714,UNIBO,2016-2020,incoming
+SA,Saudi Arabia,18275,UNIBO,2016-2020,incoming
+SB,Solomon Islands,6,UNIBO,2016-2020,incoming
+SC,Seychelles,36,UNIBO,2016-2020,incoming
+SD,Sudan,721,UNIBO,2016-2020,incoming
+SE,Sweden,92614,UNIBO,2016-2020,incoming
+SG,Singapore,26537,UNIBO,2016-2020,incoming
+SI,Slovenia,18930,UNIBO,2016-2020,incoming
+SJ,Svalbard and Jan Mayen,41,UNIBO,2016-2020,incoming
+SK,Slovakia,31325,UNIBO,2016-2020,incoming
+SL,Sierra Leone,94,UNIBO,2016-2020,incoming
+SM,San Marino,560,UNIBO,2016-2020,incoming
+SN,Senegal,541,UNIBO,2016-2020,incoming
+SO,Somalia,141,UNIBO,2016-2020,incoming
+SR,Suriname,33,UNIBO,2016-2020,incoming
+SS,South Sudan,14,UNIBO,2016-2020,incoming
+SV,El Salvador,280,UNIBO,2016-2020,incoming
+SX,Sint Maarten,12,UNIBO,2016-2020,incoming
+SY,Syria,230,UNIBO,2016-2020,incoming
+SZ,Eswatini,22,UNIBO,2016-2020,incoming
+TC,Turks and Caicos Islands,7,UNIBO,2016-2020,incoming
+TD,Chad,47,UNIBO,2016-2020,incoming
+TG,Togo,77,UNIBO,2016-2020,incoming
+TH,Thailand,17296,UNIBO,2016-2020,incoming
+TJ,Tajikistan,187,UNIBO,2016-2020,incoming
+TL,Timor-Leste,17,UNIBO,2016-2020,incoming
+TM,Turkmenistan,7,UNIBO,2016-2020,incoming
+TN,Tunisia,5941,UNIBO,2016-2020,incoming
+TO,Tonga,1,UNIBO,2016-2020,incoming
+TR,Turkey,116573,UNIBO,2016-2020,incoming
+TT,Trinidad and Tobago,228,UNIBO,2016-2020,incoming
+TV,Tuvalu,1,UNIBO,2016-2020,incoming
+TW,Taiwan,95262,UNIBO,2016-2020,incoming
+TZ,Tanzania,1720,UNIBO,2016-2020,incoming
+UA,Ukraine,17717,UNIBO,2016-2020,incoming
+UG,Uganda,2215,UNIBO,2016-2020,incoming
+UM,United States Minor Outlying Islands,1,UNIBO,2016-2020,incoming
+US,United States,2326571,UNIBO,2016-2020,incoming
+UY,Uruguay,1849,UNIBO,2016-2020,incoming
+UZ,Uzbekistan,2335,UNIBO,2016-2020,incoming
+VC,St Vincent and Grenadines,5,UNIBO,2016-2020,incoming
+VE,Venezuela,957,UNIBO,2016-2020,incoming
+VG,British Virgin Islands,3,UNIBO,2016-2020,incoming
+VI,U.S. Virgin Islands,117,UNIBO,2016-2020,incoming
+VN,Vietnam,13134,UNIBO,2016-2020,incoming
+VU,Vanuatu,8,UNIBO,2016-2020,incoming
+WS,Samoa,5,UNIBO,2016-2020,incoming
+XK,Kosovo,310,UNIBO,2016-2020,incoming
+YE,Yemen,829,UNIBO,2016-2020,incoming
+YT,Mayotte,4,UNIBO,2016-2020,incoming
+ZA,South Africa,53148,UNIBO,2016-2020,incoming
+ZM,Zambia,712,UNIBO,2016-2020,incoming
+ZW,Zimbabwe,898,UNIBO,2016-2020,incoming

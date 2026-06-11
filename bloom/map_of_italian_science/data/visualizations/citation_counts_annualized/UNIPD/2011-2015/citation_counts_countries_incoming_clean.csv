@@ -1,223 +1,209 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,1536904,UNIPD,2011-2015,incoming
-France,FR,984125,UNIPD,2011-2015,incoming
-Italy,IT,900530,UNIPD,2011-2015,incoming
-United Kingdom,GB,420716,UNIPD,2011-2015,incoming
-Germany,DE,362138,UNIPD,2011-2015,incoming
-Spain,ES,251605,UNIPD,2011-2015,incoming
-China,CN,203490,UNIPD,2011-2015,incoming
-Japan,JP,152520,UNIPD,2011-2015,incoming
-Russia,RU,139544,UNIPD,2011-2015,incoming
-Canada,CA,126283,UNIPD,2011-2015,incoming
-India,IN,124419,UNIPD,2011-2015,incoming
-Switzerland,CH,118242,UNIPD,2011-2015,incoming
-The Netherlands,NL,110601,UNIPD,2011-2015,incoming
-South Korea,KR,109791,UNIPD,2011-2015,incoming
-Australia,AU,105802,UNIPD,2011-2015,incoming
-Brazil,BR,96656,UNIPD,2011-2015,incoming
-Poland,PL,82855,UNIPD,2011-2015,incoming
-Türkiye,TR,81083,UNIPD,2011-2015,incoming
-Belgium,BE,79263,UNIPD,2011-2015,incoming
-Finland,FI,76658,UNIPD,2011-2015,incoming
-Taiwan,TW,58525,UNIPD,2011-2015,incoming
-Hungary,HU,57501,UNIPD,2011-2015,incoming
-Greece,GR,47931,UNIPD,2011-2015,incoming
-Sweden,SE,46659,UNIPD,2011-2015,incoming
-Mexico,MX,46347,UNIPD,2011-2015,incoming
-Denmark,DK,43272,UNIPD,2011-2015,incoming
-Austria,AT,38116,UNIPD,2011-2015,incoming
-Portugal,PT,34647,UNIPD,2011-2015,incoming
-Norway,NO,31605,UNIPD,2011-2015,incoming
-Czechia,CZ,31026,UNIPD,2011-2015,incoming
-Iran,IR,26380,UNIPD,2011-2015,incoming
-Croatia,HR,25440,UNIPD,2011-2015,incoming
-Ireland,IE,23554,UNIPD,2011-2015,incoming
-China (People's Republic of),CN,23064,UNIPD,2011-2015,incoming
-Chile,CL,21361,UNIPD,2011-2015,incoming
-South Africa,ZA,21353,UNIPD,2011-2015,incoming
-Israel,IL,20964,UNIPD,2011-2015,incoming
-Argentina,AR,20189,UNIPD,2011-2015,incoming
-New Zealand,NZ,18276,UNIPD,2011-2015,incoming
-Slovakia,SK,16165,UNIPD,2011-2015,incoming
-Bulgaria,BG,15587,UNIPD,2011-2015,incoming
-Netherlands,NL,14328,UNIPD,2011-2015,incoming
-Egypt,EG,14258,UNIPD,2011-2015,incoming
-Ukraine,UA,13954,UNIPD,2011-2015,incoming
-Colombia,CO,13730,UNIPD,2011-2015,incoming
-Serbia,RS,12906,UNIPD,2011-2015,incoming
-Pakistan,PK,12717,UNIPD,2011-2015,incoming
-Romania,RO,12464,UNIPD,2011-2015,incoming
-Hong Kong,HK,12158,UNIPD,2011-2015,incoming
-Singapore,SG,12150,UNIPD,2011-2015,incoming
-Belarus,BY,9746,UNIPD,2011-2015,incoming
-Slovenia,SI,8824,UNIPD,2011-2015,incoming
-Estonia,EE,7847,UNIPD,2011-2015,incoming
-Georgia,GE,7660,UNIPD,2011-2015,incoming
-Malaysia,MY,7613,UNIPD,2011-2015,incoming
-Puerto Rico,PR,7265,UNIPD,2011-2015,incoming
-Thailand,TH,7157,UNIPD,2011-2015,incoming
-Armenia,AM,6925,UNIPD,2011-2015,incoming
-Cyprus,CY,6635,UNIPD,2011-2015,incoming
-Saudi Arabia,SA,6594,UNIPD,2011-2015,incoming
-Lithuania,LT,6001,UNIPD,2011-2015,incoming
-Morocco,MA,5441,UNIPD,2011-2015,incoming
-Azerbaijan,AZ,3072,UNIPD,2011-2015,incoming
-Korea (Republic of),KR,2707,UNIPD,2011-2015,incoming
-Peru,PE,2615,UNIPD,2011-2015,incoming
-Vietnam,VN,2325,UNIPD,2011-2015,incoming
-Qatar,QA,2177,UNIPD,2011-2015,incoming
-Russian Federation,RU,2166,UNIPD,2011-2015,incoming
-Iceland,IS,2103,UNIPD,2011-2015,incoming
-Uzbekistan,UZ,1953,UNIPD,2011-2015,incoming
-Tunisia,TN,1750,UNIPD,2011-2015,incoming
-Cuba,CU,1750,UNIPD,2011-2015,incoming
-Czech Republic,CZ,1567,UNIPD,2011-2015,incoming
-Jordan,JO,1510,UNIPD,2011-2015,incoming
-United Arab Emirates,AE,1150,UNIPD,2011-2015,incoming
-Lebanon,LB,1135,UNIPD,2011-2015,incoming
-Ethiopia,ET,1092,UNIPD,2011-2015,incoming
-Turkey,TR,1049,UNIPD,2011-2015,incoming
-Nigeria,NG,968,UNIPD,2011-2015,incoming
-Algeria,DZ,918,UNIPD,2011-2015,incoming
-Ecuador,EC,905,UNIPD,2011-2015,incoming
-Philippines,PH,841,UNIPD,2011-2015,incoming
-Luxembourg,LU,822,UNIPD,2011-2015,incoming
-Uruguay,UY,805,UNIPD,2011-2015,incoming
-Indonesia,ID,804,UNIPD,2011-2015,incoming
-Bangladesh,BD,665,UNIPD,2011-2015,incoming
-Sri Lanka,LK,653,UNIPD,2011-2015,incoming
-Latvia,LV,641,UNIPD,2011-2015,incoming
-Bahrain,BH,634,UNIPD,2011-2015,incoming
-Venezuela,VE,624,UNIPD,2011-2015,incoming
-Jamaica,JM,600,UNIPD,2011-2015,incoming
-Ghana,GH,533,UNIPD,2011-2015,incoming
-Oman,OM,466,UNIPD,2011-2015,incoming
-Kenya,KE,450,UNIPD,2011-2015,incoming
-Iran (Islamic Republic of),IR,407,UNIPD,2011-2015,incoming
-Uganda,UG,399,UNIPD,2011-2015,incoming
-Macao,MO,393,UNIPD,2011-2015,incoming
-Tanzania,TZ,393,UNIPD,2011-2015,incoming
-Namibia,,388,UNIPD,2011-2015,incoming
-Barbados,BB,367,UNIPD,2011-2015,incoming
-Kazakhstan,KZ,333,UNIPD,2011-2015,incoming
-Costa Rica,CR,328,UNIPD,2011-2015,incoming
-Bosnia and Herzegovina,BA,317,UNIPD,2011-2015,incoming
-Cameroon,CM,308,UNIPD,2011-2015,incoming
-Guadeloupe,GP,302,UNIPD,2011-2015,incoming
-Réunion,RE,300,UNIPD,2011-2015,incoming
-Iraq,IQ,267,UNIPD,2011-2015,incoming
-Kuwait,KW,266,UNIPD,2011-2015,incoming
-Malta,MT,259,UNIPD,2011-2015,incoming
-Palestine,PS,250,UNIPD,2011-2015,incoming
-Nepal,NP,245,UNIPD,2011-2015,incoming
-Benin,BJ,236,UNIPD,2011-2015,incoming
-Montenegro,ME,220,UNIPD,2011-2015,incoming
-Mongolia,MN,213,UNIPD,2011-2015,incoming
-Mozambique,MZ,191,UNIPD,2011-2015,incoming
-Albania,AL,183,UNIPD,2011-2015,incoming
-Cambodia,KH,182,UNIPD,2011-2015,incoming
-North Macedonia,MK,160,UNIPD,2011-2015,incoming
-Burkina Faso,BF,159,UNIPD,2011-2015,incoming
-Moldova,MD,158,UNIPD,2011-2015,incoming
-Yemen,YE,153,UNIPD,2011-2015,incoming
-Senegal,SN,137,UNIPD,2011-2015,incoming
-Panama,PA,132,UNIPD,2011-2015,incoming
-Zimbabwe,ZW,129,UNIPD,2011-2015,incoming
-Grenada,GD,125,UNIPD,2011-2015,incoming
-Angola,AO,117,UNIPD,2011-2015,incoming
-Paraguay,PY,112,UNIPD,2011-2015,incoming
-Bhutan,BT,111,UNIPD,2011-2015,incoming
-Sudan,SD,106,UNIPD,2011-2015,incoming
-Malawi,MW,94,UNIPD,2011-2015,incoming
-Zambia,ZM,93,UNIPD,2011-2015,incoming
-Myanmar,MM,76,UNIPD,2011-2015,incoming
-Ivory Coast,CI,75,UNIPD,2011-2015,incoming
-Guatemala,GT,74,UNIPD,2011-2015,incoming
-Antigua and Barbuda,AG,74,UNIPD,2011-2015,incoming
-Curaçao,CW,71,UNIPD,2011-2015,incoming
-Syria,SY,64,UNIPD,2011-2015,incoming
-Tajikistan,TJ,63,UNIPD,2011-2015,incoming
-Honduras,HN,60,UNIPD,2011-2015,incoming
-Brunei,BN,57,UNIPD,2011-2015,incoming
-Botswana,BW,56,UNIPD,2011-2015,incoming
-Rwanda,RW,56,UNIPD,2011-2015,incoming
-El Salvador,SV,55,UNIPD,2011-2015,incoming
-Trinidad and Tobago,TT,55,UNIPD,2011-2015,incoming
-Bolivia,BO,54,UNIPD,2011-2015,incoming
-Fiji,FJ,52,UNIPD,2011-2015,incoming
-Nicaragua,NI,52,UNIPD,2011-2015,incoming
-DR Congo,CD,50,UNIPD,2011-2015,incoming
-New Caledonia,NC,48,UNIPD,2011-2015,incoming
-Seychelles,SC,48,UNIPD,2011-2015,incoming
-French Polynesia,PF,47,UNIPD,2011-2015,incoming
-Palau,PW,45,UNIPD,2011-2015,incoming
-Niger,NE,45,UNIPD,2011-2015,incoming
-Somalia,SO,45,UNIPD,2011-2015,incoming
-Gabon,GA,44,UNIPD,2011-2015,incoming
-San Marino,SM,44,UNIPD,2011-2015,incoming
-French Guiana,GF,41,UNIPD,2011-2015,incoming
-Kosovo,XK,39,UNIPD,2011-2015,incoming
-Libya,LY,36,UNIPD,2011-2015,incoming
-Mali,ML,34,UNIPD,2011-2015,incoming
-Burundi,BI,33,UNIPD,2011-2015,incoming
-Greenland,GL,33,UNIPD,2011-2015,incoming
-Mauritius,MU,32,UNIPD,2011-2015,incoming
-Madagascar,MG,31,UNIPD,2011-2015,incoming
-American Samoa,AS,30,UNIPD,2011-2015,incoming
-Dominican Republic,DO,26,UNIPD,2011-2015,incoming
-Togo,TG,26,UNIPD,2011-2015,incoming
-Liechtenstein,LI,26,UNIPD,2011-2015,incoming
-Monaco,MC,26,UNIPD,2011-2015,incoming
-Kyrgyzstan,KG,24,UNIPD,2011-2015,incoming
-Congo Republic,CG,21,UNIPD,2011-2015,incoming
-Eritrea,ER,20,UNIPD,2011-2015,incoming
-European Union,EU,19,UNIPD,2011-2015,incoming
-Papua New Guinea,PG,18,UNIPD,2011-2015,incoming
-Viet Nam,VN,17,UNIPD,2011-2015,incoming
-St Kitts and Nevis,KN,16,UNIPD,2011-2015,incoming
-Svalbard and Jan Mayen,SJ,15,UNIPD,2011-2015,incoming
-Gibraltar,GI,15,UNIPD,2011-2015,incoming
-Tanzania (United Republic of),TZ,11,UNIPD,2011-2015,incoming
-Maldives,MV,10,UNIPD,2011-2015,incoming
-Faroe Islands,FO,10,UNIPD,2011-2015,incoming
-Liberia,LR,10,UNIPD,2011-2015,incoming
-Sierra Leone,SL,9,UNIPD,2011-2015,incoming
-Laos,LA,9,UNIPD,2011-2015,incoming
-Guinea-Bissau,GW,9,UNIPD,2011-2015,incoming
-Suriname,SR,8,UNIPD,2011-2015,incoming
-Martinique,MQ,8,UNIPD,2011-2015,incoming
-Central African Republic,CF,7,UNIPD,2011-2015,incoming
-Bermuda,BM,5,UNIPD,2011-2015,incoming
-The Gambia,GM,5,UNIPD,2011-2015,incoming
-South Sudan,SS,4,UNIPD,2011-2015,incoming
-Jersey,JE,4,UNIPD,2011-2015,incoming
-Afghanistan,AF,4,UNIPD,2011-2015,incoming
-Mauritania,MR,4,UNIPD,2011-2015,incoming
-Lesotho,LS,4,UNIPD,2011-2015,incoming
-Tonga,TO,3,UNIPD,2011-2015,incoming
-Cabo Verde,CV,3,UNIPD,2011-2015,incoming
-Falkland Islands,FK,3,UNIPD,2011-2015,incoming
-Chad,TD,2,UNIPD,2011-2015,incoming
-Guam,GU,2,UNIPD,2011-2015,incoming
-Sint Maarten,SX,2,UNIPD,2011-2015,incoming
-"Virgin Islands, U.S.",VI,2,UNIPD,2011-2015,incoming
-North Korea,KP,2,UNIPD,2011-2015,incoming
-Guyana,GY,2,UNIPD,2011-2015,incoming
-Montserrat,MS,2,UNIPD,2011-2015,incoming
-Haiti,HT,2,UNIPD,2011-2015,incoming
-"Bonaire, Sint Eustatius, and Saba",BQ,2,UNIPD,2011-2015,incoming
-St Vincent and Grenadines,VC,2,UNIPD,2011-2015,incoming
-Isle of Man,IM,2,UNIPD,2011-2015,incoming
-Andorra,AD,1,UNIPD,2011-2015,incoming
-Djibouti,DJ,1,UNIPD,2011-2015,incoming
-U.S. Virgin Islands,VI,1,UNIPD,2011-2015,incoming
-Lao (People's Democratic Republic),LA,1,UNIPD,2011-2015,incoming
-Belize,BZ,1,UNIPD,2011-2015,incoming
-Marshall Islands,MH,1,UNIPD,2011-2015,incoming
-Guinea,GN,1,UNIPD,2011-2015,incoming
-Saint Lucia,LC,1,UNIPD,2011-2015,incoming
-British Virgin Islands,VG,1,UNIPD,2011-2015,incoming
-Bahamas,BS,1,UNIPD,2011-2015,incoming
-Palestinian-administered areas,PS,1,UNIPD,2011-2015,incoming
-Timor-Leste,TL,1,UNIPD,2011-2015,incoming
-Former Yugoslav Republic of Macedonia,MK,1,UNIPD,2011-2015,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AD,Andorra,1,UNIPD,2011-2015,incoming
+AE,United Arab Emirates,1150,UNIPD,2011-2015,incoming
+AF,Afghanistan,4,UNIPD,2011-2015,incoming
+AG,Antigua and Barbuda,74,UNIPD,2011-2015,incoming
+AL,Albania,183,UNIPD,2011-2015,incoming
+AM,Armenia,6925,UNIPD,2011-2015,incoming
+AO,Angola,117,UNIPD,2011-2015,incoming
+AR,Argentina,20189,UNIPD,2011-2015,incoming
+AS,American Samoa,30,UNIPD,2011-2015,incoming
+AT,Austria,38116,UNIPD,2011-2015,incoming
+AU,Australia,105802,UNIPD,2011-2015,incoming
+AZ,Azerbaijan,3072,UNIPD,2011-2015,incoming
+BA,Bosnia and Herzegovina,317,UNIPD,2011-2015,incoming
+BB,Barbados,367,UNIPD,2011-2015,incoming
+BD,Bangladesh,665,UNIPD,2011-2015,incoming
+BE,Belgium,79263,UNIPD,2011-2015,incoming
+BF,Burkina Faso,159,UNIPD,2011-2015,incoming
+BG,Bulgaria,15587,UNIPD,2011-2015,incoming
+BH,Bahrain,634,UNIPD,2011-2015,incoming
+BI,Burundi,33,UNIPD,2011-2015,incoming
+BJ,Benin,236,UNIPD,2011-2015,incoming
+BM,Bermuda,5,UNIPD,2011-2015,incoming
+BN,Brunei,57,UNIPD,2011-2015,incoming
+BO,Bolivia,54,UNIPD,2011-2015,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",2,UNIPD,2011-2015,incoming
+BR,Brazil,96656,UNIPD,2011-2015,incoming
+BS,Bahamas,1,UNIPD,2011-2015,incoming
+BT,Bhutan,111,UNIPD,2011-2015,incoming
+BW,Botswana,56,UNIPD,2011-2015,incoming
+BY,Belarus,9746,UNIPD,2011-2015,incoming
+BZ,Belize,1,UNIPD,2011-2015,incoming
+CA,Canada,126283,UNIPD,2011-2015,incoming
+CD,DR Congo,50,UNIPD,2011-2015,incoming
+CF,Central African Republic,7,UNIPD,2011-2015,incoming
+CG,Congo Republic,21,UNIPD,2011-2015,incoming
+CH,Switzerland,118242,UNIPD,2011-2015,incoming
+CI,Ivory Coast,75,UNIPD,2011-2015,incoming
+CL,Chile,21361,UNIPD,2011-2015,incoming
+CM,Cameroon,308,UNIPD,2011-2015,incoming
+CN,China,226554,UNIPD,2011-2015,incoming
+CO,Colombia,13730,UNIPD,2011-2015,incoming
+CR,Costa Rica,328,UNIPD,2011-2015,incoming
+CU,Cuba,1750,UNIPD,2011-2015,incoming
+CV,Cabo Verde,3,UNIPD,2011-2015,incoming
+CW,Curaçao,71,UNIPD,2011-2015,incoming
+CY,Cyprus,6635,UNIPD,2011-2015,incoming
+CZ,Czechia,32593,UNIPD,2011-2015,incoming
+DE,Germany,362138,UNIPD,2011-2015,incoming
+DJ,Djibouti,1,UNIPD,2011-2015,incoming
+DK,Denmark,43272,UNIPD,2011-2015,incoming
+DO,Dominican Republic,26,UNIPD,2011-2015,incoming
+DZ,Algeria,918,UNIPD,2011-2015,incoming
+EC,Ecuador,905,UNIPD,2011-2015,incoming
+EE,Estonia,7847,UNIPD,2011-2015,incoming
+EG,Egypt,14258,UNIPD,2011-2015,incoming
+ER,Eritrea,20,UNIPD,2011-2015,incoming
+ES,Spain,251605,UNIPD,2011-2015,incoming
+ET,Ethiopia,1092,UNIPD,2011-2015,incoming
+EU,European Union,19,UNIPD,2011-2015,incoming
+FI,Finland,76658,UNIPD,2011-2015,incoming
+FJ,Fiji,52,UNIPD,2011-2015,incoming
+FK,Falkland Islands,3,UNIPD,2011-2015,incoming
+FO,Faroe Islands,10,UNIPD,2011-2015,incoming
+FR,France,984125,UNIPD,2011-2015,incoming
+GA,Gabon,44,UNIPD,2011-2015,incoming
+GB,United Kingdom,420716,UNIPD,2011-2015,incoming
+GD,Grenada,125,UNIPD,2011-2015,incoming
+GE,Georgia,7660,UNIPD,2011-2015,incoming
+GF,French Guiana,41,UNIPD,2011-2015,incoming
+GH,Ghana,533,UNIPD,2011-2015,incoming
+GI,Gibraltar,15,UNIPD,2011-2015,incoming
+GL,Greenland,33,UNIPD,2011-2015,incoming
+GM,The Gambia,5,UNIPD,2011-2015,incoming
+GN,Guinea,1,UNIPD,2011-2015,incoming
+GP,Guadeloupe,302,UNIPD,2011-2015,incoming
+GR,Greece,47931,UNIPD,2011-2015,incoming
+GT,Guatemala,74,UNIPD,2011-2015,incoming
+GU,Guam,2,UNIPD,2011-2015,incoming
+GW,Guinea-Bissau,9,UNIPD,2011-2015,incoming
+GY,Guyana,2,UNIPD,2011-2015,incoming
+HK,Hong Kong,12158,UNIPD,2011-2015,incoming
+HN,Honduras,60,UNIPD,2011-2015,incoming
+HR,Croatia,25440,UNIPD,2011-2015,incoming
+HT,Haiti,2,UNIPD,2011-2015,incoming
+HU,Hungary,57501,UNIPD,2011-2015,incoming
+ID,Indonesia,804,UNIPD,2011-2015,incoming
+IE,Ireland,23554,UNIPD,2011-2015,incoming
+IL,Israel,20964,UNIPD,2011-2015,incoming
+IM,Isle of Man,2,UNIPD,2011-2015,incoming
+IN,India,124419,UNIPD,2011-2015,incoming
+IQ,Iraq,267,UNIPD,2011-2015,incoming
+IR,Iran,26787,UNIPD,2011-2015,incoming
+IS,Iceland,2103,UNIPD,2011-2015,incoming
+IT,Italy,900530,UNIPD,2011-2015,incoming
+JE,Jersey,4,UNIPD,2011-2015,incoming
+JM,Jamaica,600,UNIPD,2011-2015,incoming
+JO,Jordan,1510,UNIPD,2011-2015,incoming
+JP,Japan,152520,UNIPD,2011-2015,incoming
+KE,Kenya,450,UNIPD,2011-2015,incoming
+KG,Kyrgyzstan,24,UNIPD,2011-2015,incoming
+KH,Cambodia,182,UNIPD,2011-2015,incoming
+KN,St Kitts and Nevis,16,UNIPD,2011-2015,incoming
+KP,North Korea,2,UNIPD,2011-2015,incoming
+KR,South Korea,112498,UNIPD,2011-2015,incoming
+KW,Kuwait,266,UNIPD,2011-2015,incoming
+KZ,Kazakhstan,333,UNIPD,2011-2015,incoming
+LA,Laos,10,UNIPD,2011-2015,incoming
+LB,Lebanon,1135,UNIPD,2011-2015,incoming
+LC,Saint Lucia,1,UNIPD,2011-2015,incoming
+LI,Liechtenstein,26,UNIPD,2011-2015,incoming
+LK,Sri Lanka,653,UNIPD,2011-2015,incoming
+LR,Liberia,10,UNIPD,2011-2015,incoming
+LS,Lesotho,4,UNIPD,2011-2015,incoming
+LT,Lithuania,6001,UNIPD,2011-2015,incoming
+LU,Luxembourg,822,UNIPD,2011-2015,incoming
+LV,Latvia,641,UNIPD,2011-2015,incoming
+LY,Libya,36,UNIPD,2011-2015,incoming
+MA,Morocco,5441,UNIPD,2011-2015,incoming
+MC,Monaco,26,UNIPD,2011-2015,incoming
+MD,Moldova,158,UNIPD,2011-2015,incoming
+ME,Montenegro,220,UNIPD,2011-2015,incoming
+MG,Madagascar,31,UNIPD,2011-2015,incoming
+MH,Marshall Islands,1,UNIPD,2011-2015,incoming
+MK,North Macedonia,161,UNIPD,2011-2015,incoming
+ML,Mali,34,UNIPD,2011-2015,incoming
+MM,Myanmar,76,UNIPD,2011-2015,incoming
+MN,Mongolia,213,UNIPD,2011-2015,incoming
+MO,Macao,393,UNIPD,2011-2015,incoming
+MQ,Martinique,8,UNIPD,2011-2015,incoming
+MR,Mauritania,4,UNIPD,2011-2015,incoming
+MS,Montserrat,2,UNIPD,2011-2015,incoming
+MT,Malta,259,UNIPD,2011-2015,incoming
+MU,Mauritius,32,UNIPD,2011-2015,incoming
+MV,Maldives,10,UNIPD,2011-2015,incoming
+MW,Malawi,94,UNIPD,2011-2015,incoming
+MX,Mexico,46347,UNIPD,2011-2015,incoming
+MY,Malaysia,7613,UNIPD,2011-2015,incoming
+MZ,Mozambique,191,UNIPD,2011-2015,incoming
+NC,New Caledonia,48,UNIPD,2011-2015,incoming
+NE,Niger,45,UNIPD,2011-2015,incoming
+NG,Nigeria,968,UNIPD,2011-2015,incoming
+NI,Nicaragua,52,UNIPD,2011-2015,incoming
+NL,The Netherlands,124929,UNIPD,2011-2015,incoming
+NO,Norway,31605,UNIPD,2011-2015,incoming
+NP,Nepal,245,UNIPD,2011-2015,incoming
+NZ,New Zealand,18276,UNIPD,2011-2015,incoming
+OM,Oman,466,UNIPD,2011-2015,incoming
+PA,Panama,132,UNIPD,2011-2015,incoming
+PE,Peru,2615,UNIPD,2011-2015,incoming
+PF,French Polynesia,47,UNIPD,2011-2015,incoming
+PG,Papua New Guinea,18,UNIPD,2011-2015,incoming
+PH,Philippines,841,UNIPD,2011-2015,incoming
+PK,Pakistan,12717,UNIPD,2011-2015,incoming
+PL,Poland,82855,UNIPD,2011-2015,incoming
+PR,Puerto Rico,7265,UNIPD,2011-2015,incoming
+PS,Palestine,251,UNIPD,2011-2015,incoming
+PT,Portugal,34647,UNIPD,2011-2015,incoming
+PW,Palau,45,UNIPD,2011-2015,incoming
+PY,Paraguay,112,UNIPD,2011-2015,incoming
+QA,Qatar,2177,UNIPD,2011-2015,incoming
+RE,Réunion,300,UNIPD,2011-2015,incoming
+RO,Romania,12464,UNIPD,2011-2015,incoming
+RS,Serbia,12906,UNIPD,2011-2015,incoming
+RU,Russia,141710,UNIPD,2011-2015,incoming
+RW,Rwanda,56,UNIPD,2011-2015,incoming
+SA,Saudi Arabia,6594,UNIPD,2011-2015,incoming
+SC,Seychelles,48,UNIPD,2011-2015,incoming
+SD,Sudan,106,UNIPD,2011-2015,incoming
+SE,Sweden,46659,UNIPD,2011-2015,incoming
+SG,Singapore,12150,UNIPD,2011-2015,incoming
+SI,Slovenia,8824,UNIPD,2011-2015,incoming
+SJ,Svalbard and Jan Mayen,15,UNIPD,2011-2015,incoming
+SK,Slovakia,16165,UNIPD,2011-2015,incoming
+SL,Sierra Leone,9,UNIPD,2011-2015,incoming
+SM,San Marino,44,UNIPD,2011-2015,incoming
+SN,Senegal,137,UNIPD,2011-2015,incoming
+SO,Somalia,45,UNIPD,2011-2015,incoming
+SR,Suriname,8,UNIPD,2011-2015,incoming
+SS,South Sudan,4,UNIPD,2011-2015,incoming
+SV,El Salvador,55,UNIPD,2011-2015,incoming
+SX,Sint Maarten,2,UNIPD,2011-2015,incoming
+SY,Syria,64,UNIPD,2011-2015,incoming
+TD,Chad,2,UNIPD,2011-2015,incoming
+TG,Togo,26,UNIPD,2011-2015,incoming
+TH,Thailand,7157,UNIPD,2011-2015,incoming
+TJ,Tajikistan,63,UNIPD,2011-2015,incoming
+TL,Timor-Leste,1,UNIPD,2011-2015,incoming
+TN,Tunisia,1750,UNIPD,2011-2015,incoming
+TO,Tonga,3,UNIPD,2011-2015,incoming
+TR,Turkey,82132,UNIPD,2011-2015,incoming
+TT,Trinidad and Tobago,55,UNIPD,2011-2015,incoming
+TW,Taiwan,58525,UNIPD,2011-2015,incoming
+TZ,Tanzania,404,UNIPD,2011-2015,incoming
+UA,Ukraine,13954,UNIPD,2011-2015,incoming
+UG,Uganda,399,UNIPD,2011-2015,incoming
+US,United States,1536904,UNIPD,2011-2015,incoming
+UY,Uruguay,805,UNIPD,2011-2015,incoming
+UZ,Uzbekistan,1953,UNIPD,2011-2015,incoming
+VC,St Vincent and Grenadines,2,UNIPD,2011-2015,incoming
+VE,Venezuela,624,UNIPD,2011-2015,incoming
+VG,British Virgin Islands,1,UNIPD,2011-2015,incoming
+VI,U.S. Virgin Islands,3,UNIPD,2011-2015,incoming
+VN,Vietnam,2342,UNIPD,2011-2015,incoming
+XK,Kosovo,39,UNIPD,2011-2015,incoming
+YE,Yemen,153,UNIPD,2011-2015,incoming
+ZA,South Africa,21353,UNIPD,2011-2015,incoming
+ZM,Zambia,93,UNIPD,2011-2015,incoming
+ZW,Zimbabwe,129,UNIPD,2011-2015,incoming

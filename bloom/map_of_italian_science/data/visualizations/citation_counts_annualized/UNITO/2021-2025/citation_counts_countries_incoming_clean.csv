@@ -1,245 +1,225 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,1214438,UNITO,2021-2025,incoming
-France,FR,732607,UNITO,2021-2025,incoming
-China,CN,732384,UNITO,2021-2025,incoming
-Italy,IT,613697,UNITO,2021-2025,incoming
-Germany,DE,385516,UNITO,2021-2025,incoming
-United Kingdom,GB,385449,UNITO,2021-2025,incoming
-Spain,ES,305615,UNITO,2021-2025,incoming
-Japan,JP,175329,UNITO,2021-2025,incoming
-Canada,CA,146132,UNITO,2021-2025,incoming
-India,IN,143218,UNITO,2021-2025,incoming
-Australia,AU,137306,UNITO,2021-2025,incoming
-The Netherlands,NL,126364,UNITO,2021-2025,incoming
-Switzerland,CH,114964,UNITO,2021-2025,incoming
-South Korea,KR,111798,UNITO,2021-2025,incoming
-Brazil,BR,107583,UNITO,2021-2025,incoming
-Poland,PL,87992,UNITO,2021-2025,incoming
-Russia,RU,80221,UNITO,2021-2025,incoming
-Portugal,PT,63155,UNITO,2021-2025,incoming
-Denmark,DK,61760,UNITO,2021-2025,incoming
-Belgium,BE,60990,UNITO,2021-2025,incoming
-Iran,IR,60198,UNITO,2021-2025,incoming
-Taiwan,TW,59441,UNITO,2021-2025,incoming
-Türkiye,TR,59202,UNITO,2021-2025,incoming
-Austria,AT,57641,UNITO,2021-2025,incoming
-Sweden,SE,56457,UNITO,2021-2025,incoming
-China (People's Republic of),CN,48236,UNITO,2021-2025,incoming
-Greece,GR,44674,UNITO,2021-2025,incoming
-Finland,FI,44643,UNITO,2021-2025,incoming
-Czechia,CZ,34687,UNITO,2021-2025,incoming
-Mexico,MX,31250,UNITO,2021-2025,incoming
-Norway,NO,30276,UNITO,2021-2025,incoming
-Hungary,HU,30171,UNITO,2021-2025,incoming
-Israel,IL,28391,UNITO,2021-2025,incoming
-Egypt,EG,26417,UNITO,2021-2025,incoming
-Chile,CL,26101,UNITO,2021-2025,incoming
-Saudi Arabia,SA,25740,UNITO,2021-2025,incoming
-Ireland,IE,24111,UNITO,2021-2025,incoming
-Argentina,AR,23906,UNITO,2021-2025,incoming
-South Africa,ZA,23865,UNITO,2021-2025,incoming
-Netherlands,NL,23100,UNITO,2021-2025,incoming
-Singapore,SG,22751,UNITO,2021-2025,incoming
-Hong Kong,HK,21808,UNITO,2021-2025,incoming
-Romania,RO,21377,UNITO,2021-2025,incoming
-Pakistan,PK,21055,UNITO,2021-2025,incoming
-Malaysia,MY,17931,UNITO,2021-2025,incoming
-Thailand,TH,16753,UNITO,2021-2025,incoming
-Croatia,HR,14169,UNITO,2021-2025,incoming
-Colombia,CO,13715,UNITO,2021-2025,incoming
-Slovakia,SK,13090,UNITO,2021-2025,incoming
-Serbia,RS,12599,UNITO,2021-2025,incoming
-New Zealand,NZ,11575,UNITO,2021-2025,incoming
-Indonesia,ID,10738,UNITO,2021-2025,incoming
-Slovenia,SI,10627,UNITO,2021-2025,incoming
-Ukraine,UA,8288,UNITO,2021-2025,incoming
-Morocco,MA,8249,UNITO,2021-2025,incoming
-Bulgaria,BG,7864,UNITO,2021-2025,incoming
-United Arab Emirates,AE,7623,UNITO,2021-2025,incoming
-Vietnam,VN,7323,UNITO,2021-2025,incoming
-Nigeria,NG,6973,UNITO,2021-2025,incoming
-Cyprus,CY,5865,UNITO,2021-2025,incoming
-Bangladesh,BD,5533,UNITO,2021-2025,incoming
-Philippines,PH,5201,UNITO,2021-2025,incoming
-Iraq,IQ,5098,UNITO,2021-2025,incoming
-Qatar,QA,5080,UNITO,2021-2025,incoming
-Estonia,EE,5058,UNITO,2021-2025,incoming
-Tunisia,TN,4733,UNITO,2021-2025,incoming
-Ecuador,EC,4616,UNITO,2021-2025,incoming
-Jordan,JO,4495,UNITO,2021-2025,incoming
-Peru,PE,4468,UNITO,2021-2025,incoming
-Lithuania,LT,4299,UNITO,2021-2025,incoming
-Korea (Republic of),KR,4183,UNITO,2021-2025,incoming
-Lebanon,LB,4009,UNITO,2021-2025,incoming
-Belarus,BY,3994,UNITO,2021-2025,incoming
-Ethiopia,ET,3835,UNITO,2021-2025,incoming
-Russian Federation,RU,3648,UNITO,2021-2025,incoming
-Georgia,GE,3610,UNITO,2021-2025,incoming
-Sri Lanka,LK,3303,UNITO,2021-2025,incoming
-Turkey,TR,3257,UNITO,2021-2025,incoming
-Latvia,LV,3144,UNITO,2021-2025,incoming
-Ghana,GH,2537,UNITO,2021-2025,incoming
-Czech Republic,CZ,2424,UNITO,2021-2025,incoming
-Kenya,KE,2405,UNITO,2021-2025,incoming
-Armenia,AM,2363,UNITO,2021-2025,incoming
-Algeria,DZ,2354,UNITO,2021-2025,incoming
-Kazakhstan,KZ,2325,UNITO,2021-2025,incoming
-Azerbaijan,AZ,2321,UNITO,2021-2025,incoming
-Puerto Rico,PR,2150,UNITO,2021-2025,incoming
-Luxembourg,LU,1979,UNITO,2021-2025,incoming
-Kuwait,KW,1946,UNITO,2021-2025,incoming
-Iran (Islamic Republic of),IR,1943,UNITO,2021-2025,incoming
-Iceland,IS,1930,UNITO,2021-2025,incoming
-Mongolia,MN,1870,UNITO,2021-2025,incoming
-Uruguay,UY,1785,UNITO,2021-2025,incoming
-Uganda,UG,1769,UNITO,2021-2025,incoming
-Macao,MO,1743,UNITO,2021-2025,incoming
-Uzbekistan,UZ,1535,UNITO,2021-2025,incoming
-Nepal,NP,1468,UNITO,2021-2025,incoming
-Oman,OM,1452,UNITO,2021-2025,incoming
-Bahrain,BH,1349,UNITO,2021-2025,incoming
-Montenegro,ME,1187,UNITO,2021-2025,incoming
-Cameroon,CM,1155,UNITO,2021-2025,incoming
-Palestine,PS,1147,UNITO,2021-2025,incoming
-Tanzania,TZ,1118,UNITO,2021-2025,incoming
-Cuba,CU,1072,UNITO,2021-2025,incoming
-Malta,MT,1062,UNITO,2021-2025,incoming
-Bosnia and Herzegovina,BA,1016,UNITO,2021-2025,incoming
-Réunion,RE,1012,UNITO,2021-2025,incoming
-North Macedonia,MK,888,UNITO,2021-2025,incoming
-Venezuela,VE,815,UNITO,2021-2025,incoming
-Guadeloupe,GP,766,UNITO,2021-2025,incoming
-Yemen,YE,759,UNITO,2021-2025,incoming
-Costa Rica,CR,735,UNITO,2021-2025,incoming
-Cambodia,KH,708,UNITO,2021-2025,incoming
-Sudan,SD,656,UNITO,2021-2025,incoming
-Panama,PA,627,UNITO,2021-2025,incoming
-Malawi,MW,579,UNITO,2021-2025,incoming
-Zimbabwe,ZW,573,UNITO,2021-2025,incoming
-Myanmar,MM,563,UNITO,2021-2025,incoming
-Moldova,MD,549,UNITO,2021-2025,incoming
-Zambia,ZM,536,UNITO,2021-2025,incoming
-Benin,BJ,500,UNITO,2021-2025,incoming
-Antigua and Barbuda,AG,479,UNITO,2021-2025,incoming
-Jamaica,JM,474,UNITO,2021-2025,incoming
-Albania,AL,469,UNITO,2021-2025,incoming
-Burkina Faso,BF,446,UNITO,2021-2025,incoming
-Syria,SY,421,UNITO,2021-2025,incoming
-American Samoa,AS,421,UNITO,2021-2025,incoming
-Guatemala,GT,412,UNITO,2021-2025,incoming
-Rwanda,RW,397,UNITO,2021-2025,incoming
-Senegal,SN,391,UNITO,2021-2025,incoming
-Namibia,,368,UNITO,2021-2025,incoming
-Mozambique,MZ,355,UNITO,2021-2025,incoming
-DR Congo,CD,348,UNITO,2021-2025,incoming
-Botswana,BW,331,UNITO,2021-2025,incoming
-Brunei,BN,289,UNITO,2021-2025,incoming
-French Guiana,GF,282,UNITO,2021-2025,incoming
-Angola,AO,275,UNITO,2021-2025,incoming
-St Kitts and Nevis,KN,272,UNITO,2021-2025,incoming
-Ivory Coast,CI,271,UNITO,2021-2025,incoming
-Somalia,SO,267,UNITO,2021-2025,incoming
-El Salvador,SV,266,UNITO,2021-2025,incoming
-Fiji,FJ,261,UNITO,2021-2025,incoming
-Bolivia,BO,249,UNITO,2021-2025,incoming
-Grenada,GD,245,UNITO,2021-2025,incoming
-Madagascar,MG,236,UNITO,2021-2025,incoming
-Gabon,GA,219,UNITO,2021-2025,incoming
-Libya,LY,216,UNITO,2021-2025,incoming
-Mauritius,MU,208,UNITO,2021-2025,incoming
-Paraguay,PY,191,UNITO,2021-2025,incoming
-Kyrgyzstan,KG,190,UNITO,2021-2025,incoming
-Dominican Republic,DO,175,UNITO,2021-2025,incoming
-Bhutan,BT,173,UNITO,2021-2025,incoming
-Nicaragua,NI,167,UNITO,2021-2025,incoming
-Trinidad and Tobago,TT,166,UNITO,2021-2025,incoming
-Afghanistan,AF,162,UNITO,2021-2025,incoming
-Kosovo,XK,153,UNITO,2021-2025,incoming
-Martinique,MQ,133,UNITO,2021-2025,incoming
-New Caledonia,NC,133,UNITO,2021-2025,incoming
-Viet Nam,VN,126,UNITO,2021-2025,incoming
-The Gambia,GM,123,UNITO,2021-2025,incoming
-Honduras,HN,120,UNITO,2021-2025,incoming
-Barbados,BB,119,UNITO,2021-2025,incoming
-Tanzania (United Republic of),TZ,116,UNITO,2021-2025,incoming
-Togo,TG,97,UNITO,2021-2025,incoming
-Congo Republic,CG,95,UNITO,2021-2025,incoming
-Gibraltar,GI,74,UNITO,2021-2025,incoming
-Niger,NE,74,UNITO,2021-2025,incoming
-Curaçao,CW,72,UNITO,2021-2025,incoming
-Laos,LA,72,UNITO,2021-2025,incoming
-Tajikistan,TJ,71,UNITO,2021-2025,incoming
-Mali,ML,59,UNITO,2021-2025,incoming
-Guyana,GY,57,UNITO,2021-2025,incoming
-Liechtenstein,LI,54,UNITO,2021-2025,incoming
-Papua New Guinea,PG,52,UNITO,2021-2025,incoming
-Faroe Islands,FO,48,UNITO,2021-2025,incoming
-French Polynesia,PF,47,UNITO,2021-2025,incoming
-Burundi,BI,45,UNITO,2021-2025,incoming
-Monaco,MC,45,UNITO,2021-2025,incoming
-Bahamas,BS,43,UNITO,2021-2025,incoming
-Sierra Leone,SL,41,UNITO,2021-2025,incoming
-Cote d'Ivoire,CI,35,UNITO,2021-2025,incoming
-San Marino,SM,34,UNITO,2021-2025,incoming
-Greenland,GL,33,UNITO,2021-2025,incoming
-U.S. Virgin Islands,VI,32,UNITO,2021-2025,incoming
-Guinea,GN,31,UNITO,2021-2025,incoming
-Guinea-Bissau,GW,31,UNITO,2021-2025,incoming
-Seychelles,SC,31,UNITO,2021-2025,incoming
-Guam,GU,30,UNITO,2021-2025,incoming
-Former Yugoslav Republic of Macedonia,MK,29,UNITO,2021-2025,incoming
-Maldives,MV,29,UNITO,2021-2025,incoming
-Svalbard and Jan Mayen,SJ,28,UNITO,2021-2025,incoming
-Saint Lucia,LC,27,UNITO,2021-2025,incoming
-Eswatini,SZ,27,UNITO,2021-2025,incoming
-Sint Maarten,SX,26,UNITO,2021-2025,incoming
-North Korea,KP,24,UNITO,2021-2025,incoming
-Lesotho,LS,24,UNITO,2021-2025,incoming
-Mauritania,MR,23,UNITO,2021-2025,incoming
-Liberia,LR,22,UNITO,2021-2025,incoming
-Oceania,OC,22,UNITO,2021-2025,incoming
-Haiti,HT,22,UNITO,2021-2025,incoming
-Palau,PW,22,UNITO,2021-2025,incoming
-Turkmenistan,TM,21,UNITO,2021-2025,incoming
-Central African Republic,CF,21,UNITO,2021-2025,incoming
-European Union,EU,19,UNITO,2021-2025,incoming
-Suriname,SR,19,UNITO,2021-2025,incoming
-Bermuda,BM,19,UNITO,2021-2025,incoming
-Chad,TD,19,UNITO,2021-2025,incoming
-Samoa,WS,15,UNITO,2021-2025,incoming
-Cabo Verde,CV,15,UNITO,2021-2025,incoming
-Palestinian-administered areas,PS,14,UNITO,2021-2025,incoming
-Congo (Democratic Republic of),CD,14,UNITO,2021-2025,incoming
-South Sudan,SS,14,UNITO,2021-2025,incoming
-Belize,BZ,13,UNITO,2021-2025,incoming
-Timor-Leste,TL,12,UNITO,2021-2025,incoming
-Jersey,JE,12,UNITO,2021-2025,incoming
-"Bonaire, Sint Eustatius, and Saba",BQ,11,UNITO,2021-2025,incoming
-Dominica,DM,10,UNITO,2021-2025,incoming
-Aruba,AW,10,UNITO,2021-2025,incoming
-Andorra,AD,9,UNITO,2021-2025,incoming
-Lao (People's Democratic Republic),LA,8,UNITO,2021-2025,incoming
-Tonga,TO,8,UNITO,2021-2025,incoming
-Micronesia,FM,7,UNITO,2021-2025,incoming
-Vatican City,VA,6,UNITO,2021-2025,incoming
-Mayotte,YT,5,UNITO,2021-2025,incoming
-"Korea, Democratic People's Republic of",KP,4,UNITO,2021-2025,incoming
-Libyan Arab Jamahiriya,LY,4,UNITO,2021-2025,incoming
-Eritrea,ER,4,UNITO,2021-2025,incoming
-St Vincent and Grenadines,VC,3,UNITO,2021-2025,incoming
-Tuvalu,TV,3,UNITO,2021-2025,incoming
-Cayman Islands,KY,3,UNITO,2021-2025,incoming
-Vanuatu,VU,3,UNITO,2021-2025,incoming
-Northern Mariana Islands,MP,3,UNITO,2021-2025,incoming
-Djibouti,DJ,2,UNITO,2021-2025,incoming
-Comoros,KM,2,UNITO,2021-2025,incoming
-Turks and Caicos Islands,TC,2,UNITO,2021-2025,incoming
-Isle of Man,IM,2,UNITO,2021-2025,incoming
-Montserrat,MS,2,UNITO,2021-2025,incoming
-Syrian Arab Republic,SY,2,UNITO,2021-2025,incoming
-United States Minor Outlying Islands,UM,1,UNITO,2021-2025,incoming
-Åland,AX,1,UNITO,2021-2025,incoming
-Falkland Islands,FK,1,UNITO,2021-2025,incoming
-Swaziland,SZ,1,UNITO,2021-2025,incoming
-Equatorial Guinea,GQ,1,UNITO,2021-2025,incoming
-Cape Verde,CV,1,UNITO,2021-2025,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AD,Andorra,9,UNITO,2021-2025,incoming
+AE,United Arab Emirates,7623,UNITO,2021-2025,incoming
+AF,Afghanistan,162,UNITO,2021-2025,incoming
+AG,Antigua and Barbuda,479,UNITO,2021-2025,incoming
+AL,Albania,469,UNITO,2021-2025,incoming
+AM,Armenia,2363,UNITO,2021-2025,incoming
+AO,Angola,275,UNITO,2021-2025,incoming
+AR,Argentina,23906,UNITO,2021-2025,incoming
+AS,American Samoa,421,UNITO,2021-2025,incoming
+AT,Austria,57641,UNITO,2021-2025,incoming
+AU,Australia,137306,UNITO,2021-2025,incoming
+AW,Aruba,10,UNITO,2021-2025,incoming
+AX,Åland,1,UNITO,2021-2025,incoming
+AZ,Azerbaijan,2321,UNITO,2021-2025,incoming
+BA,Bosnia and Herzegovina,1016,UNITO,2021-2025,incoming
+BB,Barbados,119,UNITO,2021-2025,incoming
+BD,Bangladesh,5533,UNITO,2021-2025,incoming
+BE,Belgium,60990,UNITO,2021-2025,incoming
+BF,Burkina Faso,446,UNITO,2021-2025,incoming
+BG,Bulgaria,7864,UNITO,2021-2025,incoming
+BH,Bahrain,1349,UNITO,2021-2025,incoming
+BI,Burundi,45,UNITO,2021-2025,incoming
+BJ,Benin,500,UNITO,2021-2025,incoming
+BM,Bermuda,19,UNITO,2021-2025,incoming
+BN,Brunei,289,UNITO,2021-2025,incoming
+BO,Bolivia,249,UNITO,2021-2025,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",11,UNITO,2021-2025,incoming
+BR,Brazil,107583,UNITO,2021-2025,incoming
+BS,Bahamas,43,UNITO,2021-2025,incoming
+BT,Bhutan,173,UNITO,2021-2025,incoming
+BW,Botswana,331,UNITO,2021-2025,incoming
+BY,Belarus,3994,UNITO,2021-2025,incoming
+BZ,Belize,13,UNITO,2021-2025,incoming
+CA,Canada,146132,UNITO,2021-2025,incoming
+CD,DR Congo,362,UNITO,2021-2025,incoming
+CF,Central African Republic,21,UNITO,2021-2025,incoming
+CG,Congo Republic,95,UNITO,2021-2025,incoming
+CH,Switzerland,114964,UNITO,2021-2025,incoming
+CI,Ivory Coast,306,UNITO,2021-2025,incoming
+CL,Chile,26101,UNITO,2021-2025,incoming
+CM,Cameroon,1155,UNITO,2021-2025,incoming
+CN,China,780620,UNITO,2021-2025,incoming
+CO,Colombia,13715,UNITO,2021-2025,incoming
+CR,Costa Rica,735,UNITO,2021-2025,incoming
+CU,Cuba,1072,UNITO,2021-2025,incoming
+CV,Cabo Verde,16,UNITO,2021-2025,incoming
+CW,Curaçao,72,UNITO,2021-2025,incoming
+CY,Cyprus,5865,UNITO,2021-2025,incoming
+CZ,Czechia,37111,UNITO,2021-2025,incoming
+DE,Germany,385516,UNITO,2021-2025,incoming
+DJ,Djibouti,2,UNITO,2021-2025,incoming
+DK,Denmark,61760,UNITO,2021-2025,incoming
+DM,Dominica,10,UNITO,2021-2025,incoming
+DO,Dominican Republic,175,UNITO,2021-2025,incoming
+DZ,Algeria,2354,UNITO,2021-2025,incoming
+EC,Ecuador,4616,UNITO,2021-2025,incoming
+EE,Estonia,5058,UNITO,2021-2025,incoming
+EG,Egypt,26417,UNITO,2021-2025,incoming
+ER,Eritrea,4,UNITO,2021-2025,incoming
+ES,Spain,305615,UNITO,2021-2025,incoming
+ET,Ethiopia,3835,UNITO,2021-2025,incoming
+EU,European Union,19,UNITO,2021-2025,incoming
+FI,Finland,44643,UNITO,2021-2025,incoming
+FJ,Fiji,261,UNITO,2021-2025,incoming
+FK,Falkland Islands,1,UNITO,2021-2025,incoming
+FM,Micronesia,7,UNITO,2021-2025,incoming
+FO,Faroe Islands,48,UNITO,2021-2025,incoming
+FR,France,732607,UNITO,2021-2025,incoming
+GA,Gabon,219,UNITO,2021-2025,incoming
+GB,United Kingdom,385449,UNITO,2021-2025,incoming
+GD,Grenada,245,UNITO,2021-2025,incoming
+GE,Georgia,3610,UNITO,2021-2025,incoming
+GF,French Guiana,282,UNITO,2021-2025,incoming
+GH,Ghana,2537,UNITO,2021-2025,incoming
+GI,Gibraltar,74,UNITO,2021-2025,incoming
+GL,Greenland,33,UNITO,2021-2025,incoming
+GM,The Gambia,123,UNITO,2021-2025,incoming
+GN,Guinea,31,UNITO,2021-2025,incoming
+GP,Guadeloupe,766,UNITO,2021-2025,incoming
+GQ,Equatorial Guinea,1,UNITO,2021-2025,incoming
+GR,Greece,44674,UNITO,2021-2025,incoming
+GT,Guatemala,412,UNITO,2021-2025,incoming
+GU,Guam,30,UNITO,2021-2025,incoming
+GW,Guinea-Bissau,31,UNITO,2021-2025,incoming
+GY,Guyana,57,UNITO,2021-2025,incoming
+HK,Hong Kong,21808,UNITO,2021-2025,incoming
+HN,Honduras,120,UNITO,2021-2025,incoming
+HR,Croatia,14169,UNITO,2021-2025,incoming
+HT,Haiti,22,UNITO,2021-2025,incoming
+HU,Hungary,30171,UNITO,2021-2025,incoming
+ID,Indonesia,10738,UNITO,2021-2025,incoming
+IE,Ireland,24111,UNITO,2021-2025,incoming
+IL,Israel,28391,UNITO,2021-2025,incoming
+IM,Isle of Man,2,UNITO,2021-2025,incoming
+IN,India,143218,UNITO,2021-2025,incoming
+IQ,Iraq,5098,UNITO,2021-2025,incoming
+IR,Iran,62141,UNITO,2021-2025,incoming
+IS,Iceland,1930,UNITO,2021-2025,incoming
+IT,Italy,613697,UNITO,2021-2025,incoming
+JE,Jersey,12,UNITO,2021-2025,incoming
+JM,Jamaica,474,UNITO,2021-2025,incoming
+JO,Jordan,4495,UNITO,2021-2025,incoming
+JP,Japan,175329,UNITO,2021-2025,incoming
+KE,Kenya,2405,UNITO,2021-2025,incoming
+KG,Kyrgyzstan,190,UNITO,2021-2025,incoming
+KH,Cambodia,708,UNITO,2021-2025,incoming
+KM,Comoros,2,UNITO,2021-2025,incoming
+KN,St Kitts and Nevis,272,UNITO,2021-2025,incoming
+KP,North Korea,28,UNITO,2021-2025,incoming
+KR,South Korea,115981,UNITO,2021-2025,incoming
+KW,Kuwait,1946,UNITO,2021-2025,incoming
+KY,Cayman Islands,3,UNITO,2021-2025,incoming
+KZ,Kazakhstan,2325,UNITO,2021-2025,incoming
+LA,Laos,80,UNITO,2021-2025,incoming
+LB,Lebanon,4009,UNITO,2021-2025,incoming
+LC,Saint Lucia,27,UNITO,2021-2025,incoming
+LI,Liechtenstein,54,UNITO,2021-2025,incoming
+LK,Sri Lanka,3303,UNITO,2021-2025,incoming
+LR,Liberia,22,UNITO,2021-2025,incoming
+LS,Lesotho,24,UNITO,2021-2025,incoming
+LT,Lithuania,4299,UNITO,2021-2025,incoming
+LU,Luxembourg,1979,UNITO,2021-2025,incoming
+LV,Latvia,3144,UNITO,2021-2025,incoming
+LY,Libya,220,UNITO,2021-2025,incoming
+MA,Morocco,8249,UNITO,2021-2025,incoming
+MC,Monaco,45,UNITO,2021-2025,incoming
+MD,Moldova,549,UNITO,2021-2025,incoming
+ME,Montenegro,1187,UNITO,2021-2025,incoming
+MG,Madagascar,236,UNITO,2021-2025,incoming
+MK,North Macedonia,917,UNITO,2021-2025,incoming
+ML,Mali,59,UNITO,2021-2025,incoming
+MM,Myanmar,563,UNITO,2021-2025,incoming
+MN,Mongolia,1870,UNITO,2021-2025,incoming
+MO,Macao,1743,UNITO,2021-2025,incoming
+MP,Northern Mariana Islands,3,UNITO,2021-2025,incoming
+MQ,Martinique,133,UNITO,2021-2025,incoming
+MR,Mauritania,23,UNITO,2021-2025,incoming
+MS,Montserrat,2,UNITO,2021-2025,incoming
+MT,Malta,1062,UNITO,2021-2025,incoming
+MU,Mauritius,208,UNITO,2021-2025,incoming
+MV,Maldives,29,UNITO,2021-2025,incoming
+MW,Malawi,579,UNITO,2021-2025,incoming
+MX,Mexico,31250,UNITO,2021-2025,incoming
+MY,Malaysia,17931,UNITO,2021-2025,incoming
+MZ,Mozambique,355,UNITO,2021-2025,incoming
+NC,New Caledonia,133,UNITO,2021-2025,incoming
+NE,Niger,74,UNITO,2021-2025,incoming
+NG,Nigeria,6973,UNITO,2021-2025,incoming
+NI,Nicaragua,167,UNITO,2021-2025,incoming
+NL,The Netherlands,149464,UNITO,2021-2025,incoming
+NO,Norway,30276,UNITO,2021-2025,incoming
+NP,Nepal,1468,UNITO,2021-2025,incoming
+NZ,New Zealand,11575,UNITO,2021-2025,incoming
+OC,Oceania,22,UNITO,2021-2025,incoming
+OM,Oman,1452,UNITO,2021-2025,incoming
+PA,Panama,627,UNITO,2021-2025,incoming
+PE,Peru,4468,UNITO,2021-2025,incoming
+PF,French Polynesia,47,UNITO,2021-2025,incoming
+PG,Papua New Guinea,52,UNITO,2021-2025,incoming
+PH,Philippines,5201,UNITO,2021-2025,incoming
+PK,Pakistan,21055,UNITO,2021-2025,incoming
+PL,Poland,87992,UNITO,2021-2025,incoming
+PR,Puerto Rico,2150,UNITO,2021-2025,incoming
+PS,Palestine,1161,UNITO,2021-2025,incoming
+PT,Portugal,63155,UNITO,2021-2025,incoming
+PW,Palau,22,UNITO,2021-2025,incoming
+PY,Paraguay,191,UNITO,2021-2025,incoming
+QA,Qatar,5080,UNITO,2021-2025,incoming
+RE,Réunion,1012,UNITO,2021-2025,incoming
+RO,Romania,21377,UNITO,2021-2025,incoming
+RS,Serbia,12599,UNITO,2021-2025,incoming
+RU,Russia,83869,UNITO,2021-2025,incoming
+RW,Rwanda,397,UNITO,2021-2025,incoming
+SA,Saudi Arabia,25740,UNITO,2021-2025,incoming
+SC,Seychelles,31,UNITO,2021-2025,incoming
+SD,Sudan,656,UNITO,2021-2025,incoming
+SE,Sweden,56457,UNITO,2021-2025,incoming
+SG,Singapore,22751,UNITO,2021-2025,incoming
+SI,Slovenia,10627,UNITO,2021-2025,incoming
+SJ,Svalbard and Jan Mayen,28,UNITO,2021-2025,incoming
+SK,Slovakia,13090,UNITO,2021-2025,incoming
+SL,Sierra Leone,41,UNITO,2021-2025,incoming
+SM,San Marino,34,UNITO,2021-2025,incoming
+SN,Senegal,391,UNITO,2021-2025,incoming
+SO,Somalia,267,UNITO,2021-2025,incoming
+SR,Suriname,19,UNITO,2021-2025,incoming
+SS,South Sudan,14,UNITO,2021-2025,incoming
+SV,El Salvador,266,UNITO,2021-2025,incoming
+SX,Sint Maarten,26,UNITO,2021-2025,incoming
+SY,Syria,423,UNITO,2021-2025,incoming
+SZ,Eswatini,28,UNITO,2021-2025,incoming
+TC,Turks and Caicos Islands,2,UNITO,2021-2025,incoming
+TD,Chad,19,UNITO,2021-2025,incoming
+TG,Togo,97,UNITO,2021-2025,incoming
+TH,Thailand,16753,UNITO,2021-2025,incoming
+TJ,Tajikistan,71,UNITO,2021-2025,incoming
+TL,Timor-Leste,12,UNITO,2021-2025,incoming
+TM,Turkmenistan,21,UNITO,2021-2025,incoming
+TN,Tunisia,4733,UNITO,2021-2025,incoming
+TO,Tonga,8,UNITO,2021-2025,incoming
+TR,Turkey,62459,UNITO,2021-2025,incoming
+TT,Trinidad and Tobago,166,UNITO,2021-2025,incoming
+TV,Tuvalu,3,UNITO,2021-2025,incoming
+TW,Taiwan,59441,UNITO,2021-2025,incoming
+TZ,Tanzania,1234,UNITO,2021-2025,incoming
+UA,Ukraine,8288,UNITO,2021-2025,incoming
+UG,Uganda,1769,UNITO,2021-2025,incoming
+UM,United States Minor Outlying Islands,1,UNITO,2021-2025,incoming
+US,United States,1214438,UNITO,2021-2025,incoming
+UY,Uruguay,1785,UNITO,2021-2025,incoming
+UZ,Uzbekistan,1535,UNITO,2021-2025,incoming
+VA,Vatican City,6,UNITO,2021-2025,incoming
+VC,St Vincent and Grenadines,3,UNITO,2021-2025,incoming
+VE,Venezuela,815,UNITO,2021-2025,incoming
+VI,U.S. Virgin Islands,32,UNITO,2021-2025,incoming
+VN,Vietnam,7449,UNITO,2021-2025,incoming
+VU,Vanuatu,3,UNITO,2021-2025,incoming
+WS,Samoa,15,UNITO,2021-2025,incoming
+XK,Kosovo,153,UNITO,2021-2025,incoming
+YE,Yemen,759,UNITO,2021-2025,incoming
+YT,Mayotte,5,UNITO,2021-2025,incoming
+ZA,South Africa,23865,UNITO,2021-2025,incoming
+ZM,Zambia,536,UNITO,2021-2025,incoming
+ZW,Zimbabwe,573,UNITO,2021-2025,incoming

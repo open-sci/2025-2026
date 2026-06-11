@@ -1,193 +1,180 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,259205,SNS,2021-2025,incoming
-France,FR,163716,SNS,2021-2025,incoming
-China,CN,128427,SNS,2021-2025,incoming
-Italy,IT,123710,SNS,2021-2025,incoming
-Germany,DE,78725,SNS,2021-2025,incoming
-United Kingdom,GB,73023,SNS,2021-2025,incoming
-Spain,ES,48135,SNS,2021-2025,incoming
-Japan,JP,43730,SNS,2021-2025,incoming
-India,IN,37967,SNS,2021-2025,incoming
-Russia,RU,25946,SNS,2021-2025,incoming
-Switzerland,CH,24548,SNS,2021-2025,incoming
-The Netherlands,NL,21517,SNS,2021-2025,incoming
-Australia,AU,20908,SNS,2021-2025,incoming
-Poland,PL,20506,SNS,2021-2025,incoming
-South Korea,KR,19226,SNS,2021-2025,incoming
-Canada,CA,18492,SNS,2021-2025,incoming
-Türkiye,TR,16643,SNS,2021-2025,incoming
-Brazil,BR,16140,SNS,2021-2025,incoming
-Denmark,DK,15324,SNS,2021-2025,incoming
-China (People's Republic of),CN,11354,SNS,2021-2025,incoming
-Taiwan,TW,11040,SNS,2021-2025,incoming
-Chile,CL,10059,SNS,2021-2025,incoming
-Portugal,PT,9460,SNS,2021-2025,incoming
-Sweden,SE,9309,SNS,2021-2025,incoming
-Belgium,BE,8963,SNS,2021-2025,incoming
-Finland,FI,8471,SNS,2021-2025,incoming
-Greece,GR,8114,SNS,2021-2025,incoming
-Czechia,CZ,7753,SNS,2021-2025,incoming
-Austria,AT,6983,SNS,2021-2025,incoming
-Hungary,HU,6624,SNS,2021-2025,incoming
-Israel,IL,6328,SNS,2021-2025,incoming
-Iran,IR,6171,SNS,2021-2025,incoming
-South Africa,ZA,5716,SNS,2021-2025,incoming
-Mexico,MX,5654,SNS,2021-2025,incoming
-Argentina,AR,5453,SNS,2021-2025,incoming
-Romania,RO,5272,SNS,2021-2025,incoming
-Norway,NO,5164,SNS,2021-2025,incoming
-Slovakia,SK,4790,SNS,2021-2025,incoming
-Pakistan,PK,4207,SNS,2021-2025,incoming
-Hong Kong,HK,4191,SNS,2021-2025,incoming
-Colombia,CO,3700,SNS,2021-2025,incoming
-Egypt,EG,3589,SNS,2021-2025,incoming
-Netherlands,NL,3574,SNS,2021-2025,incoming
-Croatia,HR,3165,SNS,2021-2025,incoming
-Morocco,MA,2970,SNS,2021-2025,incoming
-Ukraine,UA,2515,SNS,2021-2025,incoming
-Slovenia,SI,2423,SNS,2021-2025,incoming
-Ireland,IE,2397,SNS,2021-2025,incoming
-Thailand,TH,2109,SNS,2021-2025,incoming
-Serbia,RS,2077,SNS,2021-2025,incoming
-Bulgaria,BG,1943,SNS,2021-2025,incoming
-Singapore,SG,1892,SNS,2021-2025,incoming
-Saudi Arabia,SA,1865,SNS,2021-2025,incoming
-United Arab Emirates,AE,1771,SNS,2021-2025,incoming
-Cyprus,CY,1718,SNS,2021-2025,incoming
-Belarus,BY,1605,SNS,2021-2025,incoming
-Malaysia,MY,1506,SNS,2021-2025,incoming
-New Zealand,NZ,1498,SNS,2021-2025,incoming
-Azerbaijan,AZ,1436,SNS,2021-2025,incoming
-Georgia,GE,1425,SNS,2021-2025,incoming
-Vietnam,VN,1404,SNS,2021-2025,incoming
-Ecuador,EC,1355,SNS,2021-2025,incoming
-Mongolia,MN,1258,SNS,2021-2025,incoming
-Philippines,PH,1216,SNS,2021-2025,incoming
-Estonia,EE,945,SNS,2021-2025,incoming
-Russian Federation,RU,941,SNS,2021-2025,incoming
-Sri Lanka,LK,851,SNS,2021-2025,incoming
-Indonesia,ID,839,SNS,2021-2025,incoming
-Puerto Rico,PR,819,SNS,2021-2025,incoming
-Turkey,TR,786,SNS,2021-2025,incoming
-Armenia,AM,704,SNS,2021-2025,incoming
-Lithuania,LT,660,SNS,2021-2025,incoming
-Uzbekistan,UZ,602,SNS,2021-2025,incoming
-Qatar,QA,554,SNS,2021-2025,incoming
-Latvia,LV,549,SNS,2021-2025,incoming
-Korea (Republic of),KR,474,SNS,2021-2025,incoming
-Montenegro,ME,460,SNS,2021-2025,incoming
-Kazakhstan,KZ,445,SNS,2021-2025,incoming
-Peru,PE,437,SNS,2021-2025,incoming
-Kuwait,KW,435,SNS,2021-2025,incoming
-Czech Republic,CZ,345,SNS,2021-2025,incoming
-Bangladesh,BD,333,SNS,2021-2025,incoming
-Algeria,DZ,327,SNS,2021-2025,incoming
-Tunisia,TN,321,SNS,2021-2025,incoming
-Cuba,CU,321,SNS,2021-2025,incoming
-Iraq,IQ,282,SNS,2021-2025,incoming
-Nigeria,NG,263,SNS,2021-2025,incoming
-Malta,MT,262,SNS,2021-2025,incoming
-Iceland,IS,252,SNS,2021-2025,incoming
-Uruguay,UY,229,SNS,2021-2025,incoming
-Luxembourg,LU,228,SNS,2021-2025,incoming
-Guatemala,GT,227,SNS,2021-2025,incoming
-Ethiopia,ET,204,SNS,2021-2025,incoming
-Jordan,JO,195,SNS,2021-2025,incoming
-Ghana,GH,180,SNS,2021-2025,incoming
-Iran (Islamic Republic of),IR,168,SNS,2021-2025,incoming
-Costa Rica,CR,150,SNS,2021-2025,incoming
-Bahrain,BH,147,SNS,2021-2025,incoming
-Monaco,MC,144,SNS,2021-2025,incoming
-Macao,MO,116,SNS,2021-2025,incoming
-Uganda,UG,111,SNS,2021-2025,incoming
-Cameroon,CM,107,SNS,2021-2025,incoming
-Palestine,PS,104,SNS,2021-2025,incoming
-Lebanon,LB,98,SNS,2021-2025,incoming
-Zimbabwe,ZW,91,SNS,2021-2025,incoming
-Oman,OM,88,SNS,2021-2025,incoming
-Nepal,NP,68,SNS,2021-2025,incoming
-Venezuela,VE,53,SNS,2021-2025,incoming
-Yemen,YE,49,SNS,2021-2025,incoming
-Moldova,MD,47,SNS,2021-2025,incoming
-Viet Nam,VN,46,SNS,2021-2025,incoming
-Tanzania,TZ,46,SNS,2021-2025,incoming
-Rwanda,RW,46,SNS,2021-2025,incoming
-North Macedonia,MK,39,SNS,2021-2025,incoming
-Kenya,KE,38,SNS,2021-2025,incoming
-Sudan,SD,38,SNS,2021-2025,incoming
-Madagascar,MG,33,SNS,2021-2025,incoming
-Senegal,SN,32,SNS,2021-2025,incoming
-Zambia,ZM,26,SNS,2021-2025,incoming
-Bosnia and Herzegovina,BA,24,SNS,2021-2025,incoming
-Mozambique,MZ,23,SNS,2021-2025,incoming
-Paraguay,PY,22,SNS,2021-2025,incoming
-Albania,AL,21,SNS,2021-2025,incoming
-Honduras,HN,21,SNS,2021-2025,incoming
-Namibia,,19,SNS,2021-2025,incoming
-Syria,SY,18,SNS,2021-2025,incoming
-Bhutan,BT,16,SNS,2021-2025,incoming
-Réunion,RE,16,SNS,2021-2025,incoming
-Panama,PA,15,SNS,2021-2025,incoming
-Brunei,BN,15,SNS,2021-2025,incoming
-Jamaica,JM,15,SNS,2021-2025,incoming
-Nicaragua,NI,14,SNS,2021-2025,incoming
-Cambodia,KH,14,SNS,2021-2025,incoming
-Tajikistan,TJ,12,SNS,2021-2025,incoming
-Myanmar,MM,12,SNS,2021-2025,incoming
-Guadeloupe,GP,12,SNS,2021-2025,incoming
-Benin,BJ,10,SNS,2021-2025,incoming
-Tanzania (United Republic of),TZ,10,SNS,2021-2025,incoming
-Mauritius,MU,10,SNS,2021-2025,incoming
-Antigua and Barbuda,AG,9,SNS,2021-2025,incoming
-St Kitts and Nevis,KN,9,SNS,2021-2025,incoming
-Libya,LY,8,SNS,2021-2025,incoming
-Ivory Coast,CI,8,SNS,2021-2025,incoming
-Afghanistan,AF,8,SNS,2021-2025,incoming
-Burundi,BI,8,SNS,2021-2025,incoming
-Burkina Faso,BF,8,SNS,2021-2025,incoming
-U.S. Virgin Islands,VI,7,SNS,2021-2025,incoming
-Angola,AO,7,SNS,2021-2025,incoming
-Kyrgyzstan,KG,7,SNS,2021-2025,incoming
-Botswana,BW,7,SNS,2021-2025,incoming
-French Guiana,GF,7,SNS,2021-2025,incoming
-DR Congo,CD,6,SNS,2021-2025,incoming
-North Korea,KP,6,SNS,2021-2025,incoming
-Trinidad and Tobago,TT,6,SNS,2021-2025,incoming
-Liechtenstein,LI,6,SNS,2021-2025,incoming
-El Salvador,SV,5,SNS,2021-2025,incoming
-Malawi,MW,5,SNS,2021-2025,incoming
-Mauritania,MR,5,SNS,2021-2025,incoming
-Bolivia,BO,5,SNS,2021-2025,incoming
-Dominican Republic,DO,4,SNS,2021-2025,incoming
-American Samoa,AS,4,SNS,2021-2025,incoming
-Somalia,SO,4,SNS,2021-2025,incoming
-Kosovo,XK,4,SNS,2021-2025,incoming
-New Caledonia,NC,4,SNS,2021-2025,incoming
-Guyana,GY,4,SNS,2021-2025,incoming
-Gabon,GA,4,SNS,2021-2025,incoming
-Guam,GU,3,SNS,2021-2025,incoming
-French Polynesia,PF,3,SNS,2021-2025,incoming
-Papua New Guinea,PG,3,SNS,2021-2025,incoming
-Grenada,GD,3,SNS,2021-2025,incoming
-Sierra Leone,SL,3,SNS,2021-2025,incoming
-Niger,NE,3,SNS,2021-2025,incoming
-Cote d'Ivoire,CI,3,SNS,2021-2025,incoming
-Central African Republic,CF,3,SNS,2021-2025,incoming
-Mali,ML,3,SNS,2021-2025,incoming
-The Gambia,GM,3,SNS,2021-2025,incoming
-Turkmenistan,TM,2,SNS,2021-2025,incoming
-Seychelles,SC,2,SNS,2021-2025,incoming
-Barbados,BB,2,SNS,2021-2025,incoming
-Sint Maarten,SX,2,SNS,2021-2025,incoming
-Togo,TG,2,SNS,2021-2025,incoming
-United States Minor Outlying Islands,UM,2,SNS,2021-2025,incoming
-Fiji,FJ,2,SNS,2021-2025,incoming
-Palestinian-administered areas,PS,2,SNS,2021-2025,incoming
-Eswatini,SZ,2,SNS,2021-2025,incoming
-Lesotho,LS,1,SNS,2021-2025,incoming
-Cayman Islands,KY,1,SNS,2021-2025,incoming
-Moldova (Republic of),MD,1,SNS,2021-2025,incoming
-Curaçao,CW,1,SNS,2021-2025,incoming
-Maldives,MV,1,SNS,2021-2025,incoming
-Bermuda,BM,1,SNS,2021-2025,incoming
-Laos,LA,1,SNS,2021-2025,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,1771,SNS,2021-2025,incoming
+AF,Afghanistan,8,SNS,2021-2025,incoming
+AG,Antigua and Barbuda,9,SNS,2021-2025,incoming
+AL,Albania,21,SNS,2021-2025,incoming
+AM,Armenia,704,SNS,2021-2025,incoming
+AO,Angola,7,SNS,2021-2025,incoming
+AR,Argentina,5453,SNS,2021-2025,incoming
+AS,American Samoa,4,SNS,2021-2025,incoming
+AT,Austria,6983,SNS,2021-2025,incoming
+AU,Australia,20908,SNS,2021-2025,incoming
+AZ,Azerbaijan,1436,SNS,2021-2025,incoming
+BA,Bosnia and Herzegovina,24,SNS,2021-2025,incoming
+BB,Barbados,2,SNS,2021-2025,incoming
+BD,Bangladesh,333,SNS,2021-2025,incoming
+BE,Belgium,8963,SNS,2021-2025,incoming
+BF,Burkina Faso,8,SNS,2021-2025,incoming
+BG,Bulgaria,1943,SNS,2021-2025,incoming
+BH,Bahrain,147,SNS,2021-2025,incoming
+BI,Burundi,8,SNS,2021-2025,incoming
+BJ,Benin,10,SNS,2021-2025,incoming
+BM,Bermuda,1,SNS,2021-2025,incoming
+BN,Brunei,15,SNS,2021-2025,incoming
+BO,Bolivia,5,SNS,2021-2025,incoming
+BR,Brazil,16140,SNS,2021-2025,incoming
+BT,Bhutan,16,SNS,2021-2025,incoming
+BW,Botswana,7,SNS,2021-2025,incoming
+BY,Belarus,1605,SNS,2021-2025,incoming
+CA,Canada,18492,SNS,2021-2025,incoming
+CD,DR Congo,6,SNS,2021-2025,incoming
+CF,Central African Republic,3,SNS,2021-2025,incoming
+CH,Switzerland,24548,SNS,2021-2025,incoming
+CI,Ivory Coast,11,SNS,2021-2025,incoming
+CL,Chile,10059,SNS,2021-2025,incoming
+CM,Cameroon,107,SNS,2021-2025,incoming
+CN,China,139781,SNS,2021-2025,incoming
+CO,Colombia,3700,SNS,2021-2025,incoming
+CR,Costa Rica,150,SNS,2021-2025,incoming
+CU,Cuba,321,SNS,2021-2025,incoming
+CW,Curaçao,1,SNS,2021-2025,incoming
+CY,Cyprus,1718,SNS,2021-2025,incoming
+CZ,Czechia,8098,SNS,2021-2025,incoming
+DE,Germany,78725,SNS,2021-2025,incoming
+DK,Denmark,15324,SNS,2021-2025,incoming
+DO,Dominican Republic,4,SNS,2021-2025,incoming
+DZ,Algeria,327,SNS,2021-2025,incoming
+EC,Ecuador,1355,SNS,2021-2025,incoming
+EE,Estonia,945,SNS,2021-2025,incoming
+EG,Egypt,3589,SNS,2021-2025,incoming
+ES,Spain,48135,SNS,2021-2025,incoming
+ET,Ethiopia,204,SNS,2021-2025,incoming
+FI,Finland,8471,SNS,2021-2025,incoming
+FJ,Fiji,2,SNS,2021-2025,incoming
+FR,France,163716,SNS,2021-2025,incoming
+GA,Gabon,4,SNS,2021-2025,incoming
+GB,United Kingdom,73023,SNS,2021-2025,incoming
+GD,Grenada,3,SNS,2021-2025,incoming
+GE,Georgia,1425,SNS,2021-2025,incoming
+GF,French Guiana,7,SNS,2021-2025,incoming
+GH,Ghana,180,SNS,2021-2025,incoming
+GM,The Gambia,3,SNS,2021-2025,incoming
+GP,Guadeloupe,12,SNS,2021-2025,incoming
+GR,Greece,8114,SNS,2021-2025,incoming
+GT,Guatemala,227,SNS,2021-2025,incoming
+GU,Guam,3,SNS,2021-2025,incoming
+GY,Guyana,4,SNS,2021-2025,incoming
+HK,Hong Kong,4191,SNS,2021-2025,incoming
+HN,Honduras,21,SNS,2021-2025,incoming
+HR,Croatia,3165,SNS,2021-2025,incoming
+HU,Hungary,6624,SNS,2021-2025,incoming
+ID,Indonesia,839,SNS,2021-2025,incoming
+IE,Ireland,2397,SNS,2021-2025,incoming
+IL,Israel,6328,SNS,2021-2025,incoming
+IN,India,37967,SNS,2021-2025,incoming
+IQ,Iraq,282,SNS,2021-2025,incoming
+IR,Iran,6339,SNS,2021-2025,incoming
+IS,Iceland,252,SNS,2021-2025,incoming
+IT,Italy,123710,SNS,2021-2025,incoming
+JM,Jamaica,15,SNS,2021-2025,incoming
+JO,Jordan,195,SNS,2021-2025,incoming
+JP,Japan,43730,SNS,2021-2025,incoming
+KE,Kenya,38,SNS,2021-2025,incoming
+KG,Kyrgyzstan,7,SNS,2021-2025,incoming
+KH,Cambodia,14,SNS,2021-2025,incoming
+KN,St Kitts and Nevis,9,SNS,2021-2025,incoming
+KP,North Korea,6,SNS,2021-2025,incoming
+KR,South Korea,19700,SNS,2021-2025,incoming
+KW,Kuwait,435,SNS,2021-2025,incoming
+KY,Cayman Islands,1,SNS,2021-2025,incoming
+KZ,Kazakhstan,445,SNS,2021-2025,incoming
+LA,Laos,1,SNS,2021-2025,incoming
+LB,Lebanon,98,SNS,2021-2025,incoming
+LI,Liechtenstein,6,SNS,2021-2025,incoming
+LK,Sri Lanka,851,SNS,2021-2025,incoming
+LS,Lesotho,1,SNS,2021-2025,incoming
+LT,Lithuania,660,SNS,2021-2025,incoming
+LU,Luxembourg,228,SNS,2021-2025,incoming
+LV,Latvia,549,SNS,2021-2025,incoming
+LY,Libya,8,SNS,2021-2025,incoming
+MA,Morocco,2970,SNS,2021-2025,incoming
+MC,Monaco,144,SNS,2021-2025,incoming
+MD,Moldova,48,SNS,2021-2025,incoming
+ME,Montenegro,460,SNS,2021-2025,incoming
+MG,Madagascar,33,SNS,2021-2025,incoming
+MK,North Macedonia,39,SNS,2021-2025,incoming
+ML,Mali,3,SNS,2021-2025,incoming
+MM,Myanmar,12,SNS,2021-2025,incoming
+MN,Mongolia,1258,SNS,2021-2025,incoming
+MO,Macao,116,SNS,2021-2025,incoming
+MR,Mauritania,5,SNS,2021-2025,incoming
+MT,Malta,262,SNS,2021-2025,incoming
+MU,Mauritius,10,SNS,2021-2025,incoming
+MV,Maldives,1,SNS,2021-2025,incoming
+MW,Malawi,5,SNS,2021-2025,incoming
+MX,Mexico,5654,SNS,2021-2025,incoming
+MY,Malaysia,1506,SNS,2021-2025,incoming
+MZ,Mozambique,23,SNS,2021-2025,incoming
+NC,New Caledonia,4,SNS,2021-2025,incoming
+NE,Niger,3,SNS,2021-2025,incoming
+NG,Nigeria,263,SNS,2021-2025,incoming
+NI,Nicaragua,14,SNS,2021-2025,incoming
+NL,The Netherlands,25091,SNS,2021-2025,incoming
+NO,Norway,5164,SNS,2021-2025,incoming
+NP,Nepal,68,SNS,2021-2025,incoming
+NZ,New Zealand,1498,SNS,2021-2025,incoming
+OM,Oman,88,SNS,2021-2025,incoming
+PA,Panama,15,SNS,2021-2025,incoming
+PE,Peru,437,SNS,2021-2025,incoming
+PF,French Polynesia,3,SNS,2021-2025,incoming
+PG,Papua New Guinea,3,SNS,2021-2025,incoming
+PH,Philippines,1216,SNS,2021-2025,incoming
+PK,Pakistan,4207,SNS,2021-2025,incoming
+PL,Poland,20506,SNS,2021-2025,incoming
+PR,Puerto Rico,819,SNS,2021-2025,incoming
+PS,Palestine,106,SNS,2021-2025,incoming
+PT,Portugal,9460,SNS,2021-2025,incoming
+PY,Paraguay,22,SNS,2021-2025,incoming
+QA,Qatar,554,SNS,2021-2025,incoming
+RE,Réunion,16,SNS,2021-2025,incoming
+RO,Romania,5272,SNS,2021-2025,incoming
+RS,Serbia,2077,SNS,2021-2025,incoming
+RU,Russia,26887,SNS,2021-2025,incoming
+RW,Rwanda,46,SNS,2021-2025,incoming
+SA,Saudi Arabia,1865,SNS,2021-2025,incoming
+SC,Seychelles,2,SNS,2021-2025,incoming
+SD,Sudan,38,SNS,2021-2025,incoming
+SE,Sweden,9309,SNS,2021-2025,incoming
+SG,Singapore,1892,SNS,2021-2025,incoming
+SI,Slovenia,2423,SNS,2021-2025,incoming
+SK,Slovakia,4790,SNS,2021-2025,incoming
+SL,Sierra Leone,3,SNS,2021-2025,incoming
+SN,Senegal,32,SNS,2021-2025,incoming
+SO,Somalia,4,SNS,2021-2025,incoming
+SV,El Salvador,5,SNS,2021-2025,incoming
+SX,Sint Maarten,2,SNS,2021-2025,incoming
+SY,Syria,18,SNS,2021-2025,incoming
+SZ,Eswatini,2,SNS,2021-2025,incoming
+TG,Togo,2,SNS,2021-2025,incoming
+TH,Thailand,2109,SNS,2021-2025,incoming
+TJ,Tajikistan,12,SNS,2021-2025,incoming
+TM,Turkmenistan,2,SNS,2021-2025,incoming
+TN,Tunisia,321,SNS,2021-2025,incoming
+TR,Turkey,17429,SNS,2021-2025,incoming
+TT,Trinidad and Tobago,6,SNS,2021-2025,incoming
+TW,Taiwan,11040,SNS,2021-2025,incoming
+TZ,Tanzania,56,SNS,2021-2025,incoming
+UA,Ukraine,2515,SNS,2021-2025,incoming
+UG,Uganda,111,SNS,2021-2025,incoming
+UM,United States Minor Outlying Islands,2,SNS,2021-2025,incoming
+US,United States,259205,SNS,2021-2025,incoming
+UY,Uruguay,229,SNS,2021-2025,incoming
+UZ,Uzbekistan,602,SNS,2021-2025,incoming
+VE,Venezuela,53,SNS,2021-2025,incoming
+VI,U.S. Virgin Islands,7,SNS,2021-2025,incoming
+VN,Vietnam,1450,SNS,2021-2025,incoming
+XK,Kosovo,4,SNS,2021-2025,incoming
+YE,Yemen,49,SNS,2021-2025,incoming
+ZA,South Africa,5716,SNS,2021-2025,incoming
+ZM,Zambia,26,SNS,2021-2025,incoming
+ZW,Zimbabwe,91,SNS,2021-2025,incoming

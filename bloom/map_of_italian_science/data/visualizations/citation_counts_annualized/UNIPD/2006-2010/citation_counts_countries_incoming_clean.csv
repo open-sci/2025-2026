@@ -1,199 +1,186 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,610461,UNIPD,2006-2010,incoming
-Italy,IT,429076,UNIPD,2006-2010,incoming
-France,FR,314269,UNIPD,2006-2010,incoming
-United Kingdom,GB,145241,UNIPD,2006-2010,incoming
-Germany,DE,122048,UNIPD,2006-2010,incoming
-Spain,ES,82423,UNIPD,2006-2010,incoming
-Japan,JP,64270,UNIPD,2006-2010,incoming
-China,CN,46891,UNIPD,2006-2010,incoming
-Canada,CA,44765,UNIPD,2006-2010,incoming
-Switzerland,CH,39587,UNIPD,2006-2010,incoming
-Russia,RU,37923,UNIPD,2006-2010,incoming
-The Netherlands,NL,37093,UNIPD,2006-2010,incoming
-Australia,AU,33990,UNIPD,2006-2010,incoming
-South Korea,KR,32713,UNIPD,2006-2010,incoming
-India,IN,30372,UNIPD,2006-2010,incoming
-Belgium,BE,26250,UNIPD,2006-2010,incoming
-Brazil,BR,24401,UNIPD,2006-2010,incoming
-Finland,FI,22577,UNIPD,2006-2010,incoming
-Poland,PL,20922,UNIPD,2006-2010,incoming
-Sweden,SE,19198,UNIPD,2006-2010,incoming
-Taiwan,TW,18603,UNIPD,2006-2010,incoming
-Greece,GR,14899,UNIPD,2006-2010,incoming
-Mexico,MX,13147,UNIPD,2006-2010,incoming
-Türkiye,TR,12011,UNIPD,2006-2010,incoming
-Hungary,HU,11719,UNIPD,2006-2010,incoming
-Austria,AT,11640,UNIPD,2006-2010,incoming
-Denmark,DK,9574,UNIPD,2006-2010,incoming
-Portugal,PT,8459,UNIPD,2006-2010,incoming
-Israel,IL,7549,UNIPD,2006-2010,incoming
-China (People's Republic of),CN,7315,UNIPD,2006-2010,incoming
-Ireland,IE,7234,UNIPD,2006-2010,incoming
-Slovakia,SK,7185,UNIPD,2006-2010,incoming
-Norway,NO,6912,UNIPD,2006-2010,incoming
-Czechia,CZ,6848,UNIPD,2006-2010,incoming
-Argentina,AR,6508,UNIPD,2006-2010,incoming
-Croatia,HR,6193,UNIPD,2006-2010,incoming
-Netherlands,NL,5413,UNIPD,2006-2010,incoming
-Bulgaria,BG,5187,UNIPD,2006-2010,incoming
-New Zealand,NZ,5086,UNIPD,2006-2010,incoming
-Singapore,SG,4718,UNIPD,2006-2010,incoming
-Chile,CL,4588,UNIPD,2006-2010,incoming
-Hong Kong,HK,4343,UNIPD,2006-2010,incoming
-Iran,IR,3845,UNIPD,2006-2010,incoming
-Slovenia,SI,3626,UNIPD,2006-2010,incoming
-Ukraine,UA,3573,UNIPD,2006-2010,incoming
-South Africa,ZA,3339,UNIPD,2006-2010,incoming
-Colombia,CO,3206,UNIPD,2006-2010,incoming
-Pakistan,PK,3104,UNIPD,2006-2010,incoming
-Serbia,RS,3078,UNIPD,2006-2010,incoming
-Cyprus,CY,2818,UNIPD,2006-2010,incoming
-Georgia,GE,2262,UNIPD,2006-2010,incoming
-Armenia,AM,2167,UNIPD,2006-2010,incoming
-Estonia,EE,2045,UNIPD,2006-2010,incoming
-Uzbekistan,UZ,1814,UNIPD,2006-2010,incoming
-Puerto Rico,PR,1771,UNIPD,2006-2010,incoming
-Romania,RO,1585,UNIPD,2006-2010,incoming
-Belarus,BY,1494,UNIPD,2006-2010,incoming
-Egypt,EG,1221,UNIPD,2006-2010,incoming
-Malaysia,MY,1137,UNIPD,2006-2010,incoming
-Thailand,TH,1006,UNIPD,2006-2010,incoming
-Tunisia,TN,729,UNIPD,2006-2010,incoming
-Korea (Republic of),KR,714,UNIPD,2006-2010,incoming
-Saudi Arabia,SA,714,UNIPD,2006-2010,incoming
-Cuba,CU,636,UNIPD,2006-2010,incoming
-Lithuania,LT,560,UNIPD,2006-2010,incoming
-Jordan,JO,531,UNIPD,2006-2010,incoming
-Russian Federation,RU,484,UNIPD,2006-2010,incoming
-Ecuador,EC,469,UNIPD,2006-2010,incoming
-Peru,PE,413,UNIPD,2006-2010,incoming
-Ghana,GH,332,UNIPD,2006-2010,incoming
-United Arab Emirates,AE,314,UNIPD,2006-2010,incoming
-Venezuela,VE,303,UNIPD,2006-2010,incoming
-Lebanon,LB,300,UNIPD,2006-2010,incoming
-Morocco,MA,291,UNIPD,2006-2010,incoming
-Philippines,PH,291,UNIPD,2006-2010,incoming
-Vietnam,VN,284,UNIPD,2006-2010,incoming
-Qatar,QA,278,UNIPD,2006-2010,incoming
-Ethiopia,ET,271,UNIPD,2006-2010,incoming
-Algeria,DZ,258,UNIPD,2006-2010,incoming
-Montenegro,ME,240,UNIPD,2006-2010,incoming
-Mongolia,MN,237,UNIPD,2006-2010,incoming
-Iceland,IS,226,UNIPD,2006-2010,incoming
-Czech Republic,CZ,220,UNIPD,2006-2010,incoming
-Uruguay,UY,217,UNIPD,2006-2010,incoming
-Luxembourg,LU,211,UNIPD,2006-2010,incoming
-Bahrain,BH,203,UNIPD,2006-2010,incoming
-Azerbaijan,AZ,195,UNIPD,2006-2010,incoming
-Nigeria,NG,192,UNIPD,2006-2010,incoming
-Latvia,LV,184,UNIPD,2006-2010,incoming
-Indonesia,ID,163,UNIPD,2006-2010,incoming
-Tanzania,TZ,161,UNIPD,2006-2010,incoming
-Kuwait,KW,146,UNIPD,2006-2010,incoming
-Bangladesh,BD,145,UNIPD,2006-2010,incoming
-Réunion,RE,134,UNIPD,2006-2010,incoming
-Bolivia,BO,132,UNIPD,2006-2010,incoming
-Kenya,KE,118,UNIPD,2006-2010,incoming
-Jamaica,JM,113,UNIPD,2006-2010,incoming
-Uganda,UG,112,UNIPD,2006-2010,incoming
-Turkey,TR,106,UNIPD,2006-2010,incoming
-Kazakhstan,KZ,101,UNIPD,2006-2010,incoming
-Costa Rica,CR,99,UNIPD,2006-2010,incoming
-Sri Lanka,LK,88,UNIPD,2006-2010,incoming
-Panama,PA,84,UNIPD,2006-2010,incoming
-Namibia,,83,UNIPD,2006-2010,incoming
-Cameroon,CM,82,UNIPD,2006-2010,incoming
-Nepal,NP,77,UNIPD,2006-2010,incoming
-Iraq,IQ,71,UNIPD,2006-2010,incoming
-Bosnia and Herzegovina,BA,71,UNIPD,2006-2010,incoming
-Mozambique,MZ,71,UNIPD,2006-2010,incoming
-Oman,OM,70,UNIPD,2006-2010,incoming
-North Macedonia,MK,67,UNIPD,2006-2010,incoming
-Cambodia,KH,61,UNIPD,2006-2010,incoming
-Guadeloupe,GP,56,UNIPD,2006-2010,incoming
-Iran (Islamic Republic of),IR,54,UNIPD,2006-2010,incoming
-Benin,BJ,54,UNIPD,2006-2010,incoming
-Palestine,PS,50,UNIPD,2006-2010,incoming
-Moldova,MD,45,UNIPD,2006-2010,incoming
-Zambia,ZM,44,UNIPD,2006-2010,incoming
-Paraguay,PY,43,UNIPD,2006-2010,incoming
-Burundi,BI,41,UNIPD,2006-2010,incoming
-Yemen,YE,40,UNIPD,2006-2010,incoming
-Malta,MT,40,UNIPD,2006-2010,incoming
-Barbados,BB,37,UNIPD,2006-2010,incoming
-Grenada,GD,34,UNIPD,2006-2010,incoming
-Sudan,SD,34,UNIPD,2006-2010,incoming
-Tajikistan,TJ,34,UNIPD,2006-2010,incoming
-Macao,MO,31,UNIPD,2006-2010,incoming
-Trinidad and Tobago,TT,28,UNIPD,2006-2010,incoming
-Zimbabwe,ZW,26,UNIPD,2006-2010,incoming
-Ivory Coast,CI,26,UNIPD,2006-2010,incoming
-Senegal,SN,24,UNIPD,2006-2010,incoming
-Seychelles,SC,24,UNIPD,2006-2010,incoming
-Burkina Faso,BF,23,UNIPD,2006-2010,incoming
-Guatemala,GT,22,UNIPD,2006-2010,incoming
-European Union,EU,21,UNIPD,2006-2010,incoming
-Rwanda,RW,20,UNIPD,2006-2010,incoming
-Angola,AO,20,UNIPD,2006-2010,incoming
-Syria,SY,20,UNIPD,2006-2010,incoming
-Malawi,MW,19,UNIPD,2006-2010,incoming
-Bhutan,BT,19,UNIPD,2006-2010,incoming
-Antigua and Barbuda,AG,18,UNIPD,2006-2010,incoming
-Brunei,BN,18,UNIPD,2006-2010,incoming
-Gabon,GA,18,UNIPD,2006-2010,incoming
-Somalia,SO,16,UNIPD,2006-2010,incoming
-Nicaragua,NI,16,UNIPD,2006-2010,incoming
-French Polynesia,PF,15,UNIPD,2006-2010,incoming
-Mali,ML,12,UNIPD,2006-2010,incoming
-Curaçao,CW,12,UNIPD,2006-2010,incoming
-Kosovo,XK,12,UNIPD,2006-2010,incoming
-Myanmar,MM,12,UNIPD,2006-2010,incoming
-French Guiana,GF,12,UNIPD,2006-2010,incoming
-Libya,LY,12,UNIPD,2006-2010,incoming
-San Marino,SM,11,UNIPD,2006-2010,incoming
-Palau,PW,11,UNIPD,2006-2010,incoming
-New Caledonia,NC,11,UNIPD,2006-2010,incoming
-El Salvador,SV,11,UNIPD,2006-2010,incoming
-Botswana,BW,10,UNIPD,2006-2010,incoming
-DR Congo,CD,10,UNIPD,2006-2010,incoming
-Albania,AL,10,UNIPD,2006-2010,incoming
-Madagascar,MG,8,UNIPD,2006-2010,incoming
-Mauritius,MU,8,UNIPD,2006-2010,incoming
-Bermuda,BM,7,UNIPD,2006-2010,incoming
-"Virgin Islands, U.S.",VI,5,UNIPD,2006-2010,incoming
-Mauritania,MR,5,UNIPD,2006-2010,incoming
-Greenland,GL,4,UNIPD,2006-2010,incoming
-Fiji,FJ,4,UNIPD,2006-2010,incoming
-American Samoa,AS,4,UNIPD,2006-2010,incoming
-Kyrgyzstan,KG,3,UNIPD,2006-2010,incoming
-Tanzania (United Republic of),TZ,3,UNIPD,2006-2010,incoming
-St Kitts and Nevis,KN,3,UNIPD,2006-2010,incoming
-Honduras,HN,3,UNIPD,2006-2010,incoming
-Guam,GU,2,UNIPD,2006-2010,incoming
-Haiti,HT,2,UNIPD,2006-2010,incoming
-St Vincent and Grenadines,VC,2,UNIPD,2006-2010,incoming
-The Gambia,GM,2,UNIPD,2006-2010,incoming
-Papua New Guinea,PG,2,UNIPD,2006-2010,incoming
-Gibraltar,GI,2,UNIPD,2006-2010,incoming
-Togo,TG,2,UNIPD,2006-2010,incoming
-Maldives,MV,2,UNIPD,2006-2010,incoming
-Eritrea,ER,1,UNIPD,2006-2010,incoming
-Dominican Republic,DO,1,UNIPD,2006-2010,incoming
-Martinique,MQ,1,UNIPD,2006-2010,incoming
-Syrian Arab Republic,SY,1,UNIPD,2006-2010,incoming
-Svalbard and Jan Mayen,SJ,1,UNIPD,2006-2010,incoming
-Turkmenistan,TM,1,UNIPD,2006-2010,incoming
-U.S. Virgin Islands,VI,1,UNIPD,2006-2010,incoming
-Liechtenstein,LI,1,UNIPD,2006-2010,incoming
-Saint Lucia,LC,1,UNIPD,2006-2010,incoming
-Sint Maarten,SX,1,UNIPD,2006-2010,incoming
-Cayman Islands,KY,1,UNIPD,2006-2010,incoming
-Monaco,MC,1,UNIPD,2006-2010,incoming
-Laos,LA,1,UNIPD,2006-2010,incoming
-Sierra Leone,SL,1,UNIPD,2006-2010,incoming
-Viet Nam,VN,1,UNIPD,2006-2010,incoming
-Chad,TD,1,UNIPD,2006-2010,incoming
-Liberia,LR,1,UNIPD,2006-2010,incoming
-North Korea,KP,1,UNIPD,2006-2010,incoming
-Moldova (Republic of),MD,1,UNIPD,2006-2010,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,314,UNIPD,2006-2010,incoming
+AG,Antigua and Barbuda,18,UNIPD,2006-2010,incoming
+AL,Albania,10,UNIPD,2006-2010,incoming
+AM,Armenia,2167,UNIPD,2006-2010,incoming
+AO,Angola,20,UNIPD,2006-2010,incoming
+AR,Argentina,6508,UNIPD,2006-2010,incoming
+AS,American Samoa,4,UNIPD,2006-2010,incoming
+AT,Austria,11640,UNIPD,2006-2010,incoming
+AU,Australia,33990,UNIPD,2006-2010,incoming
+AZ,Azerbaijan,195,UNIPD,2006-2010,incoming
+BA,Bosnia and Herzegovina,71,UNIPD,2006-2010,incoming
+BB,Barbados,37,UNIPD,2006-2010,incoming
+BD,Bangladesh,145,UNIPD,2006-2010,incoming
+BE,Belgium,26250,UNIPD,2006-2010,incoming
+BF,Burkina Faso,23,UNIPD,2006-2010,incoming
+BG,Bulgaria,5187,UNIPD,2006-2010,incoming
+BH,Bahrain,203,UNIPD,2006-2010,incoming
+BI,Burundi,41,UNIPD,2006-2010,incoming
+BJ,Benin,54,UNIPD,2006-2010,incoming
+BM,Bermuda,7,UNIPD,2006-2010,incoming
+BN,Brunei,18,UNIPD,2006-2010,incoming
+BO,Bolivia,132,UNIPD,2006-2010,incoming
+BR,Brazil,24401,UNIPD,2006-2010,incoming
+BT,Bhutan,19,UNIPD,2006-2010,incoming
+BW,Botswana,10,UNIPD,2006-2010,incoming
+BY,Belarus,1494,UNIPD,2006-2010,incoming
+CA,Canada,44765,UNIPD,2006-2010,incoming
+CD,DR Congo,10,UNIPD,2006-2010,incoming
+CH,Switzerland,39587,UNIPD,2006-2010,incoming
+CI,Ivory Coast,26,UNIPD,2006-2010,incoming
+CL,Chile,4588,UNIPD,2006-2010,incoming
+CM,Cameroon,82,UNIPD,2006-2010,incoming
+CN,China,54206,UNIPD,2006-2010,incoming
+CO,Colombia,3206,UNIPD,2006-2010,incoming
+CR,Costa Rica,99,UNIPD,2006-2010,incoming
+CU,Cuba,636,UNIPD,2006-2010,incoming
+CW,Curaçao,12,UNIPD,2006-2010,incoming
+CY,Cyprus,2818,UNIPD,2006-2010,incoming
+CZ,Czechia,7068,UNIPD,2006-2010,incoming
+DE,Germany,122048,UNIPD,2006-2010,incoming
+DK,Denmark,9574,UNIPD,2006-2010,incoming
+DO,Dominican Republic,1,UNIPD,2006-2010,incoming
+DZ,Algeria,258,UNIPD,2006-2010,incoming
+EC,Ecuador,469,UNIPD,2006-2010,incoming
+EE,Estonia,2045,UNIPD,2006-2010,incoming
+EG,Egypt,1221,UNIPD,2006-2010,incoming
+ER,Eritrea,1,UNIPD,2006-2010,incoming
+ES,Spain,82423,UNIPD,2006-2010,incoming
+ET,Ethiopia,271,UNIPD,2006-2010,incoming
+EU,European Union,21,UNIPD,2006-2010,incoming
+FI,Finland,22577,UNIPD,2006-2010,incoming
+FJ,Fiji,4,UNIPD,2006-2010,incoming
+FR,France,314269,UNIPD,2006-2010,incoming
+GA,Gabon,18,UNIPD,2006-2010,incoming
+GB,United Kingdom,145241,UNIPD,2006-2010,incoming
+GD,Grenada,34,UNIPD,2006-2010,incoming
+GE,Georgia,2262,UNIPD,2006-2010,incoming
+GF,French Guiana,12,UNIPD,2006-2010,incoming
+GH,Ghana,332,UNIPD,2006-2010,incoming
+GI,Gibraltar,2,UNIPD,2006-2010,incoming
+GL,Greenland,4,UNIPD,2006-2010,incoming
+GM,The Gambia,2,UNIPD,2006-2010,incoming
+GP,Guadeloupe,56,UNIPD,2006-2010,incoming
+GR,Greece,14899,UNIPD,2006-2010,incoming
+GT,Guatemala,22,UNIPD,2006-2010,incoming
+GU,Guam,2,UNIPD,2006-2010,incoming
+HK,Hong Kong,4343,UNIPD,2006-2010,incoming
+HN,Honduras,3,UNIPD,2006-2010,incoming
+HR,Croatia,6193,UNIPD,2006-2010,incoming
+HT,Haiti,2,UNIPD,2006-2010,incoming
+HU,Hungary,11719,UNIPD,2006-2010,incoming
+ID,Indonesia,163,UNIPD,2006-2010,incoming
+IE,Ireland,7234,UNIPD,2006-2010,incoming
+IL,Israel,7549,UNIPD,2006-2010,incoming
+IN,India,30372,UNIPD,2006-2010,incoming
+IQ,Iraq,71,UNIPD,2006-2010,incoming
+IR,Iran,3899,UNIPD,2006-2010,incoming
+IS,Iceland,226,UNIPD,2006-2010,incoming
+IT,Italy,429076,UNIPD,2006-2010,incoming
+JM,Jamaica,113,UNIPD,2006-2010,incoming
+JO,Jordan,531,UNIPD,2006-2010,incoming
+JP,Japan,64270,UNIPD,2006-2010,incoming
+KE,Kenya,118,UNIPD,2006-2010,incoming
+KG,Kyrgyzstan,3,UNIPD,2006-2010,incoming
+KH,Cambodia,61,UNIPD,2006-2010,incoming
+KN,St Kitts and Nevis,3,UNIPD,2006-2010,incoming
+KP,North Korea,1,UNIPD,2006-2010,incoming
+KR,South Korea,33427,UNIPD,2006-2010,incoming
+KW,Kuwait,146,UNIPD,2006-2010,incoming
+KY,Cayman Islands,1,UNIPD,2006-2010,incoming
+KZ,Kazakhstan,101,UNIPD,2006-2010,incoming
+LA,Laos,1,UNIPD,2006-2010,incoming
+LB,Lebanon,300,UNIPD,2006-2010,incoming
+LC,Saint Lucia,1,UNIPD,2006-2010,incoming
+LI,Liechtenstein,1,UNIPD,2006-2010,incoming
+LK,Sri Lanka,88,UNIPD,2006-2010,incoming
+LR,Liberia,1,UNIPD,2006-2010,incoming
+LT,Lithuania,560,UNIPD,2006-2010,incoming
+LU,Luxembourg,211,UNIPD,2006-2010,incoming
+LV,Latvia,184,UNIPD,2006-2010,incoming
+LY,Libya,12,UNIPD,2006-2010,incoming
+MA,Morocco,291,UNIPD,2006-2010,incoming
+MC,Monaco,1,UNIPD,2006-2010,incoming
+MD,Moldova,46,UNIPD,2006-2010,incoming
+ME,Montenegro,240,UNIPD,2006-2010,incoming
+MG,Madagascar,8,UNIPD,2006-2010,incoming
+MK,North Macedonia,67,UNIPD,2006-2010,incoming
+ML,Mali,12,UNIPD,2006-2010,incoming
+MM,Myanmar,12,UNIPD,2006-2010,incoming
+MN,Mongolia,237,UNIPD,2006-2010,incoming
+MO,Macao,31,UNIPD,2006-2010,incoming
+MQ,Martinique,1,UNIPD,2006-2010,incoming
+MR,Mauritania,5,UNIPD,2006-2010,incoming
+MT,Malta,40,UNIPD,2006-2010,incoming
+MU,Mauritius,8,UNIPD,2006-2010,incoming
+MV,Maldives,2,UNIPD,2006-2010,incoming
+MW,Malawi,19,UNIPD,2006-2010,incoming
+MX,Mexico,13147,UNIPD,2006-2010,incoming
+MY,Malaysia,1137,UNIPD,2006-2010,incoming
+MZ,Mozambique,71,UNIPD,2006-2010,incoming
+NC,New Caledonia,11,UNIPD,2006-2010,incoming
+NG,Nigeria,192,UNIPD,2006-2010,incoming
+NI,Nicaragua,16,UNIPD,2006-2010,incoming
+NL,The Netherlands,42506,UNIPD,2006-2010,incoming
+NO,Norway,6912,UNIPD,2006-2010,incoming
+NP,Nepal,77,UNIPD,2006-2010,incoming
+NZ,New Zealand,5086,UNIPD,2006-2010,incoming
+OM,Oman,70,UNIPD,2006-2010,incoming
+PA,Panama,84,UNIPD,2006-2010,incoming
+PE,Peru,413,UNIPD,2006-2010,incoming
+PF,French Polynesia,15,UNIPD,2006-2010,incoming
+PG,Papua New Guinea,2,UNIPD,2006-2010,incoming
+PH,Philippines,291,UNIPD,2006-2010,incoming
+PK,Pakistan,3104,UNIPD,2006-2010,incoming
+PL,Poland,20922,UNIPD,2006-2010,incoming
+PR,Puerto Rico,1771,UNIPD,2006-2010,incoming
+PS,Palestine,50,UNIPD,2006-2010,incoming
+PT,Portugal,8459,UNIPD,2006-2010,incoming
+PW,Palau,11,UNIPD,2006-2010,incoming
+PY,Paraguay,43,UNIPD,2006-2010,incoming
+QA,Qatar,278,UNIPD,2006-2010,incoming
+RE,Réunion,134,UNIPD,2006-2010,incoming
+RO,Romania,1585,UNIPD,2006-2010,incoming
+RS,Serbia,3078,UNIPD,2006-2010,incoming
+RU,Russia,38407,UNIPD,2006-2010,incoming
+RW,Rwanda,20,UNIPD,2006-2010,incoming
+SA,Saudi Arabia,714,UNIPD,2006-2010,incoming
+SC,Seychelles,24,UNIPD,2006-2010,incoming
+SD,Sudan,34,UNIPD,2006-2010,incoming
+SE,Sweden,19198,UNIPD,2006-2010,incoming
+SG,Singapore,4718,UNIPD,2006-2010,incoming
+SI,Slovenia,3626,UNIPD,2006-2010,incoming
+SJ,Svalbard and Jan Mayen,1,UNIPD,2006-2010,incoming
+SK,Slovakia,7185,UNIPD,2006-2010,incoming
+SL,Sierra Leone,1,UNIPD,2006-2010,incoming
+SM,San Marino,11,UNIPD,2006-2010,incoming
+SN,Senegal,24,UNIPD,2006-2010,incoming
+SO,Somalia,16,UNIPD,2006-2010,incoming
+SV,El Salvador,11,UNIPD,2006-2010,incoming
+SX,Sint Maarten,1,UNIPD,2006-2010,incoming
+SY,Syria,21,UNIPD,2006-2010,incoming
+TD,Chad,1,UNIPD,2006-2010,incoming
+TG,Togo,2,UNIPD,2006-2010,incoming
+TH,Thailand,1006,UNIPD,2006-2010,incoming
+TJ,Tajikistan,34,UNIPD,2006-2010,incoming
+TM,Turkmenistan,1,UNIPD,2006-2010,incoming
+TN,Tunisia,729,UNIPD,2006-2010,incoming
+TR,Turkey,12117,UNIPD,2006-2010,incoming
+TT,Trinidad and Tobago,28,UNIPD,2006-2010,incoming
+TW,Taiwan,18603,UNIPD,2006-2010,incoming
+TZ,Tanzania,164,UNIPD,2006-2010,incoming
+UA,Ukraine,3573,UNIPD,2006-2010,incoming
+UG,Uganda,112,UNIPD,2006-2010,incoming
+US,United States,610461,UNIPD,2006-2010,incoming
+UY,Uruguay,217,UNIPD,2006-2010,incoming
+UZ,Uzbekistan,1814,UNIPD,2006-2010,incoming
+VC,St Vincent and Grenadines,2,UNIPD,2006-2010,incoming
+VE,Venezuela,303,UNIPD,2006-2010,incoming
+VI,U.S. Virgin Islands,6,UNIPD,2006-2010,incoming
+VN,Vietnam,285,UNIPD,2006-2010,incoming
+XK,Kosovo,12,UNIPD,2006-2010,incoming
+YE,Yemen,40,UNIPD,2006-2010,incoming
+ZA,South Africa,3339,UNIPD,2006-2010,incoming
+ZM,Zambia,44,UNIPD,2006-2010,incoming
+ZW,Zimbabwe,26,UNIPD,2006-2010,incoming

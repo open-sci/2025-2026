@@ -192,6 +192,33 @@ def to_iso3(code2):
         return None
     
 
+def normalize_organizations(df: pd.DataFrame, institution: str) -> pd.DataFrame:
+    """Normalize and clean organization-level data."""
+    # 1. Drop rows missing key identifiers
+    df = df.dropna(subset=["country_code", "country_name", "legal_name"])
+    df = df[df["country_code"].str.strip() != ""]
+
+    # 2. Normalise country_code
+    df["country_code"] = df["country_code"].str.strip().str.upper()
+
+    # 3. Apply canonical country name mapping
+    df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
+
+    # 4. Aggregate counts for any (ror, country_code) duplicates after mapping
+    group_cols = ["ror", "legal_name", "country_code", "country_name"] if "ror" in df.columns else ["legal_name", "country_code", "country_name"]
+    df = df.groupby(group_cols, as_index=False)["count"].sum()
+
+    # 5. Remove the focal institution's own self-citation row
+    self_name = INSTITUTION_SELF_NAMES[institution]
+    df = df[df["legal_name"] != self_name].copy()
+
+    # 6. Optionally exclude all other Italian partner institutions
+    if EXCLUDE_ITALIAN_PARTNERS:
+        df = df[df["country_code"] != "IT"].copy()
+
+    return df
+
+
 def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     """Load and clean the org-level CSV for one institution and direction.
 
@@ -210,28 +237,7 @@ def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     path = BASE_PATH / institution / f"citation_counts_organizations_{direction}.csv"
     df   = pd.read_csv(path)
 
-    # 1. Drop rows missing key identifiers
-    df = df.dropna(subset=["country_code", "country_name", "legal_name"])
-    df = df[df["country_code"].str.strip() != ""]
-
-    # 2. Normalise country_code
-    df["country_code"] = df["country_code"].str.strip().str.upper()
-
-    # 3. Apply canonical country name mapping
-    df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
-
-    # 4. Aggregate counts for any (ror, country_code) duplicates after mapping
-    group_cols = ["ror", "legal_name", "country_code", "country_name"] if "ror" in df.columns                  else ["legal_name", "country_code", "country_name"]
-    df = df.groupby(group_cols, as_index=False)["count"].sum()
-
-    # 5. Remove the focal institution's own self-citation row
-    self_name = INSTITUTION_SELF_NAMES[institution]
-    df = df[df["legal_name"] != self_name].copy()
-
-    # 6. Optionally exclude all other Italian partner institutions
-    #    (mirrors the country-level analysis which excludes country_code == "IT")
-    if EXCLUDE_ITALIAN_PARTNERS:
-        df = df[df["country_code"] != "IT"].copy()
+    df = normalize_organizations(df, institution)
 
     # Add metadata
     df["institution"] = institution
@@ -263,6 +269,14 @@ def load_temporal_dataset(institution: str, direction: str, year_block: str, dat
         raise FileNotFoundError(f"File not found: {file_path}")
         
     df = pd.read_csv(file_path)
+
+    # ── Cleaning & Normalization ──
+    if dataset_type == "countries":
+        df = normalize_countries(df)
+    elif dataset_type == "organizations":
+        df = normalize_organizations(df, institution)
+
+    # ── Add metadata ──
     df["italian_institution"] = institution
     df["year_block"] = year_block
     df["direction"] = direction
