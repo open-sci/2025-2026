@@ -360,6 +360,7 @@
                 </div>
             </section>
 
+            <!-- Deviation Heatmap-->
             <section class="section slide-up question1">
                 <div class="content-wrapper">
                     <div class="two-column">
@@ -381,10 +382,88 @@
 
                         <div class="text-column center-content">
                             <p class="text">
-                                Something.
+                                <span class="hand-drawn-underline">Each institution cites the world differently.</span>
+                                <br> This chart maps those differences — not in absolute terms, but relative to the
+                                average across all six Italian universities.
                             </p>
+                            <div class="reminder-callout">
+                                <div class="reminder-content">
+                                    A <strong>dark purple</strong> cell means that institution cites that country far
+                                    more than its peers do; <strong>red</strong> means far
+                                    less. <strong>White</strong> is the baseline: perfectly average. The pattern that
+                                    emerges is each university's unique
+                                    citation fingerprint.
+                                </div>
+                            </div>
                         </div>
                     </div>
+            </section>
+
+            <!-- Asymmetry Map -->
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div>
+                        <div class="vis-controls" id="asymmetry-controls"
+                            style="flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Select Institution</span>
+                                <div class="inst-btn-group asymmetry-inst-btn-group">
+                                    <button class="inst-btn asymmetry-inst-btn active" data-inst="UNIBO">UNIBO</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNITO">UNITO</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="SNS">SNS</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UPO">UPO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="asymmetry_chartdiv"></div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div class="cards-viz">
+                        <div class="insight-card">
+                            <div class="insight-card-icon">🌐</div>
+                            <h3 class="insight-card-title">Italy <span class="hand-drawn-circle"><strong>exports
+                                        knowledge</strong></span> to the
+                                world</h3>
+                            <p class="insight-card-text">For most countries — especially across the <strong>Global
+                                    South</strong> — the
+                                map turns yellow. They cite Italian research more than Italy cites them back.
+                            </p>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-card-icon">🎯</div>
+                            <h3 class="insight-card-title">Italy cites America. America doesn't always cite back.</h3>
+                            <p class="insight-card-text">Across all six institutions, the US shows an <span
+                                    class="hand-drawn-circle"><strong>outgoing bias</strong></span> — except one.</p>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-card-icon">⚖️</div>
+                            <h3 class="insight-card-title">Scuola Normale Superiore is always the <span
+                                    class="hand-drawn-circle">outlier</span></h3>
+                            <p class="insight-card-text">
+                                The only institution <span class="hand-drawn-underline"><strong>nearly
+                                        balanced</strong></span> with the
+                                <strong>US</strong>.
+                                Over-indexed toward <strong>Russia</strong>, under-indexed toward
+                                <strong>China</strong>.
+                            </p>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-card-icon">🎯</div>
+                            <h3 class="insight-card-title">University of Eastern Piedmont looks East</h3>
+                            <p class="insight-card-text">The most <span
+                                    class="hand-drawn-underline"><strong>Asia-oriented</strong></span> institution in
+                                the group —
+                                consistently, across both charts.</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
 
@@ -1024,12 +1103,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
 
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/map.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/sankey.js"></script>
     <script src="assets/js/sunburst.js"></script>
     <script src="assets/js/bubble.js"></script>
     <script src="assets/js/heatmap.js"></script>
+    <script src="assets/js/asymmetry_map.js"></script>
 
 
 </body>

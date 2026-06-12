@@ -437,6 +437,17 @@ h3 {
     border: 1px solid rgba(50, 14, 59, 0.05);
 }
 
+#asymmetry_chartdiv {
+    width: 70vw;
+    margin-left: calc(-35vw + 50%);
+    height: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--color-bg-dark);
+    box-shadow: 0 20px 40px rgba(50, 14, 59, 0.1);
+    border: 1px solid rgba(50, 14, 59, 0.05);
+}
+
 /* Controls */
 .vis-controls {
     margin: 0 auto 1.5rem auto;
@@ -527,6 +538,58 @@ h3 {
 #sunburst-dir-select option:checked {
     background-color: var(--color-accent);
     color: var(--color-primary);
+}
+
+/* Insight Cards */
+.cards-viz {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.insight-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(50, 14, 59, 0.1);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 8px 24px rgba(50, 14, 59, 0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.insight-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(50, 14, 59, 0.08);
+    border-color: var(--color-accent);
+}
+
+.insight-card-icon {
+    font-size: 2.5rem;
+    color: var(--color-accent);
+    margin-bottom: 1.2rem;
+}
+
+.insight-card-title {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.insight-card-text {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.6;
 }
 
 /* Responsive */
@@ -2273,7 +2336,8 @@ h3 {
 }
 
 /* Button overrides for light background */
-.sunburst-inst-btn.active {
+.sunburst-inst-btn.active,
+.asymmetry-inst-btn.active {
     background: var(--color-primary) !important;
     color: #fff !important;
     border-color: var(--color-primary) !important;
@@ -2285,22 +2349,26 @@ h3 {
     background: rgba(50, 14, 59, 0.06) !important;
 }
 
-#sunburst-controls {
+#sunburst-controls,
+#asymmetry-controls {
     background-color: transparent;
 }
 
-.sunburst-inst-btn {
+.sunburst-inst-btn,
+.asymmetry-inst-btn {
     color: var(--color-primary);
     border: 2px solid var(--color-primary);
 }
 
-.sunburst-inst-btn:hover {
+.sunburst-inst-btn:hover,
+.asymmetry-inst-btn:hover {
     color: var(--color-text-light) !important;
     background-color: var(--color-primary) !important;
 }
 
 #sunburst-controls .chart-control-label,
-#heatmap-controls .chart-control-label {
+#heatmap-controls .chart-control-label,
+#asymmetry-controls .chart-control-label {
     color: var(--color-primary) !important;
 }
 

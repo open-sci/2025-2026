@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "USA",
+    "name": "United States",
+    "value": 0.1529,
+    "incoming": 1704610,
+    "outgoing": 1895148,
+    "total": 3599758
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "value": 0.0917,
+    "incoming": 832178,
+    "outgoing": 886781,
+    "total": 1718959
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "value": 0.1646,
+    "incoming": 407263,
+    "outgoing": 456472,
+    "total": 863735
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "value": -0.0219,
+    "incoming": 336956,
+    "outgoing": 331879,
+    "total": 668835
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "value": -1.0035,
+    "incoming": 351083,
+    "outgoing": 175110,
+    "total": 526193
+  },
+  {
+    "id": "RUS",
+    "name": "Russia",
+    "value": -0.0054,
+    "incoming": 233033,
+    "outgoing": 232167,
+    "total": 465200
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "value": -0.1035,
+    "incoming": 236551,
+    "outgoing": 220170,
+    "total": 456721
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "value": 0.0958,
+    "incoming": 183263,
+    "outgoing": 195846,
+    "total": 379109
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "value": -0.2119,
+    "incoming": 177399,
+    "outgoing": 153168,
+    "total": 330567
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "value": 0.242,
+    "incoming": 129724,
+    "outgoing": 153421,
+    "total": 283145
+  },
+  {
+    "id": "KOR",
+    "name": "South Korea",
+    "value": -0.0244,
+    "incoming": 141599,
+    "outgoing": 139229,
+    "total": 280828
+  },
+  {
+    "id": "TUR",
+    "name": "Turkey",
+    "value": -0.0401,
+    "incoming": 124165,
+    "outgoing": 120762,
+    "total": 244927
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "value": -0.0561,
+    "incoming": 109089,
+    "outgoing": 104930,
+    "total": 214019
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "value": 0.0753,
+    "incoming": 99898,
+    "outgoing": 105249,
+    "total": 205147
+  },
+  {
+    "id": "NLD",
+    "name": "The Netherlands",
+    "value": 0.2254,
+    "incoming": 92588,
+    "outgoing": 108248,
+    "total": 200836
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "value": 0.0723,
+    "incoming": 93764,
+    "outgoing": 98583,
+    "total": 192347
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "value": 0.2226,
+    "incoming": 72461,
+    "outgoing": 84553,
+    "total": 157014
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "value": 0.0463,
+    "incoming": 72252,
+    "outgoing": 74607,
+    "total": 146859
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "value": 0.0021,
+    "incoming": 73042,
+    "outgoing": 73148,
+    "total": 146190
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "value": 0.2144,
+    "incoming": 61994,
+    "outgoing": 71926,
+    "total": 133920
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "value": 0.0658,
+    "incoming": 60710,
+    "outgoing": 63545,
+    "total": 124255
+  },
+  {
+    "id": "TWN",
+    "name": "Taiwan",
+    "value": -0.1221,
+    "incoming": 64652,
+    "outgoing": 59405,
+    "total": 124057
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "value": -0.1859,
+    "incoming": 50943,
+    "outgoing": 44783,
+    "total": 95726
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "value": -0.2281,
+    "incoming": 36698,
+    "outgoing": 31330,
+    "total": 68028
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "value": -0.1189,
+    "incoming": 35410,
+    "outgoing": 32608,
+    "total": 68018
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "value": 0.005,
+    "incoming": 33009,
+    "outgoing": 33124,
+    "total": 66133
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "value": -0.0639,
+    "incoming": 33481,
+    "outgoing": 32031,
+    "total": 65512
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "value": 0.0204,
+    "incoming": 29671,
+    "outgoing": 30093,
+    "total": 59764
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "value": -0.4504,
+    "incoming": 34073,
+    "outgoing": 24936,
+    "total": 59009
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "value": 0.0242,
+    "incoming": 25788,
+    "outgoing": 26224,
+    "total": 52012
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "value": 0.0095,
+    "incoming": 25485,
+    "outgoing": 25654,
+    "total": 51139
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "value": 0.0448,
+    "incoming": 22985,
+    "outgoing": 23710,
+    "total": 46695
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "value": -0.5013,
+    "incoming": 26684,
+    "outgoing": 18851,
+    "total": 45535
+  },
+  {
+    "id": "SVK",
+    "name": "Slovakia",
+    "value": -0.199,
+    "incoming": 24095,
+    "outgoing": 20991,
+    "total": 45086
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "value": -0.4,
+    "incoming": 23634,
+    "outgoing": 17911,
+    "total": 41545
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "value": -0.3026,
+    "incoming": 22356,
+    "outgoing": 18126,
+    "total": 40482
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "value": -0.3306,
+    "incoming": 22050,
+    "outgoing": 17534,
+    "total": 39584
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "value": -0.0762,
+    "incoming": 19880,
+    "outgoing": 18857,
+    "total": 38737
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "value": -0.121,
+    "incoming": 18802,
+    "outgoing": 17289,
+    "total": 36091
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "value": 0.2149,
+    "incoming": 16410,
+    "outgoing": 19046,
+    "total": 35456
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "value": -0.0413,
+    "incoming": 17891,
+    "outgoing": 17386,
+    "total": 35277
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "value": -0.6077,
+    "incoming": 20205,
+    "outgoing": 13259,
+    "total": 33464
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "value": 0.0516,
+    "incoming": 16191,
+    "outgoing": 16781,
+    "total": 32972
+  },
+  {
+    "id": "SRB",
+    "name": "Serbia",
+    "value": -0.1033,
+    "incoming": 16038,
+    "outgoing": 14930,
+    "total": 30968
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "value": -0.2112,
+    "incoming": 15898,
+    "outgoing": 13733,
+    "total": 29631
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "value": -0.3747,
+    "incoming": 16568,
+    "outgoing": 12778,
+    "total": 29346
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "value": -0.3471,
+    "incoming": 16319,
+    "outgoing": 12829,
+    "total": 29148
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "value": 0.0309,
+    "incoming": 13933,
+    "outgoing": 14235,
+    "total": 28168
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "value": -0.0534,
+    "incoming": 13238,
+    "outgoing": 12757,
+    "total": 25995
+  },
+  {
+    "id": "PRI",
+    "name": "Puerto Rico",
+    "value": 0.1658,
+    "incoming": 11519,
+    "outgoing": 12922,
+    "total": 24441
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "value": 0.3138,
+    "incoming": 10832,
+    "outgoing": 13464,
+    "total": 24296
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "value": 0.1921,
+    "incoming": 9975,
+    "outgoing": 11396,
+    "total": 21371
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "value": 0.9726,
+    "incoming": 7027,
+    "outgoing": 13791,
+    "total": 20818
+  },
+  {
+    "id": "HKG",
+    "name": "Hong Kong",
+    "value": -0.6387,
+    "incoming": 12412,
+    "outgoing": 7972,
+    "total": 20384
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "value": -0.0957,
+    "incoming": 10077,
+    "outgoing": 9430,
+    "total": 19507
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "value": 0.054,
+    "incoming": 8568,
+    "outgoing": 8895,
+    "total": 17463
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "value": 0.0802,
+    "incoming": 8382,
+    "outgoing": 8861,
+    "total": 17243
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "value": -0.5732,
+    "incoming": 9820,
+    "outgoing": 6600,
+    "total": 16420
+  },
+  {
+    "id": "SGP",
+    "name": "Singapore",
+    "value": -0.2833,
+    "incoming": 7666,
+    "outgoing": 6299,
+    "total": 13965
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "value": 1.5589,
+    "incoming": 2826,
+    "outgoing": 8328,
+    "total": 11154
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "value": -0.3921,
+    "incoming": 6256,
+    "outgoing": 4767,
+    "total": 11023
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "value": -1.1595,
+    "incoming": 6010,
+    "outgoing": 2690,
+    "total": 8700
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "value": -0.8782,
+    "incoming": 4675,
+    "outgoing": 2543,
+    "total": 7218
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "value": 1.433,
+    "incoming": 1869,
+    "outgoing": 5048,
+    "total": 6917
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "value": -0.4844,
+    "incoming": 3109,
+    "outgoing": 2222,
+    "total": 5331
+  },
+  {
+    "id": "MNE",
+    "name": "Montenegro",
+    "value": 1.8631,
+    "incoming": 913,
+    "outgoing": 3324,
+    "total": 4237
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "value": 0.3823,
+    "incoming": 1637,
+    "outgoing": 2134,
+    "total": 3771
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "value": -1.9338,
+    "incoming": 2364,
+    "outgoing": 618,
+    "total": 2982
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "value": 2.2608,
+    "incoming": 491,
+    "outgoing": 2357,
+    "total": 2848
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "value": -2.4316,
+    "incoming": 1952,
+    "outgoing": 361,
+    "total": 2313
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "value": -1.1535,
+    "incoming": 1574,
+    "outgoing": 707,
+    "total": 2281
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "value": -0.2421,
+    "incoming": 1041,
+    "outgoing": 880,
+    "total": 1921
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "value": -2.363,
+    "incoming": 1496,
+    "outgoing": 290,
+    "total": 1786
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "value": 0.5402,
+    "incoming": 664,
+    "outgoing": 966,
+    "total": 1630
+  },
+  {
+    "id": "TZA",
+    "name": "Tanzania",
+    "value": -0.0983,
+    "incoming": 819,
+    "outgoing": 765,
+    "total": 1584
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "value": -1.2759,
+    "incoming": 1079,
+    "outgoing": 445,
+    "total": 1524
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "value": -0.4773,
+    "incoming": 812,
+    "outgoing": 583,
+    "total": 1395
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "value": 0.6338,
+    "incoming": 512,
+    "outgoing": 795,
+    "total": 1307
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "value": -1.2245,
+    "incoming": 901,
+    "outgoing": 385,
+    "total": 1286
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "value": -1.1268,
+    "incoming": 831,
+    "outgoing": 380,
+    "total": 1211
+  },
+  {
+    "id": "ISL",
+    "name": "Iceland",
+    "value": -1.1357,
+    "incoming": 790,
+    "outgoing": 359,
+    "total": 1149
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "value": -1.9921,
+    "incoming": 914,
+    "outgoing": 229,
+    "total": 1143
+  },
+  {
+    "id": "BHR",
+    "name": "Bahrain",
+    "value": 0.177,
+    "incoming": 474,
+    "outgoing": 536,
+    "total": 1010
+  },
+  {
+    "id": "MCO",
+    "name": "Monaco",
+    "value": 0.4879,
+    "incoming": 419,
+    "outgoing": 588,
+    "total": 1007
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "value": -0.2199,
+    "incoming": 473,
+    "outgoing": 406,
+    "total": 879
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "value": -2.0575,
+    "incoming": 690,
+    "outgoing": 165,
+    "total": 855
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "value": -3.3031,
+    "incoming": 759,
+    "outgoing": 76,
+    "total": 835
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "value": -1.0028,
+    "incoming": 522,
+    "outgoing": 260,
+    "total": 782
+  },
+  {
+    "id": "MLT",
+    "name": "Malta",
+    "value": -0.645,
+    "incoming": 379,
+    "outgoing": 242,
+    "total": 621
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "value": -1.7636,
+    "incoming": 454,
+    "outgoing": 133,
+    "total": 587
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "value": 0.263,
+    "incoming": 254,
+    "outgoing": 305,
+    "total": 559
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "value": null,
+    "incoming": 283,
+    "outgoing": 190,
+    "total": 473
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "value": null,
+    "incoming": 412,
+    "outgoing": 47,
+    "total": 459
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "value": null,
+    "incoming": 337,
+    "outgoing": 122,
+    "total": 459
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "value": null,
+    "incoming": 342,
+    "outgoing": 66,
+    "total": 408
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "value": null,
+    "incoming": 86,
+    "outgoing": 262,
+    "total": 348
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "value": null,
+    "incoming": 210,
+    "outgoing": 131,
+    "total": 341
+  },
+  {
+    "id": "PSE",
+    "name": "Palestine",
+    "value": null,
+    "incoming": 206,
+    "outgoing": 108,
+    "total": 314
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "value": null,
+    "incoming": 237,
+    "outgoing": 56,
+    "total": 293
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "value": null,
+    "incoming": 251,
+    "outgoing": 40,
+    "total": 291
+  },
+  {
+    "id": "MAC",
+    "name": "Macao",
+    "value": null,
+    "incoming": 249,
+    "outgoing": 36,
+    "total": 285
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "value": null,
+    "incoming": 211,
+    "outgoing": 37,
+    "total": 248
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "value": null,
+    "incoming": 151,
+    "outgoing": 92,
+    "total": 243
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "value": null,
+    "incoming": 109,
+    "outgoing": 65,
+    "total": 174
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen",
+    "value": null,
+    "incoming": 148,
+    "outgoing": 22,
+    "total": 170
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "value": null,
+    "incoming": 144,
+    "outgoing": 16,
+    "total": 160
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "value": null,
+    "incoming": 114,
+    "outgoing": 20,
+    "total": 134
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "value": null,
+    "incoming": 79,
+    "outgoing": 46,
+    "total": 125
+  },
+  {
+    "id": "REU",
+    "name": "R\u00e9union",
+    "value": null,
+    "incoming": 49,
+    "outgoing": 68,
+    "total": 117
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "value": null,
+    "incoming": 79,
+    "outgoing": 38,
+    "total": 117
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "value": null,
+    "incoming": 66,
+    "outgoing": 28,
+    "total": 94
+  },
+  {
+    "id": "MKD",
+    "name": "North Macedonia",
+    "value": null,
+    "incoming": 82,
+    "outgoing": 12,
+    "total": 94
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "value": null,
+    "incoming": 41,
+    "outgoing": 51,
+    "total": 92
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "value": null,
+    "incoming": 55,
+    "outgoing": 23,
+    "total": 78
+  },
+  {
+    "id": "BTN",
+    "name": "Bhutan",
+    "value": null,
+    "incoming": 59,
+    "outgoing": 8,
+    "total": 67
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "value": null,
+    "incoming": 56,
+    "outgoing": 8,
+    "total": 64
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "value": null,
+    "incoming": 58,
+    "outgoing": 5,
+    "total": 63
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "value": null,
+    "incoming": 5,
+    "outgoing": 51,
+    "total": 56
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "value": null,
+    "incoming": 49,
+    "outgoing": 6,
+    "total": 55
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "value": null,
+    "incoming": 48,
+    "outgoing": 5,
+    "total": 53
+  },
+  {
+    "id": "COD",
+    "name": "DR Congo",
+    "value": null,
+    "incoming": 18,
+    "outgoing": 34,
+    "total": 52
+  },
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "value": null,
+    "incoming": 36,
+    "outgoing": 14,
+    "total": 50
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "value": null,
+    "incoming": 42,
+    "outgoing": 6,
+    "total": 48
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "value": null,
+    "incoming": 25,
+    "outgoing": 23,
+    "total": 48
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "value": null,
+    "incoming": 26,
+    "outgoing": 19,
+    "total": 45
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "value": null,
+    "incoming": 29,
+    "outgoing": 15,
+    "total": 44
+  },
+  {
+    "id": "GLP",
+    "name": "Guadeloupe",
+    "value": null,
+    "incoming": 38,
+    "outgoing": 6,
+    "total": 44
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "value": null,
+    "incoming": 39,
+    "outgoing": 4,
+    "total": 43
+  },
+  {
+    "id": "MUS",
+    "name": "Mauritius",
+    "value": null,
+    "incoming": 38,
+    "outgoing": 3,
+    "total": 41
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "value": null,
+    "incoming": 20,
+    "outgoing": 20,
+    "total": 40
+  },
+  {
+    "id": "VIR",
+    "name": "U.S. Virgin Islands",
+    "value": null,
+    "incoming": 33,
+    "outgoing": 6,
+    "total": 39
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "value": null,
+    "incoming": 30,
+    "outgoing": 7,
+    "total": 37
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei",
+    "value": null,
+    "incoming": 21,
+    "outgoing": 16,
+    "total": 37
+  },
+  {
+    "id": "NCL",
+    "name": "New Caledonia",
+    "value": null,
+    "incoming": 19,
+    "outgoing": 13,
+    "total": 32
+  },
+  {
+    "id": "SYR",
+    "name": "Syria",
+    "value": null,
+    "incoming": 25,
+    "outgoing": 3,
+    "total": 28
+  },
+  {
+    "id": "BRB",
+    "name": "Barbados",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 19,
+    "total": 27
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "value": null,
+    "incoming": 19,
+    "outgoing": 6,
+    "total": 25
+  },
+  {
+    "id": "GUF",
+    "name": "French Guiana",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 16,
+    "total": 24
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "value": null,
+    "incoming": 15,
+    "outgoing": 8,
+    "total": 23
+  },
+  {
+    "id": "ATG",
+    "name": "Antigua and Barbuda",
+    "value": null,
+    "incoming": 15,
+    "outgoing": 7,
+    "total": 22
+  },
+  {
+    "id": "CIV",
+    "name": "Ivory Coast",
+    "value": null,
+    "incoming": 18,
+    "outgoing": 4,
+    "total": 22
+  },
+  {
+    "id": "PYF",
+    "name": "French Polynesia",
+    "value": null,
+    "incoming": 14,
+    "outgoing": 5,
+    "total": 19
+  },
+  {
+    "id": "KNA",
+    "name": "St Kitts and Nevis",
+    "value": null,
+    "incoming": 14,
+    "outgoing": 4,
+    "total": 18
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "value": null,
+    "incoming": 17,
+    "outgoing": 1,
+    "total": 18
+  },
+  {
+    "id": "PRK",
+    "name": "North Korea",
+    "value": null,
+    "incoming": 17,
+    "outgoing": 1,
+    "total": 18
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritania",
+    "value": null,
+    "incoming": 16,
+    "outgoing": 1,
+    "total": 17
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "value": null,
+    "incoming": 10,
+    "outgoing": 4,
+    "total": 14
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 10,
+    "total": 13
+  },
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "value": null,
+    "incoming": 10,
+    "outgoing": 3,
+    "total": 13
+  },
+  {
+    "id": "ASM",
+    "name": "American Samoa",
+    "value": null,
+    "incoming": 5,
+    "outgoing": 7,
+    "total": 12
+  },
+  {
+    "id": "BMU",
+    "name": "Bermuda",
+    "value": null,
+    "incoming": 7,
+    "outgoing": 5,
+    "total": 12
+  },
+  {
+    "id": "LIE",
+    "name": "Liechtenstein",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 3,
+    "total": 11
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "value": null,
+    "incoming": 9,
+    "outgoing": 2,
+    "total": 11
+  },
+  {
+    "id": "SOM",
+    "name": "Somalia",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 3,
+    "total": 11
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "value": null,
+    "incoming": 10,
+    "outgoing": 1,
+    "total": 11
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "value": null,
+    "incoming": 4,
+    "outgoing": 6,
+    "total": 10
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "value": null,
+    "incoming": 6,
+    "outgoing": 4,
+    "total": 10
+  },
+  {
+    "id": "GUM",
+    "name": "Guam",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 1,
+    "total": 9
+  },
+  {
+    "id": "GRL",
+    "name": "Greenland",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 8,
+    "total": 9
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyzstan",
+    "value": null,
+    "incoming": 8,
+    "outgoing": 1,
+    "total": 9
+  },
+  {
+    "id": "GRD",
+    "name": "Grenada",
+    "value": null,
+    "incoming": 4,
+    "outgoing": 5,
+    "total": 9
+  },
+  {
+    "id": "SMR",
+    "name": "San Marino",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 7,
+    "total": 8
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 5,
+    "total": 8
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "value": null,
+    "incoming": 6,
+    "outgoing": 2,
+    "total": 8
+  },
+  {
+    "id": "PNG",
+    "name": "Papua New Guinea",
+    "value": null,
+    "incoming": 5,
+    "outgoing": 3,
+    "total": 8
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "value": null,
+    "incoming": 6,
+    "outgoing": 1,
+    "total": 7
+  },
+  {
+    "id": "FJI",
+    "name": "Fiji",
+    "value": null,
+    "incoming": 4,
+    "outgoing": 2,
+    "total": 6
+  },
+  {
+    "id": "MSR",
+    "name": "Montserrat",
+    "value": null,
+    "incoming": 0,
+    "outgoing": 5,
+    "total": 5
+  },
+  {
+    "id": "MDV",
+    "name": "Maldives",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 2,
+    "total": 5
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "value": null,
+    "incoming": 5,
+    "outgoing": 0,
+    "total": 5
+  },
+  {
+    "id": "COG",
+    "name": "Congo Republic",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 4,
+    "total": 5
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "value": null,
+    "incoming": 4,
+    "outgoing": 0,
+    "total": 4
+  },
+  {
+    "id": "CYM",
+    "name": "Cayman Islands",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 3,
+    "total": 4
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 1,
+    "total": 4
+  },
+  {
+    "id": "SYC",
+    "name": "Seychelles",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 0,
+    "total": 3
+  },
+  {
+    "id": "CUW",
+    "name": "Cura\u00e7ao",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 2,
+    "total": 3
+  },
+  {
+    "id": "CAF",
+    "name": "Central African Republic",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 0,
+    "total": 3
+  },
+  {
+    "id": "GMB",
+    "name": "The Gambia",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 0,
+    "total": 3
+  },
+  {
+    "id": "SWZ",
+    "name": "Eswatini",
+    "value": null,
+    "incoming": 2,
+    "outgoing": 1,
+    "total": 3
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 0,
+    "total": 3
+  },
+  {
+    "id": "DJI",
+    "name": "Djibouti",
+    "value": null,
+    "incoming": 3,
+    "outgoing": 0,
+    "total": 3
+  },
+  {
+    "id": "GIB",
+    "name": "Gibraltar",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 1,
+    "total": 2
+  },
+  {
+    "id": "SXM",
+    "name": "Sint Maarten",
+    "value": null,
+    "incoming": 2,
+    "outgoing": 0,
+    "total": 2
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "value": null,
+    "incoming": 2,
+    "outgoing": 0,
+    "total": 2
+  },
+  {
+    "id": "BLZ",
+    "name": "Belize",
+    "value": null,
+    "incoming": 2,
+    "outgoing": 0,
+    "total": 2
+  },
+  {
+    "id": "UMI",
+    "name": "United States Minor Outlying Islands",
+    "value": null,
+    "incoming": 2,
+    "outgoing": 0,
+    "total": 2
+  },
+  {
+    "id": "SJM",
+    "name": "Svalbard and Jan Mayen",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "GIN",
+    "name": "Guinea",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "SLB",
+    "name": "Solomon Islands",
+    "value": null,
+    "incoming": 0,
+    "outgoing": 1,
+    "total": 1
+  },
+  {
+    "id": "VGB",
+    "name": "British Virgin Islands",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "FLK",
+    "name": "Falkland Islands",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "PLW",
+    "name": "Palau",
+    "value": null,
+    "incoming": 0,
+    "outgoing": 1,
+    "total": 1
+  },
+  {
+    "id": "JEY",
+    "name": "Jersey",
+    "value": null,
+    "incoming": 0,
+    "outgoing": 1,
+    "total": 1
+  },
+  {
+    "id": "CPV",
+    "name": "Cabo Verde",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "BHS",
+    "name": "Bahamas",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  },
+  {
+    "id": "TCD",
+    "name": "Chad",
+    "value": null,
+    "incoming": 1,
+    "outgoing": 0,
+    "total": 1
+  }
+]

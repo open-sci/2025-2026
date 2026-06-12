@@ -38,6 +38,8 @@ am5.ready(function () {
     yRenderer.grid.template.setAll({ strokeOpacity: 0 });
     yRenderer.labels.template.setAll({
         fontSize: 12,
+        fontWeight: "bold",
+        fontFamily: "Inter, sans-serif",
         fill: am5.color(0x333333),
         text: "{displayName}",
         tooltipText: "{avgText}"
@@ -115,26 +117,13 @@ am5.ready(function () {
         dataField: "value"
     }]);
 
-    // No bullets — values only appear in tooltip and legend bar
-
-    var subtitle = chart.children.insertIndex(0, am5.Label.new(root, {
-        text: "Each cell shows percentage points above (+) or below (−) the six-institution average. White = at the average.",
-        fontSize: 11,
-        fill: am5.color(0x888888),
-        fontFamily: "Arial, sans-serif",
-        x: am5.p50,
-        centerX: am5.p50,
-        paddingBottom: 6,
-        paddingTop: 0
-    }));
-
     var titleLabel = chart.children.insertIndex(0, am5.Label.new(root, {
-        text: "",
-        fontSize: 16,
+        text: "Institutional Fingerprints: How Citation Geography Differs Across Italian Universities",
+        fontSize: 17,
         fontWeight: "bold",
-        fontFamily: "Arial, sans-serif",
+        fontFamily: "'Playfair Display', serif",
         fill: am5.color(0x23022E),
-        paddingBottom: 4,
+        paddingBottom: 14,
         x: am5.p50,
         centerX: am5.p50
     }));
@@ -150,6 +139,7 @@ am5.ready(function () {
     heatLegendContainer.children.push(am5.Label.new(root, {
         text: "Deviation (pp)",
         fontSize: 12,
+        fontFamily: "Inter, sans-serif",
         fontWeight: "bold",
         centerX: am5.p50,
         x: am5.p50,
@@ -200,6 +190,7 @@ am5.ready(function () {
     ["-3", "−2", "−1", "0", "+1", "+2", "+3"].forEach(function (text) {
         labelsContainer.children.push(am5.Label.new(root, {
             text: text,
+            fontFamily: "Inter, sans-serif",
             fontSize: 11,
             textAlign: "center",
             width: am5.percent(14.28)
@@ -284,7 +275,7 @@ am5.ready(function () {
         }));
 
         series.data.setAll(activeSet.seriesData);
-        titleLabel.set("text", activeSet.title);
+        // titleLabel.set("text", activeSet.title);
 
         // Dynamically reverse the arrow based on flow direction
         if (directionKey === "incoming") {
