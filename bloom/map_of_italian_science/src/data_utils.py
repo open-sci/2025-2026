@@ -62,6 +62,7 @@ COUNTRY_NAMES = {
 }
 
 ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts_annualized"
+AGGREGATE_VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations"
 VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations" / "citation_counts_annualized"
 
 YEAR_BLOCKS = ['2001-2005', '2006-2010', '2011-2015', '2016-2020', '2021-2025']
@@ -95,7 +96,7 @@ def normalize_countries(df):
     return df
 
 
-def load_country_data(institution: str, direction: str, base_path: Path = None) -> pd.DataFrame:
+def load_country_data(institution: str, direction: str, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load a citation-counts CSV for one institution and direction.
     
     Parameters
@@ -104,6 +105,8 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     direction   : str  'incoming' or 'outgoing'
     base_path   : Path, optional
         Custom path to the directory containing institution folders.
+    suffix      : str, optional
+        Suffix to append to the file name before the extension.
     
     Returns
     -------
@@ -111,7 +114,7 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     """
     if base_path is None:
         base_path = BASE_PATH
-    path = base_path / institution / f"citation_counts_countries_{direction}.csv"
+    path = base_path / institution / f"citation_counts_countries_{direction}{suffix}.csv"
     df = pd.read_csv(path)
 
     # ── Cleaning & Normalization ──
@@ -124,7 +127,7 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     return df
 
 
-def load_institution(institution: str, exclude_self: bool = True, base_path: Path = None) -> pd.DataFrame:
+def load_institution(institution: str, exclude_self: bool = True, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load and merge incoming + outgoing for one institution.
     
     Parameters
@@ -134,13 +137,15 @@ def load_institution(institution: str, exclude_self: bool = True, base_path: Pat
         If True, drop Italy (IT) to focus on *international* relationships.
     base_path   : Path, optional
         Custom path to the directory containing institution folders.
+    suffix      : str, optional
+        Suffix to append to the file name before the extension.
         
     Returns
     -------
     pd.DataFrame
     """
-    incoming = load_country_data(institution, "incoming", base_path=base_path)
-    outgoing = load_country_data(institution, "outgoing", base_path=base_path)
+    incoming = load_country_data(institution, "incoming", base_path=base_path, suffix=suffix)
+    outgoing = load_country_data(institution, "outgoing", base_path=base_path, suffix=suffix)
     
     df = pd.concat([incoming, outgoing], ignore_index=True)
     
@@ -150,9 +155,9 @@ def load_institution(institution: str, exclude_self: bool = True, base_path: Pat
     return df
 
 
-def load_all(exclude_self: bool = True, base_path: Path = None) -> pd.DataFrame:
+def load_all(exclude_self: bool = True, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load data for ALL institutions into one long-format DataFrame."""
-    frames = [load_institution(inst, exclude_self=exclude_self, base_path=base_path)
+    frames = [load_institution(inst, exclude_self=exclude_self, base_path=base_path, suffix=suffix)
               for inst in INSTITUTIONS]
     return pd.concat(frames, ignore_index=True)
 
@@ -219,7 +224,7 @@ def normalize_organizations(df: pd.DataFrame, institution: str) -> pd.DataFrame:
     return df
 
 
-def load_org_data(institution: str, direction: str) -> pd.DataFrame:
+def load_org_data(institution: str, direction: str, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load and clean the org-level CSV for one institution and direction.
 
     Cleaning steps (mirrors load_country_data in the country-level notebook):
@@ -234,7 +239,9 @@ def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     pd.DataFrame with columns: ror, legal_name, country_code, country_name,
                                 count, institution, direction
     """
-    path = BASE_PATH / institution / f"citation_counts_organizations_{direction}.csv"
+    if base_path is None:
+        base_path = BASE_PATH
+    path = base_path / institution / f"citation_counts_organizations_{direction}{suffix}.csv"
     df   = pd.read_csv(path)
 
     df = normalize_organizations(df, institution)
@@ -246,15 +253,15 @@ def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     return df
 
 
-def load_all_available() -> dict:
+def load_all_available(base_path: Path = None, suffix: str = "") -> dict:
     """Load all institutions for which CSV files are present.
     Returns: {inst_key: (incoming_df, outgoing_df)}
     """
     datasets = {}
     for inst in INSTITUTIONS:
         try:
-            inb = load_org_data(inst, "incoming")
-            out = load_org_data(inst, "outgoing")
+            inb = load_org_data(inst, "incoming", base_path=base_path, suffix=suffix)
+            out = load_org_data(inst, "outgoing", base_path=base_path, suffix=suffix)
             datasets[inst] = (inb, out)
             print(f"✓ {inst}: incoming {len(inb):,} orgs · outgoing {len(out):,} orgs")
         except FileNotFoundError:
