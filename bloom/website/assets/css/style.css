@@ -605,14 +605,11 @@ h3 {
 }
 
 #sunburst-chartdiv {
-    width: 90vw;
-    margin-left: calc(-45vw + 50%);
-    height: 700px;
+    width: 100%;
+    height: 750px;
     border-radius: 12px;
     overflow: hidden;
-    background-color: var(--color-bg-dark);
-    box-shadow: 0 20px 40px rgba(183, 153, 13, 0.15);
-    border: 1px solid rgba(183, 153, 13, 0.15);
+    background-color: transparent;
     position: relative;
 }
 
@@ -853,11 +850,12 @@ h3 {
 
 /* --- Discrete Section Connectors --- */
 .section-connector {
-    position: absolute;
-    bottom: -75px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    margin-top: -75px;
+    margin-bottom: -75px;
     pointer-events: none;
     opacity: 0.85;
 }
@@ -2286,6 +2284,33 @@ h3 {
     background: rgba(50, 14, 59, 0.06) !important;
 }
 
+#sunburst-controls {
+    background-color: transparent;
+}
+
+.sunburst-inst-btn {
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.sunburst-inst-btn:hover {
+    color: var(--color-text-light) !important;
+    background-color: var(--color-primary) !important;
+}
+
+#sunburst-controls .chart-control-label {
+    color: var(--color-primary) !important;
+}
+
+.sunburst-dir-btn {
+    color: var(--color-primary);
+    border: 2px solid var(--color-accent);
+}
+
+.sunburst-dir-btn:hover {
+    color: var(--color-primary) !important;
+    background-color: var(--color-accent);
+}
 
 /* ================================================================
    13. RESPONSIVE OVERRIDES

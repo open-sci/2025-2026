@@ -369,7 +369,11 @@
                             <p class="text highlight">Moving from countries to <span
                                     class="hand-drawn-underline">organizations</span> reveals a similar structural
                                 convergence: all six Italian institutions engage with the same core set of international
-                                partners.</p>
+                                partners. <br> A deeper analysis of the data uncovers additional patterns.</p>
+                            <p class="text">The visualizations below show the top 15 organizations that either cite, or
+                                are cited by, the six Italian institutions included in this study. They also reveal the
+                                degree of <span class="hand-drawn-underline">reciprocity</span> in the citation
+                                relationships.</p>
                         </div>
                     </div>
                 </div>
@@ -396,10 +400,18 @@
 
                     <!-- Text in bottom left -->
                     <div style="grid-column: 1; grid-row: 2;">
-                        <p class="text"><span class="hand-drawn-circle">CNRS</span> stands out as the single
-                            organization with the highest citation volume across all six institutions — and uniquely,
-                            its bubble sits almost exactly on the diagonal line of perfect symmetry, meaning Italian
-                            universities cite it as much as it cites them.</p>
+                        <p class="text"><span class="hand-drawn-circle"><strong>Italian</strong></span> organizations
+                            occupy many of the top positions. To better understand each institution's international
+                            citation profile, the analysis can be viewed both with and without Italian organizations.
+                            When Italy is included, domestic citation networks appear dense and highly reciprocal. The
+                            <strong>near-perfect symmetry</strong> of these relationships suggests that citations among
+                            Italian institutions are mutual rather than driven by one-sided dependence.
+                        </p>
+                        <p class="text">Removing Italian organizations from the analysis highlights important
+                            differences between institutions. UPO undergoes the most striking transformation: its
+                            previously concentrated network gives way to a profile centered on large-scale physics
+                            infrastructures and research organizations, for instance including CERN and IN2P3. In this
+                            configuration, its citation pattern becomes structurally similar to that of SNS.</p>
                     </div>
 
                     <!-- Diagram Box in bottom right -->
@@ -417,6 +429,18 @@
 
                 </div>
 
+                <div class="content-wrapper" style="margin-bottom: 4rem">
+                    <div class="text-column center-content">
+                        <p class="text">Two organizations stand out across the
+                            dataset: <span class="hand-drawn-circle"><strong>CNRS</strong></span> and <strong>Harvard
+                                University Press</strong>. CNRS records the highest overall citation volume among all
+                            organizations connected to the six Italian institutions. Its position almost exactly on the
+                            diagonal line indicates a highly balanced relationship: Italian universities cite CNRS as
+                            much as CNRS cites them. This combination of prominence and reciprocity is remarkably
+                            consistent across institutions.</p>
+                    </div>
+                </div>
+
                 <!-- scatter plot -->
                 <div
                     style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: 2rem; padding-right: max(2rem, calc((100vw - 1200px) / 2));">
@@ -429,10 +453,19 @@
                     </div>
 
                     <div>
-                        <h3
-                            style="font-family: var(--font-heading); color: var(--color-primary); font-size: 1.5rem; margin-bottom: 1rem;">
-                            Reciprocity</h3>
-                        <p class="text">analysis</p>
+                        <p class="text"><span class="hand-drawn-circle"><strong>United States</strong></span>
+                            organizations are consistently positioned above the diagonal, indicating that Italian
+                            institutions draw more heavily on American research than American organizations cite Italian
+                            work in return. Harvard University Press represents the clearest example of this asymmetry,
+                            making publisher-driven citation dependence one of the most visible patterns in the data.
+                        </p>
+                        <p class="text">By contrast, <span class="hand-drawn-circle"><strong>Chinese</strong></span>
+                            organizations tend to appear below the diagonal. Across all six institutions, they cite
+                            Italian research more frequently than Italian institutions cite them.</p>
+                        <p class="text">Taken together, these patterns reveal distinct modes of scientific exchange.
+                            European organizations generally appear as reciprocal peers, United States organizations as
+                            dominant reference points, and Chinese organizations as increasingly active - but still
+                            asymmetrical - partners in the global circulation of knowledge.</p>
                     </div>
                 </div>
             </section>
@@ -440,31 +473,69 @@
             <!-- Sunburst -->
             <section id="sunburst" class="section sunburst-section slide-up question1">
                 <div class="content-wrapper">
-                    <h2 class="section-title">Countries and Organizations Analysis</h2>
-                </div>
-
-                <div class="content-wrapper" style="margin-bottom: 2rem;">
-                    <div class="vis-controls" id="sunburst-controls">
-                        <label for="sunburst-inst-select">Institution: </label>
-                        <select id="sunburst-inst-select">
-                            <option value="UNIBO">University of Bologna</option>
-                            <option value="UNIMI">University of Milan</option>
-                            <option value="UNIPD">University of Padua</option>
-                            <option value="UNITO">University of Turin</option>
-                            <option value="UPO">University of Eastern Piedmont</option>
-                            <option value="SNS">Scuola Normale Superiore</option>
-                        </select>
-
-                        <label for="sunburst-dir-select">Direction: </label>
-                        <select id="sunburst-dir-select">
-                            <option value="incoming">Incoming citations</option>
-                            <option value="outgoing">Outgoing citations</option>
-                        </select>
+                    <div>
+                        <div class="text-column center-content">
+                            <p class="text highlight">A country’s importance is not only a matter of volume. It also
+                                depends on how that volume is <span class="hand-drawn-underline">distributed</span>.
+                                Some countries spread their citation activity across dozens of organizations, creating
+                                dense and resilient networks. Others rely heavily on one or two institutions, making
+                                their connections more concentrated - and potentially more fragile.</p>
+                            <p class="text">The sunburst charts reveal this difference at a glance. Wide, balanced rings
+                                indicate a diversified ecosystem; large dominant slices point to institutional
+                                dependence.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div id="sunburst-chartdiv">
-                    <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
+                <div
+                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: flex-start; margin-top: 5rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
+                    <div>
+                        <p class="text"><span class="hand-drawn-underline">Large scientific systems</span>— such as the
+                            United States, France, and Italy —tend to distribute citations across dozens of
+                            organizations. With the notable exception of CNRS, no single institution dominates. These
+                            relationships are systemic rather than bilateral, making them more resilient: the removal of
+                            any one organization would have little effect on the overall pattern.</p>
+                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation
+                                volumes</span>, such as Switzerland and Belgium, often display the opposite structure. A
+                            large share of their citation activity is concentrated in one or two organizations. These
+                            connections can be highly valuable, but they are also more dependent on specific
+                            institutions than on the broader national research system.</p>
+                        <p class="text">This distinction matters for research strategy. Citation volume alone does not
+                            necessarily indicate deep integration. A country generating thousands of citations through a
+                            single organization may be structurally more vulnerable than a smaller partner whose
+                            citations are distributed across a diverse network of institutions.</p>
+                    </div>
+
+                    <div>
+                        <div class="vis-controls" id="sunburst-controls"
+                            style="flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Select Institution</span>
+                                <div class="inst-btn-group sunburst-inst-btn-group">
+                                    <button class="inst-btn sunburst-inst-btn active" data-inst="UNIBO">UNIBO</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNITO">UNITO</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="SNS">SNS</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UPO">UPO</button>
+                                </div>
+                            </div>
+
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Flow Direction</span>
+                                <div class="inst-btn-group sunburst-dir-btn-group">
+                                    <button class="inst-btn sunburst-dir-btn active"
+                                        data-dir="incoming">Incoming</button>
+                                    <button class="inst-btn sunburst-dir-btn" data-dir="outgoing">Outgoing</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="sunburst-chartdiv">
+                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 

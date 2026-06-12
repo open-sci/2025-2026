@@ -311,7 +311,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <path d="M 15 115 L 30 130 L 45 115" stroke="var(--color-accent)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         `;
-        sec.appendChild(arrowContainer);
+        // Insert AFTER the section (between sections in the DOM), not inside it.
+        // This avoids the connector being clipped by the next section's background,
+        // which would happen because .slide-up's transform creates a stacking context.
+        sec.insertAdjacentElement('afterend', arrowContainer);
     });
 });
 
