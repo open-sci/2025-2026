@@ -43,10 +43,22 @@
 
 
     <header class="section hero fade-in">
-        <div id="hero-map" class="hero-bg"></div>
+        <img src="assets/img/hero.png" class="hero-bg-logo" alt="Bloom Logo Background">
         <div class="content-wrapper hero-content">
-            <h1 class="title">Mapping the Flow<br>of Italian Science</h1>
+            <h1 class="title" style="margin-top: 4rem;">Mapping the Flow<br>of Italian Science</h1>
             <p class="subtitle">An exploration of citations and disciplinary flows across universities.</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="35751528">0</span>
+                    <span class="stat-label">Incoming Citations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="36373407">0</span>
+                    <span class="stat-label">Outgoing Citations</span>
+                </div>
+            </div>
+
             <div class="scroll-indicator">
                 <span class="mouse">
                     <span class="wheel"></span>
@@ -486,7 +498,7 @@
 
                 <!-- Sankey Row -->
                 <div
-                    style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
+                    style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: 2rem;">
 
                     <!-- Buttons in top right -->
                     <div style="grid-column: 2; grid-row: 1; display: flex; justify-content: center;">
@@ -549,7 +561,7 @@
 
                 <!-- scatter plot -->
                 <div
-                    style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: 2rem; padding-right: max(2rem, calc((100vw - 1200px) / 2));">
+                    style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
                     <div>
                         <div id="scatter-chartdiv"
                             style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
@@ -557,9 +569,13 @@
                             </div>
                         </div>
                     </div>
-
                     <div>
-                        <p class="text"><span class="hand-drawn-circle"><strong>United States</strong></span>
+                        <div class="reminder-callout">
+                            <div class="reminder-content">
+                                The <strong>dashed diagonal</strong> marks perfect reciprocity — points above cite less back than they are cited; points below cite more than they receive. The <strong>bubble size</strong> reveals the citation volume of an organization.
+                            </div>
+                        </div>
+                        <p class="text" style="margin-top: 2rem;"><span class="hand-drawn-circle"><strong>United States</strong></span>
                             organizations are consistently positioned above the diagonal, indicating that Italian
                             institutions draw more heavily on American research than American organizations cite Italian
                             work in return. Harvard University Press represents the clearest example of this asymmetry,
@@ -568,10 +584,18 @@
                         <p class="text">By contrast, <span class="hand-drawn-circle"><strong>Chinese</strong></span>
                             organizations tend to appear below the diagonal. Across all six institutions, they cite
                             Italian research more frequently than Italian institutions cite them.</p>
-                        <p class="text">Taken together, these patterns reveal distinct modes of scientific exchange.
-                            European organizations generally appear as reciprocal peers, United States organizations as
-                            dominant reference points, and Chinese organizations as increasingly active - but still
-                            asymmetrical - partners in the global circulation of knowledge.</p>
+                    </div>
+                </div>
+
+                <div class="content-wrapper" style="margin-top: 3rem; margin-bottom: 2rem;">
+                    <div class="text-column center-content">
+                        <p class="text">Two organizations stand out across the
+                            dataset: <span class="hand-drawn-circle"><strong>CNRS</strong></span> and <strong>Harvard
+                                University Press</strong>. CNRS records the highest overall citation volume among all
+                            organizations connected to the six Italian institutions. Its position almost exactly on the
+                            diagonal line indicates a highly balanced relationship: Italian universities cite CNRS as
+                            much as CNRS cites them. This combination of prominence and reciprocity is remarkably
+                            consistent across institutions.</p>
                     </div>
                 </div>
             </section>
@@ -594,15 +618,14 @@
                 </div>
 
                 <div
-                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: flex-start; margin-top: 5rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
+                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: flex-start; margin-top: 5rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
                     <div>
                         <p class="text"><span class="hand-drawn-underline">Large scientific systems</span>— such as the
                             United States, France, and Italy —tend to distribute citations across dozens of
                             organizations. With the notable exception of CNRS, no single institution dominates. These
                             relationships are systemic rather than bilateral, making them more resilient: the removal of
                             any one organization would have little effect on the overall pattern.</p>
-                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation
-                                volumes</span>, such as Switzerland and Belgium, often display the opposite structure. A
+                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation volumes,</span> such as Switzerland and Belgium, often display the opposite structure. A
                             large share of their citation activity is concentrated in one or two organizations. These
                             connections can be highly valuable, but they are also more dependent on specific
                             institutions than on the broader national research system.</p>

@@ -1395,3 +1395,53 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+// Animated Number Counters for Hero Section
+document.addEventListener('DOMContentLoaded', () => {
+    const statNumbers = document.querySelectorAll('.stat-number');
+    
+    if (statNumbers.length === 0) return;
+
+    const animateValue = (obj, start, end, duration) => {
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            
+            // "swing" easing (sine ease in-out) matches the martrioska.html reference
+            const easeSwing = 0.5 - Math.cos(progress * Math.PI) / 2;
+            const currentVal = Math.floor(easeSwing * (end - start) + start);
+            
+            // Format number with commas
+            obj.innerHTML = currentVal.toLocaleString('en-US');
+            
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            } else {
+                obj.innerHTML = end.toLocaleString('en-US');
+            }
+        };
+        window.requestAnimationFrame(step);
+    };
+
+    const observerOptions = {
+        threshold: 0.5
+    };
+
+    const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const targetStr = entry.target.getAttribute('data-target');
+                if (targetStr) {
+                    const target = parseInt(targetStr, 10);
+                    animateValue(entry.target, 0, target, 7000);
+                    entry.target.removeAttribute('data-target'); // ensure it only animates once
+                }
+                statsObserver.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    statNumbers.forEach(stat => {
+        statsObserver.observe(stat);
+    });
+});
