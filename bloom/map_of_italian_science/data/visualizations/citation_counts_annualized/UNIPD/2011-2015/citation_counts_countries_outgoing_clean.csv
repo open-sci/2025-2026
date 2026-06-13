@@ -7,7 +7,6 @@ AL,Albania,132,UNIPD,2011-2015,outgoing
 AM,Armenia,5007,UNIPD,2011-2015,outgoing
 AO,Angola,153,UNIPD,2011-2015,outgoing
 AR,Argentina,21163,UNIPD,2011-2015,outgoing
-AS,American Samoa,38,UNIPD,2011-2015,outgoing
 AT,Austria,46399,UNIPD,2011-2015,outgoing
 AU,Australia,164896,UNIPD,2011-2015,outgoing
 AZ,Azerbaijan,3411,UNIPD,2011-2015,outgoing
@@ -20,10 +19,8 @@ BG,Bulgaria,10723,UNIPD,2011-2015,outgoing
 BH,Bahrain,1144,UNIPD,2011-2015,outgoing
 BI,Burundi,14,UNIPD,2011-2015,outgoing
 BJ,Benin,360,UNIPD,2011-2015,outgoing
-BM,Bermuda,14,UNIPD,2011-2015,outgoing
 BN,Brunei,50,UNIPD,2011-2015,outgoing
 BO,Bolivia,141,UNIPD,2011-2015,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",2,UNIPD,2011-2015,outgoing
 BR,Brazil,79178,UNIPD,2011-2015,outgoing
 BS,Bahamas,8,UNIPD,2011-2015,outgoing
 BT,Bhutan,62,UNIPD,2011-2015,outgoing
@@ -38,17 +35,16 @@ CH,Switzerland,150085,UNIPD,2011-2015,outgoing
 CI,Ivory Coast,92,UNIPD,2011-2015,outgoing
 CL,Chile,20326,UNIPD,2011-2015,outgoing
 CM,Cameroon,282,UNIPD,2011-2015,outgoing
-CN,China,187999,UNIPD,2011-2015,outgoing
+CN,China,204614,UNIPD,2011-2015,outgoing
 CO,Colombia,9463,UNIPD,2011-2015,outgoing
 CR,Costa Rica,393,UNIPD,2011-2015,outgoing
 CU,Cuba,1030,UNIPD,2011-2015,outgoing
 CV,Cabo Verde,1,UNIPD,2011-2015,outgoing
-CW,Curaçao,125,UNIPD,2011-2015,outgoing
 CY,Cyprus,4962,UNIPD,2011-2015,outgoing
 CZ,Czechia,30193,UNIPD,2011-2015,outgoing
 DE,Germany,433691,UNIPD,2011-2015,outgoing
 DJ,Djibouti,1,UNIPD,2011-2015,outgoing
-DK,Denmark,66753,UNIPD,2011-2015,outgoing
+DK,Denmark,66795,UNIPD,2011-2015,outgoing
 DO,Dominican Republic,24,UNIPD,2011-2015,outgoing
 DZ,Algeria,707,UNIPD,2011-2015,outgoing
 EC,Ecuador,966,UNIPD,2011-2015,outgoing
@@ -60,27 +56,19 @@ ET,Ethiopia,1318,UNIPD,2011-2015,outgoing
 EU,European Union,27,UNIPD,2011-2015,outgoing
 FI,Finland,73669,UNIPD,2011-2015,outgoing
 FJ,Fiji,141,UNIPD,2011-2015,outgoing
-FK,Falkland Islands,4,UNIPD,2011-2015,outgoing
 FM,Micronesia,1,UNIPD,2011-2015,outgoing
-FO,Faroe Islands,8,UNIPD,2011-2015,outgoing
-FR,France,1043684,UNIPD,2011-2015,outgoing
+FR,France,1044965,UNIPD,2011-2015,outgoing
 GA,Gabon,50,UNIPD,2011-2015,outgoing
-GB,United Kingdom,580655,UNIPD,2011-2015,outgoing
+GB,United Kingdom,580691,UNIPD,2011-2015,outgoing
 GD,Grenada,229,UNIPD,2011-2015,outgoing
 GE,Georgia,6803,UNIPD,2011-2015,outgoing
-GF,French Guiana,120,UNIPD,2011-2015,outgoing
 GH,Ghana,525,UNIPD,2011-2015,outgoing
-GI,Gibraltar,10,UNIPD,2011-2015,outgoing
-GL,Greenland,34,UNIPD,2011-2015,outgoing
 GM,The Gambia,17,UNIPD,2011-2015,outgoing
 GN,Guinea,16,UNIPD,2011-2015,outgoing
-GP,Guadeloupe,408,UNIPD,2011-2015,outgoing
 GR,Greece,40552,UNIPD,2011-2015,outgoing
 GT,Guatemala,58,UNIPD,2011-2015,outgoing
-GU,Guam,12,UNIPD,2011-2015,outgoing
 GW,Guinea-Bissau,22,UNIPD,2011-2015,outgoing
 GY,Guyana,3,UNIPD,2011-2015,outgoing
-HK,Hong Kong,16267,UNIPD,2011-2015,outgoing
 HN,Honduras,112,UNIPD,2011-2015,outgoing
 HR,Croatia,16875,UNIPD,2011-2015,outgoing
 HT,Haiti,11,UNIPD,2011-2015,outgoing
@@ -93,7 +81,6 @@ IQ,Iraq,229,UNIPD,2011-2015,outgoing
 IR,Iran,16530,UNIPD,2011-2015,outgoing
 IS,Iceland,2971,UNIPD,2011-2015,outgoing
 IT,Italy,779560,UNIPD,2011-2015,outgoing
-JE,Jersey,2,UNIPD,2011-2015,outgoing
 JM,Jamaica,879,UNIPD,2011-2015,outgoing
 JO,Jordan,2153,UNIPD,2011-2015,outgoing
 JP,Japan,170353,UNIPD,2011-2015,outgoing
@@ -104,7 +91,6 @@ KN,St Kitts and Nevis,30,UNIPD,2011-2015,outgoing
 KP,North Korea,5,UNIPD,2011-2015,outgoing
 KR,South Korea,95034,UNIPD,2011-2015,outgoing
 KW,Kuwait,257,UNIPD,2011-2015,outgoing
-KY,Cayman Islands,1,UNIPD,2011-2015,outgoing
 KZ,Kazakhstan,259,UNIPD,2011-2015,outgoing
 LA,Laos,28,UNIPD,2011-2015,outgoing
 LB,Lebanon,1341,UNIPD,2011-2015,outgoing
@@ -125,10 +111,7 @@ MK,North Macedonia,267,UNIPD,2011-2015,outgoing
 ML,Mali,44,UNIPD,2011-2015,outgoing
 MM,Myanmar,69,UNIPD,2011-2015,outgoing
 MN,Mongolia,178,UNIPD,2011-2015,outgoing
-MO,Macao,348,UNIPD,2011-2015,outgoing
-MQ,Martinique,17,UNIPD,2011-2015,outgoing
 MR,Mauritania,8,UNIPD,2011-2015,outgoing
-MS,Montserrat,1,UNIPD,2011-2015,outgoing
 MT,Malta,341,UNIPD,2011-2015,outgoing
 MU,Mauritius,51,UNIPD,2011-2015,outgoing
 MV,Maldives,18,UNIPD,2011-2015,outgoing
@@ -136,29 +119,25 @@ MW,Malawi,150,UNIPD,2011-2015,outgoing
 MX,Mexico,29473,UNIPD,2011-2015,outgoing
 MY,Malaysia,7995,UNIPD,2011-2015,outgoing
 MZ,Mozambique,223,UNIPD,2011-2015,outgoing
-NC,New Caledonia,145,UNIPD,2011-2015,outgoing
 NE,Niger,59,UNIPD,2011-2015,outgoing
 NG,Nigeria,1273,UNIPD,2011-2015,outgoing
 NI,Nicaragua,76,UNIPD,2011-2015,outgoing
-NL,The Netherlands,191919,UNIPD,2011-2015,outgoing
-NO,Norway,33802,UNIPD,2011-2015,outgoing
+NL,The Netherlands,192047,UNIPD,2011-2015,outgoing
+NO,Norway,33843,UNIPD,2011-2015,outgoing
 NP,Nepal,413,UNIPD,2011-2015,outgoing
 NZ,New Zealand,18635,UNIPD,2011-2015,outgoing
 OM,Oman,396,UNIPD,2011-2015,outgoing
 PA,Panama,308,UNIPD,2011-2015,outgoing
 PE,Peru,1703,UNIPD,2011-2015,outgoing
-PF,French Polynesia,60,UNIPD,2011-2015,outgoing
 PG,Papua New Guinea,45,UNIPD,2011-2015,outgoing
 PH,Philippines,1425,UNIPD,2011-2015,outgoing
 PK,Pakistan,8298,UNIPD,2011-2015,outgoing
 PL,Poland,70952,UNIPD,2011-2015,outgoing
-PR,Puerto Rico,5027,UNIPD,2011-2015,outgoing
 PS,Palestine,476,UNIPD,2011-2015,outgoing
 PT,Portugal,38867,UNIPD,2011-2015,outgoing
 PW,Palau,35,UNIPD,2011-2015,outgoing
 PY,Paraguay,66,UNIPD,2011-2015,outgoing
 QA,Qatar,2865,UNIPD,2011-2015,outgoing
-RE,Réunion,531,UNIPD,2011-2015,outgoing
 RO,Romania,11624,UNIPD,2011-2015,outgoing
 RS,Serbia,9257,UNIPD,2011-2015,outgoing
 RU,Russia,116502,UNIPD,2011-2015,outgoing
@@ -169,7 +148,6 @@ SD,Sudan,156,UNIPD,2011-2015,outgoing
 SE,Sweden,64758,UNIPD,2011-2015,outgoing
 SG,Singapore,19353,UNIPD,2011-2015,outgoing
 SI,Slovenia,9509,UNIPD,2011-2015,outgoing
-SJ,Svalbard and Jan Mayen,41,UNIPD,2011-2015,outgoing
 SK,Slovakia,14526,UNIPD,2011-2015,outgoing
 SL,Sierra Leone,210,UNIPD,2011-2015,outgoing
 SM,San Marino,74,UNIPD,2011-2015,outgoing
@@ -178,7 +156,6 @@ SO,Somalia,70,UNIPD,2011-2015,outgoing
 SR,Suriname,14,UNIPD,2011-2015,outgoing
 SS,South Sudan,3,UNIPD,2011-2015,outgoing
 SV,El Salvador,160,UNIPD,2011-2015,outgoing
-SX,Sint Maarten,1,UNIPD,2011-2015,outgoing
 SY,Syria,43,UNIPD,2011-2015,outgoing
 SZ,Eswatini,5,UNIPD,2011-2015,outgoing
 TD,Chad,2,UNIPD,2011-2015,outgoing
@@ -193,12 +170,10 @@ TW,Taiwan,46856,UNIPD,2011-2015,outgoing
 TZ,Tanzania,733,UNIPD,2011-2015,outgoing
 UA,Ukraine,10432,UNIPD,2011-2015,outgoing
 UG,Uganda,770,UNIPD,2011-2015,outgoing
-US,United States,2041803,UNIPD,2011-2015,outgoing
+US,United States,2046895,UNIPD,2011-2015,outgoing
 UY,Uruguay,1012,UNIPD,2011-2015,outgoing
 UZ,Uzbekistan,1295,UNIPD,2011-2015,outgoing
 VE,Venezuela,535,UNIPD,2011-2015,outgoing
-VG,British Virgin Islands,4,UNIPD,2011-2015,outgoing
-VI,U.S. Virgin Islands,15,UNIPD,2011-2015,outgoing
 VN,Vietnam,2911,UNIPD,2011-2015,outgoing
 WS,Samoa,1,UNIPD,2011-2015,outgoing
 XK,Kosovo,30,UNIPD,2011-2015,outgoing

@@ -5,7 +5,6 @@ AL,Albania,6,UNITO,2001-2005,incoming
 AM,Armenia,197,UNITO,2001-2005,incoming
 AO,Angola,4,UNITO,2001-2005,incoming
 AR,Argentina,1337,UNITO,2001-2005,incoming
-AS,American Samoa,29,UNITO,2001-2005,incoming
 AT,Austria,2203,UNITO,2001-2005,incoming
 AU,Australia,8484,UNITO,2001-2005,incoming
 AZ,Azerbaijan,108,UNITO,2001-2005,incoming
@@ -18,10 +17,8 @@ BG,Bulgaria,489,UNITO,2001-2005,incoming
 BH,Bahrain,31,UNITO,2001-2005,incoming
 BI,Burundi,4,UNITO,2001-2005,incoming
 BJ,Benin,17,UNITO,2001-2005,incoming
-BM,Bermuda,2,UNITO,2001-2005,incoming
 BN,Brunei,1,UNITO,2001-2005,incoming
 BO,Bolivia,7,UNITO,2001-2005,incoming
-BQ,"Bonaire, Sint Eustatius, and Saba",3,UNITO,2001-2005,incoming
 BR,Brazil,4075,UNITO,2001-2005,incoming
 BT,Bhutan,4,UNITO,2001-2005,incoming
 BW,Botswana,1,UNITO,2001-2005,incoming
@@ -34,11 +31,10 @@ CH,Switzerland,8714,UNITO,2001-2005,incoming
 CI,Ivory Coast,7,UNITO,2001-2005,incoming
 CL,Chile,507,UNITO,2001-2005,incoming
 CM,Cameroon,15,UNITO,2001-2005,incoming
-CN,China,6983,UNITO,2001-2005,incoming
+CN,China,8223,UNITO,2001-2005,incoming
 CO,Colombia,167,UNITO,2001-2005,incoming
 CR,Costa Rica,8,UNITO,2001-2005,incoming
 CU,Cuba,25,UNITO,2001-2005,incoming
-CW,Curaçao,4,UNITO,2001-2005,incoming
 CY,Cyprus,187,UNITO,2001-2005,incoming
 CZ,Czechia,1591,UNITO,2001-2005,incoming
 DE,Germany,28513,UNITO,2001-2005,incoming
@@ -53,17 +49,14 @@ ET,Ethiopia,81,UNITO,2001-2005,incoming
 EU,European Union,1,UNITO,2001-2005,incoming
 FI,Finland,3091,UNITO,2001-2005,incoming
 FJ,Fiji,1,UNITO,2001-2005,incoming
-FR,France,48934,UNITO,2001-2005,incoming
+FR,France,48959,UNITO,2001-2005,incoming
 GA,Gabon,23,UNITO,2001-2005,incoming
-GB,United Kingdom,44119,UNITO,2001-2005,incoming
+GB,United Kingdom,44121,UNITO,2001-2005,incoming
 GD,Grenada,5,UNITO,2001-2005,incoming
 GE,Georgia,177,UNITO,2001-2005,incoming
-GF,French Guiana,2,UNITO,2001-2005,incoming
 GH,Ghana,48,UNITO,2001-2005,incoming
-GP,Guadeloupe,17,UNITO,2001-2005,incoming
 GR,Greece,3117,UNITO,2001-2005,incoming
 GT,Guatemala,4,UNITO,2001-2005,incoming
-HK,Hong Kong,1230,UNITO,2001-2005,incoming
 HR,Croatia,308,UNITO,2001-2005,incoming
 HU,Hungary,1255,UNITO,2001-2005,incoming
 ID,Indonesia,26,UNITO,2001-2005,incoming
@@ -96,15 +89,13 @@ MK,North Macedonia,8,UNITO,2001-2005,incoming
 ML,Mali,6,UNITO,2001-2005,incoming
 MM,Myanmar,34,UNITO,2001-2005,incoming
 MN,Mongolia,46,UNITO,2001-2005,incoming
-MO,Macao,10,UNITO,2001-2005,incoming
 MT,Malta,10,UNITO,2001-2005,incoming
 MW,Malawi,15,UNITO,2001-2005,incoming
 MX,Mexico,1674,UNITO,2001-2005,incoming
 MY,Malaysia,113,UNITO,2001-2005,incoming
 MZ,Mozambique,3,UNITO,2001-2005,incoming
-NC,New Caledonia,1,UNITO,2001-2005,incoming
 NG,Nigeria,47,UNITO,2001-2005,incoming
-NL,The Netherlands,11359,UNITO,2001-2005,incoming
+NL,The Netherlands,11366,UNITO,2001-2005,incoming
 NO,Norway,1812,UNITO,2001-2005,incoming
 NP,Nepal,21,UNITO,2001-2005,incoming
 NZ,New Zealand,393,UNITO,2001-2005,incoming
@@ -114,13 +105,11 @@ PG,Papua New Guinea,1,UNITO,2001-2005,incoming
 PH,Philippines,68,UNITO,2001-2005,incoming
 PK,Pakistan,136,UNITO,2001-2005,incoming
 PL,Poland,3653,UNITO,2001-2005,incoming
-PR,Puerto Rico,164,UNITO,2001-2005,incoming
 PS,Palestine,18,UNITO,2001-2005,incoming
 PT,Portugal,1411,UNITO,2001-2005,incoming
 PW,Palau,7,UNITO,2001-2005,incoming
 PY,Paraguay,8,UNITO,2001-2005,incoming
 QA,Qatar,23,UNITO,2001-2005,incoming
-RE,Réunion,5,UNITO,2001-2005,incoming
 RO,Romania,205,UNITO,2001-2005,incoming
 RS,Serbia,366,UNITO,2001-2005,incoming
 RU,Russia,7620,UNITO,2001-2005,incoming
@@ -145,7 +134,7 @@ TW,Taiwan,3457,UNITO,2001-2005,incoming
 TZ,Tanzania,317,UNITO,2001-2005,incoming
 UA,Ukraine,454,UNITO,2001-2005,incoming
 UG,Uganda,34,UNITO,2001-2005,incoming
-US,United States,154234,UNITO,2001-2005,incoming
+US,United States,154427,UNITO,2001-2005,incoming
 UY,Uruguay,46,UNITO,2001-2005,incoming
 UZ,Uzbekistan,222,UNITO,2001-2005,incoming
 VE,Venezuela,64,UNITO,2001-2005,incoming

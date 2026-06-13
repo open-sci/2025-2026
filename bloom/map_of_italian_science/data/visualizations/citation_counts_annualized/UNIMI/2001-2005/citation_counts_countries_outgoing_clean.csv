@@ -6,7 +6,6 @@ AL,Albania,26,UNIMI,2001-2005,outgoing
 AM,Armenia,180,UNIMI,2001-2005,outgoing
 AO,Angola,86,UNIMI,2001-2005,outgoing
 AR,Argentina,4581,UNIMI,2001-2005,outgoing
-AS,American Samoa,20,UNIMI,2001-2005,outgoing
 AT,Austria,14136,UNIMI,2001-2005,outgoing
 AU,Australia,63550,UNIMI,2001-2005,outgoing
 AZ,Azerbaijan,171,UNIMI,2001-2005,outgoing
@@ -19,10 +18,8 @@ BG,Bulgaria,1240,UNIMI,2001-2005,outgoing
 BH,Bahrain,186,UNIMI,2001-2005,outgoing
 BI,Burundi,19,UNIMI,2001-2005,outgoing
 BJ,Benin,134,UNIMI,2001-2005,outgoing
-BM,Bermuda,22,UNIMI,2001-2005,outgoing
 BN,Brunei,8,UNIMI,2001-2005,outgoing
 BO,Bolivia,27,UNIMI,2001-2005,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",3,UNIMI,2001-2005,outgoing
 BR,Brazil,15652,UNIMI,2001-2005,outgoing
 BT,Bhutan,28,UNIMI,2001-2005,outgoing
 BW,Botswana,28,UNIMI,2001-2005,outgoing
@@ -36,15 +33,14 @@ CH,Switzerland,60104,UNIMI,2001-2005,outgoing
 CI,Ivory Coast,13,UNIMI,2001-2005,outgoing
 CL,Chile,2108,UNIMI,2001-2005,outgoing
 CM,Cameroon,130,UNIMI,2001-2005,outgoing
-CN,China,28454,UNIMI,2001-2005,outgoing
+CN,China,38193,UNIMI,2001-2005,outgoing
 CO,Colombia,729,UNIMI,2001-2005,outgoing
 CR,Costa Rica,117,UNIMI,2001-2005,outgoing
 CU,Cuba,371,UNIMI,2001-2005,outgoing
-CW,Curaçao,69,UNIMI,2001-2005,outgoing
 CY,Cyprus,549,UNIMI,2001-2005,outgoing
 CZ,Czechia,4512,UNIMI,2001-2005,outgoing
 DE,Germany,157202,UNIMI,2001-2005,outgoing
-DK,Denmark,22333,UNIMI,2001-2005,outgoing
+DK,Denmark,22345,UNIMI,2001-2005,outgoing
 DO,Dominican Republic,10,UNIMI,2001-2005,outgoing
 DZ,Algeria,236,UNIMI,2001-2005,outgoing
 EC,Ecuador,192,UNIMI,2001-2005,outgoing
@@ -56,22 +52,16 @@ ET,Ethiopia,428,UNIMI,2001-2005,outgoing
 EU,European Union,7,UNIMI,2001-2005,outgoing
 FI,Finland,28723,UNIMI,2001-2005,outgoing
 FJ,Fiji,3,UNIMI,2001-2005,outgoing
-FR,France,253455,UNIMI,2001-2005,outgoing
+FR,France,253679,UNIMI,2001-2005,outgoing
 GA,Gabon,75,UNIMI,2001-2005,outgoing
-GB,United Kingdom,281349,UNIMI,2001-2005,outgoing
+GB,United Kingdom,281384,UNIMI,2001-2005,outgoing
 GD,Grenada,15,UNIMI,2001-2005,outgoing
 GE,Georgia,1179,UNIMI,2001-2005,outgoing
-GF,French Guiana,12,UNIMI,2001-2005,outgoing
 GH,Ghana,247,UNIMI,2001-2005,outgoing
-GI,Gibraltar,3,UNIMI,2001-2005,outgoing
-GL,Greenland,12,UNIMI,2001-2005,outgoing
 GM,The Gambia,5,UNIMI,2001-2005,outgoing
-GP,Guadeloupe,56,UNIMI,2001-2005,outgoing
 GR,Greece,9318,UNIMI,2001-2005,outgoing
 GT,Guatemala,73,UNIMI,2001-2005,outgoing
-GU,Guam,19,UNIMI,2001-2005,outgoing
 GW,Guinea-Bissau,28,UNIMI,2001-2005,outgoing
-HK,Hong Kong,9641,UNIMI,2001-2005,outgoing
 HN,Honduras,14,UNIMI,2001-2005,outgoing
 HR,Croatia,1501,UNIMI,2001-2005,outgoing
 HT,Haiti,3,UNIMI,2001-2005,outgoing
@@ -79,13 +69,11 @@ HU,Hungary,7705,UNIMI,2001-2005,outgoing
 ID,Indonesia,260,UNIMI,2001-2005,outgoing
 IE,Ireland,8865,UNIMI,2001-2005,outgoing
 IL,Israel,16288,UNIMI,2001-2005,outgoing
-IM,Isle of Man,4,UNIMI,2001-2005,outgoing
 IN,India,22639,UNIMI,2001-2005,outgoing
 IQ,Iraq,19,UNIMI,2001-2005,outgoing
 IR,Iran,1421,UNIMI,2001-2005,outgoing
 IS,Iceland,648,UNIMI,2001-2005,outgoing
 IT,Italy,275882,UNIMI,2001-2005,outgoing
-JE,Jersey,5,UNIMI,2001-2005,outgoing
 JM,Jamaica,143,UNIMI,2001-2005,outgoing
 JO,Jordan,479,UNIMI,2001-2005,outgoing
 JP,Japan,114203,UNIMI,2001-2005,outgoing
@@ -95,7 +83,6 @@ KH,Cambodia,209,UNIMI,2001-2005,outgoing
 KN,St Kitts and Nevis,14,UNIMI,2001-2005,outgoing
 KR,South Korea,21090,UNIMI,2001-2005,outgoing
 KW,Kuwait,237,UNIMI,2001-2005,outgoing
-KY,Cayman Islands,1,UNIMI,2001-2005,outgoing
 KZ,Kazakhstan,121,UNIMI,2001-2005,outgoing
 LA,Laos,8,UNIMI,2001-2005,outgoing
 LB,Lebanon,589,UNIMI,2001-2005,outgoing
@@ -116,8 +103,6 @@ MK,North Macedonia,37,UNIMI,2001-2005,outgoing
 ML,Mali,16,UNIMI,2001-2005,outgoing
 MM,Myanmar,64,UNIMI,2001-2005,outgoing
 MN,Mongolia,89,UNIMI,2001-2005,outgoing
-MO,Macao,98,UNIMI,2001-2005,outgoing
-MQ,Martinique,3,UNIMI,2001-2005,outgoing
 MR,Mauritania,1,UNIMI,2001-2005,outgoing
 MT,Malta,38,UNIMI,2001-2005,outgoing
 MU,Mauritius,15,UNIMI,2001-2005,outgoing
@@ -126,29 +111,25 @@ MW,Malawi,60,UNIMI,2001-2005,outgoing
 MX,Mexico,4711,UNIMI,2001-2005,outgoing
 MY,Malaysia,730,UNIMI,2001-2005,outgoing
 MZ,Mozambique,97,UNIMI,2001-2005,outgoing
-NC,New Caledonia,30,UNIMI,2001-2005,outgoing
 NE,Niger,3,UNIMI,2001-2005,outgoing
 NG,Nigeria,421,UNIMI,2001-2005,outgoing
 NI,Nicaragua,12,UNIMI,2001-2005,outgoing
-NL,The Netherlands,77306,UNIMI,2001-2005,outgoing
-NO,Norway,9160,UNIMI,2001-2005,outgoing
+NL,The Netherlands,77378,UNIMI,2001-2005,outgoing
+NO,Norway,9162,UNIMI,2001-2005,outgoing
 NP,Nepal,84,UNIMI,2001-2005,outgoing
 NZ,New Zealand,4632,UNIMI,2001-2005,outgoing
 OM,Oman,98,UNIMI,2001-2005,outgoing
 PA,Panama,170,UNIMI,2001-2005,outgoing
 PE,Peru,220,UNIMI,2001-2005,outgoing
-PF,French Polynesia,3,UNIMI,2001-2005,outgoing
 PG,Papua New Guinea,21,UNIMI,2001-2005,outgoing
 PH,Philippines,569,UNIMI,2001-2005,outgoing
 PK,Pakistan,957,UNIMI,2001-2005,outgoing
 PL,Poland,12030,UNIMI,2001-2005,outgoing
-PR,Puerto Rico,860,UNIMI,2001-2005,outgoing
 PS,Palestine,111,UNIMI,2001-2005,outgoing
 PT,Portugal,5788,UNIMI,2001-2005,outgoing
 PW,Palau,36,UNIMI,2001-2005,outgoing
 PY,Paraguay,31,UNIMI,2001-2005,outgoing
 QA,Qatar,195,UNIMI,2001-2005,outgoing
-RE,Réunion,120,UNIMI,2001-2005,outgoing
 RO,Romania,707,UNIMI,2001-2005,outgoing
 RS,Serbia,704,UNIMI,2001-2005,outgoing
 RU,Russia,22116,UNIMI,2001-2005,outgoing
@@ -158,7 +139,6 @@ SD,Sudan,87,UNIMI,2001-2005,outgoing
 SE,Sweden,30187,UNIMI,2001-2005,outgoing
 SG,Singapore,5517,UNIMI,2001-2005,outgoing
 SI,Slovenia,2411,UNIMI,2001-2005,outgoing
-SJ,Svalbard and Jan Mayen,2,UNIMI,2001-2005,outgoing
 SK,Slovakia,1442,UNIMI,2001-2005,outgoing
 SL,Sierra Leone,1,UNIMI,2001-2005,outgoing
 SM,San Marino,39,UNIMI,2001-2005,outgoing
@@ -180,11 +160,10 @@ TW,Taiwan,14244,UNIMI,2001-2005,outgoing
 TZ,Tanzania,947,UNIMI,2001-2005,outgoing
 UA,Ukraine,1600,UNIMI,2001-2005,outgoing
 UG,Uganda,256,UNIMI,2001-2005,outgoing
-US,United States,1025445,UNIMI,2001-2005,outgoing
+US,United States,1026345,UNIMI,2001-2005,outgoing
 UY,Uruguay,307,UNIMI,2001-2005,outgoing
 UZ,Uzbekistan,410,UNIMI,2001-2005,outgoing
 VE,Venezuela,435,UNIMI,2001-2005,outgoing
-VI,U.S. Virgin Islands,1,UNIMI,2001-2005,outgoing
 VN,Vietnam,554,UNIMI,2001-2005,outgoing
 WS,Samoa,5,UNIMI,2001-2005,outgoing
 XK,Kosovo,1,UNIMI,2001-2005,outgoing

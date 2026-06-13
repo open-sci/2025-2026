@@ -7,7 +7,6 @@ AL,Albania,137,UNIMI,2011-2015,outgoing
 AM,Armenia,4683,UNIMI,2011-2015,outgoing
 AO,Angola,160,UNIMI,2011-2015,outgoing
 AR,Argentina,25931,UNIMI,2011-2015,outgoing
-AS,American Samoa,161,UNIMI,2011-2015,outgoing
 AT,Austria,48274,UNIMI,2011-2015,outgoing
 AU,Australia,181106,UNIMI,2011-2015,outgoing
 AZ,Azerbaijan,5679,UNIMI,2011-2015,outgoing
@@ -20,10 +19,8 @@ BG,Bulgaria,7238,UNIMI,2011-2015,outgoing
 BH,Bahrain,1747,UNIMI,2011-2015,outgoing
 BI,Burundi,13,UNIMI,2011-2015,outgoing
 BJ,Benin,449,UNIMI,2011-2015,outgoing
-BM,Bermuda,30,UNIMI,2011-2015,outgoing
 BN,Brunei,70,UNIMI,2011-2015,outgoing
 BO,Bolivia,118,UNIMI,2011-2015,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",4,UNIMI,2011-2015,outgoing
 BR,Brazil,83904,UNIMI,2011-2015,outgoing
 BS,Bahamas,6,UNIMI,2011-2015,outgoing
 BT,Bhutan,103,UNIMI,2011-2015,outgoing
@@ -38,15 +35,14 @@ CH,Switzerland,162389,UNIMI,2011-2015,outgoing
 CI,Ivory Coast,135,UNIMI,2011-2015,outgoing
 CL,Chile,17391,UNIMI,2011-2015,outgoing
 CM,Cameroon,430,UNIMI,2011-2015,outgoing
-CN,China,185230,UNIMI,2011-2015,outgoing
+CN,China,205560,UNIMI,2011-2015,outgoing
 CO,Colombia,8880,UNIMI,2011-2015,outgoing
 CR,Costa Rica,348,UNIMI,2011-2015,outgoing
 CU,Cuba,1118,UNIMI,2011-2015,outgoing
-CW,Curaçao,175,UNIMI,2011-2015,outgoing
 CY,Cyprus,3436,UNIMI,2011-2015,outgoing
 CZ,Czechia,33030,UNIMI,2011-2015,outgoing
 DE,Germany,445106,UNIMI,2011-2015,outgoing
-DK,Denmark,79443,UNIMI,2011-2015,outgoing
+DK,Denmark,79484,UNIMI,2011-2015,outgoing
 DO,Dominican Republic,36,UNIMI,2011-2015,outgoing
 DZ,Algeria,540,UNIMI,2011-2015,outgoing
 EC,Ecuador,774,UNIMI,2011-2015,outgoing
@@ -59,26 +55,19 @@ EU,European Union,21,UNIMI,2011-2015,outgoing
 FI,Finland,71375,UNIMI,2011-2015,outgoing
 FJ,Fiji,235,UNIMI,2011-2015,outgoing
 FM,Micronesia,16,UNIMI,2011-2015,outgoing
-FO,Faroe Islands,10,UNIMI,2011-2015,outgoing
-FR,France,962980,UNIMI,2011-2015,outgoing
+FR,France,964142,UNIMI,2011-2015,outgoing
 GA,Gabon,171,UNIMI,2011-2015,outgoing
-GB,United Kingdom,645203,UNIMI,2011-2015,outgoing
+GB,United Kingdom,645278,UNIMI,2011-2015,outgoing
 GD,Grenada,322,UNIMI,2011-2015,outgoing
 GE,Georgia,7378,UNIMI,2011-2015,outgoing
-GF,French Guiana,127,UNIMI,2011-2015,outgoing
 GH,Ghana,811,UNIMI,2011-2015,outgoing
-GI,Gibraltar,13,UNIMI,2011-2015,outgoing
-GL,Greenland,31,UNIMI,2011-2015,outgoing
 GM,The Gambia,25,UNIMI,2011-2015,outgoing
 GN,Guinea,13,UNIMI,2011-2015,outgoing
-GP,Guadeloupe,491,UNIMI,2011-2015,outgoing
 GQ,Equatorial Guinea,1,UNIMI,2011-2015,outgoing
 GR,Greece,44103,UNIMI,2011-2015,outgoing
 GT,Guatemala,116,UNIMI,2011-2015,outgoing
-GU,Guam,13,UNIMI,2011-2015,outgoing
 GW,Guinea-Bissau,18,UNIMI,2011-2015,outgoing
 GY,Guyana,7,UNIMI,2011-2015,outgoing
-HK,Hong Kong,20009,UNIMI,2011-2015,outgoing
 HN,Honduras,73,UNIMI,2011-2015,outgoing
 HR,Croatia,12946,UNIMI,2011-2015,outgoing
 HT,Haiti,5,UNIMI,2011-2015,outgoing
@@ -86,13 +75,11 @@ HU,Hungary,34983,UNIMI,2011-2015,outgoing
 ID,Indonesia,1003,UNIMI,2011-2015,outgoing
 IE,Ireland,31560,UNIMI,2011-2015,outgoing
 IL,Israel,36313,UNIMI,2011-2015,outgoing
-IM,Isle of Man,12,UNIMI,2011-2015,outgoing
 IN,India,75955,UNIMI,2011-2015,outgoing
 IQ,Iraq,323,UNIMI,2011-2015,outgoing
 IR,Iran,15342,UNIMI,2011-2015,outgoing
 IS,Iceland,2894,UNIMI,2011-2015,outgoing
 IT,Italy,820720,UNIMI,2011-2015,outgoing
-JE,Jersey,19,UNIMI,2011-2015,outgoing
 JM,Jamaica,874,UNIMI,2011-2015,outgoing
 JO,Jordan,1689,UNIMI,2011-2015,outgoing
 JP,Japan,181060,UNIMI,2011-2015,outgoing
@@ -124,8 +111,6 @@ MK,North Macedonia,262,UNIMI,2011-2015,outgoing
 ML,Mali,74,UNIMI,2011-2015,outgoing
 MM,Myanmar,219,UNIMI,2011-2015,outgoing
 MN,Mongolia,149,UNIMI,2011-2015,outgoing
-MO,Macao,321,UNIMI,2011-2015,outgoing
-MQ,Martinique,33,UNIMI,2011-2015,outgoing
 MR,Mauritania,2,UNIMI,2011-2015,outgoing
 MT,Malta,382,UNIMI,2011-2015,outgoing
 MU,Mauritius,42,UNIMI,2011-2015,outgoing
@@ -134,29 +119,25 @@ MW,Malawi,293,UNIMI,2011-2015,outgoing
 MX,Mexico,23386,UNIMI,2011-2015,outgoing
 MY,Malaysia,6758,UNIMI,2011-2015,outgoing
 MZ,Mozambique,260,UNIMI,2011-2015,outgoing
-NC,New Caledonia,166,UNIMI,2011-2015,outgoing
 NE,Niger,128,UNIMI,2011-2015,outgoing
 NG,Nigeria,1712,UNIMI,2011-2015,outgoing
 NI,Nicaragua,19,UNIMI,2011-2015,outgoing
-NL,The Netherlands,232632,UNIMI,2011-2015,outgoing
-NO,Norway,41303,UNIMI,2011-2015,outgoing
+NL,The Netherlands,232813,UNIMI,2011-2015,outgoing
+NO,Norway,41365,UNIMI,2011-2015,outgoing
 NP,Nepal,399,UNIMI,2011-2015,outgoing
 NZ,New Zealand,16720,UNIMI,2011-2015,outgoing
 OM,Oman,426,UNIMI,2011-2015,outgoing
 PA,Panama,339,UNIMI,2011-2015,outgoing
 PE,Peru,1988,UNIMI,2011-2015,outgoing
-PF,French Polynesia,49,UNIMI,2011-2015,outgoing
 PG,Papua New Guinea,82,UNIMI,2011-2015,outgoing
 PH,Philippines,2174,UNIMI,2011-2015,outgoing
 PK,Pakistan,7258,UNIMI,2011-2015,outgoing
 PL,Poland,68679,UNIMI,2011-2015,outgoing
-PR,Puerto Rico,3782,UNIMI,2011-2015,outgoing
 PS,Palestine,795,UNIMI,2011-2015,outgoing
 PT,Portugal,38745,UNIMI,2011-2015,outgoing
 PW,Palau,64,UNIMI,2011-2015,outgoing
 PY,Paraguay,89,UNIMI,2011-2015,outgoing
 QA,Qatar,3719,UNIMI,2011-2015,outgoing
-RE,Réunion,296,UNIMI,2011-2015,outgoing
 RO,Romania,13731,UNIMI,2011-2015,outgoing
 RS,Serbia,10845,UNIMI,2011-2015,outgoing
 RU,Russia,103582,UNIMI,2011-2015,outgoing
@@ -167,7 +148,6 @@ SD,Sudan,150,UNIMI,2011-2015,outgoing
 SE,Sweden,76030,UNIMI,2011-2015,outgoing
 SG,Singapore,21470,UNIMI,2011-2015,outgoing
 SI,Slovenia,10808,UNIMI,2011-2015,outgoing
-SJ,Svalbard and Jan Mayen,62,UNIMI,2011-2015,outgoing
 SK,Slovakia,14764,UNIMI,2011-2015,outgoing
 SL,Sierra Leone,238,UNIMI,2011-2015,outgoing
 SM,San Marino,101,UNIMI,2011-2015,outgoing
@@ -176,7 +156,6 @@ SO,Somalia,105,UNIMI,2011-2015,outgoing
 SR,Suriname,10,UNIMI,2011-2015,outgoing
 SS,South Sudan,2,UNIMI,2011-2015,outgoing
 SV,El Salvador,330,UNIMI,2011-2015,outgoing
-SX,Sint Maarten,2,UNIMI,2011-2015,outgoing
 SY,Syria,127,UNIMI,2011-2015,outgoing
 SZ,Eswatini,9,UNIMI,2011-2015,outgoing
 TD,Chad,7,UNIMI,2011-2015,outgoing
@@ -191,13 +170,10 @@ TW,Taiwan,47077,UNIMI,2011-2015,outgoing
 TZ,Tanzania,1100,UNIMI,2011-2015,outgoing
 UA,Ukraine,7712,UNIMI,2011-2015,outgoing
 UG,Uganda,1109,UNIMI,2011-2015,outgoing
-UM,United States Minor Outlying Islands,1,UNIMI,2011-2015,outgoing
-US,United States,2088352,UNIMI,2011-2015,outgoing
+US,United States,2092311,UNIMI,2011-2015,outgoing
 UY,Uruguay,872,UNIMI,2011-2015,outgoing
 UZ,Uzbekistan,1055,UNIMI,2011-2015,outgoing
 VE,Venezuela,632,UNIMI,2011-2015,outgoing
-VG,British Virgin Islands,1,UNIMI,2011-2015,outgoing
-VI,U.S. Virgin Islands,2,UNIMI,2011-2015,outgoing
 VN,Vietnam,3173,UNIMI,2011-2015,outgoing
 VU,Vanuatu,1,UNIMI,2011-2015,outgoing
 WS,Samoa,1,UNIMI,2011-2015,outgoing

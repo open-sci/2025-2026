@@ -7,11 +7,8 @@ AL,Albania,292,UNIBO,2016-2020,outgoing
 AM,Armenia,12398,UNIBO,2016-2020,outgoing
 AO,Angola,241,UNIBO,2016-2020,outgoing
 AR,Argentina,31597,UNIBO,2016-2020,outgoing
-AS,American Samoa,157,UNIBO,2016-2020,outgoing
 AT,Austria,59882,UNIBO,2016-2020,outgoing
 AU,Australia,212332,UNIBO,2016-2020,outgoing
-AW,Aruba,1,UNIBO,2016-2020,outgoing
-AX,Åland,1,UNIBO,2016-2020,outgoing
 AZ,Azerbaijan,11620,UNIBO,2016-2020,outgoing
 BA,Bosnia and Herzegovina,984,UNIBO,2016-2020,outgoing
 BB,Barbados,52,UNIBO,2016-2020,outgoing
@@ -22,10 +19,8 @@ BG,Bulgaria,23419,UNIBO,2016-2020,outgoing
 BH,Bahrain,1725,UNIBO,2016-2020,outgoing
 BI,Burundi,23,UNIBO,2016-2020,outgoing
 BJ,Benin,359,UNIBO,2016-2020,outgoing
-BM,Bermuda,21,UNIBO,2016-2020,outgoing
 BN,Brunei,130,UNIBO,2016-2020,outgoing
 BO,Bolivia,188,UNIBO,2016-2020,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",8,UNIBO,2016-2020,outgoing
 BR,Brazil,145021,UNIBO,2016-2020,outgoing
 BS,Bahamas,33,UNIBO,2016-2020,outgoing
 BT,Bhutan,111,UNIBO,2016-2020,outgoing
@@ -40,17 +35,16 @@ CH,Switzerland,174843,UNIBO,2016-2020,outgoing
 CI,Ivory Coast,126,UNIBO,2016-2020,outgoing
 CL,Chile,42284,UNIBO,2016-2020,outgoing
 CM,Cameroon,621,UNIBO,2016-2020,outgoing
-CN,China,358264,UNIBO,2016-2020,outgoing
+CN,China,390516,UNIBO,2016-2020,outgoing
 CO,Colombia,25747,UNIBO,2016-2020,outgoing
 CR,Costa Rica,442,UNIBO,2016-2020,outgoing
 CU,Cuba,1800,UNIBO,2016-2020,outgoing
 CV,Cabo Verde,6,UNIBO,2016-2020,outgoing
-CW,Curaçao,47,UNIBO,2016-2020,outgoing
 CY,Cyprus,9789,UNIBO,2016-2020,outgoing
 CZ,Czechia,55392,UNIBO,2016-2020,outgoing
 DE,Germany,538418,UNIBO,2016-2020,outgoing
 DJ,Djibouti,1,UNIBO,2016-2020,outgoing
-DK,Denmark,79181,UNIBO,2016-2020,outgoing
+DK,Denmark,79278,UNIBO,2016-2020,outgoing
 DO,Dominican Republic,110,UNIBO,2016-2020,outgoing
 DZ,Algeria,1238,UNIBO,2016-2020,outgoing
 EC,Ecuador,12597,UNIBO,2016-2020,outgoing
@@ -60,42 +54,32 @@ ER,Eritrea,5,UNIBO,2016-2020,outgoing
 ES,Spain,352722,UNIBO,2016-2020,outgoing
 ET,Ethiopia,5581,UNIBO,2016-2020,outgoing
 EU,European Union,132,UNIBO,2016-2020,outgoing
-FI,Finland,89711,UNIBO,2016-2020,outgoing
+FI,Finland,89712,UNIBO,2016-2020,outgoing
 FJ,Fiji,110,UNIBO,2016-2020,outgoing
-FK,Falkland Islands,5,UNIBO,2016-2020,outgoing
 FM,Micronesia,42,UNIBO,2016-2020,outgoing
-FO,Faroe Islands,34,UNIBO,2016-2020,outgoing
-FR,France,1269577,UNIBO,2016-2020,outgoing
+FR,France,1271314,UNIBO,2016-2020,outgoing
 GA,Gabon,188,UNIBO,2016-2020,outgoing
-GB,United Kingdom,683635,UNIBO,2016-2020,outgoing
+GB,United Kingdom,683736,UNIBO,2016-2020,outgoing
 GD,Grenada,189,UNIBO,2016-2020,outgoing
 GE,Georgia,22020,UNIBO,2016-2020,outgoing
-GF,French Guiana,148,UNIBO,2016-2020,outgoing
 GH,Ghana,1265,UNIBO,2016-2020,outgoing
-GI,Gibraltar,41,UNIBO,2016-2020,outgoing
-GL,Greenland,63,UNIBO,2016-2020,outgoing
 GM,The Gambia,44,UNIBO,2016-2020,outgoing
 GN,Guinea,10,UNIBO,2016-2020,outgoing
-GP,Guadeloupe,635,UNIBO,2016-2020,outgoing
 GR,Greece,85946,UNIBO,2016-2020,outgoing
 GT,Guatemala,1394,UNIBO,2016-2020,outgoing
-GU,Guam,8,UNIBO,2016-2020,outgoing
 GW,Guinea-Bissau,23,UNIBO,2016-2020,outgoing
 GY,Guyana,53,UNIBO,2016-2020,outgoing
-HK,Hong Kong,31498,UNIBO,2016-2020,outgoing
 HN,Honduras,130,UNIBO,2016-2020,outgoing
 HR,Croatia,38397,UNIBO,2016-2020,outgoing
 HU,Hungary,85969,UNIBO,2016-2020,outgoing
 ID,Indonesia,4436,UNIBO,2016-2020,outgoing
 IE,Ireland,34030,UNIBO,2016-2020,outgoing
 IL,Israel,39946,UNIBO,2016-2020,outgoing
-IM,Isle of Man,5,UNIBO,2016-2020,outgoing
 IN,India,185644,UNIBO,2016-2020,outgoing
 IQ,Iraq,1441,UNIBO,2016-2020,outgoing
 IR,Iran,42391,UNIBO,2016-2020,outgoing
 IS,Iceland,3151,UNIBO,2016-2020,outgoing
 IT,Italy,1144768,UNIBO,2016-2020,outgoing
-JE,Jersey,6,UNIBO,2016-2020,outgoing
 JM,Jamaica,440,UNIBO,2016-2020,outgoing
 JO,Jordan,2899,UNIBO,2016-2020,outgoing
 JP,Japan,212970,UNIBO,2016-2020,outgoing
@@ -106,7 +90,6 @@ KN,St Kitts and Nevis,187,UNIBO,2016-2020,outgoing
 KP,North Korea,29,UNIBO,2016-2020,outgoing
 KR,South Korea,158832,UNIBO,2016-2020,outgoing
 KW,Kuwait,731,UNIBO,2016-2020,outgoing
-KY,Cayman Islands,14,UNIBO,2016-2020,outgoing
 KZ,Kazakhstan,825,UNIBO,2016-2020,outgoing
 LA,Laos,44,UNIBO,2016-2020,outgoing
 LB,Lebanon,2411,UNIBO,2016-2020,outgoing
@@ -127,11 +110,7 @@ MK,North Macedonia,744,UNIBO,2016-2020,outgoing
 ML,Mali,91,UNIBO,2016-2020,outgoing
 MM,Myanmar,263,UNIBO,2016-2020,outgoing
 MN,Mongolia,426,UNIBO,2016-2020,outgoing
-MO,Macao,754,UNIBO,2016-2020,outgoing
-MP,Northern Mariana Islands,2,UNIBO,2016-2020,outgoing
-MQ,Martinique,57,UNIBO,2016-2020,outgoing
 MR,Mauritania,3,UNIBO,2016-2020,outgoing
-MS,Montserrat,3,UNIBO,2016-2020,outgoing
 MT,Malta,958,UNIBO,2016-2020,outgoing
 MU,Mauritius,111,UNIBO,2016-2020,outgoing
 MV,Maldives,20,UNIBO,2016-2020,outgoing
@@ -139,29 +118,25 @@ MW,Malawi,258,UNIBO,2016-2020,outgoing
 MX,Mexico,51137,UNIBO,2016-2020,outgoing
 MY,Malaysia,23609,UNIBO,2016-2020,outgoing
 MZ,Mozambique,426,UNIBO,2016-2020,outgoing
-NC,New Caledonia,264,UNIBO,2016-2020,outgoing
 NE,Niger,189,UNIBO,2016-2020,outgoing
 NG,Nigeria,3343,UNIBO,2016-2020,outgoing
 NI,Nicaragua,85,UNIBO,2016-2020,outgoing
-NL,The Netherlands,234612,UNIBO,2016-2020,outgoing
-NO,Norway,54849,UNIBO,2016-2020,outgoing
+NL,The Netherlands,234673,UNIBO,2016-2020,outgoing
+NO,Norway,54900,UNIBO,2016-2020,outgoing
 NP,Nepal,846,UNIBO,2016-2020,outgoing
 NZ,New Zealand,26671,UNIBO,2016-2020,outgoing
 OM,Oman,559,UNIBO,2016-2020,outgoing
 PA,Panama,504,UNIBO,2016-2020,outgoing
 PE,Peru,3222,UNIBO,2016-2020,outgoing
-PF,French Polynesia,74,UNIBO,2016-2020,outgoing
 PG,Papua New Guinea,83,UNIBO,2016-2020,outgoing
 PH,Philippines,3127,UNIBO,2016-2020,outgoing
 PK,Pakistan,22123,UNIBO,2016-2020,outgoing
 PL,Poland,128822,UNIBO,2016-2020,outgoing
-PR,Puerto Rico,10496,UNIBO,2016-2020,outgoing
 PS,Palestine,1707,UNIBO,2016-2020,outgoing
 PT,Portugal,68043,UNIBO,2016-2020,outgoing
 PW,Palau,54,UNIBO,2016-2020,outgoing
 PY,Paraguay,223,UNIBO,2016-2020,outgoing
 QA,Qatar,5799,UNIBO,2016-2020,outgoing
-RE,Réunion,556,UNIBO,2016-2020,outgoing
 RO,Romania,31790,UNIBO,2016-2020,outgoing
 RS,Serbia,18980,UNIBO,2016-2020,outgoing
 RU,Russia,246714,UNIBO,2016-2020,outgoing
@@ -173,7 +148,6 @@ SD,Sudan,239,UNIBO,2016-2020,outgoing
 SE,Sweden,80069,UNIBO,2016-2020,outgoing
 SG,Singapore,20139,UNIBO,2016-2020,outgoing
 SI,Slovenia,13226,UNIBO,2016-2020,outgoing
-SJ,Svalbard and Jan Mayen,51,UNIBO,2016-2020,outgoing
 SK,Slovakia,34420,UNIBO,2016-2020,outgoing
 SL,Sierra Leone,38,UNIBO,2016-2020,outgoing
 SM,San Marino,1070,UNIBO,2016-2020,outgoing
@@ -182,7 +156,6 @@ SO,Somalia,79,UNIBO,2016-2020,outgoing
 SR,Suriname,16,UNIBO,2016-2020,outgoing
 SS,South Sudan,4,UNIBO,2016-2020,outgoing
 SV,El Salvador,172,UNIBO,2016-2020,outgoing
-SX,Sint Maarten,5,UNIBO,2016-2020,outgoing
 SY,Syria,67,UNIBO,2016-2020,outgoing
 SZ,Eswatini,8,UNIBO,2016-2020,outgoing
 TD,Chad,22,UNIBO,2016-2020,outgoing
@@ -199,19 +172,16 @@ TW,Taiwan,67524,UNIBO,2016-2020,outgoing
 TZ,Tanzania,755,UNIBO,2016-2020,outgoing
 UA,Ukraine,19123,UNIBO,2016-2020,outgoing
 UG,Uganda,1087,UNIBO,2016-2020,outgoing
-US,United States,2274912,UNIBO,2016-2020,outgoing
+US,United States,2285631,UNIBO,2016-2020,outgoing
 UY,Uruguay,1087,UNIBO,2016-2020,outgoing
 UZ,Uzbekistan,2013,UNIBO,2016-2020,outgoing
 VC,St Vincent and Grenadines,2,UNIBO,2016-2020,outgoing
 VE,Venezuela,499,UNIBO,2016-2020,outgoing
-VG,British Virgin Islands,6,UNIBO,2016-2020,outgoing
-VI,U.S. Virgin Islands,56,UNIBO,2016-2020,outgoing
 VN,Vietnam,6599,UNIBO,2016-2020,outgoing
 VU,Vanuatu,3,UNIBO,2016-2020,outgoing
 WS,Samoa,2,UNIBO,2016-2020,outgoing
 XK,Kosovo,220,UNIBO,2016-2020,outgoing
 YE,Yemen,325,UNIBO,2016-2020,outgoing
-YT,Mayotte,3,UNIBO,2016-2020,outgoing
 ZA,South Africa,44921,UNIBO,2016-2020,outgoing
 ZM,Zambia,360,UNIBO,2016-2020,outgoing
 ZW,Zimbabwe,956,UNIBO,2016-2020,outgoing

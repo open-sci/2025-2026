@@ -22,7 +22,7 @@ CH,Switzerland,12968,SNS,2001-2005,outgoing
 CI,Ivory Coast,1,SNS,2001-2005,outgoing
 CL,Chile,402,SNS,2001-2005,outgoing
 CM,Cameroon,8,SNS,2001-2005,outgoing
-CN,China,9265,SNS,2001-2005,outgoing
+CN,China,9685,SNS,2001-2005,outgoing
 CO,Colombia,478,SNS,2001-2005,outgoing
 CR,Costa Rica,2,SNS,2001-2005,outgoing
 CU,Cuba,6,SNS,2001-2005,outgoing
@@ -38,12 +38,11 @@ ES,Spain,11193,SNS,2001-2005,outgoing
 ET,Ethiopia,2,SNS,2001-2005,outgoing
 EU,European Union,1,SNS,2001-2005,outgoing
 FI,Finland,11612,SNS,2001-2005,outgoing
-FR,France,66060,SNS,2001-2005,outgoing
+FR,France,66063,SNS,2001-2005,outgoing
 GB,United Kingdom,42948,SNS,2001-2005,outgoing
 GE,Georgia,149,SNS,2001-2005,outgoing
 GH,Ghana,31,SNS,2001-2005,outgoing
 GR,Greece,681,SNS,2001-2005,outgoing
-HK,Hong Kong,420,SNS,2001-2005,outgoing
 HR,Croatia,190,SNS,2001-2005,outgoing
 HU,Hungary,1633,SNS,2001-2005,outgoing
 ID,Indonesia,6,SNS,2001-2005,outgoing
@@ -76,23 +75,19 @@ MV,Maldives,1,SNS,2001-2005,outgoing
 MX,Mexico,1164,SNS,2001-2005,outgoing
 MY,Malaysia,14,SNS,2001-2005,outgoing
 MZ,Mozambique,5,SNS,2001-2005,outgoing
-NC,New Caledonia,1,SNS,2001-2005,outgoing
 NG,Nigeria,7,SNS,2001-2005,outgoing
 NL,The Netherlands,6014,SNS,2001-2005,outgoing
 NO,Norway,1841,SNS,2001-2005,outgoing
 NZ,New Zealand,136,SNS,2001-2005,outgoing
 OM,Oman,4,SNS,2001-2005,outgoing
 PE,Peru,4,SNS,2001-2005,outgoing
-PF,French Polynesia,1,SNS,2001-2005,outgoing
 PH,Philippines,11,SNS,2001-2005,outgoing
 PK,Pakistan,59,SNS,2001-2005,outgoing
 PL,Poland,3491,SNS,2001-2005,outgoing
-PR,Puerto Rico,290,SNS,2001-2005,outgoing
 PS,Palestine,7,SNS,2001-2005,outgoing
 PT,Portugal,581,SNS,2001-2005,outgoing
 PW,Palau,1,SNS,2001-2005,outgoing
 QA,Qatar,17,SNS,2001-2005,outgoing
-RE,Réunion,1,SNS,2001-2005,outgoing
 RO,Romania,218,SNS,2001-2005,outgoing
 RS,Serbia,70,SNS,2001-2005,outgoing
 RU,Russia,15272,SNS,2001-2005,outgoing
@@ -110,7 +105,7 @@ TW,Taiwan,4403,SNS,2001-2005,outgoing
 TZ,Tanzania,220,SNS,2001-2005,outgoing
 UA,Ukraine,246,SNS,2001-2005,outgoing
 UG,Uganda,31,SNS,2001-2005,outgoing
-US,United States,184011,SNS,2001-2005,outgoing
+US,United States,184301,SNS,2001-2005,outgoing
 UY,Uruguay,34,SNS,2001-2005,outgoing
 UZ,Uzbekistan,237,SNS,2001-2005,outgoing
 VE,Venezuela,19,SNS,2001-2005,outgoing

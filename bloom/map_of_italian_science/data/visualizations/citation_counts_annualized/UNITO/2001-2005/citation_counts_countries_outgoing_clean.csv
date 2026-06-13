@@ -6,7 +6,6 @@ AL,Albania,32,UNITO,2001-2005,outgoing
 AM,Armenia,535,UNITO,2001-2005,outgoing
 AO,Angola,53,UNITO,2001-2005,outgoing
 AR,Argentina,3234,UNITO,2001-2005,outgoing
-AS,American Samoa,1,UNITO,2001-2005,outgoing
 AT,Austria,8208,UNITO,2001-2005,outgoing
 AU,Australia,38142,UNITO,2001-2005,outgoing
 AZ,Azerbaijan,106,UNITO,2001-2005,outgoing
@@ -19,10 +18,8 @@ BG,Bulgaria,1099,UNITO,2001-2005,outgoing
 BH,Bahrain,118,UNITO,2001-2005,outgoing
 BI,Burundi,28,UNITO,2001-2005,outgoing
 BJ,Benin,80,UNITO,2001-2005,outgoing
-BM,Bermuda,91,UNITO,2001-2005,outgoing
 BN,Brunei,11,UNITO,2001-2005,outgoing
 BO,Bolivia,21,UNITO,2001-2005,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",2,UNITO,2001-2005,outgoing
 BR,Brazil,10116,UNITO,2001-2005,outgoing
 BT,Bhutan,10,UNITO,2001-2005,outgoing
 BW,Botswana,26,UNITO,2001-2005,outgoing
@@ -35,15 +32,14 @@ CH,Switzerland,38031,UNITO,2001-2005,outgoing
 CI,Ivory Coast,15,UNITO,2001-2005,outgoing
 CL,Chile,1384,UNITO,2001-2005,outgoing
 CM,Cameroon,39,UNITO,2001-2005,outgoing
-CN,China,23800,UNITO,2001-2005,outgoing
+CN,China,28808,UNITO,2001-2005,outgoing
 CO,Colombia,609,UNITO,2001-2005,outgoing
 CR,Costa Rica,82,UNITO,2001-2005,outgoing
 CU,Cuba,141,UNITO,2001-2005,outgoing
-CW,Curaçao,32,UNITO,2001-2005,outgoing
 CY,Cyprus,444,UNITO,2001-2005,outgoing
 CZ,Czechia,3805,UNITO,2001-2005,outgoing
 DE,Germany,100485,UNITO,2001-2005,outgoing
-DK,Denmark,11723,UNITO,2001-2005,outgoing
+DK,Denmark,11726,UNITO,2001-2005,outgoing
 DO,Dominican Republic,8,UNITO,2001-2005,outgoing
 DZ,Algeria,204,UNITO,2001-2005,outgoing
 EC,Ecuador,309,UNITO,2001-2005,outgoing
@@ -55,21 +51,16 @@ ET,Ethiopia,271,UNITO,2001-2005,outgoing
 EU,European Union,18,UNITO,2001-2005,outgoing
 FI,Finland,21889,UNITO,2001-2005,outgoing
 FJ,Fiji,10,UNITO,2001-2005,outgoing
-FR,France,177990,UNITO,2001-2005,outgoing
+FR,France,178173,UNITO,2001-2005,outgoing
 GA,Gabon,29,UNITO,2001-2005,outgoing
-GB,United Kingdom,174591,UNITO,2001-2005,outgoing
+GB,United Kingdom,174706,UNITO,2001-2005,outgoing
 GD,Grenada,9,UNITO,2001-2005,outgoing
 GE,Georgia,765,UNITO,2001-2005,outgoing
-GF,French Guiana,7,UNITO,2001-2005,outgoing
 GH,Ghana,176,UNITO,2001-2005,outgoing
-GL,Greenland,3,UNITO,2001-2005,outgoing
-GP,Guadeloupe,50,UNITO,2001-2005,outgoing
 GR,Greece,6370,UNITO,2001-2005,outgoing
 GT,Guatemala,24,UNITO,2001-2005,outgoing
-GU,Guam,7,UNITO,2001-2005,outgoing
 GW,Guinea-Bissau,9,UNITO,2001-2005,outgoing
 GY,Guyana,4,UNITO,2001-2005,outgoing
-HK,Hong Kong,4959,UNITO,2001-2005,outgoing
 HN,Honduras,19,UNITO,2001-2005,outgoing
 HR,Croatia,1041,UNITO,2001-2005,outgoing
 HT,Haiti,3,UNITO,2001-2005,outgoing
@@ -82,7 +73,6 @@ IQ,Iraq,23,UNITO,2001-2005,outgoing
 IR,Iran,676,UNITO,2001-2005,outgoing
 IS,Iceland,309,UNITO,2001-2005,outgoing
 IT,Italy,178890,UNITO,2001-2005,outgoing
-JE,Jersey,6,UNITO,2001-2005,outgoing
 JM,Jamaica,67,UNITO,2001-2005,outgoing
 JO,Jordan,382,UNITO,2001-2005,outgoing
 JP,Japan,77533,UNITO,2001-2005,outgoing
@@ -92,7 +82,6 @@ KH,Cambodia,100,UNITO,2001-2005,outgoing
 KN,St Kitts and Nevis,5,UNITO,2001-2005,outgoing
 KR,South Korea,14158,UNITO,2001-2005,outgoing
 KW,Kuwait,100,UNITO,2001-2005,outgoing
-KY,Cayman Islands,1,UNITO,2001-2005,outgoing
 KZ,Kazakhstan,49,UNITO,2001-2005,outgoing
 LA,Laos,7,UNITO,2001-2005,outgoing
 LB,Lebanon,281,UNITO,2001-2005,outgoing
@@ -112,9 +101,6 @@ MK,North Macedonia,38,UNITO,2001-2005,outgoing
 ML,Mali,9,UNITO,2001-2005,outgoing
 MM,Myanmar,29,UNITO,2001-2005,outgoing
 MN,Mongolia,28,UNITO,2001-2005,outgoing
-MO,Macao,49,UNITO,2001-2005,outgoing
-MQ,Martinique,1,UNITO,2001-2005,outgoing
-MS,Montserrat,17,UNITO,2001-2005,outgoing
 MT,Malta,21,UNITO,2001-2005,outgoing
 MU,Mauritius,10,UNITO,2001-2005,outgoing
 MV,Maldives,1,UNITO,2001-2005,outgoing
@@ -122,12 +108,11 @@ MW,Malawi,36,UNITO,2001-2005,outgoing
 MX,Mexico,3409,UNITO,2001-2005,outgoing
 MY,Malaysia,393,UNITO,2001-2005,outgoing
 MZ,Mozambique,59,UNITO,2001-2005,outgoing
-NC,New Caledonia,17,UNITO,2001-2005,outgoing
 NE,Niger,2,UNITO,2001-2005,outgoing
 NG,Nigeria,245,UNITO,2001-2005,outgoing
 NI,Nicaragua,7,UNITO,2001-2005,outgoing
-NL,The Netherlands,45398,UNITO,2001-2005,outgoing
-NO,Norway,7018,UNITO,2001-2005,outgoing
+NL,The Netherlands,45432,UNITO,2001-2005,outgoing
+NO,Norway,7019,UNITO,2001-2005,outgoing
 NP,Nepal,91,UNITO,2001-2005,outgoing
 NZ,New Zealand,3027,UNITO,2001-2005,outgoing
 OM,Oman,86,UNITO,2001-2005,outgoing
@@ -137,13 +122,11 @@ PG,Papua New Guinea,10,UNITO,2001-2005,outgoing
 PH,Philippines,292,UNITO,2001-2005,outgoing
 PK,Pakistan,534,UNITO,2001-2005,outgoing
 PL,Poland,8552,UNITO,2001-2005,outgoing
-PR,Puerto Rico,761,UNITO,2001-2005,outgoing
 PS,Palestine,53,UNITO,2001-2005,outgoing
 PT,Portugal,4028,UNITO,2001-2005,outgoing
 PW,Palau,18,UNITO,2001-2005,outgoing
 PY,Paraguay,16,UNITO,2001-2005,outgoing
 QA,Qatar,126,UNITO,2001-2005,outgoing
-RE,Réunion,108,UNITO,2001-2005,outgoing
 RO,Romania,755,UNITO,2001-2005,outgoing
 RS,Serbia,661,UNITO,2001-2005,outgoing
 RU,Russia,23849,UNITO,2001-2005,outgoing
@@ -154,7 +137,6 @@ SD,Sudan,29,UNITO,2001-2005,outgoing
 SE,Sweden,17723,UNITO,2001-2005,outgoing
 SG,Singapore,3277,UNITO,2001-2005,outgoing
 SI,Slovenia,1808,UNITO,2001-2005,outgoing
-SJ,Svalbard and Jan Mayen,1,UNITO,2001-2005,outgoing
 SK,Slovakia,1246,UNITO,2001-2005,outgoing
 SL,Sierra Leone,7,UNITO,2001-2005,outgoing
 SM,San Marino,12,UNITO,2001-2005,outgoing
@@ -173,11 +155,10 @@ TW,Taiwan,8683,UNITO,2001-2005,outgoing
 TZ,Tanzania,402,UNITO,2001-2005,outgoing
 UA,Ukraine,838,UNITO,2001-2005,outgoing
 UG,Uganda,100,UNITO,2001-2005,outgoing
-US,United States,656606,UNITO,2001-2005,outgoing
+US,United States,657379,UNITO,2001-2005,outgoing
 UY,Uruguay,176,UNITO,2001-2005,outgoing
 UZ,Uzbekistan,1151,UNITO,2001-2005,outgoing
 VE,Venezuela,209,UNITO,2001-2005,outgoing
-VI,U.S. Virgin Islands,4,UNITO,2001-2005,outgoing
 VN,Vietnam,266,UNITO,2001-2005,outgoing
 WS,Samoa,1,UNITO,2001-2005,outgoing
 XK,Kosovo,7,UNITO,2001-2005,outgoing

@@ -7,10 +7,8 @@ AL,Albania,258,UNIPD,2021-2025,outgoing
 AM,Armenia,3997,UNIPD,2021-2025,outgoing
 AO,Angola,63,UNIPD,2021-2025,outgoing
 AR,Argentina,6993,UNIPD,2021-2025,outgoing
-AS,American Samoa,56,UNIPD,2021-2025,outgoing
 AT,Austria,27320,UNIPD,2021-2025,outgoing
 AU,Australia,53631,UNIPD,2021-2025,outgoing
-AX,Åland,1,UNIPD,2021-2025,outgoing
 AZ,Azerbaijan,1764,UNIPD,2021-2025,outgoing
 BA,Bosnia and Herzegovina,210,UNIPD,2021-2025,outgoing
 BB,Barbados,11,UNIPD,2021-2025,outgoing
@@ -21,10 +19,8 @@ BG,Bulgaria,10622,UNIPD,2021-2025,outgoing
 BH,Bahrain,361,UNIPD,2021-2025,outgoing
 BI,Burundi,8,UNIPD,2021-2025,outgoing
 BJ,Benin,70,UNIPD,2021-2025,outgoing
-BM,Bermuda,17,UNIPD,2021-2025,outgoing
 BN,Brunei,38,UNIPD,2021-2025,outgoing
 BO,Bolivia,39,UNIPD,2021-2025,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",1,UNIPD,2021-2025,outgoing
 BR,Brazil,53255,UNIPD,2021-2025,outgoing
 BS,Bahamas,11,UNIPD,2021-2025,outgoing
 BT,Bhutan,24,UNIPD,2021-2025,outgoing
@@ -39,17 +35,16 @@ CH,Switzerland,68156,UNIPD,2021-2025,outgoing
 CI,Ivory Coast,47,UNIPD,2021-2025,outgoing
 CL,Chile,10826,UNIPD,2021-2025,outgoing
 CM,Cameroon,202,UNIPD,2021-2025,outgoing
-CN,China,151151,UNIPD,2021-2025,outgoing
+CN,China,158218,UNIPD,2021-2025,outgoing
 CO,Colombia,9414,UNIPD,2021-2025,outgoing
 CR,Costa Rica,204,UNIPD,2021-2025,outgoing
 CU,Cuba,1604,UNIPD,2021-2025,outgoing
 CV,Cabo Verde,5,UNIPD,2021-2025,outgoing
-CW,Curaçao,17,UNIPD,2021-2025,outgoing
 CY,Cyprus,4783,UNIPD,2021-2025,outgoing
 CZ,Czechia,19496,UNIPD,2021-2025,outgoing
 DE,Germany,187803,UNIPD,2021-2025,outgoing
 DJ,Djibouti,1,UNIPD,2021-2025,outgoing
-DK,Denmark,28341,UNIPD,2021-2025,outgoing
+DK,Denmark,28363,UNIPD,2021-2025,outgoing
 DM,Dominica,2,UNIPD,2021-2025,outgoing
 DO,Dominican Republic,26,UNIPD,2021-2025,outgoing
 DZ,Algeria,568,UNIPD,2021-2025,outgoing
@@ -59,28 +54,21 @@ EG,Egypt,11184,UNIPD,2021-2025,outgoing
 ES,Spain,158388,UNIPD,2021-2025,outgoing
 ET,Ethiopia,777,UNIPD,2021-2025,outgoing
 EU,European Union,5,UNIPD,2021-2025,outgoing
-FI,Finland,37162,UNIPD,2021-2025,outgoing
+FI,Finland,37163,UNIPD,2021-2025,outgoing
 FJ,Fiji,78,UNIPD,2021-2025,outgoing
 FM,Micronesia,2,UNIPD,2021-2025,outgoing
-FO,Faroe Islands,12,UNIPD,2021-2025,outgoing
-FR,France,481744,UNIPD,2021-2025,outgoing
+FR,France,482772,UNIPD,2021-2025,outgoing
 GA,Gabon,58,UNIPD,2021-2025,outgoing
-GB,United Kingdom,224983,UNIPD,2021-2025,outgoing
+GB,United Kingdom,225032,UNIPD,2021-2025,outgoing
 GD,Grenada,123,UNIPD,2021-2025,outgoing
 GE,Georgia,3904,UNIPD,2021-2025,outgoing
-GF,French Guiana,44,UNIPD,2021-2025,outgoing
 GH,Ghana,466,UNIPD,2021-2025,outgoing
-GI,Gibraltar,27,UNIPD,2021-2025,outgoing
-GL,Greenland,10,UNIPD,2021-2025,outgoing
 GM,The Gambia,13,UNIPD,2021-2025,outgoing
 GN,Guinea,2,UNIPD,2021-2025,outgoing
-GP,Guadeloupe,136,UNIPD,2021-2025,outgoing
 GR,Greece,27479,UNIPD,2021-2025,outgoing
 GT,Guatemala,307,UNIPD,2021-2025,outgoing
-GU,Guam,2,UNIPD,2021-2025,outgoing
 GW,Guinea-Bissau,3,UNIPD,2021-2025,outgoing
 GY,Guyana,4,UNIPD,2021-2025,outgoing
-HK,Hong Kong,6711,UNIPD,2021-2025,outgoing
 HN,Honduras,188,UNIPD,2021-2025,outgoing
 HR,Croatia,16673,UNIPD,2021-2025,outgoing
 HT,Haiti,6,UNIPD,2021-2025,outgoing
@@ -93,7 +81,6 @@ IQ,Iraq,509,UNIPD,2021-2025,outgoing
 IR,Iran,14761,UNIPD,2021-2025,outgoing
 IS,Iceland,719,UNIPD,2021-2025,outgoing
 IT,Italy,681045,UNIPD,2021-2025,outgoing
-JE,Jersey,1,UNIPD,2021-2025,outgoing
 JM,Jamaica,123,UNIPD,2021-2025,outgoing
 JO,Jordan,607,UNIPD,2021-2025,outgoing
 JP,Japan,79356,UNIPD,2021-2025,outgoing
@@ -103,7 +90,6 @@ KH,Cambodia,120,UNIPD,2021-2025,outgoing
 KN,St Kitts and Nevis,29,UNIPD,2021-2025,outgoing
 KR,South Korea,73087,UNIPD,2021-2025,outgoing
 KW,Kuwait,2676,UNIPD,2021-2025,outgoing
-KY,Cayman Islands,4,UNIPD,2021-2025,outgoing
 KZ,Kazakhstan,277,UNIPD,2021-2025,outgoing
 LA,Laos,22,UNIPD,2021-2025,outgoing
 LB,Lebanon,971,UNIPD,2021-2025,outgoing
@@ -125,8 +111,6 @@ MK,North Macedonia,341,UNIPD,2021-2025,outgoing
 ML,Mali,33,UNIPD,2021-2025,outgoing
 MM,Myanmar,82,UNIPD,2021-2025,outgoing
 MN,Mongolia,138,UNIPD,2021-2025,outgoing
-MO,Macao,356,UNIPD,2021-2025,outgoing
-MQ,Martinique,28,UNIPD,2021-2025,outgoing
 MR,Mauritania,2,UNIPD,2021-2025,outgoing
 MT,Malta,556,UNIPD,2021-2025,outgoing
 MU,Mauritius,63,UNIPD,2021-2025,outgoing
@@ -135,30 +119,26 @@ MW,Malawi,99,UNIPD,2021-2025,outgoing
 MX,Mexico,22076,UNIPD,2021-2025,outgoing
 MY,Malaysia,5877,UNIPD,2021-2025,outgoing
 MZ,Mozambique,151,UNIPD,2021-2025,outgoing
-NC,New Caledonia,37,UNIPD,2021-2025,outgoing
 NE,Niger,23,UNIPD,2021-2025,outgoing
 NG,Nigeria,937,UNIPD,2021-2025,outgoing
 NI,Nicaragua,99,UNIPD,2021-2025,outgoing
-NL,The Netherlands,80579,UNIPD,2021-2025,outgoing
-NO,Norway,17145,UNIPD,2021-2025,outgoing
+NL,The Netherlands,80597,UNIPD,2021-2025,outgoing
+NO,Norway,17163,UNIPD,2021-2025,outgoing
 NP,Nepal,277,UNIPD,2021-2025,outgoing
 NZ,New Zealand,9176,UNIPD,2021-2025,outgoing
 OC,Oceania,15,UNIPD,2021-2025,outgoing
 OM,Oman,241,UNIPD,2021-2025,outgoing
 PA,Panama,109,UNIPD,2021-2025,outgoing
 PE,Peru,2280,UNIPD,2021-2025,outgoing
-PF,French Polynesia,25,UNIPD,2021-2025,outgoing
 PG,Papua New Guinea,15,UNIPD,2021-2025,outgoing
 PH,Philippines,1238,UNIPD,2021-2025,outgoing
 PK,Pakistan,8857,UNIPD,2021-2025,outgoing
 PL,Poland,55022,UNIPD,2021-2025,outgoing
-PR,Puerto Rico,3559,UNIPD,2021-2025,outgoing
 PS,Palestine,318,UNIPD,2021-2025,outgoing
 PT,Portugal,25580,UNIPD,2021-2025,outgoing
 PW,Palau,10,UNIPD,2021-2025,outgoing
 PY,Paraguay,130,UNIPD,2021-2025,outgoing
 QA,Qatar,2882,UNIPD,2021-2025,outgoing
-RE,Réunion,757,UNIPD,2021-2025,outgoing
 RO,Romania,9227,UNIPD,2021-2025,outgoing
 RS,Serbia,6377,UNIPD,2021-2025,outgoing
 RU,Russia,48543,UNIPD,2021-2025,outgoing
@@ -170,7 +150,6 @@ SD,Sudan,78,UNIPD,2021-2025,outgoing
 SE,Sweden,26758,UNIPD,2021-2025,outgoing
 SG,Singapore,5509,UNIPD,2021-2025,outgoing
 SI,Slovenia,4314,UNIPD,2021-2025,outgoing
-SJ,Svalbard and Jan Mayen,18,UNIPD,2021-2025,outgoing
 SK,Slovakia,9802,UNIPD,2021-2025,outgoing
 SL,Sierra Leone,25,UNIPD,2021-2025,outgoing
 SM,San Marino,2,UNIPD,2021-2025,outgoing
@@ -192,7 +171,7 @@ TW,Taiwan,25456,UNIPD,2021-2025,outgoing
 TZ,Tanzania,213,UNIPD,2021-2025,outgoing
 UA,Ukraine,7714,UNIPD,2021-2025,outgoing
 UG,Uganda,555,UNIPD,2021-2025,outgoing
-US,United States,677973,UNIPD,2021-2025,outgoing
+US,United States,681590,UNIPD,2021-2025,outgoing
 UY,Uruguay,577,UNIPD,2021-2025,outgoing
 UZ,Uzbekistan,425,UNIPD,2021-2025,outgoing
 VA,Vatican City,1,UNIPD,2021-2025,outgoing
@@ -202,7 +181,6 @@ VU,Vanuatu,3,UNIPD,2021-2025,outgoing
 WS,Samoa,5,UNIPD,2021-2025,outgoing
 XK,Kosovo,32,UNIPD,2021-2025,outgoing
 YE,Yemen,95,UNIPD,2021-2025,outgoing
-YT,Mayotte,1,UNIPD,2021-2025,outgoing
 ZA,South Africa,12410,UNIPD,2021-2025,outgoing
 ZM,Zambia,115,UNIPD,2021-2025,outgoing
 ZW,Zimbabwe,254,UNIPD,2021-2025,outgoing

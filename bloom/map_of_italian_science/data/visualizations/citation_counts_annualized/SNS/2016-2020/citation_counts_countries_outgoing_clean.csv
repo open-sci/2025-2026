@@ -6,7 +6,6 @@ AL,Albania,10,SNS,2016-2020,outgoing
 AM,Armenia,4762,SNS,2016-2020,outgoing
 AO,Angola,2,SNS,2016-2020,outgoing
 AR,Argentina,3593,SNS,2016-2020,outgoing
-AS,American Samoa,4,SNS,2016-2020,outgoing
 AT,Austria,9922,SNS,2016-2020,outgoing
 AU,Australia,21813,SNS,2016-2020,outgoing
 AZ,Azerbaijan,1657,SNS,2016-2020,outgoing
@@ -29,15 +28,14 @@ CH,Switzerland,42153,SNS,2016-2020,outgoing
 CI,Ivory Coast,1,SNS,2016-2020,outgoing
 CL,Chile,7193,SNS,2016-2020,outgoing
 CM,Cameroon,7,SNS,2016-2020,outgoing
-CN,China,61840,SNS,2016-2020,outgoing
+CN,China,65045,SNS,2016-2020,outgoing
 CO,Colombia,10408,SNS,2016-2020,outgoing
 CR,Costa Rica,9,SNS,2016-2020,outgoing
 CU,Cuba,101,SNS,2016-2020,outgoing
-CW,Curaçao,1,SNS,2016-2020,outgoing
 CY,Cyprus,4470,SNS,2016-2020,outgoing
 CZ,Czechia,9409,SNS,2016-2020,outgoing
 DE,Germany,87444,SNS,2016-2020,outgoing
-DK,Denmark,8286,SNS,2016-2020,outgoing
+DK,Denmark,8290,SNS,2016-2020,outgoing
 DO,Dominican Republic,1,SNS,2016-2020,outgoing
 DZ,Algeria,88,SNS,2016-2020,outgoing
 EC,Ecuador,6988,SNS,2016-2020,outgoing
@@ -48,17 +46,12 @@ ET,Ethiopia,41,SNS,2016-2020,outgoing
 EU,European Union,9,SNS,2016-2020,outgoing
 FI,Finland,26141,SNS,2016-2020,outgoing
 FJ,Fiji,2,SNS,2016-2020,outgoing
-FR,France,247285,SNS,2016-2020,outgoing
-GB,United Kingdom,114001,SNS,2016-2020,outgoing
+FR,France,247289,SNS,2016-2020,outgoing
+GB,United Kingdom,114005,SNS,2016-2020,outgoing
 GE,Georgia,9278,SNS,2016-2020,outgoing
 GH,Ghana,35,SNS,2016-2020,outgoing
-GI,Gibraltar,1,SNS,2016-2020,outgoing
-GL,Greenland,4,SNS,2016-2020,outgoing
-GP,Guadeloupe,1,SNS,2016-2020,outgoing
 GR,Greece,26378,SNS,2016-2020,outgoing
 GT,Guatemala,772,SNS,2016-2020,outgoing
-GU,Guam,1,SNS,2016-2020,outgoing
-HK,Hong Kong,3192,SNS,2016-2020,outgoing
 HN,Honduras,88,SNS,2016-2020,outgoing
 HR,Croatia,14619,SNS,2016-2020,outgoing
 HT,Haiti,1,SNS,2016-2020,outgoing
@@ -79,7 +72,6 @@ KH,Cambodia,3,SNS,2016-2020,outgoing
 KN,St Kitts and Nevis,4,SNS,2016-2020,outgoing
 KR,South Korea,48933,SNS,2016-2020,outgoing
 KW,Kuwait,87,SNS,2016-2020,outgoing
-KY,Cayman Islands,3,SNS,2016-2020,outgoing
 KZ,Kazakhstan,24,SNS,2016-2020,outgoing
 LA,Laos,2,SNS,2016-2020,outgoing
 LB,Lebanon,55,SNS,2016-2020,outgoing
@@ -96,28 +88,24 @@ MG,Madagascar,2,SNS,2016-2020,outgoing
 MK,North Macedonia,4,SNS,2016-2020,outgoing
 MM,Myanmar,5,SNS,2016-2020,outgoing
 MN,Mongolia,186,SNS,2016-2020,outgoing
-MO,Macao,13,SNS,2016-2020,outgoing
 MT,Malta,49,SNS,2016-2020,outgoing
 MX,Mexico,18373,SNS,2016-2020,outgoing
 MY,Malaysia,9059,SNS,2016-2020,outgoing
 MZ,Mozambique,28,SNS,2016-2020,outgoing
-NC,New Caledonia,2,SNS,2016-2020,outgoing
 NE,Niger,1,SNS,2016-2020,outgoing
 NG,Nigeria,51,SNS,2016-2020,outgoing
 NI,Nicaragua,2,SNS,2016-2020,outgoing
-NL,The Netherlands,31306,SNS,2016-2020,outgoing
+NL,The Netherlands,31307,SNS,2016-2020,outgoing
 NO,Norway,4693,SNS,2016-2020,outgoing
 NP,Nepal,7,SNS,2016-2020,outgoing
 NZ,New Zealand,8654,SNS,2016-2020,outgoing
 OM,Oman,11,SNS,2016-2020,outgoing
 PA,Panama,6,SNS,2016-2020,outgoing
 PE,Peru,137,SNS,2016-2020,outgoing
-PF,French Polynesia,1,SNS,2016-2020,outgoing
 PG,Papua New Guinea,1,SNS,2016-2020,outgoing
 PH,Philippines,126,SNS,2016-2020,outgoing
 PK,Pakistan,8599,SNS,2016-2020,outgoing
 PL,Poland,39599,SNS,2016-2020,outgoing
-PR,Puerto Rico,5858,SNS,2016-2020,outgoing
 PS,Palestine,56,SNS,2016-2020,outgoing
 PT,Portugal,9348,SNS,2016-2020,outgoing
 PY,Paraguay,2,SNS,2016-2020,outgoing
@@ -145,11 +133,10 @@ TW,Taiwan,19290,SNS,2016-2020,outgoing
 TZ,Tanzania,2,SNS,2016-2020,outgoing
 UA,Ukraine,7919,SNS,2016-2020,outgoing
 UG,Uganda,80,SNS,2016-2020,outgoing
-US,United States,497809,SNS,2016-2020,outgoing
+US,United States,503678,SNS,2016-2020,outgoing
 UY,Uruguay,67,SNS,2016-2020,outgoing
 UZ,Uzbekistan,454,SNS,2016-2020,outgoing
 VE,Venezuela,6,SNS,2016-2020,outgoing
-VI,U.S. Virgin Islands,6,SNS,2016-2020,outgoing
 VN,Vietnam,1223,SNS,2016-2020,outgoing
 XK,Kosovo,1,SNS,2016-2020,outgoing
 YE,Yemen,10,SNS,2016-2020,outgoing

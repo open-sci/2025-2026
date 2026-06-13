@@ -6,10 +6,8 @@ AL,Albania,22,UPO,2016-2020,outgoing
 AM,Armenia,5299,UPO,2016-2020,outgoing
 AO,Angola,32,UPO,2016-2020,outgoing
 AR,Argentina,4187,UPO,2016-2020,outgoing
-AS,American Samoa,36,UPO,2016-2020,outgoing
 AT,Austria,12964,UPO,2016-2020,outgoing
 AU,Australia,30284,UPO,2016-2020,outgoing
-AX,Åland,1,UPO,2016-2020,outgoing
 AZ,Azerbaijan,2400,UPO,2016-2020,outgoing
 BA,Bosnia and Herzegovina,189,UPO,2016-2020,outgoing
 BB,Barbados,8,UPO,2016-2020,outgoing
@@ -20,10 +18,8 @@ BG,Bulgaria,11985,UPO,2016-2020,outgoing
 BH,Bahrain,429,UPO,2016-2020,outgoing
 BI,Burundi,11,UPO,2016-2020,outgoing
 BJ,Benin,38,UPO,2016-2020,outgoing
-BM,Bermuda,1,UPO,2016-2020,outgoing
 BN,Brunei,10,UPO,2016-2020,outgoing
 BO,Bolivia,12,UPO,2016-2020,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",1,UPO,2016-2020,outgoing
 BR,Brazil,42469,UPO,2016-2020,outgoing
 BS,Bahamas,4,UPO,2016-2020,outgoing
 BT,Bhutan,16,UPO,2016-2020,outgoing
@@ -38,15 +34,14 @@ CH,Switzerland,42025,UPO,2016-2020,outgoing
 CI,Ivory Coast,15,UPO,2016-2020,outgoing
 CL,Chile,3266,UPO,2016-2020,outgoing
 CM,Cameroon,75,UPO,2016-2020,outgoing
-CN,China,108647,UPO,2016-2020,outgoing
+CN,China,113892,UPO,2016-2020,outgoing
 CO,Colombia,9160,UPO,2016-2020,outgoing
 CR,Costa Rica,87,UPO,2016-2020,outgoing
 CU,Cuba,1387,UPO,2016-2020,outgoing
-CW,Curaçao,4,UPO,2016-2020,outgoing
 CY,Cyprus,4897,UPO,2016-2020,outgoing
 CZ,Czechia,16553,UPO,2016-2020,outgoing
 DE,Germany,105990,UPO,2016-2020,outgoing
-DK,Denmark,13206,UPO,2016-2020,outgoing
+DK,Denmark,13219,UPO,2016-2020,outgoing
 DO,Dominican Republic,13,UPO,2016-2020,outgoing
 DZ,Algeria,186,UPO,2016-2020,outgoing
 EC,Ecuador,6186,UPO,2016-2020,outgoing
@@ -56,28 +51,21 @@ ER,Eritrea,1,UPO,2016-2020,outgoing
 ES,Spain,67649,UPO,2016-2020,outgoing
 ET,Ethiopia,1485,UPO,2016-2020,outgoing
 EU,European Union,13,UPO,2016-2020,outgoing
-FI,Finland,35850,UPO,2016-2020,outgoing
+FI,Finland,35851,UPO,2016-2020,outgoing
 FJ,Fiji,22,UPO,2016-2020,outgoing
 FM,Micronesia,10,UPO,2016-2020,outgoing
-FO,Faroe Islands,6,UPO,2016-2020,outgoing
-FR,France,242798,UPO,2016-2020,outgoing
+FR,France,242905,UPO,2016-2020,outgoing
 GA,Gabon,31,UPO,2016-2020,outgoing
-GB,United Kingdom,126685,UPO,2016-2020,outgoing
+GB,United Kingdom,126692,UPO,2016-2020,outgoing
 GD,Grenada,57,UPO,2016-2020,outgoing
 GE,Georgia,8820,UPO,2016-2020,outgoing
-GF,French Guiana,4,UPO,2016-2020,outgoing
 GH,Ghana,292,UPO,2016-2020,outgoing
-GI,Gibraltar,4,UPO,2016-2020,outgoing
-GL,Greenland,7,UPO,2016-2020,outgoing
 GM,The Gambia,10,UPO,2016-2020,outgoing
 GN,Guinea,2,UPO,2016-2020,outgoing
-GP,Guadeloupe,33,UPO,2016-2020,outgoing
 GR,Greece,30787,UPO,2016-2020,outgoing
 GT,Guatemala,643,UPO,2016-2020,outgoing
-GU,Guam,3,UPO,2016-2020,outgoing
 GW,Guinea-Bissau,6,UPO,2016-2020,outgoing
 GY,Guyana,5,UPO,2016-2020,outgoing
-HK,Hong Kong,5068,UPO,2016-2020,outgoing
 HN,Honduras,19,UPO,2016-2020,outgoing
 HR,Croatia,19828,UPO,2016-2020,outgoing
 HT,Haiti,1,UPO,2016-2020,outgoing
@@ -85,13 +73,11 @@ HU,Hungary,37943,UPO,2016-2020,outgoing
 ID,Indonesia,1945,UPO,2016-2020,outgoing
 IE,Ireland,8004,UPO,2016-2020,outgoing
 IL,Israel,6386,UPO,2016-2020,outgoing
-IM,Isle of Man,1,UPO,2016-2020,outgoing
 IN,India,79465,UPO,2016-2020,outgoing
 IQ,Iraq,392,UPO,2016-2020,outgoing
 IR,Iran,12086,UPO,2016-2020,outgoing
 IS,Iceland,511,UPO,2016-2020,outgoing
 IT,Italy,268434,UPO,2016-2020,outgoing
-JE,Jersey,1,UPO,2016-2020,outgoing
 JM,Jamaica,63,UPO,2016-2020,outgoing
 JO,Jordan,351,UPO,2016-2020,outgoing
 JP,Japan,38293,UPO,2016-2020,outgoing
@@ -122,8 +108,6 @@ MK,North Macedonia,102,UPO,2016-2020,outgoing
 ML,Mali,10,UPO,2016-2020,outgoing
 MM,Myanmar,44,UPO,2016-2020,outgoing
 MN,Mongolia,995,UPO,2016-2020,outgoing
-MO,Macao,177,UPO,2016-2020,outgoing
-MQ,Martinique,10,UPO,2016-2020,outgoing
 MT,Malta,143,UPO,2016-2020,outgoing
 MU,Mauritius,26,UPO,2016-2020,outgoing
 MV,Maldives,6,UPO,2016-2020,outgoing
@@ -131,29 +115,25 @@ MW,Malawi,35,UPO,2016-2020,outgoing
 MX,Mexico,24511,UPO,2016-2020,outgoing
 MY,Malaysia,9792,UPO,2016-2020,outgoing
 MZ,Mozambique,43,UPO,2016-2020,outgoing
-NC,New Caledonia,15,UPO,2016-2020,outgoing
 NE,Niger,33,UPO,2016-2020,outgoing
 NG,Nigeria,775,UPO,2016-2020,outgoing
 NI,Nicaragua,4,UPO,2016-2020,outgoing
-NL,The Netherlands,39030,UPO,2016-2020,outgoing
-NO,Norway,17429,UPO,2016-2020,outgoing
+NL,The Netherlands,39037,UPO,2016-2020,outgoing
+NO,Norway,17430,UPO,2016-2020,outgoing
 NP,Nepal,168,UPO,2016-2020,outgoing
 NZ,New Zealand,9582,UPO,2016-2020,outgoing
 OM,Oman,125,UPO,2016-2020,outgoing
 PA,Panama,55,UPO,2016-2020,outgoing
 PE,Peru,1890,UPO,2016-2020,outgoing
-PF,French Polynesia,4,UPO,2016-2020,outgoing
 PG,Papua New Guinea,14,UPO,2016-2020,outgoing
 PH,Philippines,777,UPO,2016-2020,outgoing
 PK,Pakistan,12074,UPO,2016-2020,outgoing
 PL,Poland,35816,UPO,2016-2020,outgoing
-PR,Puerto Rico,5348,UPO,2016-2020,outgoing
 PS,Palestine,383,UPO,2016-2020,outgoing
 PT,Portugal,12635,UPO,2016-2020,outgoing
 PW,Palau,12,UPO,2016-2020,outgoing
 PY,Paraguay,36,UPO,2016-2020,outgoing
 QA,Qatar,1394,UPO,2016-2020,outgoing
-RE,Réunion,41,UPO,2016-2020,outgoing
 RO,Romania,5712,UPO,2016-2020,outgoing
 RS,Serbia,6237,UPO,2016-2020,outgoing
 RU,Russia,86389,UPO,2016-2020,outgoing
@@ -164,7 +144,6 @@ SD,Sudan,30,UPO,2016-2020,outgoing
 SE,Sweden,16202,UPO,2016-2020,outgoing
 SG,Singapore,4536,UPO,2016-2020,outgoing
 SI,Slovenia,2022,UPO,2016-2020,outgoing
-SJ,Svalbard and Jan Mayen,1,UPO,2016-2020,outgoing
 SK,Slovakia,12800,UPO,2016-2020,outgoing
 SL,Sierra Leone,24,UPO,2016-2020,outgoing
 SM,San Marino,7,UPO,2016-2020,outgoing
@@ -173,7 +152,6 @@ SO,Somalia,12,UPO,2016-2020,outgoing
 SR,Suriname,3,UPO,2016-2020,outgoing
 SS,South Sudan,1,UPO,2016-2020,outgoing
 SV,El Salvador,32,UPO,2016-2020,outgoing
-SX,Sint Maarten,2,UPO,2016-2020,outgoing
 SY,Syria,23,UPO,2016-2020,outgoing
 SZ,Eswatini,1,UPO,2016-2020,outgoing
 TD,Chad,4,UPO,2016-2020,outgoing
@@ -188,7 +166,7 @@ TW,Taiwan,19368,UPO,2016-2020,outgoing
 TZ,Tanzania,90,UPO,2016-2020,outgoing
 UA,Ukraine,9641,UPO,2016-2020,outgoing
 UG,Uganda,163,UPO,2016-2020,outgoing
-US,United States,527994,UPO,2016-2020,outgoing
+US,United States,533381,UPO,2016-2020,outgoing
 UY,Uruguay,200,UPO,2016-2020,outgoing
 UZ,Uzbekistan,1116,UPO,2016-2020,outgoing
 VE,Venezuela,61,UPO,2016-2020,outgoing

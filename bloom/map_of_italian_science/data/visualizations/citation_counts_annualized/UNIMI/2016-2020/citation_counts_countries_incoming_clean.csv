@@ -7,11 +7,8 @@ AL,Albania,429,UNIMI,2016-2020,incoming
 AM,Armenia,7081,UNIMI,2016-2020,incoming
 AO,Angola,405,UNIMI,2016-2020,incoming
 AR,Argentina,48021,UNIMI,2016-2020,incoming
-AS,American Samoa,500,UNIMI,2016-2020,incoming
 AT,Austria,86894,UNIMI,2016-2020,incoming
 AU,Australia,301679,UNIMI,2016-2020,incoming
-AW,Aruba,1,UNIMI,2016-2020,incoming
-AX,Åland,3,UNIMI,2016-2020,incoming
 AZ,Azerbaijan,8470,UNIMI,2016-2020,incoming
 BA,Bosnia and Herzegovina,1429,UNIMI,2016-2020,incoming
 BB,Barbados,103,UNIMI,2016-2020,incoming
@@ -22,10 +19,8 @@ BG,Bulgaria,13876,UNIMI,2016-2020,incoming
 BH,Bahrain,3996,UNIMI,2016-2020,incoming
 BI,Burundi,60,UNIMI,2016-2020,incoming
 BJ,Benin,717,UNIMI,2016-2020,incoming
-BM,Bermuda,20,UNIMI,2016-2020,incoming
 BN,Brunei,155,UNIMI,2016-2020,incoming
 BO,Bolivia,250,UNIMI,2016-2020,incoming
-BQ,"Bonaire, Sint Eustatius, and Saba",34,UNIMI,2016-2020,incoming
 BR,Brazil,213899,UNIMI,2016-2020,incoming
 BS,Bahamas,33,UNIMI,2016-2020,incoming
 BT,Bhutan,315,UNIMI,2016-2020,incoming
@@ -40,17 +35,16 @@ CH,Switzerland,213611,UNIMI,2016-2020,incoming
 CI,Ivory Coast,499,UNIMI,2016-2020,incoming
 CL,Chile,34653,UNIMI,2016-2020,incoming
 CM,Cameroon,2104,UNIMI,2016-2020,incoming
-CN,China,785371,UNIMI,2016-2020,incoming
+CN,China,826686,UNIMI,2016-2020,incoming
 CO,Colombia,25836,UNIMI,2016-2020,incoming
 CR,Costa Rica,910,UNIMI,2016-2020,incoming
 CU,Cuba,1438,UNIMI,2016-2020,incoming
 CV,Cabo Verde,10,UNIMI,2016-2020,incoming
-CW,Curaçao,255,UNIMI,2016-2020,incoming
 CY,Cyprus,8671,UNIMI,2016-2020,incoming
 CZ,Czechia,58662,UNIMI,2016-2020,incoming
 DE,Germany,669357,UNIMI,2016-2020,incoming
 DJ,Djibouti,1,UNIMI,2016-2020,incoming
-DK,Denmark,120012,UNIMI,2016-2020,incoming
+DK,Denmark,120157,UNIMI,2016-2020,incoming
 DM,Dominica,9,UNIMI,2016-2020,incoming
 DO,Dominican Republic,182,UNIMI,2016-2020,incoming
 DZ,Algeria,2622,UNIMI,2016-2020,incoming
@@ -61,28 +55,21 @@ ER,Eritrea,3,UNIMI,2016-2020,incoming
 ES,Spain,473823,UNIMI,2016-2020,incoming
 ET,Ethiopia,9900,UNIMI,2016-2020,incoming
 EU,European Union,106,UNIMI,2016-2020,incoming
-FI,Finland,92126,UNIMI,2016-2020,incoming
+FI,Finland,92129,UNIMI,2016-2020,incoming
 FJ,Fiji,280,UNIMI,2016-2020,incoming
 FM,Micronesia,37,UNIMI,2016-2020,incoming
-FO,Faroe Islands,60,UNIMI,2016-2020,incoming
-FR,France,1387539,UNIMI,2016-2020,incoming
+FR,France,1389893,UNIMI,2016-2020,incoming
 GA,Gabon,346,UNIMI,2016-2020,incoming
-GB,United Kingdom,857218,UNIMI,2016-2020,incoming
+GB,United Kingdom,857326,UNIMI,2016-2020,incoming
 GD,Grenada,530,UNIMI,2016-2020,incoming
 GE,Georgia,12708,UNIMI,2016-2020,incoming
-GF,French Guiana,248,UNIMI,2016-2020,incoming
 GH,Ghana,3323,UNIMI,2016-2020,incoming
-GI,Gibraltar,53,UNIMI,2016-2020,incoming
-GL,Greenland,85,UNIMI,2016-2020,incoming
 GM,The Gambia,138,UNIMI,2016-2020,incoming
 GN,Guinea,47,UNIMI,2016-2020,incoming
-GP,Guadeloupe,873,UNIMI,2016-2020,incoming
 GR,Greece,85470,UNIMI,2016-2020,incoming
 GT,Guatemala,920,UNIMI,2016-2020,incoming
-GU,Guam,9,UNIMI,2016-2020,incoming
 GW,Guinea-Bissau,98,UNIMI,2016-2020,incoming
 GY,Guyana,32,UNIMI,2016-2020,incoming
-HK,Hong Kong,39656,UNIMI,2016-2020,incoming
 HN,Honduras,117,UNIMI,2016-2020,incoming
 HR,Croatia,25936,UNIMI,2016-2020,incoming
 HT,Haiti,27,UNIMI,2016-2020,incoming
@@ -90,13 +77,11 @@ HU,Hungary,59908,UNIMI,2016-2020,incoming
 ID,Indonesia,7962,UNIMI,2016-2020,incoming
 IE,Ireland,47372,UNIMI,2016-2020,incoming
 IL,Israel,53827,UNIMI,2016-2020,incoming
-IM,Isle of Man,12,UNIMI,2016-2020,incoming
 IN,India,194879,UNIMI,2016-2020,incoming
 IQ,Iraq,2930,UNIMI,2016-2020,incoming
 IR,Iran,89474,UNIMI,2016-2020,incoming
 IS,Iceland,4398,UNIMI,2016-2020,incoming
 IT,Italy,1256805,UNIMI,2016-2020,incoming
-JE,Jersey,14,UNIMI,2016-2020,incoming
 JM,Jamaica,956,UNIMI,2016-2020,incoming
 JO,Jordan,3428,UNIMI,2016-2020,incoming
 JP,Japan,315805,UNIMI,2016-2020,incoming
@@ -107,7 +92,6 @@ KN,St Kitts and Nevis,536,UNIMI,2016-2020,incoming
 KP,North Korea,66,UNIMI,2016-2020,incoming
 KR,South Korea,216268,UNIMI,2016-2020,incoming
 KW,Kuwait,1472,UNIMI,2016-2020,incoming
-KY,Cayman Islands,2,UNIMI,2016-2020,incoming
 KZ,Kazakhstan,1840,UNIMI,2016-2020,incoming
 LA,Laos,174,UNIMI,2016-2020,incoming
 LB,Lebanon,6362,UNIMI,2016-2020,incoming
@@ -129,11 +113,7 @@ MK,North Macedonia,1257,UNIMI,2016-2020,incoming
 ML,Mali,135,UNIMI,2016-2020,incoming
 MM,Myanmar,777,UNIMI,2016-2020,incoming
 MN,Mongolia,774,UNIMI,2016-2020,incoming
-MO,Macao,1659,UNIMI,2016-2020,incoming
-MP,Northern Mariana Islands,1,UNIMI,2016-2020,incoming
-MQ,Martinique,159,UNIMI,2016-2020,incoming
 MR,Mauritania,10,UNIMI,2016-2020,incoming
-MS,Montserrat,5,UNIMI,2016-2020,incoming
 MT,Malta,1295,UNIMI,2016-2020,incoming
 MU,Mauritius,192,UNIMI,2016-2020,incoming
 MV,Maldives,8,UNIMI,2016-2020,incoming
@@ -141,29 +121,25 @@ MW,Malawi,1072,UNIMI,2016-2020,incoming
 MX,Mexico,50362,UNIMI,2016-2020,incoming
 MY,Malaysia,25597,UNIMI,2016-2020,incoming
 MZ,Mozambique,885,UNIMI,2016-2020,incoming
-NC,New Caledonia,301,UNIMI,2016-2020,incoming
 NE,Niger,365,UNIMI,2016-2020,incoming
 NG,Nigeria,8652,UNIMI,2016-2020,incoming
 NI,Nicaragua,214,UNIMI,2016-2020,incoming
-NL,The Netherlands,298769,UNIMI,2016-2020,incoming
-NO,Norway,59165,UNIMI,2016-2020,incoming
+NL,The Netherlands,299078,UNIMI,2016-2020,incoming
+NO,Norway,59207,UNIMI,2016-2020,incoming
 NP,Nepal,1960,UNIMI,2016-2020,incoming
 NZ,New Zealand,25082,UNIMI,2016-2020,incoming
 OM,Oman,1716,UNIMI,2016-2020,incoming
 PA,Panama,624,UNIMI,2016-2020,incoming
 PE,Peru,3879,UNIMI,2016-2020,incoming
-PF,French Polynesia,45,UNIMI,2016-2020,incoming
 PG,Papua New Guinea,124,UNIMI,2016-2020,incoming
 PH,Philippines,5095,UNIMI,2016-2020,incoming
 PK,Pakistan,22709,UNIMI,2016-2020,incoming
 PL,Poland,140637,UNIMI,2016-2020,incoming
-PR,Puerto Rico,6235,UNIMI,2016-2020,incoming
 PS,Palestine,2217,UNIMI,2016-2020,incoming
 PT,Portugal,90932,UNIMI,2016-2020,incoming
 PW,Palau,100,UNIMI,2016-2020,incoming
 PY,Paraguay,362,UNIMI,2016-2020,incoming
 QA,Qatar,8323,UNIMI,2016-2020,incoming
-RE,Réunion,720,UNIMI,2016-2020,incoming
 RO,Romania,29173,UNIMI,2016-2020,incoming
 RS,Serbia,21650,UNIMI,2016-2020,incoming
 RU,Russia,199645,UNIMI,2016-2020,incoming
@@ -175,7 +151,6 @@ SD,Sudan,730,UNIMI,2016-2020,incoming
 SE,Sweden,109790,UNIMI,2016-2020,incoming
 SG,Singapore,39893,UNIMI,2016-2020,incoming
 SI,Slovenia,17606,UNIMI,2016-2020,incoming
-SJ,Svalbard and Jan Mayen,42,UNIMI,2016-2020,incoming
 SK,Slovakia,25606,UNIMI,2016-2020,incoming
 SL,Sierra Leone,57,UNIMI,2016-2020,incoming
 SM,San Marino,106,UNIMI,2016-2020,incoming
@@ -184,7 +159,6 @@ SO,Somalia,209,UNIMI,2016-2020,incoming
 SR,Suriname,38,UNIMI,2016-2020,incoming
 SS,South Sudan,14,UNIMI,2016-2020,incoming
 SV,El Salvador,405,UNIMI,2016-2020,incoming
-SX,Sint Maarten,19,UNIMI,2016-2020,incoming
 SY,Syria,324,UNIMI,2016-2020,incoming
 SZ,Eswatini,22,UNIMI,2016-2020,incoming
 TD,Chad,23,UNIMI,2016-2020,incoming
@@ -202,20 +176,17 @@ TW,Taiwan,105429,UNIMI,2016-2020,incoming
 TZ,Tanzania,1857,UNIMI,2016-2020,incoming
 UA,Ukraine,13199,UNIMI,2016-2020,incoming
 UG,Uganda,2805,UNIMI,2016-2020,incoming
-US,United States,2525575,UNIMI,2016-2020,incoming
+US,United States,2532340,UNIMI,2016-2020,incoming
 UY,Uruguay,2452,UNIMI,2016-2020,incoming
 UZ,Uzbekistan,1353,UNIMI,2016-2020,incoming
 VA,Vatican City,2,UNIMI,2016-2020,incoming
 VC,St Vincent and Grenadines,10,UNIMI,2016-2020,incoming
 VE,Venezuela,1388,UNIMI,2016-2020,incoming
-VG,British Virgin Islands,2,UNIMI,2016-2020,incoming
-VI,U.S. Virgin Islands,20,UNIMI,2016-2020,incoming
 VN,Vietnam,11641,UNIMI,2016-2020,incoming
 VU,Vanuatu,1,UNIMI,2016-2020,incoming
 WS,Samoa,5,UNIMI,2016-2020,incoming
 XK,Kosovo,271,UNIMI,2016-2020,incoming
 YE,Yemen,685,UNIMI,2016-2020,incoming
-YT,Mayotte,8,UNIMI,2016-2020,incoming
 ZA,South Africa,50642,UNIMI,2016-2020,incoming
 ZM,Zambia,649,UNIMI,2016-2020,incoming
 ZW,Zimbabwe,983,UNIMI,2016-2020,incoming

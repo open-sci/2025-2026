@@ -7,7 +7,6 @@ AL,Albania,177,UNITO,2016-2020,incoming
 AM,Armenia,5790,UNITO,2016-2020,incoming
 AO,Angola,178,UNITO,2016-2020,incoming
 AR,Argentina,26330,UNITO,2016-2020,incoming
-AS,American Samoa,199,UNITO,2016-2020,incoming
 AT,Austria,48343,UNITO,2016-2020,incoming
 AU,Australia,139377,UNITO,2016-2020,incoming
 AZ,Azerbaijan,3682,UNITO,2016-2020,incoming
@@ -20,10 +19,8 @@ BG,Bulgaria,13491,UNITO,2016-2020,incoming
 BH,Bahrain,1473,UNITO,2016-2020,incoming
 BI,Burundi,24,UNITO,2016-2020,incoming
 BJ,Benin,393,UNITO,2016-2020,incoming
-BM,Bermuda,9,UNITO,2016-2020,incoming
 BN,Brunei,74,UNITO,2016-2020,incoming
 BO,Bolivia,353,UNITO,2016-2020,incoming
-BQ,"Bonaire, Sint Eustatius, and Saba",5,UNITO,2016-2020,incoming
 BR,Brazil,118469,UNITO,2016-2020,incoming
 BS,Bahamas,16,UNITO,2016-2020,incoming
 BT,Bhutan,144,UNITO,2016-2020,incoming
@@ -38,17 +35,16 @@ CH,Switzerland,114472,UNITO,2016-2020,incoming
 CI,Ivory Coast,180,UNITO,2016-2020,incoming
 CL,Chile,19253,UNITO,2016-2020,incoming
 CM,Cameroon,690,UNITO,2016-2020,incoming
-CN,China,515285,UNITO,2016-2020,incoming
+CN,China,533583,UNITO,2016-2020,incoming
 CO,Colombia,16491,UNITO,2016-2020,incoming
 CR,Costa Rica,521,UNITO,2016-2020,incoming
 CU,Cuba,1464,UNITO,2016-2020,incoming
 CV,Cabo Verde,5,UNITO,2016-2020,incoming
-CW,Curaçao,60,UNITO,2016-2020,incoming
 CY,Cyprus,8069,UNITO,2016-2020,incoming
 CZ,Czechia,40991,UNITO,2016-2020,incoming
 DE,Germany,376995,UNITO,2016-2020,incoming
 DJ,Djibouti,4,UNITO,2016-2020,incoming
-DK,Denmark,56374,UNITO,2016-2020,incoming
+DK,Denmark,56423,UNITO,2016-2020,incoming
 DM,Dominica,4,UNITO,2016-2020,incoming
 DO,Dominican Republic,113,UNITO,2016-2020,incoming
 DZ,Algeria,1786,UNITO,2016-2020,incoming
@@ -62,25 +58,18 @@ EU,European Union,59,UNITO,2016-2020,incoming
 FI,Finland,59011,UNITO,2016-2020,incoming
 FJ,Fiji,218,UNITO,2016-2020,incoming
 FM,Micronesia,5,UNITO,2016-2020,incoming
-FO,Faroe Islands,13,UNITO,2016-2020,incoming
-FR,France,786177,UNITO,2016-2020,incoming
+FR,France,787908,UNITO,2016-2020,incoming
 GA,Gabon,179,UNITO,2016-2020,incoming
-GB,United Kingdom,410434,UNITO,2016-2020,incoming
+GB,United Kingdom,410489,UNITO,2016-2020,incoming
 GD,Grenada,192,UNITO,2016-2020,incoming
 GE,Georgia,9890,UNITO,2016-2020,incoming
-GF,French Guiana,234,UNITO,2016-2020,incoming
 GH,Ghana,1234,UNITO,2016-2020,incoming
-GI,Gibraltar,26,UNITO,2016-2020,incoming
-GL,Greenland,36,UNITO,2016-2020,incoming
 GM,The Gambia,62,UNITO,2016-2020,incoming
 GN,Guinea,15,UNITO,2016-2020,incoming
-GP,Guadeloupe,651,UNITO,2016-2020,incoming
 GR,Greece,53473,UNITO,2016-2020,incoming
 GT,Guatemala,563,UNITO,2016-2020,incoming
-GU,Guam,3,UNITO,2016-2020,incoming
 GW,Guinea-Bissau,33,UNITO,2016-2020,incoming
 GY,Guyana,72,UNITO,2016-2020,incoming
-HK,Hong Kong,17513,UNITO,2016-2020,incoming
 HN,Honduras,49,UNITO,2016-2020,incoming
 HR,Croatia,22456,UNITO,2016-2020,incoming
 HT,Haiti,13,UNITO,2016-2020,incoming
@@ -88,13 +77,11 @@ HU,Hungary,51905,UNITO,2016-2020,incoming
 ID,Indonesia,4570,UNITO,2016-2020,incoming
 IE,Ireland,23096,UNITO,2016-2020,incoming
 IL,Israel,26093,UNITO,2016-2020,incoming
-IM,Isle of Man,9,UNITO,2016-2020,incoming
 IN,India,135393,UNITO,2016-2020,incoming
 IQ,Iraq,1302,UNITO,2016-2020,incoming
 IR,Iran,43464,UNITO,2016-2020,incoming
 IS,Iceland,2513,UNITO,2016-2020,incoming
 IT,Italy,746769,UNITO,2016-2020,incoming
-JE,Jersey,6,UNITO,2016-2020,incoming
 JM,Jamaica,489,UNITO,2016-2020,incoming
 JO,Jordan,2010,UNITO,2016-2020,incoming
 JP,Japan,171039,UNITO,2016-2020,incoming
@@ -106,7 +93,6 @@ KN,St Kitts and Nevis,242,UNITO,2016-2020,incoming
 KP,North Korea,28,UNITO,2016-2020,incoming
 KR,South Korea,131569,UNITO,2016-2020,incoming
 KW,Kuwait,728,UNITO,2016-2020,incoming
-KY,Cayman Islands,4,UNITO,2016-2020,incoming
 KZ,Kazakhstan,941,UNITO,2016-2020,incoming
 LA,Laos,47,UNITO,2016-2020,incoming
 LB,Lebanon,3108,UNITO,2016-2020,incoming
@@ -128,9 +114,6 @@ MK,North Macedonia,647,UNITO,2016-2020,incoming
 ML,Mali,88,UNITO,2016-2020,incoming
 MM,Myanmar,428,UNITO,2016-2020,incoming
 MN,Mongolia,2098,UNITO,2016-2020,incoming
-MO,Macao,785,UNITO,2016-2020,incoming
-MP,Northern Mariana Islands,1,UNITO,2016-2020,incoming
-MQ,Martinique,80,UNITO,2016-2020,incoming
 MR,Mauritania,4,UNITO,2016-2020,incoming
 MT,Malta,679,UNITO,2016-2020,incoming
 MU,Mauritius,309,UNITO,2016-2020,incoming
@@ -139,29 +122,25 @@ MW,Malawi,333,UNITO,2016-2020,incoming
 MX,Mexico,41331,UNITO,2016-2020,incoming
 MY,Malaysia,16393,UNITO,2016-2020,incoming
 MZ,Mozambique,584,UNITO,2016-2020,incoming
-NC,New Caledonia,117,UNITO,2016-2020,incoming
 NE,Niger,143,UNITO,2016-2020,incoming
 NG,Nigeria,2891,UNITO,2016-2020,incoming
 NI,Nicaragua,111,UNITO,2016-2020,incoming
-NL,The Netherlands,149220,UNITO,2016-2020,incoming
-NO,Norway,34458,UNITO,2016-2020,incoming
+NL,The Netherlands,149292,UNITO,2016-2020,incoming
+NO,Norway,34474,UNITO,2016-2020,incoming
 NP,Nepal,875,UNITO,2016-2020,incoming
 NZ,New Zealand,15859,UNITO,2016-2020,incoming
 OM,Oman,834,UNITO,2016-2020,incoming
 PA,Panama,466,UNITO,2016-2020,incoming
 PE,Peru,3251,UNITO,2016-2020,incoming
-PF,French Polynesia,25,UNITO,2016-2020,incoming
 PG,Papua New Guinea,43,UNITO,2016-2020,incoming
 PH,Philippines,2501,UNITO,2016-2020,incoming
 PK,Pakistan,20024,UNITO,2016-2020,incoming
 PL,Poland,81681,UNITO,2016-2020,incoming
-PR,Puerto Rico,4536,UNITO,2016-2020,incoming
 PS,Palestine,1167,UNITO,2016-2020,incoming
 PT,Portugal,50037,UNITO,2016-2020,incoming
 PW,Palau,61,UNITO,2016-2020,incoming
 PY,Paraguay,107,UNITO,2016-2020,incoming
 QA,Qatar,4044,UNITO,2016-2020,incoming
-RE,Réunion,624,UNITO,2016-2020,incoming
 RO,Romania,15047,UNITO,2016-2020,incoming
 RS,Serbia,11929,UNITO,2016-2020,incoming
 RU,Russia,142654,UNITO,2016-2020,incoming
@@ -172,7 +151,6 @@ SD,Sudan,591,UNITO,2016-2020,incoming
 SE,Sweden,56055,UNITO,2016-2020,incoming
 SG,Singapore,20574,UNITO,2016-2020,incoming
 SI,Slovenia,10331,UNITO,2016-2020,incoming
-SJ,Svalbard and Jan Mayen,16,UNITO,2016-2020,incoming
 SK,Slovakia,18459,UNITO,2016-2020,incoming
 SL,Sierra Leone,23,UNITO,2016-2020,incoming
 SM,San Marino,39,UNITO,2016-2020,incoming
@@ -181,7 +159,6 @@ SO,Somalia,151,UNITO,2016-2020,incoming
 SR,Suriname,20,UNITO,2016-2020,incoming
 SS,South Sudan,7,UNITO,2016-2020,incoming
 SV,El Salvador,161,UNITO,2016-2020,incoming
-SX,Sint Maarten,7,UNITO,2016-2020,incoming
 SY,Syria,202,UNITO,2016-2020,incoming
 SZ,Eswatini,18,UNITO,2016-2020,incoming
 TD,Chad,12,UNITO,2016-2020,incoming
@@ -198,15 +175,12 @@ TW,Taiwan,56276,UNITO,2016-2020,incoming
 TZ,Tanzania,689,UNITO,2016-2020,incoming
 UA,Ukraine,11880,UNITO,2016-2020,incoming
 UG,Uganda,1099,UNITO,2016-2020,incoming
-UM,United States Minor Outlying Islands,1,UNITO,2016-2020,incoming
-US,United States,1430811,UNITO,2016-2020,incoming
+US,United States,1435585,UNITO,2016-2020,incoming
 UY,Uruguay,1408,UNITO,2016-2020,incoming
 UZ,Uzbekistan,1735,UNITO,2016-2020,incoming
 VA,Vatican City,1,UNITO,2016-2020,incoming
 VC,St Vincent and Grenadines,5,UNITO,2016-2020,incoming
 VE,Venezuela,806,UNITO,2016-2020,incoming
-VG,British Virgin Islands,1,UNITO,2016-2020,incoming
-VI,U.S. Virgin Islands,34,UNITO,2016-2020,incoming
 VN,Vietnam,5248,UNITO,2016-2020,incoming
 VU,Vanuatu,2,UNITO,2016-2020,incoming
 XK,Kosovo,103,UNITO,2016-2020,incoming

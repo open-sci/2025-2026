@@ -4,7 +4,6 @@ AF,Afghanistan,1,SNS,2006-2010,outgoing
 AM,Armenia,320,SNS,2006-2010,outgoing
 AO,Angola,6,SNS,2006-2010,outgoing
 AR,Argentina,1338,SNS,2006-2010,outgoing
-AS,American Samoa,1,SNS,2006-2010,outgoing
 AT,Austria,3604,SNS,2006-2010,outgoing
 AU,Australia,8082,SNS,2006-2010,outgoing
 AZ,Azerbaijan,124,SNS,2006-2010,outgoing
@@ -15,7 +14,6 @@ BE,Belgium,4768,SNS,2006-2010,outgoing
 BG,Bulgaria,442,SNS,2006-2010,outgoing
 BH,Bahrain,123,SNS,2006-2010,outgoing
 BJ,Benin,3,SNS,2006-2010,outgoing
-BM,Bermuda,4,SNS,2006-2010,outgoing
 BN,Brunei,5,SNS,2006-2010,outgoing
 BO,Bolivia,2,SNS,2006-2010,outgoing
 BR,Brazil,6371,SNS,2006-2010,outgoing
@@ -25,11 +23,10 @@ CD,DR Congo,1,SNS,2006-2010,outgoing
 CH,Switzerland,17125,SNS,2006-2010,outgoing
 CL,Chile,1043,SNS,2006-2010,outgoing
 CM,Cameroon,15,SNS,2006-2010,outgoing
-CN,China,15017,SNS,2006-2010,outgoing
+CN,China,15533,SNS,2006-2010,outgoing
 CO,Colombia,1455,SNS,2006-2010,outgoing
 CR,Costa Rica,10,SNS,2006-2010,outgoing
 CU,Cuba,53,SNS,2006-2010,outgoing
-CW,Curaçao,1,SNS,2006-2010,outgoing
 CY,Cyprus,1344,SNS,2006-2010,outgoing
 CZ,Czechia,3243,SNS,2006-2010,outgoing
 DE,Germany,49498,SNS,2006-2010,outgoing
@@ -42,14 +39,12 @@ ES,Spain,26249,SNS,2006-2010,outgoing
 ET,Ethiopia,5,SNS,2006-2010,outgoing
 EU,European Union,6,SNS,2006-2010,outgoing
 FI,Finland,11477,SNS,2006-2010,outgoing
-FR,France,128650,SNS,2006-2010,outgoing
+FR,France,128660,SNS,2006-2010,outgoing
 GA,Gabon,1,SNS,2006-2010,outgoing
-GB,United Kingdom,67710,SNS,2006-2010,outgoing
+GB,United Kingdom,67716,SNS,2006-2010,outgoing
 GE,Georgia,327,SNS,2006-2010,outgoing
 GH,Ghana,102,SNS,2006-2010,outgoing
-GP,Guadeloupe,3,SNS,2006-2010,outgoing
 GR,Greece,3443,SNS,2006-2010,outgoing
-HK,Hong Kong,514,SNS,2006-2010,outgoing
 HR,Croatia,594,SNS,2006-2010,outgoing
 HU,Hungary,1535,SNS,2006-2010,outgoing
 ID,Indonesia,17,SNS,2006-2010,outgoing
@@ -60,7 +55,6 @@ IQ,Iraq,2,SNS,2006-2010,outgoing
 IR,Iran,295,SNS,2006-2010,outgoing
 IS,Iceland,45,SNS,2006-2010,outgoing
 IT,Italy,101117,SNS,2006-2010,outgoing
-JE,Jersey,1,SNS,2006-2010,outgoing
 JM,Jamaica,1,SNS,2006-2010,outgoing
 JO,Jordan,203,SNS,2006-2010,outgoing
 JP,Japan,36132,SNS,2006-2010,outgoing
@@ -81,8 +75,6 @@ ME,Montenegro,68,SNS,2006-2010,outgoing
 MG,Madagascar,1,SNS,2006-2010,outgoing
 ML,Mali,1,SNS,2006-2010,outgoing
 MN,Mongolia,43,SNS,2006-2010,outgoing
-MO,Macao,2,SNS,2006-2010,outgoing
-MS,Montserrat,1,SNS,2006-2010,outgoing
 MT,Malta,2,SNS,2006-2010,outgoing
 MX,Mexico,3428,SNS,2006-2010,outgoing
 MY,Malaysia,96,SNS,2006-2010,outgoing
@@ -90,23 +82,20 @@ MZ,Mozambique,41,SNS,2006-2010,outgoing
 NE,Niger,1,SNS,2006-2010,outgoing
 NG,Nigeria,5,SNS,2006-2010,outgoing
 NI,Nicaragua,1,SNS,2006-2010,outgoing
-NL,The Netherlands,12856,SNS,2006-2010,outgoing
+NL,The Netherlands,12857,SNS,2006-2010,outgoing
 NO,Norway,2467,SNS,2006-2010,outgoing
 NP,Nepal,1,SNS,2006-2010,outgoing
 NZ,New Zealand,356,SNS,2006-2010,outgoing
 PA,Panama,3,SNS,2006-2010,outgoing
 PE,Peru,40,SNS,2006-2010,outgoing
-PF,French Polynesia,2,SNS,2006-2010,outgoing
 PG,Papua New Guinea,2,SNS,2006-2010,outgoing
 PH,Philippines,27,SNS,2006-2010,outgoing
 PK,Pakistan,150,SNS,2006-2010,outgoing
 PL,Poland,7125,SNS,2006-2010,outgoing
-PR,Puerto Rico,584,SNS,2006-2010,outgoing
 PS,Palestine,7,SNS,2006-2010,outgoing
 PT,Portugal,1400,SNS,2006-2010,outgoing
 PY,Paraguay,1,SNS,2006-2010,outgoing
 QA,Qatar,56,SNS,2006-2010,outgoing
-RE,Réunion,5,SNS,2006-2010,outgoing
 RO,Romania,522,SNS,2006-2010,outgoing
 RS,Serbia,401,SNS,2006-2010,outgoing
 RU,Russia,23102,SNS,2006-2010,outgoing
@@ -127,7 +116,7 @@ TW,Taiwan,8249,SNS,2006-2010,outgoing
 TZ,Tanzania,224,SNS,2006-2010,outgoing
 UA,Ukraine,1322,SNS,2006-2010,outgoing
 UG,Uganda,50,SNS,2006-2010,outgoing
-US,United States,313761,SNS,2006-2010,outgoing
+US,United States,314346,SNS,2006-2010,outgoing
 UY,Uruguay,28,SNS,2006-2010,outgoing
 UZ,Uzbekistan,180,SNS,2006-2010,outgoing
 VE,Venezuela,16,SNS,2006-2010,outgoing

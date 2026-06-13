@@ -7,10 +7,8 @@ AM,Armenia,7216,UNIBO,2011-2015,outgoing
 AN,Netherlands Antilles,1,UNIBO,2011-2015,outgoing
 AO,Angola,196,UNIBO,2011-2015,outgoing
 AR,Argentina,26423,UNIBO,2011-2015,outgoing
-AS,American Samoa,54,UNIBO,2011-2015,outgoing
 AT,Austria,48602,UNIBO,2011-2015,outgoing
 AU,Australia,181138,UNIBO,2011-2015,outgoing
-AX,Åland,1,UNIBO,2011-2015,outgoing
 AZ,Azerbaijan,7847,UNIBO,2011-2015,outgoing
 BA,Bosnia and Herzegovina,729,UNIBO,2011-2015,outgoing
 BB,Barbados,91,UNIBO,2011-2015,outgoing
@@ -21,7 +19,6 @@ BG,Bulgaria,11161,UNIBO,2011-2015,outgoing
 BH,Bahrain,1332,UNIBO,2011-2015,outgoing
 BI,Burundi,23,UNIBO,2011-2015,outgoing
 BJ,Benin,528,UNIBO,2011-2015,outgoing
-BM,Bermuda,23,UNIBO,2011-2015,outgoing
 BN,Brunei,76,UNIBO,2011-2015,outgoing
 BO,Bolivia,248,UNIBO,2011-2015,outgoing
 BR,Brazil,92335,UNIBO,2011-2015,outgoing
@@ -38,17 +35,16 @@ CH,Switzerland,158783,UNIBO,2011-2015,outgoing
 CI,Ivory Coast,101,UNIBO,2011-2015,outgoing
 CL,Chile,24674,UNIBO,2011-2015,outgoing
 CM,Cameroon,316,UNIBO,2011-2015,outgoing
-CN,China,201687,UNIBO,2011-2015,outgoing
+CN,China,221751,UNIBO,2011-2015,outgoing
 CO,Colombia,13375,UNIBO,2011-2015,outgoing
 CR,Costa Rica,399,UNIBO,2011-2015,outgoing
 CU,Cuba,1049,UNIBO,2011-2015,outgoing
 CV,Cabo Verde,2,UNIBO,2011-2015,outgoing
-CW,Curaçao,118,UNIBO,2011-2015,outgoing
 CY,Cyprus,6332,UNIBO,2011-2015,outgoing
 CZ,Czechia,41904,UNIBO,2011-2015,outgoing
 DE,Germany,483409,UNIBO,2011-2015,outgoing
 DJ,Djibouti,1,UNIBO,2011-2015,outgoing
-DK,Denmark,73850,UNIBO,2011-2015,outgoing
+DK,Denmark,73906,UNIBO,2011-2015,outgoing
 DO,Dominican Republic,21,UNIBO,2011-2015,outgoing
 DZ,Algeria,780,UNIBO,2011-2015,outgoing
 EC,Ecuador,1304,UNIBO,2011-2015,outgoing
@@ -58,27 +54,20 @@ ER,Eritrea,7,UNIBO,2011-2015,outgoing
 ES,Spain,281062,UNIBO,2011-2015,outgoing
 ET,Ethiopia,1428,UNIBO,2011-2015,outgoing
 EU,European Union,41,UNIBO,2011-2015,outgoing
-FI,Finland,67661,UNIBO,2011-2015,outgoing
+FI,Finland,67662,UNIBO,2011-2015,outgoing
 FJ,Fiji,108,UNIBO,2011-2015,outgoing
-FO,Faroe Islands,14,UNIBO,2011-2015,outgoing
-FR,France,1091736,UNIBO,2011-2015,outgoing
+FR,France,1093272,UNIBO,2011-2015,outgoing
 GA,Gabon,94,UNIBO,2011-2015,outgoing
-GB,United Kingdom,622555,UNIBO,2011-2015,outgoing
+GB,United Kingdom,622670,UNIBO,2011-2015,outgoing
 GD,Grenada,149,UNIBO,2011-2015,outgoing
 GE,Georgia,10395,UNIBO,2011-2015,outgoing
-GF,French Guiana,99,UNIBO,2011-2015,outgoing
 GH,Ghana,738,UNIBO,2011-2015,outgoing
-GI,Gibraltar,69,UNIBO,2011-2015,outgoing
-GL,Greenland,42,UNIBO,2011-2015,outgoing
 GM,The Gambia,10,UNIBO,2011-2015,outgoing
 GN,Guinea,5,UNIBO,2011-2015,outgoing
-GP,Guadeloupe,521,UNIBO,2011-2015,outgoing
 GR,Greece,57263,UNIBO,2011-2015,outgoing
 GT,Guatemala,73,UNIBO,2011-2015,outgoing
-GU,Guam,13,UNIBO,2011-2015,outgoing
 GW,Guinea-Bissau,3,UNIBO,2011-2015,outgoing
 GY,Guyana,12,UNIBO,2011-2015,outgoing
-HK,Hong Kong,19662,UNIBO,2011-2015,outgoing
 HN,Honduras,114,UNIBO,2011-2015,outgoing
 HR,Croatia,17970,UNIBO,2011-2015,outgoing
 HT,Haiti,7,UNIBO,2011-2015,outgoing
@@ -86,13 +75,11 @@ HU,Hungary,49357,UNIBO,2011-2015,outgoing
 ID,Indonesia,1127,UNIBO,2011-2015,outgoing
 IE,Ireland,26986,UNIBO,2011-2015,outgoing
 IL,Israel,36527,UNIBO,2011-2015,outgoing
-IM,Isle of Man,3,UNIBO,2011-2015,outgoing
 IN,India,92489,UNIBO,2011-2015,outgoing
 IQ,Iraq,248,UNIBO,2011-2015,outgoing
 IR,Iran,18855,UNIBO,2011-2015,outgoing
 IS,Iceland,3095,UNIBO,2011-2015,outgoing
 IT,Italy,831847,UNIBO,2011-2015,outgoing
-JE,Jersey,3,UNIBO,2011-2015,outgoing
 JM,Jamaica,711,UNIBO,2011-2015,outgoing
 JO,Jordan,3126,UNIBO,2011-2015,outgoing
 JP,Japan,201550,UNIBO,2011-2015,outgoing
@@ -124,11 +111,7 @@ MK,North Macedonia,395,UNIBO,2011-2015,outgoing
 ML,Mali,43,UNIBO,2011-2015,outgoing
 MM,Myanmar,106,UNIBO,2011-2015,outgoing
 MN,Mongolia,244,UNIBO,2011-2015,outgoing
-MO,Macao,402,UNIBO,2011-2015,outgoing
-MP,Northern Mariana Islands,2,UNIBO,2011-2015,outgoing
-MQ,Martinique,15,UNIBO,2011-2015,outgoing
 MR,Mauritania,4,UNIBO,2011-2015,outgoing
-MS,Montserrat,15,UNIBO,2011-2015,outgoing
 MT,Malta,454,UNIBO,2011-2015,outgoing
 MU,Mauritius,66,UNIBO,2011-2015,outgoing
 MV,Maldives,39,UNIBO,2011-2015,outgoing
@@ -136,29 +119,25 @@ MW,Malawi,187,UNIBO,2011-2015,outgoing
 MX,Mexico,31136,UNIBO,2011-2015,outgoing
 MY,Malaysia,8138,UNIBO,2011-2015,outgoing
 MZ,Mozambique,265,UNIBO,2011-2015,outgoing
-NC,New Caledonia,255,UNIBO,2011-2015,outgoing
 NE,Niger,62,UNIBO,2011-2015,outgoing
 NG,Nigeria,1360,UNIBO,2011-2015,outgoing
 NI,Nicaragua,40,UNIBO,2011-2015,outgoing
-NL,The Netherlands,211750,UNIBO,2011-2015,outgoing
-NO,Norway,39814,UNIBO,2011-2015,outgoing
+NL,The Netherlands,211869,UNIBO,2011-2015,outgoing
+NO,Norway,39884,UNIBO,2011-2015,outgoing
 NP,Nepal,329,UNIBO,2011-2015,outgoing
 NZ,New Zealand,19903,UNIBO,2011-2015,outgoing
 OM,Oman,360,UNIBO,2011-2015,outgoing
 PA,Panama,367,UNIBO,2011-2015,outgoing
 PE,Peru,1916,UNIBO,2011-2015,outgoing
-PF,French Polynesia,68,UNIBO,2011-2015,outgoing
 PG,Papua New Guinea,59,UNIBO,2011-2015,outgoing
 PH,Philippines,1576,UNIBO,2011-2015,outgoing
 PK,Pakistan,9544,UNIBO,2011-2015,outgoing
 PL,Poland,80004,UNIBO,2011-2015,outgoing
-PR,Puerto Rico,5901,UNIBO,2011-2015,outgoing
 PS,Palestine,449,UNIBO,2011-2015,outgoing
 PT,Portugal,46273,UNIBO,2011-2015,outgoing
 PW,Palau,45,UNIBO,2011-2015,outgoing
 PY,Paraguay,65,UNIBO,2011-2015,outgoing
 QA,Qatar,2911,UNIBO,2011-2015,outgoing
-RE,Réunion,578,UNIBO,2011-2015,outgoing
 RO,Romania,15882,UNIBO,2011-2015,outgoing
 RS,Serbia,14333,UNIBO,2011-2015,outgoing
 RU,Russia,143573,UNIBO,2011-2015,outgoing
@@ -169,7 +148,6 @@ SD,Sudan,181,UNIBO,2011-2015,outgoing
 SE,Sweden,70311,UNIBO,2011-2015,outgoing
 SG,Singapore,18685,UNIBO,2011-2015,outgoing
 SI,Slovenia,13504,UNIBO,2011-2015,outgoing
-SJ,Svalbard and Jan Mayen,70,UNIBO,2011-2015,outgoing
 SK,Slovakia,22165,UNIBO,2011-2015,outgoing
 SL,Sierra Leone,205,UNIBO,2011-2015,outgoing
 SM,San Marino,376,UNIBO,2011-2015,outgoing
@@ -178,7 +156,6 @@ SO,Somalia,123,UNIBO,2011-2015,outgoing
 SR,Suriname,17,UNIBO,2011-2015,outgoing
 SS,South Sudan,2,UNIBO,2011-2015,outgoing
 SV,El Salvador,148,UNIBO,2011-2015,outgoing
-SX,Sint Maarten,1,UNIBO,2011-2015,outgoing
 SY,Syria,109,UNIBO,2011-2015,outgoing
 SZ,Eswatini,4,UNIBO,2011-2015,outgoing
 TD,Chad,6,UNIBO,2011-2015,outgoing
@@ -195,13 +172,11 @@ TW,Taiwan,49573,UNIBO,2011-2015,outgoing
 TZ,Tanzania,654,UNIBO,2011-2015,outgoing
 UA,Ukraine,11218,UNIBO,2011-2015,outgoing
 UG,Uganda,879,UNIBO,2011-2015,outgoing
-US,United States,2179841,UNIBO,2011-2015,outgoing
+US,United States,2185830,UNIBO,2011-2015,outgoing
 UY,Uruguay,861,UNIBO,2011-2015,outgoing
 UZ,Uzbekistan,1435,UNIBO,2011-2015,outgoing
 VC,St Vincent and Grenadines,1,UNIBO,2011-2015,outgoing
 VE,Venezuela,704,UNIBO,2011-2015,outgoing
-VG,British Virgin Islands,2,UNIBO,2011-2015,outgoing
-VI,U.S. Virgin Islands,19,UNIBO,2011-2015,outgoing
 VN,Vietnam,2791,UNIBO,2011-2015,outgoing
 WS,Samoa,1,UNIBO,2011-2015,outgoing
 XK,Kosovo,40,UNIBO,2011-2015,outgoing

@@ -2,26 +2,26 @@
   {
     "id": "USA",
     "name": "United States",
-    "value": 0.1733,
-    "incoming": 7524378,
-    "outgoing": 8484881,
-    "total": 16009259
+    "value": 0.1721,
+    "incoming": 7540047,
+    "outgoing": 8495168,
+    "total": 16035215
   },
   {
     "id": "FRA",
     "name": "France",
-    "value": -0.2301,
-    "incoming": 3974384,
-    "outgoing": 3388501,
-    "total": 7362885
+    "value": -0.2307,
+    "incoming": 3980928,
+    "outgoing": 3392725,
+    "total": 7373653
   },
   {
     "id": "GBR",
     "name": "United Kingdom",
     "value": 0.0721,
-    "incoming": 2464796,
-    "outgoing": 2591121,
-    "total": 5055917
+    "incoming": 2465141,
+    "outgoing": 2591425,
+    "total": 5056566
   },
   {
     "id": "DEU",
@@ -34,10 +34,10 @@
   {
     "id": "CHN",
     "name": "China",
-    "value": -1.7033,
-    "incoming": 2474737,
-    "outgoing": 759944,
-    "total": 3234681
+    "value": -1.592,
+    "incoming": 2590012,
+    "outgoing": 859144,
+    "total": 3449156
   },
   {
     "id": "ESP",
@@ -66,10 +66,10 @@
   {
     "id": "NLD",
     "name": "The Netherlands",
-    "value": 0.0066,
-    "incoming": 860709,
-    "outgoing": 864671,
-    "total": 1725380
+    "value": 0.0063,
+    "incoming": 861626,
+    "outgoing": 865422,
+    "total": 1727048
   },
   {
     "id": "AUS",
@@ -138,10 +138,10 @@
   {
     "id": "DNK",
     "name": "Denmark",
-    "value": -0.279,
-    "incoming": 354224,
-    "outgoing": 291942,
-    "total": 646166
+    "value": -0.2799,
+    "incoming": 354648,
+    "outgoing": 292103,
+    "total": 646751
   },
   {
     "id": "SWE",
@@ -155,9 +155,9 @@
     "id": "FIN",
     "name": "Finland",
     "value": -0.112,
-    "incoming": 252569,
+    "incoming": 252576,
     "outgoing": 233706,
-    "total": 486275
+    "total": 486282
   },
   {
     "id": "TWN",
@@ -218,10 +218,10 @@
   {
     "id": "NOR",
     "name": "Norway",
-    "value": -0.2142,
-    "incoming": 167520,
-    "outgoing": 144409,
-    "total": 311929
+    "value": -0.2136,
+    "incoming": 167624,
+    "outgoing": 144558,
+    "total": 312182
   },
   {
     "id": "CZE",
@@ -270,14 +270,6 @@
     "incoming": 138038,
     "outgoing": 70077,
     "total": 208115
-  },
-  {
-    "id": "HKG",
-    "name": "Hong Kong",
-    "value": -0.1748,
-    "incoming": 110058,
-    "outgoing": 97498,
-    "total": 207556
   },
   {
     "id": "SGP",
@@ -544,14 +536,6 @@
     "total": 24539
   },
   {
-    "id": "PRI",
-    "name": "Puerto Rico",
-    "value": -0.5317,
-    "incoming": 13939,
-    "outgoing": 9642,
-    "total": 23581
-  },
-  {
     "id": "BGD",
     "name": "Bangladesh",
     "value": -1.5939,
@@ -760,14 +744,6 @@
     "total": 7046
   },
   {
-    "id": "MAC",
-    "name": "Macao",
-    "value": -1.6154,
-    "incoming": 5217,
-    "outgoing": 1702,
-    "total": 6919
-  },
-  {
     "id": "MLT",
     "name": "Malta",
     "value": -0.8868,
@@ -824,14 +800,6 @@
     "total": 4222
   },
   {
-    "id": "GLP",
-    "name": "Guadeloupe",
-    "value": -0.69,
-    "incoming": 2498,
-    "outgoing": 1548,
-    "total": 4046
-  },
-  {
     "id": "CRI",
     "name": "Costa Rica",
     "value": -0.9536,
@@ -878,14 +846,6 @@
     "incoming": 2336,
     "outgoing": 1125,
     "total": 3461
-  },
-  {
-    "id": "REU",
-    "name": "R\u00e9union",
-    "value": -0.4854,
-    "incoming": 2001,
-    "outgoing": 1429,
-    "total": 3430
   },
   {
     "id": "PAN",
@@ -984,14 +944,6 @@
     "total": 2314
   },
   {
-    "id": "ASM",
-    "name": "American Samoa",
-    "value": -1.4732,
-    "incoming": 1601,
-    "outgoing": 576,
-    "total": 2177
-  },
-  {
     "id": "SYR",
     "name": "Syria",
     "value": -1.6917,
@@ -1056,14 +1008,6 @@
     "total": 1613
   },
   {
-    "id": "CUW",
-    "name": "Cura\u00e7ao",
-    "value": 0.0102,
-    "incoming": 702,
-    "outgoing": 707,
-    "total": 1409
-  },
-  {
     "id": "PRY",
     "name": "Paraguay",
     "value": -1.0604,
@@ -1104,14 +1048,6 @@
     "total": 1277
   },
   {
-    "id": "NCL",
-    "name": "New Caledonia",
-    "value": -0.6803,
-    "incoming": 781,
-    "outgoing": 487,
-    "total": 1268
-  },
-  {
     "id": "KGZ",
     "name": "Kyrgyzstan",
     "value": -0.7753,
@@ -1134,14 +1070,6 @@
     "incoming": 664,
     "outgoing": 438,
     "total": 1102
-  },
-  {
-    "id": "GUF",
-    "name": "French Guiana",
-    "value": -0.4451,
-    "incoming": 613,
-    "outgoing": 450,
-    "total": 1063
   },
   {
     "id": "MCO",
@@ -1222,14 +1150,6 @@
     "incoming": 514,
     "outgoing": 149,
     "total": 663
-  },
-  {
-    "id": "MTQ",
-    "name": "Martinique",
-    "value": -1.413,
-    "incoming": 481,
-    "outgoing": 180,
-    "total": 661
   },
   {
     "id": "GMB",
@@ -1328,46 +1248,6 @@
     "total": 372
   },
   {
-    "id": "GRL",
-    "name": "Greenland",
-    "value": null,
-    "incoming": 222,
-    "outgoing": 96,
-    "total": 318
-  },
-  {
-    "id": "PYF",
-    "name": "French Polynesia",
-    "value": null,
-    "incoming": 154,
-    "outgoing": 128,
-    "total": 282
-  },
-  {
-    "id": "FRO",
-    "name": "Faroe Islands",
-    "value": null,
-    "incoming": 202,
-    "outgoing": 65,
-    "total": 267
-  },
-  {
-    "id": "SJM",
-    "name": "Svalbard and Jan Mayen",
-    "value": null,
-    "incoming": 104,
-    "outgoing": 149,
-    "total": 253
-  },
-  {
-    "id": "GIB",
-    "name": "Gibraltar",
-    "value": null,
-    "incoming": 180,
-    "outgoing": 64,
-    "total": 244
-  },
-  {
     "id": "BDI",
     "name": "Burundi",
     "value": null,
@@ -1440,22 +1320,6 @@
     "total": 161
   },
   {
-    "id": "BMU",
-    "name": "Bermuda",
-    "value": null,
-    "incoming": 51,
-    "outgoing": 109,
-    "total": 160
-  },
-  {
-    "id": "SXM",
-    "name": "Sint Maarten",
-    "value": null,
-    "incoming": 122,
-    "outgoing": 21,
-    "total": 143
-  },
-  {
     "id": "SWZ",
     "name": "Eswatini",
     "value": null,
@@ -1486,30 +1350,6 @@
     "incoming": 56,
     "outgoing": 70,
     "total": 126
-  },
-  {
-    "id": "JEY",
-    "name": "Jersey",
-    "value": null,
-    "incoming": 42,
-    "outgoing": 79,
-    "total": 121
-  },
-  {
-    "id": "GUM",
-    "name": "Guam",
-    "value": null,
-    "incoming": 60,
-    "outgoing": 54,
-    "total": 114
-  },
-  {
-    "id": "BES",
-    "name": "Bonaire, Sint Eustatius, and Saba",
-    "value": null,
-    "incoming": 89,
-    "outgoing": 23,
-    "total": 112
   },
   {
     "id": "LCA",
@@ -1544,22 +1384,6 @@
     "total": 74
   },
   {
-    "id": "VIR",
-    "name": "U.S. Virgin Islands",
-    "value": null,
-    "incoming": 60,
-    "outgoing": 12,
-    "total": 72
-  },
-  {
-    "id": "SSD",
-    "name": "South Sudan",
-    "value": null,
-    "incoming": 55,
-    "outgoing": 16,
-    "total": 71
-  },
-  {
     "id": "BLZ",
     "name": "Belize",
     "value": null,
@@ -1568,12 +1392,12 @@
     "total": 71
   },
   {
-    "id": "IMN",
-    "name": "Isle of Man",
+    "id": "SSD",
+    "name": "South Sudan",
     "value": null,
-    "incoming": 18,
-    "outgoing": 35,
-    "total": 53
+    "incoming": 55,
+    "outgoing": 16,
+    "total": 71
   },
   {
     "id": "DMA",
@@ -1598,14 +1422,6 @@
     "incoming": 31,
     "outgoing": 4,
     "total": 35
-  },
-  {
-    "id": "CYM",
-    "name": "Cayman Islands",
-    "value": null,
-    "incoming": 23,
-    "outgoing": 11,
-    "total": 34
   },
   {
     "id": "AND",
@@ -1640,27 +1456,11 @@
     "total": 22
   },
   {
-    "id": "MSR",
-    "name": "Montserrat",
-    "value": null,
-    "incoming": 20,
-    "outgoing": 2,
-    "total": 22
-  },
-  {
     "id": "TON",
     "name": "Tonga",
     "value": null,
     "incoming": 8,
     "outgoing": 10,
-    "total": 18
-  },
-  {
-    "id": "MYT",
-    "name": "Mayotte",
-    "value": null,
-    "incoming": 16,
-    "outgoing": 2,
     "total": 18
   },
   {
@@ -1680,35 +1480,11 @@
     "total": 8
   },
   {
-    "id": "MNP",
-    "name": "Northern Mariana Islands",
+    "id": "SLB",
+    "name": "Solomon Islands",
     "value": null,
-    "incoming": 5,
+    "incoming": 3,
     "outgoing": 2,
-    "total": 7
-  },
-  {
-    "id": "ALA",
-    "name": "\u00c5land",
-    "value": null,
-    "incoming": 7,
-    "outgoing": 0,
-    "total": 7
-  },
-  {
-    "id": "TCA",
-    "name": "Turks and Caicos Islands",
-    "value": null,
-    "incoming": 5,
-    "outgoing": 1,
-    "total": 6
-  },
-  {
-    "id": "FLK",
-    "name": "Falkland Islands",
-    "value": null,
-    "incoming": 4,
-    "outgoing": 1,
     "total": 5
   },
   {
@@ -1728,40 +1504,8 @@
     "total": 5
   },
   {
-    "id": "UMI",
-    "name": "United States Minor Outlying Islands",
-    "value": null,
-    "incoming": 4,
-    "outgoing": 1,
-    "total": 5
-  },
-  {
-    "id": "SLB",
-    "name": "Solomon Islands",
-    "value": null,
-    "incoming": 3,
-    "outgoing": 2,
-    "total": 5
-  },
-  {
-    "id": "VGB",
-    "name": "British Virgin Islands",
-    "value": null,
-    "incoming": 2,
-    "outgoing": 2,
-    "total": 4
-  },
-  {
     "id": "VAT",
     "name": "Vatican City",
-    "value": null,
-    "incoming": 4,
-    "outgoing": 0,
-    "total": 4
-  },
-  {
-    "id": "ABW",
-    "name": "Aruba",
     "value": null,
     "incoming": 4,
     "outgoing": 0,

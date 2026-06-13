@@ -6,7 +6,6 @@ AL,Albania,21,SNS,2021-2025,incoming
 AM,Armenia,704,SNS,2021-2025,incoming
 AO,Angola,7,SNS,2021-2025,incoming
 AR,Argentina,5453,SNS,2021-2025,incoming
-AS,American Samoa,4,SNS,2021-2025,incoming
 AT,Austria,6983,SNS,2021-2025,incoming
 AU,Australia,20908,SNS,2021-2025,incoming
 AZ,Azerbaijan,1436,SNS,2021-2025,incoming
@@ -19,7 +18,6 @@ BG,Bulgaria,1943,SNS,2021-2025,incoming
 BH,Bahrain,147,SNS,2021-2025,incoming
 BI,Burundi,8,SNS,2021-2025,incoming
 BJ,Benin,10,SNS,2021-2025,incoming
-BM,Bermuda,1,SNS,2021-2025,incoming
 BN,Brunei,15,SNS,2021-2025,incoming
 BO,Bolivia,5,SNS,2021-2025,incoming
 BR,Brazil,16140,SNS,2021-2025,incoming
@@ -33,11 +31,10 @@ CH,Switzerland,24548,SNS,2021-2025,incoming
 CI,Ivory Coast,11,SNS,2021-2025,incoming
 CL,Chile,10059,SNS,2021-2025,incoming
 CM,Cameroon,107,SNS,2021-2025,incoming
-CN,China,139781,SNS,2021-2025,incoming
+CN,China,144088,SNS,2021-2025,incoming
 CO,Colombia,3700,SNS,2021-2025,incoming
 CR,Costa Rica,150,SNS,2021-2025,incoming
 CU,Cuba,321,SNS,2021-2025,incoming
-CW,Curaçao,1,SNS,2021-2025,incoming
 CY,Cyprus,1718,SNS,2021-2025,incoming
 CZ,Czechia,8098,SNS,2021-2025,incoming
 DE,Germany,78725,SNS,2021-2025,incoming
@@ -51,20 +48,16 @@ ES,Spain,48135,SNS,2021-2025,incoming
 ET,Ethiopia,204,SNS,2021-2025,incoming
 FI,Finland,8471,SNS,2021-2025,incoming
 FJ,Fiji,2,SNS,2021-2025,incoming
-FR,France,163716,SNS,2021-2025,incoming
+FR,France,163758,SNS,2021-2025,incoming
 GA,Gabon,4,SNS,2021-2025,incoming
-GB,United Kingdom,73023,SNS,2021-2025,incoming
+GB,United Kingdom,73025,SNS,2021-2025,incoming
 GD,Grenada,3,SNS,2021-2025,incoming
 GE,Georgia,1425,SNS,2021-2025,incoming
-GF,French Guiana,7,SNS,2021-2025,incoming
 GH,Ghana,180,SNS,2021-2025,incoming
 GM,The Gambia,3,SNS,2021-2025,incoming
-GP,Guadeloupe,12,SNS,2021-2025,incoming
 GR,Greece,8114,SNS,2021-2025,incoming
 GT,Guatemala,227,SNS,2021-2025,incoming
-GU,Guam,3,SNS,2021-2025,incoming
 GY,Guyana,4,SNS,2021-2025,incoming
-HK,Hong Kong,4191,SNS,2021-2025,incoming
 HN,Honduras,21,SNS,2021-2025,incoming
 HR,Croatia,3165,SNS,2021-2025,incoming
 HU,Hungary,6624,SNS,2021-2025,incoming
@@ -86,7 +79,6 @@ KN,St Kitts and Nevis,9,SNS,2021-2025,incoming
 KP,North Korea,6,SNS,2021-2025,incoming
 KR,South Korea,19700,SNS,2021-2025,incoming
 KW,Kuwait,435,SNS,2021-2025,incoming
-KY,Cayman Islands,1,SNS,2021-2025,incoming
 KZ,Kazakhstan,445,SNS,2021-2025,incoming
 LA,Laos,1,SNS,2021-2025,incoming
 LB,Lebanon,98,SNS,2021-2025,incoming
@@ -106,7 +98,6 @@ MK,North Macedonia,39,SNS,2021-2025,incoming
 ML,Mali,3,SNS,2021-2025,incoming
 MM,Myanmar,12,SNS,2021-2025,incoming
 MN,Mongolia,1258,SNS,2021-2025,incoming
-MO,Macao,116,SNS,2021-2025,incoming
 MR,Mauritania,5,SNS,2021-2025,incoming
 MT,Malta,262,SNS,2021-2025,incoming
 MU,Mauritius,10,SNS,2021-2025,incoming
@@ -115,28 +106,24 @@ MW,Malawi,5,SNS,2021-2025,incoming
 MX,Mexico,5654,SNS,2021-2025,incoming
 MY,Malaysia,1506,SNS,2021-2025,incoming
 MZ,Mozambique,23,SNS,2021-2025,incoming
-NC,New Caledonia,4,SNS,2021-2025,incoming
 NE,Niger,3,SNS,2021-2025,incoming
 NG,Nigeria,263,SNS,2021-2025,incoming
 NI,Nicaragua,14,SNS,2021-2025,incoming
-NL,The Netherlands,25091,SNS,2021-2025,incoming
+NL,The Netherlands,25094,SNS,2021-2025,incoming
 NO,Norway,5164,SNS,2021-2025,incoming
 NP,Nepal,68,SNS,2021-2025,incoming
 NZ,New Zealand,1498,SNS,2021-2025,incoming
 OM,Oman,88,SNS,2021-2025,incoming
 PA,Panama,15,SNS,2021-2025,incoming
 PE,Peru,437,SNS,2021-2025,incoming
-PF,French Polynesia,3,SNS,2021-2025,incoming
 PG,Papua New Guinea,3,SNS,2021-2025,incoming
 PH,Philippines,1216,SNS,2021-2025,incoming
 PK,Pakistan,4207,SNS,2021-2025,incoming
 PL,Poland,20506,SNS,2021-2025,incoming
-PR,Puerto Rico,819,SNS,2021-2025,incoming
 PS,Palestine,106,SNS,2021-2025,incoming
 PT,Portugal,9460,SNS,2021-2025,incoming
 PY,Paraguay,22,SNS,2021-2025,incoming
 QA,Qatar,554,SNS,2021-2025,incoming
-RE,Réunion,16,SNS,2021-2025,incoming
 RO,Romania,5272,SNS,2021-2025,incoming
 RS,Serbia,2077,SNS,2021-2025,incoming
 RU,Russia,26887,SNS,2021-2025,incoming
@@ -152,7 +139,6 @@ SL,Sierra Leone,3,SNS,2021-2025,incoming
 SN,Senegal,32,SNS,2021-2025,incoming
 SO,Somalia,4,SNS,2021-2025,incoming
 SV,El Salvador,5,SNS,2021-2025,incoming
-SX,Sint Maarten,2,SNS,2021-2025,incoming
 SY,Syria,18,SNS,2021-2025,incoming
 SZ,Eswatini,2,SNS,2021-2025,incoming
 TG,Togo,2,SNS,2021-2025,incoming
@@ -166,12 +152,10 @@ TW,Taiwan,11040,SNS,2021-2025,incoming
 TZ,Tanzania,56,SNS,2021-2025,incoming
 UA,Ukraine,2515,SNS,2021-2025,incoming
 UG,Uganda,111,SNS,2021-2025,incoming
-UM,United States Minor Outlying Islands,2,SNS,2021-2025,incoming
-US,United States,259205,SNS,2021-2025,incoming
+US,United States,260040,SNS,2021-2025,incoming
 UY,Uruguay,229,SNS,2021-2025,incoming
 UZ,Uzbekistan,602,SNS,2021-2025,incoming
 VE,Venezuela,53,SNS,2021-2025,incoming
-VI,U.S. Virgin Islands,7,SNS,2021-2025,incoming
 VN,Vietnam,1450,SNS,2021-2025,incoming
 XK,Kosovo,4,SNS,2021-2025,incoming
 YE,Yemen,49,SNS,2021-2025,incoming

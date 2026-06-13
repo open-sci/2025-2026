@@ -6,7 +6,6 @@ AL,Albania,3,UPO,2006-2010,incoming
 AM,Armenia,1398,UPO,2006-2010,incoming
 AO,Angola,10,UPO,2006-2010,incoming
 AR,Argentina,688,UPO,2006-2010,incoming
-AS,American Samoa,2,UPO,2006-2010,incoming
 AT,Austria,2133,UPO,2006-2010,incoming
 AU,Australia,3697,UPO,2006-2010,incoming
 AZ,Azerbaijan,40,UPO,2006-2010,incoming
@@ -17,7 +16,6 @@ BE,Belgium,8281,UPO,2006-2010,incoming
 BG,Bulgaria,2903,UPO,2006-2010,incoming
 BH,Bahrain,30,UPO,2006-2010,incoming
 BJ,Benin,6,UPO,2006-2010,incoming
-BM,Bermuda,3,UPO,2006-2010,incoming
 BO,Bolivia,22,UPO,2006-2010,incoming
 BR,Brazil,7990,UPO,2006-2010,incoming
 BT,Bhutan,1,UPO,2006-2010,incoming
@@ -28,11 +26,10 @@ CD,DR Congo,2,UPO,2006-2010,incoming
 CH,Switzerland,9695,UPO,2006-2010,incoming
 CL,Chile,466,UPO,2006-2010,incoming
 CM,Cameroon,4,UPO,2006-2010,incoming
-CN,China,11500,UPO,2006-2010,incoming
+CN,China,12053,UPO,2006-2010,incoming
 CO,Colombia,1750,UPO,2006-2010,incoming
 CR,Costa Rica,7,UPO,2006-2010,incoming
 CU,Cuba,399,UPO,2006-2010,incoming
-CW,Curaçao,2,UPO,2006-2010,incoming
 CY,Cyprus,899,UPO,2006-2010,incoming
 CZ,Czechia,3178,UPO,2006-2010,incoming
 DE,Germany,24141,UPO,2006-2010,incoming
@@ -45,17 +42,14 @@ ES,Spain,13845,UPO,2006-2010,incoming
 ET,Ethiopia,46,UPO,2006-2010,incoming
 FI,Finland,8400,UPO,2006-2010,incoming
 FJ,Fiji,1,UPO,2006-2010,incoming
-FR,France,63528,UPO,2006-2010,incoming
+FR,France,63533,UPO,2006-2010,incoming
 GA,Gabon,1,UPO,2006-2010,incoming
-GB,United Kingdom,23749,UPO,2006-2010,incoming
+GB,United Kingdom,23752,UPO,2006-2010,incoming
 GD,Grenada,5,UPO,2006-2010,incoming
 GE,Georgia,1651,UPO,2006-2010,incoming
-GF,French Guiana,1,UPO,2006-2010,incoming
 GH,Ghana,148,UPO,2006-2010,incoming
-GP,Guadeloupe,1,UPO,2006-2010,incoming
 GR,Greece,5956,UPO,2006-2010,incoming
 GT,Guatemala,3,UPO,2006-2010,incoming
-HK,Hong Kong,552,UPO,2006-2010,incoming
 HR,Croatia,4539,UPO,2006-2010,incoming
 HU,Hungary,7113,UPO,2006-2010,incoming
 ID,Indonesia,19,UPO,2006-2010,incoming
@@ -89,17 +83,15 @@ MG,Madagascar,1,UPO,2006-2010,incoming
 MK,North Macedonia,6,UPO,2006-2010,incoming
 MM,Myanmar,4,UPO,2006-2010,incoming
 MN,Mongolia,201,UPO,2006-2010,incoming
-MO,Macao,1,UPO,2006-2010,incoming
 MT,Malta,17,UPO,2006-2010,incoming
 MU,Mauritius,2,UPO,2006-2010,incoming
 MW,Malawi,2,UPO,2006-2010,incoming
 MX,Mexico,6469,UPO,2006-2010,incoming
 MY,Malaysia,360,UPO,2006-2010,incoming
 MZ,Mozambique,10,UPO,2006-2010,incoming
-NC,New Caledonia,1,UPO,2006-2010,incoming
 NG,Nigeria,47,UPO,2006-2010,incoming
 NI,Nicaragua,2,UPO,2006-2010,incoming
-NL,The Netherlands,7066,UPO,2006-2010,incoming
+NL,The Netherlands,7068,UPO,2006-2010,incoming
 NO,Norway,2610,UPO,2006-2010,incoming
 NP,Nepal,3,UPO,2006-2010,incoming
 NZ,New Zealand,2049,UPO,2006-2010,incoming
@@ -109,13 +101,11 @@ PE,Peru,349,UPO,2006-2010,incoming
 PH,Philippines,212,UPO,2006-2010,incoming
 PK,Pakistan,2181,UPO,2006-2010,incoming
 PL,Poland,9413,UPO,2006-2010,incoming
-PR,Puerto Rico,1044,UPO,2006-2010,incoming
 PS,Palestine,10,UPO,2006-2010,incoming
 PT,Portugal,2500,UPO,2006-2010,incoming
 PW,Palau,2,UPO,2006-2010,incoming
 PY,Paraguay,4,UPO,2006-2010,incoming
 QA,Qatar,53,UPO,2006-2010,incoming
-RE,Réunion,2,UPO,2006-2010,incoming
 RO,Romania,574,UPO,2006-2010,incoming
 RS,Serbia,1973,UPO,2006-2010,incoming
 RU,Russia,17060,UPO,2006-2010,incoming
@@ -140,7 +130,7 @@ TW,Taiwan,4134,UPO,2006-2010,incoming
 TZ,Tanzania,44,UPO,2006-2010,incoming
 UA,Ukraine,2286,UPO,2006-2010,incoming
 UG,Uganda,7,UPO,2006-2010,incoming
-US,United States,103662,UPO,2006-2010,incoming
+US,United States,104708,UPO,2006-2010,incoming
 UY,Uruguay,42,UPO,2006-2010,incoming
 UZ,Uzbekistan,1513,UPO,2006-2010,incoming
 VE,Venezuela,28,UPO,2006-2010,incoming

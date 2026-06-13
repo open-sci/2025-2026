@@ -7,7 +7,6 @@ AL,Albania,245,UNIPD,2016-2020,outgoing
 AM,Armenia,7893,UNIPD,2016-2020,outgoing
 AO,Angola,166,UNIPD,2016-2020,outgoing
 AR,Argentina,19448,UNIPD,2016-2020,outgoing
-AS,American Samoa,115,UNIPD,2016-2020,outgoing
 AT,Austria,55660,UNIPD,2016-2020,outgoing
 AU,Australia,180040,UNIPD,2016-2020,outgoing
 AZ,Azerbaijan,3066,UNIPD,2016-2020,outgoing
@@ -20,10 +19,8 @@ BG,Bulgaria,20167,UNIPD,2016-2020,outgoing
 BH,Bahrain,1484,UNIPD,2016-2020,outgoing
 BI,Burundi,18,UNIPD,2016-2020,outgoing
 BJ,Benin,261,UNIPD,2016-2020,outgoing
-BM,Bermuda,32,UNIPD,2016-2020,outgoing
 BN,Brunei,108,UNIPD,2016-2020,outgoing
 BO,Bolivia,172,UNIPD,2016-2020,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",2,UNIPD,2016-2020,outgoing
 BR,Brazil,120786,UNIPD,2016-2020,outgoing
 BS,Bahamas,22,UNIPD,2016-2020,outgoing
 BT,Bhutan,114,UNIPD,2016-2020,outgoing
@@ -38,17 +35,16 @@ CH,Switzerland,162115,UNIPD,2016-2020,outgoing
 CI,Ivory Coast,158,UNIPD,2016-2020,outgoing
 CL,Chile,27799,UNIPD,2016-2020,outgoing
 CM,Cameroon,505,UNIPD,2016-2020,outgoing
-CN,China,333201,UNIPD,2016-2020,outgoing
+CN,China,354737,UNIPD,2016-2020,outgoing
 CO,Colombia,18810,UNIPD,2016-2020,outgoing
 CR,Costa Rica,513,UNIPD,2016-2020,outgoing
 CU,Cuba,1634,UNIPD,2016-2020,outgoing
 CV,Cabo Verde,6,UNIPD,2016-2020,outgoing
-CW,Curaçao,49,UNIPD,2016-2020,outgoing
 CY,Cyprus,8447,UNIPD,2016-2020,outgoing
 CZ,Czechia,35846,UNIPD,2016-2020,outgoing
 DE,Germany,462309,UNIPD,2016-2020,outgoing
 DJ,Djibouti,4,UNIPD,2016-2020,outgoing
-DK,Denmark,71926,UNIPD,2016-2020,outgoing
+DK,Denmark,71998,UNIPD,2016-2020,outgoing
 DO,Dominican Republic,52,UNIPD,2016-2020,outgoing
 DZ,Algeria,1348,UNIPD,2016-2020,outgoing
 EC,Ecuador,9994,UNIPD,2016-2020,outgoing
@@ -60,27 +56,19 @@ ET,Ethiopia,3446,UNIPD,2016-2020,outgoing
 EU,European Union,128,UNIPD,2016-2020,outgoing
 FI,Finland,88085,UNIPD,2016-2020,outgoing
 FJ,Fiji,118,UNIPD,2016-2020,outgoing
-FK,Falkland Islands,4,UNIPD,2016-2020,outgoing
 FM,Micronesia,15,UNIPD,2016-2020,outgoing
-FO,Faroe Islands,31,UNIPD,2016-2020,outgoing
-FR,France,1126139,UNIPD,2016-2020,outgoing
+FR,France,1127647,UNIPD,2016-2020,outgoing
 GA,Gabon,114,UNIPD,2016-2020,outgoing
-GB,United Kingdom,589173,UNIPD,2016-2020,outgoing
+GB,United Kingdom,589234,UNIPD,2016-2020,outgoing
 GD,Grenada,335,UNIPD,2016-2020,outgoing
 GE,Georgia,13733,UNIPD,2016-2020,outgoing
-GF,French Guiana,107,UNIPD,2016-2020,outgoing
 GH,Ghana,1067,UNIPD,2016-2020,outgoing
-GI,Gibraltar,10,UNIPD,2016-2020,outgoing
-GL,Greenland,41,UNIPD,2016-2020,outgoing
 GM,The Gambia,56,UNIPD,2016-2020,outgoing
 GN,Guinea,15,UNIPD,2016-2020,outgoing
-GP,Guadeloupe,499,UNIPD,2016-2020,outgoing
 GR,Greece,57450,UNIPD,2016-2020,outgoing
 GT,Guatemala,1218,UNIPD,2016-2020,outgoing
-GU,Guam,9,UNIPD,2016-2020,outgoing
 GW,Guinea-Bissau,17,UNIPD,2016-2020,outgoing
 GY,Guyana,13,UNIPD,2016-2020,outgoing
-HK,Hong Kong,20130,UNIPD,2016-2020,outgoing
 HN,Honduras,161,UNIPD,2016-2020,outgoing
 HR,Croatia,33989,UNIPD,2016-2020,outgoing
 HT,Haiti,5,UNIPD,2016-2020,outgoing
@@ -88,13 +76,11 @@ HU,Hungary,78654,UNIPD,2016-2020,outgoing
 ID,Indonesia,3706,UNIPD,2016-2020,outgoing
 IE,Ireland,32964,UNIPD,2016-2020,outgoing
 IL,Israel,27976,UNIPD,2016-2020,outgoing
-IM,Isle of Man,6,UNIPD,2016-2020,outgoing
 IN,India,166344,UNIPD,2016-2020,outgoing
 IQ,Iraq,900,UNIPD,2016-2020,outgoing
 IR,Iran,33206,UNIPD,2016-2020,outgoing
 IS,Iceland,2899,UNIPD,2016-2020,outgoing
 IT,Italy,1046640,UNIPD,2016-2020,outgoing
-JE,Jersey,3,UNIPD,2016-2020,outgoing
 JM,Jamaica,363,UNIPD,2016-2020,outgoing
 JO,Jordan,2006,UNIPD,2016-2020,outgoing
 JP,Japan,151793,UNIPD,2016-2020,outgoing
@@ -105,7 +91,6 @@ KN,St Kitts and Nevis,169,UNIPD,2016-2020,outgoing
 KP,North Korea,19,UNIPD,2016-2020,outgoing
 KR,South Korea,141356,UNIPD,2016-2020,outgoing
 KW,Kuwait,478,UNIPD,2016-2020,outgoing
-KY,Cayman Islands,3,UNIPD,2016-2020,outgoing
 KZ,Kazakhstan,623,UNIPD,2016-2020,outgoing
 LA,Laos,50,UNIPD,2016-2020,outgoing
 LB,Lebanon,2250,UNIPD,2016-2020,outgoing
@@ -128,9 +113,6 @@ MK,North Macedonia,446,UNIPD,2016-2020,outgoing
 ML,Mali,63,UNIPD,2016-2020,outgoing
 MM,Myanmar,195,UNIPD,2016-2020,outgoing
 MN,Mongolia,282,UNIPD,2016-2020,outgoing
-MO,Macao,1406,UNIPD,2016-2020,outgoing
-MP,Northern Mariana Islands,1,UNIPD,2016-2020,outgoing
-MQ,Martinique,64,UNIPD,2016-2020,outgoing
 MR,Mauritania,6,UNIPD,2016-2020,outgoing
 MT,Malta,710,UNIPD,2016-2020,outgoing
 MU,Mauritius,188,UNIPD,2016-2020,outgoing
@@ -139,29 +121,25 @@ MW,Malawi,236,UNIPD,2016-2020,outgoing
 MX,Mexico,48175,UNIPD,2016-2020,outgoing
 MY,Malaysia,19619,UNIPD,2016-2020,outgoing
 MZ,Mozambique,503,UNIPD,2016-2020,outgoing
-NC,New Caledonia,119,UNIPD,2016-2020,outgoing
 NE,Niger,141,UNIPD,2016-2020,outgoing
 NG,Nigeria,2534,UNIPD,2016-2020,outgoing
 NI,Nicaragua,104,UNIPD,2016-2020,outgoing
-NL,The Netherlands,195581,UNIPD,2016-2020,outgoing
-NO,Norway,42572,UNIPD,2016-2020,outgoing
+NL,The Netherlands,195638,UNIPD,2016-2020,outgoing
+NO,Norway,42616,UNIPD,2016-2020,outgoing
 NP,Nepal,687,UNIPD,2016-2020,outgoing
 NZ,New Zealand,25078,UNIPD,2016-2020,outgoing
 OM,Oman,418,UNIPD,2016-2020,outgoing
 PA,Panama,339,UNIPD,2016-2020,outgoing
 PE,Peru,2904,UNIPD,2016-2020,outgoing
-PF,French Polynesia,153,UNIPD,2016-2020,outgoing
 PG,Papua New Guinea,85,UNIPD,2016-2020,outgoing
 PH,Philippines,2638,UNIPD,2016-2020,outgoing
 PK,Pakistan,18091,UNIPD,2016-2020,outgoing
 PL,Poland,111935,UNIPD,2016-2020,outgoing
-PR,Puerto Rico,8578,UNIPD,2016-2020,outgoing
 PS,Palestine,1174,UNIPD,2016-2020,outgoing
 PT,Portugal,52251,UNIPD,2016-2020,outgoing
 PW,Palau,44,UNIPD,2016-2020,outgoing
 PY,Paraguay,189,UNIPD,2016-2020,outgoing
 QA,Qatar,5537,UNIPD,2016-2020,outgoing
-RE,Réunion,565,UNIPD,2016-2020,outgoing
 RO,Romania,13991,UNIPD,2016-2020,outgoing
 RS,Serbia,12068,UNIPD,2016-2020,outgoing
 RU,Russia,175893,UNIPD,2016-2020,outgoing
@@ -173,7 +151,6 @@ SD,Sudan,166,UNIPD,2016-2020,outgoing
 SE,Sweden,66662,UNIPD,2016-2020,outgoing
 SG,Singapore,20277,UNIPD,2016-2020,outgoing
 SI,Slovenia,9634,UNIPD,2016-2020,outgoing
-SJ,Svalbard and Jan Mayen,44,UNIPD,2016-2020,outgoing
 SK,Slovakia,20071,UNIPD,2016-2020,outgoing
 SL,Sierra Leone,43,UNIPD,2016-2020,outgoing
 SM,San Marino,70,UNIPD,2016-2020,outgoing
@@ -182,10 +159,8 @@ SO,Somalia,45,UNIPD,2016-2020,outgoing
 SR,Suriname,14,UNIPD,2016-2020,outgoing
 SS,South Sudan,2,UNIPD,2016-2020,outgoing
 SV,El Salvador,163,UNIPD,2016-2020,outgoing
-SX,Sint Maarten,6,UNIPD,2016-2020,outgoing
 SY,Syria,64,UNIPD,2016-2020,outgoing
 SZ,Eswatini,6,UNIPD,2016-2020,outgoing
-TC,Turks and Caicos Islands,2,UNIPD,2016-2020,outgoing
 TD,Chad,8,UNIPD,2016-2020,outgoing
 TG,Togo,51,UNIPD,2016-2020,outgoing
 TH,Thailand,13016,UNIPD,2016-2020,outgoing
@@ -200,20 +175,17 @@ TW,Taiwan,55942,UNIPD,2016-2020,outgoing
 TZ,Tanzania,585,UNIPD,2016-2020,outgoing
 UA,Ukraine,16060,UNIPD,2016-2020,outgoing
 UG,Uganda,1196,UNIPD,2016-2020,outgoing
-US,United States,1997792,UNIPD,2016-2020,outgoing
+US,United States,2006522,UNIPD,2016-2020,outgoing
 UY,Uruguay,1093,UNIPD,2016-2020,outgoing
 UZ,Uzbekistan,1692,UNIPD,2016-2020,outgoing
 VA,Vatican City,1,UNIPD,2016-2020,outgoing
 VC,St Vincent and Grenadines,1,UNIPD,2016-2020,outgoing
 VE,Venezuela,470,UNIPD,2016-2020,outgoing
-VG,British Virgin Islands,1,UNIPD,2016-2020,outgoing
-VI,U.S. Virgin Islands,27,UNIPD,2016-2020,outgoing
 VN,Vietnam,6283,UNIPD,2016-2020,outgoing
 VU,Vanuatu,6,UNIPD,2016-2020,outgoing
 WS,Samoa,2,UNIPD,2016-2020,outgoing
 XK,Kosovo,91,UNIPD,2016-2020,outgoing
 YE,Yemen,161,UNIPD,2016-2020,outgoing
-YT,Mayotte,1,UNIPD,2016-2020,outgoing
 ZA,South Africa,30202,UNIPD,2016-2020,outgoing
 ZM,Zambia,303,UNIPD,2016-2020,outgoing
 ZW,Zimbabwe,841,UNIPD,2016-2020,outgoing

@@ -15,10 +15,8 @@ BF,Burkina Faso,2,UPO,2001-2005,outgoing
 BG,Bulgaria,271,UPO,2001-2005,outgoing
 BH,Bahrain,22,UPO,2001-2005,outgoing
 BJ,Benin,11,UPO,2001-2005,outgoing
-BM,Bermuda,12,UPO,2001-2005,outgoing
 BN,Brunei,6,UPO,2001-2005,outgoing
 BO,Bolivia,1,UPO,2001-2005,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",1,UPO,2001-2005,outgoing
 BR,Brazil,3004,UPO,2001-2005,outgoing
 BT,Bhutan,3,UPO,2001-2005,outgoing
 BW,Botswana,2,UPO,2001-2005,outgoing
@@ -30,11 +28,10 @@ CH,Switzerland,11792,UPO,2001-2005,outgoing
 CI,Ivory Coast,1,UPO,2001-2005,outgoing
 CL,Chile,206,UPO,2001-2005,outgoing
 CM,Cameroon,6,UPO,2001-2005,outgoing
-CN,China,8566,UPO,2001-2005,outgoing
+CN,China,10115,UPO,2001-2005,outgoing
 CO,Colombia,210,UPO,2001-2005,outgoing
 CR,Costa Rica,12,UPO,2001-2005,outgoing
 CU,Cuba,27,UPO,2001-2005,outgoing
-CW,Curaçao,4,UPO,2001-2005,outgoing
 CY,Cyprus,194,UPO,2001-2005,outgoing
 CZ,Czechia,1367,UPO,2001-2005,outgoing
 DE,Germany,26420,UPO,2001-2005,outgoing
@@ -48,18 +45,14 @@ ET,Ethiopia,57,UPO,2001-2005,outgoing
 EU,European Union,1,UPO,2001-2005,outgoing
 FI,Finland,8689,UPO,2001-2005,outgoing
 FJ,Fiji,1,UPO,2001-2005,outgoing
-FR,France,48537,UPO,2001-2005,outgoing
+FR,France,48554,UPO,2001-2005,outgoing
 GA,Gabon,5,UPO,2001-2005,outgoing
-GB,United Kingdom,45341,UPO,2001-2005,outgoing
+GB,United Kingdom,45354,UPO,2001-2005,outgoing
 GD,Grenada,1,UPO,2001-2005,outgoing
 GE,Georgia,97,UPO,2001-2005,outgoing
-GF,French Guiana,4,UPO,2001-2005,outgoing
 GH,Ghana,55,UPO,2001-2005,outgoing
-GP,Guadeloupe,7,UPO,2001-2005,outgoing
 GR,Greece,1912,UPO,2001-2005,outgoing
 GT,Guatemala,6,UPO,2001-2005,outgoing
-GU,Guam,5,UPO,2001-2005,outgoing
-HK,Hong Kong,1540,UPO,2001-2005,outgoing
 HN,Honduras,1,UPO,2001-2005,outgoing
 HR,Croatia,526,UPO,2001-2005,outgoing
 HT,Haiti,2,UPO,2001-2005,outgoing
@@ -72,7 +65,6 @@ IQ,Iraq,15,UPO,2001-2005,outgoing
 IR,Iran,252,UPO,2001-2005,outgoing
 IS,Iceland,54,UPO,2001-2005,outgoing
 IT,Italy,54631,UPO,2001-2005,outgoing
-JE,Jersey,1,UPO,2001-2005,outgoing
 JM,Jamaica,18,UPO,2001-2005,outgoing
 JO,Jordan,52,UPO,2001-2005,outgoing
 JP,Japan,24735,UPO,2001-2005,outgoing
@@ -91,19 +83,17 @@ MA,Morocco,44,UPO,2001-2005,outgoing
 MD,Moldova,33,UPO,2001-2005,outgoing
 ME,Montenegro,21,UPO,2001-2005,outgoing
 MK,North Macedonia,1,UPO,2001-2005,outgoing
-MO,Macao,9,UPO,2001-2005,outgoing
 MT,Malta,5,UPO,2001-2005,outgoing
 MU,Mauritius,2,UPO,2001-2005,outgoing
 MW,Malawi,5,UPO,2001-2005,outgoing
 MX,Mexico,846,UPO,2001-2005,outgoing
 MY,Malaysia,115,UPO,2001-2005,outgoing
 MZ,Mozambique,13,UPO,2001-2005,outgoing
-NC,New Caledonia,1,UPO,2001-2005,outgoing
 NE,Niger,1,UPO,2001-2005,outgoing
 NG,Nigeria,57,UPO,2001-2005,outgoing
 NI,Nicaragua,2,UPO,2001-2005,outgoing
-NL,The Netherlands,10355,UPO,2001-2005,outgoing
-NO,Norway,2063,UPO,2001-2005,outgoing
+NL,The Netherlands,10360,UPO,2001-2005,outgoing
+NO,Norway,2065,UPO,2001-2005,outgoing
 NP,Nepal,15,UPO,2001-2005,outgoing
 NZ,New Zealand,470,UPO,2001-2005,outgoing
 OM,Oman,11,UPO,2001-2005,outgoing
@@ -112,13 +102,11 @@ PE,Peru,25,UPO,2001-2005,outgoing
 PH,Philippines,145,UPO,2001-2005,outgoing
 PK,Pakistan,150,UPO,2001-2005,outgoing
 PL,Poland,2780,UPO,2001-2005,outgoing
-PR,Puerto Rico,166,UPO,2001-2005,outgoing
 PS,Palestine,13,UPO,2001-2005,outgoing
 PT,Portugal,873,UPO,2001-2005,outgoing
 PW,Palau,2,UPO,2001-2005,outgoing
 PY,Paraguay,1,UPO,2001-2005,outgoing
 QA,Qatar,21,UPO,2001-2005,outgoing
-RE,Réunion,5,UPO,2001-2005,outgoing
 RO,Romania,317,UPO,2001-2005,outgoing
 RS,Serbia,142,UPO,2001-2005,outgoing
 RU,Russia,9460,UPO,2001-2005,outgoing
@@ -126,7 +114,6 @@ SA,Saudi Arabia,50,UPO,2001-2005,outgoing
 SE,Sweden,4921,UPO,2001-2005,outgoing
 SG,Singapore,782,UPO,2001-2005,outgoing
 SI,Slovenia,301,UPO,2001-2005,outgoing
-SJ,Svalbard and Jan Mayen,2,UPO,2001-2005,outgoing
 SK,Slovakia,455,UPO,2001-2005,outgoing
 SM,San Marino,7,UPO,2001-2005,outgoing
 SN,Senegal,3,UPO,2001-2005,outgoing
@@ -143,7 +130,7 @@ TW,Taiwan,2520,UPO,2001-2005,outgoing
 TZ,Tanzania,133,UPO,2001-2005,outgoing
 UA,Ukraine,293,UPO,2001-2005,outgoing
 UG,Uganda,29,UPO,2001-2005,outgoing
-US,United States,165528,UPO,2001-2005,outgoing
+US,United States,165699,UPO,2001-2005,outgoing
 UY,Uruguay,31,UPO,2001-2005,outgoing
 UZ,Uzbekistan,654,UPO,2001-2005,outgoing
 VE,Venezuela,34,UPO,2001-2005,outgoing

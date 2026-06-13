@@ -35,6 +35,15 @@ INSTITUTION_SELF_NAMES = {
 
 # Canonical country names for ambiguous cases (following common English usage)
 COUNTRY_NAMES = {
+    # --- territory-parent merges (the only codes with duplicate issues) ---
+    "DK": "Denmark",
+    "FI": "Finland",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "NO": "Norway",
+    "US": "United States",
+
+    # --- existing ambiguous name overrides ---
     "BN": "Brunei",
     "CD": "DR Congo",
     "CG": "Congo Republic",
@@ -56,9 +65,55 @@ COUNTRY_NAMES = {
     "SZ": "Eswatini",
     "TR": "Turkey",         
     "TZ": "Tanzania",
-    "VI": "U.S. Virgin Islands",
     "VN": "Vietnam",
     "XK": "Kosovo",
+}
+
+# Maps territory ISO-2 codes to their parent country's ISO-2 code
+TERRITORY_TO_PARENT = {
+    # United States territories
+    "AS": "US",  # American Samoa
+    "GU": "US",  # Guam
+    "MP": "US",  # Northern Mariana Islands
+    "PR": "US",  # Puerto Rico
+    "UM": "US",  # United States Minor Outlying Islands
+    "VI": "US",  # U.S. Virgin Islands  ← remove from COUNTRY_NAMES too
+
+    # France territories
+    "GF": "FR",  # French Guiana
+    "GP": "FR",  # Guadeloupe
+    "MQ": "FR",  # Martinique
+    "RE": "FR",  # Réunion
+    "YT": "FR",  # Mayotte
+    "PF": "FR",  # French Polynesia
+    "NC": "FR",  # New Caledonia
+
+    # Netherlands territories
+    "AW": "NL",  # Aruba
+    "CW": "NL",  # Curaçao
+    "BQ": "NL",  # Bonaire, Sint Eustatius, and Saba
+    "SX": "NL",  # Sint Maarten
+
+    # United Kingdom territories
+    "GI": "GB",  # Gibraltar
+    "IM": "GB",  # Isle of Man
+    "JE": "GB",  # Jersey
+    "FK": "GB",  # Falkland Islands
+    "BM": "GB",  # Bermuda
+    "KY": "GB",  # Cayman Islands
+    "TC": "GB",  # Turks and Caicos Islands
+    "VG": "GB",  # British Virgin Islands
+    "MS": "GB",  # Montserrat
+
+    # China territories
+    "MO": "CN",  # Macao
+    "HK": "CN",  # Hong Kong
+
+    # Finland / Denmark / Norway
+    "AX": "FI",  # Åland
+    "FO": "DK",  # Faroe Islands
+    "GL": "DK",  # Greenland
+    "SJ": "NO",  # Svalbard and Jan Mayen
 }
 
 ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts_annualized"
@@ -86,6 +141,9 @@ def normalize_countries(df):
 
     # Normalize country_code formatting
     df["country_code"] = df["country_code"].str.strip().str.upper()
+
+    # Remap territories to parent country codes FIRST
+    df["country_code"] = df["country_code"].map(TERRITORY_TO_PARENT).fillna(df["country_code"])
 
     # Apply canonical name mapping (only affects ambiguous cases)
     df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
@@ -206,7 +264,8 @@ def normalize_organizations(df: pd.DataFrame, institution: str) -> pd.DataFrame:
     # 2. Normalise country_code
     df["country_code"] = df["country_code"].str.strip().str.upper()
 
-    # 3. Apply canonical country name mapping
+    # 3. Remap territories to parent country codes + apply canonical country name mapping
+    df["country_code"] = df["country_code"].map(TERRITORY_TO_PARENT).fillna(df["country_code"])
     df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
 
     # 4. Aggregate counts for any (ror, country_code) duplicates after mapping

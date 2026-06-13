@@ -11,7 +11,6 @@ BE,Belgium,718,SNS,2001-2005,incoming
 BG,Bulgaria,75,SNS,2001-2005,incoming
 BH,Bahrain,1,SNS,2001-2005,incoming
 BI,Burundi,2,SNS,2001-2005,incoming
-BM,Bermuda,2,SNS,2001-2005,incoming
 BN,Brunei,1,SNS,2001-2005,incoming
 BR,Brazil,908,SNS,2001-2005,incoming
 BY,Belarus,63,SNS,2001-2005,incoming
@@ -19,7 +18,7 @@ CA,Canada,12054,SNS,2001-2005,incoming
 CH,Switzerland,3806,SNS,2001-2005,incoming
 CL,Chile,126,SNS,2001-2005,incoming
 CM,Cameroon,2,SNS,2001-2005,incoming
-CN,China,5782,SNS,2001-2005,incoming
+CN,China,5921,SNS,2001-2005,incoming
 CO,Colombia,108,SNS,2001-2005,incoming
 CR,Costa Rica,3,SNS,2001-2005,incoming
 CU,Cuba,2,SNS,2001-2005,incoming
@@ -33,13 +32,11 @@ EE,Estonia,7,SNS,2001-2005,incoming
 EG,Egypt,80,SNS,2001-2005,incoming
 ES,Spain,8098,SNS,2001-2005,incoming
 FI,Finland,2690,SNS,2001-2005,incoming
-FR,France,36504,SNS,2001-2005,incoming
-GB,United Kingdom,33278,SNS,2001-2005,incoming
+FR,France,36506,SNS,2001-2005,incoming
+GB,United Kingdom,33280,SNS,2001-2005,incoming
 GE,Georgia,54,SNS,2001-2005,incoming
 GH,Ghana,13,SNS,2001-2005,incoming
-GP,Guadeloupe,1,SNS,2001-2005,incoming
 GR,Greece,405,SNS,2001-2005,incoming
-HK,Hong Kong,138,SNS,2001-2005,incoming
 HR,Croatia,45,SNS,2001-2005,incoming
 HU,Hungary,409,SNS,2001-2005,incoming
 ID,Indonesia,5,SNS,2001-2005,incoming
@@ -61,7 +58,6 @@ LV,Latvia,2,SNS,2001-2005,incoming
 MA,Morocco,27,SNS,2001-2005,incoming
 ME,Montenegro,1,SNS,2001-2005,incoming
 MN,Mongolia,2,SNS,2001-2005,incoming
-MO,Macao,1,SNS,2001-2005,incoming
 MR,Mauritania,5,SNS,2001-2005,incoming
 MT,Malta,2,SNS,2001-2005,incoming
 MX,Mexico,291,SNS,2001-2005,incoming
@@ -76,12 +72,10 @@ PE,Peru,1,SNS,2001-2005,incoming
 PH,Philippines,1,SNS,2001-2005,incoming
 PK,Pakistan,24,SNS,2001-2005,incoming
 PL,Poland,1464,SNS,2001-2005,incoming
-PR,Puerto Rico,99,SNS,2001-2005,incoming
 PS,Palestine,1,SNS,2001-2005,incoming
 PT,Portugal,212,SNS,2001-2005,incoming
 PY,Paraguay,1,SNS,2001-2005,incoming
 QA,Qatar,13,SNS,2001-2005,incoming
-RE,Réunion,1,SNS,2001-2005,incoming
 RO,Romania,107,SNS,2001-2005,incoming
 RS,Serbia,35,SNS,2001-2005,incoming
 RU,Russia,10591,SNS,2001-2005,incoming
@@ -99,7 +93,7 @@ TR,Turkey,273,SNS,2001-2005,incoming
 TW,Taiwan,2470,SNS,2001-2005,incoming
 TZ,Tanzania,332,SNS,2001-2005,incoming
 UA,Ukraine,121,SNS,2001-2005,incoming
-US,United States,143760,SNS,2001-2005,incoming
+US,United States,143859,SNS,2001-2005,incoming
 UY,Uruguay,9,SNS,2001-2005,incoming
 UZ,Uzbekistan,34,SNS,2001-2005,incoming
 VE,Venezuela,10,SNS,2001-2005,incoming

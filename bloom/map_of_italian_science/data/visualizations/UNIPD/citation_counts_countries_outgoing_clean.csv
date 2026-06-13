@@ -7,10 +7,8 @@ AL,Albania,801,UNIPD,outgoing
 AM,Armenia,19091,UNIPD,outgoing
 AO,Angola,636,UNIPD,outgoing
 AR,Argentina,66048,UNIPD,outgoing
-AS,American Samoa,249,UNIPD,outgoing
 AT,Austria,178849,UNIPD,outgoing
 AU,Australia,604169,UNIPD,outgoing
-AX,Åland,1,UNIPD,outgoing
 AZ,Azerbaijan,8904,UNIPD,outgoing
 BA,Bosnia and Herzegovina,2057,UNIPD,outgoing
 BB,Barbados,376,UNIPD,outgoing
@@ -21,10 +19,8 @@ BG,Bulgaria,48208,UNIPD,outgoing
 BH,Bahrain,3935,UNIPD,outgoing
 BI,Burundi,155,UNIPD,outgoing
 BJ,Benin,1029,UNIPD,outgoing
-BM,Bermuda,120,UNIPD,outgoing
 BN,Brunei,327,UNIPD,outgoing
 BO,Bolivia,583,UNIPD,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",7,UNIPD,outgoing
 BR,Brazil,313335,UNIPD,outgoing
 BS,Bahamas,43,UNIPD,outgoing
 BT,Bhutan,294,UNIPD,outgoing
@@ -39,17 +35,16 @@ CH,Switzerland,564099,UNIPD,outgoing
 CI,Ivory Coast,372,UNIPD,outgoing
 CL,Chile,71747,UNIPD,outgoing
 CM,Cameroon,1234,UNIPD,outgoing
-CN,China,793334,UNIPD,outgoing
+CN,China,861169,UNIPD,outgoing
 CO,Colombia,42270,UNIPD,outgoing
 CR,Costa Rica,1647,UNIPD,outgoing
 CU,Cuba,4927,UNIPD,outgoing
 CV,Cabo Verde,12,UNIPD,outgoing
-CW,Curaçao,351,UNIPD,outgoing
 CY,Cyprus,22825,UNIPD,outgoing
 CZ,Czechia,108158,UNIPD,outgoing
 DE,Germany,1634980,UNIPD,outgoing
 DJ,Djibouti,6,UNIPD,outgoing
-DK,Denmark,234925,UNIPD,outgoing
+DK,Denmark,235090,UNIPD,outgoing
 DM,Dominica,2,UNIPD,outgoing
 DO,Dominican Republic,137,UNIPD,outgoing
 DZ,Algeria,3455,UNIPD,outgoing
@@ -60,29 +55,21 @@ ER,Eritrea,28,UNIPD,outgoing
 ES,Spain,954895,UNIPD,outgoing
 ET,Ethiopia,6689,UNIPD,outgoing
 EU,European Union,248,UNIPD,outgoing
-FI,Finland,269326,UNIPD,outgoing
+FI,Finland,269327,UNIPD,outgoing
 FJ,Fiji,378,UNIPD,outgoing
-FK,Falkland Islands,8,UNIPD,outgoing
 FM,Micronesia,21,UNIPD,outgoing
-FO,Faroe Islands,54,UNIPD,outgoing
-FR,France,3707497,UNIPD,outgoing
+FR,France,3712459,UNIPD,outgoing
 GA,Gabon,290,UNIPD,outgoing
-GB,United Kingdom,2252398,UNIPD,outgoing
+GB,United Kingdom,2252639,UNIPD,outgoing
 GD,Grenada,791,UNIPD,outgoing
 GE,Georgia,30190,UNIPD,outgoing
-GF,French Guiana,356,UNIPD,outgoing
 GH,Ghana,3626,UNIPD,outgoing
-GI,Gibraltar,66,UNIPD,outgoing
-GL,Greenland,111,UNIPD,outgoing
 GM,The Gambia,98,UNIPD,outgoing
 GN,Guinea,34,UNIPD,outgoing
-GP,Guadeloupe,1355,UNIPD,outgoing
 GR,Greece,158942,UNIPD,outgoing
 GT,Guatemala,1790,UNIPD,outgoing
-GU,Guam,59,UNIPD,outgoing
 GW,Guinea-Bissau,76,UNIPD,outgoing
 GY,Guyana,23,UNIPD,outgoing
-HK,Hong Kong,65422,UNIPD,outgoing
 HN,Honduras,491,UNIPD,outgoing
 HR,Croatia,73706,UNIPD,outgoing
 HT,Haiti,49,UNIPD,outgoing
@@ -90,13 +77,11 @@ HU,Hungary,179068,UNIPD,outgoing
 ID,Indonesia,8564,UNIPD,outgoing
 IE,Ireland,104703,UNIPD,outgoing
 IL,Israel,126890,UNIPD,outgoing
-IM,Isle of Man,13,UNIPD,outgoing
 IN,India,404605,UNIPD,outgoing
 IQ,Iraq,1806,UNIPD,outgoing
 IR,Iran,71177,UNIPD,outgoing
 IS,Iceland,8555,UNIPD,outgoing
 IT,Italy,3425451,UNIPD,outgoing
-JE,Jersey,8,UNIPD,outgoing
 JM,Jamaica,1946,UNIPD,outgoing
 JO,Jordan,7383,UNIPD,outgoing
 JP,Japan,706201,UNIPD,outgoing
@@ -108,7 +93,6 @@ KN,St Kitts and Nevis,244,UNIPD,outgoing
 KP,North Korea,33,UNIPD,outgoing
 KR,South Korea,386719,UNIPD,outgoing
 KW,Kuwait,3924,UNIPD,outgoing
-KY,Cayman Islands,9,UNIPD,outgoing
 KZ,Kazakhstan,1701,UNIPD,outgoing
 LA,Laos,126,UNIPD,outgoing
 LB,Lebanon,6039,UNIPD,outgoing
@@ -131,11 +115,7 @@ MK,North Macedonia,1195,UNIPD,outgoing
 ML,Mali,191,UNIPD,outgoing
 MM,Myanmar,487,UNIPD,outgoing
 MN,Mongolia,829,UNIPD,outgoing
-MO,Macao,2413,UNIPD,outgoing
-MP,Northern Mariana Islands,2,UNIPD,outgoing
-MQ,Martinique,125,UNIPD,outgoing
 MR,Mauritania,25,UNIPD,outgoing
-MS,Montserrat,7,UNIPD,outgoing
 MT,Malta,1845,UNIPD,outgoing
 MU,Mauritius,377,UNIPD,outgoing
 MV,Maldives,119,UNIPD,outgoing
@@ -143,30 +123,26 @@ MW,Malawi,608,UNIPD,outgoing
 MX,Mexico,118932,UNIPD,outgoing
 MY,Malaysia,36932,UNIPD,outgoing
 MZ,Mozambique,1573,UNIPD,outgoing
-NC,New Caledonia,351,UNIPD,outgoing
 NE,Niger,239,UNIPD,outgoing
 NG,Nigeria,5781,UNIPD,outgoing
 NI,Nicaragua,347,UNIPD,outgoing
-NL,The Netherlands,712786,UNIPD,outgoing
-NO,Norway,123193,UNIPD,outgoing
+NL,The Netherlands,713160,UNIPD,outgoing
+NO,Norway,123354,UNIPD,outgoing
 NP,Nepal,1803,UNIPD,outgoing
 NZ,New Zealand,72178,UNIPD,outgoing
 OC,Oceania,15,UNIPD,outgoing
 OM,Oman,1368,UNIPD,outgoing
 PA,Panama,1487,UNIPD,outgoing
 PE,Peru,7654,UNIPD,outgoing
-PF,French Polynesia,280,UNIPD,outgoing
 PG,Papua New Guinea,234,UNIPD,outgoing
 PH,Philippines,7185,UNIPD,outgoing
 PK,Pakistan,38604,UNIPD,outgoing
 PL,Poland,295178,UNIPD,outgoing
-PR,Puerto Rico,20427,UNIPD,outgoing
 PS,Palestine,2273,UNIPD,outgoing
 PT,Portugal,142410,UNIPD,outgoing
 PW,Palau,180,UNIPD,outgoing
 PY,Paraguay,492,UNIPD,outgoing
 QA,Qatar,12448,UNIPD,outgoing
-RE,Réunion,2493,UNIPD,outgoing
 RO,Romania,38795,UNIPD,outgoing
 RS,Serbia,31481,UNIPD,outgoing
 RU,Russia,441786,UNIPD,outgoing
@@ -178,7 +154,6 @@ SD,Sudan,557,UNIPD,outgoing
 SE,Sweden,256342,UNIPD,outgoing
 SG,Singapore,64834,UNIPD,outgoing
 SI,Slovenia,34293,UNIPD,outgoing
-SJ,Svalbard and Jan Mayen,161,UNIPD,outgoing
 SK,Slovakia,55160,UNIPD,outgoing
 SL,Sierra Leone,281,UNIPD,outgoing
 SM,San Marino,204,UNIPD,outgoing
@@ -187,10 +162,8 @@ SO,Somalia,220,UNIPD,outgoing
 SR,Suriname,37,UNIPD,outgoing
 SS,South Sudan,24,UNIPD,outgoing
 SV,El Salvador,466,UNIPD,outgoing
-SX,Sint Maarten,16,UNIPD,outgoing
 SY,Syria,283,UNIPD,outgoing
 SZ,Eswatini,34,UNIPD,outgoing
-TC,Turks and Caicos Islands,2,UNIPD,outgoing
 TD,Chad,16,UNIPD,outgoing
 TG,Togo,94,UNIPD,outgoing
 TH,Thailand,30110,UNIPD,outgoing
@@ -206,20 +179,17 @@ TW,Taiwan,173560,UNIPD,outgoing
 TZ,Tanzania,3913,UNIPD,outgoing
 UA,Ukraine,40750,UNIPD,outgoing
 UG,Uganda,3199,UNIPD,outgoing
-US,United States,8328775,UNIPD,outgoing
+US,United States,8349571,UNIPD,outgoing
 UY,Uruguay,3586,UNIPD,outgoing
 UZ,Uzbekistan,7149,UNIPD,outgoing
 VA,Vatican City,2,UNIPD,outgoing
 VC,St Vincent and Grenadines,2,UNIPD,outgoing
 VE,Venezuela,2523,UNIPD,outgoing
-VG,British Virgin Islands,8,UNIPD,outgoing
-VI,U.S. Virgin Islands,59,UNIPD,outgoing
 VN,Vietnam,12460,UNIPD,outgoing
 VU,Vanuatu,9,UNIPD,outgoing
 WS,Samoa,8,UNIPD,outgoing
 XK,Kosovo,168,UNIPD,outgoing
 YE,Yemen,489,UNIPD,outgoing
-YT,Mayotte,2,UNIPD,outgoing
 ZA,South Africa,80437,UNIPD,outgoing
 ZM,Zambia,877,UNIPD,outgoing
 ZW,Zimbabwe,1515,UNIPD,outgoing

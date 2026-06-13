@@ -6,7 +6,6 @@ AL,Albania,11,SNS,2016-2020,incoming
 AM,Armenia,4213,SNS,2016-2020,incoming
 AO,Angola,9,SNS,2016-2020,incoming
 AR,Argentina,7510,SNS,2016-2020,incoming
-AS,American Samoa,1,SNS,2016-2020,incoming
 AT,Austria,9982,SNS,2016-2020,incoming
 AU,Australia,24280,SNS,2016-2020,incoming
 AZ,Azerbaijan,2732,SNS,2016-2020,incoming
@@ -34,7 +33,7 @@ CH,Switzerland,40416,SNS,2016-2020,incoming
 CI,Ivory Coast,5,SNS,2016-2020,incoming
 CL,Chile,8104,SNS,2016-2020,incoming
 CM,Cameroon,83,SNS,2016-2020,incoming
-CN,China,126200,SNS,2016-2020,incoming
+CN,China,131557,SNS,2016-2020,incoming
 CO,Colombia,9161,SNS,2016-2020,incoming
 CR,Costa Rica,45,SNS,2016-2020,incoming
 CU,Cuba,307,SNS,2016-2020,incoming
@@ -42,7 +41,7 @@ CV,Cabo Verde,1,SNS,2016-2020,incoming
 CY,Cyprus,3725,SNS,2016-2020,incoming
 CZ,Czechia,13523,SNS,2016-2020,incoming
 DE,Germany,101679,SNS,2016-2020,incoming
-DK,Denmark,10514,SNS,2016-2020,incoming
+DK,Denmark,10515,SNS,2016-2020,incoming
 DZ,Algeria,339,SNS,2016-2020,incoming
 EC,Ecuador,4501,SNS,2016-2020,incoming
 EE,Estonia,3604,SNS,2016-2020,incoming
@@ -52,22 +51,15 @@ ET,Ethiopia,112,SNS,2016-2020,incoming
 EU,European Union,1,SNS,2016-2020,incoming
 FI,Finland,22103,SNS,2016-2020,incoming
 FJ,Fiji,2,SNS,2016-2020,incoming
-FK,Falkland Islands,1,SNS,2016-2020,incoming
-FR,France,250645,SNS,2016-2020,incoming
+FR,France,250701,SNS,2016-2020,incoming
 GA,Gabon,1,SNS,2016-2020,incoming
-GB,United Kingdom,107905,SNS,2016-2020,incoming
+GB,United Kingdom,107907,SNS,2016-2020,incoming
 GD,Grenada,1,SNS,2016-2020,incoming
 GE,Georgia,7651,SNS,2016-2020,incoming
-GF,French Guiana,1,SNS,2016-2020,incoming
 GH,Ghana,175,SNS,2016-2020,incoming
-GI,Gibraltar,1,SNS,2016-2020,incoming
-GL,Greenland,1,SNS,2016-2020,incoming
 GN,Guinea,1,SNS,2016-2020,incoming
-GP,Guadeloupe,10,SNS,2016-2020,incoming
 GR,Greece,22997,SNS,2016-2020,incoming
 GT,Guatemala,424,SNS,2016-2020,incoming
-GU,Guam,2,SNS,2016-2020,incoming
-HK,Hong Kong,5253,SNS,2016-2020,incoming
 HN,Honduras,65,SNS,2016-2020,incoming
 HR,Croatia,12290,SNS,2016-2020,incoming
 HT,Haiti,1,SNS,2016-2020,incoming
@@ -108,7 +100,6 @@ MK,North Macedonia,33,SNS,2016-2020,incoming
 ML,Mali,2,SNS,2016-2020,incoming
 MM,Myanmar,3,SNS,2016-2020,incoming
 MN,Mongolia,637,SNS,2016-2020,incoming
-MO,Macao,104,SNS,2016-2020,incoming
 MR,Mauritania,1,SNS,2016-2020,incoming
 MT,Malta,87,SNS,2016-2020,incoming
 MU,Mauritius,16,SNS,2016-2020,incoming
@@ -116,27 +107,23 @@ MW,Malawi,2,SNS,2016-2020,incoming
 MX,Mexico,16797,SNS,2016-2020,incoming
 MY,Malaysia,7366,SNS,2016-2020,incoming
 MZ,Mozambique,91,SNS,2016-2020,incoming
-NC,New Caledonia,9,SNS,2016-2020,incoming
 NG,Nigeria,137,SNS,2016-2020,incoming
 NI,Nicaragua,14,SNS,2016-2020,incoming
 NL,The Netherlands,29396,SNS,2016-2020,incoming
-NO,Norway,7281,SNS,2016-2020,incoming
+NO,Norway,7282,SNS,2016-2020,incoming
 NP,Nepal,29,SNS,2016-2020,incoming
 NZ,New Zealand,6839,SNS,2016-2020,incoming
 OM,Oman,33,SNS,2016-2020,incoming
 PA,Panama,9,SNS,2016-2020,incoming
 PE,Peru,375,SNS,2016-2020,incoming
-PF,French Polynesia,11,SNS,2016-2020,incoming
 PG,Papua New Guinea,1,SNS,2016-2020,incoming
 PH,Philippines,239,SNS,2016-2020,incoming
 PK,Pakistan,8344,SNS,2016-2020,incoming
 PL,Poland,38120,SNS,2016-2020,incoming
-PR,Puerto Rico,3564,SNS,2016-2020,incoming
 PS,Palestine,86,SNS,2016-2020,incoming
 PT,Portugal,14041,SNS,2016-2020,incoming
 PY,Paraguay,9,SNS,2016-2020,incoming
 QA,Qatar,684,SNS,2016-2020,incoming
-RE,Réunion,25,SNS,2016-2020,incoming
 RO,Romania,6157,SNS,2016-2020,incoming
 RS,Serbia,5655,SNS,2016-2020,incoming
 RU,Russia,94748,SNS,2016-2020,incoming
@@ -147,7 +134,6 @@ SD,Sudan,12,SNS,2016-2020,incoming
 SE,Sweden,11262,SNS,2016-2020,incoming
 SG,Singapore,2823,SNS,2016-2020,incoming
 SI,Slovenia,3989,SNS,2016-2020,incoming
-SJ,Svalbard and Jan Mayen,1,SNS,2016-2020,incoming
 SK,Slovakia,8351,SNS,2016-2020,incoming
 SM,San Marino,1,SNS,2016-2020,incoming
 SN,Senegal,16,SNS,2016-2020,incoming
@@ -164,11 +150,10 @@ TW,Taiwan,21471,SNS,2016-2020,incoming
 TZ,Tanzania,25,SNS,2016-2020,incoming
 UA,Ukraine,7843,SNS,2016-2020,incoming
 UG,Uganda,88,SNS,2016-2020,incoming
-US,United States,468049,SNS,2016-2020,incoming
+US,United States,471641,SNS,2016-2020,incoming
 UY,Uruguay,164,SNS,2016-2020,incoming
 UZ,Uzbekistan,645,SNS,2016-2020,incoming
 VE,Venezuela,47,SNS,2016-2020,incoming
-VI,U.S. Virgin Islands,25,SNS,2016-2020,incoming
 VN,Vietnam,2088,SNS,2016-2020,incoming
 XK,Kosovo,4,SNS,2016-2020,incoming
 YE,Yemen,60,SNS,2016-2020,incoming

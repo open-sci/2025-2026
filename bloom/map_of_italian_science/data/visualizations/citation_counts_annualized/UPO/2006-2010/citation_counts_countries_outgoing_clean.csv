@@ -6,7 +6,6 @@ AL,Albania,3,UPO,2006-2010,outgoing
 AM,Armenia,536,UPO,2006-2010,outgoing
 AO,Angola,8,UPO,2006-2010,outgoing
 AR,Argentina,1596,UPO,2006-2010,outgoing
-AS,American Samoa,4,UPO,2006-2010,outgoing
 AT,Austria,3902,UPO,2006-2010,outgoing
 AU,Australia,15803,UPO,2006-2010,outgoing
 AZ,Azerbaijan,228,UPO,2006-2010,outgoing
@@ -20,7 +19,6 @@ BI,Burundi,1,UPO,2006-2010,outgoing
 BJ,Benin,10,UPO,2006-2010,outgoing
 BN,Brunei,4,UPO,2006-2010,outgoing
 BO,Bolivia,6,UPO,2006-2010,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",2,UPO,2006-2010,outgoing
 BR,Brazil,6989,UPO,2006-2010,outgoing
 BT,Bhutan,6,UPO,2006-2010,outgoing
 BW,Botswana,4,UPO,2006-2010,outgoing
@@ -31,15 +29,14 @@ CH,Switzerland,16204,UPO,2006-2010,outgoing
 CI,Ivory Coast,7,UPO,2006-2010,outgoing
 CL,Chile,631,UPO,2006-2010,outgoing
 CM,Cameroon,11,UPO,2006-2010,outgoing
-CN,China,26131,UPO,2006-2010,outgoing
+CN,China,28125,UPO,2006-2010,outgoing
 CO,Colombia,858,UPO,2006-2010,outgoing
 CR,Costa Rica,20,UPO,2006-2010,outgoing
 CU,Cuba,93,UPO,2006-2010,outgoing
-CW,Curaçao,5,UPO,2006-2010,outgoing
 CY,Cyprus,501,UPO,2006-2010,outgoing
 CZ,Czechia,4231,UPO,2006-2010,outgoing
 DE,Germany,50212,UPO,2006-2010,outgoing
-DK,Denmark,7820,UPO,2006-2010,outgoing
+DK,Denmark,7821,UPO,2006-2010,outgoing
 DZ,Algeria,48,UPO,2006-2010,outgoing
 EC,Ecuador,358,UPO,2006-2010,outgoing
 EE,Estonia,260,UPO,2006-2010,outgoing
@@ -51,19 +48,15 @@ EU,European Union,1,UPO,2006-2010,outgoing
 FI,Finland,6981,UPO,2006-2010,outgoing
 FJ,Fiji,3,UPO,2006-2010,outgoing
 FM,Micronesia,1,UPO,2006-2010,outgoing
-FR,France,94360,UPO,2006-2010,outgoing
+FR,France,94389,UPO,2006-2010,outgoing
 GA,Gabon,5,UPO,2006-2010,outgoing
-GB,United Kingdom,66764,UPO,2006-2010,outgoing
+GB,United Kingdom,66765,UPO,2006-2010,outgoing
 GD,Grenada,18,UPO,2006-2010,outgoing
 GE,Georgia,423,UPO,2006-2010,outgoing
-GF,French Guiana,1,UPO,2006-2010,outgoing
 GH,Ghana,185,UPO,2006-2010,outgoing
-GL,Greenland,1,UPO,2006-2010,outgoing
-GP,Guadeloupe,10,UPO,2006-2010,outgoing
 GR,Greece,4892,UPO,2006-2010,outgoing
 GT,Guatemala,17,UPO,2006-2010,outgoing
 GW,Guinea-Bissau,1,UPO,2006-2010,outgoing
-HK,Hong Kong,1978,UPO,2006-2010,outgoing
 HN,Honduras,1,UPO,2006-2010,outgoing
 HR,Croatia,1317,UPO,2006-2010,outgoing
 HT,Haiti,1,UPO,2006-2010,outgoing
@@ -71,7 +64,6 @@ HU,Hungary,2959,UPO,2006-2010,outgoing
 ID,Indonesia,66,UPO,2006-2010,outgoing
 IE,Ireland,2607,UPO,2006-2010,outgoing
 IL,Israel,4218,UPO,2006-2010,outgoing
-IM,Isle of Man,1,UPO,2006-2010,outgoing
 IN,India,9124,UPO,2006-2010,outgoing
 IQ,Iraq,9,UPO,2006-2010,outgoing
 IR,Iran,793,UPO,2006-2010,outgoing
@@ -101,35 +93,30 @@ MK,North Macedonia,17,UPO,2006-2010,outgoing
 ML,Mali,2,UPO,2006-2010,outgoing
 MM,Myanmar,11,UPO,2006-2010,outgoing
 MN,Mongolia,104,UPO,2006-2010,outgoing
-MO,Macao,16,UPO,2006-2010,outgoing
 MT,Malta,8,UPO,2006-2010,outgoing
 MU,Mauritius,2,UPO,2006-2010,outgoing
 MW,Malawi,5,UPO,2006-2010,outgoing
 MX,Mexico,2318,UPO,2006-2010,outgoing
 MY,Malaysia,648,UPO,2006-2010,outgoing
 MZ,Mozambique,16,UPO,2006-2010,outgoing
-NC,New Caledonia,4,UPO,2006-2010,outgoing
 NE,Niger,1,UPO,2006-2010,outgoing
 NG,Nigeria,121,UPO,2006-2010,outgoing
 NI,Nicaragua,4,UPO,2006-2010,outgoing
-NL,The Netherlands,21096,UPO,2006-2010,outgoing
+NL,The Netherlands,21103,UPO,2006-2010,outgoing
 NO,Norway,3817,UPO,2006-2010,outgoing
 NP,Nepal,13,UPO,2006-2010,outgoing
 NZ,New Zealand,1576,UPO,2006-2010,outgoing
 OM,Oman,17,UPO,2006-2010,outgoing
 PA,Panama,13,UPO,2006-2010,outgoing
 PE,Peru,50,UPO,2006-2010,outgoing
-PF,French Polynesia,2,UPO,2006-2010,outgoing
 PH,Philippines,270,UPO,2006-2010,outgoing
 PK,Pakistan,314,UPO,2006-2010,outgoing
 PL,Poland,9566,UPO,2006-2010,outgoing
-PR,Puerto Rico,736,UPO,2006-2010,outgoing
 PS,Palestine,55,UPO,2006-2010,outgoing
 PT,Portugal,2730,UPO,2006-2010,outgoing
 PW,Palau,5,UPO,2006-2010,outgoing
 PY,Paraguay,11,UPO,2006-2010,outgoing
 QA,Qatar,144,UPO,2006-2010,outgoing
-RE,Réunion,12,UPO,2006-2010,outgoing
 RO,Romania,519,UPO,2006-2010,outgoing
 RS,Serbia,710,UPO,2006-2010,outgoing
 RU,Russia,12954,UPO,2006-2010,outgoing
@@ -157,7 +144,7 @@ TW,Taiwan,5462,UPO,2006-2010,outgoing
 TZ,Tanzania,72,UPO,2006-2010,outgoing
 UA,Ukraine,1007,UPO,2006-2010,outgoing
 UG,Uganda,95,UPO,2006-2010,outgoing
-US,United States,263885,UPO,2006-2010,outgoing
+US,United States,264625,UPO,2006-2010,outgoing
 UY,Uruguay,86,UPO,2006-2010,outgoing
 UZ,Uzbekistan,429,UPO,2006-2010,outgoing
 VE,Venezuela,84,UPO,2006-2010,outgoing

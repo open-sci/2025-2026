@@ -14,7 +14,6 @@ BG,Bulgaria,2739,SNS,2006-2010,incoming
 BH,Bahrain,33,SNS,2006-2010,incoming
 BI,Burundi,2,SNS,2006-2010,incoming
 BJ,Benin,2,SNS,2006-2010,incoming
-BM,Bermuda,4,SNS,2006-2010,incoming
 BN,Brunei,3,SNS,2006-2010,incoming
 BO,Bolivia,6,SNS,2006-2010,incoming
 BR,Brazil,8472,SNS,2006-2010,incoming
@@ -25,7 +24,7 @@ CA,Canada,14188,SNS,2006-2010,incoming
 CH,Switzerland,12344,SNS,2006-2010,incoming
 CL,Chile,560,SNS,2006-2010,incoming
 CM,Cameroon,8,SNS,2006-2010,incoming
-CN,China,19432,SNS,2006-2010,incoming
+CN,China,19942,SNS,2006-2010,incoming
 CO,Colombia,2510,SNS,2006-2010,incoming
 CR,Costa Rica,14,SNS,2006-2010,incoming
 CU,Cuba,26,SNS,2006-2010,incoming
@@ -42,14 +41,12 @@ ES,Spain,27905,SNS,2006-2010,incoming
 ET,Ethiopia,8,SNS,2006-2010,incoming
 EU,European Union,2,SNS,2006-2010,incoming
 FI,Finland,12801,SNS,2006-2010,incoming
-FR,France,93417,SNS,2006-2010,incoming
-GB,United Kingdom,51856,SNS,2006-2010,incoming
+FR,France,93419,SNS,2006-2010,incoming
+GB,United Kingdom,51860,SNS,2006-2010,incoming
 GE,Georgia,1689,SNS,2006-2010,incoming
 GH,Ghana,110,SNS,2006-2010,incoming
-GP,Guadeloupe,2,SNS,2006-2010,incoming
 GR,Greece,6062,SNS,2006-2010,incoming
 GT,Guatemala,1,SNS,2006-2010,incoming
-HK,Hong Kong,508,SNS,2006-2010,incoming
 HR,Croatia,2756,SNS,2006-2010,incoming
 HU,Hungary,5456,SNS,2006-2010,incoming
 ID,Indonesia,15,SNS,2006-2010,incoming
@@ -80,7 +77,6 @@ MG,Madagascar,1,SNS,2006-2010,incoming
 MK,North Macedonia,4,SNS,2006-2010,incoming
 ML,Mali,1,SNS,2006-2010,incoming
 MN,Mongolia,30,SNS,2006-2010,incoming
-MO,Macao,2,SNS,2006-2010,incoming
 MR,Mauritania,5,SNS,2006-2010,incoming
 MT,Malta,2,SNS,2006-2010,incoming
 MU,Mauritius,4,SNS,2006-2010,incoming
@@ -99,7 +95,6 @@ PE,Peru,16,SNS,2006-2010,incoming
 PH,Philippines,20,SNS,2006-2010,incoming
 PK,Pakistan,2237,SNS,2006-2010,incoming
 PL,Poland,7604,SNS,2006-2010,incoming
-PR,Puerto Rico,1384,SNS,2006-2010,incoming
 PS,Palestine,2,SNS,2006-2010,incoming
 PT,Portugal,1915,SNS,2006-2010,incoming
 QA,Qatar,13,SNS,2006-2010,incoming
@@ -123,7 +118,7 @@ TW,Taiwan,9056,SNS,2006-2010,incoming
 TZ,Tanzania,278,SNS,2006-2010,incoming
 UA,Ukraine,1380,SNS,2006-2010,incoming
 UG,Uganda,21,SNS,2006-2010,incoming
-US,United States,254770,SNS,2006-2010,incoming
+US,United States,256154,SNS,2006-2010,incoming
 UY,Uruguay,34,SNS,2006-2010,incoming
 UZ,Uzbekistan,1247,SNS,2006-2010,incoming
 VE,Venezuela,29,SNS,2006-2010,incoming

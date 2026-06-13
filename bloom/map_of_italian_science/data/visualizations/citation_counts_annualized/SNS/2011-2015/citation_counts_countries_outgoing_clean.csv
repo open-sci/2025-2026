@@ -6,7 +6,6 @@ AL,Albania,3,SNS,2011-2015,outgoing
 AM,Armenia,3085,SNS,2011-2015,outgoing
 AO,Angola,2,SNS,2011-2015,outgoing
 AR,Argentina,5628,SNS,2011-2015,outgoing
-AS,American Samoa,1,SNS,2011-2015,outgoing
 AT,Austria,8173,SNS,2011-2015,outgoing
 AU,Australia,19028,SNS,2011-2015,outgoing
 AZ,Azerbaijan,2604,SNS,2011-2015,outgoing
@@ -18,7 +17,6 @@ BG,Bulgaria,6135,SNS,2011-2015,outgoing
 BH,Bahrain,163,SNS,2011-2015,outgoing
 BI,Burundi,7,SNS,2011-2015,outgoing
 BJ,Benin,20,SNS,2011-2015,outgoing
-BM,Bermuda,1,SNS,2011-2015,outgoing
 BN,Brunei,2,SNS,2011-2015,outgoing
 BR,Brazil,31592,SNS,2011-2015,outgoing
 BT,Bhutan,3,SNS,2011-2015,outgoing
@@ -29,14 +27,14 @@ CG,Congo Republic,4,SNS,2011-2015,outgoing
 CH,Switzerland,43197,SNS,2011-2015,outgoing
 CL,Chile,5338,SNS,2011-2015,outgoing
 CM,Cameroon,4,SNS,2011-2015,outgoing
-CN,China,35697,SNS,2011-2015,outgoing
+CN,China,38071,SNS,2011-2015,outgoing
 CO,Colombia,6325,SNS,2011-2015,outgoing
 CR,Costa Rica,6,SNS,2011-2015,outgoing
 CU,Cuba,190,SNS,2011-2015,outgoing
 CY,Cyprus,2811,SNS,2011-2015,outgoing
 CZ,Czechia,13003,SNS,2011-2015,outgoing
 DE,Germany,99742,SNS,2011-2015,outgoing
-DK,Denmark,8428,SNS,2011-2015,outgoing
+DK,Denmark,8432,SNS,2011-2015,outgoing
 DZ,Algeria,81,SNS,2011-2015,outgoing
 EC,Ecuador,600,SNS,2011-2015,outgoing
 EE,Estonia,2361,SNS,2011-2015,outgoing
@@ -45,17 +43,14 @@ ES,Spain,66203,SNS,2011-2015,outgoing
 ET,Ethiopia,11,SNS,2011-2015,outgoing
 EU,European Union,4,SNS,2011-2015,outgoing
 FI,Finland,20044,SNS,2011-2015,outgoing
-FR,France,271083,SNS,2011-2015,outgoing
+FR,France,271155,SNS,2011-2015,outgoing
 GA,Gabon,2,SNS,2011-2015,outgoing
-GB,United Kingdom,134105,SNS,2011-2015,outgoing
+GB,United Kingdom,134106,SNS,2011-2015,outgoing
 GD,Grenada,4,SNS,2011-2015,outgoing
 GE,Georgia,3835,SNS,2011-2015,outgoing
 GH,Ghana,60,SNS,2011-2015,outgoing
-GL,Greenland,4,SNS,2011-2015,outgoing
-GP,Guadeloupe,2,SNS,2011-2015,outgoing
 GR,Greece,18368,SNS,2011-2015,outgoing
 GT,Guatemala,5,SNS,2011-2015,outgoing
-HK,Hong Kong,2360,SNS,2011-2015,outgoing
 HN,Honduras,3,SNS,2011-2015,outgoing
 HR,Croatia,7376,SNS,2011-2015,outgoing
 HU,Hungary,19413,SNS,2011-2015,outgoing
@@ -87,14 +82,12 @@ MG,Madagascar,1,SNS,2011-2015,outgoing
 MK,North Macedonia,4,SNS,2011-2015,outgoing
 MM,Myanmar,1,SNS,2011-2015,outgoing
 MN,Mongolia,28,SNS,2011-2015,outgoing
-MO,Macao,14,SNS,2011-2015,outgoing
 MT,Malta,34,SNS,2011-2015,outgoing
 MV,Maldives,1,SNS,2011-2015,outgoing
 MW,Malawi,2,SNS,2011-2015,outgoing
 MX,Mexico,12520,SNS,2011-2015,outgoing
 MY,Malaysia,1546,SNS,2011-2015,outgoing
 MZ,Mozambique,4,SNS,2011-2015,outgoing
-NC,New Caledonia,7,SNS,2011-2015,outgoing
 NG,Nigeria,48,SNS,2011-2015,outgoing
 NI,Nicaragua,1,SNS,2011-2015,outgoing
 NL,The Netherlands,34873,SNS,2011-2015,outgoing
@@ -104,16 +97,13 @@ NZ,New Zealand,4601,SNS,2011-2015,outgoing
 OM,Oman,18,SNS,2011-2015,outgoing
 PA,Panama,8,SNS,2011-2015,outgoing
 PE,Peru,228,SNS,2011-2015,outgoing
-PF,French Polynesia,1,SNS,2011-2015,outgoing
 PH,Philippines,62,SNS,2011-2015,outgoing
 PK,Pakistan,4257,SNS,2011-2015,outgoing
 PL,Poland,27180,SNS,2011-2015,outgoing
-PR,Puerto Rico,3217,SNS,2011-2015,outgoing
 PS,Palestine,9,SNS,2011-2015,outgoing
 PT,Portugal,8764,SNS,2011-2015,outgoing
 PY,Paraguay,3,SNS,2011-2015,outgoing
 QA,Qatar,285,SNS,2011-2015,outgoing
-RE,Réunion,62,SNS,2011-2015,outgoing
 RO,Romania,4902,SNS,2011-2015,outgoing
 RS,Serbia,5004,SNS,2011-2015,outgoing
 RU,Russia,63818,SNS,2011-2015,outgoing
@@ -137,7 +127,7 @@ TW,Taiwan,14528,SNS,2011-2015,outgoing
 TZ,Tanzania,144,SNS,2011-2015,outgoing
 UA,Ukraine,5402,SNS,2011-2015,outgoing
 UG,Uganda,82,SNS,2011-2015,outgoing
-US,United States,508594,SNS,2011-2015,outgoing
+US,United States,511812,SNS,2011-2015,outgoing
 UY,Uruguay,25,SNS,2011-2015,outgoing
 UZ,Uzbekistan,344,SNS,2011-2015,outgoing
 VE,Venezuela,41,SNS,2011-2015,outgoing

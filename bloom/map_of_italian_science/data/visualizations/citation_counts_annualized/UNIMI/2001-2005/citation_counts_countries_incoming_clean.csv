@@ -6,7 +6,6 @@ AL,Albania,7,UNIMI,2001-2005,incoming
 AM,Armenia,61,UNIMI,2001-2005,incoming
 AO,Angola,23,UNIMI,2001-2005,incoming
 AR,Argentina,2678,UNIMI,2001-2005,incoming
-AS,American Samoa,4,UNIMI,2001-2005,incoming
 AT,Austria,5203,UNIMI,2001-2005,incoming
 AU,Australia,17854,UNIMI,2001-2005,incoming
 AZ,Azerbaijan,42,UNIMI,2001-2005,incoming
@@ -21,7 +20,6 @@ BI,Burundi,1,UNIMI,2001-2005,incoming
 BJ,Benin,55,UNIMI,2001-2005,incoming
 BN,Brunei,11,UNIMI,2001-2005,incoming
 BO,Bolivia,7,UNIMI,2001-2005,incoming
-BQ,"Bonaire, Sint Eustatius, and Saba",2,UNIMI,2001-2005,incoming
 BR,Brazil,8326,UNIMI,2001-2005,incoming
 BT,Bhutan,6,UNIMI,2001-2005,incoming
 BW,Botswana,11,UNIMI,2001-2005,incoming
@@ -34,11 +32,10 @@ CH,Switzerland,16399,UNIMI,2001-2005,incoming
 CI,Ivory Coast,20,UNIMI,2001-2005,incoming
 CL,Chile,871,UNIMI,2001-2005,incoming
 CM,Cameroon,39,UNIMI,2001-2005,incoming
-CN,China,14185,UNIMI,2001-2005,incoming
+CN,China,16993,UNIMI,2001-2005,incoming
 CO,Colombia,269,UNIMI,2001-2005,incoming
 CR,Costa Rica,45,UNIMI,2001-2005,incoming
 CU,Cuba,240,UNIMI,2001-2005,incoming
-CW,Curaçao,44,UNIMI,2001-2005,incoming
 CY,Cyprus,238,UNIMI,2001-2005,incoming
 CZ,Czechia,2171,UNIMI,2001-2005,incoming
 DE,Germany,53820,UNIMI,2001-2005,incoming
@@ -53,20 +50,17 @@ ES,Spain,23519,UNIMI,2001-2005,incoming
 ET,Ethiopia,252,UNIMI,2001-2005,incoming
 FI,Finland,5479,UNIMI,2001-2005,incoming
 FJ,Fiji,2,UNIMI,2001-2005,incoming
-FR,France,100343,UNIMI,2001-2005,incoming
+FR,France,100395,UNIMI,2001-2005,incoming
 GA,Gabon,32,UNIMI,2001-2005,incoming
-GB,United Kingdom,91085,UNIMI,2001-2005,incoming
+GB,United Kingdom,91087,UNIMI,2001-2005,incoming
 GD,Grenada,9,UNIMI,2001-2005,incoming
 GE,Georgia,277,UNIMI,2001-2005,incoming
-GF,French Guiana,1,UNIMI,2001-2005,incoming
 GH,Ghana,53,UNIMI,2001-2005,incoming
 GM,The Gambia,3,UNIMI,2001-2005,incoming
-GP,Guadeloupe,12,UNIMI,2001-2005,incoming
 GR,Greece,4612,UNIMI,2001-2005,incoming
 GT,Guatemala,13,UNIMI,2001-2005,incoming
 GW,Guinea-Bissau,26,UNIMI,2001-2005,incoming
 GY,Guyana,2,UNIMI,2001-2005,incoming
-HK,Hong Kong,2778,UNIMI,2001-2005,incoming
 HN,Honduras,6,UNIMI,2001-2005,incoming
 HR,Croatia,464,UNIMI,2001-2005,incoming
 HT,Haiti,5,UNIMI,2001-2005,incoming
@@ -74,7 +68,6 @@ HU,Hungary,3125,UNIMI,2001-2005,incoming
 ID,Indonesia,112,UNIMI,2001-2005,incoming
 IE,Ireland,2275,UNIMI,2001-2005,incoming
 IL,Israel,5121,UNIMI,2001-2005,incoming
-IM,Isle of Man,2,UNIMI,2001-2005,incoming
 IN,India,10523,UNIMI,2001-2005,incoming
 IQ,Iraq,10,UNIMI,2001-2005,incoming
 IR,Iran,801,UNIMI,2001-2005,incoming
@@ -109,8 +102,6 @@ MK,North Macedonia,20,UNIMI,2001-2005,incoming
 ML,Mali,4,UNIMI,2001-2005,incoming
 MM,Myanmar,11,UNIMI,2001-2005,incoming
 MN,Mongolia,9,UNIMI,2001-2005,incoming
-MO,Macao,30,UNIMI,2001-2005,incoming
-MQ,Martinique,1,UNIMI,2001-2005,incoming
 MT,Malta,22,UNIMI,2001-2005,incoming
 MU,Mauritius,5,UNIMI,2001-2005,incoming
 MV,Maldives,1,UNIMI,2001-2005,incoming
@@ -118,28 +109,24 @@ MW,Malawi,37,UNIMI,2001-2005,incoming
 MX,Mexico,2537,UNIMI,2001-2005,incoming
 MY,Malaysia,273,UNIMI,2001-2005,incoming
 MZ,Mozambique,55,UNIMI,2001-2005,incoming
-NC,New Caledonia,13,UNIMI,2001-2005,incoming
 NG,Nigeria,107,UNIMI,2001-2005,incoming
 NI,Nicaragua,13,UNIMI,2001-2005,incoming
-NL,The Netherlands,24638,UNIMI,2001-2005,incoming
+NL,The Netherlands,24688,UNIMI,2001-2005,incoming
 NO,Norway,3843,UNIMI,2001-2005,incoming
 NP,Nepal,60,UNIMI,2001-2005,incoming
 NZ,New Zealand,1211,UNIMI,2001-2005,incoming
 OM,Oman,76,UNIMI,2001-2005,incoming
 PA,Panama,19,UNIMI,2001-2005,incoming
 PE,Peru,112,UNIMI,2001-2005,incoming
-PF,French Polynesia,4,UNIMI,2001-2005,incoming
 PG,Papua New Guinea,3,UNIMI,2001-2005,incoming
 PH,Philippines,131,UNIMI,2001-2005,incoming
 PK,Pakistan,333,UNIMI,2001-2005,incoming
 PL,Poland,6165,UNIMI,2001-2005,incoming
-PR,Puerto Rico,484,UNIMI,2001-2005,incoming
 PS,Palestine,69,UNIMI,2001-2005,incoming
 PT,Portugal,2304,UNIMI,2001-2005,incoming
 PW,Palau,9,UNIMI,2001-2005,incoming
 PY,Paraguay,6,UNIMI,2001-2005,incoming
 QA,Qatar,54,UNIMI,2001-2005,incoming
-RE,Réunion,21,UNIMI,2001-2005,incoming
 RO,Romania,310,UNIMI,2001-2005,incoming
 RS,Serbia,465,UNIMI,2001-2005,incoming
 RU,Russia,11411,UNIMI,2001-2005,incoming
@@ -154,7 +141,6 @@ SM,San Marino,14,UNIMI,2001-2005,incoming
 SN,Senegal,14,UNIMI,2001-2005,incoming
 SO,Somalia,15,UNIMI,2001-2005,incoming
 SV,El Salvador,21,UNIMI,2001-2005,incoming
-SX,Sint Maarten,4,UNIMI,2001-2005,incoming
 SY,Syria,16,UNIMI,2001-2005,incoming
 TD,Chad,2,UNIMI,2001-2005,incoming
 TG,Togo,3,UNIMI,2001-2005,incoming
@@ -168,7 +154,7 @@ TW,Taiwan,6344,UNIMI,2001-2005,incoming
 TZ,Tanzania,274,UNIMI,2001-2005,incoming
 UA,Ukraine,876,UNIMI,2001-2005,incoming
 UG,Uganda,147,UNIMI,2001-2005,incoming
-US,United States,314580,UNIMI,2001-2005,incoming
+US,United States,315068,UNIMI,2001-2005,incoming
 UY,Uruguay,132,UNIMI,2001-2005,incoming
 UZ,Uzbekistan,84,UNIMI,2001-2005,incoming
 VE,Venezuela,186,UNIMI,2001-2005,incoming

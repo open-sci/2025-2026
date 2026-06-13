@@ -29,7 +29,7 @@ CH,Switzerland,44355,SNS,2011-2015,incoming
 CI,Ivory Coast,2,SNS,2011-2015,incoming
 CL,Chile,3480,SNS,2011-2015,incoming
 CM,Cameroon,51,SNS,2011-2015,incoming
-CN,China,58405,SNS,2011-2015,incoming
+CN,China,60679,SNS,2011-2015,incoming
 CO,Colombia,9937,SNS,2011-2015,incoming
 CR,Costa Rica,23,SNS,2011-2015,incoming
 CU,Cuba,169,SNS,2011-2015,incoming
@@ -45,15 +45,13 @@ EG,Egypt,9186,SNS,2011-2015,incoming
 ES,Spain,79159,SNS,2011-2015,incoming
 ET,Ethiopia,18,SNS,2011-2015,incoming
 FI,Finland,25828,SNS,2011-2015,incoming
-FR,France,255269,SNS,2011-2015,incoming
+FR,France,255295,SNS,2011-2015,incoming
 GA,Gabon,1,SNS,2011-2015,incoming
-GB,United Kingdom,125426,SNS,2011-2015,incoming
+GB,United Kingdom,125427,SNS,2011-2015,incoming
 GE,Georgia,5313,SNS,2011-2015,incoming
 GH,Ghana,58,SNS,2011-2015,incoming
-GP,Guadeloupe,13,SNS,2011-2015,incoming
 GR,Greece,22175,SNS,2011-2015,incoming
 GT,Guatemala,12,SNS,2011-2015,incoming
-HK,Hong Kong,2248,SNS,2011-2015,incoming
 HR,Croatia,11384,SNS,2011-2015,incoming
 HU,Hungary,28502,SNS,2011-2015,incoming
 ID,Indonesia,65,SNS,2011-2015,incoming
@@ -86,7 +84,6 @@ ME,Montenegro,32,SNS,2011-2015,incoming
 MG,Madagascar,11,SNS,2011-2015,incoming
 MK,North Macedonia,6,SNS,2011-2015,incoming
 MN,Mongolia,25,SNS,2011-2015,incoming
-MO,Macao,26,SNS,2011-2015,incoming
 MT,Malta,26,SNS,2011-2015,incoming
 MU,Mauritius,8,SNS,2011-2015,incoming
 MV,Maldives,2,SNS,2011-2015,incoming
@@ -94,7 +91,6 @@ MW,Malawi,1,SNS,2011-2015,incoming
 MX,Mexico,22909,SNS,2011-2015,incoming
 MY,Malaysia,1890,SNS,2011-2015,incoming
 MZ,Mozambique,21,SNS,2011-2015,incoming
-NC,New Caledonia,6,SNS,2011-2015,incoming
 NG,Nigeria,36,SNS,2011-2015,incoming
 NI,Nicaragua,6,SNS,2011-2015,incoming
 NL,The Netherlands,25566,SNS,2011-2015,incoming
@@ -107,12 +103,10 @@ PG,Papua New Guinea,1,SNS,2011-2015,incoming
 PH,Philippines,85,SNS,2011-2015,incoming
 PK,Pakistan,7223,SNS,2011-2015,incoming
 PL,Poland,31372,SNS,2011-2015,incoming
-PR,Puerto Rico,5630,SNS,2011-2015,incoming
 PS,Palestine,11,SNS,2011-2015,incoming
 PT,Portugal,8340,SNS,2011-2015,incoming
 PY,Paraguay,10,SNS,2011-2015,incoming
 QA,Qatar,361,SNS,2011-2015,incoming
-RE,Réunion,7,SNS,2011-2015,incoming
 RO,Romania,4373,SNS,2011-2015,incoming
 RS,Serbia,6541,SNS,2011-2015,incoming
 RU,Russia,76907,SNS,2011-2015,incoming
@@ -135,12 +129,10 @@ TW,Taiwan,19855,SNS,2011-2015,incoming
 TZ,Tanzania,104,SNS,2011-2015,incoming
 UA,Ukraine,7981,SNS,2011-2015,incoming
 UG,Uganda,33,SNS,2011-2015,incoming
-US,United States,551301,SNS,2011-2015,incoming
+US,United States,556932,SNS,2011-2015,incoming
 UY,Uruguay,83,SNS,2011-2015,incoming
 UZ,Uzbekistan,387,SNS,2011-2015,incoming
 VE,Venezuela,64,SNS,2011-2015,incoming
-VG,British Virgin Islands,1,SNS,2011-2015,incoming
-VI,U.S. Virgin Islands,1,SNS,2011-2015,incoming
 VN,Vietnam,1072,SNS,2011-2015,incoming
 YE,Yemen,18,SNS,2011-2015,incoming
 ZA,South Africa,3712,SNS,2011-2015,incoming

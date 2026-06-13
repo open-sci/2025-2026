@@ -7,7 +7,6 @@ AL,Albania,1051,UNIMI,outgoing
 AM,Armenia,12032,UNIMI,outgoing
 AO,Angola,740,UNIMI,outgoing
 AR,Argentina,99824,UNIMI,outgoing
-AS,American Samoa,576,UNIMI,outgoing
 AT,Austria,180002,UNIMI,outgoing
 AU,Australia,671410,UNIMI,outgoing
 AZ,Azerbaijan,21403,UNIMI,outgoing
@@ -20,10 +19,8 @@ BG,Bulgaria,21780,UNIMI,outgoing
 BH,Bahrain,6132,UNIMI,outgoing
 BI,Burundi,90,UNIMI,outgoing
 BJ,Benin,1367,UNIMI,outgoing
-BM,Bermuda,109,UNIMI,outgoing
 BN,Brunei,312,UNIMI,outgoing
 BO,Bolivia,537,UNIMI,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",23,UNIMI,outgoing
 BR,Brazil,298749,UNIMI,outgoing
 BS,Bahamas,55,UNIMI,outgoing
 BT,Bhutan,350,UNIMI,outgoing
@@ -38,17 +35,16 @@ CH,Switzerland,598337,UNIMI,outgoing
 CI,Ivory Coast,600,UNIMI,outgoing
 CL,Chile,74828,UNIMI,outgoing
 CM,Cameroon,1703,UNIMI,outgoing
-CN,China,759944,UNIMI,outgoing
+CN,China,859144,UNIMI,outgoing
 CO,Colombia,40069,UNIMI,outgoing
 CR,Costa Rica,1358,UNIMI,outgoing
 CU,Cuba,3430,UNIMI,outgoing
 CV,Cabo Verde,23,UNIMI,outgoing
-CW,Curaçao,707,UNIMI,outgoing
 CY,Cyprus,11859,UNIMI,outgoing
 CZ,Czechia,121018,UNIMI,outgoing
 DE,Germany,1688354,UNIMI,outgoing
 DJ,Djibouti,3,UNIMI,outgoing
-DK,Denmark,291942,UNIMI,outgoing
+DK,Denmark,292103,UNIMI,outgoing
 DM,Dominica,4,UNIMI,outgoing
 DO,Dominican Republic,237,UNIMI,outgoing
 DZ,Algeria,2915,UNIMI,outgoing
@@ -61,28 +57,20 @@ ET,Ethiopia,10344,UNIMI,outgoing
 EU,European Union,217,UNIMI,outgoing
 FI,Finland,233706,UNIMI,outgoing
 FJ,Fiji,439,UNIMI,outgoing
-FK,Falkland Islands,1,UNIMI,outgoing
 FM,Micronesia,70,UNIMI,outgoing
-FO,Faroe Islands,65,UNIMI,outgoing
-FR,France,3388501,UNIMI,outgoing
+FR,France,3392725,UNIMI,outgoing
 GA,Gabon,659,UNIMI,outgoing
-GB,United Kingdom,2591121,UNIMI,outgoing
+GB,United Kingdom,2591425,UNIMI,outgoing
 GD,Grenada,959,UNIMI,outgoing
 GE,Georgia,28689,UNIMI,outgoing
-GF,French Guiana,450,UNIMI,outgoing
 GH,Ghana,4474,UNIMI,outgoing
-GI,Gibraltar,64,UNIMI,outgoing
-GL,Greenland,96,UNIMI,outgoing
 GM,The Gambia,189,UNIMI,outgoing
 GN,Guinea,52,UNIMI,outgoing
-GP,Guadeloupe,1548,UNIMI,outgoing
 GQ,Equatorial Guinea,1,UNIMI,outgoing
 GR,Greece,160102,UNIMI,outgoing
 GT,Guatemala,931,UNIMI,outgoing
-GU,Guam,54,UNIMI,outgoing
 GW,Guinea-Bissau,148,UNIMI,outgoing
 GY,Guyana,50,UNIMI,outgoing
-HK,Hong Kong,97498,UNIMI,outgoing
 HN,Honduras,416,UNIMI,outgoing
 HR,Croatia,36685,UNIMI,outgoing
 HT,Haiti,38,UNIMI,outgoing
@@ -90,13 +78,11 @@ HU,Hungary,108125,UNIMI,outgoing
 ID,Indonesia,6809,UNIMI,outgoing
 IE,Ireland,109963,UNIMI,outgoing
 IL,Israel,159940,UNIMI,outgoing
-IM,Isle of Man,35,UNIMI,outgoing
 IN,India,273210,UNIMI,outgoing
 IQ,Iraq,2387,UNIMI,outgoing
 IR,Iran,64246,UNIMI,outgoing
 IS,Iceland,9065,UNIMI,outgoing
 IT,Italy,3561816,UNIMI,outgoing
-JE,Jersey,79,UNIMI,outgoing
 JM,Jamaica,2139,UNIMI,outgoing
 JO,Jordan,7064,UNIMI,outgoing
 JP,Japan,788894,UNIMI,outgoing
@@ -107,7 +93,6 @@ KN,St Kitts and Nevis,375,UNIMI,outgoing
 KP,North Korea,20,UNIMI,outgoing
 KR,South Korea,299692,UNIMI,outgoing
 KW,Kuwait,1988,UNIMI,outgoing
-KY,Cayman Islands,11,UNIMI,outgoing
 KZ,Kazakhstan,1799,UNIMI,outgoing
 LA,Laos,227,UNIMI,outgoing
 LB,Lebanon,9995,UNIMI,outgoing
@@ -129,11 +114,7 @@ MK,North Macedonia,1660,UNIMI,outgoing
 ML,Mali,215,UNIMI,outgoing
 MM,Myanmar,1047,UNIMI,outgoing
 MN,Mongolia,2153,UNIMI,outgoing
-MO,Macao,1702,UNIMI,outgoing
-MP,Northern Mariana Islands,2,UNIMI,outgoing
-MQ,Martinique,180,UNIMI,outgoing
 MR,Mauritania,34,UNIMI,outgoing
-MS,Montserrat,2,UNIMI,outgoing
 MT,Malta,1973,UNIMI,outgoing
 MU,Mauritius,270,UNIMI,outgoing
 MV,Maldives,99,UNIMI,outgoing
@@ -141,30 +122,26 @@ MW,Malawi,1146,UNIMI,outgoing
 MX,Mexico,70077,UNIMI,outgoing
 MY,Malaysia,24433,UNIMI,outgoing
 MZ,Mozambique,1125,UNIMI,outgoing
-NC,New Caledonia,487,UNIMI,outgoing
 NE,Niger,438,UNIMI,outgoing
 NG,Nigeria,8659,UNIMI,outgoing
 NI,Nicaragua,223,UNIMI,outgoing
-NL,The Netherlands,864671,UNIMI,outgoing
-NO,Norway,144409,UNIMI,outgoing
+NL,The Netherlands,865422,UNIMI,outgoing
+NO,Norway,144558,UNIMI,outgoing
 NP,Nepal,2305,UNIMI,outgoing
 NZ,New Zealand,56883,UNIMI,outgoing
 OC,Oceania,5,UNIMI,outgoing
 OM,Oman,1785,UNIMI,outgoing
 PA,Panama,1549,UNIMI,outgoing
 PE,Peru,6844,UNIMI,outgoing
-PF,French Polynesia,128,UNIMI,outgoing
 PG,Papua New Guinea,335,UNIMI,outgoing
 PH,Philippines,14386,UNIMI,outgoing
 PK,Pakistan,24250,UNIMI,outgoing
 PL,Poland,257626,UNIMI,outgoing
-PR,Puerto Rico,9642,UNIMI,outgoing
 PS,Palestine,4992,UNIMI,outgoing
 PT,Portugal,151086,UNIMI,outgoing
 PW,Palau,272,UNIMI,outgoing
 PY,Paraguay,455,UNIMI,outgoing
 QA,Qatar,12546,UNIMI,outgoing
-RE,Réunion,1429,UNIMI,outgoing
 RO,Romania,70794,UNIMI,outgoing
 RS,Serbia,34831,UNIMI,outgoing
 RU,Russia,334752,UNIMI,outgoing
@@ -176,7 +153,6 @@ SD,Sudan,735,UNIMI,outgoing
 SE,Sweden,314844,UNIMI,outgoing
 SG,Singapore,76859,UNIMI,outgoing
 SI,Slovenia,38435,UNIMI,outgoing
-SJ,Svalbard and Jan Mayen,149,UNIMI,outgoing
 SK,Slovakia,55832,UNIMI,outgoing
 SL,Sierra Leone,309,UNIMI,outgoing
 SM,San Marino,263,UNIMI,outgoing
@@ -186,10 +162,8 @@ SR,Suriname,35,UNIMI,outgoing
 SS,South Sudan,16,UNIMI,outgoing
 ST,São Tomé and Príncipe,4,UNIMI,outgoing
 SV,El Salvador,867,UNIMI,outgoing
-SX,Sint Maarten,21,UNIMI,outgoing
 SY,Syria,481,UNIMI,outgoing
 SZ,Eswatini,32,UNIMI,outgoing
-TC,Turks and Caicos Islands,1,UNIMI,outgoing
 TD,Chad,61,UNIMI,outgoing
 TG,Togo,103,UNIMI,outgoing
 TH,Thailand,26106,UNIMI,outgoing
@@ -205,20 +179,16 @@ TW,Taiwan,169472,UNIMI,outgoing
 TZ,Tanzania,6822,UNIMI,outgoing
 UA,Ukraine,23355,UNIMI,outgoing
 UG,Uganda,4078,UNIMI,outgoing
-UM,United States Minor Outlying Islands,1,UNIMI,outgoing
-US,United States,8484881,UNIMI,outgoing
+US,United States,8495168,UNIMI,outgoing
 UY,Uruguay,3539,UNIMI,outgoing
 UZ,Uzbekistan,4647,UNIMI,outgoing
 VC,St Vincent and Grenadines,4,UNIMI,outgoing
 VE,Venezuela,3005,UNIMI,outgoing
-VG,British Virgin Islands,2,UNIMI,outgoing
-VI,U.S. Virgin Islands,12,UNIMI,outgoing
 VN,Vietnam,12274,UNIMI,outgoing
 VU,Vanuatu,3,UNIMI,outgoing
 WS,Samoa,9,UNIMI,outgoing
 XK,Kosovo,313,UNIMI,outgoing
 YE,Yemen,745,UNIMI,outgoing
-YT,Mayotte,2,UNIMI,outgoing
 ZA,South Africa,110485,UNIMI,outgoing
 ZM,Zambia,1389,UNIMI,outgoing
 ZW,Zimbabwe,1478,UNIMI,outgoing

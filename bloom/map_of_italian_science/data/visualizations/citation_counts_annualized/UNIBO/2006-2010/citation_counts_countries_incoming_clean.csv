@@ -6,7 +6,6 @@ AL,Albania,34,UNIBO,2006-2010,incoming
 AM,Armenia,2302,UNIBO,2006-2010,incoming
 AO,Angola,38,UNIBO,2006-2010,incoming
 AR,Argentina,5761,UNIBO,2006-2010,incoming
-AS,American Samoa,8,UNIBO,2006-2010,incoming
 AT,Austria,13644,UNIBO,2006-2010,incoming
 AU,Australia,33186,UNIBO,2006-2010,incoming
 AZ,Azerbaijan,1485,UNIBO,2006-2010,incoming
@@ -19,10 +18,8 @@ BG,Bulgaria,4233,UNIBO,2006-2010,incoming
 BH,Bahrain,149,UNIBO,2006-2010,incoming
 BI,Burundi,6,UNIBO,2006-2010,incoming
 BJ,Benin,72,UNIBO,2006-2010,incoming
-BM,Bermuda,3,UNIBO,2006-2010,incoming
 BN,Brunei,47,UNIBO,2006-2010,incoming
 BO,Bolivia,49,UNIBO,2006-2010,incoming
-BQ,"Bonaire, Sint Eustatius, and Saba",1,UNIBO,2006-2010,incoming
 BR,Brazil,29827,UNIBO,2006-2010,incoming
 BT,Bhutan,30,UNIBO,2006-2010,incoming
 BW,Botswana,22,UNIBO,2006-2010,incoming
@@ -36,17 +33,16 @@ CH,Switzerland,48762,UNIBO,2006-2010,incoming
 CI,Ivory Coast,8,UNIBO,2006-2010,incoming
 CL,Chile,5211,UNIBO,2006-2010,incoming
 CM,Cameroon,109,UNIBO,2006-2010,incoming
-CN,China,66437,UNIBO,2006-2010,incoming
+CN,China,71654,UNIBO,2006-2010,incoming
 CO,Colombia,4043,UNIBO,2006-2010,incoming
 CR,Costa Rica,70,UNIBO,2006-2010,incoming
 CU,Cuba,657,UNIBO,2006-2010,incoming
 CV,Cabo Verde,1,UNIBO,2006-2010,incoming
-CW,Curaçao,24,UNIBO,2006-2010,incoming
 CY,Cyprus,3337,UNIBO,2006-2010,incoming
 CZ,Czechia,10377,UNIBO,2006-2010,incoming
 DE,Germany,147470,UNIBO,2006-2010,incoming
 DJ,Djibouti,1,UNIBO,2006-2010,incoming
-DK,Denmark,12309,UNIBO,2006-2010,incoming
+DK,Denmark,12314,UNIBO,2006-2010,incoming
 DO,Dominican Republic,4,UNIBO,2006-2010,incoming
 DZ,Algeria,311,UNIBO,2006-2010,incoming
 EC,Ecuador,603,UNIBO,2006-2010,incoming
@@ -57,22 +53,15 @@ ET,Ethiopia,259,UNIBO,2006-2010,incoming
 EU,European Union,38,UNIBO,2006-2010,incoming
 FI,Finland,24164,UNIBO,2006-2010,incoming
 FJ,Fiji,6,UNIBO,2006-2010,incoming
-FO,Faroe Islands,1,UNIBO,2006-2010,incoming
-FR,France,361494,UNIBO,2006-2010,incoming
+FR,France,361773,UNIBO,2006-2010,incoming
 GA,Gabon,26,UNIBO,2006-2010,incoming
-GB,United Kingdom,163179,UNIBO,2006-2010,incoming
+GB,United Kingdom,163185,UNIBO,2006-2010,incoming
 GD,Grenada,13,UNIBO,2006-2010,incoming
 GE,Georgia,3094,UNIBO,2006-2010,incoming
-GF,French Guiana,8,UNIBO,2006-2010,incoming
 GH,Ghana,411,UNIBO,2006-2010,incoming
-GI,Gibraltar,2,UNIBO,2006-2010,incoming
-GL,Greenland,4,UNIBO,2006-2010,incoming
-GP,Guadeloupe,64,UNIBO,2006-2010,incoming
 GR,Greece,21169,UNIBO,2006-2010,incoming
 GT,Guatemala,20,UNIBO,2006-2010,incoming
-GU,Guam,4,UNIBO,2006-2010,incoming
 GW,Guinea-Bissau,8,UNIBO,2006-2010,incoming
-HK,Hong Kong,5167,UNIBO,2006-2010,incoming
 HN,Honduras,3,UNIBO,2006-2010,incoming
 HR,Croatia,6110,UNIBO,2006-2010,incoming
 HT,Haiti,2,UNIBO,2006-2010,incoming
@@ -115,11 +104,7 @@ MK,North Macedonia,39,UNIBO,2006-2010,incoming
 ML,Mali,10,UNIBO,2006-2010,incoming
 MM,Myanmar,19,UNIBO,2006-2010,incoming
 MN,Mongolia,199,UNIBO,2006-2010,incoming
-MO,Macao,50,UNIBO,2006-2010,incoming
-MP,Northern Mariana Islands,1,UNIBO,2006-2010,incoming
-MQ,Martinique,1,UNIBO,2006-2010,incoming
 MR,Mauritania,3,UNIBO,2006-2010,incoming
-MS,Montserrat,1,UNIBO,2006-2010,incoming
 MT,Malta,65,UNIBO,2006-2010,incoming
 MU,Mauritius,14,UNIBO,2006-2010,incoming
 MV,Maldives,6,UNIBO,2006-2010,incoming
@@ -127,29 +112,25 @@ MW,Malawi,13,UNIBO,2006-2010,incoming
 MX,Mexico,12612,UNIBO,2006-2010,incoming
 MY,Malaysia,1236,UNIBO,2006-2010,incoming
 MZ,Mozambique,76,UNIBO,2006-2010,incoming
-NC,New Caledonia,37,UNIBO,2006-2010,incoming
 NE,Niger,3,UNIBO,2006-2010,incoming
 NG,Nigeria,186,UNIBO,2006-2010,incoming
 NI,Nicaragua,12,UNIBO,2006-2010,incoming
-NL,The Netherlands,45989,UNIBO,2006-2010,incoming
-NO,Norway,8690,UNIBO,2006-2010,incoming
+NL,The Netherlands,46016,UNIBO,2006-2010,incoming
+NO,Norway,8694,UNIBO,2006-2010,incoming
 NP,Nepal,88,UNIBO,2006-2010,incoming
 NZ,New Zealand,5268,UNIBO,2006-2010,incoming
 OM,Oman,71,UNIBO,2006-2010,incoming
 PA,Panama,28,UNIBO,2006-2010,incoming
 PE,Peru,490,UNIBO,2006-2010,incoming
-PF,French Polynesia,5,UNIBO,2006-2010,incoming
 PG,Papua New Guinea,8,UNIBO,2006-2010,incoming
 PH,Philippines,271,UNIBO,2006-2010,incoming
 PK,Pakistan,3321,UNIBO,2006-2010,incoming
 PL,Poland,26580,UNIBO,2006-2010,incoming
-PR,Puerto Rico,2000,UNIBO,2006-2010,incoming
 PS,Palestine,88,UNIBO,2006-2010,incoming
 PT,Portugal,11081,UNIBO,2006-2010,incoming
 PW,Palau,19,UNIBO,2006-2010,incoming
 PY,Paraguay,11,UNIBO,2006-2010,incoming
 QA,Qatar,309,UNIBO,2006-2010,incoming
-RE,Réunion,164,UNIBO,2006-2010,incoming
 RO,Romania,2576,UNIBO,2006-2010,incoming
 RS,Serbia,4162,UNIBO,2006-2010,incoming
 RU,Russia,51529,UNIBO,2006-2010,incoming
@@ -160,13 +141,11 @@ SD,Sudan,15,UNIBO,2006-2010,incoming
 SE,Sweden,17941,UNIBO,2006-2010,incoming
 SG,Singapore,3999,UNIBO,2006-2010,incoming
 SI,Slovenia,4193,UNIBO,2006-2010,incoming
-SJ,Svalbard and Jan Mayen,4,UNIBO,2006-2010,incoming
 SK,Slovakia,10013,UNIBO,2006-2010,incoming
 SM,San Marino,42,UNIBO,2006-2010,incoming
 SN,Senegal,22,UNIBO,2006-2010,incoming
 SO,Somalia,14,UNIBO,2006-2010,incoming
 SV,El Salvador,23,UNIBO,2006-2010,incoming
-SX,Sint Maarten,2,UNIBO,2006-2010,incoming
 SY,Syria,105,UNIBO,2006-2010,incoming
 SZ,Eswatini,1,UNIBO,2006-2010,incoming
 TD,Chad,2,UNIBO,2006-2010,incoming
@@ -181,11 +160,10 @@ TW,Taiwan,20431,UNIBO,2006-2010,incoming
 TZ,Tanzania,136,UNIBO,2006-2010,incoming
 UA,Ukraine,4528,UNIBO,2006-2010,incoming
 UG,Uganda,77,UNIBO,2006-2010,incoming
-US,United States,641831,UNIBO,2006-2010,incoming
+US,United States,643845,UNIBO,2006-2010,incoming
 UY,Uruguay,292,UNIBO,2006-2010,incoming
 UZ,Uzbekistan,1872,UNIBO,2006-2010,incoming
 VE,Venezuela,190,UNIBO,2006-2010,incoming
-VI,U.S. Virgin Islands,1,UNIBO,2006-2010,incoming
 VN,Vietnam,442,UNIBO,2006-2010,incoming
 XK,Kosovo,6,UNIBO,2006-2010,incoming
 YE,Yemen,45,UNIBO,2006-2010,incoming

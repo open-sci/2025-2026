@@ -6,7 +6,6 @@ AL,Albania,59,UNIBO,2001-2005,outgoing
 AM,Armenia,330,UNIBO,2001-2005,outgoing
 AO,Angola,76,UNIBO,2001-2005,outgoing
 AR,Argentina,5008,UNIBO,2001-2005,outgoing
-AS,American Samoa,21,UNIBO,2001-2005,outgoing
 AT,Austria,11999,UNIBO,2001-2005,outgoing
 AU,Australia,58120,UNIBO,2001-2005,outgoing
 AZ,Azerbaijan,194,UNIBO,2001-2005,outgoing
@@ -19,10 +18,8 @@ BG,Bulgaria,1494,UNIBO,2001-2005,outgoing
 BH,Bahrain,200,UNIBO,2001-2005,outgoing
 BI,Burundi,25,UNIBO,2001-2005,outgoing
 BJ,Benin,111,UNIBO,2001-2005,outgoing
-BM,Bermuda,78,UNIBO,2001-2005,outgoing
 BN,Brunei,21,UNIBO,2001-2005,outgoing
 BO,Bolivia,24,UNIBO,2001-2005,outgoing
-BQ,"Bonaire, Sint Eustatius, and Saba",1,UNIBO,2001-2005,outgoing
 BR,Brazil,15758,UNIBO,2001-2005,outgoing
 BT,Bhutan,11,UNIBO,2001-2005,outgoing
 BW,Botswana,38,UNIBO,2001-2005,outgoing
@@ -36,15 +33,14 @@ CH,Switzerland,55317,UNIBO,2001-2005,outgoing
 CI,Ivory Coast,13,UNIBO,2001-2005,outgoing
 CL,Chile,3734,UNIBO,2001-2005,outgoing
 CM,Cameroon,72,UNIBO,2001-2005,outgoing
-CN,China,31926,UNIBO,2001-2005,outgoing
+CN,China,41144,UNIBO,2001-2005,outgoing
 CO,Colombia,1104,UNIBO,2001-2005,outgoing
 CR,Costa Rica,86,UNIBO,2001-2005,outgoing
 CU,Cuba,180,UNIBO,2001-2005,outgoing
-CW,Curaçao,65,UNIBO,2001-2005,outgoing
 CY,Cyprus,985,UNIBO,2001-2005,outgoing
 CZ,Czechia,4392,UNIBO,2001-2005,outgoing
 DE,Germany,156757,UNIBO,2001-2005,outgoing
-DK,Denmark,16265,UNIBO,2001-2005,outgoing
+DK,Denmark,16275,UNIBO,2001-2005,outgoing
 DO,Dominican Republic,6,UNIBO,2001-2005,outgoing
 DZ,Algeria,264,UNIBO,2001-2005,outgoing
 EC,Ecuador,463,UNIBO,2001-2005,outgoing
@@ -56,35 +52,27 @@ ET,Ethiopia,337,UNIBO,2001-2005,outgoing
 EU,European Union,34,UNIBO,2001-2005,outgoing
 FI,Finland,33478,UNIBO,2001-2005,outgoing
 FJ,Fiji,13,UNIBO,2001-2005,outgoing
-FR,France,277979,UNIBO,2001-2005,outgoing
+FR,France,278229,UNIBO,2001-2005,outgoing
 GA,Gabon,32,UNIBO,2001-2005,outgoing
-GB,United Kingdom,253790,UNIBO,2001-2005,outgoing
+GB,United Kingdom,253900,UNIBO,2001-2005,outgoing
 GD,Grenada,14,UNIBO,2001-2005,outgoing
 GE,Georgia,1252,UNIBO,2001-2005,outgoing
-GF,French Guiana,4,UNIBO,2001-2005,outgoing
 GH,Ghana,212,UNIBO,2001-2005,outgoing
-GI,Gibraltar,3,UNIBO,2001-2005,outgoing
-GL,Greenland,10,UNIBO,2001-2005,outgoing
 GM,The Gambia,4,UNIBO,2001-2005,outgoing
-GP,Guadeloupe,35,UNIBO,2001-2005,outgoing
 GR,Greece,9390,UNIBO,2001-2005,outgoing
 GT,Guatemala,44,UNIBO,2001-2005,outgoing
-GU,Guam,23,UNIBO,2001-2005,outgoing
 GW,Guinea-Bissau,2,UNIBO,2001-2005,outgoing
-HK,Hong Kong,9122,UNIBO,2001-2005,outgoing
 HN,Honduras,6,UNIBO,2001-2005,outgoing
 HR,Croatia,1675,UNIBO,2001-2005,outgoing
 HU,Hungary,8160,UNIBO,2001-2005,outgoing
 ID,Indonesia,337,UNIBO,2001-2005,outgoing
 IE,Ireland,7064,UNIBO,2001-2005,outgoing
 IL,Israel,14310,UNIBO,2001-2005,outgoing
-IM,Isle of Man,2,UNIBO,2001-2005,outgoing
 IN,India,27470,UNIBO,2001-2005,outgoing
 IQ,Iraq,32,UNIBO,2001-2005,outgoing
 IR,Iran,1431,UNIBO,2001-2005,outgoing
 IS,Iceland,492,UNIBO,2001-2005,outgoing
 IT,Italy,265234,UNIBO,2001-2005,outgoing
-JE,Jersey,3,UNIBO,2001-2005,outgoing
 JM,Jamaica,140,UNIBO,2001-2005,outgoing
 JO,Jordan,788,UNIBO,2001-2005,outgoing
 JP,Japan,113518,UNIBO,2001-2005,outgoing
@@ -115,10 +103,7 @@ MK,North Macedonia,34,UNIBO,2001-2005,outgoing
 ML,Mali,14,UNIBO,2001-2005,outgoing
 MM,Myanmar,46,UNIBO,2001-2005,outgoing
 MN,Mongolia,68,UNIBO,2001-2005,outgoing
-MO,Macao,96,UNIBO,2001-2005,outgoing
-MQ,Martinique,1,UNIBO,2001-2005,outgoing
 MR,Mauritania,7,UNIBO,2001-2005,outgoing
-MS,Montserrat,24,UNIBO,2001-2005,outgoing
 MT,Malta,87,UNIBO,2001-2005,outgoing
 MU,Mauritius,15,UNIBO,2001-2005,outgoing
 MV,Maldives,20,UNIBO,2001-2005,outgoing
@@ -126,29 +111,25 @@ MW,Malawi,22,UNIBO,2001-2005,outgoing
 MX,Mexico,4992,UNIBO,2001-2005,outgoing
 MY,Malaysia,860,UNIBO,2001-2005,outgoing
 MZ,Mozambique,91,UNIBO,2001-2005,outgoing
-NC,New Caledonia,26,UNIBO,2001-2005,outgoing
 NE,Niger,2,UNIBO,2001-2005,outgoing
 NG,Nigeria,254,UNIBO,2001-2005,outgoing
 NI,Nicaragua,19,UNIBO,2001-2005,outgoing
-NL,The Netherlands,66248,UNIBO,2001-2005,outgoing
-NO,Norway,9036,UNIBO,2001-2005,outgoing
+NL,The Netherlands,66315,UNIBO,2001-2005,outgoing
+NO,Norway,9046,UNIBO,2001-2005,outgoing
 NP,Nepal,47,UNIBO,2001-2005,outgoing
 NZ,New Zealand,4946,UNIBO,2001-2005,outgoing
 OM,Oman,95,UNIBO,2001-2005,outgoing
 PA,Panama,210,UNIBO,2001-2005,outgoing
 PE,Peru,310,UNIBO,2001-2005,outgoing
-PF,French Polynesia,4,UNIBO,2001-2005,outgoing
 PG,Papua New Guinea,14,UNIBO,2001-2005,outgoing
 PH,Philippines,407,UNIBO,2001-2005,outgoing
 PK,Pakistan,854,UNIBO,2001-2005,outgoing
 PL,Poland,12525,UNIBO,2001-2005,outgoing
-PR,Puerto Rico,809,UNIBO,2001-2005,outgoing
 PS,Palestine,51,UNIBO,2001-2005,outgoing
 PT,Portugal,6632,UNIBO,2001-2005,outgoing
 PW,Palau,61,UNIBO,2001-2005,outgoing
 PY,Paraguay,21,UNIBO,2001-2005,outgoing
 QA,Qatar,228,UNIBO,2001-2005,outgoing
-RE,Réunion,180,UNIBO,2001-2005,outgoing
 RO,Romania,1117,UNIBO,2001-2005,outgoing
 RS,Serbia,742,UNIBO,2001-2005,outgoing
 RU,Russia,34793,UNIBO,2001-2005,outgoing
@@ -159,14 +140,12 @@ SD,Sudan,28,UNIBO,2001-2005,outgoing
 SE,Sweden,24345,UNIBO,2001-2005,outgoing
 SG,Singapore,5788,UNIBO,2001-2005,outgoing
 SI,Slovenia,2679,UNIBO,2001-2005,outgoing
-SJ,Svalbard and Jan Mayen,10,UNIBO,2001-2005,outgoing
 SK,Slovakia,1651,UNIBO,2001-2005,outgoing
 SM,San Marino,50,UNIBO,2001-2005,outgoing
 SN,Senegal,23,UNIBO,2001-2005,outgoing
 SO,Somalia,26,UNIBO,2001-2005,outgoing
 ST,São Tomé and Príncipe,2,UNIBO,2001-2005,outgoing
 SV,El Salvador,17,UNIBO,2001-2005,outgoing
-SX,Sint Maarten,1,UNIBO,2001-2005,outgoing
 SY,Syria,40,UNIBO,2001-2005,outgoing
 TD,Chad,11,UNIBO,2001-2005,outgoing
 TH,Thailand,1167,UNIBO,2001-2005,outgoing
@@ -178,11 +157,10 @@ TW,Taiwan,14392,UNIBO,2001-2005,outgoing
 TZ,Tanzania,313,UNIBO,2001-2005,outgoing
 UA,Ukraine,1336,UNIBO,2001-2005,outgoing
 UG,Uganda,140,UNIBO,2001-2005,outgoing
-US,United States,984337,UNIBO,2001-2005,outgoing
+US,United States,985197,UNIBO,2001-2005,outgoing
 UY,Uruguay,156,UNIBO,2001-2005,outgoing
 UZ,Uzbekistan,804,UNIBO,2001-2005,outgoing
 VE,Venezuela,465,UNIBO,2001-2005,outgoing
-VI,U.S. Virgin Islands,7,UNIBO,2001-2005,outgoing
 VN,Vietnam,469,UNIBO,2001-2005,outgoing
 WS,Samoa,1,UNIBO,2001-2005,outgoing
 XK,Kosovo,7,UNIBO,2001-2005,outgoing

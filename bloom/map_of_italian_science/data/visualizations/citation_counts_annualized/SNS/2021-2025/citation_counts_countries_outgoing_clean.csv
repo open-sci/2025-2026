@@ -4,7 +4,6 @@ AG,Antigua and Barbuda,1,SNS,2021-2025,outgoing
 AM,Armenia,3104,SNS,2021-2025,outgoing
 AO,Angola,2,SNS,2021-2025,outgoing
 AR,Argentina,1329,SNS,2021-2025,outgoing
-AS,American Samoa,1,SNS,2021-2025,outgoing
 AT,Austria,6953,SNS,2021-2025,outgoing
 AU,Australia,15995,SNS,2021-2025,outgoing
 AZ,Azerbaijan,311,SNS,2021-2025,outgoing
@@ -23,7 +22,7 @@ CA,Canada,7400,SNS,2021-2025,outgoing
 CH,Switzerland,24212,SNS,2021-2025,outgoing
 CL,Chile,3797,SNS,2021-2025,outgoing
 CM,Cameroon,4,SNS,2021-2025,outgoing
-CN,China,50815,SNS,2021-2025,outgoing
+CN,China,51824,SNS,2021-2025,outgoing
 CO,Colombia,6584,SNS,2021-2025,outgoing
 CR,Costa Rica,24,SNS,2021-2025,outgoing
 CU,Cuba,27,SNS,2021-2025,outgoing
@@ -40,15 +39,13 @@ ES,Spain,42936,SNS,2021-2025,outgoing
 ET,Ethiopia,7,SNS,2021-2025,outgoing
 EU,European Union,1,SNS,2021-2025,outgoing
 FI,Finland,13497,SNS,2021-2025,outgoing
-FR,France,123699,SNS,2021-2025,outgoing
+FR,France,123716,SNS,2021-2025,outgoing
 GB,United Kingdom,65466,SNS,2021-2025,outgoing
 GD,Grenada,1,SNS,2021-2025,outgoing
 GE,Georgia,2997,SNS,2021-2025,outgoing
-GF,French Guiana,16,SNS,2021-2025,outgoing
 GH,Ghana,20,SNS,2021-2025,outgoing
 GR,Greece,13297,SNS,2021-2025,outgoing
 GT,Guatemala,189,SNS,2021-2025,outgoing
-HK,Hong Kong,1004,SNS,2021-2025,outgoing
 HN,Honduras,171,SNS,2021-2025,outgoing
 HR,Croatia,7204,SNS,2021-2025,outgoing
 HU,Hungary,15698,SNS,2021-2025,outgoing
@@ -80,12 +77,10 @@ ME,Montenegro,2335,SNS,2021-2025,outgoing
 MG,Madagascar,2,SNS,2021-2025,outgoing
 MK,North Macedonia,1,SNS,2021-2025,outgoing
 MN,Mongolia,92,SNS,2021-2025,outgoing
-MO,Macao,5,SNS,2021-2025,outgoing
 MT,Malta,139,SNS,2021-2025,outgoing
 MX,Mexico,8665,SNS,2021-2025,outgoing
 MY,Malaysia,2744,SNS,2021-2025,outgoing
 MZ,Mozambique,2,SNS,2021-2025,outgoing
-NC,New Caledonia,1,SNS,2021-2025,outgoing
 NG,Nigeria,16,SNS,2021-2025,outgoing
 NL,The Netherlands,17937,SNS,2021-2025,outgoing
 NO,Norway,1112,SNS,2021-2025,outgoing
@@ -98,7 +93,6 @@ PE,Peru,31,SNS,2021-2025,outgoing
 PH,Philippines,444,SNS,2021-2025,outgoing
 PK,Pakistan,4399,SNS,2021-2025,outgoing
 PL,Poland,25012,SNS,2021-2025,outgoing
-PR,Puerto Rico,2912,SNS,2021-2025,outgoing
 PS,Palestine,27,SNS,2021-2025,outgoing
 PT,Portugal,4365,SNS,2021-2025,outgoing
 QA,Qatar,800,SNS,2021-2025,outgoing
@@ -122,7 +116,7 @@ TW,Taiwan,11473,SNS,2021-2025,outgoing
 TZ,Tanzania,3,SNS,2021-2025,outgoing
 UA,Ukraine,3676,SNS,2021-2025,outgoing
 UG,Uganda,34,SNS,2021-2025,outgoing
-US,United States,226068,SNS,2021-2025,outgoing
+US,United States,228981,SNS,2021-2025,outgoing
 UY,Uruguay,85,SNS,2021-2025,outgoing
 UZ,Uzbekistan,156,SNS,2021-2025,outgoing
 VE,Venezuela,3,SNS,2021-2025,outgoing
