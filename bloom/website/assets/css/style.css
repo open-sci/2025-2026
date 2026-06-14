@@ -322,6 +322,54 @@ h3 {
     }
 }
 
+/* Styling for the list inside the highlight box */
+.highlight-list {
+    margin-top: 0.75rem;
+    margin-left: 1.5rem; /* Indents the bullets to align perfectly with the text */
+    list-style-type: disc;
+    font-weight: 500; /* Slightly lighter than the 600 weight of the main highlight text for better readability */
+}
+
+.highlight-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Ensure the bolded RQ tags stand out using your primary color */
+.highlight-list li strong {
+    font-weight: 700;
+}
+
+.team-section .highlight-list {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+    list-style-type: none;
+}
+
+.team-section .highlight-list li {
+    font-size: 1.25rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.team-section .highlight-list li strong {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.team-section .team-link {
+    color: #444;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.team-section .team-link:hover {
+    color: var(--color-accent);
+    border-bottom: 2px solid var(--color-accent);
+}
+
 /* Progress Bar */
 #progress-bar {
     position: fixed;
