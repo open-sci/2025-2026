@@ -1,0 +1,229 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,26,UNIMI,incoming
+AE,United Arab Emirates,20598,UNIMI,incoming
+AF,Afghanistan,514,UNIMI,incoming
+AG,Antigua and Barbuda,2977,UNIMI,incoming
+AL,Albania,1595,UNIMI,incoming
+AM,Armenia,16664,UNIMI,incoming
+AO,Angola,1135,UNIMI,incoming
+AR,Argentina,132527,UNIMI,incoming
+AS,American Samoa,1601,UNIMI,incoming
+AT,Austria,251884,UNIMI,incoming
+AU,Australia,807988,UNIMI,incoming
+AW,Aruba,4,UNIMI,incoming
+AX,Åland,7,UNIMI,incoming
+AZ,Azerbaijan,21484,UNIMI,incoming
+BA,Bosnia and Herzegovina,3928,UNIMI,incoming
+BB,Barbados,373,UNIMI,incoming
+BD,Bangladesh,16424,UNIMI,incoming
+BE,Belgium,354398,UNIMI,incoming
+BF,Burkina Faso,1882,UNIMI,incoming
+BG,Bulgaria,35304,UNIMI,incoming
+BH,Bahrain,8616,UNIMI,incoming
+BI,Burundi,140,UNIMI,incoming
+BJ,Benin,2145,UNIMI,incoming
+BM,Bermuda,51,UNIMI,incoming
+BN,Brunei,642,UNIMI,incoming
+BO,Bolivia,1076,UNIMI,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",89,UNIMI,incoming
+BR,Brazil,568964,UNIMI,incoming
+BS,Bahamas,107,UNIMI,incoming
+BT,Bhutan,927,UNIMI,incoming
+BW,Botswana,1417,UNIMI,incoming
+BY,Belarus,43604,UNIMI,incoming
+BZ,Belize,48,UNIMI,incoming
+CA,Canada,899881,UNIMI,incoming
+CD,DR Congo,1305,UNIMI,incoming
+CF,Central African Republic,146,UNIMI,incoming
+CG,Congo Republic,426,UNIMI,incoming
+CH,Switzerland,632484,UNIMI,incoming
+CI,Ivory Coast,1353,UNIMI,incoming
+CL,Chile,97457,UNIMI,incoming
+CM,Cameroon,5615,UNIMI,incoming
+CN,China,2474737,UNIMI,incoming
+CO,Colombia,63398,UNIMI,incoming
+CR,Costa Rica,2631,UNIMI,incoming
+CU,Cuba,5156,UNIMI,incoming
+CV,Cabo Verde,51,UNIMI,incoming
+CW,Curaçao,702,UNIMI,incoming
+CY,Cyprus,22273,UNIMI,incoming
+CZ,Czechia,161182,UNIMI,incoming
+DE,Germany,1981830,UNIMI,incoming
+DJ,Djibouti,12,UNIMI,incoming
+DK,Denmark,354224,UNIMI,incoming
+DM,Dominica,40,UNIMI,incoming
+DO,Dominican Republic,594,UNIMI,incoming
+DZ,Algeria,7984,UNIMI,incoming
+EC,Ecuador,15459,UNIMI,incoming
+EE,Estonia,23555,UNIMI,incoming
+EG,Egypt,87307,UNIMI,incoming
+ER,Eritrea,8,UNIMI,incoming
+ES,Spain,1407611,UNIMI,incoming
+ET,Ethiopia,24516,UNIMI,incoming
+EU,European Union,202,UNIMI,incoming
+FI,Finland,252569,UNIMI,incoming
+FJ,Fiji,957,UNIMI,incoming
+FK,Falkland Islands,4,UNIMI,incoming
+FM,Micronesia,56,UNIMI,incoming
+FO,Faroe Islands,202,UNIMI,incoming
+FR,France,3974384,UNIMI,incoming
+GA,Gabon,996,UNIMI,incoming
+GB,United Kingdom,2464796,UNIMI,incoming
+GD,Grenada,1355,UNIMI,incoming
+GE,Georgia,28331,UNIMI,incoming
+GF,French Guiana,613,UNIMI,incoming
+GH,Ghana,10560,UNIMI,incoming
+GI,Gibraltar,180,UNIMI,incoming
+GL,Greenland,222,UNIMI,incoming
+GM,The Gambia,462,UNIMI,incoming
+GN,Guinea,153,UNIMI,incoming
+GP,Guadeloupe,2498,UNIMI,incoming
+GQ,Equatorial Guinea,2,UNIMI,incoming
+GR,Greece,239438,UNIMI,incoming
+GT,Guatemala,1644,UNIMI,incoming
+GU,Guam,60,UNIMI,incoming
+GW,Guinea-Bissau,350,UNIMI,incoming
+GY,Guyana,115,UNIMI,incoming
+HK,Hong Kong,110058,UNIMI,incoming
+HN,Honduras,464,UNIMI,incoming
+HR,Croatia,66921,UNIMI,incoming
+HT,Haiti,151,UNIMI,incoming
+HU,Hungary,149471,UNIMI,incoming
+ID,Indonesia,31429,UNIMI,incoming
+IE,Ireland,132733,UNIMI,incoming
+IL,Israel,162399,UNIMI,incoming
+IM,Isle of Man,18,UNIMI,incoming
+IN,India,579974,UNIMI,incoming
+IQ,Iraq,12578,UNIMI,incoming
+IR,Iran,248034,UNIMI,incoming
+IS,Iceland,11239,UNIMI,incoming
+IT,Italy,4093666,UNIMI,incoming
+JE,Jersey,42,UNIMI,incoming
+JM,Jamaica,3123,UNIMI,incoming
+JO,Jordan,13353,UNIMI,incoming
+JP,Japan,991329,UNIMI,incoming
+KE,Kenya,10309,UNIMI,incoming
+KG,Kyrgyzstan,788,UNIMI,incoming
+KH,Cambodia,3592,UNIMI,incoming
+KM,Comoros,1,UNIMI,incoming
+KN,St Kitts and Nevis,1251,UNIMI,incoming
+KP,North Korea,173,UNIMI,incoming
+KR,South Korea,598822,UNIMI,incoming
+KW,Kuwait,6379,UNIMI,incoming
+KY,Cayman Islands,23,UNIMI,incoming
+KZ,Kazakhstan,6600,UNIMI,incoming
+LA,Laos,400,UNIMI,incoming
+LB,Lebanon,18959,UNIMI,incoming
+LC,Saint Lucia,80,UNIMI,incoming
+LI,Liechtenstein,520,UNIMI,incoming
+LK,Sri Lanka,10960,UNIMI,incoming
+LR,Liberia,84,UNIMI,incoming
+LS,Lesotho,79,UNIMI,incoming
+LT,Lithuania,16654,UNIMI,incoming
+LU,Luxembourg,7879,UNIMI,incoming
+LV,Latvia,9523,UNIMI,incoming
+LY,Libya,1020,UNIMI,incoming
+MA,Morocco,42815,UNIMI,incoming
+MC,Monaco,434,UNIMI,incoming
+MD,Moldova,1993,UNIMI,incoming
+ME,Montenegro,3027,UNIMI,incoming
+MG,Madagascar,704,UNIMI,incoming
+MH,Marshall Islands,1,UNIMI,incoming
+MK,North Macedonia,3355,UNIMI,incoming
+ML,Mali,418,UNIMI,incoming
+MM,Myanmar,2355,UNIMI,incoming
+MN,Mongolia,2685,UNIMI,incoming
+MO,Macao,5217,UNIMI,incoming
+MP,Northern Mariana Islands,5,UNIMI,incoming
+MQ,Martinique,481,UNIMI,incoming
+MR,Mauritania,50,UNIMI,incoming
+MS,Montserrat,20,UNIMI,incoming
+MT,Malta,3649,UNIMI,incoming
+MU,Mauritius,476,UNIMI,incoming
+MV,Maldives,108,UNIMI,incoming
+MW,Malawi,3076,UNIMI,incoming
+MX,Mexico,138038,UNIMI,incoming
+MY,Malaysia,66602,UNIMI,incoming
+MZ,Mozambique,2336,UNIMI,incoming
+NC,New Caledonia,781,UNIMI,incoming
+NE,Niger,664,UNIMI,incoming
+NG,Nigeria,27693,UNIMI,incoming
+NI,Nicaragua,586,UNIMI,incoming
+NL,The Netherlands,860709,UNIMI,incoming
+NO,Norway,167520,UNIMI,incoming
+NP,Nepal,6327,UNIMI,incoming
+NZ,New Zealand,65355,UNIMI,incoming
+OC,Oceania,4,UNIMI,incoming
+OM,Oman,5478,UNIMI,incoming
+PA,Panama,1874,UNIMI,incoming
+PE,Peru,14151,UNIMI,incoming
+PF,French Polynesia,154,UNIMI,incoming
+PG,Papua New Guinea,331,UNIMI,incoming
+PH,Philippines,15632,UNIMI,incoming
+PK,Pakistan,67570,UNIMI,incoming
+PL,Poland,399411,UNIMI,incoming
+PR,Puerto Rico,13939,UNIMI,incoming
+PS,Palestine,5650,UNIMI,incoming
+PT,Portugal,249692,UNIMI,incoming
+PW,Palau,294,UNIMI,incoming
+PY,Paraguay,950,UNIMI,incoming
+QA,Qatar,22605,UNIMI,incoming
+RE,Réunion,2001,UNIMI,incoming
+RO,Romania,86109,UNIMI,incoming
+RS,Serbia,64149,UNIMI,incoming
+RU,Russia,495597,UNIMI,incoming
+RW,Rwanda,1907,UNIMI,incoming
+SA,Saudi Arabia,78712,UNIMI,incoming
+SB,Solomon Islands,3,UNIMI,incoming
+SC,Seychelles,206,UNIMI,incoming
+SD,Sudan,2599,UNIMI,incoming
+SE,Sweden,316643,UNIMI,incoming
+SG,Singapore,117610,UNIMI,incoming
+SI,Slovenia,54812,UNIMI,incoming
+SJ,Svalbard and Jan Mayen,104,UNIMI,incoming
+SK,Slovakia,68128,UNIMI,incoming
+SL,Sierra Leone,235,UNIMI,incoming
+SM,San Marino,225,UNIMI,incoming
+SN,Senegal,2323,UNIMI,incoming
+SO,Somalia,986,UNIMI,incoming
+SR,Suriname,93,UNIMI,incoming
+SS,South Sudan,55,UNIMI,incoming
+ST,São Tomé and Príncipe,1,UNIMI,incoming
+SV,El Salvador,1481,UNIMI,incoming
+SX,Sint Maarten,122,UNIMI,incoming
+SY,Syria,1556,UNIMI,incoming
+SZ,Eswatini,106,UNIMI,incoming
+TC,Turks and Caicos Islands,5,UNIMI,incoming
+TD,Chad,66,UNIMI,incoming
+TG,Togo,363,UNIMI,incoming
+TH,Thailand,62437,UNIMI,incoming
+TJ,Tajikistan,464,UNIMI,incoming
+TL,Timor-Leste,17,UNIMI,incoming
+TM,Turkmenistan,40,UNIMI,incoming
+TN,Tunisia,20577,UNIMI,incoming
+TO,Tonga,8,UNIMI,incoming
+TR,Turkey,303271,UNIMI,incoming
+TT,Trinidad and Tobago,493,UNIMI,incoming
+TV,Tuvalu,7,UNIMI,incoming
+TW,Taiwan,315398,UNIMI,incoming
+TZ,Tanzania,7034,UNIMI,incoming
+UA,Ukraine,36788,UNIMI,incoming
+UG,Uganda,9439,UNIMI,incoming
+UM,United States Minor Outlying Islands,4,UNIMI,incoming
+US,United States,7524378,UNIMI,incoming
+UY,Uruguay,7421,UNIMI,incoming
+UZ,Uzbekistan,4422,UNIMI,incoming
+VA,Vatican City,4,UNIMI,incoming
+VC,St Vincent and Grenadines,31,UNIMI,incoming
+VE,Venezuela,4308,UNIMI,incoming
+VG,British Virgin Islands,2,UNIMI,incoming
+VI,U.S. Virgin Islands,60,UNIMI,incoming
+VN,Vietnam,28376,UNIMI,incoming
+VU,Vanuatu,2,UNIMI,incoming
+WS,Samoa,23,UNIMI,incoming
+XK,Kosovo,801,UNIMI,incoming
+YE,Yemen,2513,UNIMI,incoming
+YT,Mayotte,16,UNIMI,incoming
+ZA,South Africa,134172,UNIMI,incoming
+ZM,Zambia,2964,UNIMI,incoming
+ZW,Zimbabwe,2427,UNIMI,incoming

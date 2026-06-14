@@ -1,0 +1,197 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,656606,UNITO,2001-2005,outgoing
+Italy,IT,178890,UNITO,2001-2005,outgoing
+France,FR,177990,UNITO,2001-2005,outgoing
+United Kingdom,GB,174591,UNITO,2001-2005,outgoing
+Germany,DE,100485,UNITO,2001-2005,outgoing
+Japan,JP,77533,UNITO,2001-2005,outgoing
+Canada,CA,54161,UNITO,2001-2005,outgoing
+The Netherlands,NL,40730,UNITO,2001-2005,outgoing
+Australia,AU,38142,UNITO,2001-2005,outgoing
+Switzerland,CH,38031,UNITO,2001-2005,outgoing
+Spain,ES,36840,UNITO,2001-2005,outgoing
+Russia,RU,23562,UNITO,2001-2005,outgoing
+Finland,FI,21889,UNITO,2001-2005,outgoing
+China,CN,19946,UNITO,2001-2005,outgoing
+India,IN,18416,UNITO,2001-2005,outgoing
+Belgium,BE,17756,UNITO,2001-2005,outgoing
+Sweden,SE,17723,UNITO,2001-2005,outgoing
+South Korea,KR,13540,UNITO,2001-2005,outgoing
+Denmark,DK,11723,UNITO,2001-2005,outgoing
+Brazil,BR,10116,UNITO,2001-2005,outgoing
+Israel,IL,9939,UNITO,2001-2005,outgoing
+Taiwan,TW,8683,UNITO,2001-2005,outgoing
+Poland,PL,8552,UNITO,2001-2005,outgoing
+Austria,AT,8208,UNITO,2001-2005,outgoing
+Norway,NO,7018,UNITO,2001-2005,outgoing
+Greece,GR,6370,UNITO,2001-2005,outgoing
+Hungary,HU,5576,UNITO,2001-2005,outgoing
+Hong Kong,HK,4959,UNITO,2001-2005,outgoing
+Netherlands,NL,4668,UNITO,2001-2005,outgoing
+Ireland,IE,4641,UNITO,2001-2005,outgoing
+Portugal,PT,4028,UNITO,2001-2005,outgoing
+China (People's Republic of),CN,3854,UNITO,2001-2005,outgoing
+Czechia,CZ,3686,UNITO,2001-2005,outgoing
+Türkiye,TR,3467,UNITO,2001-2005,outgoing
+South Africa,ZA,3466,UNITO,2001-2005,outgoing
+Mexico,MX,3409,UNITO,2001-2005,outgoing
+Singapore,SG,3277,UNITO,2001-2005,outgoing
+Argentina,AR,3234,UNITO,2001-2005,outgoing
+New Zealand,NZ,3027,UNITO,2001-2005,outgoing
+Slovenia,SI,1808,UNITO,2001-2005,outgoing
+Chile,CL,1384,UNITO,2001-2005,outgoing
+Slovakia,SK,1246,UNITO,2001-2005,outgoing
+Uzbekistan,UZ,1151,UNITO,2001-2005,outgoing
+Bulgaria,BG,1099,UNITO,2001-2005,outgoing
+Croatia,HR,1041,UNITO,2001-2005,outgoing
+Thailand,TH,931,UNITO,2001-2005,outgoing
+Tunisia,TN,879,UNITO,2001-2005,outgoing
+Ukraine,UA,838,UNITO,2001-2005,outgoing
+Georgia,GE,765,UNITO,2001-2005,outgoing
+Puerto Rico,PR,761,UNITO,2001-2005,outgoing
+Romania,RO,755,UNITO,2001-2005,outgoing
+Iran,IR,673,UNITO,2001-2005,outgoing
+Serbia,RS,661,UNITO,2001-2005,outgoing
+Korea (Republic of),KR,618,UNITO,2001-2005,outgoing
+Colombia,CO,609,UNITO,2001-2005,outgoing
+Armenia,AM,535,UNITO,2001-2005,outgoing
+Pakistan,PK,534,UNITO,2001-2005,outgoing
+Egypt,EG,470,UNITO,2001-2005,outgoing
+Cyprus,CY,444,UNITO,2001-2005,outgoing
+Tanzania,TZ,400,UNITO,2001-2005,outgoing
+Belarus,BY,398,UNITO,2001-2005,outgoing
+Malaysia,MY,393,UNITO,2001-2005,outgoing
+Jordan,JO,382,UNITO,2001-2005,outgoing
+Estonia,EE,365,UNITO,2001-2005,outgoing
+Iceland,IS,309,UNITO,2001-2005,outgoing
+Ecuador,EC,309,UNITO,2001-2005,outgoing
+Philippines,PH,292,UNITO,2001-2005,outgoing
+Russian Federation,RU,287,UNITO,2001-2005,outgoing
+Lebanon,LB,281,UNITO,2001-2005,outgoing
+Kenya,KE,278,UNITO,2001-2005,outgoing
+Ethiopia,ET,271,UNITO,2001-2005,outgoing
+Vietnam,VN,266,UNITO,2001-2005,outgoing
+Nigeria,NG,245,UNITO,2001-2005,outgoing
+Saudi Arabia,SA,242,UNITO,2001-2005,outgoing
+Bosnia and Herzegovina,BA,235,UNITO,2001-2005,outgoing
+Indonesia,ID,221,UNITO,2001-2005,outgoing
+Morocco,MA,214,UNITO,2001-2005,outgoing
+Venezuela,VE,209,UNITO,2001-2005,outgoing
+Panama,PA,205,UNITO,2001-2005,outgoing
+Algeria,DZ,204,UNITO,2001-2005,outgoing
+United Arab Emirates,AE,204,UNITO,2001-2005,outgoing
+Latvia,LV,194,UNITO,2001-2005,outgoing
+Peru,PE,177,UNITO,2001-2005,outgoing
+Uruguay,UY,176,UNITO,2001-2005,outgoing
+Ghana,GH,176,UNITO,2001-2005,outgoing
+Sri Lanka,LK,152,UNITO,2001-2005,outgoing
+Cuba,CU,141,UNITO,2001-2005,outgoing
+Qatar,QA,126,UNITO,2001-2005,outgoing
+Czech Republic,CZ,119,UNITO,2001-2005,outgoing
+Bahrain,BH,118,UNITO,2001-2005,outgoing
+Réunion,RE,108,UNITO,2001-2005,outgoing
+Azerbaijan,AZ,106,UNITO,2001-2005,outgoing
+Lithuania,LT,103,UNITO,2001-2005,outgoing
+Kuwait,KW,100,UNITO,2001-2005,outgoing
+Uganda,UG,100,UNITO,2001-2005,outgoing
+Cambodia,KH,100,UNITO,2001-2005,outgoing
+Nepal,NP,91,UNITO,2001-2005,outgoing
+Bermuda,BM,91,UNITO,2001-2005,outgoing
+Oman,OM,86,UNITO,2001-2005,outgoing
+Bangladesh,BD,84,UNITO,2001-2005,outgoing
+Costa Rica,CR,82,UNITO,2001-2005,outgoing
+Benin,BJ,80,UNITO,2001-2005,outgoing
+Luxembourg,LU,71,UNITO,2001-2005,outgoing
+Jamaica,JM,67,UNITO,2001-2005,outgoing
+Mozambique,MZ,59,UNITO,2001-2005,outgoing
+Palestine,PS,53,UNITO,2001-2005,outgoing
+Angola,AO,53,UNITO,2001-2005,outgoing
+Guadeloupe,GP,50,UNITO,2001-2005,outgoing
+Macao,MO,49,UNITO,2001-2005,outgoing
+Kazakhstan,KZ,49,UNITO,2001-2005,outgoing
+Zimbabwe,ZW,47,UNITO,2001-2005,outgoing
+Turkey,TR,45,UNITO,2001-2005,outgoing
+Cameroon,CM,39,UNITO,2001-2005,outgoing
+North Macedonia,MK,37,UNITO,2001-2005,outgoing
+Barbados,BB,36,UNITO,2001-2005,outgoing
+Namibia,,36,UNITO,2001-2005,outgoing
+Malawi,MW,36,UNITO,2001-2005,outgoing
+El Salvador,SV,34,UNITO,2001-2005,outgoing
+Montenegro,ME,33,UNITO,2001-2005,outgoing
+Albania,AL,32,UNITO,2001-2005,outgoing
+Curaçao,CW,32,UNITO,2001-2005,outgoing
+Madagascar,MG,30,UNITO,2001-2005,outgoing
+Sudan,SD,29,UNITO,2001-2005,outgoing
+Gabon,GA,29,UNITO,2001-2005,outgoing
+Myanmar,MM,29,UNITO,2001-2005,outgoing
+Burundi,BI,28,UNITO,2001-2005,outgoing
+Mongolia,MN,28,UNITO,2001-2005,outgoing
+Botswana,BW,26,UNITO,2001-2005,outgoing
+Guatemala,GT,24,UNITO,2001-2005,outgoing
+Iraq,IQ,23,UNITO,2001-2005,outgoing
+Bolivia,BO,21,UNITO,2001-2005,outgoing
+Malta,MT,21,UNITO,2001-2005,outgoing
+Tajikistan,TJ,19,UNITO,2001-2005,outgoing
+Honduras,HN,19,UNITO,2001-2005,outgoing
+Syria,SY,18,UNITO,2001-2005,outgoing
+Palau,PW,18,UNITO,2001-2005,outgoing
+European Union,EU,18,UNITO,2001-2005,outgoing
+Zambia,ZM,17,UNITO,2001-2005,outgoing
+Moldova,MD,17,UNITO,2001-2005,outgoing
+New Caledonia,NC,17,UNITO,2001-2005,outgoing
+Montserrat,MS,17,UNITO,2001-2005,outgoing
+Paraguay,PY,16,UNITO,2001-2005,outgoing
+Ivory Coast,CI,15,UNITO,2001-2005,outgoing
+Senegal,SN,15,UNITO,2001-2005,outgoing
+Burkina Faso,BF,13,UNITO,2001-2005,outgoing
+San Marino,SM,12,UNITO,2001-2005,outgoing
+Brunei,BN,11,UNITO,2001-2005,outgoing
+Trinidad and Tobago,TT,10,UNITO,2001-2005,outgoing
+Bhutan,BT,10,UNITO,2001-2005,outgoing
+Mauritius,MU,10,UNITO,2001-2005,outgoing
+Papua New Guinea,PG,10,UNITO,2001-2005,outgoing
+Fiji,FJ,10,UNITO,2001-2005,outgoing
+Grenada,GD,9,UNITO,2001-2005,outgoing
+Mali,ML,9,UNITO,2001-2005,outgoing
+Yemen,YE,9,UNITO,2001-2005,outgoing
+Guinea-Bissau,GW,9,UNITO,2001-2005,outgoing
+DR Congo,CD,8,UNITO,2001-2005,outgoing
+Dominican Republic,DO,8,UNITO,2001-2005,outgoing
+French Guiana,GF,7,UNITO,2001-2005,outgoing
+Guam,GU,7,UNITO,2001-2005,outgoing
+Laos,LA,7,UNITO,2001-2005,outgoing
+Kosovo,XK,7,UNITO,2001-2005,outgoing
+Nicaragua,NI,7,UNITO,2001-2005,outgoing
+Sierra Leone,SL,7,UNITO,2001-2005,outgoing
+Antigua and Barbuda,AG,6,UNITO,2001-2005,outgoing
+Jersey,JE,6,UNITO,2001-2005,outgoing
+Somalia,SO,6,UNITO,2001-2005,outgoing
+St Kitts and Nevis,KN,5,UNITO,2001-2005,outgoing
+Rwanda,RW,5,UNITO,2001-2005,outgoing
+Chad,TD,4,UNITO,2001-2005,outgoing
+U.S. Virgin Islands,VI,4,UNITO,2001-2005,outgoing
+Guyana,GY,4,UNITO,2001-2005,outgoing
+Monaco,MC,4,UNITO,2001-2005,outgoing
+Haiti,HT,3,UNITO,2001-2005,outgoing
+Greenland,GL,3,UNITO,2001-2005,outgoing
+Iran (Islamic Republic of),IR,3,UNITO,2001-2005,outgoing
+Kyrgyzstan,KG,3,UNITO,2001-2005,outgoing
+Afghanistan,AF,3,UNITO,2001-2005,outgoing
+Niger,NE,2,UNITO,2001-2005,outgoing
+Eritrea,ER,2,UNITO,2001-2005,outgoing
+Congo Republic,CG,2,UNITO,2001-2005,outgoing
+Tanzania (United Republic of),TZ,2,UNITO,2001-2005,outgoing
+Liechtenstein,LI,2,UNITO,2001-2005,outgoing
+Libya,LY,2,UNITO,2001-2005,outgoing
+"Bonaire, Sint Eustatius, and Saba",BQ,2,UNITO,2001-2005,outgoing
+Samoa,WS,1,UNITO,2001-2005,outgoing
+Cayman Islands,KY,1,UNITO,2001-2005,outgoing
+Svalbard and Jan Mayen,SJ,1,UNITO,2001-2005,outgoing
+Togo,TG,1,UNITO,2001-2005,outgoing
+Former Yugoslav Republic of Macedonia,MK,1,UNITO,2001-2005,outgoing
+American Samoa,AS,1,UNITO,2001-2005,outgoing
+Maldives,MV,1,UNITO,2001-2005,outgoing
+Liberia,LR,1,UNITO,2001-2005,outgoing
+Solomon Islands,SB,1,UNITO,2001-2005,outgoing
+Martinique,MQ,1,UNITO,2001-2005,outgoing
+Central African Republic,CF,1,UNITO,2001-2005,outgoing

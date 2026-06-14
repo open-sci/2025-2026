@@ -1,0 +1,127 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,184011,SNS,2001-2005,outgoing
+France,FR,66060,SNS,2001-2005,outgoing
+Italy,IT,58215,SNS,2001-2005,outgoing
+United Kingdom,GB,42948,SNS,2001-2005,outgoing
+Japan,JP,41011,SNS,2001-2005,outgoing
+Germany,DE,26892,SNS,2001-2005,outgoing
+Russia,RU,15163,SNS,2001-2005,outgoing
+Switzerland,CH,12968,SNS,2001-2005,outgoing
+Canada,CA,12812,SNS,2001-2005,outgoing
+Finland,FI,11612,SNS,2001-2005,outgoing
+Spain,ES,11193,SNS,2001-2005,outgoing
+India,IN,9802,SNS,2001-2005,outgoing
+South Korea,KR,8355,SNS,2001-2005,outgoing
+China,CN,7548,SNS,2001-2005,outgoing
+The Netherlands,NL,5507,SNS,2001-2005,outgoing
+Australia,AU,4591,SNS,2001-2005,outgoing
+Taiwan,TW,4403,SNS,2001-2005,outgoing
+Poland,PL,3491,SNS,2001-2005,outgoing
+Israel,IL,2363,SNS,2001-2005,outgoing
+Austria,AT,2298,SNS,2001-2005,outgoing
+Brazil,BR,2281,SNS,2001-2005,outgoing
+Sweden,SE,2231,SNS,2001-2005,outgoing
+Slovenia,SI,2112,SNS,2001-2005,outgoing
+Belgium,BE,2032,SNS,2001-2005,outgoing
+Norway,NO,1841,SNS,2001-2005,outgoing
+China (People's Republic of),CN,1717,SNS,2001-2005,outgoing
+Denmark,DK,1648,SNS,2001-2005,outgoing
+Hungary,HU,1633,SNS,2001-2005,outgoing
+Mexico,MX,1164,SNS,2001-2005,outgoing
+Czechia,CZ,1157,SNS,2001-2005,outgoing
+Argentina,AR,825,SNS,2001-2005,outgoing
+Greece,GR,681,SNS,2001-2005,outgoing
+Portugal,PT,581,SNS,2001-2005,outgoing
+Netherlands,NL,507,SNS,2001-2005,outgoing
+Colombia,CO,478,SNS,2001-2005,outgoing
+Ireland,IE,428,SNS,2001-2005,outgoing
+Hong Kong,HK,420,SNS,2001-2005,outgoing
+Chile,CL,402,SNS,2001-2005,outgoing
+Slovakia,SK,394,SNS,2001-2005,outgoing
+Singapore,SG,370,SNS,2001-2005,outgoing
+Puerto Rico,PR,290,SNS,2001-2005,outgoing
+Cyprus,CY,276,SNS,2001-2005,outgoing
+Ecuador,EC,276,SNS,2001-2005,outgoing
+Ukraine,UA,246,SNS,2001-2005,outgoing
+Uzbekistan,UZ,237,SNS,2001-2005,outgoing
+Tanzania,TZ,220,SNS,2001-2005,outgoing
+Romania,RO,218,SNS,2001-2005,outgoing
+Croatia,HR,190,SNS,2001-2005,outgoing
+Bulgaria,BG,188,SNS,2001-2005,outgoing
+Türkiye,TR,157,SNS,2001-2005,outgoing
+Georgia,GE,149,SNS,2001-2005,outgoing
+New Zealand,NZ,136,SNS,2001-2005,outgoing
+Russian Federation,RU,109,SNS,2001-2005,outgoing
+Korea (Republic of),KR,106,SNS,2001-2005,outgoing
+South Africa,ZA,105,SNS,2001-2005,outgoing
+Tunisia,TN,85,SNS,2001-2005,outgoing
+Armenia,AM,83,SNS,2001-2005,outgoing
+Iran,IR,78,SNS,2001-2005,outgoing
+Serbia,RS,70,SNS,2001-2005,outgoing
+Pakistan,PK,59,SNS,2001-2005,outgoing
+Czech Republic,CZ,54,SNS,2001-2005,outgoing
+Estonia,EE,42,SNS,2001-2005,outgoing
+Azerbaijan,AZ,39,SNS,2001-2005,outgoing
+Egypt,EG,36,SNS,2001-2005,outgoing
+Uruguay,UY,34,SNS,2001-2005,outgoing
+Thailand,TH,33,SNS,2001-2005,outgoing
+Belarus,BY,32,SNS,2001-2005,outgoing
+Ghana,GH,31,SNS,2001-2005,outgoing
+Uganda,UG,31,SNS,2001-2005,outgoing
+Vietnam,VN,24,SNS,2001-2005,outgoing
+Morocco,MA,23,SNS,2001-2005,outgoing
+Venezuela,VE,19,SNS,2001-2005,outgoing
+Latvia,LV,19,SNS,2001-2005,outgoing
+Qatar,QA,17,SNS,2001-2005,outgoing
+Luxembourg,LU,14,SNS,2001-2005,outgoing
+Malaysia,MY,14,SNS,2001-2005,outgoing
+Algeria,DZ,14,SNS,2001-2005,outgoing
+Iceland,IS,13,SNS,2001-2005,outgoing
+Bahrain,BH,12,SNS,2001-2005,outgoing
+Cambodia,KH,12,SNS,2001-2005,outgoing
+United Arab Emirates,AE,12,SNS,2001-2005,outgoing
+Bosnia and Herzegovina,BA,12,SNS,2001-2005,outgoing
+Philippines,PH,11,SNS,2001-2005,outgoing
+Tajikistan,TJ,11,SNS,2001-2005,outgoing
+Saudi Arabia,SA,10,SNS,2001-2005,outgoing
+Sri Lanka,LK,9,SNS,2001-2005,outgoing
+Cameroon,CM,8,SNS,2001-2005,outgoing
+Nigeria,NG,7,SNS,2001-2005,outgoing
+Angola,AO,7,SNS,2001-2005,outgoing
+Palestine,PS,7,SNS,2001-2005,outgoing
+Brunei,BN,7,SNS,2001-2005,outgoing
+Mongolia,MN,7,SNS,2001-2005,outgoing
+Indonesia,ID,6,SNS,2001-2005,outgoing
+Kenya,KE,6,SNS,2001-2005,outgoing
+Lebanon,LB,6,SNS,2001-2005,outgoing
+Cuba,CU,6,SNS,2001-2005,outgoing
+Malta,MT,6,SNS,2001-2005,outgoing
+Barbados,BB,6,SNS,2001-2005,outgoing
+Jamaica,JM,6,SNS,2001-2005,outgoing
+Montenegro,ME,5,SNS,2001-2005,outgoing
+Mozambique,MZ,5,SNS,2001-2005,outgoing
+Jordan,JO,5,SNS,2001-2005,outgoing
+Lithuania,LT,5,SNS,2001-2005,outgoing
+Peru,PE,4,SNS,2001-2005,outgoing
+Oman,OM,4,SNS,2001-2005,outgoing
+Kuwait,KW,4,SNS,2001-2005,outgoing
+Burundi,BI,4,SNS,2001-2005,outgoing
+Yemen,YE,3,SNS,2001-2005,outgoing
+Benin,BJ,2,SNS,2001-2005,outgoing
+Ethiopia,ET,2,SNS,2001-2005,outgoing
+Kazakhstan,KZ,2,SNS,2001-2005,outgoing
+Bangladesh,BD,2,SNS,2001-2005,outgoing
+Costa Rica,CR,2,SNS,2001-2005,outgoing
+New Caledonia,NC,1,SNS,2001-2005,outgoing
+Maldives,MV,1,SNS,2001-2005,outgoing
+Réunion,RE,1,SNS,2001-2005,outgoing
+North Macedonia,MK,1,SNS,2001-2005,outgoing
+Namibia,,1,SNS,2001-2005,outgoing
+Mauritania,MR,1,SNS,2001-2005,outgoing
+Ivory Coast,CI,1,SNS,2001-2005,outgoing
+Palau,PW,1,SNS,2001-2005,outgoing
+European Union,EU,1,SNS,2001-2005,outgoing
+Turkey,TR,1,SNS,2001-2005,outgoing
+Iran (Islamic Republic of),IR,1,SNS,2001-2005,outgoing
+Rwanda,RW,1,SNS,2001-2005,outgoing
+French Polynesia,PF,1,SNS,2001-2005,outgoing

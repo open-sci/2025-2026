@@ -1,0 +1,146 @@
+country_name,country_code,count
+United States,US,313761
+France,FR,128650
+Italy,IT,101117
+United Kingdom,GB,67710
+Germany,DE,49498
+Japan,JP,36132
+Spain,ES,26249
+Russia,RU,22920
+Canada,CA,18831
+Switzerland,CH,17125
+South Korea,KR,14197
+China,CN,12164
+The Netherlands,NL,11791
+Finland,FI,11477
+India,IN,10022
+Taiwan,TW,8249
+Australia,AU,8082
+Poland,PL,7125
+Sweden,SE,6524
+Brazil,BR,6371
+Belgium,BE,4768
+Austria,AT,3604
+Slovenia,SI,3604
+Greece,GR,3443
+Mexico,MX,3428
+Czechia,CZ,3174
+Israel,IL,2927
+Slovakia,SK,2867
+China (People's Republic of),CN,2853
+Norway,NO,2467
+Denmark,DK,2444
+Ireland,IE,2131
+Hungary,HU,1535
+Türkiye,TR,1484
+Colombia,CO,1455
+Portugal,PT,1400
+Cyprus,CY,1344
+Argentina,AR,1338
+Ukraine,UA,1322
+Netherlands,NL,1065
+Chile,CL,1043
+Singapore,SG,1009
+Ecuador,EC,664
+Croatia,HR,594
+Puerto Rico,PR,584
+Romania,RO,522
+Hong Kong,HK,514
+Bulgaria,BG,442
+Serbia,RS,401
+New Zealand,NZ,356
+South Africa,ZA,341
+Georgia,GE,327
+Armenia,AM,320
+Belarus,BY,308
+Korea (Republic of),KR,285
+Iran,IR,283
+Tanzania,TZ,222
+Jordan,JO,203
+Russian Federation,RU,182
+Uzbekistan,UZ,180
+Estonia,EE,178
+Pakistan,PK,150
+Morocco,MA,127
+Azerbaijan,AZ,124
+Bahrain,BH,123
+Ghana,GH,102
+Malaysia,MY,96
+Luxembourg,LU,86
+Thailand,TH,69
+Czech Republic,CZ,69
+Montenegro,ME,68
+Egypt,EG,61
+Qatar,QA,56
+Cuba,CU,53
+Lithuania,LT,53
+Uganda,UG,50
+Vietnam,VN,46
+Iceland,IS,45
+Mongolia,MN,43
+Tunisia,TN,41
+Mozambique,MZ,41
+Peru,PE,40
+United Arab Emirates,AE,32
+Saudi Arabia,SA,29
+Algeria,DZ,29
+Uruguay,UY,28
+Philippines,PH,27
+Kazakhstan,KZ,22
+Indonesia,ID,17
+Cambodia,KH,17
+Latvia,LV,17
+Venezuela,VE,16
+Tajikistan,TJ,16
+Cameroon,CM,15
+Bosnia and Herzegovina,BA,14
+Turkey,TR,13
+Sri Lanka,LK,13
+Iran (Islamic Republic of),IR,12
+Lebanon,LB,11
+Costa Rica,CR,10
+Kenya,KE,8
+Moldova,MD,7
+Palestine,PS,7
+Angola,AO,6
+Namibia,NA,6
+European Union,EU,6
+Ethiopia,ET,5
+Brunei,BN,5
+Zimbabwe,ZW,5
+Senegal,SN,5
+Nigeria,NG,5
+Réunion,RE,5
+Bermuda,BM,4
+Guadeloupe,GP,3
+Panama,PA,3
+Benin,BJ,3
+Bangladesh,BD,2
+Bolivia,BO,2
+Malta,MT,2
+Macao,MO,2
+Papua New Guinea,PG,2
+San Marino,SM,2
+Kuwait,KW,2
+Tanzania (United Republic of),TZ,2
+Iraq,IQ,2
+French Polynesia,PF,2
+Yemen,YE,1
+Barbados,BB,1
+Jamaica,JM,1
+DR Congo,CD,1
+Rwanda,RW,1
+Mali,ML,1
+Niger,NE,1
+North Korea,KP,1
+Gabon,GA,1
+Jersey,JE,1
+Montserrat,MS,1
+Curaçao,CW,1
+Madagascar,MG,1
+Eswatini,SZ,1
+Nicaragua,NI,1
+Nepal,NP,1
+Paraguay,PY,1
+American Samoa,AS,1
+Afghanistan,AF,1

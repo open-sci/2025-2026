@@ -1,0 +1,216 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,1500232,UNIMI,2006-2010,outgoing
+France,FR,512130,UNIMI,2006-2010,outgoing
+Italy,IT,467851,UNIMI,2006-2010,outgoing
+United Kingdom,GB,430868,UNIMI,2006-2010,outgoing
+Germany,DE,261636,UNIMI,2006-2010,outgoing
+Canada,CA,141658,UNIMI,2006-2010,outgoing
+The Netherlands,NL,131868,UNIMI,2006-2010,outgoing
+Japan,JP,119799,UNIMI,2006-2010,outgoing
+Spain,ES,119216,UNIMI,2006-2010,outgoing
+Australia,AU,112660,UNIMI,2006-2010,outgoing
+Switzerland,CH,99227,UNIMI,2006-2010,outgoing
+China,CN,66824,UNIMI,2006-2010,outgoing
+Belgium,BE,52456,UNIMI,2006-2010,outgoing
+Sweden,SE,50555,UNIMI,2006-2010,outgoing
+Denmark,DK,42994,UNIMI,2006-2010,outgoing
+South Korea,KR,40338,UNIMI,2006-2010,outgoing
+Finland,FI,35753,UNIMI,2006-2010,outgoing
+Brazil,BR,35571,UNIMI,2006-2010,outgoing
+India,IN,33559,UNIMI,2006-2010,outgoing
+Russia,RU,31540,UNIMI,2006-2010,outgoing
+Taiwan,TW,28385,UNIMI,2006-2010,outgoing
+Austria,AT,25336,UNIMI,2006-2010,outgoing
+Poland,PL,25168,UNIMI,2006-2010,outgoing
+Israel,IL,21795,UNIMI,2006-2010,outgoing
+Greece,GR,21046,UNIMI,2006-2010,outgoing
+Norway,NO,19713,UNIMI,2006-2010,outgoing
+Netherlands,NL,19665,UNIMI,2006-2010,outgoing
+Ireland,IE,18196,UNIMI,2006-2010,outgoing
+Portugal,PT,14109,UNIMI,2006-2010,outgoing
+Singapore,SG,13656,UNIMI,2006-2010,outgoing
+Hong Kong,HK,12786,UNIMI,2006-2010,outgoing
+Hungary,HU,12039,UNIMI,2006-2010,outgoing
+Czechia,CZ,11493,UNIMI,2006-2010,outgoing
+Türkiye,TR,11487,UNIMI,2006-2010,outgoing
+China (People's Republic of),CN,10626,UNIMI,2006-2010,outgoing
+New Zealand,NZ,10456,UNIMI,2006-2010,outgoing
+Mexico,MX,9992,UNIMI,2006-2010,outgoing
+South Africa,ZA,9777,UNIMI,2006-2010,outgoing
+Argentina,AR,9523,UNIMI,2006-2010,outgoing
+Iran,IR,5208,UNIMI,2006-2010,outgoing
+Slovenia,SI,4658,UNIMI,2006-2010,outgoing
+Slovakia,SK,4371,UNIMI,2006-2010,outgoing
+Croatia,HR,4066,UNIMI,2006-2010,outgoing
+Chile,CL,4038,UNIMI,2006-2010,outgoing
+Thailand,TH,3597,UNIMI,2006-2010,outgoing
+Ukraine,UA,3117,UNIMI,2006-2010,outgoing
+Tunisia,TN,2743,UNIMI,2006-2010,outgoing
+Korea (Republic of),KR,2649,UNIMI,2006-2010,outgoing
+Colombia,CO,2421,UNIMI,2006-2010,outgoing
+Serbia,RS,2215,UNIMI,2006-2010,outgoing
+Egypt,EG,2170,UNIMI,2006-2010,outgoing
+Romania,RO,2115,UNIMI,2006-2010,outgoing
+Bulgaria,BG,2096,UNIMI,2006-2010,outgoing
+Malaysia,MY,2037,UNIMI,2006-2010,outgoing
+Pakistan,PK,1891,UNIMI,2006-2010,outgoing
+Iceland,IS,1883,UNIMI,2006-2010,outgoing
+Estonia,EE,1811,UNIMI,2006-2010,outgoing
+Georgia,GE,1721,UNIMI,2006-2010,outgoing
+Puerto Rico,PR,1646,UNIMI,2006-2010,outgoing
+Lebanon,LB,1549,UNIMI,2006-2010,outgoing
+Jordan,JO,1432,UNIMI,2006-2010,outgoing
+Cyprus,CY,1390,UNIMI,2006-2010,outgoing
+Belarus,BY,1378,UNIMI,2006-2010,outgoing
+Saudi Arabia,SA,1372,UNIMI,2006-2010,outgoing
+Bahrain,BH,1321,UNIMI,2006-2010,outgoing
+Philippines,PH,1287,UNIMI,2006-2010,outgoing
+Qatar,QA,1115,UNIMI,2006-2010,outgoing
+Vietnam,VN,1104,UNIMI,2006-2010,outgoing
+Tanzania,TZ,1075,UNIMI,2006-2010,outgoing
+Kenya,KE,1054,UNIMI,2006-2010,outgoing
+Ethiopia,ET,882,UNIMI,2006-2010,outgoing
+Morocco,MA,822,UNIMI,2006-2010,outgoing
+Armenia,AM,776,UNIMI,2006-2010,outgoing
+Nigeria,NG,751,UNIMI,2006-2010,outgoing
+Peru,PE,734,UNIMI,2006-2010,outgoing
+United Arab Emirates,AE,722,UNIMI,2006-2010,outgoing
+Indonesia,ID,694,UNIMI,2006-2010,outgoing
+Ghana,GH,685,UNIMI,2006-2010,outgoing
+Uruguay,UY,645,UNIMI,2006-2010,outgoing
+Venezuela,VE,635,UNIMI,2006-2010,outgoing
+Russian Federation,RU,629,UNIMI,2006-2010,outgoing
+Cuba,CU,579,UNIMI,2006-2010,outgoing
+Uganda,UG,578,UNIMI,2006-2010,outgoing
+Ecuador,EC,567,UNIMI,2006-2010,outgoing
+Uzbekistan,UZ,545,UNIMI,2006-2010,outgoing
+Bosnia and Herzegovina,BA,544,UNIMI,2006-2010,outgoing
+Czech Republic,CZ,504,UNIMI,2006-2010,outgoing
+Lithuania,LT,465,UNIMI,2006-2010,outgoing
+Algeria,DZ,451,UNIMI,2006-2010,outgoing
+Luxembourg,LU,451,UNIMI,2006-2010,outgoing
+Bangladesh,BD,419,UNIMI,2006-2010,outgoing
+Latvia,LV,401,UNIMI,2006-2010,outgoing
+Sri Lanka,LK,386,UNIMI,2006-2010,outgoing
+Nepal,NP,342,UNIMI,2006-2010,outgoing
+Palestine,PS,335,UNIMI,2006-2010,outgoing
+Cambodia,KH,315,UNIMI,2006-2010,outgoing
+Panama,PA,296,UNIMI,2006-2010,outgoing
+Jamaica,JM,284,UNIMI,2006-2010,outgoing
+Guadeloupe,GP,264,UNIMI,2006-2010,outgoing
+Benin,BJ,242,UNIMI,2006-2010,outgoing
+Azerbaijan,AZ,234,UNIMI,2006-2010,outgoing
+Oman,OM,229,UNIMI,2006-2010,outgoing
+Mozambique,MZ,228,UNIMI,2006-2010,outgoing
+Réunion,RE,228,UNIMI,2006-2010,outgoing
+Turkey,TR,227,UNIMI,2006-2010,outgoing
+Kuwait,KW,223,UNIMI,2006-2010,outgoing
+Zambia,ZM,212,UNIMI,2006-2010,outgoing
+Costa Rica,CR,211,UNIMI,2006-2010,outgoing
+Guatemala,GT,190,UNIMI,2006-2010,outgoing
+Burkina Faso,BF,189,UNIMI,2006-2010,outgoing
+Mongolia,MN,185,UNIMI,2006-2010,outgoing
+Cameroon,CM,183,UNIMI,2006-2010,outgoing
+Kazakhstan,KZ,180,UNIMI,2006-2010,outgoing
+Malta,MT,162,UNIMI,2006-2010,outgoing
+Montenegro,ME,154,UNIMI,2006-2010,outgoing
+North Macedonia,MK,153,UNIMI,2006-2010,outgoing
+Grenada,GD,139,UNIMI,2006-2010,outgoing
+Bolivia,BO,128,UNIMI,2006-2010,outgoing
+Curaçao,CW,125,UNIMI,2006-2010,outgoing
+Malawi,MW,119,UNIMI,2006-2010,outgoing
+Myanmar,MM,118,UNIMI,2006-2010,outgoing
+Gabon,GA,117,UNIMI,2006-2010,outgoing
+DR Congo,CD,115,UNIMI,2006-2010,outgoing
+Senegal,SN,108,UNIMI,2006-2010,outgoing
+Iraq,IQ,107,UNIMI,2006-2010,outgoing
+El Salvador,SV,98,UNIMI,2006-2010,outgoing
+Zimbabwe,ZW,98,UNIMI,2006-2010,outgoing
+Sudan,SD,94,UNIMI,2006-2010,outgoing
+Syria,SY,92,UNIMI,2006-2010,outgoing
+Moldova,MD,83,UNIMI,2006-2010,outgoing
+Albania,AL,83,UNIMI,2006-2010,outgoing
+Angola,AO,76,UNIMI,2006-2010,outgoing
+Macao,MO,76,UNIMI,2006-2010,outgoing
+Guinea-Bissau,GW,67,UNIMI,2006-2010,outgoing
+French Guiana,GF,66,UNIMI,2006-2010,outgoing
+Palau,PW,65,UNIMI,2006-2010,outgoing
+Paraguay,PY,60,UNIMI,2006-2010,outgoing
+Ivory Coast,CI,59,UNIMI,2006-2010,outgoing
+New Caledonia,NC,58,UNIMI,2006-2010,outgoing
+Antigua and Barbuda,AG,57,UNIMI,2006-2010,outgoing
+Libya,LY,55,UNIMI,2006-2010,outgoing
+Trinidad and Tobago,TT,54,UNIMI,2006-2010,outgoing
+Somalia,SO,53,UNIMI,2006-2010,outgoing
+Yemen,YE,53,UNIMI,2006-2010,outgoing
+Madagascar,MG,49,UNIMI,2006-2010,outgoing
+Iran (Islamic Republic of),IR,48,UNIMI,2006-2010,outgoing
+European Union,EU,45,UNIMI,2006-2010,outgoing
+Nicaragua,NI,43,UNIMI,2006-2010,outgoing
+Rwanda,RW,42,UNIMI,2006-2010,outgoing
+Brunei,BN,39,UNIMI,2006-2010,outgoing
+Seychelles,SC,38,UNIMI,2006-2010,outgoing
+Papua New Guinea,PG,37,UNIMI,2006-2010,outgoing
+Mauritius,MU,37,UNIMI,2006-2010,outgoing
+Dominican Republic,DO,34,UNIMI,2006-2010,outgoing
+Barbados,BB,34,UNIMI,2006-2010,outgoing
+Svalbard and Jan Mayen,SJ,34,UNIMI,2006-2010,outgoing
+Bhutan,BT,34,UNIMI,2006-2010,outgoing
+Mali,ML,33,UNIMI,2006-2010,outgoing
+Botswana,BW,32,UNIMI,2006-2010,outgoing
+San Marino,SM,30,UNIMI,2006-2010,outgoing
+Honduras,HN,27,UNIMI,2006-2010,outgoing
+Fiji,FJ,26,UNIMI,2006-2010,outgoing
+American Samoa,AS,24,UNIMI,2006-2010,outgoing
+Niger,NE,23,UNIMI,2006-2010,outgoing
+St Kitts and Nevis,KN,23,UNIMI,2006-2010,outgoing
+Maldives,MV,22,UNIMI,2006-2010,outgoing
+Togo,TG,21,UNIMI,2006-2010,outgoing
+Congo Republic,CG,20,UNIMI,2006-2010,outgoing
+Burundi,BI,19,UNIMI,2006-2010,outgoing
+Tajikistan,TJ,19,UNIMI,2006-2010,outgoing
+Mauritania,MR,19,UNIMI,2006-2010,outgoing
+The Gambia,GM,17,UNIMI,2006-2010,outgoing
+Tanzania (United Republic of),TZ,14,UNIMI,2006-2010,outgoing
+Jersey,JE,14,UNIMI,2006-2010,outgoing
+Laos,LA,13,UNIMI,2006-2010,outgoing
+Isle of Man,IM,11,UNIMI,2006-2010,outgoing
+Namibia,,11,UNIMI,2006-2010,outgoing
+Bermuda,BM,11,UNIMI,2006-2010,outgoing
+Former Yugoslav Republic of Macedonia,MK,11,UNIMI,2006-2010,outgoing
+French Polynesia,PF,10,UNIMI,2006-2010,outgoing
+Monaco,MC,10,UNIMI,2006-2010,outgoing
+Afghanistan,AF,10,UNIMI,2006-2010,outgoing
+Central African Republic,CF,9,UNIMI,2006-2010,outgoing
+Congo (Democratic Republic of),CD,8,UNIMI,2006-2010,outgoing
+Martinique,MQ,8,UNIMI,2006-2010,outgoing
+Chad,TD,7,UNIMI,2006-2010,outgoing
+Kyrgyzstan,KG,7,UNIMI,2006-2010,outgoing
+Greenland,GL,7,UNIMI,2006-2010,outgoing
+Tonga,TO,6,UNIMI,2006-2010,outgoing
+Suriname,SR,6,UNIMI,2006-2010,outgoing
+Liechtenstein,LI,6,UNIMI,2006-2010,outgoing
+Kosovo,XK,5,UNIMI,2006-2010,outgoing
+Guyana,GY,5,UNIMI,2006-2010,outgoing
+Eritrea,ER,5,UNIMI,2006-2010,outgoing
+Sierra Leone,SL,4,UNIMI,2006-2010,outgoing
+"Bonaire, Sint Eustatius, and Saba",BQ,4,UNIMI,2006-2010,outgoing
+Liberia,LR,4,UNIMI,2006-2010,outgoing
+Saint Lucia,LC,4,UNIMI,2006-2010,outgoing
+Micronesia,FM,4,UNIMI,2006-2010,outgoing
+Haiti,HT,4,UNIMI,2006-2010,outgoing
+Guam,GU,3,UNIMI,2006-2010,outgoing
+Sint Maarten,SX,3,UNIMI,2006-2010,outgoing
+Cayman Islands,KY,3,UNIMI,2006-2010,outgoing
+Guinea,GN,2,UNIMI,2006-2010,outgoing
+Gibraltar,GI,2,UNIMI,2006-2010,outgoing
+Lesotho,LS,2,UNIMI,2006-2010,outgoing
+St Vincent and Grenadines,VC,2,UNIMI,2006-2010,outgoing
+Djibouti,DJ,2,UNIMI,2006-2010,outgoing
+Belize,BZ,1,UNIMI,2006-2010,outgoing
+U.S. Virgin Islands,VI,1,UNIMI,2006-2010,outgoing
+Timor-Leste,TL,1,UNIMI,2006-2010,outgoing
+Eswatini,SZ,1,UNIMI,2006-2010,outgoing
+Viet Nam,VN,1,UNIMI,2006-2010,outgoing
+Bahamas,BS,1,UNIMI,2006-2010,outgoing
+South Sudan,SS,1,UNIMI,2006-2010,outgoing

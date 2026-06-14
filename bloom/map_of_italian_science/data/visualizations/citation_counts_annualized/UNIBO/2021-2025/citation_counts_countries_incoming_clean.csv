@@ -1,0 +1,246 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,1797333,UNIBO,2021-2025,incoming
+France,FR,1102875,UNIBO,2021-2025,incoming
+China,CN,1045963,UNIBO,2021-2025,incoming
+Italy,IT,847368,UNIBO,2021-2025,incoming
+United Kingdom,GB,583034,UNIBO,2021-2025,incoming
+Germany,DE,568442,UNIBO,2021-2025,incoming
+Spain,ES,449936,UNIBO,2021-2025,incoming
+Japan,JP,269763,UNIBO,2021-2025,incoming
+Australia,AU,237049,UNIBO,2021-2025,incoming
+India,IN,224135,UNIBO,2021-2025,incoming
+Canada,CA,215747,UNIBO,2021-2025,incoming
+The Netherlands,NL,189950,UNIBO,2021-2025,incoming
+South Korea,KR,169622,UNIBO,2021-2025,incoming
+Switzerland,CH,159987,UNIBO,2021-2025,incoming
+Brazil,BR,155443,UNIBO,2021-2025,incoming
+Poland,PL,129922,UNIBO,2021-2025,incoming
+Russia,RU,118570,UNIBO,2021-2025,incoming
+Denmark,DK,101029,UNIBO,2021-2025,incoming
+Iran,IR,96606,UNIBO,2021-2025,incoming
+Portugal,PT,91731,UNIBO,2021-2025,incoming
+Taiwan,TW,90723,UNIBO,2021-2025,incoming
+Belgium,BE,83065,UNIBO,2021-2025,incoming
+Türkiye,TR,82201,UNIBO,2021-2025,incoming
+China (People's Republic of),CN,78911,UNIBO,2021-2025,incoming
+Sweden,SE,77836,UNIBO,2021-2025,incoming
+Austria,AT,73138,UNIBO,2021-2025,incoming
+Greece,GR,61741,UNIBO,2021-2025,incoming
+Finland,FI,57563,UNIBO,2021-2025,incoming
+Chile,CL,48051,UNIBO,2021-2025,incoming
+Norway,NO,44732,UNIBO,2021-2025,incoming
+Mexico,MX,44024,UNIBO,2021-2025,incoming
+South Africa,ZA,43197,UNIBO,2021-2025,incoming
+Czechia,CZ,42205,UNIBO,2021-2025,incoming
+Israel,IL,40529,UNIBO,2021-2025,incoming
+Hungary,HU,39363,UNIBO,2021-2025,incoming
+Saudi Arabia,SA,37966,UNIBO,2021-2025,incoming
+Egypt,EG,37316,UNIBO,2021-2025,incoming
+Netherlands,NL,37258,UNIBO,2021-2025,incoming
+Ireland,IE,34603,UNIBO,2021-2025,incoming
+Argentina,AR,33130,UNIBO,2021-2025,incoming
+Hong Kong,HK,32976,UNIBO,2021-2025,incoming
+Singapore,SG,32243,UNIBO,2021-2025,incoming
+Pakistan,PK,31555,UNIBO,2021-2025,incoming
+Romania,RO,27739,UNIBO,2021-2025,incoming
+Malaysia,MY,26828,UNIBO,2021-2025,incoming
+Thailand,TH,21646,UNIBO,2021-2025,incoming
+Croatia,HR,20639,UNIBO,2021-2025,incoming
+Colombia,CO,18978,UNIBO,2021-2025,incoming
+Serbia,RS,18930,UNIBO,2021-2025,incoming
+New Zealand,NZ,18783,UNIBO,2021-2025,incoming
+Indonesia,ID,17039,UNIBO,2021-2025,incoming
+Slovakia,SK,16260,UNIBO,2021-2025,incoming
+Slovenia,SI,13708,UNIBO,2021-2025,incoming
+Vietnam,VN,12665,UNIBO,2021-2025,incoming
+Nigeria,NG,12627,UNIBO,2021-2025,incoming
+Ukraine,UA,12612,UNIBO,2021-2025,incoming
+Morocco,MA,11603,UNIBO,2021-2025,incoming
+United Arab Emirates,AE,11223,UNIBO,2021-2025,incoming
+Bulgaria,BG,10369,UNIBO,2021-2025,incoming
+Bangladesh,BD,9493,UNIBO,2021-2025,incoming
+Ethiopia,ET,9238,UNIBO,2021-2025,incoming
+Estonia,EE,8353,UNIBO,2021-2025,incoming
+Cyprus,CY,8198,UNIBO,2021-2025,incoming
+Qatar,QA,7687,UNIBO,2021-2025,incoming
+Philippines,PH,7467,UNIBO,2021-2025,incoming
+Tunisia,TN,7188,UNIBO,2021-2025,incoming
+Iraq,IQ,7115,UNIBO,2021-2025,incoming
+Jordan,JO,7031,UNIBO,2021-2025,incoming
+Peru,PE,6590,UNIBO,2021-2025,incoming
+Korea (Republic of),KR,6351,UNIBO,2021-2025,incoming
+Belarus,BY,6150,UNIBO,2021-2025,incoming
+Lithuania,LT,5950,UNIBO,2021-2025,incoming
+Ecuador,EC,5824,UNIBO,2021-2025,incoming
+Russian Federation,RU,5588,UNIBO,2021-2025,incoming
+Lebanon,LB,5502,UNIBO,2021-2025,incoming
+Ghana,GH,4909,UNIBO,2021-2025,incoming
+Turkey,TR,4764,UNIBO,2021-2025,incoming
+Algeria,DZ,4557,UNIBO,2021-2025,incoming
+Georgia,GE,4491,UNIBO,2021-2025,incoming
+Kazakhstan,KZ,4298,UNIBO,2021-2025,incoming
+Kenya,KE,3877,UNIBO,2021-2025,incoming
+Sri Lanka,LK,3796,UNIBO,2021-2025,incoming
+Latvia,LV,3719,UNIBO,2021-2025,incoming
+Uganda,UG,3400,UNIBO,2021-2025,incoming
+Iceland,IS,3235,UNIBO,2021-2025,incoming
+Czech Republic,CZ,3146,UNIBO,2021-2025,incoming
+Iran (Islamic Republic of),IR,3047,UNIBO,2021-2025,incoming
+Luxembourg,LU,2994,UNIBO,2021-2025,incoming
+Azerbaijan,AZ,2954,UNIBO,2021-2025,incoming
+Uzbekistan,UZ,2896,UNIBO,2021-2025,incoming
+Nepal,NP,2739,UNIBO,2021-2025,incoming
+Macao,MO,2675,UNIBO,2021-2025,incoming
+Kuwait,KW,2638,UNIBO,2021-2025,incoming
+Armenia,AM,2571,UNIBO,2021-2025,incoming
+Oman,OM,2544,UNIBO,2021-2025,incoming
+Bahrain,BH,2398,UNIBO,2021-2025,incoming
+Uruguay,UY,2395,UNIBO,2021-2025,incoming
+Puerto Rico,PR,2346,UNIBO,2021-2025,incoming
+Tanzania,TZ,2228,UNIBO,2021-2025,incoming
+Cameroon,CM,2125,UNIBO,2021-2025,incoming
+Malta,MT,2001,UNIBO,2021-2025,incoming
+Mongolia,MN,1932,UNIBO,2021-2025,incoming
+Bosnia and Herzegovina,BA,1777,UNIBO,2021-2025,incoming
+Palestine,PS,1709,UNIBO,2021-2025,incoming
+Yemen,YE,1378,UNIBO,2021-2025,incoming
+Cuba,CU,1330,UNIBO,2021-2025,incoming
+Montenegro,ME,1305,UNIBO,2021-2025,incoming
+North Macedonia,MK,1294,UNIBO,2021-2025,incoming
+Sudan,SD,1136,UNIBO,2021-2025,incoming
+Zambia,ZM,1129,UNIBO,2021-2025,incoming
+Réunion,RE,1116,UNIBO,2021-2025,incoming
+Cambodia,KH,1075,UNIBO,2021-2025,incoming
+Venezuela,VE,1055,UNIBO,2021-2025,incoming
+Malawi,MW,1045,UNIBO,2021-2025,incoming
+Costa Rica,CR,1021,UNIBO,2021-2025,incoming
+Jamaica,JM,896,UNIBO,2021-2025,incoming
+Myanmar,MM,884,UNIBO,2021-2025,incoming
+Zimbabwe,ZW,858,UNIBO,2021-2025,incoming
+Mozambique,MZ,858,UNIBO,2021-2025,incoming
+Guadeloupe,GP,847,UNIBO,2021-2025,incoming
+Albania,AL,806,UNIBO,2021-2025,incoming
+Moldova,MD,771,UNIBO,2021-2025,incoming
+Burkina Faso,BF,754,UNIBO,2021-2025,incoming
+Rwanda,RW,748,UNIBO,2021-2025,incoming
+Benin,BJ,718,UNIBO,2021-2025,incoming
+Panama,PA,689,UNIBO,2021-2025,incoming
+Antigua and Barbuda,AG,688,UNIBO,2021-2025,incoming
+Senegal,SN,681,UNIBO,2021-2025,incoming
+American Samoa,AS,661,UNIBO,2021-2025,incoming
+Syria,SY,654,UNIBO,2021-2025,incoming
+Guatemala,GT,631,UNIBO,2021-2025,incoming
+Botswana,BW,613,UNIBO,2021-2025,incoming
+DR Congo,CD,590,UNIBO,2021-2025,incoming
+Angola,AO,553,UNIBO,2021-2025,incoming
+Namibia,,505,UNIBO,2021-2025,incoming
+Fiji,FJ,490,UNIBO,2021-2025,incoming
+El Salvador,SV,476,UNIBO,2021-2025,incoming
+Libya,LY,451,UNIBO,2021-2025,incoming
+Brunei,BN,418,UNIBO,2021-2025,incoming
+Ivory Coast,CI,409,UNIBO,2021-2025,incoming
+New Caledonia,NC,397,UNIBO,2021-2025,incoming
+Paraguay,PY,396,UNIBO,2021-2025,incoming
+Madagascar,MG,385,UNIBO,2021-2025,incoming
+Somalia,SO,384,UNIBO,2021-2025,incoming
+Kyrgyzstan,KG,377,UNIBO,2021-2025,incoming
+Grenada,GD,376,UNIBO,2021-2025,incoming
+St Kitts and Nevis,KN,358,UNIBO,2021-2025,incoming
+Bhutan,BT,352,UNIBO,2021-2025,incoming
+Kosovo,XK,349,UNIBO,2021-2025,incoming
+Gabon,GA,328,UNIBO,2021-2025,incoming
+Nicaragua,NI,318,UNIBO,2021-2025,incoming
+Monaco,MC,303,UNIBO,2021-2025,incoming
+Afghanistan,AF,296,UNIBO,2021-2025,incoming
+Bolivia,BO,273,UNIBO,2021-2025,incoming
+Trinidad and Tobago,TT,247,UNIBO,2021-2025,incoming
+Dominican Republic,DO,242,UNIBO,2021-2025,incoming
+Viet Nam,VN,235,UNIBO,2021-2025,incoming
+The Gambia,GM,223,UNIBO,2021-2025,incoming
+French Guiana,GF,211,UNIBO,2021-2025,incoming
+French Polynesia,PF,202,UNIBO,2021-2025,incoming
+Mauritius,MU,199,UNIBO,2021-2025,incoming
+Tanzania (United Republic of),TZ,196,UNIBO,2021-2025,incoming
+Barbados,BB,193,UNIBO,2021-2025,incoming
+Martinique,MQ,174,UNIBO,2021-2025,incoming
+Congo Republic,CG,174,UNIBO,2021-2025,incoming
+North Korea,KP,165,UNIBO,2021-2025,incoming
+Mali,ML,145,UNIBO,2021-2025,incoming
+Togo,TG,143,UNIBO,2021-2025,incoming
+Papua New Guinea,PG,137,UNIBO,2021-2025,incoming
+San Marino,SM,132,UNIBO,2021-2025,incoming
+Honduras,HN,130,UNIBO,2021-2025,incoming
+Sierra Leone,SL,127,UNIBO,2021-2025,incoming
+Tajikistan,TJ,125,UNIBO,2021-2025,incoming
+Greenland,GL,123,UNIBO,2021-2025,incoming
+Gibraltar,GI,121,UNIBO,2021-2025,incoming
+Liechtenstein,LI,119,UNIBO,2021-2025,incoming
+Curaçao,CW,112,UNIBO,2021-2025,incoming
+Oceania,OC,100,UNIBO,2021-2025,incoming
+Laos,LA,95,UNIBO,2021-2025,incoming
+Niger,NE,94,UNIBO,2021-2025,incoming
+Haiti,HT,86,UNIBO,2021-2025,incoming
+Seychelles,SC,85,UNIBO,2021-2025,incoming
+Burundi,BI,66,UNIBO,2021-2025,incoming
+Faroe Islands,FO,66,UNIBO,2021-2025,incoming
+Central African Republic,CF,65,UNIBO,2021-2025,incoming
+Guyana,GY,64,UNIBO,2021-2025,incoming
+U.S. Virgin Islands,VI,64,UNIBO,2021-2025,incoming
+Svalbard and Jan Mayen,SJ,62,UNIBO,2021-2025,incoming
+Bahamas,BS,58,UNIBO,2021-2025,incoming
+Maldives,MV,58,UNIBO,2021-2025,incoming
+Guam,GU,58,UNIBO,2021-2025,incoming
+Palau,PW,54,UNIBO,2021-2025,incoming
+Sint Maarten,SX,49,UNIBO,2021-2025,incoming
+Guinea,GN,45,UNIBO,2021-2025,incoming
+Mauritania,MR,45,UNIBO,2021-2025,incoming
+Lesotho,LS,44,UNIBO,2021-2025,incoming
+Suriname,SR,44,UNIBO,2021-2025,incoming
+Guinea-Bissau,GW,42,UNIBO,2021-2025,incoming
+Saint Lucia,LC,40,UNIBO,2021-2025,incoming
+Former Yugoslav Republic of Macedonia,MK,39,UNIBO,2021-2025,incoming
+Eswatini,SZ,35,UNIBO,2021-2025,incoming
+Cabo Verde,CV,34,UNIBO,2021-2025,incoming
+Liberia,LR,34,UNIBO,2021-2025,incoming
+Chad,TD,33,UNIBO,2021-2025,incoming
+Cote d'Ivoire,CI,31,UNIBO,2021-2025,incoming
+Samoa,WS,31,UNIBO,2021-2025,incoming
+South Sudan,SS,30,UNIBO,2021-2025,incoming
+Bermuda,BM,29,UNIBO,2021-2025,incoming
+European Union,EU,24,UNIBO,2021-2025,incoming
+Turkmenistan,TM,20,UNIBO,2021-2025,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,19,UNIBO,2021-2025,incoming
+Jersey,JE,18,UNIBO,2021-2025,incoming
+Solomon Islands,SB,18,UNIBO,2021-2025,incoming
+Belize,BZ,17,UNIBO,2021-2025,incoming
+Dominica,DM,17,UNIBO,2021-2025,incoming
+Palestinian-administered areas,PS,17,UNIBO,2021-2025,incoming
+Mayotte,YT,16,UNIBO,2021-2025,incoming
+Falkland Islands,FK,15,UNIBO,2021-2025,incoming
+Timor-Leste,TL,15,UNIBO,2021-2025,incoming
+Congo (Democratic Republic of),CD,15,UNIBO,2021-2025,incoming
+Andorra,AD,13,UNIBO,2021-2025,incoming
+Åland,AX,12,UNIBO,2021-2025,incoming
+Vanuatu,VU,11,UNIBO,2021-2025,incoming
+"Korea, Democratic People's Republic of",KP,10,UNIBO,2021-2025,incoming
+Tuvalu,TV,9,UNIBO,2021-2025,incoming
+Djibouti,DJ,8,UNIBO,2021-2025,incoming
+Eritrea,ER,6,UNIBO,2021-2025,incoming
+Tonga,TO,6,UNIBO,2021-2025,incoming
+Libyan Arab Jamahiriya,LY,6,UNIBO,2021-2025,incoming
+Montserrat,MS,6,UNIBO,2021-2025,incoming
+Cape Verde,CV,6,UNIBO,2021-2025,incoming
+Micronesia,FM,5,UNIBO,2021-2025,incoming
+Lao (People's Democratic Republic),LA,5,UNIBO,2021-2025,incoming
+Aruba,AW,5,UNIBO,2021-2025,incoming
+Turks and Caicos Islands,TC,4,UNIBO,2021-2025,incoming
+Cayman Islands,KY,4,UNIBO,2021-2025,incoming
+Northern Mariana Islands,MP,4,UNIBO,2021-2025,incoming
+St Vincent and Grenadines,VC,3,UNIBO,2021-2025,incoming
+Equatorial Guinea,GQ,3,UNIBO,2021-2025,incoming
+Syrian Arab Republic,SY,3,UNIBO,2021-2025,incoming
+Kosovo * UN resolution,XK,2,UNIBO,2021-2025,incoming
+Comoros,KM,1,UNIBO,2021-2025,incoming
+Kiribati,KI,1,UNIBO,2021-2025,incoming
+Isle of Man,IM,1,UNIBO,2021-2025,incoming
+United States Minor Outlying Islands,UM,1,UNIBO,2021-2025,incoming

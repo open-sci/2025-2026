@@ -1,0 +1,241 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,2221765,UNIPD,2016-2020,incoming
+France,FR,1402353,UNIPD,2016-2020,incoming
+Italy,IT,1133935,UNIPD,2016-2020,incoming
+United Kingdom,GB,667635,UNIPD,2016-2020,incoming
+China,CN,615482,UNIPD,2016-2020,incoming
+Germany,DE,577286,UNIPD,2016-2020,incoming
+Spain,ES,406800,UNIPD,2016-2020,incoming
+Japan,JP,263554,UNIPD,2016-2020,incoming
+Australia,AU,230720,UNIPD,2016-2020,incoming
+India,IN,218407,UNIPD,2016-2020,incoming
+Canada,CA,213826,UNIPD,2016-2020,incoming
+Russia,RU,199713,UNIPD,2016-2020,incoming
+The Netherlands,NL,192795,UNIPD,2016-2020,incoming
+Switzerland,CH,176546,UNIPD,2016-2020,incoming
+South Korea,KR,172761,UNIPD,2016-2020,incoming
+Brazil,BR,167006,UNIPD,2016-2020,incoming
+Poland,PL,140175,UNIPD,2016-2020,incoming
+Belgium,BE,116262,UNIPD,2016-2020,incoming
+Denmark,DK,88373,UNIPD,2016-2020,incoming
+Taiwan,TW,85288,UNIPD,2016-2020,incoming
+Finland,FI,82278,UNIPD,2016-2020,incoming
+Sweden,SE,80064,UNIPD,2016-2020,incoming
+Hungary,HU,78414,UNIPD,2016-2020,incoming
+Türkiye,TR,78007,UNIPD,2016-2020,incoming
+Portugal,PT,74458,UNIPD,2016-2020,incoming
+Austria,AT,69181,UNIPD,2016-2020,incoming
+Greece,GR,65430,UNIPD,2016-2020,incoming
+China (People's Republic of),CN,60966,UNIPD,2016-2020,incoming
+Iran,IR,56133,UNIPD,2016-2020,incoming
+Mexico,MX,51704,UNIPD,2016-2020,incoming
+Czechia,CZ,46445,UNIPD,2016-2020,incoming
+Norway,NO,46239,UNIPD,2016-2020,incoming
+Chile,CL,45575,UNIPD,2016-2020,incoming
+Israel,IL,39648,UNIPD,2016-2020,incoming
+South Africa,ZA,38471,UNIPD,2016-2020,incoming
+Argentina,AR,37412,UNIPD,2016-2020,incoming
+Ireland,IE,35978,UNIPD,2016-2020,incoming
+Netherlands,NL,30966,UNIPD,2016-2020,incoming
+Hong Kong,HK,28551,UNIPD,2016-2020,incoming
+Singapore,SG,27777,UNIPD,2016-2020,incoming
+Croatia,HR,26597,UNIPD,2016-2020,incoming
+New Zealand,NZ,22863,UNIPD,2016-2020,incoming
+Slovakia,SK,22018,UNIPD,2016-2020,incoming
+Malaysia,MY,21427,UNIPD,2016-2020,incoming
+Romania,RO,21034,UNIPD,2016-2020,incoming
+Pakistan,PK,20918,UNIPD,2016-2020,incoming
+Colombia,CO,19586,UNIPD,2016-2020,incoming
+Egypt,EG,16783,UNIPD,2016-2020,incoming
+Ukraine,UA,16171,UNIPD,2016-2020,incoming
+Slovenia,SI,15875,UNIPD,2016-2020,incoming
+Serbia,RS,15634,UNIPD,2016-2020,incoming
+Thailand,TH,15310,UNIPD,2016-2020,incoming
+Saudi Arabia,SA,15167,UNIPD,2016-2020,incoming
+Bulgaria,BG,14669,UNIPD,2016-2020,incoming
+Belarus,BY,12812,UNIPD,2016-2020,incoming
+Georgia,GE,10903,UNIPD,2016-2020,incoming
+Vietnam,VN,10629,UNIPD,2016-2020,incoming
+Morocco,MA,9989,UNIPD,2016-2020,incoming
+Estonia,EE,8882,UNIPD,2016-2020,incoming
+Cyprus,CY,7732,UNIPD,2016-2020,incoming
+Indonesia,ID,6776,UNIPD,2016-2020,incoming
+Korea (Republic of),KR,6595,UNIPD,2016-2020,incoming
+Armenia,AM,6555,UNIPD,2016-2020,incoming
+Lithuania,LT,6351,UNIPD,2016-2020,incoming
+Russian Federation,RU,6201,UNIPD,2016-2020,incoming
+Qatar,QA,6178,UNIPD,2016-2020,incoming
+Ecuador,EC,5565,UNIPD,2016-2020,incoming
+Puerto Rico,PR,4928,UNIPD,2016-2020,incoming
+United Arab Emirates,AE,4749,UNIPD,2016-2020,incoming
+Tunisia,TN,4629,UNIPD,2016-2020,incoming
+Azerbaijan,AZ,4551,UNIPD,2016-2020,incoming
+Turkey,TR,4391,UNIPD,2016-2020,incoming
+Nigeria,NG,4215,UNIPD,2016-2020,incoming
+Lebanon,LB,3653,UNIPD,2016-2020,incoming
+Ethiopia,ET,3588,UNIPD,2016-2020,incoming
+Bangladesh,BD,3479,UNIPD,2016-2020,incoming
+Peru,PE,3305,UNIPD,2016-2020,incoming
+Philippines,PH,3168,UNIPD,2016-2020,incoming
+Iceland,IS,3016,UNIPD,2016-2020,incoming
+Jordan,JO,2927,UNIPD,2016-2020,incoming
+Czech Republic,CZ,2901,UNIPD,2016-2020,incoming
+Latvia,LV,2790,UNIPD,2016-2020,incoming
+Luxembourg,LU,2769,UNIPD,2016-2020,incoming
+Algeria,DZ,2721,UNIPD,2016-2020,incoming
+Uzbekistan,UZ,2469,UNIPD,2016-2020,incoming
+Sri Lanka,LK,2404,UNIPD,2016-2020,incoming
+Iraq,IQ,2116,UNIPD,2016-2020,incoming
+Bahrain,BH,2002,UNIPD,2016-2020,incoming
+Ghana,GH,1932,UNIPD,2016-2020,incoming
+Uruguay,UY,1928,UNIPD,2016-2020,incoming
+Kazakhstan,KZ,1749,UNIPD,2016-2020,incoming
+Uganda,UG,1713,UNIPD,2016-2020,incoming
+Cuba,CU,1673,UNIPD,2016-2020,incoming
+Kenya,KE,1620,UNIPD,2016-2020,incoming
+Macao,MO,1559,UNIPD,2016-2020,incoming
+Iran (Islamic Republic of),IR,1174,UNIPD,2016-2020,incoming
+Monaco,MC,1152,UNIPD,2016-2020,incoming
+Malta,MT,1147,UNIPD,2016-2020,incoming
+Mongolia,MN,1040,UNIPD,2016-2020,incoming
+Nepal,NP,1037,UNIPD,2016-2020,incoming
+Bosnia and Herzegovina,BA,1020,UNIPD,2016-2020,incoming
+Palestine,PS,997,UNIPD,2016-2020,incoming
+Antigua and Barbuda,AG,985,UNIPD,2016-2020,incoming
+Cameroon,CM,972,UNIPD,2016-2020,incoming
+Kuwait,KW,969,UNIPD,2016-2020,incoming
+Oman,OM,966,UNIPD,2016-2020,incoming
+Mozambique,MZ,928,UNIPD,2016-2020,incoming
+Venezuela,VE,924,UNIPD,2016-2020,incoming
+Zimbabwe,ZW,905,UNIPD,2016-2020,incoming
+Costa Rica,CR,870,UNIPD,2016-2020,incoming
+Réunion,RE,826,UNIPD,2016-2020,incoming
+North Macedonia,MK,822,UNIPD,2016-2020,incoming
+Cambodia,KH,701,UNIPD,2016-2020,incoming
+Tanzania,TZ,688,UNIPD,2016-2020,incoming
+Guatemala,GT,664,UNIPD,2016-2020,incoming
+Guadeloupe,GP,664,UNIPD,2016-2020,incoming
+Sudan,SD,653,UNIPD,2016-2020,incoming
+Montenegro,ME,637,UNIPD,2016-2020,incoming
+Moldova,MD,510,UNIPD,2016-2020,incoming
+Yemen,YE,496,UNIPD,2016-2020,incoming
+Jamaica,JM,458,UNIPD,2016-2020,incoming
+Namibia,,452,UNIPD,2016-2020,incoming
+Benin,BJ,435,UNIPD,2016-2020,incoming
+Albania,AL,412,UNIPD,2016-2020,incoming
+Grenada,GD,402,UNIPD,2016-2020,incoming
+Panama,PA,385,UNIPD,2016-2020,incoming
+Myanmar,MM,378,UNIPD,2016-2020,incoming
+Senegal,SN,377,UNIPD,2016-2020,incoming
+Burkina Faso,BF,366,UNIPD,2016-2020,incoming
+Rwanda,RW,341,UNIPD,2016-2020,incoming
+Malawi,MW,298,UNIPD,2016-2020,incoming
+Zambia,ZM,295,UNIPD,2016-2020,incoming
+St Kitts and Nevis,KN,272,UNIPD,2016-2020,incoming
+Nicaragua,NI,262,UNIPD,2016-2020,incoming
+Mauritius,MU,226,UNIPD,2016-2020,incoming
+Bhutan,BT,224,UNIPD,2016-2020,incoming
+Angola,AO,223,UNIPD,2016-2020,incoming
+Ivory Coast,CI,220,UNIPD,2016-2020,incoming
+Syria,SY,206,UNIPD,2016-2020,incoming
+Botswana,BW,206,UNIPD,2016-2020,incoming
+American Samoa,AS,202,UNIPD,2016-2020,incoming
+Fiji,FJ,192,UNIPD,2016-2020,incoming
+Niger,NE,185,UNIPD,2016-2020,incoming
+Gabon,GA,184,UNIPD,2016-2020,incoming
+Viet Nam,VN,179,UNIPD,2016-2020,incoming
+Madagascar,MG,177,UNIPD,2016-2020,incoming
+French Guiana,GF,175,UNIPD,2016-2020,incoming
+Trinidad and Tobago,TT,171,UNIPD,2016-2020,incoming
+Bolivia,BO,168,UNIPD,2016-2020,incoming
+Tajikistan,TJ,166,UNIPD,2016-2020,incoming
+El Salvador,SV,165,UNIPD,2016-2020,incoming
+New Caledonia,NC,163,UNIPD,2016-2020,incoming
+Dominican Republic,DO,162,UNIPD,2016-2020,incoming
+Paraguay,PY,162,UNIPD,2016-2020,incoming
+Libya,LY,162,UNIPD,2016-2020,incoming
+Brunei,BN,145,UNIPD,2016-2020,incoming
+French Polynesia,PF,141,UNIPD,2016-2020,incoming
+DR Congo,CD,139,UNIPD,2016-2020,incoming
+Kyrgyzstan,KG,136,UNIPD,2016-2020,incoming
+Somalia,SO,135,UNIPD,2016-2020,incoming
+Kosovo,XK,133,UNIPD,2016-2020,incoming
+U.S. Virgin Islands,VI,119,UNIPD,2016-2020,incoming
+European Union,EU,98,UNIPD,2016-2020,incoming
+Mali,ML,96,UNIPD,2016-2020,incoming
+Honduras,HN,95,UNIPD,2016-2020,incoming
+Liechtenstein,LI,93,UNIPD,2016-2020,incoming
+Martinique,MQ,87,UNIPD,2016-2020,incoming
+Papua New Guinea,PG,83,UNIPD,2016-2020,incoming
+Laos,LA,80,UNIPD,2016-2020,incoming
+North Korea,KP,75,UNIPD,2016-2020,incoming
+Curaçao,CW,74,UNIPD,2016-2020,incoming
+Palau,PW,74,UNIPD,2016-2020,incoming
+Barbados,BB,72,UNIPD,2016-2020,incoming
+Tanzania (United Republic of),TZ,71,UNIPD,2016-2020,incoming
+Afghanistan,AF,69,UNIPD,2016-2020,incoming
+Greenland,GL,65,UNIPD,2016-2020,incoming
+Congo Republic,CG,57,UNIPD,2016-2020,incoming
+Togo,TG,48,UNIPD,2016-2020,incoming
+San Marino,SM,46,UNIPD,2016-2020,incoming
+Burundi,BI,38,UNIPD,2016-2020,incoming
+Gibraltar,GI,34,UNIPD,2016-2020,incoming
+Guinea-Bissau,GW,33,UNIPD,2016-2020,incoming
+The Gambia,GM,32,UNIPD,2016-2020,incoming
+Svalbard and Jan Mayen,SJ,29,UNIPD,2016-2020,incoming
+Sierra Leone,SL,29,UNIPD,2016-2020,incoming
+Chad,TD,28,UNIPD,2016-2020,incoming
+Central African Republic,CF,28,UNIPD,2016-2020,incoming
+Faroe Islands,FO,27,UNIPD,2016-2020,incoming
+Belize,BZ,23,UNIPD,2016-2020,incoming
+Bermuda,BM,22,UNIPD,2016-2020,incoming
+Seychelles,SC,21,UNIPD,2016-2020,incoming
+Former Yugoslav Republic of Macedonia,MK,17,UNIPD,2016-2020,incoming
+Guyana,GY,17,UNIPD,2016-2020,incoming
+Guinea,GN,17,UNIPD,2016-2020,incoming
+Suriname,SR,17,UNIPD,2016-2020,incoming
+Maldives,MV,15,UNIPD,2016-2020,incoming
+Bahamas,BS,15,UNIPD,2016-2020,incoming
+Guam,GU,14,UNIPD,2016-2020,incoming
+Eswatini,SZ,13,UNIPD,2016-2020,incoming
+Haiti,HT,10,UNIPD,2016-2020,incoming
+Cabo Verde,CV,8,UNIPD,2016-2020,incoming
+Mauritania,MR,8,UNIPD,2016-2020,incoming
+Sint Maarten,SX,8,UNIPD,2016-2020,incoming
+Liberia,LR,7,UNIPD,2016-2020,incoming
+Andorra,AD,7,UNIPD,2016-2020,incoming
+Palestinian-administered areas,PS,7,UNIPD,2016-2020,incoming
+Djibouti,DJ,6,UNIPD,2016-2020,incoming
+Falkland Islands,FK,6,UNIPD,2016-2020,incoming
+Congo (Democratic Republic of),CD,6,UNIPD,2016-2020,incoming
+Tonga,TO,6,UNIPD,2016-2020,incoming
+Eritrea,ER,6,UNIPD,2016-2020,incoming
+Mayotte,YT,5,UNIPD,2016-2020,incoming
+South Sudan,SS,5,UNIPD,2016-2020,incoming
+Timor-Leste,TL,4,UNIPD,2016-2020,incoming
+Turkmenistan,TM,4,UNIPD,2016-2020,incoming
+Turks and Caicos Islands,TC,4,UNIPD,2016-2020,incoming
+St Vincent and Grenadines,VC,4,UNIPD,2016-2020,incoming
+Dominica,DM,4,UNIPD,2016-2020,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,4,UNIPD,2016-2020,incoming
+"Virgin Islands, U.S.",VI,4,UNIPD,2016-2020,incoming
+Lesotho,LS,4,UNIPD,2016-2020,incoming
+Cayman Islands,KY,3,UNIPD,2016-2020,incoming
+Cape Verde,CV,3,UNIPD,2016-2020,incoming
+British Virgin Islands,VG,3,UNIPD,2016-2020,incoming
+Isle of Man,IM,3,UNIPD,2016-2020,incoming
+Libyan Arab Jamahiriya,LY,3,UNIPD,2016-2020,incoming
+Syrian Arab Republic,SY,3,UNIPD,2016-2020,incoming
+Saint Lucia,LC,3,UNIPD,2016-2020,incoming
+Cote d'Ivoire,CI,3,UNIPD,2016-2020,incoming
+Montserrat,MS,3,UNIPD,2016-2020,incoming
+"Korea, Democratic People's Republic of",KP,2,UNIPD,2016-2020,incoming
+Jersey,JE,2,UNIPD,2016-2020,incoming
+Samoa,WS,2,UNIPD,2016-2020,incoming
+Lao (People's Democratic Republic),LA,2,UNIPD,2016-2020,incoming
+Vanuatu,VU,2,UNIPD,2016-2020,incoming
+Aruba,AW,1,UNIPD,2016-2020,incoming
+Solomon Islands,SB,1,UNIPD,2016-2020,incoming
+Moldova (Republic of),MD,1,UNIPD,2016-2020,incoming
+Marshall Islands,MH,1,UNIPD,2016-2020,incoming
+Northern Mariana Islands,MP,1,UNIPD,2016-2020,incoming

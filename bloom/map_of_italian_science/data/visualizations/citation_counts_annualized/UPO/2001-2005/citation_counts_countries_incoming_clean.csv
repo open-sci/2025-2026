@@ -1,0 +1,142 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,26552,UPO,2001-2005,incoming
+Italy,IT,24486,UPO,2001-2005,incoming
+France,FR,12159,UPO,2001-2005,incoming
+United Kingdom,GB,8745,UPO,2001-2005,incoming
+Germany,DE,7143,UPO,2001-2005,incoming
+Japan,JP,4488,UPO,2001-2005,incoming
+Canada,CA,2962,UPO,2001-2005,incoming
+Russia,RU,2547,UPO,2001-2005,incoming
+Spain,ES,2232,UPO,2001-2005,incoming
+Switzerland,CH,2031,UPO,2001-2005,incoming
+The Netherlands,NL,1854,UPO,2001-2005,incoming
+India,IN,1674,UPO,2001-2005,incoming
+China,CN,1416,UPO,2001-2005,incoming
+Poland,PL,1326,UPO,2001-2005,incoming
+Australia,AU,1314,UPO,2001-2005,incoming
+South Korea,KR,1235,UPO,2001-2005,incoming
+Belgium,BE,1089,UPO,2001-2005,incoming
+Israel,IL,1000,UPO,2001-2005,incoming
+Sweden,SE,935,UPO,2001-2005,incoming
+Brazil,BR,909,UPO,2001-2005,incoming
+Finland,FI,737,UPO,2001-2005,incoming
+Czechia,CZ,663,UPO,2001-2005,incoming
+Greece,GR,582,UPO,2001-2005,incoming
+Denmark,DK,562,UPO,2001-2005,incoming
+Portugal,PT,528,UPO,2001-2005,incoming
+Taiwan,TW,493,UPO,2001-2005,incoming
+Mexico,MX,458,UPO,2001-2005,incoming
+Hungary,HU,445,UPO,2001-2005,incoming
+Slovakia,SK,394,UPO,2001-2005,incoming
+Austria,AT,317,UPO,2001-2005,incoming
+Norway,NO,308,UPO,2001-2005,incoming
+Hong Kong,HK,303,UPO,2001-2005,incoming
+Ukraine,UA,299,UPO,2001-2005,incoming
+Argentina,AR,287,UPO,2001-2005,incoming
+Croatia,HR,222,UPO,2001-2005,incoming
+Türkiye,TR,217,UPO,2001-2005,incoming
+China (People's Republic of),CN,215,UPO,2001-2005,incoming
+South Africa,ZA,147,UPO,2001-2005,incoming
+Singapore,SG,145,UPO,2001-2005,incoming
+Ireland,IE,142,UPO,2001-2005,incoming
+Chile,CL,137,UPO,2001-2005,incoming
+Philippines,PH,128,UPO,2001-2005,incoming
+Netherlands,NL,128,UPO,2001-2005,incoming
+Romania,RO,116,UPO,2001-2005,incoming
+Iran,IR,116,UPO,2001-2005,incoming
+Armenia,AM,115,UPO,2001-2005,incoming
+Uzbekistan,UZ,114,UPO,2001-2005,incoming
+Bulgaria,BG,113,UPO,2001-2005,incoming
+Serbia,RS,93,UPO,2001-2005,incoming
+Georgia,GE,92,UPO,2001-2005,incoming
+New Zealand,NZ,85,UPO,2001-2005,incoming
+Pakistan,PK,79,UPO,2001-2005,incoming
+Egypt,EG,66,UPO,2001-2005,incoming
+Morocco,MA,57,UPO,2001-2005,incoming
+Colombia,CO,50,UPO,2001-2005,incoming
+Russian Federation,RU,48,UPO,2001-2005,incoming
+Slovenia,SI,47,UPO,2001-2005,incoming
+Tunisia,TN,46,UPO,2001-2005,incoming
+Belarus,BY,43,UPO,2001-2005,incoming
+Mongolia,MN,41,UPO,2001-2005,incoming
+Cambodia,KH,37,UPO,2001-2005,incoming
+Korea (Republic of),KR,37,UPO,2001-2005,incoming
+Malaysia,MY,37,UPO,2001-2005,incoming
+Thailand,TH,32,UPO,2001-2005,incoming
+Estonia,EE,25,UPO,2001-2005,incoming
+Ghana,GH,21,UPO,2001-2005,incoming
+Cyprus,CY,20,UPO,2001-2005,incoming
+Saudi Arabia,SA,20,UPO,2001-2005,incoming
+Kenya,KE,19,UPO,2001-2005,incoming
+Ecuador,EC,18,UPO,2001-2005,incoming
+Venezuela,VE,18,UPO,2001-2005,incoming
+Montenegro,ME,16,UPO,2001-2005,incoming
+Azerbaijan,AZ,16,UPO,2001-2005,incoming
+Ethiopia,ET,15,UPO,2001-2005,incoming
+Puerto Rico,PR,15,UPO,2001-2005,incoming
+Bangladesh,BD,14,UPO,2001-2005,incoming
+Latvia,LV,14,UPO,2001-2005,incoming
+Cuba,CU,13,UPO,2001-2005,incoming
+Algeria,DZ,11,UPO,2001-2005,incoming
+Turkey,TR,11,UPO,2001-2005,incoming
+Tanzania,TZ,10,UPO,2001-2005,incoming
+Vietnam,VN,9,UPO,2001-2005,incoming
+Bahrain,BH,9,UPO,2001-2005,incoming
+Nigeria,NG,9,UPO,2001-2005,incoming
+Kuwait,KW,9,UPO,2001-2005,incoming
+United Arab Emirates,AE,9,UPO,2001-2005,incoming
+Uruguay,UY,8,UPO,2001-2005,incoming
+Qatar,QA,8,UPO,2001-2005,incoming
+Uganda,UG,8,UPO,2001-2005,incoming
+Angola,AO,8,UPO,2001-2005,incoming
+Kazakhstan,KZ,7,UPO,2001-2005,incoming
+Czech Republic,CZ,7,UPO,2001-2005,incoming
+Svalbard and Jan Mayen,SJ,6,UPO,2001-2005,incoming
+Iceland,IS,6,UPO,2001-2005,incoming
+Syria,SY,5,UPO,2001-2005,incoming
+Jamaica,JM,5,UPO,2001-2005,incoming
+Zambia,ZM,5,UPO,2001-2005,incoming
+Lithuania,LT,5,UPO,2001-2005,incoming
+El Salvador,SV,4,UPO,2001-2005,incoming
+Bosnia and Herzegovina,BA,4,UPO,2001-2005,incoming
+Jordan,JO,4,UPO,2001-2005,incoming
+Lebanon,LB,4,UPO,2001-2005,incoming
+Bolivia,BO,4,UPO,2001-2005,incoming
+Indonesia,ID,4,UPO,2001-2005,incoming
+Moldova,MD,3,UPO,2001-2005,incoming
+Peru,PE,3,UPO,2001-2005,incoming
+Sudan,SD,3,UPO,2001-2005,incoming
+Malta,MT,3,UPO,2001-2005,incoming
+Gabon,GA,3,UPO,2001-2005,incoming
+Curaçao,CW,3,UPO,2001-2005,incoming
+Mauritius,MU,2,UPO,2001-2005,incoming
+Zimbabwe,ZW,2,UPO,2001-2005,incoming
+Guadeloupe,GP,2,UPO,2001-2005,incoming
+Paraguay,PY,2,UPO,2001-2005,incoming
+Gibraltar,GI,2,UPO,2001-2005,incoming
+Albania,AL,2,UPO,2001-2005,incoming
+French Polynesia,PF,2,UPO,2001-2005,incoming
+Tajikistan,TJ,2,UPO,2001-2005,incoming
+Benin,BJ,2,UPO,2001-2005,incoming
+Mozambique,MZ,2,UPO,2001-2005,incoming
+Sri Lanka,LK,2,UPO,2001-2005,incoming
+Northern Mariana Islands,MP,2,UPO,2001-2005,incoming
+Costa Rica,CR,2,UPO,2001-2005,incoming
+Burkina Faso,BF,2,UPO,2001-2005,incoming
+Yemen,YE,1,UPO,2001-2005,incoming
+Nepal,NP,1,UPO,2001-2005,incoming
+Fiji,FJ,1,UPO,2001-2005,incoming
+Barbados,BB,1,UPO,2001-2005,incoming
+Guatemala,GT,1,UPO,2001-2005,incoming
+Kosovo,XK,1,UPO,2001-2005,incoming
+Trinidad and Tobago,TT,1,UPO,2001-2005,incoming
+North Macedonia,MK,1,UPO,2001-2005,incoming
+Réunion,RE,1,UPO,2001-2005,incoming
+Chad,TD,1,UPO,2001-2005,incoming
+Mauritania,MR,1,UPO,2001-2005,incoming
+Senegal,SN,1,UPO,2001-2005,incoming
+Palestine,PS,1,UPO,2001-2005,incoming
+Iraq,IQ,1,UPO,2001-2005,incoming
+Luxembourg,LU,1,UPO,2001-2005,incoming
+Dominican Republic,DO,1,UPO,2001-2005,incoming
+French Guiana,GF,1,UPO,2001-2005,incoming

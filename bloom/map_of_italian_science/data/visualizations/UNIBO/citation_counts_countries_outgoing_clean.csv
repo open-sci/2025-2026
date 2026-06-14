@@ -1,0 +1,227 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,5,UNIBO,outgoing
+AE,United Arab Emirates,15199,UNIBO,outgoing
+AF,Afghanistan,95,UNIBO,outgoing
+AG,Antigua and Barbuda,568,UNIBO,outgoing
+AL,Albania,754,UNIBO,outgoing
+AM,Armenia,26290,UNIBO,outgoing
+AN,Netherlands Antilles,1,UNIBO,outgoing
+AO,Angola,805,UNIBO,outgoing
+AR,Argentina,96794,UNIBO,outgoing
+AS,American Samoa,365,UNIBO,outgoing
+AT,Austria,187361,UNIBO,outgoing
+AU,Australia,670465,UNIBO,outgoing
+AW,Aruba,5,UNIBO,outgoing
+AX,Åland,2,UNIBO,outgoing
+AZ,Azerbaijan,27699,UNIBO,outgoing
+BA,Bosnia and Herzegovina,3251,UNIBO,outgoing
+BB,Barbados,279,UNIBO,outgoing
+BD,Bangladesh,5336,UNIBO,outgoing
+BE,Belgium,336375,UNIBO,outgoing
+BF,Burkina Faso,416,UNIBO,outgoing
+BG,Bulgaria,53450,UNIBO,outgoing
+BH,Bahrain,5101,UNIBO,outgoing
+BI,Burundi,104,UNIBO,outgoing
+BJ,Benin,1398,UNIBO,outgoing
+BM,Bermuda,179,UNIBO,outgoing
+BN,Brunei,409,UNIBO,outgoing
+BO,Bolivia,650,UNIBO,outgoing
+BQ,"Bonaire, Sint Eustatius, and Saba",11,UNIBO,outgoing
+BR,Brazil,369411,UNIBO,outgoing
+BS,Bahamas,56,UNIBO,outgoing
+BT,Bhutan,348,UNIBO,outgoing
+BW,Botswana,627,UNIBO,outgoing
+BY,Belarus,52843,UNIBO,outgoing
+BZ,Belize,19,UNIBO,outgoing
+CA,Canada,761331,UNIBO,outgoing
+CD,DR Congo,463,UNIBO,outgoing
+CF,Central African Republic,32,UNIBO,outgoing
+CG,Congo Republic,75,UNIBO,outgoing
+CH,Switzerland,612458,UNIBO,outgoing
+CI,Ivory Coast,404,UNIBO,outgoing
+CL,Chile,110525,UNIBO,outgoing
+CM,Cameroon,1573,UNIBO,outgoing
+CN,China,878920,UNIBO,outgoing
+CO,Colombia,63376,UNIBO,outgoing
+CR,Costa Rica,1574,UNIBO,outgoing
+CU,Cuba,5373,UNIBO,outgoing
+CV,Cabo Verde,21,UNIBO,outgoing
+CW,Curaçao,334,UNIBO,outgoing
+CY,Cyprus,27468,UNIBO,outgoing
+CZ,Czechia,155184,UNIBO,outgoing
+DE,Germany,1828283,UNIBO,outgoing
+DJ,Djibouti,3,UNIBO,outgoing
+DK,Denmark,256633,UNIBO,outgoing
+DM,Dominica,2,UNIBO,outgoing
+DO,Dominican Republic,207,UNIBO,outgoing
+DZ,Algeria,3454,UNIBO,outgoing
+EC,Ecuador,24887,UNIBO,outgoing
+EE,Estonia,27196,UNIBO,outgoing
+EG,Egypt,39297,UNIBO,outgoing
+ER,Eritrea,32,UNIBO,outgoing
+ES,Spain,1051307,UNIBO,outgoing
+ET,Ethiopia,10416,UNIBO,outgoing
+EU,European Union,281,UNIBO,outgoing
+FI,Finland,285243,UNIBO,outgoing
+FJ,Fiji,330,UNIBO,outgoing
+FK,Falkland Islands,5,UNIBO,outgoing
+FM,Micronesia,56,UNIBO,outgoing
+FO,Faroe Islands,68,UNIBO,outgoing
+FR,France,4043901,UNIBO,outgoing
+GA,Gabon,438,UNIBO,outgoing
+GB,United Kingdom,2461117,UNIBO,outgoing
+GD,Grenada,476,UNIBO,outgoing
+GE,Georgia,47558,UNIBO,outgoing
+GF,French Guiana,404,UNIBO,outgoing
+GH,Ghana,4079,UNIBO,outgoing
+GI,Gibraltar,145,UNIBO,outgoing
+GL,Greenland,155,UNIBO,outgoing
+GM,The Gambia,118,UNIBO,outgoing
+GN,Guinea,21,UNIBO,outgoing
+GP,Guadeloupe,1632,UNIBO,outgoing
+GR,Greece,231428,UNIBO,outgoing
+GT,Guatemala,2073,UNIBO,outgoing
+GU,Guam,72,UNIBO,outgoing
+GW,Guinea-Bissau,52,UNIBO,outgoing
+GY,Guyana,108,UNIBO,outgoing
+HK,Hong Kong,94577,UNIBO,outgoing
+HN,Honduras,501,UNIBO,outgoing
+HR,Croatia,82262,UNIBO,outgoing
+HT,Haiti,38,UNIBO,outgoing
+HU,Hungary,192391,UNIBO,outgoing
+ID,Indonesia,10623,UNIBO,outgoing
+IE,Ireland,103149,UNIBO,outgoing
+IL,Israel,150071,UNIBO,outgoing
+IM,Isle of Man,12,UNIBO,outgoing
+IN,India,458590,UNIBO,outgoing
+IQ,Iraq,2784,UNIBO,outgoing
+IR,Iran,90633,UNIBO,outgoing
+IS,Iceland,9554,UNIBO,outgoing
+IT,Italy,3669866,UNIBO,outgoing
+JE,Jersey,24,UNIBO,outgoing
+JM,Jamaica,1938,UNIBO,outgoing
+JO,Jordan,10565,UNIBO,outgoing
+JP,Japan,842595,UNIBO,outgoing
+KE,Kenya,5154,UNIBO,outgoing
+KG,Kyrgyzstan,361,UNIBO,outgoing
+KH,Cambodia,1291,UNIBO,outgoing
+KN,St Kitts and Nevis,303,UNIBO,outgoing
+KP,North Korea,56,UNIBO,outgoing
+KR,South Korea,430359,UNIBO,outgoing
+KW,Kuwait,5193,UNIBO,outgoing
+KY,Cayman Islands,20,UNIBO,outgoing
+KZ,Kazakhstan,2196,UNIBO,outgoing
+LA,Laos,146,UNIBO,outgoing
+LB,Lebanon,6457,UNIBO,outgoing
+LC,Saint Lucia,7,UNIBO,outgoing
+LI,Liechtenstein,171,UNIBO,outgoing
+LK,Sri Lanka,15225,UNIBO,outgoing
+LR,Liberia,57,UNIBO,outgoing
+LS,Lesotho,25,UNIBO,outgoing
+LT,Lithuania,18933,UNIBO,outgoing
+LU,Luxembourg,4977,UNIBO,outgoing
+LV,Latvia,11704,UNIBO,outgoing
+LY,Libya,278,UNIBO,outgoing
+MA,Morocco,46839,UNIBO,outgoing
+MC,Monaco,1747,UNIBO,outgoing
+MD,Moldova,489,UNIBO,outgoing
+ME,Montenegro,5649,UNIBO,outgoing
+MG,Madagascar,352,UNIBO,outgoing
+MH,Marshall Islands,1,UNIBO,outgoing
+MK,North Macedonia,1903,UNIBO,outgoing
+ML,Mali,245,UNIBO,outgoing
+MM,Myanmar,778,UNIBO,outgoing
+MN,Mongolia,2453,UNIBO,outgoing
+MO,Macao,1967,UNIBO,outgoing
+MP,Northern Mariana Islands,5,UNIBO,outgoing
+MQ,Martinique,128,UNIBO,outgoing
+MR,Mauritania,30,UNIBO,outgoing
+MS,Montserrat,57,UNIBO,outgoing
+MT,Malta,2309,UNIBO,outgoing
+MU,Mauritius,303,UNIBO,outgoing
+MV,Maldives,146,UNIBO,outgoing
+MW,Malawi,614,UNIBO,outgoing
+MX,Mexico,128510,UNIBO,outgoing
+MY,Malaysia,42804,UNIBO,outgoing
+MZ,Mozambique,1456,UNIBO,outgoing
+NC,New Caledonia,712,UNIBO,outgoing
+NE,Niger,300,UNIBO,outgoing
+NG,Nigeria,7891,UNIBO,outgoing
+NI,Nicaragua,275,UNIBO,outgoing
+NL,The Netherlands,800205,UNIBO,outgoing
+NO,Norway,155010,UNIBO,outgoing
+NP,Nepal,1950,UNIBO,outgoing
+NZ,New Zealand,74798,UNIBO,outgoing
+OC,Oceania,34,UNIBO,outgoing
+OM,Oman,1527,UNIBO,outgoing
+PA,Panama,1610,UNIBO,outgoing
+PE,Peru,8818,UNIBO,outgoing
+PF,French Polynesia,222,UNIBO,outgoing
+PG,Papua New Guinea,235,UNIBO,outgoing
+PH,Philippines,13412,UNIBO,outgoing
+PK,Pakistan,46964,UNIBO,outgoing
+PL,Poland,336197,UNIBO,outgoing
+PR,Puerto Rico,24091,UNIBO,outgoing
+PS,Palestine,3523,UNIBO,outgoing
+PT,Portugal,180039,UNIBO,outgoing
+PW,Palau,230,UNIBO,outgoing
+PY,Paraguay,546,UNIBO,outgoing
+QA,Qatar,13568,UNIBO,outgoing
+RE,Réunion,2171,UNIBO,outgoing
+RO,Romania,83237,UNIBO,outgoing
+RS,Serbia,49441,UNIBO,outgoing
+RU,Russia,560408,UNIBO,outgoing
+RW,Rwanda,548,UNIBO,outgoing
+SA,Saudi Arabia,23934,UNIBO,outgoing
+SB,Solomon Islands,2,UNIBO,outgoing
+SC,Seychelles,230,UNIBO,outgoing
+SD,Sudan,679,UNIBO,outgoing
+SE,Sweden,283378,UNIBO,outgoing
+SG,Singapore,65456,UNIBO,outgoing
+SI,Slovenia,43279,UNIBO,outgoing
+SJ,Svalbard and Jan Mayen,215,UNIBO,outgoing
+SK,Slovakia,88884,UNIBO,outgoing
+SL,Sierra Leone,269,UNIBO,outgoing
+SM,San Marino,1680,UNIBO,outgoing
+SN,Senegal,788,UNIBO,outgoing
+SO,Somalia,314,UNIBO,outgoing
+SR,Suriname,41,UNIBO,outgoing
+SS,South Sudan,45,UNIBO,outgoing
+ST,São Tomé and Príncipe,2,UNIBO,outgoing
+SV,El Salvador,540,UNIBO,outgoing
+SX,Sint Maarten,21,UNIBO,outgoing
+SY,Syria,380,UNIBO,outgoing
+SZ,Eswatini,15,UNIBO,outgoing
+TC,Turks and Caicos Islands,1,UNIBO,outgoing
+TD,Chad,46,UNIBO,outgoing
+TG,Togo,109,UNIBO,outgoing
+TH,Thailand,33439,UNIBO,outgoing
+TJ,Tajikistan,253,UNIBO,outgoing
+TL,Timor-Leste,9,UNIBO,outgoing
+TM,Turkmenistan,37,UNIBO,outgoing
+TN,Tunisia,11041,UNIBO,outgoing
+TO,Tonga,5,UNIBO,outgoing
+TR,Turkey,312638,UNIBO,outgoing
+TT,Trinidad and Tobago,393,UNIBO,outgoing
+TV,Tuvalu,1,UNIBO,outgoing
+TW,Taiwan,203210,UNIBO,outgoing
+TZ,Tanzania,3284,UNIBO,outgoing
+UA,Ukraine,45494,UNIBO,outgoing
+UG,Uganda,3279,UNIBO,outgoing
+US,United States,8894677,UNIBO,outgoing
+UY,Uruguay,3236,UNIBO,outgoing
+UZ,Uzbekistan,7385,UNIBO,outgoing
+VA,Vatican City,2,UNIBO,outgoing
+VC,St Vincent and Grenadines,3,UNIBO,outgoing
+VE,Venezuela,2858,UNIBO,outgoing
+VG,British Virgin Islands,12,UNIBO,outgoing
+VI,U.S. Virgin Islands,101,UNIBO,outgoing
+VN,Vietnam,13622,UNIBO,outgoing
+VU,Vanuatu,5,UNIBO,outgoing
+WS,Samoa,6,UNIBO,outgoing
+XK,Kosovo,407,UNIBO,outgoing
+YE,Yemen,770,UNIBO,outgoing
+YT,Mayotte,4,UNIBO,outgoing
+ZA,South Africa,117981,UNIBO,outgoing
+ZM,Zambia,764,UNIBO,outgoing
+ZW,Zimbabwe,1687,UNIBO,outgoing

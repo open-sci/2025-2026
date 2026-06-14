@@ -1,0 +1,210 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,2,UPO,outgoing
+AE,United Arab Emirates,1350,UPO,outgoing
+AF,Afghanistan,26,UPO,outgoing
+AG,Antigua and Barbuda,120,UPO,outgoing
+AL,Albania,57,UPO,outgoing
+AM,Armenia,11919,UPO,outgoing
+AO,Angola,83,UPO,outgoing
+AR,Argentina,14682,UPO,outgoing
+AS,American Samoa,84,UPO,outgoing
+AT,Austria,39429,UPO,outgoing
+AU,Australia,95319,UPO,outgoing
+AX,Åland,1,UPO,outgoing
+AZ,Azerbaijan,7022,UPO,outgoing
+BA,Bosnia and Herzegovina,449,UPO,outgoing
+BB,Barbados,35,UPO,outgoing
+BD,Bangladesh,792,UPO,outgoing
+BE,Belgium,90075,UPO,outgoing
+BF,Burkina Faso,31,UPO,outgoing
+BG,Bulgaria,25410,UPO,outgoing
+BH,Bahrain,919,UPO,outgoing
+BI,Burundi,15,UPO,outgoing
+BJ,Benin,104,UPO,outgoing
+BM,Bermuda,16,UPO,outgoing
+BN,Brunei,48,UPO,outgoing
+BO,Bolivia,28,UPO,outgoing
+BQ,"Bonaire, Sint Eustatius, and Saba",5,UPO,outgoing
+BR,Brazil,102271,UPO,outgoing
+BS,Bahamas,8,UPO,outgoing
+BT,Bhutan,38,UPO,outgoing
+BW,Botswana,103,UPO,outgoing
+BY,Belarus,17173,UPO,outgoing
+BZ,Belize,12,UPO,outgoing
+CA,Canada,127973,UPO,outgoing
+CD,DR Congo,66,UPO,outgoing
+CF,Central African Republic,3,UPO,outgoing
+CG,Congo Republic,18,UPO,outgoing
+CH,Switzerland,143495,UPO,outgoing
+CI,Ivory Coast,33,UPO,outgoing
+CL,Chile,9646,UPO,outgoing
+CM,Cameroon,158,UPO,outgoing
+CN,China,249751,UPO,outgoing
+CO,Colombia,19890,UPO,outgoing
+CR,Costa Rica,177,UPO,outgoing
+CU,Cuba,3653,UPO,outgoing
+CV,Cabo Verde,3,UPO,outgoing
+CW,Curaçao,37,UPO,outgoing
+CY,Cyprus,10661,UPO,outgoing
+CZ,Czechia,47391,UPO,outgoing
+DE,Germany,361098,UPO,outgoing
+DK,Denmark,46610,UPO,outgoing
+DO,Dominican Republic,21,UPO,outgoing
+DZ,Algeria,449,UPO,outgoing
+EC,Ecuador,11023,UPO,outgoing
+EE,Estonia,9769,UPO,outgoing
+EG,Egypt,14256,UPO,outgoing
+ER,Eritrea,2,UPO,outgoing
+ES,Spain,194901,UPO,outgoing
+ET,Ethiopia,2248,UPO,outgoing
+EU,European Union,19,UPO,outgoing
+FI,Finland,96451,UPO,outgoing
+FJ,Fiji,79,UPO,outgoing
+FM,Micronesia,11,UPO,outgoing
+FO,Faroe Islands,9,UPO,outgoing
+FR,France,774085,UPO,outgoing
+GA,Gabon,93,UPO,outgoing
+GB,United Kingdom,462489,UPO,outgoing
+GD,Grenada,146,UPO,outgoing
+GE,Georgia,15576,UPO,outgoing
+GF,French Guiana,24,UPO,outgoing
+GH,Ghana,1004,UPO,outgoing
+GI,Gibraltar,6,UPO,outgoing
+GL,Greenland,13,UPO,outgoing
+GM,The Gambia,20,UPO,outgoing
+GN,Guinea,6,UPO,outgoing
+GP,Guadeloupe,80,UPO,outgoing
+GR,Greece,72158,UPO,outgoing
+GT,Guatemala,856,UPO,outgoing
+GU,Guam,8,UPO,outgoing
+GW,Guinea-Bissau,10,UPO,outgoing
+GY,Guyana,6,UPO,outgoing
+HK,Hong Kong,15340,UPO,outgoing
+HN,Honduras,39,UPO,outgoing
+HR,Croatia,41412,UPO,outgoing
+HT,Haiti,5,UPO,outgoing
+HU,Hungary,77484,UPO,outgoing
+ID,Indonesia,4206,UPO,outgoing
+IE,Ireland,20871,UPO,outgoing
+IL,Israel,27620,UPO,outgoing
+IM,Isle of Man,2,UPO,outgoing
+IN,India,183419,UPO,outgoing
+IQ,Iraq,608,UPO,outgoing
+IR,Iran,24870,UPO,outgoing
+IS,Iceland,1672,UPO,outgoing
+IT,Italy,810006,UPO,outgoing
+JE,Jersey,4,UPO,outgoing
+JM,Jamaica,351,UPO,outgoing
+JO,Jordan,1082,UPO,outgoing
+JP,Japan,174466,UPO,outgoing
+KE,Kenya,584,UPO,outgoing
+KG,Kyrgyzstan,40,UPO,outgoing
+KH,Cambodia,210,UPO,outgoing
+KN,St Kitts and Nevis,32,UPO,outgoing
+KP,North Korea,2,UPO,outgoing
+KR,South Korea,156255,UPO,outgoing
+KW,Kuwait,2031,UPO,outgoing
+KZ,Kazakhstan,396,UPO,outgoing
+LA,Laos,18,UPO,outgoing
+LB,Lebanon,1191,UPO,outgoing
+LC,Saint Lucia,1,UPO,outgoing
+LI,Liechtenstein,31,UPO,outgoing
+LK,Sri Lanka,6921,UPO,outgoing
+LR,Liberia,10,UPO,outgoing
+LS,Lesotho,2,UPO,outgoing
+LT,Lithuania,8365,UPO,outgoing
+LU,Luxembourg,850,UPO,outgoing
+LV,Latvia,4617,UPO,outgoing
+LY,Libya,60,UPO,outgoing
+MA,Morocco,6952,UPO,outgoing
+MC,Monaco,22,UPO,outgoing
+MD,Moldova,128,UPO,outgoing
+ME,Montenegro,2760,UPO,outgoing
+MG,Madagascar,18,UPO,outgoing
+MK,North Macedonia,251,UPO,outgoing
+ML,Mali,28,UPO,outgoing
+MM,Myanmar,107,UPO,outgoing
+MN,Mongolia,1282,UPO,outgoing
+MO,Macao,341,UPO,outgoing
+MP,Northern Mariana Islands,1,UPO,outgoing
+MQ,Martinique,13,UPO,outgoing
+MR,Mauritania,1,UPO,outgoing
+MT,Malta,255,UPO,outgoing
+MU,Mauritius,53,UPO,outgoing
+MV,Maldives,10,UPO,outgoing
+MW,Malawi,73,UPO,outgoing
+MX,Mexico,55566,UPO,outgoing
+MY,Malaysia,15665,UPO,outgoing
+MZ,Mozambique,111,UPO,outgoing
+NC,New Caledonia,34,UPO,outgoing
+NE,Niger,68,UPO,outgoing
+NG,Nigeria,1524,UPO,outgoing
+NI,Nicaragua,13,UPO,outgoing
+NL,The Netherlands,132319,UPO,outgoing
+NO,Norway,44892,UPO,outgoing
+NP,Nepal,287,UPO,outgoing
+NZ,New Zealand,20595,UPO,outgoing
+OM,Oman,315,UPO,outgoing
+PA,Panama,163,UPO,outgoing
+PE,Peru,4631,UPO,outgoing
+PF,French Polynesia,9,UPO,outgoing
+PG,Papua New Guinea,25,UPO,outgoing
+PH,Philippines,2396,UPO,outgoing
+PK,Pakistan,23654,UPO,outgoing
+PL,Poland,96955,UPO,outgoing
+PR,Puerto Rico,11603,UPO,outgoing
+PS,Palestine,703,UPO,outgoing
+PT,Portugal,31147,UPO,outgoing
+PW,Palau,28,UPO,outgoing
+PY,Paraguay,66,UPO,outgoing
+QA,Qatar,3101,UPO,outgoing
+RE,Réunion,79,UPO,outgoing
+RO,Romania,16391,UPO,outgoing
+RS,Serbia,16038,UPO,outgoing
+RU,Russia,185501,UPO,outgoing
+RW,Rwanda,111,UPO,outgoing
+SA,Saudi Arabia,4436,UPO,outgoing
+SC,Seychelles,19,UPO,outgoing
+SD,Sudan,83,UPO,outgoing
+SE,Sweden,60338,UPO,outgoing
+SG,Singapore,12891,UPO,outgoing
+SI,Slovenia,7748,UPO,outgoing
+SJ,Svalbard and Jan Mayen,3,UPO,outgoing
+SK,Slovakia,30257,UPO,outgoing
+SL,Sierra Leone,90,UPO,outgoing
+SM,San Marino,25,UPO,outgoing
+SN,Senegal,86,UPO,outgoing
+SO,Somalia,70,UPO,outgoing
+SR,Suriname,3,UPO,outgoing
+SS,South Sudan,3,UPO,outgoing
+SV,El Salvador,134,UPO,outgoing
+SX,Sint Maarten,5,UPO,outgoing
+SY,Syria,63,UPO,outgoing
+SZ,Eswatini,3,UPO,outgoing
+TD,Chad,5,UPO,outgoing
+TG,Togo,19,UPO,outgoing
+TH,Thailand,14201,UPO,outgoing
+TJ,Tajikistan,45,UPO,outgoing
+TL,Timor-Leste,2,UPO,outgoing
+TM,Turkmenistan,1,UPO,outgoing
+TN,Tunisia,1755,UPO,outgoing
+TR,Turkey,125840,UPO,outgoing
+TT,Trinidad and Tobago,40,UPO,outgoing
+TV,Tuvalu,1,UPO,outgoing
+TW,Taiwan,50270,UPO,outgoing
+TZ,Tanzania,730,UPO,outgoing
+UA,Ukraine,20671,UPO,outgoing
+UG,Uganda,498,UPO,outgoing
+US,United States,1839362,UPO,outgoing
+UY,Uruguay,548,UPO,outgoing
+UZ,Uzbekistan,4414,UPO,outgoing
+VC,St Vincent and Grenadines,1,UPO,outgoing
+VE,Venezuela,310,UPO,outgoing
+VI,U.S. Virgin Islands,1,UPO,outgoing
+VN,Vietnam,1682,UPO,outgoing
+WS,Samoa,1,UPO,outgoing
+XK,Kosovo,14,UPO,outgoing
+YE,Yemen,119,UPO,outgoing
+ZA,South Africa,25312,UPO,outgoing
+ZM,Zambia,131,UPO,outgoing
+ZW,Zimbabwe,145,UPO,outgoing

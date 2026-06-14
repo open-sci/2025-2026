@@ -1,0 +1,157 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,508594,SNS,2011-2015,outgoing
+France,FR,271083,SNS,2011-2015,outgoing
+Italy,IT,216691,SNS,2011-2015,outgoing
+United Kingdom,GB,134105,SNS,2011-2015,outgoing
+Germany,DE,99742,SNS,2011-2015,outgoing
+Spain,ES,66203,SNS,2011-2015,outgoing
+Russia,RU,63237,SNS,2011-2015,outgoing
+Japan,JP,50794,SNS,2011-2015,outgoing
+Switzerland,CH,43197,SNS,2011-2015,outgoing
+South Korea,KR,34438,SNS,2011-2015,outgoing
+India,IN,32825,SNS,2011-2015,outgoing
+Türkiye,TR,32355,SNS,2011-2015,outgoing
+The Netherlands,NL,32119,SNS,2011-2015,outgoing
+Brazil,BR,31592,SNS,2011-2015,outgoing
+China,CN,30881,SNS,2011-2015,outgoing
+Canada,CA,30699,SNS,2011-2015,outgoing
+Poland,PL,27180,SNS,2011-2015,outgoing
+Finland,FI,20044,SNS,2011-2015,outgoing
+Hungary,HU,19413,SNS,2011-2015,outgoing
+Belgium,BE,19132,SNS,2011-2015,outgoing
+Australia,AU,19028,SNS,2011-2015,outgoing
+Greece,GR,18368,SNS,2011-2015,outgoing
+Taiwan,TW,14528,SNS,2011-2015,outgoing
+Mexico,MX,12520,SNS,2011-2015,outgoing
+Czechia,CZ,11958,SNS,2011-2015,outgoing
+Sweden,SE,10146,SNS,2011-2015,outgoing
+Portugal,PT,8764,SNS,2011-2015,outgoing
+Denmark,DK,8428,SNS,2011-2015,outgoing
+Austria,AT,8173,SNS,2011-2015,outgoing
+Slovakia,SK,8155,SNS,2011-2015,outgoing
+Israel,IL,7600,SNS,2011-2015,outgoing
+Croatia,HR,7376,SNS,2011-2015,outgoing
+Norway,NO,6728,SNS,2011-2015,outgoing
+Colombia,CO,6325,SNS,2011-2015,outgoing
+Bulgaria,BG,6135,SNS,2011-2015,outgoing
+Belarus,BY,5985,SNS,2011-2015,outgoing
+Argentina,AR,5628,SNS,2011-2015,outgoing
+Ukraine,UA,5402,SNS,2011-2015,outgoing
+Chile,CL,5338,SNS,2011-2015,outgoing
+South Africa,ZA,5103,SNS,2011-2015,outgoing
+Serbia,RS,5004,SNS,2011-2015,outgoing
+Ireland,IE,4952,SNS,2011-2015,outgoing
+Romania,RO,4902,SNS,2011-2015,outgoing
+China (People's Republic of),CN,4816,SNS,2011-2015,outgoing
+New Zealand,NZ,4601,SNS,2011-2015,outgoing
+Slovenia,SI,4268,SNS,2011-2015,outgoing
+Pakistan,PK,4257,SNS,2011-2015,outgoing
+Iran,IR,4018,SNS,2011-2015,outgoing
+Morocco,MA,3871,SNS,2011-2015,outgoing
+Georgia,GE,3835,SNS,2011-2015,outgoing
+Puerto Rico,PR,3217,SNS,2011-2015,outgoing
+Armenia,AM,3085,SNS,2011-2015,outgoing
+Egypt,EG,2989,SNS,2011-2015,outgoing
+Cyprus,CY,2811,SNS,2011-2015,outgoing
+Netherlands,NL,2754,SNS,2011-2015,outgoing
+Azerbaijan,AZ,2604,SNS,2011-2015,outgoing
+Singapore,SG,2371,SNS,2011-2015,outgoing
+Estonia,EE,2361,SNS,2011-2015,outgoing
+Hong Kong,HK,2360,SNS,2011-2015,outgoing
+Lithuania,LT,2164,SNS,2011-2015,outgoing
+Malaysia,MY,1546,SNS,2011-2015,outgoing
+Thailand,TH,1533,SNS,2011-2015,outgoing
+Saudi Arabia,SA,1096,SNS,2011-2015,outgoing
+Czech Republic,CZ,1045,SNS,2011-2015,outgoing
+Vietnam,VN,917,SNS,2011-2015,outgoing
+Ecuador,EC,600,SNS,2011-2015,outgoing
+Russian Federation,RU,581,SNS,2011-2015,outgoing
+Jordan,JO,551,SNS,2011-2015,outgoing
+Korea (Republic of),KR,455,SNS,2011-2015,outgoing
+Turkey,TR,451,SNS,2011-2015,outgoing
+Uzbekistan,UZ,344,SNS,2011-2015,outgoing
+Qatar,QA,285,SNS,2011-2015,outgoing
+Peru,PE,228,SNS,2011-2015,outgoing
+Sri Lanka,LK,221,SNS,2011-2015,outgoing
+Cuba,CU,190,SNS,2011-2015,outgoing
+Bahrain,BH,163,SNS,2011-2015,outgoing
+Tanzania,TZ,144,SNS,2011-2015,outgoing
+Iceland,IS,142,SNS,2011-2015,outgoing
+Tunisia,TN,85,SNS,2011-2015,outgoing
+Luxembourg,LU,83,SNS,2011-2015,outgoing
+Uganda,UG,82,SNS,2011-2015,outgoing
+Algeria,DZ,81,SNS,2011-2015,outgoing
+Réunion,RE,62,SNS,2011-2015,outgoing
+Philippines,PH,62,SNS,2011-2015,outgoing
+Ghana,GH,60,SNS,2011-2015,outgoing
+Suriname,SR,51,SNS,2011-2015,outgoing
+Nigeria,NG,48,SNS,2011-2015,outgoing
+United Arab Emirates,AE,47,SNS,2011-2015,outgoing
+Venezuela,VE,41,SNS,2011-2015,outgoing
+Indonesia,ID,40,SNS,2011-2015,outgoing
+Lebanon,LB,38,SNS,2011-2015,outgoing
+Bosnia and Herzegovina,BA,36,SNS,2011-2015,outgoing
+Iran (Islamic Republic of),IR,36,SNS,2011-2015,outgoing
+Malta,MT,34,SNS,2011-2015,outgoing
+Montenegro,ME,31,SNS,2011-2015,outgoing
+Bangladesh,BD,29,SNS,2011-2015,outgoing
+Mongolia,MN,28,SNS,2011-2015,outgoing
+Jamaica,JM,26,SNS,2011-2015,outgoing
+Uruguay,UY,25,SNS,2011-2015,outgoing
+Latvia,LV,25,SNS,2011-2015,outgoing
+Benin,BJ,20,SNS,2011-2015,outgoing
+Kazakhstan,KZ,18,SNS,2011-2015,outgoing
+Oman,OM,18,SNS,2011-2015,outgoing
+Tajikistan,TJ,15,SNS,2011-2015,outgoing
+Iraq,IQ,15,SNS,2011-2015,outgoing
+Macao,MO,14,SNS,2011-2015,outgoing
+Zimbabwe,ZW,14,SNS,2011-2015,outgoing
+Namibia,,11,SNS,2011-2015,outgoing
+Ethiopia,ET,11,SNS,2011-2015,outgoing
+Nepal,NP,11,SNS,2011-2015,outgoing
+Kenya,KE,10,SNS,2011-2015,outgoing
+Barbados,BB,10,SNS,2011-2015,outgoing
+Sierra Leone,SL,10,SNS,2011-2015,outgoing
+Palestine,PS,9,SNS,2011-2015,outgoing
+Panama,PA,8,SNS,2011-2015,outgoing
+Senegal,SN,8,SNS,2011-2015,outgoing
+New Caledonia,NC,7,SNS,2011-2015,outgoing
+Burundi,BI,7,SNS,2011-2015,outgoing
+Yemen,YE,6,SNS,2011-2015,outgoing
+Costa Rica,CR,6,SNS,2011-2015,outgoing
+DR Congo,CD,6,SNS,2011-2015,outgoing
+Cambodia,KH,5,SNS,2011-2015,outgoing
+Guatemala,GT,5,SNS,2011-2015,outgoing
+San Marino,SM,5,SNS,2011-2015,outgoing
+Grenada,GD,4,SNS,2011-2015,outgoing
+Cameroon,CM,4,SNS,2011-2015,outgoing
+Congo Republic,CG,4,SNS,2011-2015,outgoing
+Mozambique,MZ,4,SNS,2011-2015,outgoing
+European Union,EU,4,SNS,2011-2015,outgoing
+Greenland,GL,4,SNS,2011-2015,outgoing
+North Macedonia,MK,4,SNS,2011-2015,outgoing
+Albania,AL,3,SNS,2011-2015,outgoing
+Bhutan,BT,3,SNS,2011-2015,outgoing
+Paraguay,PY,3,SNS,2011-2015,outgoing
+Honduras,HN,3,SNS,2011-2015,outgoing
+Somalia,SO,2,SNS,2011-2015,outgoing
+Malawi,MW,2,SNS,2011-2015,outgoing
+Angola,AO,2,SNS,2011-2015,outgoing
+Kuwait,KW,2,SNS,2011-2015,outgoing
+Guadeloupe,GP,2,SNS,2011-2015,outgoing
+Brunei,BN,2,SNS,2011-2015,outgoing
+Rwanda,RW,2,SNS,2011-2015,outgoing
+Gabon,GA,2,SNS,2011-2015,outgoing
+Zambia,ZM,2,SNS,2011-2015,outgoing
+Sudan,SD,1,SNS,2011-2015,outgoing
+Monaco,MC,1,SNS,2011-2015,outgoing
+American Samoa,AS,1,SNS,2011-2015,outgoing
+Myanmar,MM,1,SNS,2011-2015,outgoing
+French Polynesia,PF,1,SNS,2011-2015,outgoing
+Maldives,MV,1,SNS,2011-2015,outgoing
+Congo (Democratic Republic of),CD,1,SNS,2011-2015,outgoing
+Bermuda,BM,1,SNS,2011-2015,outgoing
+Madagascar,MG,1,SNS,2011-2015,outgoing
+Afghanistan,AF,1,SNS,2011-2015,outgoing
+Antigua and Barbuda,AG,1,SNS,2011-2015,outgoing
+Nicaragua,NI,1,SNS,2011-2015,outgoing

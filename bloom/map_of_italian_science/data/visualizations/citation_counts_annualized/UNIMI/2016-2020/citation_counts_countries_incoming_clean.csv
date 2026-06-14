@@ -1,0 +1,242 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,2525575,UNIMI,2016-2020,incoming
+France,FR,1387539,UNIMI,2016-2020,incoming
+Italy,IT,1256805,UNIMI,2016-2020,incoming
+United Kingdom,GB,857218,UNIMI,2016-2020,incoming
+China,CN,723452,UNIMI,2016-2020,incoming
+Germany,DE,669357,UNIMI,2016-2020,incoming
+Spain,ES,473823,UNIMI,2016-2020,incoming
+Japan,JP,315805,UNIMI,2016-2020,incoming
+Canada,CA,305549,UNIMI,2016-2020,incoming
+Australia,AU,301679,UNIMI,2016-2020,incoming
+The Netherlands,NL,256517,UNIMI,2016-2020,incoming
+Brazil,BR,213899,UNIMI,2016-2020,incoming
+Switzerland,CH,213611,UNIMI,2016-2020,incoming
+South Korea,KR,206448,UNIMI,2016-2020,incoming
+India,IN,194879,UNIMI,2016-2020,incoming
+Russia,RU,194844,UNIMI,2016-2020,incoming
+Poland,PL,140637,UNIMI,2016-2020,incoming
+Belgium,BE,129603,UNIMI,2016-2020,incoming
+Denmark,DK,120012,UNIMI,2016-2020,incoming
+Sweden,SE,109790,UNIMI,2016-2020,incoming
+Taiwan,TW,105429,UNIMI,2016-2020,incoming
+Türkiye,TR,104477,UNIMI,2016-2020,incoming
+Finland,FI,92126,UNIMI,2016-2020,incoming
+Portugal,PT,90932,UNIMI,2016-2020,incoming
+Iran,IR,87669,UNIMI,2016-2020,incoming
+Austria,AT,86894,UNIMI,2016-2020,incoming
+Greece,GR,85470,UNIMI,2016-2020,incoming
+China (People's Republic of),CN,61919,UNIMI,2016-2020,incoming
+Hungary,HU,59908,UNIMI,2016-2020,incoming
+Norway,NO,59165,UNIMI,2016-2020,incoming
+Czechia,CZ,55356,UNIMI,2016-2020,incoming
+Israel,IL,53827,UNIMI,2016-2020,incoming
+South Africa,ZA,50642,UNIMI,2016-2020,incoming
+Mexico,MX,50362,UNIMI,2016-2020,incoming
+Argentina,AR,48021,UNIMI,2016-2020,incoming
+Ireland,IE,47372,UNIMI,2016-2020,incoming
+Netherlands,NL,42252,UNIMI,2016-2020,incoming
+Singapore,SG,39893,UNIMI,2016-2020,incoming
+Hong Kong,HK,39656,UNIMI,2016-2020,incoming
+Chile,CL,34653,UNIMI,2016-2020,incoming
+Romania,RO,29173,UNIMI,2016-2020,incoming
+Croatia,HR,25936,UNIMI,2016-2020,incoming
+Colombia,CO,25836,UNIMI,2016-2020,incoming
+Slovakia,SK,25606,UNIMI,2016-2020,incoming
+Malaysia,MY,25597,UNIMI,2016-2020,incoming
+New Zealand,NZ,25082,UNIMI,2016-2020,incoming
+Egypt,EG,24869,UNIMI,2016-2020,incoming
+Pakistan,PK,22709,UNIMI,2016-2020,incoming
+Serbia,RS,21650,UNIMI,2016-2020,incoming
+Saudi Arabia,SA,21450,UNIMI,2016-2020,incoming
+Belarus,BY,20557,UNIMI,2016-2020,incoming
+Thailand,TH,20081,UNIMI,2016-2020,incoming
+Slovenia,SI,17606,UNIMI,2016-2020,incoming
+Morocco,MA,15954,UNIMI,2016-2020,incoming
+Bulgaria,BG,13876,UNIMI,2016-2020,incoming
+Ukraine,UA,13199,UNIMI,2016-2020,incoming
+Georgia,GE,12708,UNIMI,2016-2020,incoming
+Vietnam,VN,11481,UNIMI,2016-2020,incoming
+Ethiopia,ET,9900,UNIMI,2016-2020,incoming
+Korea (Republic of),KR,9820,UNIMI,2016-2020,incoming
+Estonia,EE,9602,UNIMI,2016-2020,incoming
+Cyprus,CY,8671,UNIMI,2016-2020,incoming
+Nigeria,NG,8652,UNIMI,2016-2020,incoming
+Azerbaijan,AZ,8470,UNIMI,2016-2020,incoming
+Qatar,QA,8323,UNIMI,2016-2020,incoming
+Indonesia,ID,7962,UNIMI,2016-2020,incoming
+Armenia,AM,7081,UNIMI,2016-2020,incoming
+Lithuania,LT,6908,UNIMI,2016-2020,incoming
+Ecuador,EC,6765,UNIMI,2016-2020,incoming
+Lebanon,LB,6362,UNIMI,2016-2020,incoming
+Puerto Rico,PR,6235,UNIMI,2016-2020,incoming
+Tunisia,TN,6120,UNIMI,2016-2020,incoming
+United Arab Emirates,AE,5883,UNIMI,2016-2020,incoming
+Philippines,PH,5095,UNIMI,2016-2020,incoming
+Turkey,TR,4882,UNIMI,2016-2020,incoming
+Russian Federation,RU,4801,UNIMI,2016-2020,incoming
+Iceland,IS,4398,UNIMI,2016-2020,incoming
+Bangladesh,BD,4345,UNIMI,2016-2020,incoming
+Bahrain,BH,3996,UNIMI,2016-2020,incoming
+Sri Lanka,LK,3966,UNIMI,2016-2020,incoming
+Peru,PE,3879,UNIMI,2016-2020,incoming
+Jordan,JO,3428,UNIMI,2016-2020,incoming
+Ghana,GH,3323,UNIMI,2016-2020,incoming
+Czech Republic,CZ,3306,UNIMI,2016-2020,incoming
+Kenya,KE,3296,UNIMI,2016-2020,incoming
+Latvia,LV,3286,UNIMI,2016-2020,incoming
+Iraq,IQ,2930,UNIMI,2016-2020,incoming
+Luxembourg,LU,2921,UNIMI,2016-2020,incoming
+Uganda,UG,2805,UNIMI,2016-2020,incoming
+Algeria,DZ,2622,UNIMI,2016-2020,incoming
+Uruguay,UY,2452,UNIMI,2016-2020,incoming
+Palestine,PS,2195,UNIMI,2016-2020,incoming
+Cameroon,CM,2104,UNIMI,2016-2020,incoming
+Nepal,NP,1960,UNIMI,2016-2020,incoming
+Kazakhstan,KZ,1840,UNIMI,2016-2020,incoming
+Iran (Islamic Republic of),IR,1805,UNIMI,2016-2020,incoming
+Tanzania,TZ,1736,UNIMI,2016-2020,incoming
+Oman,OM,1716,UNIMI,2016-2020,incoming
+Macao,MO,1659,UNIMI,2016-2020,incoming
+Antigua and Barbuda,AG,1650,UNIMI,2016-2020,incoming
+Kuwait,KW,1472,UNIMI,2016-2020,incoming
+Cuba,CU,1438,UNIMI,2016-2020,incoming
+Bosnia and Herzegovina,BA,1429,UNIMI,2016-2020,incoming
+Venezuela,VE,1388,UNIMI,2016-2020,incoming
+Uzbekistan,UZ,1353,UNIMI,2016-2020,incoming
+Cambodia,KH,1296,UNIMI,2016-2020,incoming
+Malta,MT,1295,UNIMI,2016-2020,incoming
+North Macedonia,MK,1200,UNIMI,2016-2020,incoming
+Malawi,MW,1072,UNIMI,2016-2020,incoming
+Zimbabwe,ZW,983,UNIMI,2016-2020,incoming
+Jamaica,JM,956,UNIMI,2016-2020,incoming
+Guatemala,GT,920,UNIMI,2016-2020,incoming
+Costa Rica,CR,910,UNIMI,2016-2020,incoming
+Mozambique,MZ,885,UNIMI,2016-2020,incoming
+Guadeloupe,GP,873,UNIMI,2016-2020,incoming
+Montenegro,ME,827,UNIMI,2016-2020,incoming
+Senegal,SN,812,UNIMI,2016-2020,incoming
+Myanmar,MM,777,UNIMI,2016-2020,incoming
+Mongolia,MN,774,UNIMI,2016-2020,incoming
+Sudan,SD,730,UNIMI,2016-2020,incoming
+Réunion,RE,720,UNIMI,2016-2020,incoming
+Benin,BJ,717,UNIMI,2016-2020,incoming
+Rwanda,RW,697,UNIMI,2016-2020,incoming
+Yemen,YE,685,UNIMI,2016-2020,incoming
+Zambia,ZM,649,UNIMI,2016-2020,incoming
+Panama,PA,624,UNIMI,2016-2020,incoming
+Moldova,MD,611,UNIMI,2016-2020,incoming
+Burkina Faso,BF,554,UNIMI,2016-2020,incoming
+Botswana,BW,544,UNIMI,2016-2020,incoming
+St Kitts and Nevis,KN,536,UNIMI,2016-2020,incoming
+Grenada,GD,530,UNIMI,2016-2020,incoming
+American Samoa,AS,500,UNIMI,2016-2020,incoming
+Ivory Coast,CI,479,UNIMI,2016-2020,incoming
+Albania,AL,429,UNIMI,2016-2020,incoming
+DR Congo,CD,408,UNIMI,2016-2020,incoming
+Angola,AO,405,UNIMI,2016-2020,incoming
+El Salvador,SV,405,UNIMI,2016-2020,incoming
+Niger,NE,365,UNIMI,2016-2020,incoming
+Paraguay,PY,362,UNIMI,2016-2020,incoming
+Gabon,GA,346,UNIMI,2016-2020,incoming
+Syria,SY,324,UNIMI,2016-2020,incoming
+Bhutan,BT,315,UNIMI,2016-2020,incoming
+Libya,LY,314,UNIMI,2016-2020,incoming
+New Caledonia,NC,301,UNIMI,2016-2020,incoming
+Namibia,,294,UNIMI,2016-2020,incoming
+Fiji,FJ,280,UNIMI,2016-2020,incoming
+Liechtenstein,LI,276,UNIMI,2016-2020,incoming
+Kosovo,XK,269,UNIMI,2016-2020,incoming
+Tajikistan,TJ,263,UNIMI,2016-2020,incoming
+Curaçao,CW,255,UNIMI,2016-2020,incoming
+Bolivia,BO,250,UNIMI,2016-2020,incoming
+French Guiana,GF,248,UNIMI,2016-2020,incoming
+Kyrgyzstan,KG,229,UNIMI,2016-2020,incoming
+Madagascar,MG,225,UNIMI,2016-2020,incoming
+Nicaragua,NI,214,UNIMI,2016-2020,incoming
+Somalia,SO,209,UNIMI,2016-2020,incoming
+Mauritius,MU,192,UNIMI,2016-2020,incoming
+Dominican Republic,DO,182,UNIMI,2016-2020,incoming
+Laos,LA,171,UNIMI,2016-2020,incoming
+Viet Nam,VN,160,UNIMI,2016-2020,incoming
+Trinidad and Tobago,TT,159,UNIMI,2016-2020,incoming
+Martinique,MQ,159,UNIMI,2016-2020,incoming
+Brunei,BN,155,UNIMI,2016-2020,incoming
+Afghanistan,AF,154,UNIMI,2016-2020,incoming
+Monaco,MC,154,UNIMI,2016-2020,incoming
+The Gambia,GM,138,UNIMI,2016-2020,incoming
+Mali,ML,135,UNIMI,2016-2020,incoming
+Congo Republic,CG,130,UNIMI,2016-2020,incoming
+Papua New Guinea,PG,124,UNIMI,2016-2020,incoming
+Tanzania (United Republic of),TZ,121,UNIMI,2016-2020,incoming
+Honduras,HN,117,UNIMI,2016-2020,incoming
+Togo,TG,111,UNIMI,2016-2020,incoming
+European Union,EU,106,UNIMI,2016-2020,incoming
+San Marino,SM,106,UNIMI,2016-2020,incoming
+Barbados,BB,103,UNIMI,2016-2020,incoming
+Palau,PW,100,UNIMI,2016-2020,incoming
+Guinea-Bissau,GW,98,UNIMI,2016-2020,incoming
+Greenland,GL,85,UNIMI,2016-2020,incoming
+North Korea,KP,65,UNIMI,2016-2020,incoming
+Faroe Islands,FO,60,UNIMI,2016-2020,incoming
+Burundi,BI,60,UNIMI,2016-2020,incoming
+Former Yugoslav Republic of Macedonia,MK,57,UNIMI,2016-2020,incoming
+Sierra Leone,SL,57,UNIMI,2016-2020,incoming
+Gibraltar,GI,53,UNIMI,2016-2020,incoming
+Guinea,GN,47,UNIMI,2016-2020,incoming
+Seychelles,SC,46,UNIMI,2016-2020,incoming
+French Polynesia,PF,45,UNIMI,2016-2020,incoming
+Central African Republic,CF,43,UNIMI,2016-2020,incoming
+Svalbard and Jan Mayen,SJ,42,UNIMI,2016-2020,incoming
+Suriname,SR,38,UNIMI,2016-2020,incoming
+Micronesia,FM,37,UNIMI,2016-2020,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,34,UNIMI,2016-2020,incoming
+Bahamas,BS,33,UNIMI,2016-2020,incoming
+Guyana,GY,32,UNIMI,2016-2020,incoming
+Haiti,HT,27,UNIMI,2016-2020,incoming
+Chad,TD,23,UNIMI,2016-2020,incoming
+Liberia,LR,23,UNIMI,2016-2020,incoming
+Palestinian-administered areas,PS,22,UNIMI,2016-2020,incoming
+Eswatini,SZ,20,UNIMI,2016-2020,incoming
+Cote d'Ivoire,CI,20,UNIMI,2016-2020,incoming
+Bermuda,BM,20,UNIMI,2016-2020,incoming
+U.S. Virgin Islands,VI,20,UNIMI,2016-2020,incoming
+Sint Maarten,SX,19,UNIMI,2016-2020,incoming
+Congo (Democratic Republic of),CD,15,UNIMI,2016-2020,incoming
+Saint Lucia,LC,15,UNIMI,2016-2020,incoming
+South Sudan,SS,14,UNIMI,2016-2020,incoming
+Jersey,JE,14,UNIMI,2016-2020,incoming
+Isle of Man,IM,12,UNIMI,2016-2020,incoming
+Mauritania,MR,10,UNIMI,2016-2020,incoming
+St Vincent and Grenadines,VC,10,UNIMI,2016-2020,incoming
+Belize,BZ,10,UNIMI,2016-2020,incoming
+Cabo Verde,CV,9,UNIMI,2016-2020,incoming
+Guam,GU,9,UNIMI,2016-2020,incoming
+Dominica,DM,9,UNIMI,2016-2020,incoming
+Mayotte,YT,8,UNIMI,2016-2020,incoming
+Maldives,MV,8,UNIMI,2016-2020,incoming
+Turkmenistan,TM,7,UNIMI,2016-2020,incoming
+Andorra,AD,6,UNIMI,2016-2020,incoming
+Lesotho,LS,6,UNIMI,2016-2020,incoming
+Montserrat,MS,5,UNIMI,2016-2020,incoming
+Samoa,WS,5,UNIMI,2016-2020,incoming
+Libyan Arab Jamahiriya,LY,4,UNIMI,2016-2020,incoming
+Timor-Leste,TL,3,UNIMI,2016-2020,incoming
+Eritrea,ER,3,UNIMI,2016-2020,incoming
+Lao (People's Democratic Republic),LA,3,UNIMI,2016-2020,incoming
+Åland,AX,3,UNIMI,2016-2020,incoming
+Tonga,TO,3,UNIMI,2016-2020,incoming
+Cayman Islands,KY,2,UNIMI,2016-2020,incoming
+Swaziland,SZ,2,UNIMI,2016-2020,incoming
+British Virgin Islands,VG,2,UNIMI,2016-2020,incoming
+Moldova (Republic of),MD,2,UNIMI,2016-2020,incoming
+Vatican City,VA,2,UNIMI,2016-2020,incoming
+Kosovo * UN resolution,XK,2,UNIMI,2016-2020,incoming
+Vanuatu,VU,1,UNIMI,2016-2020,incoming
+Tuvalu,TV,1,UNIMI,2016-2020,incoming
+Djibouti,DJ,1,UNIMI,2016-2020,incoming
+Northern Mariana Islands,MP,1,UNIMI,2016-2020,incoming
+"Korea, Democratic People's Republic of",KP,1,UNIMI,2016-2020,incoming
+Aruba,AW,1,UNIMI,2016-2020,incoming
+Cape Verde,CV,1,UNIMI,2016-2020,incoming
+Solomon Islands,SB,1,UNIMI,2016-2020,incoming

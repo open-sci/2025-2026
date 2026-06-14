@@ -1,0 +1,86 @@
+======================================================================
+Phase 1 -- scanning CSVs
+======================================================================
+  Scanning iris_oc_pids/SNS/iris_oc_pids.csv ...
+    923,963 rows total
+  Scanning iris_oc_pids/UNIBO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h00m05s
+    2,000,000 rows | 0h00m08s
+    3,000,000 rows | 0h00m11s
+    4,000,000 rows | 0h00m14s
+    5,000,000 rows | 0h00m17s
+    6,000,000 rows | 0h00m20s
+    7,000,000 rows | 0h00m23s
+    8,000,000 rows | 0h00m26s
+    9,000,000 rows | 0h00m29s
+    9,834,395 rows total
+  Scanning iris_oc_pids/UNIMI/iris_oc_pids.csv ...
+    1,000,000 rows | 0h00m35s
+    2,000,000 rows | 0h00m38s
+    3,000,000 rows | 0h00m42s
+    4,000,000 rows | 0h00m45s
+    5,000,000 rows | 0h00m48s
+    6,000,000 rows | 0h00m51s
+    7,000,000 rows | 0h00m54s
+    8,000,000 rows | 0h00m57s
+    9,000,000 rows | 0h01m00s
+    10,000,000 rows | 0h01m03s
+    11,000,000 rows | 0h01m06s
+    12,000,000 rows | 0h01m08s
+    12,190,001 rows total
+  Scanning iris_oc_pids/UNIPD/iris_oc_pids.csv ...
+    1,000,000 rows | 0h01m12s
+    2,000,000 rows | 0h01m15s
+    3,000,000 rows | 0h01m18s
+    4,000,000 rows | 0h01m21s
+    5,000,000 rows | 0h01m24s
+    6,000,000 rows | 0h01m27s
+    7,000,000 rows | 0h01m30s
+    8,000,000 rows | 0h01m33s
+    9,000,000 rows | 0h01m36s
+    10,000,000 rows | 0h01m39s
+    10,074,834 rows total
+  Scanning iris_oc_pids/UNITO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h01m42s
+    2,000,000 rows | 0h01m45s
+    3,000,000 rows | 0h01m47s
+    4,000,000 rows | 0h01m51s
+    5,000,000 rows | 0h01m54s
+    6,000,000 rows | 0h01m57s
+    6,839,419 rows total
+  Scanning iris_oc_pids/UPO/iris_oc_pids.csv ...
+    1,000,000 rows | 0h02m02s
+    1,565,718 rows total
+  13,155,637 unique omids to look up | 0h02m04s
+
+======================================================================
+Phase 2 -- streaming omid_organizations.json
+======================================================================
+  Streaming iris_openaire_organizations/omid_organizations.json ...
+  ...1,000,000 entries scanned, 795,068 matched | 0h00m11s
+  ...2,000,000 entries scanned, 1,588,722 matched | 0h00m22s
+  ...3,000,000 entries scanned, 2,391,586 matched | 0h00m33s
+  ...4,000,000 entries scanned, 3,207,215 matched | 0h00m44s
+  ...5,000,000 entries scanned, 4,007,043 matched | 0h00m55s
+  ...6,000,000 entries scanned, 4,805,120 matched | 0h01m06s
+  ...7,000,000 entries scanned, 5,620,320 matched | 0h01m18s
+  ...8,000,000 entries scanned, 6,426,882 matched | 0h01m29s
+  ...9,000,000 entries scanned, 7,227,406 matched | 0h01m40s
+  ...10,000,000 entries scanned, 8,031,908 matched | 0h01m51s
+  ...11,000,000 entries scanned, 8,859,787 matched | 0h02m03s
+  ...12,000,000 entries scanned, 9,691,318 matched | 0h02m15s
+  ...13,000,000 entries scanned, 10,527,362 matched | 0h02m27s
+  ...14,000,000 entries scanned, 11,336,940 matched | 0h02m39s
+  ...15,000,000 entries scanned, 12,159,791 matched | 0h02m51s
+  15,235,123 entries scanned, 13,126,581 matched, 12,346,576 with organizations | 0h02m53s
+  809,061 omids from CSVs not found in JSON
+
+======================================================================
+Phase 3 -- writing output
+======================================================================
+  SNS: 2000-2005 in 118c/out 127c, 2006-2010 in 140c/out 145c, 2011-2015 in 157c/out 156c, 2016-2020 in 187c/out 166c, 2021-2025 in 192c/out 142c
+  UNIBO: 2000-2005 in 166c/out 200c, 2006-2010 in 202c/out 219c, 2011-2015 in 221c/out 226c, 2016-2020 in 242c/out 233c, 2021-2025 in 245c/out 227c
+  UNIMI: 2000-2005 in 188c/out 206c, 2006-2010 in 205c/out 215c, 2011-2015 in 227c/out 223c, 2016-2020 in 241c/out 228c, 2021-2025 in 247c/out 223c
+  UNIPD: 2000-2005 in 176c/out 200c, 2006-2010 in 198c/out 215c, 2011-2015 in 222c/out 221c, 2016-2020 in 240c/out 238c, 2021-2025 in 249c/out 222c
+  UNITO: 2000-2005 in 167c/out 197c, 2006-2010 in 198c/out 211c, 2011-2015 in 222c/out 218c, 2016-2020 in 234c/out 228c, 2021-2025 in 244c/out 218c
+  UPO: 2000-2005 in 146c/out 165c, 2006-2010 in 159c/out 176c, 2011-2015 in 191c/out 190c, 2016-2020 in 209c/out 212c, 2021-2025 in 223c/out 189c

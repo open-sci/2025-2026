@@ -1,0 +1,219 @@
+country_name,country_code,count
+United States,US,1421938
+France,FR,637801
+Italy,IT,523998
+United Kingdom,GB,389467
+Germany,DE,313223
+Spain,ES,172606
+China,CN,134509
+Japan,JP,130916
+Canada,CA,121329
+The Netherlands,NL,119959
+Australia,AU,114083
+Switzerland,CH,106589
+Russia,RU,79534
+South Korea,KR,71237
+Belgium,BE,62487
+India,IN,60841
+Brazil,BR,57252
+Sweden,SE,49559
+Poland,PL,47666
+Denmark,DK,46445
+Finland,FI,43049
+Türkiye,TR,42514
+Austria,AT,33629
+Greece,GR,33187
+Hungary,HU,31848
+Taiwan,TW,30230
+Portugal,PT,29274
+Norway,NO,26100
+Czechia,CZ,25571
+Mexico,MX,23156
+Israel,IL,23078
+Netherlands,NL,18530
+Argentina,AR,18299
+Ireland,IE,18288
+South Africa,ZA,16117
+China (People's Republic of),CN,15547
+Singapore,SG,13328
+New Zealand,NZ,12526
+Croatia,HR,12456
+Hong Kong,HK,11291
+Iran,IR,10646
+Slovakia,SK,10214
+Bulgaria,BG,8472
+Chile,CL,8322
+Romania,RO,8152
+Slovenia,SI,7912
+Serbia,RS,7873
+Pakistan,PK,7496
+Colombia,CO,7151
+Belarus,BY,6904
+Ukraine,UA,6875
+Malaysia,MY,5921
+Thailand,TH,5881
+Morocco,MA,5743
+Georgia,GE,5612
+Egypt,EG,5246
+Estonia,EE,5208
+Saudi Arabia,SA,5082
+Armenia,AM,4156
+Puerto Rico,PR,3948
+Cyprus,CY,3805
+Azerbaijan,AZ,3343
+Korea (Republic of),KR,2978
+Lithuania,LT,2837
+Iceland,IS,2578
+Qatar,QA,2146
+Vietnam,VN,1720
+Peru,PE,1602
+Tunisia,TN,1591
+Uzbekistan,UZ,1407
+Jordan,JO,1349
+Philippines,PH,1259
+Russian Federation,RU,1202
+Czech Republic,CZ,1103
+Ethiopia,ET,1051
+Nigeria,NG,995
+Kenya,KE,967
+Lebanon,LB,965
+Bahrain,BH,936
+Indonesia,ID,870
+United Arab Emirates,AE,816
+Cuba,CU,812
+Luxembourg,LU,781
+Latvia,LV,698
+Bangladesh,BD,674
+Ecuador,EC,662
+Palestine,PS,647
+Uruguay,UY,556
+Jamaica,JM,512
+Guadeloupe,GP,505
+Ghana,GH,500
+Venezuela,VE,497
+Tanzania,TZ,489
+Sri Lanka,LK,480
+Uganda,UG,446
+Algeria,DZ,444
+Bosnia and Herzegovina,BA,430
+Panama,PA,408
+Réunion,RE,369
+Turkey,TR,357
+Benin,BJ,322
+Costa Rica,CR,280
+Oman,OM,268
+Malta,MT,258
+Cameroon,CM,246
+Nepal,NP,226
+Senegal,SN,221
+Bolivia,BO,215
+Iran (Islamic Republic of),IR,195
+Iraq,IQ,195
+Montenegro,ME,181
+Kazakhstan,KZ,180
+North Macedonia,MK,180
+Macao,MO,179
+Namibia,NA,168
+Kuwait,KW,163
+Mongolia,MN,157
+Cambodia,KH,151
+Sierra Leone,SL,142
+Mozambique,MZ,138
+French Guiana,GF,133
+Malawi,MW,127
+El Salvador,SV,125
+Angola,AO,124
+Fiji,FJ,123
+DR Congo,CD,118
+Burkina Faso,BF,117
+New Caledonia,NC,116
+Moldova,MD,110
+Sudan,SD,107
+Zambia,ZM,105
+Grenada,GD,104
+Myanmar,MM,101
+Honduras,HN,101
+Albania,AL,100
+Ivory Coast,CI,98
+Seychelles,SC,96
+Gabon,GA,92
+Curaçao,CW,90
+Zimbabwe,ZW,87
+Guatemala,GT,83
+Barbados,BB,81
+Somalia,SO,79
+Yemen,YE,75
+Madagascar,MG,73
+Botswana,BW,73
+Svalbard and Jan Mayen,SJ,66
+Nicaragua,NI,61
+American Samoa,AS,61
+Niger,NE,59
+Syria,SY,58
+Liechtenstein,LI,57
+Brunei,BN,54
+Bhutan,BT,53
+San Marino,SM,48
+Palau,PW,48
+Libya,LY,44
+Mauritius,MU,43
+Paraguay,PY,43
+Maldives,MV,42
+Antigua and Barbuda,AG,39
+Rwanda,RW,37
+Monaco,MC,36
+Trinidad and Tobago,TT,33
+Laos,LA,33
+Kyrgyzstan,KG,31
+Suriname,SR,30
+Former Yugoslav Republic of Macedonia,MK,30
+Mali,ML,28
+Papua New Guinea,PG,28
+French Polynesia,PF,26
+Greenland,GL,25
+Guyana,GY,24
+Congo (Democratic Republic of),CD,22
+St Kitts and Nevis,KN,21
+Gibraltar,GI,20
+Viet Nam,VN,19
+Kosovo,XK,19
+Tajikistan,TJ,18
+Bermuda,BM,18
+European Union,EU,17
+Burundi,BI,16
+Montserrat,MS,16
+Afghanistan,AF,15
+Guinea-Bissau,GW,15
+Congo Republic,CG,14
+Jersey,JE,13
+Tanzania (United Republic of),TZ,12
+Togo,TG,12
+Dominican Republic,DO,11
+Martinique,MQ,10
+Central African Republic,CF,8
+The Gambia,GM,8
+Faroe Islands,FO,5
+Mauritania,MR,5
+Chad,TD,4
+Eritrea,ER,4
+Guinea,GN,4
+Cayman Islands,KY,4
+Isle of Man,IM,3
+Guam,GU,2
+"Bonaire, Sint Eustatius, and Saba",BQ,2
+Liberia,LR,2
+Belize,BZ,2
+Kosovo * UN resolution,XK,2
+British Virgin Islands,VG,2
+Lao (People's Democratic Republic),LA,1
+"Virgin Islands, U.S.",VI,1
+Haiti,HT,1
+U.S. Virgin Islands,VI,1
+Djibouti,DJ,1
+Palestinian-administered areas,PS,1
+United States Minor Outlying Islands,UM,1
+South Sudan,SS,1
+Bahamas,BS,1
+Samoa,WS,1
+Vanuatu,VU,1
+Northern Mariana Islands,MP,1

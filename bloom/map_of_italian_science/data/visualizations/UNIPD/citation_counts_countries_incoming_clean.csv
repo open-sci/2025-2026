@@ -1,0 +1,230 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,14,UNIPD,incoming
+AE,United Arab Emirates,17654,UNIPD,incoming
+AF,Afghanistan,357,UNIPD,incoming
+AG,Antigua and Barbuda,1705,UNIPD,incoming
+AL,Albania,1212,UNIPD,incoming
+AM,Armenia,18898,UNIPD,incoming
+AO,Angola,684,UNIPD,incoming
+AR,Argentina,105584,UNIPD,incoming
+AS,American Samoa,679,UNIPD,incoming
+AT,Austria,204571,UNIPD,incoming
+AU,Australia,597753,UNIPD,incoming
+AW,Aruba,7,UNIPD,incoming
+AX,Åland,4,UNIPD,incoming
+AZ,Azerbaijan,11229,UNIPD,incoming
+BA,Bosnia and Herzegovina,2654,UNIPD,incoming
+BB,Barbados,636,UNIPD,incoming
+BD,Bangladesh,12543,UNIPD,incoming
+BE,Belgium,324708,UNIPD,incoming
+BF,Burkina Faso,1267,UNIPD,incoming
+BG,Bulgaria,46727,UNIPD,incoming
+BH,Bahrain,4650,UNIPD,incoming
+BI,Burundi,169,UNIPD,incoming
+BJ,Benin,1261,UNIPD,incoming
+BM,Bermuda,48,UNIPD,incoming
+BN,Brunei,583,UNIPD,incoming
+BO,Bolivia,703,UNIPD,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",21,UNIPD,incoming
+BR,Brazil,453364,UNIPD,incoming
+BS,Bahamas,47,UNIPD,incoming
+BT,Bhutan,722,UNIPD,incoming
+BW,Botswana,740,UNIPD,incoming
+BY,Belarus,30383,UNIPD,incoming
+BZ,Belize,44,UNIPD,incoming
+CA,Canada,650406,UNIPD,incoming
+CD,DR Congo,680,UNIPD,incoming
+CF,Central African Republic,77,UNIPD,incoming
+CG,Congo Republic,170,UNIPD,incoming
+CH,Switzerland,531414,UNIPD,incoming
+CI,Ivory Coast,684,UNIPD,incoming
+CL,Chile,121356,UNIPD,incoming
+CM,Cameroon,3056,UNIPD,incoming
+CN,China,2105362,UNIPD,incoming
+CO,Colombia,56650,UNIPD,incoming
+CR,Costa Rica,2429,UNIPD,incoming
+CU,Cuba,5648,UNIPD,incoming
+CV,Cabo Verde,29,UNIPD,incoming
+CW,Curaçao,294,UNIPD,incoming
+CY,Cyprus,27055,UNIPD,incoming
+CZ,Czechia,144023,UNIPD,incoming
+DE,Germany,1718998,UNIPD,incoming
+DJ,Djibouti,15,UNIPD,incoming
+DK,Denmark,243578,UNIPD,incoming
+DM,Dominica,9,UNIPD,incoming
+DO,Dominican Republic,451,UNIPD,incoming
+DZ,Algeria,7971,UNIPD,incoming
+EC,Ecuador,13050,UNIPD,incoming
+EE,Estonia,26447,UNIPD,incoming
+EG,Egypt,67674,UNIPD,incoming
+ER,Eritrea,32,UNIPD,incoming
+ES,Spain,1228815,UNIPD,incoming
+ET,Ethiopia,11343,UNIPD,incoming
+EU,European Union,199,UNIPD,incoming
+FI,Finland,261088,UNIPD,incoming
+FJ,Fiji,634,UNIPD,incoming
+FK,Falkland Islands,14,UNIPD,incoming
+FM,Micronesia,3,UNIPD,incoming
+FO,Faroe Islands,85,UNIPD,incoming
+FR,France,4027707,UNIPD,incoming
+GA,Gabon,516,UNIPD,incoming
+GB,United Kingdom,1954354,UNIPD,incoming
+GD,Grenada,1041,UNIPD,incoming
+GE,Georgia,25890,UNIPD,incoming
+GF,French Guiana,457,UNIPD,incoming
+GH,Ghana,6651,UNIPD,incoming
+GI,Gibraltar,175,UNIPD,incoming
+GL,Greenland,164,UNIPD,incoming
+GM,The Gambia,142,UNIPD,incoming
+GN,Guinea,62,UNIPD,incoming
+GP,Guadeloupe,1884,UNIPD,incoming
+GQ,Equatorial Guinea,5,UNIPD,incoming
+GR,Greece,195424,UNIPD,incoming
+GT,Guatemala,1290,UNIPD,incoming
+GU,Guam,69,UNIPD,incoming
+GW,Guinea-Bissau,78,UNIPD,incoming
+GY,Guyana,59,UNIPD,incoming
+HK,Hong Kong,80360,UNIPD,incoming
+HN,Honduras,308,UNIPD,incoming
+HR,Croatia,78440,UNIPD,incoming
+HT,Haiti,71,UNIPD,incoming
+HU,Hungary,196610,UNIPD,incoming
+ID,Indonesia,23514,UNIPD,incoming
+IE,Ireland,101576,UNIPD,incoming
+IL,Israel,119561,UNIPD,incoming
+IM,Isle of Man,7,UNIPD,incoming
+IN,India,612996,UNIPD,incoming
+IQ,Iraq,9874,UNIPD,incoming
+IR,Iran,169001,UNIPD,incoming
+IS,Iceland,8161,UNIPD,incoming
+IT,Italy,3676697,UNIPD,incoming
+JE,Jersey,12,UNIPD,incoming
+JM,Jamaica,1971,UNIPD,incoming
+JO,Jordan,10806,UNIPD,incoming
+JP,Japan,816958,UNIPD,incoming
+KE,Kenya,4985,UNIPD,incoming
+KG,Kyrgyzstan,469,UNIPD,incoming
+KH,Cambodia,1915,UNIPD,incoming
+KI,Kiribati,1,UNIPD,incoming
+KM,Comoros,6,UNIPD,incoming
+KN,St Kitts and Nevis,686,UNIPD,incoming
+KP,North Korea,153,UNIPD,incoming
+KR,South Korea,499170,UNIPD,incoming
+KW,Kuwait,4032,UNIPD,incoming
+KY,Cayman Islands,11,UNIPD,incoming
+KZ,Kazakhstan,5957,UNIPD,incoming
+LA,Laos,192,UNIPD,incoming
+LB,Lebanon,10165,UNIPD,incoming
+LC,Saint Lucia,31,UNIPD,incoming
+LI,Liechtenstein,233,UNIPD,incoming
+LK,Sri Lanka,6907,UNIPD,incoming
+LR,Liberia,54,UNIPD,incoming
+LS,Lesotho,44,UNIPD,incoming
+LT,Lithuania,18671,UNIPD,incoming
+LU,Luxembourg,6931,UNIPD,incoming
+LV,Latvia,7466,UNIPD,incoming
+LY,Libya,595,UNIPD,incoming
+MA,Morocco,29188,UNIPD,incoming
+MC,Monaco,1510,UNIPD,incoming
+MD,Moldova,1508,UNIPD,incoming
+ME,Montenegro,2408,UNIPD,incoming
+MG,Madagascar,499,UNIPD,incoming
+MH,Marshall Islands,4,UNIPD,incoming
+MK,North Macedonia,2183,UNIPD,incoming
+ML,Mali,247,UNIPD,incoming
+MM,Myanmar,1130,UNIPD,incoming
+MN,Mongolia,3811,UNIPD,incoming
+MO,Macao,4666,UNIPD,incoming
+MP,Northern Mariana Islands,4,UNIPD,incoming
+MQ,Martinique,268,UNIPD,incoming
+MR,Mauritania,59,UNIPD,incoming
+MS,Montserrat,12,UNIPD,incoming
+MT,Malta,3391,UNIPD,incoming
+MU,Mauritius,416,UNIPD,incoming
+MV,Maldives,87,UNIPD,incoming
+MW,Malawi,903,UNIPD,incoming
+MX,Mexico,159904,UNIPD,incoming
+MY,Malaysia,54190,UNIPD,incoming
+MZ,Mozambique,1742,UNIPD,incoming
+NC,New Caledonia,470,UNIPD,incoming
+NE,Niger,337,UNIPD,incoming
+NG,Nigeria,15498,UNIPD,incoming
+NI,Nicaragua,616,UNIPD,incoming
+NL,The Netherlands,632707,UNIPD,incoming
+NO,Norway,131861,UNIPD,incoming
+NP,Nepal,4367,UNIPD,incoming
+NZ,New Zealand,65411,UNIPD,incoming
+OC,Oceania,56,UNIPD,incoming
+OM,Oman,3396,UNIPD,incoming
+PA,Panama,1339,UNIPD,incoming
+PE,Peru,12106,UNIPD,incoming
+PF,French Polynesia,394,UNIPD,incoming
+PG,Papua New Guinea,234,UNIPD,incoming
+PH,Philippines,11953,UNIPD,incoming
+PK,Pakistan,64215,UNIPD,incoming
+PL,Poland,388169,UNIPD,incoming
+PR,Puerto Rico,16831,UNIPD,incoming
+PS,Palestine,2711,UNIPD,incoming
+PT,Portugal,207688,UNIPD,incoming
+PW,Palau,176,UNIPD,incoming
+PY,Paraguay,673,UNIPD,incoming
+QA,Qatar,16030,UNIPD,incoming
+RE,Réunion,2500,UNIPD,incoming
+RO,Romania,65575,UNIPD,incoming
+RS,Serbia,50660,UNIPD,incoming
+RU,Russia,545194,UNIPD,incoming
+RW,Rwanda,989,UNIPD,incoming
+SA,Saudi Arabia,56803,UNIPD,incoming
+SB,Solomon Islands,5,UNIPD,incoming
+SC,Seychelles,126,UNIPD,incoming
+SD,Sudan,1937,UNIPD,incoming
+SE,Sweden,236944,UNIPD,incoming
+SG,Singapore,78038,UNIPD,incoming
+SI,Slovenia,46081,UNIPD,incoming
+SJ,Svalbard and Jan Mayen,75,UNIPD,incoming
+SK,Slovakia,65851,UNIPD,incoming
+SL,Sierra Leone,158,UNIPD,incoming
+SM,San Marino,197,UNIPD,incoming
+SN,Senegal,1088,UNIPD,incoming
+SO,Somalia,569,UNIPD,incoming
+SR,Suriname,43,UNIPD,incoming
+SS,South Sudan,36,UNIPD,incoming
+ST,São Tomé and Príncipe,4,UNIPD,incoming
+SV,El Salvador,624,UNIPD,incoming
+SX,Sint Maarten,46,UNIPD,incoming
+SY,Syria,1465,UNIPD,incoming
+SZ,Eswatini,39,UNIPD,incoming
+TC,Turks and Caicos Islands,9,UNIPD,incoming
+TD,Chad,60,UNIPD,incoming
+TG,Togo,215,UNIPD,incoming
+TH,Thailand,44682,UNIPD,incoming
+TJ,Tajikistan,384,UNIPD,incoming
+TL,Timor-Leste,13,UNIPD,incoming
+TM,Turkmenistan,13,UNIPD,incoming
+TN,Tunisia,14246,UNIPD,incoming
+TO,Tonga,15,UNIPD,incoming
+TR,Turkey,265056,UNIPD,incoming
+TT,Trinidad and Tobago,487,UNIPD,incoming
+TV,Tuvalu,1,UNIPD,incoming
+TW,Taiwan,254728,UNIPD,incoming
+TZ,Tanzania,3320,UNIPD,incoming
+UA,Ukraine,47462,UNIPD,incoming
+UG,Uganda,4807,UNIPD,incoming
+UM,United States Minor Outlying Islands,5,UNIPD,incoming
+US,United States,6699413,UNIPD,incoming
+UY,Uruguay,5428,UNIPD,incoming
+UZ,Uzbekistan,10186,UNIPD,incoming
+VA,Vatican City,1,UNIPD,incoming
+VC,St Vincent and Grenadines,13,UNIPD,incoming
+VE,Venezuela,3307,UNIPD,incoming
+VG,British Virgin Islands,4,UNIPD,incoming
+VI,U.S. Virgin Islands,187,UNIPD,incoming
+VN,Vietnam,25567,UNIPD,incoming
+VU,Vanuatu,4,UNIPD,incoming
+WS,Samoa,13,UNIPD,incoming
+XK,Kosovo,508,UNIPD,incoming
+YE,Yemen,1830,UNIPD,incoming
+YT,Mayotte,15,UNIPD,incoming
+ZA,South Africa,100022,UNIPD,incoming
+ZM,Zambia,1197,UNIPD,incoming
+ZW,Zimbabwe,1997,UNIPD,incoming

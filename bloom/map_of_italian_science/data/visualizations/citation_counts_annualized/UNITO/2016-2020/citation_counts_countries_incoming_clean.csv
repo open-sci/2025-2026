@@ -1,0 +1,235 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,1430811,UNITO,2016-2020,incoming
+France,FR,786177,UNITO,2016-2020,incoming
+Italy,IT,746769,UNITO,2016-2020,incoming
+China,CN,477469,UNITO,2016-2020,incoming
+United Kingdom,GB,410434,UNITO,2016-2020,incoming
+Germany,DE,376995,UNITO,2016-2020,incoming
+Spain,ES,257379,UNITO,2016-2020,incoming
+Japan,JP,171039,UNITO,2016-2020,incoming
+Australia,AU,139377,UNITO,2016-2020,incoming
+Russia,RU,139275,UNITO,2016-2020,incoming
+India,IN,135393,UNITO,2016-2020,incoming
+Canada,CA,132979,UNITO,2016-2020,incoming
+The Netherlands,NL,128326,UNITO,2016-2020,incoming
+South Korea,KR,126971,UNITO,2016-2020,incoming
+Brazil,BR,118469,UNITO,2016-2020,incoming
+Switzerland,CH,114472,UNITO,2016-2020,incoming
+Poland,PL,81681,UNITO,2016-2020,incoming
+Belgium,BE,78129,UNITO,2016-2020,incoming
+Türkiye,TR,71371,UNITO,2016-2020,incoming
+Finland,FI,59011,UNITO,2016-2020,incoming
+Denmark,DK,56374,UNITO,2016-2020,incoming
+Taiwan,TW,56276,UNITO,2016-2020,incoming
+Sweden,SE,56055,UNITO,2016-2020,incoming
+Greece,GR,53473,UNITO,2016-2020,incoming
+Hungary,HU,51905,UNITO,2016-2020,incoming
+Portugal,PT,50037,UNITO,2016-2020,incoming
+Austria,AT,48343,UNITO,2016-2020,incoming
+Iran,IR,42615,UNITO,2016-2020,incoming
+Mexico,MX,41331,UNITO,2016-2020,incoming
+Czechia,CZ,38515,UNITO,2016-2020,incoming
+China (People's Republic of),CN,37816,UNITO,2016-2020,incoming
+Norway,NO,34458,UNITO,2016-2020,incoming
+Argentina,AR,26330,UNITO,2016-2020,incoming
+Israel,IL,26093,UNITO,2016-2020,incoming
+South Africa,ZA,25177,UNITO,2016-2020,incoming
+Ireland,IE,23096,UNITO,2016-2020,incoming
+Croatia,HR,22456,UNITO,2016-2020,incoming
+Netherlands,NL,20894,UNITO,2016-2020,incoming
+Singapore,SG,20574,UNITO,2016-2020,incoming
+Pakistan,PK,20024,UNITO,2016-2020,incoming
+Chile,CL,19253,UNITO,2016-2020,incoming
+Slovakia,SK,18459,UNITO,2016-2020,incoming
+Hong Kong,HK,17513,UNITO,2016-2020,incoming
+Colombia,CO,16491,UNITO,2016-2020,incoming
+Malaysia,MY,16393,UNITO,2016-2020,incoming
+New Zealand,NZ,15859,UNITO,2016-2020,incoming
+Romania,RO,15047,UNITO,2016-2020,incoming
+Thailand,TH,13935,UNITO,2016-2020,incoming
+Bulgaria,BG,13491,UNITO,2016-2020,incoming
+Egypt,EG,13335,UNITO,2016-2020,incoming
+Serbia,RS,11929,UNITO,2016-2020,incoming
+Ukraine,UA,11880,UNITO,2016-2020,incoming
+Belarus,BY,11403,UNITO,2016-2020,incoming
+Saudi Arabia,SA,11086,UNITO,2016-2020,incoming
+Slovenia,SI,10331,UNITO,2016-2020,incoming
+Georgia,GE,9890,UNITO,2016-2020,incoming
+Cyprus,CY,8069,UNITO,2016-2020,incoming
+Estonia,EE,7069,UNITO,2016-2020,incoming
+Morocco,MA,6867,UNITO,2016-2020,incoming
+Ecuador,EC,5865,UNITO,2016-2020,incoming
+Armenia,AM,5790,UNITO,2016-2020,incoming
+Lithuania,LT,5639,UNITO,2016-2020,incoming
+Vietnam,VN,5181,UNITO,2016-2020,incoming
+Korea (Republic of),KR,4598,UNITO,2016-2020,incoming
+Indonesia,ID,4570,UNITO,2016-2020,incoming
+Puerto Rico,PR,4536,UNITO,2016-2020,incoming
+Qatar,QA,4044,UNITO,2016-2020,incoming
+Turkey,TR,3948,UNITO,2016-2020,incoming
+Azerbaijan,AZ,3682,UNITO,2016-2020,incoming
+Russian Federation,RU,3379,UNITO,2016-2020,incoming
+Peru,PE,3251,UNITO,2016-2020,incoming
+Lebanon,LB,3108,UNITO,2016-2020,incoming
+Tunisia,TN,3076,UNITO,2016-2020,incoming
+Ethiopia,ET,2946,UNITO,2016-2020,incoming
+Nigeria,NG,2891,UNITO,2016-2020,incoming
+United Arab Emirates,AE,2857,UNITO,2016-2020,incoming
+Latvia,LV,2551,UNITO,2016-2020,incoming
+Iceland,IS,2513,UNITO,2016-2020,incoming
+Philippines,PH,2501,UNITO,2016-2020,incoming
+Czech Republic,CZ,2476,UNITO,2016-2020,incoming
+Sri Lanka,LK,2424,UNITO,2016-2020,incoming
+Mongolia,MN,2098,UNITO,2016-2020,incoming
+Bangladesh,BD,2048,UNITO,2016-2020,incoming
+Jordan,JO,2010,UNITO,2016-2020,incoming
+Algeria,DZ,1786,UNITO,2016-2020,incoming
+Uzbekistan,UZ,1735,UNITO,2016-2020,incoming
+Luxembourg,LU,1625,UNITO,2016-2020,incoming
+Kenya,KE,1565,UNITO,2016-2020,incoming
+Bahrain,BH,1473,UNITO,2016-2020,incoming
+Cuba,CU,1464,UNITO,2016-2020,incoming
+Uruguay,UY,1408,UNITO,2016-2020,incoming
+Iraq,IQ,1302,UNITO,2016-2020,incoming
+Ghana,GH,1234,UNITO,2016-2020,incoming
+Palestine,PS,1163,UNITO,2016-2020,incoming
+Uganda,UG,1099,UNITO,2016-2020,incoming
+Kazakhstan,KZ,941,UNITO,2016-2020,incoming
+Nepal,NP,875,UNITO,2016-2020,incoming
+Iran (Islamic Republic of),IR,849,UNITO,2016-2020,incoming
+Oman,OM,834,UNITO,2016-2020,incoming
+Venezuela,VE,806,UNITO,2016-2020,incoming
+Macao,MO,785,UNITO,2016-2020,incoming
+Bosnia and Herzegovina,BA,766,UNITO,2016-2020,incoming
+Kuwait,KW,728,UNITO,2016-2020,incoming
+Antigua and Barbuda,AG,725,UNITO,2016-2020,incoming
+Cameroon,CM,690,UNITO,2016-2020,incoming
+Malta,MT,679,UNITO,2016-2020,incoming
+Montenegro,ME,665,UNITO,2016-2020,incoming
+Tanzania,TZ,657,UNITO,2016-2020,incoming
+Guadeloupe,GP,651,UNITO,2016-2020,incoming
+Cambodia,KH,624,UNITO,2016-2020,incoming
+Réunion,RE,624,UNITO,2016-2020,incoming
+North Macedonia,MK,616,UNITO,2016-2020,incoming
+Sudan,SD,591,UNITO,2016-2020,incoming
+Mozambique,MZ,584,UNITO,2016-2020,incoming
+Guatemala,GT,563,UNITO,2016-2020,incoming
+Costa Rica,CR,521,UNITO,2016-2020,incoming
+Zimbabwe,ZW,491,UNITO,2016-2020,incoming
+Jamaica,JM,489,UNITO,2016-2020,incoming
+Panama,PA,466,UNITO,2016-2020,incoming
+Myanmar,MM,428,UNITO,2016-2020,incoming
+Benin,BJ,393,UNITO,2016-2020,incoming
+Senegal,SN,365,UNITO,2016-2020,incoming
+Bolivia,BO,353,UNITO,2016-2020,incoming
+Malawi,MW,333,UNITO,2016-2020,incoming
+Madagascar,MG,310,UNITO,2016-2020,incoming
+Mauritius,MU,309,UNITO,2016-2020,incoming
+Yemen,YE,308,UNITO,2016-2020,incoming
+Burkina Faso,BF,289,UNITO,2016-2020,incoming
+Moldova,MD,271,UNITO,2016-2020,incoming
+Rwanda,RW,252,UNITO,2016-2020,incoming
+St Kitts and Nevis,KN,242,UNITO,2016-2020,incoming
+French Guiana,GF,234,UNITO,2016-2020,incoming
+DR Congo,CD,234,UNITO,2016-2020,incoming
+Zambia,ZM,228,UNITO,2016-2020,incoming
+Fiji,FJ,218,UNITO,2016-2020,incoming
+Namibia,,203,UNITO,2016-2020,incoming
+Syria,SY,202,UNITO,2016-2020,incoming
+American Samoa,AS,199,UNITO,2016-2020,incoming
+Botswana,BW,195,UNITO,2016-2020,incoming
+Grenada,GD,192,UNITO,2016-2020,incoming
+Gabon,GA,179,UNITO,2016-2020,incoming
+Angola,AO,178,UNITO,2016-2020,incoming
+Albania,AL,177,UNITO,2016-2020,incoming
+Ivory Coast,CI,172,UNITO,2016-2020,incoming
+El Salvador,SV,161,UNITO,2016-2020,incoming
+Somalia,SO,151,UNITO,2016-2020,incoming
+Bhutan,BT,144,UNITO,2016-2020,incoming
+Niger,NE,143,UNITO,2016-2020,incoming
+Monaco,MC,129,UNITO,2016-2020,incoming
+New Caledonia,NC,117,UNITO,2016-2020,incoming
+Dominican Republic,DO,113,UNITO,2016-2020,incoming
+Nicaragua,NI,111,UNITO,2016-2020,incoming
+Trinidad and Tobago,TT,108,UNITO,2016-2020,incoming
+Paraguay,PY,107,UNITO,2016-2020,incoming
+Kyrgyzstan,KG,106,UNITO,2016-2020,incoming
+Kosovo,XK,103,UNITO,2016-2020,incoming
+Tajikistan,TJ,91,UNITO,2016-2020,incoming
+Libya,LY,89,UNITO,2016-2020,incoming
+Mali,ML,88,UNITO,2016-2020,incoming
+Martinique,MQ,80,UNITO,2016-2020,incoming
+Brunei,BN,74,UNITO,2016-2020,incoming
+Guyana,GY,72,UNITO,2016-2020,incoming
+Viet Nam,VN,67,UNITO,2016-2020,incoming
+The Gambia,GM,62,UNITO,2016-2020,incoming
+Liechtenstein,LI,62,UNITO,2016-2020,incoming
+Palau,PW,61,UNITO,2016-2020,incoming
+Curaçao,CW,60,UNITO,2016-2020,incoming
+European Union,EU,59,UNITO,2016-2020,incoming
+Togo,TG,49,UNITO,2016-2020,incoming
+Honduras,HN,49,UNITO,2016-2020,incoming
+Laos,LA,45,UNITO,2016-2020,incoming
+Congo Republic,CG,44,UNITO,2016-2020,incoming
+Papua New Guinea,PG,43,UNITO,2016-2020,incoming
+San Marino,SM,39,UNITO,2016-2020,incoming
+Barbados,BB,37,UNITO,2016-2020,incoming
+Greenland,GL,36,UNITO,2016-2020,incoming
+Guinea-Bissau,GW,33,UNITO,2016-2020,incoming
+U.S. Virgin Islands,VI,33,UNITO,2016-2020,incoming
+Tanzania (United Republic of),TZ,32,UNITO,2016-2020,incoming
+Afghanistan,AF,32,UNITO,2016-2020,incoming
+Former Yugoslav Republic of Macedonia,MK,31,UNITO,2016-2020,incoming
+North Korea,KP,26,UNITO,2016-2020,incoming
+Gibraltar,GI,26,UNITO,2016-2020,incoming
+French Polynesia,PF,25,UNITO,2016-2020,incoming
+Burundi,BI,24,UNITO,2016-2020,incoming
+Sierra Leone,SL,23,UNITO,2016-2020,incoming
+Belize,BZ,23,UNITO,2016-2020,incoming
+Central African Republic,CF,23,UNITO,2016-2020,incoming
+Suriname,SR,20,UNITO,2016-2020,incoming
+Eswatini,SZ,18,UNITO,2016-2020,incoming
+Timor-Leste,TL,17,UNITO,2016-2020,incoming
+Seychelles,SC,16,UNITO,2016-2020,incoming
+Svalbard and Jan Mayen,SJ,16,UNITO,2016-2020,incoming
+Bahamas,BS,16,UNITO,2016-2020,incoming
+Guinea,GN,15,UNITO,2016-2020,incoming
+Faroe Islands,FO,13,UNITO,2016-2020,incoming
+Haiti,HT,13,UNITO,2016-2020,incoming
+Chad,TD,12,UNITO,2016-2020,incoming
+Congo (Democratic Republic of),CD,12,UNITO,2016-2020,incoming
+Eritrea,ER,12,UNITO,2016-2020,incoming
+Liberia,LR,10,UNITO,2016-2020,incoming
+Bermuda,BM,9,UNITO,2016-2020,incoming
+Isle of Man,IM,9,UNITO,2016-2020,incoming
+Maldives,MV,9,UNITO,2016-2020,incoming
+Cote d'Ivoire,CI,8,UNITO,2016-2020,incoming
+Sint Maarten,SX,7,UNITO,2016-2020,incoming
+South Sudan,SS,7,UNITO,2016-2020,incoming
+Jersey,JE,6,UNITO,2016-2020,incoming
+St Vincent and Grenadines,VC,5,UNITO,2016-2020,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,5,UNITO,2016-2020,incoming
+Micronesia,FM,5,UNITO,2016-2020,incoming
+Cayman Islands,KY,4,UNITO,2016-2020,incoming
+Djibouti,DJ,4,UNITO,2016-2020,incoming
+Dominica,DM,4,UNITO,2016-2020,incoming
+Palestinian-administered areas,PS,4,UNITO,2016-2020,incoming
+Tonga,TO,4,UNITO,2016-2020,incoming
+Mauritania,MR,4,UNITO,2016-2020,incoming
+Guam,GU,3,UNITO,2016-2020,incoming
+Cabo Verde,CV,3,UNITO,2016-2020,incoming
+Kiribati,KI,2,UNITO,2016-2020,incoming
+Cape Verde,CV,2,UNITO,2016-2020,incoming
+Saint Lucia,LC,2,UNITO,2016-2020,incoming
+Lesotho,LS,2,UNITO,2016-2020,incoming
+Andorra,AD,2,UNITO,2016-2020,incoming
+"Korea, Democratic People's Republic of",KP,2,UNITO,2016-2020,incoming
+Vanuatu,VU,2,UNITO,2016-2020,incoming
+Lao (People's Democratic Republic),LA,2,UNITO,2016-2020,incoming
+United States Minor Outlying Islands,UM,1,UNITO,2016-2020,incoming
+Libyan Arab Jamahiriya,LY,1,UNITO,2016-2020,incoming
+British Virgin Islands,VG,1,UNITO,2016-2020,incoming
+"Virgin Islands, U.S.",VI,1,UNITO,2016-2020,incoming
+Northern Mariana Islands,MP,1,UNITO,2016-2020,incoming
+Turkmenistan,TM,1,UNITO,2016-2020,incoming
+Vatican City,VA,1,UNITO,2016-2020,incoming

@@ -1,0 +1,106 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Software for the final project of the Open Science course
+  a.y. 2025/2026
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yiğit
+    family-names: Ak
+    email: yigit.ak@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0002-0852-3896'
+  - given-names: Tommaso
+    family-names: Barbato
+    email: tommaso.barbato@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0007-0093-4304'
+  - given-names: Qinghao
+    family-names: Chen
+    email: luyihehu@gmail.com
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0000-9290-0222'
+  - given-names: Nicol
+    family-names: D'Amelio
+    email: nicol.damelio@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0004-8197-6255'
+  - given-names: Maryam
+    family-names: Dadrasrazi
+    email: maryam.dadrasrazi@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0005-9585-5662'
+  - given-names: Ilaria
+    family-names: De Dominicis
+    email: ilaria.dedominicis2@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0008-2026-5889'
+  - given-names: Yi Hua
+    family-names: Li
+    email: e62565897@gmail.com
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0005-9325-0328'
+  - given-names: Regina
+    family-names: Manyara
+    email: regina.wkmanyara@gmail.com
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0007-6773-3910'
+  - given-names: Shiho
+    family-names: Nakamura
+    email: shiho.nakamura@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0001-8829-8643'
+  - given-names: Silvio
+    family-names: Peroni
+    email: silvio.peroni@unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0000-0003-0530-4305'
+  - given-names: Miriana
+    family-names: Pinto
+    email: miriana.pinto@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0002-8935-5512'
+  - given-names: Sara
+    family-names: Roggiani
+    email: sara.roggiani2@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0006-7981-6652'
+  - given-names: Tianchi
+    family-names: Yang
+    email: tianchi.yang@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0006-6945-0781'
+  - given-names: Peize
+    family-names: Yu
+    email: peize.yu@studio.unibo.it
+    affiliation: University of Bologna, Bologna, Italy
+    orcid: 'https://orcid.org/0009-0004-5394-4264'
+identifiers:
+  - type: url
+    value: 'https://github.com/open-sci/2025-2026'
+    description: GitHub repository of the software and other material.
+repository-code: 'https://github.com/open-sci/2025-2026'
+abstract: >-
+  Software developed for exploring the geographic and
+  disciplinary structure of the citation network around six
+  Italian universities (UNIBO, UNIMI, UNITO, UNIPD, UPO and
+  SNS), as represented in their IRIS repositories.
+  In particular, the project addresses two research
+  questions: (1) what are the institutions and countries
+  (1a), as well as the scholarly disciplines (1b), that
+  either cite or are cited by the IRIS publications included
+  in OpenCitations of a given institution? And (2) Are
+  different institutions showing different citation
+  patterns, depending on the specific case (1a or 1b)?
+keywords:
+  - Digital Humanities
+  - Open Science
+  - Citations Network
+  - Bibliographic Metadata
+  - Map of Italian Science
+license: ISC

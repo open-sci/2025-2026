@@ -1,0 +1,177 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,281498,UNIPD,2001-2005,incoming
+Italy,IT,189315,UNIPD,2001-2005,incoming
+France,FR,90286,UNIPD,2001-2005,incoming
+United Kingdom,GB,83635,UNIPD,2001-2005,incoming
+Germany,DE,42712,UNIPD,2001-2005,incoming
+Japan,JP,42366,UNIPD,2001-2005,incoming
+Canada,CA,28098,UNIPD,2001-2005,incoming
+Spain,ES,22897,UNIPD,2001-2005,incoming
+Russia,RU,19331,UNIPD,2001-2005,incoming
+Finland,FI,16664,UNIPD,2001-2005,incoming
+Switzerland,CH,15516,UNIPD,2001-2005,incoming
+The Netherlands,NL,13040,UNIPD,2001-2005,incoming
+India,IN,12741,UNIPD,2001-2005,incoming
+Australia,AU,10410,UNIPD,2001-2005,incoming
+China,CN,9721,UNIPD,2001-2005,incoming
+South Korea,KR,8949,UNIPD,2001-2005,incoming
+Belgium,BE,6877,UNIPD,2001-2005,incoming
+Poland,PL,5864,UNIPD,2001-2005,incoming
+Brazil,BR,5628,UNIPD,2001-2005,incoming
+Taiwan,TW,5132,UNIPD,2001-2005,incoming
+Sweden,SE,4668,UNIPD,2001-2005,incoming
+Israel,IL,3446,UNIPD,2001-2005,incoming
+Austria,AT,3208,UNIPD,2001-2005,incoming
+Norway,NO,3079,UNIPD,2001-2005,incoming
+Greece,GR,2868,UNIPD,2001-2005,incoming
+Denmark,DK,2623,UNIPD,2001-2005,incoming
+Hungary,HU,2176,UNIPD,2001-2005,incoming
+Czechia,CZ,1720,UNIPD,2001-2005,incoming
+Portugal,PT,1694,UNIPD,2001-2005,incoming
+Türkiye,TR,1600,UNIPD,2001-2005,incoming
+Mexico,MX,1556,UNIPD,2001-2005,incoming
+Hong Kong,HK,1510,UNIPD,2001-2005,incoming
+Argentina,AR,1508,UNIPD,2001-2005,incoming
+China (People's Republic of),CN,1298,UNIPD,2001-2005,incoming
+Netherlands,NL,1186,UNIPD,2001-2005,incoming
+Ireland,IE,1152,UNIPD,2001-2005,incoming
+Slovenia,SI,1089,UNIPD,2001-2005,incoming
+Singapore,SG,976,UNIPD,2001-2005,incoming
+Chile,CL,780,UNIPD,2001-2005,incoming
+South Africa,ZA,753,UNIPD,2001-2005,incoming
+Cyprus,CY,746,UNIPD,2001-2005,incoming
+Slovakia,SK,718,UNIPD,2001-2005,incoming
+Ukraine,UA,611,UNIPD,2001-2005,incoming
+New Zealand,NZ,569,UNIPD,2001-2005,incoming
+Bulgaria,BG,486,UNIPD,2001-2005,incoming
+Colombia,CO,420,UNIPD,2001-2005,incoming
+Croatia,HR,387,UNIPD,2001-2005,incoming
+Iran,IR,379,UNIPD,2001-2005,incoming
+Egypt,EG,362,UNIPD,2001-2005,incoming
+Romania,RO,354,UNIPD,2001-2005,incoming
+Venezuela,VE,332,UNIPD,2001-2005,incoming
+Serbia,RS,292,UNIPD,2001-2005,incoming
+Georgia,GE,279,UNIPD,2001-2005,incoming
+Thailand,TH,274,UNIPD,2001-2005,incoming
+Uzbekistan,UZ,271,UNIPD,2001-2005,incoming
+Ecuador,EC,240,UNIPD,2001-2005,incoming
+Tunisia,TN,235,UNIPD,2001-2005,incoming
+Tanzania,TZ,192,UNIPD,2001-2005,incoming
+Estonia,EE,190,UNIPD,2001-2005,incoming
+Korea (Republic of),KR,189,UNIPD,2001-2005,incoming
+Belarus,BY,186,UNIPD,2001-2005,incoming
+Russian Federation,RU,179,UNIPD,2001-2005,incoming
+Pakistan,PK,177,UNIPD,2001-2005,incoming
+Armenia,AM,176,UNIPD,2001-2005,incoming
+Puerto Rico,PR,174,UNIPD,2001-2005,incoming
+Malaysia,MY,147,UNIPD,2001-2005,incoming
+Saudi Arabia,SA,121,UNIPD,2001-2005,incoming
+Lebanon,LB,108,UNIPD,2001-2005,incoming
+Cuba,CU,103,UNIPD,2001-2005,incoming
+Ghana,GH,89,UNIPD,2001-2005,incoming
+United Arab Emirates,AE,88,UNIPD,2001-2005,incoming
+Panama,PA,85,UNIPD,2001-2005,incoming
+Philippines,PH,84,UNIPD,2001-2005,incoming
+Morocco,MA,81,UNIPD,2001-2005,incoming
+Latvia,LV,79,UNIPD,2001-2005,incoming
+Ethiopia,ET,76,UNIPD,2001-2005,incoming
+Algeria,DZ,75,UNIPD,2001-2005,incoming
+Kenya,KE,71,UNIPD,2001-2005,incoming
+Vietnam,VN,71,UNIPD,2001-2005,incoming
+Indonesia,ID,69,UNIPD,2001-2005,incoming
+Jordan,JO,68,UNIPD,2001-2005,incoming
+Peru,PE,66,UNIPD,2001-2005,incoming
+Azerbaijan,AZ,57,UNIPD,2001-2005,incoming
+Kuwait,KW,53,UNIPD,2001-2005,incoming
+Czech Republic,CZ,47,UNIPD,2001-2005,incoming
+Bahrain,BH,45,UNIPD,2001-2005,incoming
+Uruguay,UY,43,UNIPD,2001-2005,incoming
+Iceland,IS,42,UNIPD,2001-2005,incoming
+Nigeria,NG,40,UNIPD,2001-2005,incoming
+Mongolia,MN,39,UNIPD,2001-2005,incoming
+Lithuania,LT,36,UNIPD,2001-2005,incoming
+Costa Rica,CR,34,UNIPD,2001-2005,incoming
+Turkey,TR,33,UNIPD,2001-2005,incoming
+Bangladesh,BD,32,UNIPD,2001-2005,incoming
+Malta,MT,32,UNIPD,2001-2005,incoming
+Jamaica,JM,31,UNIPD,2001-2005,incoming
+Cambodia,KH,31,UNIPD,2001-2005,incoming
+Cameroon,CM,30,UNIPD,2001-2005,incoming
+Oman,OM,27,UNIPD,2001-2005,incoming
+Uganda,UG,27,UNIPD,2001-2005,incoming
+Luxembourg,LU,25,UNIPD,2001-2005,incoming
+Montenegro,ME,24,UNIPD,2001-2005,incoming
+Bosnia and Herzegovina,BA,22,UNIPD,2001-2005,incoming
+Sri Lanka,LK,21,UNIPD,2001-2005,incoming
+Trinidad and Tobago,TT,21,UNIPD,2001-2005,incoming
+Mozambique,MZ,20,UNIPD,2001-2005,incoming
+Yemen,YE,19,UNIPD,2001-2005,incoming
+Nepal,NP,19,UNIPD,2001-2005,incoming
+Benin,BJ,18,UNIPD,2001-2005,incoming
+Palestine,PS,18,UNIPD,2001-2005,incoming
+Réunion,RE,17,UNIPD,2001-2005,incoming
+Zambia,ZM,17,UNIPD,2001-2005,incoming
+Qatar,QA,17,UNIPD,2001-2005,incoming
+Sudan,SD,16,UNIPD,2001-2005,incoming
+Macao,MO,15,UNIPD,2001-2005,incoming
+Kazakhstan,KZ,15,UNIPD,2001-2005,incoming
+Burundi,BI,14,UNIPD,2001-2005,incoming
+Botswana,BW,13,UNIPD,2001-2005,incoming
+Gabon,GA,12,UNIPD,2001-2005,incoming
+Moldova,MD,11,UNIPD,2001-2005,incoming
+Bolivia,BO,10,UNIPD,2001-2005,incoming
+Guatemala,GT,10,UNIPD,2001-2005,incoming
+El Salvador,SV,9,UNIPD,2001-2005,incoming
+Angola,AO,9,UNIPD,2001-2005,incoming
+Malawi,MW,9,UNIPD,2001-2005,incoming
+Zimbabwe,ZW,9,UNIPD,2001-2005,incoming
+Ivory Coast,CI,9,UNIPD,2001-2005,incoming
+Iran (Islamic Republic of),IR,9,UNIPD,2001-2005,incoming
+Myanmar,MM,9,UNIPD,2001-2005,incoming
+Senegal,SN,8,UNIPD,2001-2005,incoming
+Guadeloupe,GP,8,UNIPD,2001-2005,incoming
+French Guiana,GF,8,UNIPD,2001-2005,incoming
+Iraq,IQ,7,UNIPD,2001-2005,incoming
+Brunei,BN,7,UNIPD,2001-2005,incoming
+Syria,SY,7,UNIPD,2001-2005,incoming
+Palau,PW,6,UNIPD,2001-2005,incoming
+North Macedonia,MK,6,UNIPD,2001-2005,incoming
+Nicaragua,NI,6,UNIPD,2001-2005,incoming
+Haiti,HT,5,UNIPD,2001-2005,incoming
+Curaçao,CW,5,UNIPD,2001-2005,incoming
+Rwanda,RW,5,UNIPD,2001-2005,incoming
+Albania,AL,5,UNIPD,2001-2005,incoming
+Tajikistan,TJ,5,UNIPD,2001-2005,incoming
+Sint Maarten,SX,4,UNIPD,2001-2005,incoming
+Burkina Faso,BF,4,UNIPD,2001-2005,incoming
+Barbados,BB,4,UNIPD,2001-2005,incoming
+Grenada,GD,3,UNIPD,2001-2005,incoming
+New Caledonia,NC,3,UNIPD,2001-2005,incoming
+Guinea-Bissau,GW,3,UNIPD,2001-2005,incoming
+Paraguay,PY,3,UNIPD,2001-2005,incoming
+Mali,ML,3,UNIPD,2001-2005,incoming
+Dominican Republic,DO,3,UNIPD,2001-2005,incoming
+Fiji,FJ,3,UNIPD,2001-2005,incoming
+Somalia,SO,2,UNIPD,2001-2005,incoming
+Bhutan,BT,2,UNIPD,2001-2005,incoming
+Honduras,HN,2,UNIPD,2001-2005,incoming
+DR Congo,CD,2,UNIPD,2001-2005,incoming
+Kyrgyzstan,KG,2,UNIPD,2001-2005,incoming
+Papua New Guinea,PG,2,UNIPD,2001-2005,incoming
+Seychelles,SC,2,UNIPD,2001-2005,incoming
+San Marino,SM,2,UNIPD,2001-2005,incoming
+Chad,TD,2,UNIPD,2001-2005,incoming
+Tanzania (United Republic of),TZ,2,UNIPD,2001-2005,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,2,UNIPD,2001-2005,incoming
+Madagascar,MG,2,UNIPD,2001-2005,incoming
+Togo,TG,1,UNIPD,2001-2005,incoming
+Antigua and Barbuda,AG,1,UNIPD,2001-2005,incoming
+Belize,BZ,1,UNIPD,2001-2005,incoming
+Libya,LY,1,UNIPD,2001-2005,incoming
+The Gambia,GM,1,UNIPD,2001-2005,incoming
+Liechtenstein,LI,1,UNIPD,2001-2005,incoming
+Gibraltar,GI,1,UNIPD,2001-2005,incoming
+Eritrea,ER,1,UNIPD,2001-2005,incoming
+Monaco,MC,1,UNIPD,2001-2005,incoming
+São Tomé and Príncipe,ST,1,UNIPD,2001-2005,incoming
+North Korea,KP,1,UNIPD,2001-2005,incoming

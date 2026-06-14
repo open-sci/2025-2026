@@ -1,0 +1,191 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,510784,UPO,2011-2015,outgoing
+France,FR,222749,UPO,2011-2015,outgoing
+Italy,IT,202784,UPO,2011-2015,outgoing
+United Kingdom,GB,131312,UPO,2011-2015,outgoing
+Germany,DE,104114,UPO,2011-2015,outgoing
+Spain,ES,61373,UPO,2011-2015,outgoing
+Japan,JP,54681,UPO,2011-2015,outgoing
+China,CN,50411,UPO,2011-2015,outgoing
+Russia,RU,49408,UPO,2011-2015,outgoing
+Switzerland,CH,40838,UPO,2011-2015,outgoing
+Canada,CA,39246,UPO,2011-2015,outgoing
+India,IN,37552,UPO,2011-2015,outgoing
+South Korea,KR,36448,UPO,2011-2015,outgoing
+The Netherlands,NL,35339,UPO,2011-2015,outgoing
+Türkiye,TR,33790,UPO,2011-2015,outgoing
+Australia,AU,28475,UPO,2011-2015,outgoing
+Brazil,BR,26950,UPO,2011-2015,outgoing
+Belgium,BE,25132,UPO,2011-2015,outgoing
+Poland,PL,24385,UPO,2011-2015,outgoing
+Finland,FI,21915,UPO,2011-2015,outgoing
+Hungary,HU,21012,UPO,2011-2015,outgoing
+Greece,GR,19737,UPO,2011-2015,outgoing
+Sweden,SE,18029,UPO,2011-2015,outgoing
+Czechia,CZ,14193,UPO,2011-2015,outgoing
+Mexico,MX,13905,UPO,2011-2015,outgoing
+Denmark,DK,13548,UPO,2011-2015,outgoing
+Taiwan,TW,13539,UPO,2011-2015,outgoing
+Austria,AT,11753,UPO,2011-2015,outgoing
+Norway,NO,11440,UPO,2011-2015,outgoing
+Portugal,PT,10481,UPO,2011-2015,outgoing
+Croatia,HR,9294,UPO,2011-2015,outgoing
+Israel,IL,9161,UPO,2011-2015,outgoing
+Slovakia,SK,6804,UPO,2011-2015,outgoing
+Argentina,AR,6678,UPO,2011-2015,outgoing
+South Africa,ZA,6648,UPO,2011-2015,outgoing
+Bulgaria,BG,6074,UPO,2011-2015,outgoing
+Belarus,BY,5964,UPO,2011-2015,outgoing
+China (People's Republic of),CN,5471,UPO,2011-2015,outgoing
+New Zealand,NZ,5400,UPO,2011-2015,outgoing
+Serbia,RS,5395,UPO,2011-2015,outgoing
+Iran,IR,5368,UPO,2011-2015,outgoing
+Pakistan,PK,5185,UPO,2011-2015,outgoing
+Ireland,IE,5097,UPO,2011-2015,outgoing
+Colombia,CO,5010,UPO,2011-2015,outgoing
+Ukraine,UA,4750,UPO,2011-2015,outgoing
+Netherlands,NL,4444,UPO,2011-2015,outgoing
+Romania,RO,4350,UPO,2011-2015,outgoing
+Hong Kong,HK,4336,UPO,2011-2015,outgoing
+Morocco,MA,3928,UPO,2011-2015,outgoing
+Singapore,SG,3833,UPO,2011-2015,outgoing
+Georgia,GE,3608,UPO,2011-2015,outgoing
+Chile,CL,3547,UPO,2011-2015,outgoing
+Egypt,EG,3461,UPO,2011-2015,outgoing
+Slovenia,SI,3310,UPO,2011-2015,outgoing
+Puerto Rico,PR,2995,UPO,2011-2015,outgoing
+Armenia,AM,2975,UPO,2011-2015,outgoing
+Estonia,EE,2587,UPO,2011-2015,outgoing
+Thailand,TH,2582,UPO,2011-2015,outgoing
+Azerbaijan,AZ,2538,UPO,2011-2015,outgoing
+Malaysia,MY,2424,UPO,2011-2015,outgoing
+Cyprus,CY,2245,UPO,2011-2015,outgoing
+Lithuania,LT,2090,UPO,2011-2015,outgoing
+Saudi Arabia,SA,1327,UPO,2011-2015,outgoing
+Uzbekistan,UZ,981,UPO,2011-2015,outgoing
+Peru,PE,893,UPO,2011-2015,outgoing
+Korea (Republic of),KR,699,UPO,2011-2015,outgoing
+Qatar,QA,640,UPO,2011-2015,outgoing
+Cuba,CU,568,UPO,2011-2015,outgoing
+Iceland,IS,565,UPO,2011-2015,outgoing
+Philippines,PH,560,UPO,2011-2015,outgoing
+Turkey,TR,439,UPO,2011-2015,outgoing
+Vietnam,VN,357,UPO,2011-2015,outgoing
+Tunisia,TN,324,UPO,2011-2015,outgoing
+Czech Republic,CZ,315,UPO,2011-2015,outgoing
+Ecuador,EC,278,UPO,2011-2015,outgoing
+Jordan,JO,251,UPO,2011-2015,outgoing
+Bahrain,BH,250,UPO,2011-2015,outgoing
+Lebanon,LB,247,UPO,2011-2015,outgoing
+Ethiopia,ET,244,UPO,2011-2015,outgoing
+Luxembourg,LU,241,UPO,2011-2015,outgoing
+Nigeria,NG,225,UPO,2011-2015,outgoing
+Russian Federation,RU,221,UPO,2011-2015,outgoing
+Sri Lanka,LK,211,UPO,2011-2015,outgoing
+Latvia,LV,193,UPO,2011-2015,outgoing
+Ghana,GH,183,UPO,2011-2015,outgoing
+Jamaica,JM,174,UPO,2011-2015,outgoing
+United Arab Emirates,AE,168,UPO,2011-2015,outgoing
+Indonesia,ID,167,UPO,2011-2015,outgoing
+Tanzania,TZ,165,UPO,2011-2015,outgoing
+Uruguay,UY,130,UPO,2011-2015,outgoing
+Bangladesh,BD,124,UPO,2011-2015,outgoing
+Palestine,PS,111,UPO,2011-2015,outgoing
+Oman,OM,110,UPO,2011-2015,outgoing
+Algeria,DZ,108,UPO,2011-2015,outgoing
+Uganda,UG,107,UPO,2011-2015,outgoing
+Kenya,KE,105,UPO,2011-2015,outgoing
+Bosnia and Herzegovina,BA,94,UPO,2011-2015,outgoing
+Mongolia,MN,87,UPO,2011-2015,outgoing
+Montenegro,ME,78,UPO,2011-2015,outgoing
+Iran (Islamic Republic of),IR,62,UPO,2011-2015,outgoing
+Venezuela,VE,56,UPO,2011-2015,outgoing
+Grenada,GD,56,UPO,2011-2015,outgoing
+Macao,MO,51,UPO,2011-2015,outgoing
+Moldova,MD,47,UPO,2011-2015,outgoing
+El Salvador,SV,45,UPO,2011-2015,outgoing
+Kuwait,KW,43,UPO,2011-2015,outgoing
+North Macedonia,MK,43,UPO,2011-2015,outgoing
+Fiji,FJ,43,UPO,2011-2015,outgoing
+Panama,PA,42,UPO,2011-2015,outgoing
+Sierra Leone,SL,42,UPO,2011-2015,outgoing
+Malta,MT,41,UPO,2011-2015,outgoing
+Somalia,SO,36,UPO,2011-2015,outgoing
+Benin,BJ,35,UPO,2011-2015,outgoing
+Kazakhstan,KZ,35,UPO,2011-2015,outgoing
+Costa Rica,CR,34,UPO,2011-2015,outgoing
+Cameroon,CM,31,UPO,2011-2015,outgoing
+Iraq,IQ,30,UPO,2011-2015,outgoing
+Nepal,NP,30,UPO,2011-2015,outgoing
+Cambodia,KH,28,UPO,2011-2015,outgoing
+Senegal,SN,23,UPO,2011-2015,outgoing
+Botswana,BW,23,UPO,2011-2015,outgoing
+Yemen,YE,22,UPO,2011-2015,outgoing
+Gabon,GA,22,UPO,2011-2015,outgoing
+Angola,AO,22,UPO,2011-2015,outgoing
+Niger,NE,21,UPO,2011-2015,outgoing
+Zambia,ZM,19,UPO,2011-2015,outgoing
+Malawi,MW,19,UPO,2011-2015,outgoing
+Mozambique,MZ,18,UPO,2011-2015,outgoing
+Guadeloupe,GP,17,UPO,2011-2015,outgoing
+Burkina Faso,BF,17,UPO,2011-2015,outgoing
+Myanmar,MM,17,UPO,2011-2015,outgoing
+Barbados,BB,16,UPO,2011-2015,outgoing
+Curaçao,CW,16,UPO,2011-2015,outgoing
+Honduras,HN,16,UPO,2011-2015,outgoing
+Sudan,SD,16,UPO,2011-2015,outgoing
+American Samoa,AS,15,UPO,2011-2015,outgoing
+Guatemala,GT,15,UPO,2011-2015,outgoing
+New Caledonia,NC,14,UPO,2011-2015,outgoing
+Rwanda,RW,14,UPO,2011-2015,outgoing
+Réunion,RE,13,UPO,2011-2015,outgoing
+Mali,ML,13,UPO,2011-2015,outgoing
+French Guiana,GF,11,UPO,2011-2015,outgoing
+Zimbabwe,ZW,10,UPO,2011-2015,outgoing
+Antigua and Barbuda,AG,10,UPO,2011-2015,outgoing
+Syria,SY,10,UPO,2011-2015,outgoing
+Mauritius,MU,10,UPO,2011-2015,outgoing
+Ivory Coast,CI,8,UPO,2011-2015,outgoing
+Albania,AL,8,UPO,2011-2015,outgoing
+Seychelles,SC,8,UPO,2011-2015,outgoing
+Tajikistan,TJ,8,UPO,2011-2015,outgoing
+Paraguay,PY,7,UPO,2011-2015,outgoing
+Brunei,BN,7,UPO,2011-2015,outgoing
+San Marino,SM,6,UPO,2011-2015,outgoing
+Madagascar,MG,6,UPO,2011-2015,outgoing
+Libya,LY,6,UPO,2011-2015,outgoing
+Laos,LA,6,UPO,2011-2015,outgoing
+Kosovo,XK,6,UPO,2011-2015,outgoing
+Liechtenstein,LI,5,UPO,2011-2015,outgoing
+Former Yugoslav Republic of Macedonia,MK,5,UPO,2011-2015,outgoing
+Bolivia,BO,4,UPO,2011-2015,outgoing
+Afghanistan,AF,4,UPO,2011-2015,outgoing
+Namibia,,4,UPO,2011-2015,outgoing
+Trinidad and Tobago,TT,4,UPO,2011-2015,outgoing
+Monaco,MC,4,UPO,2011-2015,outgoing
+Greenland,GL,4,UPO,2011-2015,outgoing
+Guinea,GN,4,UPO,2011-2015,outgoing
+DR Congo,CD,3,UPO,2011-2015,outgoing
+French Polynesia,PF,3,UPO,2011-2015,outgoing
+Bhutan,BT,3,UPO,2011-2015,outgoing
+Togo,TG,3,UPO,2011-2015,outgoing
+Papua New Guinea,PG,3,UPO,2011-2015,outgoing
+Congo Republic,CG,2,UPO,2011-2015,outgoing
+Lesotho,LS,2,UPO,2011-2015,outgoing
+European Union,EU,2,UPO,2011-2015,outgoing
+Maldives,MV,2,UPO,2011-2015,outgoing
+Gibraltar,GI,2,UPO,2011-2015,outgoing
+Guinea-Bissau,GW,2,UPO,2011-2015,outgoing
+Burundi,BI,2,UPO,2011-2015,outgoing
+Jersey,JE,2,UPO,2011-2015,outgoing
+Bermuda,BM,1,UPO,2011-2015,outgoing
+Guyana,GY,1,UPO,2011-2015,outgoing
+Viet Nam,VN,1,UPO,2011-2015,outgoing
+Mauritania,MR,1,UPO,2011-2015,outgoing
+Chad,TD,1,UPO,2011-2015,outgoing
+Palau,PW,1,UPO,2011-2015,outgoing
+St Vincent and Grenadines,VC,1,UPO,2011-2015,outgoing
+U.S. Virgin Islands,VI,1,UPO,2011-2015,outgoing
+Faroe Islands,FO,1,UPO,2011-2015,outgoing
+St Kitts and Nevis,KN,1,UPO,2011-2015,outgoing
+Kosovo * UN resolution,XK,1,UPO,2011-2015,outgoing

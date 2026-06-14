@@ -1,0 +1,227 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,23,UNITO,incoming
+AE,United Arab Emirates,11829,UNITO,incoming
+AF,Afghanistan,210,UNITO,incoming
+AG,Antigua and Barbuda,1309,UNITO,incoming
+AL,Albania,732,UNITO,incoming
+AM,Armenia,15881,UNITO,incoming
+AO,Angola,530,UNITO,incoming
+AR,Argentina,70768,UNITO,incoming
+AS,American Samoa,712,UNITO,incoming
+AT,Austria,144381,UNITO,incoming
+AU,Australia,380351,UNITO,incoming
+AW,Aruba,11,UNITO,incoming
+AX,Åland,2,UNITO,incoming
+AZ,Azerbaijan,8092,UNITO,incoming
+BA,Bosnia and Herzegovina,2161,UNITO,incoming
+BB,Barbados,198,UNITO,incoming
+BD,Bangladesh,8048,UNITO,incoming
+BE,Belgium,229533,UNITO,incoming
+BF,Burkina Faso,861,UNITO,incoming
+BG,Bulgaria,39871,UNITO,incoming
+BH,Bahrain,3638,UNITO,incoming
+BI,Burundi,109,UNITO,incoming
+BJ,Benin,1121,UNITO,incoming
+BM,Bermuda,38,UNITO,incoming
+BN,Brunei,409,UNITO,incoming
+BO,Bolivia,1121,UNITO,incoming
+BQ,"Bonaire, Sint Eustatius, and Saba",27,UNITO,incoming
+BR,Brazil,326113,UNITO,incoming
+BS,Bahamas,63,UNITO,incoming
+BT,Bhutan,397,UNITO,incoming
+BW,Botswana,584,UNITO,incoming
+BY,Belarus,24541,UNITO,incoming
+BZ,Belize,38,UNITO,incoming
+CA,Canada,409513,UNITO,incoming
+CD,DR Congo,783,UNITO,incoming
+CF,Central African Republic,50,UNITO,incoming
+CG,Congo Republic,154,UNITO,incoming
+CH,Switzerland,347628,UNITO,incoming
+CI,Ivory Coast,562,UNITO,incoming
+CL,Chile,52876,UNITO,incoming
+CM,Cameroon,2178,UNITO,incoming
+CN,China,1537190,UNITO,incoming
+CO,Colombia,44572,UNITO,incoming
+CR,Costa Rica,1454,UNITO,incoming
+CU,Cuba,4751,UNITO,incoming
+CV,Cabo Verde,21,UNITO,incoming
+CW,Curaçao,212,UNITO,incoming
+CY,Cyprus,21603,UNITO,incoming
+CZ,Czechia,114967,UNITO,incoming
+DE,Germany,1133248,UNITO,incoming
+DJ,Djibouti,7,UNITO,incoming
+DK,Denmark,157700,UNITO,incoming
+DM,Dominica,14,UNITO,incoming
+DO,Dominican Republic,326,UNITO,incoming
+DZ,Algeria,4796,UNITO,incoming
+EC,Ecuador,12059,UNITO,incoming
+EE,Estonia,20238,UNITO,incoming
+EG,Egypt,54708,UNITO,incoming
+ER,Eritrea,20,UNITO,incoming
+ES,Spain,766861,UNITO,incoming
+ET,Ethiopia,8243,UNITO,incoming
+EU,European Union,83,UNITO,incoming
+FI,Finland,171402,UNITO,incoming
+FJ,Fiji,515,UNITO,incoming
+FK,Falkland Islands,1,UNITO,incoming
+FM,Micronesia,17,UNITO,incoming
+FO,Faroe Islands,73,UNITO,incoming
+FR,France,2326366,UNITO,incoming
+GA,Gabon,523,UNITO,incoming
+GB,United Kingdom,1218955,UNITO,incoming
+GD,Grenada,522,UNITO,incoming
+GE,Georgia,22070,UNITO,incoming
+GF,French Guiana,705,UNITO,incoming
+GH,Ghana,4708,UNITO,incoming
+GI,Gibraltar,133,UNITO,incoming
+GL,Greenland,80,UNITO,incoming
+GM,The Gambia,197,UNITO,incoming
+GN,Guinea,50,UNITO,incoming
+GP,Guadeloupe,1784,UNITO,incoming
+GQ,Equatorial Guinea,1,UNITO,incoming
+GR,Greece,156809,UNITO,incoming
+GT,Guatemala,1108,UNITO,incoming
+GU,Guam,40,UNITO,incoming
+GW,Guinea-Bissau,75,UNITO,incoming
+GY,Guyana,133,UNITO,incoming
+HK,Hong Kong,53076,UNITO,incoming
+HN,Honduras,200,UNITO,incoming
+HR,Croatia,65238,UNITO,incoming
+HT,Haiti,37,UNITO,incoming
+HU,Hungary,140141,UNITO,incoming
+ID,Indonesia,16065,UNITO,incoming
+IE,Ireland,65518,UNITO,incoming
+IL,Israel,80932,UNITO,incoming
+IM,Isle of Man,14,UNITO,incoming
+IN,India,406876,UNITO,incoming
+IQ,Iraq,6638,UNITO,incoming
+IR,Iran,129875,UNITO,incoming
+IS,Iceland,6304,UNITO,incoming
+IT,Italy,2382213,UNITO,incoming
+JE,Jersey,27,UNITO,incoming
+JM,Jamaica,1285,UNITO,incoming
+JO,Jordan,7451,UNITO,incoming
+JP,Japan,521225,UNITO,incoming
+KE,Kenya,4944,UNITO,incoming
+KG,Kyrgyzstan,323,UNITO,incoming
+KH,Cambodia,1523,UNITO,incoming
+KI,Kiribati,2,UNITO,incoming
+KM,Comoros,2,UNITO,incoming
+KN,St Kitts and Nevis,528,UNITO,incoming
+KP,North Korea,66,UNITO,incoming
+KR,South Korea,382371,UNITO,incoming
+KW,Kuwait,3122,UNITO,incoming
+KY,Cayman Islands,8,UNITO,incoming
+KZ,Kazakhstan,3743,UNITO,incoming
+LA,Laos,147,UNITO,incoming
+LB,Lebanon,8928,UNITO,incoming
+LC,Saint Lucia,32,UNITO,incoming
+LI,Liechtenstein,130,UNITO,incoming
+LK,Sri Lanka,6382,UNITO,incoming
+LR,Liberia,33,UNITO,incoming
+LS,Lesotho,30,UNITO,incoming
+LT,Lithuania,15599,UNITO,incoming
+LU,Luxembourg,4353,UNITO,incoming
+LV,Latvia,6459,UNITO,incoming
+LY,Libya,404,UNITO,incoming
+MA,Morocco,18528,UNITO,incoming
+MC,Monaco,194,UNITO,incoming
+MD,Moldova,978,UNITO,incoming
+ME,Montenegro,2292,UNITO,incoming
+MG,Madagascar,638,UNITO,incoming
+MK,North Macedonia,1802,UNITO,incoming
+ML,Mali,189,UNITO,incoming
+MM,Myanmar,1131,UNITO,incoming
+MN,Mongolia,4467,UNITO,incoming
+MO,Macao,2715,UNITO,incoming
+MP,Northern Mariana Islands,4,UNITO,incoming
+MQ,Martinique,224,UNITO,incoming
+MR,Mauritania,36,UNITO,incoming
+MS,Montserrat,9,UNITO,incoming
+MT,Malta,1905,UNITO,incoming
+MU,Mauritius,613,UNITO,incoming
+MV,Maldives,53,UNITO,incoming
+MW,Malawi,1105,UNITO,incoming
+MX,Mexico,125999,UNITO,incoming
+MY,Malaysia,40362,UNITO,incoming
+MZ,Mozambique,1082,UNITO,incoming
+NC,New Caledonia,330,UNITO,incoming
+NE,Niger,276,UNITO,incoming
+NG,Nigeria,11028,UNITO,incoming
+NI,Nicaragua,302,UNITO,incoming
+NL,The Netherlands,434624,UNITO,incoming
+NO,Norway,100244,UNITO,incoming
+NP,Nepal,2537,UNITO,incoming
+NZ,New Zealand,44438,UNITO,incoming
+OC,Oceania,22,UNITO,incoming
+OM,Oman,2831,UNITO,incoming
+PA,Panama,1314,UNITO,incoming
+PE,Peru,11066,UNITO,incoming
+PF,French Polynesia,84,UNITO,incoming
+PG,Papua New Guinea,122,UNITO,incoming
+PH,Philippines,8877,UNITO,incoming
+PK,Pakistan,57963,UNITO,incoming
+PL,Poland,241314,UNITO,incoming
+PR,Puerto Rico,15095,UNITO,incoming
+PS,Palestine,2906,UNITO,incoming
+PT,Portugal,143974,UNITO,incoming
+PW,Palau,124,UNITO,incoming
+PY,Paraguay,350,UNITO,incoming
+QA,Qatar,10787,UNITO,incoming
+RE,Réunion,1821,UNITO,incoming
+RO,Romania,45293,UNITO,incoming
+RS,Serbia,37587,UNITO,incoming
+RU,Russia,362921,UNITO,incoming
+RW,Rwanda,695,UNITO,incoming
+SA,Saudi Arabia,42387,UNITO,incoming
+SC,Seychelles,169,UNITO,incoming
+SD,Sudan,1432,UNITO,incoming
+SE,Sweden,162048,UNITO,incoming
+SG,Singapore,56192,UNITO,incoming
+SI,Slovenia,29847,UNITO,incoming
+SJ,Svalbard and Jan Mayen,105,UNITO,incoming
+SK,Slovakia,49583,UNITO,incoming
+SL,Sierra Leone,65,UNITO,incoming
+SM,San Marino,89,UNITO,incoming
+SN,Senegal,932,UNITO,incoming
+SO,Somalia,630,UNITO,incoming
+SR,Suriname,46,UNITO,incoming
+SS,South Sudan,21,UNITO,incoming
+SV,El Salvador,527,UNITO,incoming
+SX,Sint Maarten,33,UNITO,incoming
+SY,Syria,716,UNITO,incoming
+SZ,Eswatini,50,UNITO,incoming
+TC,Turks and Caicos Islands,2,UNITO,incoming
+TD,Chad,37,UNITO,incoming
+TG,Togo,179,UNITO,incoming
+TH,Thailand,38882,UNITO,incoming
+TJ,Tajikistan,214,UNITO,incoming
+TL,Timor-Leste,31,UNITO,incoming
+TM,Turkmenistan,23,UNITO,incoming
+TN,Tunisia,10696,UNITO,incoming
+TO,Tonga,13,UNITO,incoming
+TR,Turkey,223448,UNITO,incoming
+TT,Trinidad and Tobago,318,UNITO,incoming
+TV,Tuvalu,3,UNITO,incoming
+TW,Taiwan,174241,UNITO,incoming
+TZ,Tanzania,3029,UNITO,incoming
+UA,Ukraine,33912,UNITO,incoming
+UG,Uganda,3411,UNITO,incoming
+UM,United States Minor Outlying Islands,2,UNITO,incoming
+US,United States,4331610,UNITO,incoming
+UY,Uruguay,4063,UNITO,incoming
+UZ,Uzbekistan,8183,UNITO,incoming
+VA,Vatican City,7,UNITO,incoming
+VC,St Vincent and Grenadines,8,UNITO,incoming
+VE,Venezuela,2393,UNITO,incoming
+VG,British Virgin Islands,2,UNITO,incoming
+VI,U.S. Virgin Islands,74,UNITO,incoming
+VN,Vietnam,14111,UNITO,incoming
+VU,Vanuatu,5,UNITO,incoming
+WS,Samoa,16,UNITO,incoming
+XK,Kosovo,281,UNITO,incoming
+YE,Yemen,1164,UNITO,incoming
+YT,Mayotte,5,UNITO,incoming
+ZA,South Africa,66472,UNITO,incoming
+ZM,Zambia,940,UNITO,incoming
+ZW,Zimbabwe,1232,UNITO,incoming

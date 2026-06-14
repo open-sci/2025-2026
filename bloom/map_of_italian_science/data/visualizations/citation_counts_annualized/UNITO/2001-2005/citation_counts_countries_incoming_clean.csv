@@ -1,0 +1,165 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,154234,UNITO,2001-2005,incoming
+Italy,IT,99383,UNITO,2001-2005,incoming
+France,FR,48934,UNITO,2001-2005,incoming
+United Kingdom,GB,44119,UNITO,2001-2005,incoming
+Germany,DE,28513,UNITO,2001-2005,incoming
+Japan,JP,20508,UNITO,2001-2005,incoming
+Canada,CA,16196,UNITO,2001-2005,incoming
+Spain,ES,11345,UNITO,2001-2005,incoming
+The Netherlands,NL,10407,UNITO,2001-2005,incoming
+Switzerland,CH,8714,UNITO,2001-2005,incoming
+Australia,AU,8484,UNITO,2001-2005,incoming
+Russia,RU,7533,UNITO,2001-2005,incoming
+China,CN,5968,UNITO,2001-2005,incoming
+Belgium,BE,5381,UNITO,2001-2005,incoming
+India,IN,5307,UNITO,2001-2005,incoming
+South Korea,KR,5252,UNITO,2001-2005,incoming
+Brazil,BR,4075,UNITO,2001-2005,incoming
+Sweden,SE,3866,UNITO,2001-2005,incoming
+Poland,PL,3653,UNITO,2001-2005,incoming
+Taiwan,TW,3457,UNITO,2001-2005,incoming
+Greece,GR,3117,UNITO,2001-2005,incoming
+Finland,FI,3091,UNITO,2001-2005,incoming
+Israel,IL,2998,UNITO,2001-2005,incoming
+Denmark,DK,2593,UNITO,2001-2005,incoming
+Austria,AT,2203,UNITO,2001-2005,incoming
+Norway,NO,1812,UNITO,2001-2005,incoming
+Mexico,MX,1674,UNITO,2001-2005,incoming
+Czechia,CZ,1574,UNITO,2001-2005,incoming
+Portugal,PT,1411,UNITO,2001-2005,incoming
+Argentina,AR,1337,UNITO,2001-2005,incoming
+Türkiye,TR,1283,UNITO,2001-2005,incoming
+Hungary,HU,1255,UNITO,2001-2005,incoming
+Hong Kong,HK,1230,UNITO,2001-2005,incoming
+Ireland,IE,1096,UNITO,2001-2005,incoming
+China (People's Republic of),CN,1015,UNITO,2001-2005,incoming
+Netherlands,NL,952,UNITO,2001-2005,incoming
+South Africa,ZA,948,UNITO,2001-2005,incoming
+Slovenia,SI,897,UNITO,2001-2005,incoming
+Singapore,SG,664,UNITO,2001-2005,incoming
+Slovakia,SK,626,UNITO,2001-2005,incoming
+Chile,CL,507,UNITO,2001-2005,incoming
+Bulgaria,BG,489,UNITO,2001-2005,incoming
+Ukraine,UA,454,UNITO,2001-2005,incoming
+New Zealand,NZ,393,UNITO,2001-2005,incoming
+Serbia,RS,366,UNITO,2001-2005,incoming
+Iran,IR,328,UNITO,2001-2005,incoming
+Tunisia,TN,328,UNITO,2001-2005,incoming
+Tanzania,TZ,317,UNITO,2001-2005,incoming
+Croatia,HR,308,UNITO,2001-2005,incoming
+Thailand,TH,298,UNITO,2001-2005,incoming
+Egypt,EG,272,UNITO,2001-2005,incoming
+Uzbekistan,UZ,222,UNITO,2001-2005,incoming
+Romania,RO,205,UNITO,2001-2005,incoming
+Armenia,AM,197,UNITO,2001-2005,incoming
+Cyprus,CY,187,UNITO,2001-2005,incoming
+Georgia,GE,177,UNITO,2001-2005,incoming
+Colombia,CO,167,UNITO,2001-2005,incoming
+Puerto Rico,PR,164,UNITO,2001-2005,incoming
+Korea (Republic of),KR,140,UNITO,2001-2005,incoming
+Pakistan,PK,136,UNITO,2001-2005,incoming
+Iceland,IS,113,UNITO,2001-2005,incoming
+Malaysia,MY,113,UNITO,2001-2005,incoming
+Estonia,EE,113,UNITO,2001-2005,incoming
+Azerbaijan,AZ,108,UNITO,2001-2005,incoming
+Saudi Arabia,SA,106,UNITO,2001-2005,incoming
+United Arab Emirates,AE,101,UNITO,2001-2005,incoming
+Ecuador,EC,94,UNITO,2001-2005,incoming
+Russian Federation,RU,87,UNITO,2001-2005,incoming
+Belarus,BY,86,UNITO,2001-2005,incoming
+Ethiopia,ET,81,UNITO,2001-2005,incoming
+Sri Lanka,LK,73,UNITO,2001-2005,incoming
+Lebanon,LB,73,UNITO,2001-2005,incoming
+Kenya,KE,70,UNITO,2001-2005,incoming
+Philippines,PH,68,UNITO,2001-2005,incoming
+Venezuela,VE,64,UNITO,2001-2005,incoming
+Vietnam,VN,52,UNITO,2001-2005,incoming
+Ghana,GH,48,UNITO,2001-2005,incoming
+Nigeria,NG,47,UNITO,2001-2005,incoming
+Peru,PE,47,UNITO,2001-2005,incoming
+Latvia,LV,47,UNITO,2001-2005,incoming
+Uruguay,UY,46,UNITO,2001-2005,incoming
+Mongolia,MN,46,UNITO,2001-2005,incoming
+Jordan,JO,44,UNITO,2001-2005,incoming
+Lithuania,LT,37,UNITO,2001-2005,incoming
+Morocco,MA,36,UNITO,2001-2005,incoming
+Uganda,UG,34,UNITO,2001-2005,incoming
+Myanmar,MM,34,UNITO,2001-2005,incoming
+Luxembourg,LU,33,UNITO,2001-2005,incoming
+Kuwait,KW,32,UNITO,2001-2005,incoming
+Bahrain,BH,31,UNITO,2001-2005,incoming
+American Samoa,AS,29,UNITO,2001-2005,incoming
+Turkey,TR,28,UNITO,2001-2005,incoming
+Indonesia,ID,26,UNITO,2001-2005,incoming
+Kazakhstan,KZ,25,UNITO,2001-2005,incoming
+Cuba,CU,25,UNITO,2001-2005,incoming
+Jamaica,JM,24,UNITO,2001-2005,incoming
+Gabon,GA,23,UNITO,2001-2005,incoming
+Montenegro,ME,23,UNITO,2001-2005,incoming
+Qatar,QA,23,UNITO,2001-2005,incoming
+Algeria,DZ,21,UNITO,2001-2005,incoming
+Nepal,NP,21,UNITO,2001-2005,incoming
+Syria,SY,20,UNITO,2001-2005,incoming
+Bangladesh,BD,19,UNITO,2001-2005,incoming
+Palestine,PS,18,UNITO,2001-2005,incoming
+Czech Republic,CZ,17,UNITO,2001-2005,incoming
+Benin,BJ,17,UNITO,2001-2005,incoming
+Guadeloupe,GP,17,UNITO,2001-2005,incoming
+Malawi,MW,15,UNITO,2001-2005,incoming
+Cambodia,KH,15,UNITO,2001-2005,incoming
+Cameroon,CM,15,UNITO,2001-2005,incoming
+Bosnia and Herzegovina,BA,15,UNITO,2001-2005,incoming
+Zimbabwe,ZW,13,UNITO,2001-2005,incoming
+Senegal,SN,12,UNITO,2001-2005,incoming
+Zambia,ZM,11,UNITO,2001-2005,incoming
+Oman,OM,11,UNITO,2001-2005,incoming
+Macao,MO,10,UNITO,2001-2005,incoming
+Sudan,SD,10,UNITO,2001-2005,incoming
+Malta,MT,10,UNITO,2001-2005,incoming
+Somalia,SO,9,UNITO,2001-2005,incoming
+Tajikistan,TJ,9,UNITO,2001-2005,incoming
+Costa Rica,CR,8,UNITO,2001-2005,incoming
+Burkina Faso,BF,8,UNITO,2001-2005,incoming
+North Macedonia,MK,8,UNITO,2001-2005,incoming
+Paraguay,PY,8,UNITO,2001-2005,incoming
+Bolivia,BO,7,UNITO,2001-2005,incoming
+Ivory Coast,CI,7,UNITO,2001-2005,incoming
+Palau,PW,7,UNITO,2001-2005,incoming
+Albania,AL,6,UNITO,2001-2005,incoming
+El Salvador,SV,6,UNITO,2001-2005,incoming
+Mali,ML,6,UNITO,2001-2005,incoming
+Réunion,RE,5,UNITO,2001-2005,incoming
+DR Congo,CD,5,UNITO,2001-2005,incoming
+Grenada,GD,5,UNITO,2001-2005,incoming
+Trinidad and Tobago,TT,4,UNITO,2001-2005,incoming
+Curaçao,CW,4,UNITO,2001-2005,incoming
+Iraq,IQ,4,UNITO,2001-2005,incoming
+Bhutan,BT,4,UNITO,2001-2005,incoming
+Burundi,BI,4,UNITO,2001-2005,incoming
+Guatemala,GT,4,UNITO,2001-2005,incoming
+Barbados,BB,4,UNITO,2001-2005,incoming
+Angola,AO,4,UNITO,2001-2005,incoming
+Dominican Republic,DO,4,UNITO,2001-2005,incoming
+Moldova,MD,4,UNITO,2001-2005,incoming
+Mozambique,MZ,3,UNITO,2001-2005,incoming
+San Marino,SM,3,UNITO,2001-2005,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,3,UNITO,2001-2005,incoming
+Afghanistan,AF,3,UNITO,2001-2005,incoming
+Kyrgyzstan,KG,2,UNITO,2001-2005,incoming
+French Guiana,GF,2,UNITO,2001-2005,incoming
+Suriname,SR,2,UNITO,2001-2005,incoming
+Bermuda,BM,2,UNITO,2001-2005,incoming
+Yemen,YE,1,UNITO,2001-2005,incoming
+Belize,BZ,1,UNITO,2001-2005,incoming
+Brunei,BN,1,UNITO,2001-2005,incoming
+Kosovo,XK,1,UNITO,2001-2005,incoming
+Papua New Guinea,PG,1,UNITO,2001-2005,incoming
+New Caledonia,NC,1,UNITO,2001-2005,incoming
+Congo Republic,CG,1,UNITO,2001-2005,incoming
+Botswana,BW,1,UNITO,2001-2005,incoming
+European Union,EU,1,UNITO,2001-2005,incoming
+Namibia,,1,UNITO,2001-2005,incoming
+North Korea,KP,1,UNITO,2001-2005,incoming
+Fiji,FJ,1,UNITO,2001-2005,incoming
+Iran (Islamic Republic of),IR,1,UNITO,2001-2005,incoming

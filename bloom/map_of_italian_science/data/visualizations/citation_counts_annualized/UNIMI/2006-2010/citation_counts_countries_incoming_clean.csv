@@ -1,0 +1,206 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,655276,UNIMI,2006-2010,incoming
+Italy,IT,463715,UNIMI,2006-2010,incoming
+France,FR,311492,UNIMI,2006-2010,incoming
+United Kingdom,GB,187595,UNIMI,2006-2010,incoming
+Germany,DE,150422,UNIMI,2006-2010,incoming
+Spain,ES,84604,UNIMI,2006-2010,incoming
+Japan,JP,76785,UNIMI,2006-2010,incoming
+Canada,CA,71985,UNIMI,2006-2010,incoming
+China,CN,58658,UNIMI,2006-2010,incoming
+The Netherlands,NL,56830,UNIMI,2006-2010,incoming
+Australia,AU,52872,UNIMI,2006-2010,incoming
+Switzerland,CH,49667,UNIMI,2006-2010,incoming
+Brazil,BR,31839,UNIMI,2006-2010,incoming
+South Korea,KR,27890,UNIMI,2006-2010,incoming
+Belgium,BE,26726,UNIMI,2006-2010,incoming
+India,IN,25502,UNIMI,2006-2010,incoming
+Russia,RU,24912,UNIMI,2006-2010,incoming
+Sweden,SE,24153,UNIMI,2006-2010,incoming
+Denmark,DK,22189,UNIMI,2006-2010,incoming
+Taiwan,TW,20935,UNIMI,2006-2010,incoming
+Poland,PL,18682,UNIMI,2006-2010,incoming
+Greece,GR,17475,UNIMI,2006-2010,incoming
+Finland,FI,15217,UNIMI,2006-2010,incoming
+Israel,IL,13747,UNIMI,2006-2010,incoming
+Austria,AT,13499,UNIMI,2006-2010,incoming
+Türkiye,TR,13406,UNIMI,2006-2010,incoming
+Portugal,PT,11422,UNIMI,2006-2010,incoming
+Argentina,AR,10054,UNIMI,2006-2010,incoming
+Norway,NO,10017,UNIMI,2006-2010,incoming
+Czechia,CZ,8927,UNIMI,2006-2010,incoming
+Hungary,HU,8663,UNIMI,2006-2010,incoming
+Netherlands,NL,8152,UNIMI,2006-2010,incoming
+Ireland,IE,8143,UNIMI,2006-2010,incoming
+Hong Kong,HK,8000,UNIMI,2006-2010,incoming
+China (People's Republic of),CN,7510,UNIMI,2006-2010,incoming
+Mexico,MX,6661,UNIMI,2006-2010,incoming
+Singapore,SG,6586,UNIMI,2006-2010,incoming
+South Africa,ZA,5836,UNIMI,2006-2010,incoming
+Iran,IR,4977,UNIMI,2006-2010,incoming
+Slovenia,SI,4540,UNIMI,2006-2010,incoming
+Slovakia,SK,4126,UNIMI,2006-2010,incoming
+Chile,CL,4092,UNIMI,2006-2010,incoming
+New Zealand,NZ,3891,UNIMI,2006-2010,incoming
+Serbia,RS,2766,UNIMI,2006-2010,incoming
+Thailand,TH,2564,UNIMI,2006-2010,incoming
+Croatia,HR,2296,UNIMI,2006-2010,incoming
+Egypt,EG,2062,UNIMI,2006-2010,incoming
+Belarus,BY,2021,UNIMI,2006-2010,incoming
+Romania,RO,1804,UNIMI,2006-2010,incoming
+Colombia,CO,1787,UNIMI,2006-2010,incoming
+Georgia,GE,1592,UNIMI,2006-2010,incoming
+Ukraine,UA,1552,UNIMI,2006-2010,incoming
+Lebanon,LB,1518,UNIMI,2006-2010,incoming
+Korea (Republic of),KR,1510,UNIMI,2006-2010,incoming
+Tunisia,TN,1509,UNIMI,2006-2010,incoming
+Malaysia,MY,1501,UNIMI,2006-2010,incoming
+Bulgaria,BG,1423,UNIMI,2006-2010,incoming
+Morocco,MA,1352,UNIMI,2006-2010,incoming
+Azerbaijan,AZ,1331,UNIMI,2006-2010,incoming
+Pakistan,PK,1250,UNIMI,2006-2010,incoming
+Saudi Arabia,SA,1011,UNIMI,2006-2010,incoming
+Estonia,EE,1009,UNIMI,2006-2010,incoming
+Puerto Rico,PR,900,UNIMI,2006-2010,incoming
+United Arab Emirates,AE,801,UNIMI,2006-2010,incoming
+Armenia,AM,792,UNIMI,2006-2010,incoming
+Ethiopia,ET,697,UNIMI,2006-2010,incoming
+Cyprus,CY,643,UNIMI,2006-2010,incoming
+Iceland,IS,638,UNIMI,2006-2010,incoming
+Jordan,JO,612,UNIMI,2006-2010,incoming
+Vietnam,VN,549,UNIMI,2006-2010,incoming
+Tanzania,TZ,547,UNIMI,2006-2010,incoming
+Nigeria,NG,506,UNIMI,2006-2010,incoming
+Philippines,PH,473,UNIMI,2006-2010,incoming
+Kenya,KE,458,UNIMI,2006-2010,incoming
+Qatar,QA,442,UNIMI,2006-2010,incoming
+Uruguay,UY,441,UNIMI,2006-2010,incoming
+Indonesia,ID,438,UNIMI,2006-2010,incoming
+Venezuela,VE,427,UNIMI,2006-2010,incoming
+Uganda,UG,392,UNIMI,2006-2010,incoming
+Cuba,CU,390,UNIMI,2006-2010,incoming
+Palestine,PS,384,UNIMI,2006-2010,incoming
+Peru,PE,356,UNIMI,2006-2010,incoming
+Bolivia,BO,345,UNIMI,2006-2010,incoming
+Russian Federation,RU,312,UNIMI,2006-2010,incoming
+Bahrain,BH,299,UNIMI,2006-2010,incoming
+Czech Republic,CZ,298,UNIMI,2006-2010,incoming
+Ghana,GH,288,UNIMI,2006-2010,incoming
+Algeria,DZ,275,UNIMI,2006-2010,incoming
+Lithuania,LT,266,UNIMI,2006-2010,incoming
+Kuwait,KW,245,UNIMI,2006-2010,incoming
+Oman,OM,238,UNIMI,2006-2010,incoming
+Jamaica,JM,214,UNIMI,2006-2010,incoming
+Latvia,LV,200,UNIMI,2006-2010,incoming
+Luxembourg,LU,197,UNIMI,2006-2010,incoming
+Ecuador,EC,194,UNIMI,2006-2010,incoming
+Cameroon,CM,192,UNIMI,2006-2010,incoming
+Zambia,ZM,181,UNIMI,2006-2010,incoming
+Bangladesh,BD,171,UNIMI,2006-2010,incoming
+Sri Lanka,LK,171,UNIMI,2006-2010,incoming
+Turkey,TR,168,UNIMI,2006-2010,incoming
+Guadeloupe,GP,168,UNIMI,2006-2010,incoming
+Mozambique,MZ,143,UNIMI,2006-2010,incoming
+Cambodia,KH,136,UNIMI,2006-2010,incoming
+Bosnia and Herzegovina,BA,128,UNIMI,2006-2010,incoming
+Malawi,MW,122,UNIMI,2006-2010,incoming
+Uzbekistan,UZ,114,UNIMI,2006-2010,incoming
+Benin,BJ,112,UNIMI,2006-2010,incoming
+Senegal,SN,108,UNIMI,2006-2010,incoming
+Nepal,NP,108,UNIMI,2006-2010,incoming
+Kazakhstan,KZ,104,UNIMI,2006-2010,incoming
+Zimbabwe,ZW,94,UNIMI,2006-2010,incoming
+Burkina Faso,BF,89,UNIMI,2006-2010,incoming
+Costa Rica,CR,88,UNIMI,2006-2010,incoming
+Moldova,MD,88,UNIMI,2006-2010,incoming
+Sudan,SD,86,UNIMI,2006-2010,incoming
+Macao,MO,85,UNIMI,2006-2010,incoming
+Réunion,RE,85,UNIMI,2006-2010,incoming
+North Macedonia,MK,79,UNIMI,2006-2010,incoming
+Iran (Islamic Republic of),IR,76,UNIMI,2006-2010,incoming
+Malta,MT,76,UNIMI,2006-2010,incoming
+Ivory Coast,CI,72,UNIMI,2006-2010,incoming
+Gabon,GA,63,UNIMI,2006-2010,incoming
+El Salvador,SV,54,UNIMI,2006-2010,incoming
+Iraq,IQ,51,UNIMI,2006-2010,incoming
+Myanmar,MM,50,UNIMI,2006-2010,incoming
+Angola,AO,49,UNIMI,2006-2010,incoming
+Mongolia,MN,49,UNIMI,2006-2010,incoming
+Panama,PA,47,UNIMI,2006-2010,incoming
+Syria,SY,46,UNIMI,2006-2010,incoming
+Montenegro,ME,45,UNIMI,2006-2010,incoming
+Bhutan,BT,45,UNIMI,2006-2010,incoming
+Palau,PW,44,UNIMI,2006-2010,incoming
+Yemen,YE,42,UNIMI,2006-2010,incoming
+Curaçao,CW,41,UNIMI,2006-2010,incoming
+Botswana,BW,39,UNIMI,2006-2010,incoming
+Tajikistan,TJ,38,UNIMI,2006-2010,incoming
+Somalia,SO,37,UNIMI,2006-2010,incoming
+Mali,ML,35,UNIMI,2006-2010,incoming
+Trinidad and Tobago,TT,35,UNIMI,2006-2010,incoming
+Guatemala,GT,34,UNIMI,2006-2010,incoming
+Madagascar,MG,33,UNIMI,2006-2010,incoming
+New Caledonia,NC,33,UNIMI,2006-2010,incoming
+Paraguay,PY,30,UNIMI,2006-2010,incoming
+Antigua and Barbuda,AG,29,UNIMI,2006-2010,incoming
+Barbados,BB,29,UNIMI,2006-2010,incoming
+Guinea-Bissau,GW,29,UNIMI,2006-2010,incoming
+Grenada,GD,26,UNIMI,2006-2010,incoming
+French Polynesia,PF,26,UNIMI,2006-2010,incoming
+Maldives,MV,25,UNIMI,2006-2010,incoming
+Albania,AL,23,UNIMI,2006-2010,incoming
+French Guiana,GF,23,UNIMI,2006-2010,incoming
+European Union,EU,23,UNIMI,2006-2010,incoming
+American Samoa,AS,22,UNIMI,2006-2010,incoming
+Libya,LY,21,UNIMI,2006-2010,incoming
+Kosovo,XK,21,UNIMI,2006-2010,incoming
+Honduras,HN,19,UNIMI,2006-2010,incoming
+San Marino,SM,19,UNIMI,2006-2010,incoming
+Brunei,BN,19,UNIMI,2006-2010,incoming
+Papua New Guinea,PG,18,UNIMI,2006-2010,incoming
+Rwanda,RW,18,UNIMI,2006-2010,incoming
+DR Congo,CD,16,UNIMI,2006-2010,incoming
+St Kitts and Nevis,KN,14,UNIMI,2006-2010,incoming
+Mauritius,MU,14,UNIMI,2006-2010,incoming
+Fiji,FJ,13,UNIMI,2006-2010,incoming
+Central African Republic,CF,13,UNIMI,2006-2010,incoming
+Afghanistan,AF,12,UNIMI,2006-2010,incoming
+Monaco,MC,11,UNIMI,2006-2010,incoming
+Tanzania (United Republic of),TZ,9,UNIMI,2006-2010,incoming
+Congo Republic,CG,9,UNIMI,2006-2010,incoming
+Nicaragua,NI,9,UNIMI,2006-2010,incoming
+Kyrgyzstan,KG,8,UNIMI,2006-2010,incoming
+Dominican Republic,DO,8,UNIMI,2006-2010,incoming
+Seychelles,SC,7,UNIMI,2006-2010,incoming
+Martinique,MQ,7,UNIMI,2006-2010,incoming
+St Vincent and Grenadines,VC,7,UNIMI,2006-2010,incoming
+Chad,TD,6,UNIMI,2006-2010,incoming
+Namibia,,6,UNIMI,2006-2010,incoming
+Laos,LA,6,UNIMI,2006-2010,incoming
+Togo,TG,6,UNIMI,2006-2010,incoming
+North Korea,KP,6,UNIMI,2006-2010,incoming
+Micronesia,FM,6,UNIMI,2006-2010,incoming
+Greenland,GL,5,UNIMI,2006-2010,incoming
+Burundi,BI,5,UNIMI,2006-2010,incoming
+South Sudan,SS,4,UNIMI,2006-2010,incoming
+Haiti,HT,4,UNIMI,2006-2010,incoming
+Liberia,LR,4,UNIMI,2006-2010,incoming
+The Gambia,GM,4,UNIMI,2006-2010,incoming
+Viet Nam,VN,4,UNIMI,2006-2010,incoming
+Guinea,GN,3,UNIMI,2006-2010,incoming
+"Bonaire, Sint Eustatius, and Saba",BQ,3,UNIMI,2006-2010,incoming
+Mauritania,MR,3,UNIMI,2006-2010,incoming
+Sierra Leone,SL,2,UNIMI,2006-2010,incoming
+Niger,NE,2,UNIMI,2006-2010,incoming
+Svalbard and Jan Mayen,SJ,2,UNIMI,2006-2010,incoming
+Tonga,TO,1,UNIMI,2006-2010,incoming
+Lesotho,LS,1,UNIMI,2006-2010,incoming
+Bermuda,BM,1,UNIMI,2006-2010,incoming
+Cabo Verde,CV,1,UNIMI,2006-2010,incoming
+Cayman Islands,KY,1,UNIMI,2006-2010,incoming
+Timor-Leste,TL,1,UNIMI,2006-2010,incoming
+Jersey,JE,1,UNIMI,2006-2010,incoming
+Liechtenstein,LI,1,UNIMI,2006-2010,incoming
+São Tomé and Príncipe,ST,1,UNIMI,2006-2010,incoming
+Eswatini,SZ,1,UNIMI,2006-2010,incoming
+Belize,BZ,1,UNIMI,2006-2010,incoming

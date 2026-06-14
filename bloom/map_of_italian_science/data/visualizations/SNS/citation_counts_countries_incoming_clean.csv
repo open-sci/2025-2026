@@ -1,0 +1,196 @@
+country_code,country_name,count,institution,direction
+AE,United Arab Emirates,2364,SNS,incoming
+AF,Afghanistan,10,SNS,incoming
+AG,Antigua and Barbuda,15,SNS,incoming
+AL,Albania,36,SNS,incoming
+AM,Armenia,9975,SNS,incoming
+AO,Angola,25,SNS,incoming
+AR,Argentina,20205,SNS,incoming
+AS,American Samoa,5,SNS,incoming
+AT,Austria,33009,SNS,incoming
+AU,Australia,61994,SNS,incoming
+AZ,Azerbaijan,6256,SNS,incoming
+BA,Bosnia and Herzegovina,283,SNS,incoming
+BB,Barbados,8,SNS,incoming
+BD,Bangladesh,690,SNS,incoming
+BE,Belgium,73042,SNS,incoming
+BF,Burkina Faso,20,SNS,incoming
+BG,Bulgaria,25788,SNS,incoming
+BH,Bahrain,474,SNS,incoming
+BI,Burundi,29,SNS,incoming
+BJ,Benin,66,SNS,incoming
+BM,Bermuda,7,SNS,incoming
+BN,Brunei,21,SNS,incoming
+BO,Bolivia,48,SNS,incoming
+BR,Brazil,109089,SNS,incoming
+BS,Bahamas,1,SNS,incoming
+BT,Bhutan,59,SNS,incoming
+BW,Botswana,19,SNS,incoming
+BY,Belarus,17891,SNS,incoming
+BZ,Belize,2,SNS,incoming
+CA,Canada,93764,SNS,incoming
+CD,DR Congo,18,SNS,incoming
+CF,Central African Republic,3,SNS,incoming
+CG,Congo Republic,1,SNS,incoming
+CH,Switzerland,129724,SNS,incoming
+CI,Ivory Coast,18,SNS,incoming
+CL,Chile,22356,SNS,incoming
+CM,Cameroon,251,SNS,incoming
+CN,China,351083,SNS,incoming
+CO,Colombia,25485,SNS,incoming
+CR,Costa Rica,237,SNS,incoming
+CU,Cuba,831,SNS,incoming
+CV,Cabo Verde,1,SNS,incoming
+CW,Curaçao,1,SNS,incoming
+CY,Cyprus,13238,SNS,incoming
+CZ,Czechia,36698,SNS,incoming
+DE,Germany,336956,SNS,incoming
+DJ,Djibouti,3,SNS,incoming
+DK,Denmark,35410,SNS,incoming
+DO,Dominican Republic,6,SNS,incoming
+DZ,Algeria,914,SNS,incoming
+EC,Ecuador,7027,SNS,incoming
+EE,Estonia,10077,SNS,incoming
+EG,Egypt,15898,SNS,incoming
+ES,Spain,236551,SNS,incoming
+ET,Ethiopia,342,SNS,incoming
+EU,European Union,3,SNS,incoming
+FI,Finland,72461,SNS,incoming
+FJ,Fiji,4,SNS,incoming
+FK,Falkland Islands,1,SNS,incoming
+FR,France,832178,SNS,incoming
+GA,Gabon,6,SNS,incoming
+GB,United Kingdom,407263,SNS,incoming
+GD,Grenada,4,SNS,incoming
+GE,Georgia,16191,SNS,incoming
+GF,French Guiana,8,SNS,incoming
+GH,Ghana,812,SNS,incoming
+GI,Gibraltar,1,SNS,incoming
+GL,Greenland,1,SNS,incoming
+GM,The Gambia,3,SNS,incoming
+GN,Guinea,1,SNS,incoming
+GP,Guadeloupe,38,SNS,incoming
+GR,Greece,60710,SNS,incoming
+GT,Guatemala,664,SNS,incoming
+GU,Guam,8,SNS,incoming
+GY,Guyana,4,SNS,incoming
+HK,Hong Kong,12412,SNS,incoming
+HN,Honduras,86,SNS,incoming
+HR,Croatia,29671,SNS,incoming
+HT,Haiti,3,SNS,incoming
+HU,Hungary,72252,SNS,incoming
+ID,Indonesia,1496,SNS,incoming
+IE,Ireland,16410,SNS,incoming
+IL,Israel,22985,SNS,incoming
+IN,India,177399,SNS,incoming
+IQ,Iraq,412,SNS,incoming
+IR,Iran,26684,SNS,incoming
+IS,Iceland,790,SNS,incoming
+IT,Italy,809162,SNS,incoming
+JM,Jamaica,41,SNS,incoming
+JO,Jordan,1041,SNS,incoming
+JP,Japan,183263,SNS,incoming
+KE,Kenya,79,SNS,incoming
+KG,Kyrgyzstan,8,SNS,incoming
+KH,Cambodia,79,SNS,incoming
+KN,St Kitts and Nevis,14,SNS,incoming
+KP,North Korea,17,SNS,incoming
+KR,South Korea,141599,SNS,incoming
+KW,Kuwait,491,SNS,incoming
+KY,Cayman Islands,1,SNS,incoming
+KZ,Kazakhstan,759,SNS,incoming
+LA,Laos,4,SNS,incoming
+LB,Lebanon,337,SNS,incoming
+LI,Liechtenstein,8,SNS,incoming
+LK,Sri Lanka,2826,SNS,incoming
+LS,Lesotho,3,SNS,incoming
+LT,Lithuania,8382,SNS,incoming
+LU,Luxembourg,473,SNS,incoming
+LV,Latvia,1869,SNS,incoming
+LY,Libya,10,SNS,incoming
+MA,Morocco,9820,SNS,incoming
+MC,Monaco,419,SNS,incoming
+MD,Moldova,144,SNS,incoming
+ME,Montenegro,913,SNS,incoming
+MG,Madagascar,49,SNS,incoming
+MK,North Macedonia,82,SNS,incoming
+ML,Mali,6,SNS,incoming
+MM,Myanmar,15,SNS,incoming
+MN,Mongolia,1952,SNS,incoming
+MO,Macao,249,SNS,incoming
+MR,Mauritania,16,SNS,incoming
+MT,Malta,379,SNS,incoming
+MU,Mauritius,38,SNS,incoming
+MV,Maldives,3,SNS,incoming
+MW,Malawi,9,SNS,incoming
+MX,Mexico,50943,SNS,incoming
+MY,Malaysia,10832,SNS,incoming
+MZ,Mozambique,151,SNS,incoming
+NC,New Caledonia,19,SNS,incoming
+NE,Niger,3,SNS,incoming
+NG,Nigeria,454,SNS,incoming
+NI,Nicaragua,39,SNS,incoming
+NL,The Netherlands,92588,SNS,incoming
+NO,Norway,23634,SNS,incoming
+NP,Nepal,114,SNS,incoming
+NZ,New Zealand,18802,SNS,incoming
+OM,Oman,211,SNS,incoming
+PA,Panama,26,SNS,incoming
+PE,Peru,1079,SNS,incoming
+PF,French Polynesia,14,SNS,incoming
+PG,Papua New Guinea,5,SNS,incoming
+PH,Philippines,1574,SNS,incoming
+PK,Pakistan,22050,SNS,incoming
+PL,Poland,99898,SNS,incoming
+PR,Puerto Rico,11519,SNS,incoming
+PS,Palestine,206,SNS,incoming
+PT,Portugal,34073,SNS,incoming
+PY,Paraguay,42,SNS,incoming
+QA,Qatar,1637,SNS,incoming
+RE,Réunion,49,SNS,incoming
+RO,Romania,16319,SNS,incoming
+RS,Serbia,16038,SNS,incoming
+RU,Russia,233033,SNS,incoming
+RW,Rwanda,56,SNS,incoming
+SA,Saudi Arabia,6010,SNS,incoming
+SC,Seychelles,3,SNS,incoming
+SD,Sudan,58,SNS,incoming
+SE,Sweden,33481,SNS,incoming
+SG,Singapore,7666,SNS,incoming
+SI,Slovenia,13933,SNS,incoming
+SJ,Svalbard and Jan Mayen,1,SNS,incoming
+SK,Slovakia,24095,SNS,incoming
+SL,Sierra Leone,3,SNS,incoming
+SM,San Marino,1,SNS,incoming
+SN,Senegal,55,SNS,incoming
+SO,Somalia,8,SNS,incoming
+SR,Suriname,5,SNS,incoming
+SV,El Salvador,10,SNS,incoming
+SX,Sint Maarten,2,SNS,incoming
+SY,Syria,25,SNS,incoming
+SZ,Eswatini,2,SNS,incoming
+TD,Chad,1,SNS,incoming
+TG,Togo,5,SNS,incoming
+TH,Thailand,8568,SNS,incoming
+TJ,Tajikistan,109,SNS,incoming
+TM,Turkmenistan,2,SNS,incoming
+TN,Tunisia,901,SNS,incoming
+TR,Turkey,124165,SNS,incoming
+TT,Trinidad and Tobago,17,SNS,incoming
+TW,Taiwan,64652,SNS,incoming
+TZ,Tanzania,819,SNS,incoming
+UA,Ukraine,19880,SNS,incoming
+UG,Uganda,254,SNS,incoming
+UM,United States Minor Outlying Islands,2,SNS,incoming
+US,United States,1704610,SNS,incoming
+UY,Uruguay,522,SNS,incoming
+UZ,Uzbekistan,3109,SNS,incoming
+VE,Venezuela,210,SNS,incoming
+VG,British Virgin Islands,1,SNS,incoming
+VI,U.S. Virgin Islands,33,SNS,incoming
+VN,Vietnam,4675,SNS,incoming
+XK,Kosovo,8,SNS,incoming
+YE,Yemen,148,SNS,incoming
+ZA,South Africa,16568,SNS,incoming
+ZM,Zambia,30,SNS,incoming
+ZW,Zimbabwe,512,SNS,incoming

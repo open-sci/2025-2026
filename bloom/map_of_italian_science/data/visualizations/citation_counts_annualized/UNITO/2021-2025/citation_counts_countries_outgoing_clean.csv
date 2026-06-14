@@ -1,0 +1,219 @@
+country_name,country_code,count,italian_institution,year_block,direction
+United States,US,499155,UNITO,2021-2025,outgoing
+Italy,IT,459914,UNITO,2021-2025,outgoing
+France,FR,342960,UNITO,2021-2025,outgoing
+China,CN,224812,UNITO,2021-2025,outgoing
+United Kingdom,GB,153874,UNITO,2021-2025,outgoing
+Germany,DE,151804,UNITO,2021-2025,outgoing
+Spain,ES,106232,UNITO,2021-2025,outgoing
+India,IN,69583,UNITO,2021-2025,outgoing
+South Korea,KR,54243,UNITO,2021-2025,outgoing
+Switzerland,CH,53095,UNITO,2021-2025,outgoing
+The Netherlands,NL,52536,UNITO,2021-2025,outgoing
+Türkiye,TR,51430,UNITO,2021-2025,outgoing
+Japan,JP,48429,UNITO,2021-2025,outgoing
+Russia,RU,44392,UNITO,2021-2025,outgoing
+Brazil,BR,43156,UNITO,2021-2025,outgoing
+Poland,PL,42679,UNITO,2021-2025,outgoing
+Canada,CA,37762,UNITO,2021-2025,outgoing
+Australia,AU,34024,UNITO,2021-2025,outgoing
+Finland,FI,33482,UNITO,2021-2025,outgoing
+Belgium,BE,33219,UNITO,2021-2025,outgoing
+Greece,GR,26974,UNITO,2021-2025,outgoing
+Hungary,HU,23067,UNITO,2021-2025,outgoing
+Austria,AT,23012,UNITO,2021-2025,outgoing
+Sweden,SE,22313,UNITO,2021-2025,outgoing
+Portugal,PT,21047,UNITO,2021-2025,outgoing
+Czechia,CZ,20921,UNITO,2021-2025,outgoing
+Mexico,MX,20749,UNITO,2021-2025,outgoing
+Denmark,DK,19731,UNITO,2021-2025,outgoing
+Taiwan,TW,16655,UNITO,2021-2025,outgoing
+Norway,NO,16367,UNITO,2021-2025,outgoing
+Croatia,HR,14621,UNITO,2021-2025,outgoing
+Pakistan,PK,13593,UNITO,2021-2025,outgoing
+Iran,IR,13468,UNITO,2021-2025,outgoing
+South Africa,ZA,12282,UNITO,2021-2025,outgoing
+Romania,RO,11962,UNITO,2021-2025,outgoing
+Argentina,AR,11515,UNITO,2021-2025,outgoing
+Slovakia,SK,10871,UNITO,2021-2025,outgoing
+Egypt,EG,10428,UNITO,2021-2025,outgoing
+Chile,CL,10259,UNITO,2021-2025,outgoing
+Bulgaria,BG,9733,UNITO,2021-2025,outgoing
+Colombia,CO,9454,UNITO,2021-2025,outgoing
+Israel,IL,9090,UNITO,2021-2025,outgoing
+Thailand,TH,8457,UNITO,2021-2025,outgoing
+Ireland,IE,8072,UNITO,2021-2025,outgoing
+Cyprus,CY,7220,UNITO,2021-2025,outgoing
+China (People's Republic of),CN,6968,UNITO,2021-2025,outgoing
+Netherlands,NL,6392,UNITO,2021-2025,outgoing
+Ecuador,EC,6335,UNITO,2021-2025,outgoing
+Serbia,RS,6317,UNITO,2021-2025,outgoing
+Ukraine,UA,6037,UNITO,2021-2025,outgoing
+New Zealand,NZ,5994,UNITO,2021-2025,outgoing
+Hong Kong,HK,5903,UNITO,2021-2025,outgoing
+Malaysia,MY,5693,UNITO,2021-2025,outgoing
+Sri Lanka,LK,5577,UNITO,2021-2025,outgoing
+Georgia,GE,4385,UNITO,2021-2025,outgoing
+Singapore,SG,4368,UNITO,2021-2025,outgoing
+Mongolia,MN,4315,UNITO,2021-2025,outgoing
+Armenia,AM,3996,UNITO,2021-2025,outgoing
+Estonia,EE,3841,UNITO,2021-2025,outgoing
+Belarus,BY,3772,UNITO,2021-2025,outgoing
+Latvia,LV,3762,UNITO,2021-2025,outgoing
+Slovenia,SI,3732,UNITO,2021-2025,outgoing
+Saudi Arabia,SA,3474,UNITO,2021-2025,outgoing
+Morocco,MA,3444,UNITO,2021-2025,outgoing
+Lithuania,LT,3415,UNITO,2021-2025,outgoing
+Puerto Rico,PR,3404,UNITO,2021-2025,outgoing
+Azerbaijan,AZ,2889,UNITO,2021-2025,outgoing
+Montenegro,ME,2714,UNITO,2021-2025,outgoing
+Indonesia,ID,2697,UNITO,2021-2025,outgoing
+Kuwait,KW,2647,UNITO,2021-2025,outgoing
+Peru,PE,2568,UNITO,2021-2025,outgoing
+Qatar,QA,2287,UNITO,2021-2025,outgoing
+United Arab Emirates,AE,2209,UNITO,2021-2025,outgoing
+Philippines,PH,2033,UNITO,2021-2025,outgoing
+Turkey,TR,1901,UNITO,2021-2025,outgoing
+Cuba,CU,1577,UNITO,2021-2025,outgoing
+Vietnam,VN,1104,UNITO,2021-2025,outgoing
+Korea (Republic of),KR,920,UNITO,2021-2025,outgoing
+Jordan,JO,889,UNITO,2021-2025,outgoing
+Tunisia,TN,858,UNITO,2021-2025,outgoing
+Nigeria,NG,833,UNITO,2021-2025,outgoing
+Russian Federation,RU,814,UNITO,2021-2025,outgoing
+Lebanon,LB,748,UNITO,2021-2025,outgoing
+Bangladesh,BD,677,UNITO,2021-2025,outgoing
+Czech Republic,CZ,670,UNITO,2021-2025,outgoing
+Malta,MT,619,UNITO,2021-2025,outgoing
+Réunion,RE,612,UNITO,2021-2025,outgoing
+Uzbekistan,UZ,592,UNITO,2021-2025,outgoing
+Iceland,IS,575,UNITO,2021-2025,outgoing
+Palestine,PS,561,UNITO,2021-2025,outgoing
+Ethiopia,ET,524,UNITO,2021-2025,outgoing
+Luxembourg,LU,414,UNITO,2021-2025,outgoing
+Uruguay,UY,406,UNITO,2021-2025,outgoing
+Algeria,DZ,401,UNITO,2021-2025,outgoing
+Kenya,KE,399,UNITO,2021-2025,outgoing
+Uganda,UG,360,UNITO,2021-2025,outgoing
+Kazakhstan,KZ,355,UNITO,2021-2025,outgoing
+Ghana,GH,348,UNITO,2021-2025,outgoing
+Costa Rica,CR,337,UNITO,2021-2025,outgoing
+Guatemala,GT,336,UNITO,2021-2025,outgoing
+Iraq,IQ,329,UNITO,2021-2025,outgoing
+Venezuela,VE,297,UNITO,2021-2025,outgoing
+Bahrain,BH,276,UNITO,2021-2025,outgoing
+Iran (Islamic Republic of),IR,266,UNITO,2021-2025,outgoing
+Nepal,NP,254,UNITO,2021-2025,outgoing
+North Macedonia,MK,252,UNITO,2021-2025,outgoing
+Bolivia,BO,237,UNITO,2021-2025,outgoing
+Bosnia and Herzegovina,BA,212,UNITO,2021-2025,outgoing
+Cameroon,CM,201,UNITO,2021-2025,outgoing
+Myanmar,MM,188,UNITO,2021-2025,outgoing
+Tanzania,TZ,173,UNITO,2021-2025,outgoing
+Macao,MO,167,UNITO,2021-2025,outgoing
+Albania,AL,160,UNITO,2021-2025,outgoing
+Mozambique,MZ,158,UNITO,2021-2025,outgoing
+Panama,PA,145,UNITO,2021-2025,outgoing
+Angola,AO,142,UNITO,2021-2025,outgoing
+DR Congo,CD,141,UNITO,2021-2025,outgoing
+Guadeloupe,GP,140,UNITO,2021-2025,outgoing
+Oman,OM,140,UNITO,2021-2025,outgoing
+Malawi,MW,136,UNITO,2021-2025,outgoing
+Moldova,MD,128,UNITO,2021-2025,outgoing
+Jamaica,JM,112,UNITO,2021-2025,outgoing
+Yemen,YE,107,UNITO,2021-2025,outgoing
+Madagascar,MG,96,UNITO,2021-2025,outgoing
+French Guiana,GF,91,UNITO,2021-2025,outgoing
+Dominican Republic,DO,88,UNITO,2021-2025,outgoing
+Zambia,ZM,81,UNITO,2021-2025,outgoing
+Antigua and Barbuda,AG,80,UNITO,2021-2025,outgoing
+Benin,BJ,76,UNITO,2021-2025,outgoing
+Zimbabwe,ZW,74,UNITO,2021-2025,outgoing
+Fiji,FJ,73,UNITO,2021-2025,outgoing
+Mauritius,MU,70,UNITO,2021-2025,outgoing
+Syria,SY,69,UNITO,2021-2025,outgoing
+Sudan,SD,68,UNITO,2021-2025,outgoing
+Namibia,,68,UNITO,2021-2025,outgoing
+Cambodia,KH,65,UNITO,2021-2025,outgoing
+Somalia,SO,56,UNITO,2021-2025,outgoing
+American Samoa,AS,55,UNITO,2021-2025,outgoing
+Ivory Coast,CI,55,UNITO,2021-2025,outgoing
+Kyrgyzstan,KG,51,UNITO,2021-2025,outgoing
+Gabon,GA,47,UNITO,2021-2025,outgoing
+Brunei,BN,46,UNITO,2021-2025,outgoing
+Guyana,GY,45,UNITO,2021-2025,outgoing
+Rwanda,RW,45,UNITO,2021-2025,outgoing
+Senegal,SN,44,UNITO,2021-2025,outgoing
+Grenada,GD,44,UNITO,2021-2025,outgoing
+Botswana,BW,42,UNITO,2021-2025,outgoing
+New Caledonia,NC,40,UNITO,2021-2025,outgoing
+Cabo Verde,CV,38,UNITO,2021-2025,outgoing
+Nicaragua,NI,37,UNITO,2021-2025,outgoing
+Burkina Faso,BF,36,UNITO,2021-2025,outgoing
+Paraguay,PY,33,UNITO,2021-2025,outgoing
+Niger,NE,31,UNITO,2021-2025,outgoing
+Haiti,HT,30,UNITO,2021-2025,outgoing
+Mali,ML,29,UNITO,2021-2025,outgoing
+El Salvador,SV,25,UNITO,2021-2025,outgoing
+Libya,LY,24,UNITO,2021-2025,outgoing
+The Gambia,GM,23,UNITO,2021-2025,outgoing
+Trinidad and Tobago,TT,23,UNITO,2021-2025,outgoing
+St Kitts and Nevis,KN,22,UNITO,2021-2025,outgoing
+Viet Nam,VN,21,UNITO,2021-2025,outgoing
+Tanzania (United Republic of),TZ,19,UNITO,2021-2025,outgoing
+Barbados,BB,17,UNITO,2021-2025,outgoing
+Congo Republic,CG,17,UNITO,2021-2025,outgoing
+Kosovo,XK,17,UNITO,2021-2025,outgoing
+Gibraltar,GI,16,UNITO,2021-2025,outgoing
+Honduras,HN,16,UNITO,2021-2025,outgoing
+Liberia,LR,16,UNITO,2021-2025,outgoing
+Monaco,MC,16,UNITO,2021-2025,outgoing
+Laos,LA,14,UNITO,2021-2025,outgoing
+Martinique,MQ,14,UNITO,2021-2025,outgoing
+Seychelles,SC,14,UNITO,2021-2025,outgoing
+Saint Lucia,LC,13,UNITO,2021-2025,outgoing
+Bhutan,BT,12,UNITO,2021-2025,outgoing
+Central African Republic,CF,12,UNITO,2021-2025,outgoing
+Sierra Leone,SL,10,UNITO,2021-2025,outgoing
+Bahamas,BS,10,UNITO,2021-2025,outgoing
+Tajikistan,TJ,9,UNITO,2021-2025,outgoing
+Oceania,OC,9,UNITO,2021-2025,outgoing
+Congo (Democratic Republic of),CD,9,UNITO,2021-2025,outgoing
+Palau,PW,8,UNITO,2021-2025,outgoing
+European Union,EU,8,UNITO,2021-2025,outgoing
+Afghanistan,AF,8,UNITO,2021-2025,outgoing
+Belize,BZ,8,UNITO,2021-2025,outgoing
+Togo,TG,7,UNITO,2021-2025,outgoing
+Burundi,BI,7,UNITO,2021-2025,outgoing
+Papua New Guinea,PG,6,UNITO,2021-2025,outgoing
+Bermuda,BM,6,UNITO,2021-2025,outgoing
+Greenland,GL,5,UNITO,2021-2025,outgoing
+South Sudan,SS,5,UNITO,2021-2025,outgoing
+Liechtenstein,LI,4,UNITO,2021-2025,outgoing
+Cayman Islands,KY,4,UNITO,2021-2025,outgoing
+Turkmenistan,TM,4,UNITO,2021-2025,outgoing
+Curaçao,CW,4,UNITO,2021-2025,outgoing
+Guam,GU,4,UNITO,2021-2025,outgoing
+Guinea,GN,3,UNITO,2021-2025,outgoing
+Cote d'Ivoire,CI,3,UNITO,2021-2025,outgoing
+French Polynesia,PF,3,UNITO,2021-2025,outgoing
+Vanuatu,VU,3,UNITO,2021-2025,outgoing
+Maldives,MV,3,UNITO,2021-2025,outgoing
+North Korea,KP,3,UNITO,2021-2025,outgoing
+Micronesia,FM,2,UNITO,2021-2025,outgoing
+Eswatini,SZ,2,UNITO,2021-2025,outgoing
+Faroe Islands,FO,2,UNITO,2021-2025,outgoing
+Djibouti,DJ,2,UNITO,2021-2025,outgoing
+Moldova (Republic of),MD,2,UNITO,2021-2025,outgoing
+Palestinian-administered areas,PS,2,UNITO,2021-2025,outgoing
+San Marino,SM,2,UNITO,2021-2025,outgoing
+Mayotte,YT,1,UNITO,2021-2025,outgoing
+Svalbard and Jan Mayen,SJ,1,UNITO,2021-2025,outgoing
+"Bonaire, Sint Eustatius, and Saba",BQ,1,UNITO,2021-2025,outgoing
+Chad,TD,1,UNITO,2021-2025,outgoing
+Sint Maarten,SX,1,UNITO,2021-2025,outgoing
+Mauritania,MR,1,UNITO,2021-2025,outgoing
+U.S. Virgin Islands,VI,1,UNITO,2021-2025,outgoing
+Equatorial Guinea,GQ,1,UNITO,2021-2025,outgoing
+Lao (People's Democratic Republic),LA,1,UNITO,2021-2025,outgoing
+Andorra,AD,1,UNITO,2021-2025,outgoing
