@@ -1,160 +1,140 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,165528,UPO,2001-2005,outgoing
-Italy,IT,54631,UPO,2001-2005,outgoing
-France,FR,48537,UPO,2001-2005,outgoing
-United Kingdom,GB,45341,UPO,2001-2005,outgoing
-Germany,DE,26420,UPO,2001-2005,outgoing
-Japan,JP,24735,UPO,2001-2005,outgoing
-Canada,CA,13862,UPO,2001-2005,outgoing
-Switzerland,CH,11792,UPO,2001-2005,outgoing
-Spain,ES,9910,UPO,2001-2005,outgoing
-The Netherlands,NL,9448,UPO,2001-2005,outgoing
-Russia,RU,9404,UPO,2001-2005,outgoing
-Finland,FI,8689,UPO,2001-2005,outgoing
-India,IN,7596,UPO,2001-2005,outgoing
-China,CN,7448,UPO,2001-2005,outgoing
-Australia,AU,7149,UPO,2001-2005,outgoing
-Sweden,SE,4921,UPO,2001-2005,outgoing
-South Korea,KR,4411,UPO,2001-2005,outgoing
-Belgium,BE,4379,UPO,2001-2005,outgoing
-Brazil,BR,3004,UPO,2001-2005,outgoing
-Denmark,DK,2935,UPO,2001-2005,outgoing
-Poland,PL,2780,UPO,2001-2005,outgoing
-Israel,IL,2559,UPO,2001-2005,outgoing
-Taiwan,TW,2520,UPO,2001-2005,outgoing
-Hungary,HU,2095,UPO,2001-2005,outgoing
-Norway,NO,2063,UPO,2001-2005,outgoing
-Greece,GR,1912,UPO,2001-2005,outgoing
-Austria,AT,1717,UPO,2001-2005,outgoing
-Hong Kong,HK,1540,UPO,2001-2005,outgoing
-Czechia,CZ,1359,UPO,2001-2005,outgoing
-China (People's Republic of),CN,1118,UPO,2001-2005,outgoing
-Ireland,IE,1020,UPO,2001-2005,outgoing
-Netherlands,NL,907,UPO,2001-2005,outgoing
-Portugal,PT,873,UPO,2001-2005,outgoing
-Mexico,MX,846,UPO,2001-2005,outgoing
-Türkiye,TR,794,UPO,2001-2005,outgoing
-Argentina,AR,785,UPO,2001-2005,outgoing
-Singapore,SG,782,UPO,2001-2005,outgoing
-Uzbekistan,UZ,654,UPO,2001-2005,outgoing
-South Africa,ZA,561,UPO,2001-2005,outgoing
-Croatia,HR,526,UPO,2001-2005,outgoing
-New Zealand,NZ,470,UPO,2001-2005,outgoing
-Slovakia,SK,455,UPO,2001-2005,outgoing
-Romania,RO,317,UPO,2001-2005,outgoing
-Slovenia,SI,301,UPO,2001-2005,outgoing
-Ukraine,UA,293,UPO,2001-2005,outgoing
-Bulgaria,BG,271,UPO,2001-2005,outgoing
-Iran,IR,248,UPO,2001-2005,outgoing
-Armenia,AM,235,UPO,2001-2005,outgoing
-Colombia,CO,210,UPO,2001-2005,outgoing
-Chile,CL,206,UPO,2001-2005,outgoing
-Cyprus,CY,194,UPO,2001-2005,outgoing
-Tunisia,TN,184,UPO,2001-2005,outgoing
-Thailand,TH,173,UPO,2001-2005,outgoing
-Korea (Republic of),KR,171,UPO,2001-2005,outgoing
-Puerto Rico,PR,166,UPO,2001-2005,outgoing
-Pakistan,PK,150,UPO,2001-2005,outgoing
-Philippines,PH,145,UPO,2001-2005,outgoing
-Serbia,RS,142,UPO,2001-2005,outgoing
-Tanzania,TZ,133,UPO,2001-2005,outgoing
-Ecuador,EC,117,UPO,2001-2005,outgoing
-Malaysia,MY,115,UPO,2001-2005,outgoing
-Lebanon,LB,99,UPO,2001-2005,outgoing
-Georgia,GE,97,UPO,2001-2005,outgoing
-Egypt,EG,93,UPO,2001-2005,outgoing
-Estonia,EE,88,UPO,2001-2005,outgoing
-Belarus,BY,62,UPO,2001-2005,outgoing
-Nigeria,NG,57,UPO,2001-2005,outgoing
-Ethiopia,ET,57,UPO,2001-2005,outgoing
-Russian Federation,RU,56,UPO,2001-2005,outgoing
-United Arab Emirates,AE,56,UPO,2001-2005,outgoing
-Ghana,GH,55,UPO,2001-2005,outgoing
-Iceland,IS,54,UPO,2001-2005,outgoing
-Jordan,JO,52,UPO,2001-2005,outgoing
-Saudi Arabia,SA,50,UPO,2001-2005,outgoing
-Bosnia and Herzegovina,BA,46,UPO,2001-2005,outgoing
-Morocco,MA,44,UPO,2001-2005,outgoing
-Vietnam,VN,39,UPO,2001-2005,outgoing
-Latvia,LV,37,UPO,2001-2005,outgoing
-Azerbaijan,AZ,37,UPO,2001-2005,outgoing
-Venezuela,VE,34,UPO,2001-2005,outgoing
-Moldova,MD,33,UPO,2001-2005,outgoing
-Kenya,KE,32,UPO,2001-2005,outgoing
-Uruguay,UY,31,UPO,2001-2005,outgoing
-Algeria,DZ,31,UPO,2001-2005,outgoing
-Indonesia,ID,31,UPO,2001-2005,outgoing
-Uganda,UG,29,UPO,2001-2005,outgoing
-Cuba,CU,27,UPO,2001-2005,outgoing
-Luxembourg,LU,26,UPO,2001-2005,outgoing
-Peru,PE,25,UPO,2001-2005,outgoing
-Cambodia,KH,23,UPO,2001-2005,outgoing
-Bahrain,BH,22,UPO,2001-2005,outgoing
-Sri Lanka,LK,21,UPO,2001-2005,outgoing
-Qatar,QA,21,UPO,2001-2005,outgoing
-Montenegro,ME,21,UPO,2001-2005,outgoing
-Jamaica,JM,18,UPO,2001-2005,outgoing
-Lithuania,LT,16,UPO,2001-2005,outgoing
-Nepal,NP,15,UPO,2001-2005,outgoing
-Iraq,IQ,15,UPO,2001-2005,outgoing
-Panama,PA,13,UPO,2001-2005,outgoing
-Palestine,PS,13,UPO,2001-2005,outgoing
-Mozambique,MZ,13,UPO,2001-2005,outgoing
-Kuwait,KW,12,UPO,2001-2005,outgoing
-Costa Rica,CR,12,UPO,2001-2005,outgoing
-Bermuda,BM,12,UPO,2001-2005,outgoing
-Benin,BJ,11,UPO,2001-2005,outgoing
-Oman,OM,11,UPO,2001-2005,outgoing
-Bangladesh,BD,10,UPO,2001-2005,outgoing
-Macao,MO,9,UPO,2001-2005,outgoing
-Tajikistan,TJ,9,UPO,2001-2005,outgoing
-Czech Republic,CZ,8,UPO,2001-2005,outgoing
-El Salvador,SV,8,UPO,2001-2005,outgoing
-Syria,SY,7,UPO,2001-2005,outgoing
-Turkey,TR,7,UPO,2001-2005,outgoing
-San Marino,SM,7,UPO,2001-2005,outgoing
-Guadeloupe,GP,7,UPO,2001-2005,outgoing
-Angola,AO,7,UPO,2001-2005,outgoing
-Cameroon,CM,6,UPO,2001-2005,outgoing
-Guatemala,GT,6,UPO,2001-2005,outgoing
-Brunei,BN,6,UPO,2001-2005,outgoing
-Kazakhstan,KZ,6,UPO,2001-2005,outgoing
-Albania,AL,5,UPO,2001-2005,outgoing
-Zimbabwe,ZW,5,UPO,2001-2005,outgoing
-Malawi,MW,5,UPO,2001-2005,outgoing
-Gabon,GA,5,UPO,2001-2005,outgoing
-Réunion,RE,5,UPO,2001-2005,outgoing
-Guam,GU,5,UPO,2001-2005,outgoing
-Malta,MT,5,UPO,2001-2005,outgoing
-Barbados,BB,5,UPO,2001-2005,outgoing
-Iran (Islamic Republic of),IR,4,UPO,2001-2005,outgoing
-Curaçao,CW,4,UPO,2001-2005,outgoing
-French Guiana,GF,4,UPO,2001-2005,outgoing
-Bhutan,BT,3,UPO,2001-2005,outgoing
-Trinidad and Tobago,TT,3,UPO,2001-2005,outgoing
-Somalia,SO,3,UPO,2001-2005,outgoing
-Senegal,SN,3,UPO,2001-2005,outgoing
-Svalbard and Jan Mayen,SJ,2,UPO,2001-2005,outgoing
-Botswana,BW,2,UPO,2001-2005,outgoing
-DR Congo,CD,2,UPO,2001-2005,outgoing
-Burkina Faso,BF,2,UPO,2001-2005,outgoing
-Nicaragua,NI,2,UPO,2001-2005,outgoing
-Haiti,HT,2,UPO,2001-2005,outgoing
-Palau,PW,2,UPO,2001-2005,outgoing
-Mauritius,MU,2,UPO,2001-2005,outgoing
-Libya,LY,2,UPO,2001-2005,outgoing
-North Macedonia,MK,1,UPO,2001-2005,outgoing
-Niger,NE,1,UPO,2001-2005,outgoing
-Togo,TG,1,UPO,2001-2005,outgoing
-Bolivia,BO,1,UPO,2001-2005,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,1,UPO,2001-2005,outgoing
-Ivory Coast,CI,1,UPO,2001-2005,outgoing
-Yemen,YE,1,UPO,2001-2005,outgoing
-Jersey,JE,1,UPO,2001-2005,outgoing
-Paraguay,PY,1,UPO,2001-2005,outgoing
-Fiji,FJ,1,UPO,2001-2005,outgoing
-Honduras,HN,1,UPO,2001-2005,outgoing
-New Caledonia,NC,1,UPO,2001-2005,outgoing
-European Union,EU,1,UPO,2001-2005,outgoing
-Grenada,GD,1,UPO,2001-2005,outgoing
-Congo Republic,CG,1,UPO,2001-2005,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,56,UPO,2001-2005,outgoing
+AL,Albania,5,UPO,2001-2005,outgoing
+AM,Armenia,235,UPO,2001-2005,outgoing
+AO,Angola,7,UPO,2001-2005,outgoing
+AR,Argentina,785,UPO,2001-2005,outgoing
+AT,Austria,1717,UPO,2001-2005,outgoing
+AU,Australia,7149,UPO,2001-2005,outgoing
+AZ,Azerbaijan,37,UPO,2001-2005,outgoing
+BA,Bosnia and Herzegovina,46,UPO,2001-2005,outgoing
+BB,Barbados,5,UPO,2001-2005,outgoing
+BD,Bangladesh,10,UPO,2001-2005,outgoing
+BE,Belgium,4379,UPO,2001-2005,outgoing
+BF,Burkina Faso,2,UPO,2001-2005,outgoing
+BG,Bulgaria,271,UPO,2001-2005,outgoing
+BH,Bahrain,22,UPO,2001-2005,outgoing
+BJ,Benin,11,UPO,2001-2005,outgoing
+BN,Brunei,6,UPO,2001-2005,outgoing
+BO,Bolivia,1,UPO,2001-2005,outgoing
+BR,Brazil,3004,UPO,2001-2005,outgoing
+BT,Bhutan,3,UPO,2001-2005,outgoing
+BW,Botswana,2,UPO,2001-2005,outgoing
+BY,Belarus,62,UPO,2001-2005,outgoing
+CA,Canada,13862,UPO,2001-2005,outgoing
+CD,DR Congo,2,UPO,2001-2005,outgoing
+CG,Congo Republic,1,UPO,2001-2005,outgoing
+CH,Switzerland,11792,UPO,2001-2005,outgoing
+CI,Ivory Coast,1,UPO,2001-2005,outgoing
+CL,Chile,206,UPO,2001-2005,outgoing
+CM,Cameroon,6,UPO,2001-2005,outgoing
+CN,China,10115,UPO,2001-2005,outgoing
+CO,Colombia,210,UPO,2001-2005,outgoing
+CR,Costa Rica,12,UPO,2001-2005,outgoing
+CU,Cuba,27,UPO,2001-2005,outgoing
+CY,Cyprus,194,UPO,2001-2005,outgoing
+CZ,Czechia,1367,UPO,2001-2005,outgoing
+DE,Germany,26420,UPO,2001-2005,outgoing
+DK,Denmark,2935,UPO,2001-2005,outgoing
+DZ,Algeria,31,UPO,2001-2005,outgoing
+EC,Ecuador,117,UPO,2001-2005,outgoing
+EE,Estonia,88,UPO,2001-2005,outgoing
+EG,Egypt,93,UPO,2001-2005,outgoing
+ES,Spain,9910,UPO,2001-2005,outgoing
+ET,Ethiopia,57,UPO,2001-2005,outgoing
+EU,European Union,1,UPO,2001-2005,outgoing
+FI,Finland,8689,UPO,2001-2005,outgoing
+FJ,Fiji,1,UPO,2001-2005,outgoing
+FR,France,48554,UPO,2001-2005,outgoing
+GA,Gabon,5,UPO,2001-2005,outgoing
+GB,United Kingdom,45354,UPO,2001-2005,outgoing
+GD,Grenada,1,UPO,2001-2005,outgoing
+GE,Georgia,97,UPO,2001-2005,outgoing
+GH,Ghana,55,UPO,2001-2005,outgoing
+GR,Greece,1912,UPO,2001-2005,outgoing
+GT,Guatemala,6,UPO,2001-2005,outgoing
+HN,Honduras,1,UPO,2001-2005,outgoing
+HR,Croatia,526,UPO,2001-2005,outgoing
+HT,Haiti,2,UPO,2001-2005,outgoing
+HU,Hungary,2095,UPO,2001-2005,outgoing
+ID,Indonesia,31,UPO,2001-2005,outgoing
+IE,Ireland,1020,UPO,2001-2005,outgoing
+IL,Israel,2559,UPO,2001-2005,outgoing
+IN,India,7596,UPO,2001-2005,outgoing
+IQ,Iraq,15,UPO,2001-2005,outgoing
+IR,Iran,252,UPO,2001-2005,outgoing
+IS,Iceland,54,UPO,2001-2005,outgoing
+IT,Italy,54631,UPO,2001-2005,outgoing
+JM,Jamaica,18,UPO,2001-2005,outgoing
+JO,Jordan,52,UPO,2001-2005,outgoing
+JP,Japan,24735,UPO,2001-2005,outgoing
+KE,Kenya,32,UPO,2001-2005,outgoing
+KH,Cambodia,23,UPO,2001-2005,outgoing
+KR,South Korea,4582,UPO,2001-2005,outgoing
+KW,Kuwait,12,UPO,2001-2005,outgoing
+KZ,Kazakhstan,6,UPO,2001-2005,outgoing
+LB,Lebanon,99,UPO,2001-2005,outgoing
+LK,Sri Lanka,21,UPO,2001-2005,outgoing
+LT,Lithuania,16,UPO,2001-2005,outgoing
+LU,Luxembourg,26,UPO,2001-2005,outgoing
+LV,Latvia,37,UPO,2001-2005,outgoing
+LY,Libya,2,UPO,2001-2005,outgoing
+MA,Morocco,44,UPO,2001-2005,outgoing
+MD,Moldova,33,UPO,2001-2005,outgoing
+ME,Montenegro,21,UPO,2001-2005,outgoing
+MK,North Macedonia,1,UPO,2001-2005,outgoing
+MT,Malta,5,UPO,2001-2005,outgoing
+MU,Mauritius,2,UPO,2001-2005,outgoing
+MW,Malawi,5,UPO,2001-2005,outgoing
+MX,Mexico,846,UPO,2001-2005,outgoing
+MY,Malaysia,115,UPO,2001-2005,outgoing
+MZ,Mozambique,13,UPO,2001-2005,outgoing
+NE,Niger,1,UPO,2001-2005,outgoing
+NG,Nigeria,57,UPO,2001-2005,outgoing
+NI,Nicaragua,2,UPO,2001-2005,outgoing
+NL,The Netherlands,10360,UPO,2001-2005,outgoing
+NO,Norway,2065,UPO,2001-2005,outgoing
+NP,Nepal,15,UPO,2001-2005,outgoing
+NZ,New Zealand,470,UPO,2001-2005,outgoing
+OM,Oman,11,UPO,2001-2005,outgoing
+PA,Panama,13,UPO,2001-2005,outgoing
+PE,Peru,25,UPO,2001-2005,outgoing
+PH,Philippines,145,UPO,2001-2005,outgoing
+PK,Pakistan,150,UPO,2001-2005,outgoing
+PL,Poland,2780,UPO,2001-2005,outgoing
+PS,Palestine,13,UPO,2001-2005,outgoing
+PT,Portugal,873,UPO,2001-2005,outgoing
+PW,Palau,2,UPO,2001-2005,outgoing
+PY,Paraguay,1,UPO,2001-2005,outgoing
+QA,Qatar,21,UPO,2001-2005,outgoing
+RO,Romania,317,UPO,2001-2005,outgoing
+RS,Serbia,142,UPO,2001-2005,outgoing
+RU,Russia,9460,UPO,2001-2005,outgoing
+SA,Saudi Arabia,50,UPO,2001-2005,outgoing
+SE,Sweden,4921,UPO,2001-2005,outgoing
+SG,Singapore,782,UPO,2001-2005,outgoing
+SI,Slovenia,301,UPO,2001-2005,outgoing
+SK,Slovakia,455,UPO,2001-2005,outgoing
+SM,San Marino,7,UPO,2001-2005,outgoing
+SN,Senegal,3,UPO,2001-2005,outgoing
+SO,Somalia,3,UPO,2001-2005,outgoing
+SV,El Salvador,8,UPO,2001-2005,outgoing
+SY,Syria,7,UPO,2001-2005,outgoing
+TG,Togo,1,UPO,2001-2005,outgoing
+TH,Thailand,173,UPO,2001-2005,outgoing
+TJ,Tajikistan,9,UPO,2001-2005,outgoing
+TN,Tunisia,184,UPO,2001-2005,outgoing
+TR,Turkey,801,UPO,2001-2005,outgoing
+TT,Trinidad and Tobago,3,UPO,2001-2005,outgoing
+TW,Taiwan,2520,UPO,2001-2005,outgoing
+TZ,Tanzania,133,UPO,2001-2005,outgoing
+UA,Ukraine,293,UPO,2001-2005,outgoing
+UG,Uganda,29,UPO,2001-2005,outgoing
+US,United States,165699,UPO,2001-2005,outgoing
+UY,Uruguay,31,UPO,2001-2005,outgoing
+UZ,Uzbekistan,654,UPO,2001-2005,outgoing
+VE,Venezuela,34,UPO,2001-2005,outgoing
+VN,Vietnam,39,UPO,2001-2005,outgoing
+YE,Yemen,1,UPO,2001-2005,outgoing
+ZA,South Africa,561,UPO,2001-2005,outgoing
+ZW,Zimbabwe,5,UPO,2001-2005,outgoing

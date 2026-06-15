@@ -1,216 +1,180 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,1508404,UNIPD,2006-2010,outgoing
-France,FR,594923,UNIPD,2006-2010,outgoing
-Italy,IT,457254,UNIPD,2006-2010,outgoing
-United Kingdom,GB,391145,UNIPD,2006-2010,outgoing
-Germany,DE,267442,UNIPD,2006-2010,outgoing
-Canada,CA,130514,UNIPD,2006-2010,outgoing
-Japan,JP,128519,UNIPD,2006-2010,outgoing
-Spain,ES,126445,UNIPD,2006-2010,outgoing
-The Netherlands,NL,109941,UNIPD,2006-2010,outgoing
-Australia,AU,105205,UNIPD,2006-2010,outgoing
-Switzerland,CH,87087,UNIPD,2006-2010,outgoing
-China,CN,68171,UNIPD,2006-2010,outgoing
-Belgium,BE,48964,UNIPD,2006-2010,outgoing
-Russia,RU,46484,UNIPD,2006-2010,outgoing
-Sweden,SE,43528,UNIPD,2006-2010,outgoing
-South Korea,KR,41935,UNIPD,2006-2010,outgoing
-Finland,FI,36526,UNIPD,2006-2010,outgoing
-India,IN,35031,UNIPD,2006-2010,outgoing
-Denmark,DK,33504,UNIPD,2006-2010,outgoing
-Brazil,BR,32905,UNIPD,2006-2010,outgoing
-Poland,PL,31121,UNIPD,2006-2010,outgoing
-Taiwan,TW,25666,UNIPD,2006-2010,outgoing
-Austria,AT,24794,UNIPD,2006-2010,outgoing
-Israel,IL,21704,UNIPD,2006-2010,outgoing
-Greece,GR,18969,UNIPD,2006-2010,outgoing
-Ireland,IE,17127,UNIPD,2006-2010,outgoing
-Portugal,PT,16100,UNIPD,2006-2010,outgoing
-Netherlands,NL,16055,UNIPD,2006-2010,outgoing
-Norway,NO,16047,UNIPD,2006-2010,outgoing
-Hungary,HU,12967,UNIPD,2006-2010,outgoing
-Czechia,CZ,12395,UNIPD,2006-2010,outgoing
-Singapore,SG,11424,UNIPD,2006-2010,outgoing
-China (People's Republic of),CN,11211,UNIPD,2006-2010,outgoing
-Mexico,MX,11204,UNIPD,2006-2010,outgoing
-Türkiye,TR,10710,UNIPD,2006-2010,outgoing
-New Zealand,NZ,10547,UNIPD,2006-2010,outgoing
-Hong Kong,HK,10487,UNIPD,2006-2010,outgoing
-Argentina,AR,9739,UNIPD,2006-2010,outgoing
-South Africa,ZA,7790,UNIPD,2006-2010,outgoing
-Chile,CL,7158,UNIPD,2006-2010,outgoing
-Slovenia,SI,6093,UNIPD,2006-2010,outgoing
-Slovakia,SK,6068,UNIPD,2006-2010,outgoing
-Iran,IR,4810,UNIPD,2006-2010,outgoing
-Croatia,HR,3885,UNIPD,2006-2010,outgoing
-Bulgaria,BG,3599,UNIPD,2006-2010,outgoing
-Ukraine,UA,3587,UNIPD,2006-2010,outgoing
-Colombia,CO,2798,UNIPD,2006-2010,outgoing
-Korea (Republic of),KR,2668,UNIPD,2006-2010,outgoing
-Cyprus,CY,2553,UNIPD,2006-2010,outgoing
-Thailand,TH,2357,UNIPD,2006-2010,outgoing
-Serbia,RS,2348,UNIPD,2006-2010,outgoing
-Malaysia,MY,2212,UNIPD,2006-2010,outgoing
-Romania,RO,2132,UNIPD,2006-2010,outgoing
-Georgia,GE,2085,UNIPD,2006-2010,outgoing
-Estonia,EE,1846,UNIPD,2006-2010,outgoing
-Puerto Rico,PR,1810,UNIPD,2006-2010,outgoing
-Tunisia,TN,1690,UNIPD,2006-2010,outgoing
-Egypt,EG,1620,UNIPD,2006-2010,outgoing
-Belarus,BY,1618,UNIPD,2006-2010,outgoing
-Pakistan,PK,1583,UNIPD,2006-2010,outgoing
-Jordan,JO,1577,UNIPD,2006-2010,outgoing
-Armenia,AM,1436,UNIPD,2006-2010,outgoing
-Russian Federation,RU,1282,UNIPD,2006-2010,outgoing
-Iceland,IS,1272,UNIPD,2006-2010,outgoing
-Saudi Arabia,SA,1089,UNIPD,2006-2010,outgoing
-Philippines,PH,1037,UNIPD,2006-2010,outgoing
-Ecuador,EC,988,UNIPD,2006-2010,outgoing
-Lebanon,LB,888,UNIPD,2006-2010,outgoing
-Qatar,QA,843,UNIPD,2006-2010,outgoing
-Vietnam,VN,832,UNIPD,2006-2010,outgoing
-Uzbekistan,UZ,783,UNIPD,2006-2010,outgoing
-Morocco,MA,717,UNIPD,2006-2010,outgoing
-Ethiopia,ET,704,UNIPD,2006-2010,outgoing
-Bahrain,BH,641,UNIPD,2006-2010,outgoing
-United Arab Emirates,AE,594,UNIPD,2006-2010,outgoing
-Kenya,KE,594,UNIPD,2006-2010,outgoing
-Indonesia,ID,585,UNIPD,2006-2010,outgoing
-Tanzania,TZ,545,UNIPD,2006-2010,outgoing
-Ghana,GH,533,UNIPD,2006-2010,outgoing
-Namibia,,524,UNIPD,2006-2010,outgoing
-Luxembourg,LU,520,UNIPD,2006-2010,outgoing
-Uruguay,UY,518,UNIPD,2006-2010,outgoing
-Nigeria,NG,515,UNIPD,2006-2010,outgoing
-Czech Republic,CZ,473,UNIPD,2006-2010,outgoing
-Algeria,DZ,467,UNIPD,2006-2010,outgoing
-Venezuela,VE,450,UNIPD,2006-2010,outgoing
-Réunion,RE,433,UNIPD,2006-2010,outgoing
-Mozambique,MZ,412,UNIPD,2006-2010,outgoing
-Latvia,LV,407,UNIPD,2006-2010,outgoing
-Panama,PA,400,UNIPD,2006-2010,outgoing
-Lithuania,LT,400,UNIPD,2006-2010,outgoing
-Peru,PE,383,UNIPD,2006-2010,outgoing
-Uganda,UG,375,UNIPD,2006-2010,outgoing
-Azerbaijan,AZ,366,UNIPD,2006-2010,outgoing
-Bangladesh,BD,361,UNIPD,2006-2010,outgoing
-Cuba,CU,352,UNIPD,2006-2010,outgoing
-Bosnia and Herzegovina,BA,317,UNIPD,2006-2010,outgoing
-Kazakhstan,KZ,305,UNIPD,2006-2010,outgoing
-Sri Lanka,LK,289,UNIPD,2006-2010,outgoing
-Jamaica,JM,267,UNIPD,2006-2010,outgoing
-Costa Rica,CR,252,UNIPD,2006-2010,outgoing
-Turkey,TR,248,UNIPD,2006-2010,outgoing
-Guadeloupe,GP,233,UNIPD,2006-2010,outgoing
-Montenegro,ME,231,UNIPD,2006-2010,outgoing
-Benin,BJ,229,UNIPD,2006-2010,outgoing
-Kuwait,KW,223,UNIPD,2006-2010,outgoing
-Palestine,PS,218,UNIPD,2006-2010,outgoing
-Nepal,NP,214,UNIPD,2006-2010,outgoing
-Bolivia,BO,193,UNIPD,2006-2010,outgoing
-Cambodia,KH,174,UNIPD,2006-2010,outgoing
-Mongolia,MN,173,UNIPD,2006-2010,outgoing
-Zambia,ZM,169,UNIPD,2006-2010,outgoing
-Oman,OM,152,UNIPD,2006-2010,outgoing
-Malta,MT,146,UNIPD,2006-2010,outgoing
-Cameroon,CM,141,UNIPD,2006-2010,outgoing
-Angola,AO,125,UNIPD,2006-2010,outgoing
-Guatemala,GT,103,UNIPD,2006-2010,outgoing
-Macao,MO,95,UNIPD,2006-2010,outgoing
-Sudan,SD,94,UNIPD,2006-2010,outgoing
-Malawi,MW,94,UNIPD,2006-2010,outgoing
-Trinidad and Tobago,TT,91,UNIPD,2006-2010,outgoing
-Grenada,GD,88,UNIPD,2006-2010,outgoing
-Senegal,SN,87,UNIPD,2006-2010,outgoing
-Syria,SY,81,UNIPD,2006-2010,outgoing
-DR Congo,CD,77,UNIPD,2006-2010,outgoing
-Zimbabwe,ZW,77,UNIPD,2006-2010,outgoing
-Albania,AL,75,UNIPD,2006-2010,outgoing
-Iraq,IQ,74,UNIPD,2006-2010,outgoing
-Moldova,MD,68,UNIPD,2006-2010,outgoing
-Curaçao,CW,67,UNIPD,2006-2010,outgoing
-El Salvador,SV,67,UNIPD,2006-2010,outgoing
-European Union,EU,65,UNIPD,2006-2010,outgoing
-North Macedonia,MK,64,UNIPD,2006-2010,outgoing
-Burkina Faso,BF,62,UNIPD,2006-2010,outgoing
-Yemen,YE,61,UNIPD,2006-2010,outgoing
-French Guiana,GF,57,UNIPD,2006-2010,outgoing
-Svalbard and Jan Mayen,SJ,54,UNIPD,2006-2010,outgoing
-Paraguay,PY,53,UNIPD,2006-2010,outgoing
-Iran (Islamic Republic of),IR,49,UNIPD,2006-2010,outgoing
-Tajikistan,TJ,48,UNIPD,2006-2010,outgoing
-Palau,PW,48,UNIPD,2006-2010,outgoing
-Bhutan,BT,44,UNIPD,2006-2010,outgoing
-Brunei,BN,44,UNIPD,2006-2010,outgoing
-Myanmar,MM,42,UNIPD,2006-2010,outgoing
-Ivory Coast,CI,41,UNIPD,2006-2010,outgoing
-New Caledonia,NC,38,UNIPD,2006-2010,outgoing
-San Marino,SM,37,UNIPD,2006-2010,outgoing
-French Polynesia,PF,36,UNIPD,2006-2010,outgoing
-Mali,ML,35,UNIPD,2006-2010,outgoing
-Barbados,BB,35,UNIPD,2006-2010,outgoing
-Somalia,SO,33,UNIPD,2006-2010,outgoing
-Burundi,BI,33,UNIPD,2006-2010,outgoing
-Botswana,BW,33,UNIPD,2006-2010,outgoing
-Rwanda,RW,31,UNIPD,2006-2010,outgoing
-Papua New Guinea,PG,30,UNIPD,2006-2010,outgoing
-Seychelles,SC,30,UNIPD,2006-2010,outgoing
-Libya,LY,29,UNIPD,2006-2010,outgoing
-Madagascar,MG,28,UNIPD,2006-2010,outgoing
-Guinea-Bissau,GW,27,UNIPD,2006-2010,outgoing
-Maldives,MV,26,UNIPD,2006-2010,outgoing
-Gabon,GA,26,UNIPD,2006-2010,outgoing
-Nicaragua,NI,24,UNIPD,2006-2010,outgoing
-Greenland,GL,19,UNIPD,2006-2010,outgoing
-Antigua and Barbuda,AG,19,UNIPD,2006-2010,outgoing
-Congo Republic,CG,18,UNIPD,2006-2010,outgoing
-Eritrea,ER,18,UNIPD,2006-2010,outgoing
-Dominican Republic,DO,18,UNIPD,2006-2010,outgoing
-Monaco,MC,16,UNIPD,2006-2010,outgoing
-American Samoa,AS,16,UNIPD,2006-2010,outgoing
-Bermuda,BM,15,UNIPD,2006-2010,outgoing
-Mauritius,MU,15,UNIPD,2006-2010,outgoing
-Honduras,HN,15,UNIPD,2006-2010,outgoing
-Fiji,FJ,14,UNIPD,2006-2010,outgoing
-Gibraltar,GI,14,UNIPD,2006-2010,outgoing
-Laos,LA,14,UNIPD,2006-2010,outgoing
-Haiti,HT,13,UNIPD,2006-2010,outgoing
-"Virgin Islands, U.S.",VI,13,UNIPD,2006-2010,outgoing
-Afghanistan,AF,13,UNIPD,2006-2010,outgoing
-Kyrgyzstan,KG,12,UNIPD,2006-2010,outgoing
-South Sudan,SS,10,UNIPD,2006-2010,outgoing
-Tanzania (United Republic of),TZ,10,UNIPD,2006-2010,outgoing
-Guam,GU,10,UNIPD,2006-2010,outgoing
-Niger,NE,9,UNIPD,2006-2010,outgoing
-Sint Maarten,SX,8,UNIPD,2006-2010,outgoing
-Kosovo,XK,7,UNIPD,2006-2010,outgoing
-St Kitts and Nevis,KN,7,UNIPD,2006-2010,outgoing
-Liechtenstein,LI,6,UNIPD,2006-2010,outgoing
-Isle of Man,IM,6,UNIPD,2006-2010,outgoing
-The Gambia,GM,5,UNIPD,2006-2010,outgoing
-Martinique,MQ,5,UNIPD,2006-2010,outgoing
-Suriname,SR,5,UNIPD,2006-2010,outgoing
-Former Yugoslav Republic of Macedonia,MK,5,UNIPD,2006-2010,outgoing
-Chad,TD,5,UNIPD,2006-2010,outgoing
-Tonga,TO,4,UNIPD,2006-2010,outgoing
-Central African Republic,CF,4,UNIPD,2006-2010,outgoing
-Liberia,LR,4,UNIPD,2006-2010,outgoing
-Congo (Democratic Republic of),CD,4,UNIPD,2006-2010,outgoing
-North Korea,KP,4,UNIPD,2006-2010,outgoing
-Faroe Islands,FO,3,UNIPD,2006-2010,outgoing
-Togo,TG,3,UNIPD,2006-2010,outgoing
-Saint Lucia,LC,3,UNIPD,2006-2010,outgoing
-Viet Nam,VN,3,UNIPD,2006-2010,outgoing
-Micronesia,FM,3,UNIPD,2006-2010,outgoing
-Bahamas,BS,2,UNIPD,2006-2010,outgoing
-Mauritania,MR,2,UNIPD,2006-2010,outgoing
-Eswatini,SZ,2,UNIPD,2006-2010,outgoing
-Jersey,JE,2,UNIPD,2006-2010,outgoing
-Montserrat,MS,2,UNIPD,2006-2010,outgoing
-Tuvalu,TV,1,UNIPD,2006-2010,outgoing
-Sierra Leone,SL,1,UNIPD,2006-2010,outgoing
-St Vincent and Grenadines,VC,1,UNIPD,2006-2010,outgoing
-Turkmenistan,TM,1,UNIPD,2006-2010,outgoing
-Northern Mariana Islands,MP,1,UNIPD,2006-2010,outgoing
-Guyana,GY,1,UNIPD,2006-2010,outgoing
-Moldova (Republic of),MD,1,UNIPD,2006-2010,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,594,UNIPD,2006-2010,outgoing
+AF,Afghanistan,13,UNIPD,2006-2010,outgoing
+AG,Antigua and Barbuda,19,UNIPD,2006-2010,outgoing
+AL,Albania,75,UNIPD,2006-2010,outgoing
+AM,Armenia,1436,UNIPD,2006-2010,outgoing
+AO,Angola,125,UNIPD,2006-2010,outgoing
+AR,Argentina,9739,UNIPD,2006-2010,outgoing
+AT,Austria,24794,UNIPD,2006-2010,outgoing
+AU,Australia,105205,UNIPD,2006-2010,outgoing
+AZ,Azerbaijan,366,UNIPD,2006-2010,outgoing
+BA,Bosnia and Herzegovina,317,UNIPD,2006-2010,outgoing
+BB,Barbados,35,UNIPD,2006-2010,outgoing
+BD,Bangladesh,361,UNIPD,2006-2010,outgoing
+BE,Belgium,48964,UNIPD,2006-2010,outgoing
+BF,Burkina Faso,62,UNIPD,2006-2010,outgoing
+BG,Bulgaria,3599,UNIPD,2006-2010,outgoing
+BH,Bahrain,641,UNIPD,2006-2010,outgoing
+BI,Burundi,33,UNIPD,2006-2010,outgoing
+BJ,Benin,229,UNIPD,2006-2010,outgoing
+BN,Brunei,44,UNIPD,2006-2010,outgoing
+BO,Bolivia,193,UNIPD,2006-2010,outgoing
+BR,Brazil,32905,UNIPD,2006-2010,outgoing
+BS,Bahamas,2,UNIPD,2006-2010,outgoing
+BT,Bhutan,44,UNIPD,2006-2010,outgoing
+BW,Botswana,33,UNIPD,2006-2010,outgoing
+BY,Belarus,1618,UNIPD,2006-2010,outgoing
+CA,Canada,130514,UNIPD,2006-2010,outgoing
+CD,DR Congo,81,UNIPD,2006-2010,outgoing
+CF,Central African Republic,4,UNIPD,2006-2010,outgoing
+CG,Congo Republic,18,UNIPD,2006-2010,outgoing
+CH,Switzerland,87087,UNIPD,2006-2010,outgoing
+CI,Ivory Coast,41,UNIPD,2006-2010,outgoing
+CL,Chile,7158,UNIPD,2006-2010,outgoing
+CM,Cameroon,141,UNIPD,2006-2010,outgoing
+CN,China,89964,UNIPD,2006-2010,outgoing
+CO,Colombia,2798,UNIPD,2006-2010,outgoing
+CR,Costa Rica,252,UNIPD,2006-2010,outgoing
+CU,Cuba,352,UNIPD,2006-2010,outgoing
+CY,Cyprus,2553,UNIPD,2006-2010,outgoing
+CZ,Czechia,12868,UNIPD,2006-2010,outgoing
+DE,Germany,267442,UNIPD,2006-2010,outgoing
+DK,Denmark,33526,UNIPD,2006-2010,outgoing
+DO,Dominican Republic,18,UNIPD,2006-2010,outgoing
+DZ,Algeria,467,UNIPD,2006-2010,outgoing
+EC,Ecuador,988,UNIPD,2006-2010,outgoing
+EE,Estonia,1846,UNIPD,2006-2010,outgoing
+EG,Egypt,1620,UNIPD,2006-2010,outgoing
+ER,Eritrea,18,UNIPD,2006-2010,outgoing
+ES,Spain,126445,UNIPD,2006-2010,outgoing
+ET,Ethiopia,704,UNIPD,2006-2010,outgoing
+EU,European Union,65,UNIPD,2006-2010,outgoing
+FI,Finland,36526,UNIPD,2006-2010,outgoing
+FJ,Fiji,14,UNIPD,2006-2010,outgoing
+FM,Micronesia,3,UNIPD,2006-2010,outgoing
+FR,France,595725,UNIPD,2006-2010,outgoing
+GA,Gabon,26,UNIPD,2006-2010,outgoing
+GB,United Kingdom,391184,UNIPD,2006-2010,outgoing
+GD,Grenada,88,UNIPD,2006-2010,outgoing
+GE,Georgia,2085,UNIPD,2006-2010,outgoing
+GH,Ghana,533,UNIPD,2006-2010,outgoing
+GM,The Gambia,5,UNIPD,2006-2010,outgoing
+GR,Greece,18969,UNIPD,2006-2010,outgoing
+GT,Guatemala,103,UNIPD,2006-2010,outgoing
+GW,Guinea-Bissau,27,UNIPD,2006-2010,outgoing
+GY,Guyana,1,UNIPD,2006-2010,outgoing
+HN,Honduras,15,UNIPD,2006-2010,outgoing
+HR,Croatia,3885,UNIPD,2006-2010,outgoing
+HT,Haiti,13,UNIPD,2006-2010,outgoing
+HU,Hungary,12967,UNIPD,2006-2010,outgoing
+ID,Indonesia,585,UNIPD,2006-2010,outgoing
+IE,Ireland,17127,UNIPD,2006-2010,outgoing
+IL,Israel,21704,UNIPD,2006-2010,outgoing
+IN,India,35031,UNIPD,2006-2010,outgoing
+IQ,Iraq,74,UNIPD,2006-2010,outgoing
+IR,Iran,4859,UNIPD,2006-2010,outgoing
+IS,Iceland,1272,UNIPD,2006-2010,outgoing
+IT,Italy,457254,UNIPD,2006-2010,outgoing
+JM,Jamaica,267,UNIPD,2006-2010,outgoing
+JO,Jordan,1577,UNIPD,2006-2010,outgoing
+JP,Japan,128519,UNIPD,2006-2010,outgoing
+KE,Kenya,594,UNIPD,2006-2010,outgoing
+KG,Kyrgyzstan,12,UNIPD,2006-2010,outgoing
+KH,Cambodia,174,UNIPD,2006-2010,outgoing
+KN,St Kitts and Nevis,7,UNIPD,2006-2010,outgoing
+KP,North Korea,4,UNIPD,2006-2010,outgoing
+KR,South Korea,44603,UNIPD,2006-2010,outgoing
+KW,Kuwait,223,UNIPD,2006-2010,outgoing
+KZ,Kazakhstan,305,UNIPD,2006-2010,outgoing
+LA,Laos,14,UNIPD,2006-2010,outgoing
+LB,Lebanon,888,UNIPD,2006-2010,outgoing
+LC,Saint Lucia,3,UNIPD,2006-2010,outgoing
+LI,Liechtenstein,6,UNIPD,2006-2010,outgoing
+LK,Sri Lanka,289,UNIPD,2006-2010,outgoing
+LR,Liberia,4,UNIPD,2006-2010,outgoing
+LT,Lithuania,400,UNIPD,2006-2010,outgoing
+LU,Luxembourg,520,UNIPD,2006-2010,outgoing
+LV,Latvia,407,UNIPD,2006-2010,outgoing
+LY,Libya,29,UNIPD,2006-2010,outgoing
+MA,Morocco,717,UNIPD,2006-2010,outgoing
+MC,Monaco,16,UNIPD,2006-2010,outgoing
+MD,Moldova,69,UNIPD,2006-2010,outgoing
+ME,Montenegro,231,UNIPD,2006-2010,outgoing
+MG,Madagascar,28,UNIPD,2006-2010,outgoing
+MK,North Macedonia,69,UNIPD,2006-2010,outgoing
+ML,Mali,35,UNIPD,2006-2010,outgoing
+MM,Myanmar,42,UNIPD,2006-2010,outgoing
+MN,Mongolia,173,UNIPD,2006-2010,outgoing
+MR,Mauritania,2,UNIPD,2006-2010,outgoing
+MT,Malta,146,UNIPD,2006-2010,outgoing
+MU,Mauritius,15,UNIPD,2006-2010,outgoing
+MV,Maldives,26,UNIPD,2006-2010,outgoing
+MW,Malawi,94,UNIPD,2006-2010,outgoing
+MX,Mexico,11204,UNIPD,2006-2010,outgoing
+MY,Malaysia,2212,UNIPD,2006-2010,outgoing
+MZ,Mozambique,412,UNIPD,2006-2010,outgoing
+NE,Niger,9,UNIPD,2006-2010,outgoing
+NG,Nigeria,515,UNIPD,2006-2010,outgoing
+NI,Nicaragua,24,UNIPD,2006-2010,outgoing
+NL,The Netherlands,126071,UNIPD,2006-2010,outgoing
+NO,Norway,16101,UNIPD,2006-2010,outgoing
+NP,Nepal,214,UNIPD,2006-2010,outgoing
+NZ,New Zealand,10547,UNIPD,2006-2010,outgoing
+OM,Oman,152,UNIPD,2006-2010,outgoing
+PA,Panama,400,UNIPD,2006-2010,outgoing
+PE,Peru,383,UNIPD,2006-2010,outgoing
+PG,Papua New Guinea,30,UNIPD,2006-2010,outgoing
+PH,Philippines,1037,UNIPD,2006-2010,outgoing
+PK,Pakistan,1583,UNIPD,2006-2010,outgoing
+PL,Poland,31121,UNIPD,2006-2010,outgoing
+PS,Palestine,218,UNIPD,2006-2010,outgoing
+PT,Portugal,16100,UNIPD,2006-2010,outgoing
+PW,Palau,48,UNIPD,2006-2010,outgoing
+PY,Paraguay,53,UNIPD,2006-2010,outgoing
+QA,Qatar,843,UNIPD,2006-2010,outgoing
+RO,Romania,2132,UNIPD,2006-2010,outgoing
+RS,Serbia,2348,UNIPD,2006-2010,outgoing
+RU,Russia,47766,UNIPD,2006-2010,outgoing
+RW,Rwanda,31,UNIPD,2006-2010,outgoing
+SA,Saudi Arabia,1089,UNIPD,2006-2010,outgoing
+SC,Seychelles,30,UNIPD,2006-2010,outgoing
+SD,Sudan,94,UNIPD,2006-2010,outgoing
+SE,Sweden,43528,UNIPD,2006-2010,outgoing
+SG,Singapore,11424,UNIPD,2006-2010,outgoing
+SI,Slovenia,6093,UNIPD,2006-2010,outgoing
+SK,Slovakia,6068,UNIPD,2006-2010,outgoing
+SL,Sierra Leone,1,UNIPD,2006-2010,outgoing
+SM,San Marino,37,UNIPD,2006-2010,outgoing
+SN,Senegal,87,UNIPD,2006-2010,outgoing
+SO,Somalia,33,UNIPD,2006-2010,outgoing
+SR,Suriname,5,UNIPD,2006-2010,outgoing
+SS,South Sudan,10,UNIPD,2006-2010,outgoing
+SV,El Salvador,67,UNIPD,2006-2010,outgoing
+SY,Syria,81,UNIPD,2006-2010,outgoing
+SZ,Eswatini,2,UNIPD,2006-2010,outgoing
+TD,Chad,5,UNIPD,2006-2010,outgoing
+TG,Togo,3,UNIPD,2006-2010,outgoing
+TH,Thailand,2357,UNIPD,2006-2010,outgoing
+TJ,Tajikistan,48,UNIPD,2006-2010,outgoing
+TM,Turkmenistan,1,UNIPD,2006-2010,outgoing
+TN,Tunisia,1690,UNIPD,2006-2010,outgoing
+TO,Tonga,4,UNIPD,2006-2010,outgoing
+TR,Turkey,10958,UNIPD,2006-2010,outgoing
+TT,Trinidad and Tobago,91,UNIPD,2006-2010,outgoing
+TV,Tuvalu,1,UNIPD,2006-2010,outgoing
+TW,Taiwan,25666,UNIPD,2006-2010,outgoing
+TZ,Tanzania,555,UNIPD,2006-2010,outgoing
+UA,Ukraine,3587,UNIPD,2006-2010,outgoing
+UG,Uganda,375,UNIPD,2006-2010,outgoing
+US,United States,1510254,UNIPD,2006-2010,outgoing
+UY,Uruguay,518,UNIPD,2006-2010,outgoing
+UZ,Uzbekistan,783,UNIPD,2006-2010,outgoing
+VC,St Vincent and Grenadines,1,UNIPD,2006-2010,outgoing
+VE,Venezuela,450,UNIPD,2006-2010,outgoing
+VN,Vietnam,835,UNIPD,2006-2010,outgoing
+XK,Kosovo,7,UNIPD,2006-2010,outgoing
+YE,Yemen,61,UNIPD,2006-2010,outgoing
+ZA,South Africa,7790,UNIPD,2006-2010,outgoing
+ZM,Zambia,169,UNIPD,2006-2010,outgoing
+ZW,Zimbabwe,77,UNIPD,2006-2010,outgoing

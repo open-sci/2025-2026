@@ -1,2 +1,8 @@
 ijson
 pylint
+pandas
+numpy
+plotly
+pycountry
+ipywidgets
+ipython

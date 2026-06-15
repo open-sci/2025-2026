@@ -1,212 +1,177 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,979635,UNITO,2006-2010,outgoing
-France,FR,376239,UNITO,2006-2010,outgoing
-Italy,IT,307632,UNITO,2006-2010,outgoing
-United Kingdom,GB,255113,UNITO,2006-2010,outgoing
-Germany,DE,178453,UNITO,2006-2010,outgoing
-Japan,JP,91903,UNITO,2006-2010,outgoing
-Spain,ES,84147,UNITO,2006-2010,outgoing
-Canada,CA,83638,UNITO,2006-2010,outgoing
-The Netherlands,NL,76429,UNITO,2006-2010,outgoing
-Australia,AU,69181,UNITO,2006-2010,outgoing
-China,CN,65084,UNITO,2006-2010,outgoing
-Switzerland,CH,61455,UNITO,2006-2010,outgoing
-Belgium,BE,35049,UNITO,2006-2010,outgoing
-Sweden,SE,33327,UNITO,2006-2010,outgoing
-Russia,RU,31823,UNITO,2006-2010,outgoing
-South Korea,KR,30395,UNITO,2006-2010,outgoing
-Denmark,DK,24527,UNITO,2006-2010,outgoing
-Brazil,BR,23713,UNITO,2006-2010,outgoing
-India,IN,23395,UNITO,2006-2010,outgoing
-Poland,PL,22103,UNITO,2006-2010,outgoing
-Finland,FI,20823,UNITO,2006-2010,outgoing
-Taiwan,TW,18579,UNITO,2006-2010,outgoing
-Austria,AT,17059,UNITO,2006-2010,outgoing
-Israel,IL,14502,UNITO,2006-2010,outgoing
-Greece,GR,14441,UNITO,2006-2010,outgoing
-Norway,NO,12571,UNITO,2006-2010,outgoing
-Portugal,PT,11466,UNITO,2006-2010,outgoing
-Ireland,IE,11002,UNITO,2006-2010,outgoing
-Netherlands,NL,10947,UNITO,2006-2010,outgoing
-Czechia,CZ,10504,UNITO,2006-2010,outgoing
-Hungary,HU,9028,UNITO,2006-2010,outgoing
-Türkiye,TR,8896,UNITO,2006-2010,outgoing
-China (People's Republic of),CN,8057,UNITO,2006-2010,outgoing
-Mexico,MX,7762,UNITO,2006-2010,outgoing
-Hong Kong,HK,7738,UNITO,2006-2010,outgoing
-Singapore,SG,7471,UNITO,2006-2010,outgoing
-Argentina,AR,7368,UNITO,2006-2010,outgoing
-New Zealand,NZ,6532,UNITO,2006-2010,outgoing
-South Africa,ZA,6337,UNITO,2006-2010,outgoing
-Slovenia,SI,4854,UNITO,2006-2010,outgoing
-Slovakia,SK,3950,UNITO,2006-2010,outgoing
-Iran,IR,3025,UNITO,2006-2010,outgoing
-Croatia,HR,2952,UNITO,2006-2010,outgoing
-Chile,CL,2818,UNITO,2006-2010,outgoing
-Thailand,TH,2256,UNITO,2006-2010,outgoing
-Bulgaria,BG,2052,UNITO,2006-2010,outgoing
-Colombia,CO,2016,UNITO,2006-2010,outgoing
-Ukraine,UA,1979,UNITO,2006-2010,outgoing
-Puerto Rico,PR,1854,UNITO,2006-2010,outgoing
-Malaysia,MY,1743,UNITO,2006-2010,outgoing
-Serbia,RS,1698,UNITO,2006-2010,outgoing
-Korea (Republic of),KR,1694,UNITO,2006-2010,outgoing
-Georgia,GE,1489,UNITO,2006-2010,outgoing
-Estonia,EE,1475,UNITO,2006-2010,outgoing
-Romania,RO,1365,UNITO,2006-2010,outgoing
-Belarus,BY,1299,UNITO,2006-2010,outgoing
-Armenia,AM,1269,UNITO,2006-2010,outgoing
-Tunisia,TN,1205,UNITO,2006-2010,outgoing
-Cyprus,CY,1183,UNITO,2006-2010,outgoing
-Iceland,IS,1180,UNITO,2006-2010,outgoing
-Pakistan,PK,1177,UNITO,2006-2010,outgoing
-Egypt,EG,1170,UNITO,2006-2010,outgoing
-Jordan,JO,1057,UNITO,2006-2010,outgoing
-Morocco,MA,839,UNITO,2006-2010,outgoing
-Ecuador,EC,755,UNITO,2006-2010,outgoing
-Uzbekistan,UZ,747,UNITO,2006-2010,outgoing
-Lebanon,LB,709,UNITO,2006-2010,outgoing
-Saudi Arabia,SA,704,UNITO,2006-2010,outgoing
-Philippines,PH,662,UNITO,2006-2010,outgoing
-Russian Federation,RU,639,UNITO,2006-2010,outgoing
-Vietnam,VN,611,UNITO,2006-2010,outgoing
-Bahrain,BH,576,UNITO,2006-2010,outgoing
-Ethiopia,ET,576,UNITO,2006-2010,outgoing
-Indonesia,ID,561,UNITO,2006-2010,outgoing
-Qatar,QA,551,UNITO,2006-2010,outgoing
-Ghana,GH,550,UNITO,2006-2010,outgoing
-Nigeria,NG,505,UNITO,2006-2010,outgoing
-Kenya,KE,495,UNITO,2006-2010,outgoing
-Azerbaijan,AZ,493,UNITO,2006-2010,outgoing
-Tanzania,TZ,437,UNITO,2006-2010,outgoing
-Luxembourg,LU,435,UNITO,2006-2010,outgoing
-Latvia,LV,398,UNITO,2006-2010,outgoing
-Venezuela,VE,385,UNITO,2006-2010,outgoing
-Peru,PE,367,UNITO,2006-2010,outgoing
-United Arab Emirates,AE,362,UNITO,2006-2010,outgoing
-Uruguay,UY,357,UNITO,2006-2010,outgoing
-Lithuania,LT,342,UNITO,2006-2010,outgoing
-Algeria,DZ,311,UNITO,2006-2010,outgoing
-Cuba,CU,308,UNITO,2006-2010,outgoing
-Czech Republic,CZ,302,UNITO,2006-2010,outgoing
-Bosnia and Herzegovina,BA,302,UNITO,2006-2010,outgoing
-Kazakhstan,KZ,293,UNITO,2006-2010,outgoing
-Réunion,RE,285,UNITO,2006-2010,outgoing
-Uganda,UG,272,UNITO,2006-2010,outgoing
-Panama,PA,264,UNITO,2006-2010,outgoing
-Bangladesh,BD,260,UNITO,2006-2010,outgoing
-Montenegro,ME,256,UNITO,2006-2010,outgoing
-Namibia,,252,UNITO,2006-2010,outgoing
-Palestine,PS,250,UNITO,2006-2010,outgoing
-Sri Lanka,LK,189,UNITO,2006-2010,outgoing
-Mozambique,MZ,189,UNITO,2006-2010,outgoing
-Nepal,NP,177,UNITO,2006-2010,outgoing
-Mongolia,MN,175,UNITO,2006-2010,outgoing
-Benin,BJ,169,UNITO,2006-2010,outgoing
-Costa Rica,CR,162,UNITO,2006-2010,outgoing
-Guadeloupe,GP,154,UNITO,2006-2010,outgoing
-Bolivia,BO,150,UNITO,2006-2010,outgoing
-Kuwait,KW,149,UNITO,2006-2010,outgoing
-Cambodia,KH,144,UNITO,2006-2010,outgoing
-Jamaica,JM,120,UNITO,2006-2010,outgoing
-Cameroon,CM,114,UNITO,2006-2010,outgoing
-Angola,AO,99,UNITO,2006-2010,outgoing
-Oman,OM,95,UNITO,2006-2010,outgoing
-Syria,SY,94,UNITO,2006-2010,outgoing
-French Guiana,GF,93,UNITO,2006-2010,outgoing
-Turkey,TR,92,UNITO,2006-2010,outgoing
-Madagascar,MG,82,UNITO,2006-2010,outgoing
-Malta,MT,77,UNITO,2006-2010,outgoing
-Guatemala,GT,76,UNITO,2006-2010,outgoing
-Albania,AL,74,UNITO,2006-2010,outgoing
-Burkina Faso,BF,73,UNITO,2006-2010,outgoing
-El Salvador,SV,67,UNITO,2006-2010,outgoing
-Senegal,SN,66,UNITO,2006-2010,outgoing
-Ivory Coast,CI,65,UNITO,2006-2010,outgoing
-Sudan,SD,62,UNITO,2006-2010,outgoing
-Gabon,GA,60,UNITO,2006-2010,outgoing
-Zimbabwe,ZW,55,UNITO,2006-2010,outgoing
-Grenada,GD,52,UNITO,2006-2010,outgoing
-Macao,MO,51,UNITO,2006-2010,outgoing
-Malawi,MW,50,UNITO,2006-2010,outgoing
-Paraguay,PY,49,UNITO,2006-2010,outgoing
-North Macedonia,MK,48,UNITO,2006-2010,outgoing
-Myanmar,MM,47,UNITO,2006-2010,outgoing
-Curaçao,CW,46,UNITO,2006-2010,outgoing
-Somalia,SO,45,UNITO,2006-2010,outgoing
-Moldova,MD,45,UNITO,2006-2010,outgoing
-New Caledonia,NC,43,UNITO,2006-2010,outgoing
-DR Congo,CD,43,UNITO,2006-2010,outgoing
-Zambia,ZM,41,UNITO,2006-2010,outgoing
-Mali,ML,38,UNITO,2006-2010,outgoing
-Botswana,BW,36,UNITO,2006-2010,outgoing
-Bhutan,BT,35,UNITO,2006-2010,outgoing
-Iran (Islamic Republic of),IR,31,UNITO,2006-2010,outgoing
-Burundi,BI,30,UNITO,2006-2010,outgoing
-Yemen,YE,29,UNITO,2006-2010,outgoing
-Barbados,BB,28,UNITO,2006-2010,outgoing
-Iraq,IQ,26,UNITO,2006-2010,outgoing
-Tajikistan,TJ,26,UNITO,2006-2010,outgoing
-Nicaragua,NI,26,UNITO,2006-2010,outgoing
-Dominican Republic,DO,26,UNITO,2006-2010,outgoing
-Palau,PW,25,UNITO,2006-2010,outgoing
-Brunei,BN,25,UNITO,2006-2010,outgoing
-Trinidad and Tobago,TT,24,UNITO,2006-2010,outgoing
-European Union,EU,23,UNITO,2006-2010,outgoing
-Rwanda,RW,22,UNITO,2006-2010,outgoing
-Papua New Guinea,PG,20,UNITO,2006-2010,outgoing
-Libya,LY,19,UNITO,2006-2010,outgoing
-Mauritania,MR,19,UNITO,2006-2010,outgoing
-Svalbard and Jan Mayen,SJ,19,UNITO,2006-2010,outgoing
-Antigua and Barbuda,AG,17,UNITO,2006-2010,outgoing
-Laos,LA,16,UNITO,2006-2010,outgoing
-Mauritius,MU,15,UNITO,2006-2010,outgoing
-Greenland,GL,15,UNITO,2006-2010,outgoing
-St Kitts and Nevis,KN,13,UNITO,2006-2010,outgoing
-Bermuda,BM,13,UNITO,2006-2010,outgoing
-American Samoa,AS,13,UNITO,2006-2010,outgoing
-The Gambia,GM,13,UNITO,2006-2010,outgoing
-Jersey,JE,13,UNITO,2006-2010,outgoing
-Maldives,MV,12,UNITO,2006-2010,outgoing
-Fiji,FJ,11,UNITO,2006-2010,outgoing
-Guinea-Bissau,GW,11,UNITO,2006-2010,outgoing
-Gibraltar,GI,10,UNITO,2006-2010,outgoing
-Liechtenstein,LI,10,UNITO,2006-2010,outgoing
-Afghanistan,AF,10,UNITO,2006-2010,outgoing
-Niger,NE,9,UNITO,2006-2010,outgoing
-Honduras,HN,9,UNITO,2006-2010,outgoing
-South Sudan,SS,8,UNITO,2006-2010,outgoing
-Guam,GU,8,UNITO,2006-2010,outgoing
-Montserrat,MS,7,UNITO,2006-2010,outgoing
-Eritrea,ER,7,UNITO,2006-2010,outgoing
-Tanzania (United Republic of),TZ,7,UNITO,2006-2010,outgoing
-Congo Republic,CG,7,UNITO,2006-2010,outgoing
-French Polynesia,PF,5,UNITO,2006-2010,outgoing
-"Virgin Islands, U.S.",VI,5,UNITO,2006-2010,outgoing
-Tonga,TO,4,UNITO,2006-2010,outgoing
-Seychelles,SC,4,UNITO,2006-2010,outgoing
-Togo,TG,4,UNITO,2006-2010,outgoing
-Monaco,MC,4,UNITO,2006-2010,outgoing
-Isle of Man,IM,4,UNITO,2006-2010,outgoing
-San Marino,SM,3,UNITO,2006-2010,outgoing
-Guyana,GY,3,UNITO,2006-2010,outgoing
-Congo (Democratic Republic of),CD,3,UNITO,2006-2010,outgoing
-Chad,TD,3,UNITO,2006-2010,outgoing
-Martinique,MQ,3,UNITO,2006-2010,outgoing
-North Korea,KP,3,UNITO,2006-2010,outgoing
-Micronesia,FM,3,UNITO,2006-2010,outgoing
-Former Yugoslav Republic of Macedonia,MK,3,UNITO,2006-2010,outgoing
-Suriname,SR,2,UNITO,2006-2010,outgoing
-Kosovo,XK,2,UNITO,2006-2010,outgoing
-Faroe Islands,FO,2,UNITO,2006-2010,outgoing
-Guinea,GN,2,UNITO,2006-2010,outgoing
-Sint Maarten,SX,2,UNITO,2006-2010,outgoing
-Kyrgyzstan,KG,2,UNITO,2006-2010,outgoing
-Cayman Islands,KY,2,UNITO,2006-2010,outgoing
-Liberia,LR,1,UNITO,2006-2010,outgoing
-Eswatini,SZ,1,UNITO,2006-2010,outgoing
-Haiti,HT,1,UNITO,2006-2010,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,1,UNITO,2006-2010,outgoing
-Central African Republic,CF,1,UNITO,2006-2010,outgoing
-Bahamas,BS,1,UNITO,2006-2010,outgoing
-Lesotho,LS,1,UNITO,2006-2010,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,362,UNITO,2006-2010,outgoing
+AF,Afghanistan,10,UNITO,2006-2010,outgoing
+AG,Antigua and Barbuda,17,UNITO,2006-2010,outgoing
+AL,Albania,74,UNITO,2006-2010,outgoing
+AM,Armenia,1269,UNITO,2006-2010,outgoing
+AO,Angola,99,UNITO,2006-2010,outgoing
+AR,Argentina,7368,UNITO,2006-2010,outgoing
+AT,Austria,17059,UNITO,2006-2010,outgoing
+AU,Australia,69181,UNITO,2006-2010,outgoing
+AZ,Azerbaijan,493,UNITO,2006-2010,outgoing
+BA,Bosnia and Herzegovina,302,UNITO,2006-2010,outgoing
+BB,Barbados,28,UNITO,2006-2010,outgoing
+BD,Bangladesh,260,UNITO,2006-2010,outgoing
+BE,Belgium,35049,UNITO,2006-2010,outgoing
+BF,Burkina Faso,73,UNITO,2006-2010,outgoing
+BG,Bulgaria,2052,UNITO,2006-2010,outgoing
+BH,Bahrain,576,UNITO,2006-2010,outgoing
+BI,Burundi,30,UNITO,2006-2010,outgoing
+BJ,Benin,169,UNITO,2006-2010,outgoing
+BN,Brunei,25,UNITO,2006-2010,outgoing
+BO,Bolivia,150,UNITO,2006-2010,outgoing
+BR,Brazil,23713,UNITO,2006-2010,outgoing
+BS,Bahamas,1,UNITO,2006-2010,outgoing
+BT,Bhutan,35,UNITO,2006-2010,outgoing
+BW,Botswana,36,UNITO,2006-2010,outgoing
+BY,Belarus,1299,UNITO,2006-2010,outgoing
+CA,Canada,83638,UNITO,2006-2010,outgoing
+CD,DR Congo,46,UNITO,2006-2010,outgoing
+CF,Central African Republic,1,UNITO,2006-2010,outgoing
+CG,Congo Republic,7,UNITO,2006-2010,outgoing
+CH,Switzerland,61455,UNITO,2006-2010,outgoing
+CI,Ivory Coast,65,UNITO,2006-2010,outgoing
+CL,Chile,2818,UNITO,2006-2010,outgoing
+CM,Cameroon,114,UNITO,2006-2010,outgoing
+CN,China,80930,UNITO,2006-2010,outgoing
+CO,Colombia,2016,UNITO,2006-2010,outgoing
+CR,Costa Rica,162,UNITO,2006-2010,outgoing
+CU,Cuba,308,UNITO,2006-2010,outgoing
+CY,Cyprus,1183,UNITO,2006-2010,outgoing
+CZ,Czechia,10806,UNITO,2006-2010,outgoing
+DE,Germany,178453,UNITO,2006-2010,outgoing
+DK,Denmark,24544,UNITO,2006-2010,outgoing
+DO,Dominican Republic,26,UNITO,2006-2010,outgoing
+DZ,Algeria,311,UNITO,2006-2010,outgoing
+EC,Ecuador,755,UNITO,2006-2010,outgoing
+EE,Estonia,1475,UNITO,2006-2010,outgoing
+EG,Egypt,1170,UNITO,2006-2010,outgoing
+ER,Eritrea,7,UNITO,2006-2010,outgoing
+ES,Spain,84147,UNITO,2006-2010,outgoing
+ET,Ethiopia,576,UNITO,2006-2010,outgoing
+EU,European Union,23,UNITO,2006-2010,outgoing
+FI,Finland,20823,UNITO,2006-2010,outgoing
+FJ,Fiji,11,UNITO,2006-2010,outgoing
+FM,Micronesia,3,UNITO,2006-2010,outgoing
+FR,France,376822,UNITO,2006-2010,outgoing
+GA,Gabon,60,UNITO,2006-2010,outgoing
+GB,United Kingdom,255162,UNITO,2006-2010,outgoing
+GD,Grenada,52,UNITO,2006-2010,outgoing
+GE,Georgia,1489,UNITO,2006-2010,outgoing
+GH,Ghana,550,UNITO,2006-2010,outgoing
+GM,The Gambia,13,UNITO,2006-2010,outgoing
+GN,Guinea,2,UNITO,2006-2010,outgoing
+GR,Greece,14441,UNITO,2006-2010,outgoing
+GT,Guatemala,76,UNITO,2006-2010,outgoing
+GW,Guinea-Bissau,11,UNITO,2006-2010,outgoing
+GY,Guyana,3,UNITO,2006-2010,outgoing
+HN,Honduras,9,UNITO,2006-2010,outgoing
+HR,Croatia,2952,UNITO,2006-2010,outgoing
+HT,Haiti,1,UNITO,2006-2010,outgoing
+HU,Hungary,9028,UNITO,2006-2010,outgoing
+ID,Indonesia,561,UNITO,2006-2010,outgoing
+IE,Ireland,11002,UNITO,2006-2010,outgoing
+IL,Israel,14502,UNITO,2006-2010,outgoing
+IN,India,23395,UNITO,2006-2010,outgoing
+IQ,Iraq,26,UNITO,2006-2010,outgoing
+IR,Iran,3056,UNITO,2006-2010,outgoing
+IS,Iceland,1180,UNITO,2006-2010,outgoing
+IT,Italy,307632,UNITO,2006-2010,outgoing
+JM,Jamaica,120,UNITO,2006-2010,outgoing
+JO,Jordan,1057,UNITO,2006-2010,outgoing
+JP,Japan,91903,UNITO,2006-2010,outgoing
+KE,Kenya,495,UNITO,2006-2010,outgoing
+KG,Kyrgyzstan,2,UNITO,2006-2010,outgoing
+KH,Cambodia,144,UNITO,2006-2010,outgoing
+KN,St Kitts and Nevis,13,UNITO,2006-2010,outgoing
+KP,North Korea,3,UNITO,2006-2010,outgoing
+KR,South Korea,32089,UNITO,2006-2010,outgoing
+KW,Kuwait,149,UNITO,2006-2010,outgoing
+KZ,Kazakhstan,293,UNITO,2006-2010,outgoing
+LA,Laos,16,UNITO,2006-2010,outgoing
+LB,Lebanon,709,UNITO,2006-2010,outgoing
+LI,Liechtenstein,10,UNITO,2006-2010,outgoing
+LK,Sri Lanka,189,UNITO,2006-2010,outgoing
+LR,Liberia,1,UNITO,2006-2010,outgoing
+LS,Lesotho,1,UNITO,2006-2010,outgoing
+LT,Lithuania,342,UNITO,2006-2010,outgoing
+LU,Luxembourg,435,UNITO,2006-2010,outgoing
+LV,Latvia,398,UNITO,2006-2010,outgoing
+LY,Libya,19,UNITO,2006-2010,outgoing
+MA,Morocco,839,UNITO,2006-2010,outgoing
+MC,Monaco,4,UNITO,2006-2010,outgoing
+MD,Moldova,45,UNITO,2006-2010,outgoing
+ME,Montenegro,256,UNITO,2006-2010,outgoing
+MG,Madagascar,82,UNITO,2006-2010,outgoing
+MK,North Macedonia,51,UNITO,2006-2010,outgoing
+ML,Mali,38,UNITO,2006-2010,outgoing
+MM,Myanmar,47,UNITO,2006-2010,outgoing
+MN,Mongolia,175,UNITO,2006-2010,outgoing
+MR,Mauritania,19,UNITO,2006-2010,outgoing
+MT,Malta,77,UNITO,2006-2010,outgoing
+MU,Mauritius,15,UNITO,2006-2010,outgoing
+MV,Maldives,12,UNITO,2006-2010,outgoing
+MW,Malawi,50,UNITO,2006-2010,outgoing
+MX,Mexico,7762,UNITO,2006-2010,outgoing
+MY,Malaysia,1743,UNITO,2006-2010,outgoing
+MZ,Mozambique,189,UNITO,2006-2010,outgoing
+NE,Niger,9,UNITO,2006-2010,outgoing
+NG,Nigeria,505,UNITO,2006-2010,outgoing
+NI,Nicaragua,26,UNITO,2006-2010,outgoing
+NL,The Netherlands,87425,UNITO,2006-2010,outgoing
+NO,Norway,12590,UNITO,2006-2010,outgoing
+NP,Nepal,177,UNITO,2006-2010,outgoing
+NZ,New Zealand,6532,UNITO,2006-2010,outgoing
+OM,Oman,95,UNITO,2006-2010,outgoing
+PA,Panama,264,UNITO,2006-2010,outgoing
+PE,Peru,367,UNITO,2006-2010,outgoing
+PG,Papua New Guinea,20,UNITO,2006-2010,outgoing
+PH,Philippines,662,UNITO,2006-2010,outgoing
+PK,Pakistan,1177,UNITO,2006-2010,outgoing
+PL,Poland,22103,UNITO,2006-2010,outgoing
+PS,Palestine,250,UNITO,2006-2010,outgoing
+PT,Portugal,11466,UNITO,2006-2010,outgoing
+PW,Palau,25,UNITO,2006-2010,outgoing
+PY,Paraguay,49,UNITO,2006-2010,outgoing
+QA,Qatar,551,UNITO,2006-2010,outgoing
+RO,Romania,1365,UNITO,2006-2010,outgoing
+RS,Serbia,1698,UNITO,2006-2010,outgoing
+RU,Russia,32462,UNITO,2006-2010,outgoing
+RW,Rwanda,22,UNITO,2006-2010,outgoing
+SA,Saudi Arabia,704,UNITO,2006-2010,outgoing
+SC,Seychelles,4,UNITO,2006-2010,outgoing
+SD,Sudan,62,UNITO,2006-2010,outgoing
+SE,Sweden,33327,UNITO,2006-2010,outgoing
+SG,Singapore,7471,UNITO,2006-2010,outgoing
+SI,Slovenia,4854,UNITO,2006-2010,outgoing
+SK,Slovakia,3950,UNITO,2006-2010,outgoing
+SM,San Marino,3,UNITO,2006-2010,outgoing
+SN,Senegal,66,UNITO,2006-2010,outgoing
+SO,Somalia,45,UNITO,2006-2010,outgoing
+SR,Suriname,2,UNITO,2006-2010,outgoing
+SS,South Sudan,8,UNITO,2006-2010,outgoing
+SV,El Salvador,67,UNITO,2006-2010,outgoing
+SY,Syria,94,UNITO,2006-2010,outgoing
+SZ,Eswatini,1,UNITO,2006-2010,outgoing
+TD,Chad,3,UNITO,2006-2010,outgoing
+TG,Togo,4,UNITO,2006-2010,outgoing
+TH,Thailand,2256,UNITO,2006-2010,outgoing
+TJ,Tajikistan,26,UNITO,2006-2010,outgoing
+TN,Tunisia,1205,UNITO,2006-2010,outgoing
+TO,Tonga,4,UNITO,2006-2010,outgoing
+TR,Turkey,8988,UNITO,2006-2010,outgoing
+TT,Trinidad and Tobago,24,UNITO,2006-2010,outgoing
+TW,Taiwan,18579,UNITO,2006-2010,outgoing
+TZ,Tanzania,444,UNITO,2006-2010,outgoing
+UA,Ukraine,1979,UNITO,2006-2010,outgoing
+UG,Uganda,272,UNITO,2006-2010,outgoing
+US,United States,981515,UNITO,2006-2010,outgoing
+UY,Uruguay,357,UNITO,2006-2010,outgoing
+UZ,Uzbekistan,747,UNITO,2006-2010,outgoing
+VE,Venezuela,385,UNITO,2006-2010,outgoing
+VN,Vietnam,611,UNITO,2006-2010,outgoing
+XK,Kosovo,2,UNITO,2006-2010,outgoing
+YE,Yemen,29,UNITO,2006-2010,outgoing
+ZA,South Africa,6337,UNITO,2006-2010,outgoing
+ZM,Zambia,41,UNITO,2006-2010,outgoing
+ZW,Zimbabwe,55,UNITO,2006-2010,outgoing

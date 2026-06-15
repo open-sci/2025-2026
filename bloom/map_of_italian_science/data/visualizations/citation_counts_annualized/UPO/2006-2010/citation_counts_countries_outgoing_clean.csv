@@ -1,177 +1,155 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,263885,UPO,2006-2010,outgoing
-France,FR,94360,UPO,2006-2010,outgoing
-Italy,IT,86082,UPO,2006-2010,outgoing
-United Kingdom,GB,66764,UPO,2006-2010,outgoing
-Germany,DE,50212,UPO,2006-2010,outgoing
-Japan,JP,26088,UPO,2006-2010,outgoing
-China,CN,24018,UPO,2006-2010,outgoing
-Canada,CA,21864,UPO,2006-2010,outgoing
-Spain,ES,19804,UPO,2006-2010,outgoing
-The Netherlands,NL,18536,UPO,2006-2010,outgoing
-Switzerland,CH,16204,UPO,2006-2010,outgoing
-Australia,AU,15803,UPO,2006-2010,outgoing
-Russia,RU,12802,UPO,2006-2010,outgoing
-South Korea,KR,10701,UPO,2006-2010,outgoing
-Sweden,SE,10024,UPO,2006-2010,outgoing
-Poland,PL,9566,UPO,2006-2010,outgoing
-India,IN,9124,UPO,2006-2010,outgoing
-Belgium,BE,8583,UPO,2006-2010,outgoing
-Denmark,DK,7820,UPO,2006-2010,outgoing
-Brazil,BR,6989,UPO,2006-2010,outgoing
-Finland,FI,6981,UPO,2006-2010,outgoing
-Taiwan,TW,5462,UPO,2006-2010,outgoing
-Greece,GR,4892,UPO,2006-2010,outgoing
-Israel,IL,4218,UPO,2006-2010,outgoing
-Czechia,CZ,4191,UPO,2006-2010,outgoing
-Austria,AT,3902,UPO,2006-2010,outgoing
-Norway,NO,3817,UPO,2006-2010,outgoing
-Türkiye,TR,2959,UPO,2006-2010,outgoing
-Hungary,HU,2959,UPO,2006-2010,outgoing
-Portugal,PT,2730,UPO,2006-2010,outgoing
-Ireland,IE,2607,UPO,2006-2010,outgoing
-Netherlands,NL,2560,UPO,2006-2010,outgoing
-Mexico,MX,2318,UPO,2006-2010,outgoing
-Singapore,SG,2135,UPO,2006-2010,outgoing
-China (People's Republic of),CN,2113,UPO,2006-2010,outgoing
-Slovakia,SK,2107,UPO,2006-2010,outgoing
-Hong Kong,HK,1978,UPO,2006-2010,outgoing
-Argentina,AR,1596,UPO,2006-2010,outgoing
-New Zealand,NZ,1576,UPO,2006-2010,outgoing
-Croatia,HR,1317,UPO,2006-2010,outgoing
-Slovenia,SI,1214,UPO,2006-2010,outgoing
-South Africa,ZA,1177,UPO,2006-2010,outgoing
-Ukraine,UA,1007,UPO,2006-2010,outgoing
-Colombia,CO,858,UPO,2006-2010,outgoing
-Iran,IR,784,UPO,2006-2010,outgoing
-Bulgaria,BG,782,UPO,2006-2010,outgoing
-Puerto Rico,PR,736,UPO,2006-2010,outgoing
-Serbia,RS,710,UPO,2006-2010,outgoing
-Malaysia,MY,648,UPO,2006-2010,outgoing
-Chile,CL,631,UPO,2006-2010,outgoing
-Armenia,AM,536,UPO,2006-2010,outgoing
-Romania,RO,519,UPO,2006-2010,outgoing
-Belarus,BY,503,UPO,2006-2010,outgoing
-Cyprus,CY,501,UPO,2006-2010,outgoing
-Korea (Republic of),KR,450,UPO,2006-2010,outgoing
-Thailand,TH,440,UPO,2006-2010,outgoing
-Uzbekistan,UZ,429,UPO,2006-2010,outgoing
-Georgia,GE,423,UPO,2006-2010,outgoing
-Iceland,IS,368,UPO,2006-2010,outgoing
-Ecuador,EC,358,UPO,2006-2010,outgoing
-Pakistan,PK,314,UPO,2006-2010,outgoing
-Morocco,MA,273,UPO,2006-2010,outgoing
-Philippines,PH,270,UPO,2006-2010,outgoing
-Estonia,EE,260,UPO,2006-2010,outgoing
-Egypt,EG,257,UPO,2006-2010,outgoing
-Tunisia,TN,242,UPO,2006-2010,outgoing
-Azerbaijan,AZ,228,UPO,2006-2010,outgoing
-Lebanon,LB,200,UPO,2006-2010,outgoing
-Ghana,GH,185,UPO,2006-2010,outgoing
-Jordan,JO,179,UPO,2006-2010,outgoing
-Kazakhstan,KZ,160,UPO,2006-2010,outgoing
-Montenegro,ME,157,UPO,2006-2010,outgoing
-Russian Federation,RU,152,UPO,2006-2010,outgoing
-Qatar,QA,144,UPO,2006-2010,outgoing
-Bahrain,BH,140,UPO,2006-2010,outgoing
-Ethiopia,ET,135,UPO,2006-2010,outgoing
-Nigeria,NG,121,UPO,2006-2010,outgoing
-Saudi Arabia,SA,112,UPO,2006-2010,outgoing
-Mongolia,MN,104,UPO,2006-2010,outgoing
-Uganda,UG,95,UPO,2006-2010,outgoing
-Cuba,CU,93,UPO,2006-2010,outgoing
-Lithuania,LT,88,UPO,2006-2010,outgoing
-Uruguay,UY,86,UPO,2006-2010,outgoing
-Venezuela,VE,84,UPO,2006-2010,outgoing
-United Arab Emirates,AE,82,UPO,2006-2010,outgoing
-Luxembourg,LU,82,UPO,2006-2010,outgoing
-Vietnam,VN,78,UPO,2006-2010,outgoing
-Tanzania,TZ,71,UPO,2006-2010,outgoing
-Bosnia and Herzegovina,BA,68,UPO,2006-2010,outgoing
-Kenya,KE,66,UPO,2006-2010,outgoing
-Indonesia,ID,66,UPO,2006-2010,outgoing
-Latvia,LV,63,UPO,2006-2010,outgoing
-Palestine,PS,55,UPO,2006-2010,outgoing
-Peru,PE,50,UPO,2006-2010,outgoing
-Algeria,DZ,48,UPO,2006-2010,outgoing
-Czech Republic,CZ,40,UPO,2006-2010,outgoing
-Kuwait,KW,39,UPO,2006-2010,outgoing
-Jamaica,JM,38,UPO,2006-2010,outgoing
-Sri Lanka,LK,34,UPO,2006-2010,outgoing
-Bangladesh,BD,33,UPO,2006-2010,outgoing
-Cambodia,KH,33,UPO,2006-2010,outgoing
-El Salvador,SV,31,UPO,2006-2010,outgoing
-Turkey,TR,23,UPO,2006-2010,outgoing
-Costa Rica,CR,20,UPO,2006-2010,outgoing
-Grenada,GD,18,UPO,2006-2010,outgoing
-North Macedonia,MK,17,UPO,2006-2010,outgoing
-Guatemala,GT,17,UPO,2006-2010,outgoing
-Oman,OM,17,UPO,2006-2010,outgoing
-Trinidad and Tobago,TT,17,UPO,2006-2010,outgoing
-Mozambique,MZ,16,UPO,2006-2010,outgoing
-Macao,MO,16,UPO,2006-2010,outgoing
-Senegal,SN,14,UPO,2006-2010,outgoing
-Panama,PA,13,UPO,2006-2010,outgoing
-Nepal,NP,13,UPO,2006-2010,outgoing
-Réunion,RE,12,UPO,2006-2010,outgoing
-Myanmar,MM,11,UPO,2006-2010,outgoing
-Sudan,SD,11,UPO,2006-2010,outgoing
-Cameroon,CM,11,UPO,2006-2010,outgoing
-Paraguay,PY,11,UPO,2006-2010,outgoing
-Guadeloupe,GP,10,UPO,2006-2010,outgoing
-Zimbabwe,ZW,10,UPO,2006-2010,outgoing
-Benin,BJ,10,UPO,2006-2010,outgoing
-Iran (Islamic Republic of),IR,9,UPO,2006-2010,outgoing
-Iraq,IQ,9,UPO,2006-2010,outgoing
-Libya,LY,9,UPO,2006-2010,outgoing
-Zambia,ZM,9,UPO,2006-2010,outgoing
-Antigua and Barbuda,AG,8,UPO,2006-2010,outgoing
-Malta,MT,8,UPO,2006-2010,outgoing
-Syria,SY,8,UPO,2006-2010,outgoing
-Angola,AO,8,UPO,2006-2010,outgoing
-Seychelles,SC,8,UPO,2006-2010,outgoing
-Tajikistan,TJ,8,UPO,2006-2010,outgoing
-Ivory Coast,CI,7,UPO,2006-2010,outgoing
-Bolivia,BO,6,UPO,2006-2010,outgoing
-Madagascar,MG,6,UPO,2006-2010,outgoing
-Yemen,YE,6,UPO,2006-2010,outgoing
-Bhutan,BT,6,UPO,2006-2010,outgoing
-Palau,PW,5,UPO,2006-2010,outgoing
-Curaçao,CW,5,UPO,2006-2010,outgoing
-Gabon,GA,5,UPO,2006-2010,outgoing
-Malawi,MW,5,UPO,2006-2010,outgoing
-San Marino,SM,5,UPO,2006-2010,outgoing
-Botswana,BW,4,UPO,2006-2010,outgoing
-New Caledonia,NC,4,UPO,2006-2010,outgoing
-Brunei,BN,4,UPO,2006-2010,outgoing
-Namibia,,4,UPO,2006-2010,outgoing
-American Samoa,AS,4,UPO,2006-2010,outgoing
-Laos,LA,4,UPO,2006-2010,outgoing
-Rwanda,RW,4,UPO,2006-2010,outgoing
-Somalia,SO,4,UPO,2006-2010,outgoing
-Moldova,MD,4,UPO,2006-2010,outgoing
-Nicaragua,NI,4,UPO,2006-2010,outgoing
-Fiji,FJ,3,UPO,2006-2010,outgoing
-Albania,AL,3,UPO,2006-2010,outgoing
-South Sudan,SS,2,UPO,2006-2010,outgoing
-French Polynesia,PF,2,UPO,2006-2010,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,2,UPO,2006-2010,outgoing
-Afghanistan,AF,2,UPO,2006-2010,outgoing
-Barbados,BB,2,UPO,2006-2010,outgoing
-Mali,ML,2,UPO,2006-2010,outgoing
-Mauritius,MU,2,UPO,2006-2010,outgoing
-Niger,NE,1,UPO,2006-2010,outgoing
-Haiti,HT,1,UPO,2006-2010,outgoing
-Honduras,HN,1,UPO,2006-2010,outgoing
-French Guiana,GF,1,UPO,2006-2010,outgoing
-St Kitts and Nevis,KN,1,UPO,2006-2010,outgoing
-European Union,EU,1,UPO,2006-2010,outgoing
-Guinea-Bissau,GW,1,UPO,2006-2010,outgoing
-Eswatini,SZ,1,UPO,2006-2010,outgoing
-Micronesia,FM,1,UPO,2006-2010,outgoing
-Congo Republic,CG,1,UPO,2006-2010,outgoing
-Greenland,GL,1,UPO,2006-2010,outgoing
-Tanzania (United Republic of),TZ,1,UPO,2006-2010,outgoing
-Eritrea,ER,1,UPO,2006-2010,outgoing
-Isle of Man,IM,1,UPO,2006-2010,outgoing
-Burundi,BI,1,UPO,2006-2010,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,82,UPO,2006-2010,outgoing
+AF,Afghanistan,2,UPO,2006-2010,outgoing
+AG,Antigua and Barbuda,8,UPO,2006-2010,outgoing
+AL,Albania,3,UPO,2006-2010,outgoing
+AM,Armenia,536,UPO,2006-2010,outgoing
+AO,Angola,8,UPO,2006-2010,outgoing
+AR,Argentina,1596,UPO,2006-2010,outgoing
+AT,Austria,3902,UPO,2006-2010,outgoing
+AU,Australia,15803,UPO,2006-2010,outgoing
+AZ,Azerbaijan,228,UPO,2006-2010,outgoing
+BA,Bosnia and Herzegovina,68,UPO,2006-2010,outgoing
+BB,Barbados,2,UPO,2006-2010,outgoing
+BD,Bangladesh,33,UPO,2006-2010,outgoing
+BE,Belgium,8583,UPO,2006-2010,outgoing
+BG,Bulgaria,782,UPO,2006-2010,outgoing
+BH,Bahrain,140,UPO,2006-2010,outgoing
+BI,Burundi,1,UPO,2006-2010,outgoing
+BJ,Benin,10,UPO,2006-2010,outgoing
+BN,Brunei,4,UPO,2006-2010,outgoing
+BO,Bolivia,6,UPO,2006-2010,outgoing
+BR,Brazil,6989,UPO,2006-2010,outgoing
+BT,Bhutan,6,UPO,2006-2010,outgoing
+BW,Botswana,4,UPO,2006-2010,outgoing
+BY,Belarus,503,UPO,2006-2010,outgoing
+CA,Canada,21864,UPO,2006-2010,outgoing
+CG,Congo Republic,1,UPO,2006-2010,outgoing
+CH,Switzerland,16204,UPO,2006-2010,outgoing
+CI,Ivory Coast,7,UPO,2006-2010,outgoing
+CL,Chile,631,UPO,2006-2010,outgoing
+CM,Cameroon,11,UPO,2006-2010,outgoing
+CN,China,28125,UPO,2006-2010,outgoing
+CO,Colombia,858,UPO,2006-2010,outgoing
+CR,Costa Rica,20,UPO,2006-2010,outgoing
+CU,Cuba,93,UPO,2006-2010,outgoing
+CY,Cyprus,501,UPO,2006-2010,outgoing
+CZ,Czechia,4231,UPO,2006-2010,outgoing
+DE,Germany,50212,UPO,2006-2010,outgoing
+DK,Denmark,7821,UPO,2006-2010,outgoing
+DZ,Algeria,48,UPO,2006-2010,outgoing
+EC,Ecuador,358,UPO,2006-2010,outgoing
+EE,Estonia,260,UPO,2006-2010,outgoing
+EG,Egypt,257,UPO,2006-2010,outgoing
+ER,Eritrea,1,UPO,2006-2010,outgoing
+ES,Spain,19804,UPO,2006-2010,outgoing
+ET,Ethiopia,135,UPO,2006-2010,outgoing
+EU,European Union,1,UPO,2006-2010,outgoing
+FI,Finland,6981,UPO,2006-2010,outgoing
+FJ,Fiji,3,UPO,2006-2010,outgoing
+FM,Micronesia,1,UPO,2006-2010,outgoing
+FR,France,94389,UPO,2006-2010,outgoing
+GA,Gabon,5,UPO,2006-2010,outgoing
+GB,United Kingdom,66765,UPO,2006-2010,outgoing
+GD,Grenada,18,UPO,2006-2010,outgoing
+GE,Georgia,423,UPO,2006-2010,outgoing
+GH,Ghana,185,UPO,2006-2010,outgoing
+GR,Greece,4892,UPO,2006-2010,outgoing
+GT,Guatemala,17,UPO,2006-2010,outgoing
+GW,Guinea-Bissau,1,UPO,2006-2010,outgoing
+HN,Honduras,1,UPO,2006-2010,outgoing
+HR,Croatia,1317,UPO,2006-2010,outgoing
+HT,Haiti,1,UPO,2006-2010,outgoing
+HU,Hungary,2959,UPO,2006-2010,outgoing
+ID,Indonesia,66,UPO,2006-2010,outgoing
+IE,Ireland,2607,UPO,2006-2010,outgoing
+IL,Israel,4218,UPO,2006-2010,outgoing
+IN,India,9124,UPO,2006-2010,outgoing
+IQ,Iraq,9,UPO,2006-2010,outgoing
+IR,Iran,793,UPO,2006-2010,outgoing
+IS,Iceland,368,UPO,2006-2010,outgoing
+IT,Italy,86082,UPO,2006-2010,outgoing
+JM,Jamaica,38,UPO,2006-2010,outgoing
+JO,Jordan,179,UPO,2006-2010,outgoing
+JP,Japan,26088,UPO,2006-2010,outgoing
+KE,Kenya,66,UPO,2006-2010,outgoing
+KH,Cambodia,33,UPO,2006-2010,outgoing
+KN,St Kitts and Nevis,1,UPO,2006-2010,outgoing
+KR,South Korea,11151,UPO,2006-2010,outgoing
+KW,Kuwait,39,UPO,2006-2010,outgoing
+KZ,Kazakhstan,160,UPO,2006-2010,outgoing
+LA,Laos,4,UPO,2006-2010,outgoing
+LB,Lebanon,200,UPO,2006-2010,outgoing
+LK,Sri Lanka,34,UPO,2006-2010,outgoing
+LT,Lithuania,88,UPO,2006-2010,outgoing
+LU,Luxembourg,82,UPO,2006-2010,outgoing
+LV,Latvia,63,UPO,2006-2010,outgoing
+LY,Libya,9,UPO,2006-2010,outgoing
+MA,Morocco,273,UPO,2006-2010,outgoing
+MD,Moldova,4,UPO,2006-2010,outgoing
+ME,Montenegro,157,UPO,2006-2010,outgoing
+MG,Madagascar,6,UPO,2006-2010,outgoing
+MK,North Macedonia,17,UPO,2006-2010,outgoing
+ML,Mali,2,UPO,2006-2010,outgoing
+MM,Myanmar,11,UPO,2006-2010,outgoing
+MN,Mongolia,104,UPO,2006-2010,outgoing
+MT,Malta,8,UPO,2006-2010,outgoing
+MU,Mauritius,2,UPO,2006-2010,outgoing
+MW,Malawi,5,UPO,2006-2010,outgoing
+MX,Mexico,2318,UPO,2006-2010,outgoing
+MY,Malaysia,648,UPO,2006-2010,outgoing
+MZ,Mozambique,16,UPO,2006-2010,outgoing
+NE,Niger,1,UPO,2006-2010,outgoing
+NG,Nigeria,121,UPO,2006-2010,outgoing
+NI,Nicaragua,4,UPO,2006-2010,outgoing
+NL,The Netherlands,21103,UPO,2006-2010,outgoing
+NO,Norway,3817,UPO,2006-2010,outgoing
+NP,Nepal,13,UPO,2006-2010,outgoing
+NZ,New Zealand,1576,UPO,2006-2010,outgoing
+OM,Oman,17,UPO,2006-2010,outgoing
+PA,Panama,13,UPO,2006-2010,outgoing
+PE,Peru,50,UPO,2006-2010,outgoing
+PH,Philippines,270,UPO,2006-2010,outgoing
+PK,Pakistan,314,UPO,2006-2010,outgoing
+PL,Poland,9566,UPO,2006-2010,outgoing
+PS,Palestine,55,UPO,2006-2010,outgoing
+PT,Portugal,2730,UPO,2006-2010,outgoing
+PW,Palau,5,UPO,2006-2010,outgoing
+PY,Paraguay,11,UPO,2006-2010,outgoing
+QA,Qatar,144,UPO,2006-2010,outgoing
+RO,Romania,519,UPO,2006-2010,outgoing
+RS,Serbia,710,UPO,2006-2010,outgoing
+RU,Russia,12954,UPO,2006-2010,outgoing
+RW,Rwanda,4,UPO,2006-2010,outgoing
+SA,Saudi Arabia,112,UPO,2006-2010,outgoing
+SC,Seychelles,8,UPO,2006-2010,outgoing
+SD,Sudan,11,UPO,2006-2010,outgoing
+SE,Sweden,10024,UPO,2006-2010,outgoing
+SG,Singapore,2135,UPO,2006-2010,outgoing
+SI,Slovenia,1214,UPO,2006-2010,outgoing
+SK,Slovakia,2107,UPO,2006-2010,outgoing
+SM,San Marino,5,UPO,2006-2010,outgoing
+SN,Senegal,14,UPO,2006-2010,outgoing
+SO,Somalia,4,UPO,2006-2010,outgoing
+SS,South Sudan,2,UPO,2006-2010,outgoing
+SV,El Salvador,31,UPO,2006-2010,outgoing
+SY,Syria,8,UPO,2006-2010,outgoing
+SZ,Eswatini,1,UPO,2006-2010,outgoing
+TH,Thailand,440,UPO,2006-2010,outgoing
+TJ,Tajikistan,8,UPO,2006-2010,outgoing
+TN,Tunisia,242,UPO,2006-2010,outgoing
+TR,Turkey,2982,UPO,2006-2010,outgoing
+TT,Trinidad and Tobago,17,UPO,2006-2010,outgoing
+TW,Taiwan,5462,UPO,2006-2010,outgoing
+TZ,Tanzania,72,UPO,2006-2010,outgoing
+UA,Ukraine,1007,UPO,2006-2010,outgoing
+UG,Uganda,95,UPO,2006-2010,outgoing
+US,United States,264625,UPO,2006-2010,outgoing
+UY,Uruguay,86,UPO,2006-2010,outgoing
+UZ,Uzbekistan,429,UPO,2006-2010,outgoing
+VE,Venezuela,84,UPO,2006-2010,outgoing
+VN,Vietnam,78,UPO,2006-2010,outgoing
+YE,Yemen,6,UPO,2006-2010,outgoing
+ZA,South Africa,1177,UPO,2006-2010,outgoing
+ZM,Zambia,9,UPO,2006-2010,outgoing
+ZW,Zimbabwe,10,UPO,2006-2010,outgoing

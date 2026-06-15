@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Citation Flows in Italian Science</title>
+    <title>Bloom Project - Mapping the Flow of Italian Science</title>
+    <link rel="icon" type="image/png" href="assets/img/logo_favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
@@ -31,22 +32,37 @@
                 <img src="assets/img/white_logo.png" alt="Bloom Logo" class="logo-img">
                 <span class="logo-text">Bloom</span>
             </a>
-            <ul class="nav-links">
+            <div class="hamburger-menu" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#explore">Explore</a></li>
                 <li><a href="#project">The Project</a></li>
                 <li><a href="#team">The Team</a></li>
-                <li><a href="#credits">Credits</a></li>
             </ul>
         </div>
     </nav>
     <div id="progress-bar"></div>
 
-
-
     <header class="section hero fade-in">
-        <div id="hero-map" class="hero-bg"></div>
+        <img src="assets/img/hero.png" class="hero-bg-logo" alt="Bloom Logo Background">
         <div class="content-wrapper hero-content">
-            <h1 class="title">Mapping the Flow<br>of Italian Science</h1>
+            <h1 class="title" style="margin-top: 4rem;">Mapping the Flow<br>of Italian Science</h1>
             <p class="subtitle">An exploration of citations and disciplinary flows across universities.</p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="35751528">0</span>
+                    <span class="stat-label">Incoming Citations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="36373407">0</span>
+                    <span class="stat-label">Outgoing Citations</span>
+                </div>
+            </div>
+
             <div class="scroll-indicator">
                 <span class="mouse">
                     <span class="wheel"></span>
@@ -57,13 +73,38 @@
     </header>
 
     <main>
-        <section id="project" class="section introduction slide-up">
+        <section id="explore" class="section introduction slide-up">
             <div class="content-wrapper">
-                <h2 class="section-title">The Foundation</h2>
-                <p class="text">Universities are interconnected through an invisible web of knowledge. Every citation is
-                    a link, a bridge between institutions, transferring ideas and shaping the landscape of research.</p>
-                <p class="text">We set out to map this landscape. By analyzing citation flows between universities, we
-                    uncover patterns of influence, collaboration, and the dissemination of knowledge across Italy.</p>
+                <h2 class="section-title">In the world of citations, are we really <span
+                        class="hand-drawn-circle">OPEN</span>(minded), or stuck in a <span
+                        class="hand-drawn-underline">comfort
+                        zone?</span></h2>
+                <p class="text"><span class="hand-drawn-underline"><strong>Mapping the Flow of Italian
+                            Science</strong></span> is an interactive platform that visualizes the results of a research
+                    project on Open Science.
+                <p class="text">The project builds on a recent study that created comprehensive datasets from the
+                    publication records of Italian universities managed through <span
+                        class="hand-drawn-circle"><strong>IRIS</strong></span>, the research information system adopted
+                    by Italian academic institutions. The datasets include all IRIS publications from selected
+                    universities that are indexed in OpenCitations Meta, together with all citation relationships
+                    recorded in OpenCitations Index involving those publications, either as citing or cited works. </p>
+                <p class="text">Building on this foundation, we collected and analyzed additional data to investigate
+                    citation networks and knowledge flows across six Italian universities: <strong>UNIBO, UNIMI, UNITO,
+                        UNIPD, SNS,</strong> and <strong>UPO</strong>.</p>
+                <div class="text highlight">
+                    Our analysis is guided by two key research questions:
+                    <ul class="highlight-list">
+                        <li><strong>RQ1</strong>: Which institutions and countries cite the publications of these
+                            universities, and which one are cited by them?</li>
+                        <li><strong>RQ2</strong>: Which disciplines cite the publication of these six Italian
+                            universities, and which disciplines do those universities cite in return?</li>
+                    </ul>
+                </div>
+                <p class="text">Through a series of interactive visualizations, this website reveals patterns of
+                    research connections and disciplinary exchange, offering new perspectives on how knowledge
+                    circulates within and beyond Italian academia.</p>
+                <p class="text">Explore the data and discover the flow of <span class="hand-drawn-circle">Italian
+                        science</span></p>
             </div>
         </section>
 
@@ -93,7 +134,8 @@
             <!-- Research Question I: The Map of Italian Science -->
             <section class="section dark-section map-section slide-up question1">
                 <div class="content-wrapper">
-                    <h2 class="section-title">Research Question I: The Map of Italian Science</h2>
+                    <p class="rq-label">Research Question I</p>
+                    <h2 class="section-title">The Map of Italian Science</h2>
                     <div>
                         <div class="text-column">
                             <p class="text">
@@ -129,23 +171,27 @@
                             and between incoming and outgoing flows.
                         </p>
                     </div>
-                    <div class="vis-controls" id="controls">
-                        <label for="institution-select">Select Institution: </label>
-                        <select id="institution-select">
-                            <option value="unibo">UNIBO</option>
-                            <option value="unimi">UNIMI</option>
-                            <option value="unito">UNITO</option>
-                            <option value="unipd">UNIPD</option>
-                            <option value="sns">SNS</option>
-                            <option value="upo">UPO</option>
-                        </select>
+                    <div class="vis-controls" id="controls"
+                        style="flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+                        <div class="chart-controls">
+                            <span class="chart-control-label">Select Institution</span>
+                            <div class="inst-btn-group map-inst-btn-group">
+                                <button class="inst-btn map-inst-btn active" data-inst="unibo">UNIBO</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unimi">UNIMI</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unito">UNITO</button>
+                                <button class="inst-btn map-inst-btn" data-inst="unipd">UNIPD</button>
+                                <button class="inst-btn map-inst-btn" data-inst="sns">SNS</button>
+                                <button class="inst-btn map-inst-btn" data-inst="upo">UPO</button>
+                            </div>
+                        </div>
 
-                        <label for="direction-select">Flow Direction: </label>
-                        <select id="direction-select">
-                            <!-- <option value="both">Both</option> -->
-                            <option value="incoming">Incoming</option>
-                            <option value="outgoing">Outgoing</option>
-                        </select>
+                        <div class="chart-controls">
+                            <span class="chart-control-label">Flow Direction</span>
+                            <div class="inst-btn-group map-dir-btn-group">
+                                <button class="inst-btn map-dir-btn active" data-dir="incoming">Incoming</button>
+                                <button class="inst-btn map-dir-btn" data-dir="outgoing">Outgoing</button>
+                            </div>
+                        </div>
                     </div>
                     <!-- Interactive Map -->
                     <div id="chartdiv"></div>
@@ -186,17 +232,35 @@
                         <div class="text-column">
                             <!-- <h2 class="section-title">The Shared Skeleton</h2> -->
                             <p class="text">
-                                Each bubble represents a country, sized by its average citation volume across all six
-                                institutions.
-                                Universal partners (present in all six institutions' top 12) are highlighted in gold,
-                                while
-                                others remain subtle.
+                                Each bubble is a country. <br> <span class="hand-drawn-underline">Size</span> reflects
+                                citation volume. Gold bubbles appear in
+                                every
+                                institution's top 12 — click to see which institutions share them.
                             </p>
+                            <p class="text">
+                                Below the top six, the shared skeleton begins to fracture.
+                                <br><span class="hand-drawn-circle">Japan</span> appears for the four large universities
+                                — but <strong>UPO</strong> replaces it with <span>India</span>, <strong>SNS</strong>
+                                with
+                                <span class="hand-drawn-circle">Russia</span>. <span class="hand-drawn-circle">South
+                                    Korea</span> and <span class="hand-drawn-circle">Türkiye</span> appear only for the
+                                two smallest institutions.
+                            </p>
+                            <div class="reminder-callout">
+                                <span class="reminder-icon">💡</span>
+                                <div class="reminder-content">
+                                    <strong>Keep in mind:</strong> UNIBO, UNIMI, UNIPD, and UNITO operate at five to ten
+                                    times the citation
+                                    volume of UPO and SNS. The meaningful comparison here is not the raw volume that
+                                    flows — but which
+                                    countries appear, and how balanced the exchange is.
+                                </div>
+                            </div>
                         </div>
                         <div class="visual-column large">
                             <div class="bubble-legend-wrapper">
                                 <div class="custom-legend">
-                                    <p class="legend-title">Hover over a country to see which institutions share it as a
+                                    <p class="legend-title">Click on a country to see which institutions share it as a
                                         top
                                         citation partner.</p>
                                     <div class="legend-items">
@@ -222,56 +286,43 @@
                 <div class="content-wrapper">
                     <div class="text-column center-content">
                         <p class="text highlight">
-                            The shared skeleton is real, but it masks three things worth paying attention to.
+                            The shared skeleton is real — but knowing which countries appear
+                            tells you nothing about whether the exchange is equal. <span class="hand-drawn-underline">It
+                                isn't.</span>
                         </p>
                     </div>
 
                     <div class="content-wrapper" style="margin-top: 5rem;">
-                    <div class="flow-aligned-container">
-                        
-                        <!-- United States Row -->
-                        <div class="flow-aligned-row">
-                            <div class="flow-aligned-visual">
-                                <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                    <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                    <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <polyline points="32,6 24,12 32,18" fill="none" stroke="var(--color-primary)"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
-                                </svg>
-                                <div class="flow-visual-desc" style="text-align: center; width: 100%;">(outgoing &gt;&gt; incoming)</div>
-                            </div>
-                            <div class="flow-aligned-text">
-                                <p class="text">
-                                    The relationship with the <span class="hand-drawn-circle">
-                                        <strong>United States</strong>
-                                    </span> is unbalanced.
-                                    Across all six institutions, Italian universities cite American
-                                    science far more than American science cites them back.
-                                </p>
-                            </div>
-                        </div>
+                        <div class="flow-aligned-container">
 
                             <!-- United States Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                        <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <polyline points="32,6 24,12 32,18" fill="none" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                    <div class="flow-badge flow-badge-out">Italy cites more</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <defs>
+                                            <marker id="arr-out" markerWidth="6" markerHeight="6" refX="5" refY="3"
+                                                orient="auto">
+                                                <path d="M0,0 L6,3 L0,6 Z" fill="#320E3B" />
+                                            </marker>
+                                        </defs>
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 23.5%</text>
+                                        <line x1="6" y1="22" x2="126" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="22" r="3" fill="#B7990D" />
+                                        <circle cx="126" cy="22" r="3" fill="#B7990D" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 29.6%</text>
+                                        <line x1="6" y1="46" x2="158" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" marker-end="url(#arr-out)" />
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(outgoing
-                                        &gt;&gt; incoming)</div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
                                         The relationship with the <span class="hand-drawn-circle">
                                             <strong>United States</strong>
-                                        </span> is unbalanced.
+                                        </span> is <strong>unbalanced</strong>.
                                         Across all six institutions, Italian universities cite American
                                         science far more than American science cites them back.
                                     </p>
@@ -281,25 +332,34 @@
                             <!-- China Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-red)" />
-                                        <line x1="24" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <polyline points="188,6 196,12 188,18" fill="none" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-red)" />
+                                    <div class="flow-badge flow-badge-in">China cites more</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <defs>
+                                            <marker id="arr-in" markerWidth="6" markerHeight="6" refX="1" refY="3"
+                                                orient="auto">
+                                                <path d="M6,0 L0,3 L6,6 Z" fill="#B7990D" />
+                                            </marker>
+                                        </defs>
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 7.2%</text>
+                                        <line x1="6" y1="22" x2="148" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" marker-end="url(#arr-in)" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 3.2%</text>
+                                        <line x1="6" y1="46" x2="66" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="46" r="3" fill="#320E3B" />
+                                        <circle cx="66" cy="46" r="3" fill="#320E3B" />
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(incoming
-                                        &gt;&gt; outgoing)</div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
                                         <span class="hand-drawn-circle"><strong>China</strong></span> inverts the
                                         pattern.
-                                        Chinese publications cite Italian
-                                        research more than Italian research cites Chinese publications back —
-                                        likely reflecting Western-centric citation practices and disciplinary
-                                        differences between the two scientific communities.
+                                        Chinese publications cite Italian research more than Italian research
+                                        cites Chinese publications back — likely reflecting <strong>Western-centric
+                                            citation practices</strong> and disciplinary differences between the two
+                                        scientific communities.
                                     </p>
                                 </div>
                             </div>
@@ -307,25 +367,28 @@
                             <!-- France Row -->
                             <div class="flow-aligned-row">
                                 <div class="flow-aligned-visual">
-                                    <svg width="220" height="24" viewBox="0 0 220 24" class="flow-visual-svg">
-                                        <circle cx="12" cy="12" r="5" fill="var(--color-primary)" />
-                                        <line x1="24" y1="12" x2="95" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <text x="110" y="18" font-family="var(--font-body)" font-size="20"
-                                            fill="var(--color-primary)" text-anchor="middle" font-weight="bold">≈</text>
-                                        <line x1="125" y1="12" x2="196" y2="12" stroke="var(--color-primary)"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="208" cy="12" r="5" fill="var(--color-primary)" />
+                                    <div class="flow-badge flow-badge-bal">Balanced</div>
+                                    <svg width="220" height="48" viewBox="0 0 220 48">
+                                        <text x="6" y="13" font-size="10" fill="#B7990D"
+                                            font-family="var(--font-body)">incoming 12.7%</text>
+                                        <line x1="6" y1="22" x2="138" y2="22" stroke="#B7990D" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="22" r="3" fill="#B7990D" />
+                                        <circle cx="138" cy="22" r="3" fill="#B7990D" />
+                                        <text x="6" y="40" font-size="10" fill="#320E3B"
+                                            font-family="var(--font-body)">outgoing 12.9%</text>
+                                        <line x1="6" y1="46" x2="139" y2="46" stroke="#320E3B" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <circle cx="6" cy="46" r="3" fill="#320E3B" />
+                                        <circle cx="139" cy="46" r="3" fill="#320E3B" />
+                                        <text x="144" y="38" font-size="20" fill="#1a6e31"
+                                            font-family="var(--font-body)" font-weight="500">≈</text>
                                     </svg>
-                                    <div class="flow-visual-desc" style="text-align: center; width: 100%;">(balanced)
-                                    </div>
                                 </div>
                                 <div class="flow-aligned-text">
                                     <p class="text">
                                         <span class="hand-drawn-circle"><strong>France</strong></span> is the exception:
-                                        a
-                                        genuinely balanced
-                                        partner.
+                                        a genuinely <strong>balanced</strong> partner.
                                         Citation flows in both directions are roughly equal across all six
                                         institutions — a sign of real bilateral collaboration, rooted in shared
                                         European research infrastructure.
@@ -338,28 +401,142 @@
                 </div>
             </section>
 
+            <!-- Deviation Heatmap-->
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div class="two-column">
+                        <div class="visual-column large">
+                            <div class="flow-aligned-row">
+                                <div class="chart-controls" id="heatmap-controls">
+                                    <span class="chart-control-label">Flow Direction</span>
+                                    <div class="inst-btn-group heatmap-dir-btn-group">
+                                        <button class="inst-btn heatmap-dir-btn active"
+                                            data-dir="incoming">Incoming</button>
+                                        <button class="inst-btn heatmap-dir-btn" data-dir="outgoing">Outgoing</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="heatmap_chartdiv" style="width: 100%; height: 600px;">
+                            </div>
+                        </div>
+
+                        <div class="text-column center-content">
+                            <p class="text">
+                                <span class="hand-drawn-underline">Each institution cites the world differently.</span>
+                                <br> This chart maps those differences — not in absolute terms, but relative to the
+                                average across all six Italian universities.
+                            </p>
+                            <div class="reminder-callout">
+                                <div class="reminder-content">
+                                    A <strong>dark purple</strong> cells means that institution deviates positively from
+                                    the average pattern calculated for that country; <strong>red</strong> indicates it
+                                    deviates
+                                    negatively.
+                                    <strong>White</strong> cells represent the baseline, indicating that an
+                                    institution’s citation flow closely
+                                    matches the overall citation pattern.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Asymmetry Map -->
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div>
+                        <div class="vis-controls" id="asymmetry-controls"
+                            style="flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Select Institution</span>
+                                <div class="inst-btn-group asymmetry-inst-btn-group">
+                                    <button class="inst-btn asymmetry-inst-btn active" data-inst="UNIBO">UNIBO</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNITO">UNITO</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="SNS">SNS</button>
+                                    <button class="inst-btn asymmetry-inst-btn" data-inst="UPO">UPO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="asymmetry_chartdiv"></div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section slide-up question1">
+                <div class="content-wrapper">
+                    <div class="cards-viz">
+                        <div class="insight-card">
+                            <h3 class="insight-card-title">Italy <span class="hand-drawn-circle"><strong>exports
+                                        knowledge</strong></span> to the
+                                world</h3>
+                            <p class="insight-card-text">For most countries — especially across the <strong>Global
+                                    South</strong> — the
+                                map turns yellow. They cite Italian research more than Italy cites them back.
+                            </p>
+                        </div>
+                        <div class="insight-card">
+                            <h3 class="insight-card-title">Italy cites America. America doesn't always cite back.</h3>
+                            <p class="insight-card-text">Across all six institutions, the US shows an <span
+                                    class="hand-drawn-circle"><strong>outgoing bias</strong></span> — except one.</p>
+                        </div>
+                        <div class="insight-card">
+                            <h3 class="insight-card-title">Scuola Normale Superiore is always the <span
+                                    class="hand-drawn-circle">outlier</span></h3>
+                            <p class="insight-card-text">
+                                The only institution <span class="hand-drawn-underline"><strong>nearly
+                                        balanced</strong></span> with the
+                                <strong>US</strong>.
+                                Over-indexed toward <strong>Russia</strong>, under-indexed toward
+                                <strong>China</strong>.
+                            </p>
+                        </div>
+                        <div class="insight-card">
+                            <h3 class="insight-card-title">University of Eastern Piedmont looks East</h3>
+                            <p class="insight-card-text">The most <span
+                                    class="hand-drawn-underline"><strong>Asia-oriented</strong></span> institution in
+                                the group —
+                                consistently, across both charts.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             <!-- organization analysis -->
             <section id="organisations" class="section sankey-section slide-up question1">
                 <div class="content-wrapper">
                     <div>
                         <div class="text-column center-content">
-                            <p class="text highlight">Moving from countries to <span class="hand-drawn-underline">organizations</span> reveals a similar structural convergence: all six Italian institutions engage with the same core set of international partners.</p>
+                            <p class="text highlight">Moving from countries to <span
+                                    class="hand-drawn-underline">organizations</span> reveals a similar structural
+                                convergence: all six Italian institutions engage with the same core set of international
+                                partners. <br> A deeper analysis of the data uncovers additional patterns.</p>
+                            <p class="text">The visualizations below show the top 15 organizations that either cite, or
+                                are cited by, the six Italian institutions included in this study. They also reveal the
+                                degree of <span class="hand-drawn-underline">reciprocity</span> in the citation
+                                relationships.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Sankey Row -->
-                <div style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(2rem, calc((100vw - 1200px) / 2)); padding-right: 2rem;">
-                    
+                <div
+                    style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: 2rem;">
+
                     <!-- Buttons in top right -->
                     <div style="grid-column: 2; grid-row: 1; display: flex; justify-content: center;">
                         <div class="org-view-toggle" id="org-controls" style="margin: 0;">
-                            <button class="org-view-btn active" id="org-btn-sankey" data-view="sankey" aria-pressed="true">
+                            <button class="org-view-btn active" id="org-btn-sankey" data-view="sankey"
+                                aria-pressed="true">
                                 <span class="org-btn-icon">⇄</span>
                                 <span class="org-btn-label">Italy included</span>
                             </button>
-                            <button class="org-view-btn" id="org-btn-sankey-no-italy" data-view="sankey-no-italy" aria-pressed="false">
+                            <button class="org-view-btn" id="org-btn-sankey-no-italy" data-view="sankey-no-italy"
+                                aria-pressed="false">
                                 <span class="org-btn-icon">⇄</span>
                                 <span class="org-btn-label">Italy excluded</span>
                             </button>
@@ -368,31 +545,87 @@
 
                     <!-- Text in bottom left -->
                     <div style="grid-column: 1; grid-row: 2;">
-                        <p class="text"><span class="hand-drawn-circle">CNRS</span> stands out as the single organization with the highest citation volume across all six institutions — and uniquely, its bubble sits almost exactly on the diagonal line of perfect symmetry, meaning Italian universities cite it as much as it cites them.</p>
+                        <p class="text"><span class="hand-drawn-circle"><strong>Italian</strong></span> organizations
+                            occupy many of the top positions. To better understand each institution's international
+                            citation profile, the analysis can be viewed both with and without Italian organizations.
+                            When Italy is included, domestic citation networks appear dense and highly reciprocal. The
+                            <strong>near-perfect symmetry</strong> of these relationships suggests that citations among
+                            Italian institutions are mutual rather than driven by one-sided dependence.
+                        </p>
+                        <p class="text">Removing Italian organizations from the analysis highlights important
+                            differences between institutions. UPO undergoes the most striking transformation: its
+                            previously concentrated network gives way to a profile centered on large-scale physics
+                            infrastructures and research organizations, for instance including CERN and IN2P3. In this
+                            configuration, its citation pattern becomes structurally similar to that of SNS.</p>
                     </div>
 
                     <!-- Diagram Box in bottom right -->
                     <div style="grid-column: 2; grid-row: 2; position: relative; width: 100%; height: 740px;">
-                        <div id="sankey-chartdiv" style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light);"></div>
+                        <div id="sankey-chartdiv"
+                            style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light);">
+                        </div>
                         <!-- Legend overlaid inside the box at the top center -->
-                        <div id="sankey-legend" style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: var(--font-body, 'Inter', sans-serif); color: var(--color-text-dark, #1A1A1A); font-size: 0.80rem; pointer-events: none;">
-                            <span>Incoming (Left) &nbsp;→&nbsp; Italian Institutions (Center) &nbsp;→&nbsp; Outgoing (Right)</span>
+                        <div id="sankey-legend"
+                            style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: var(--font-body, 'Inter', sans-serif); color: var(--color-text-dark, #1A1A1A); font-size: 0.80rem; pointer-events: none;">
+                            <span>Incoming (Left) &nbsp;→&nbsp; Italian Institutions (Center) &nbsp;→&nbsp; Outgoing
+                                (Right)</span>
                         </div>
                     </div>
 
                 </div>
-                
+
+                <div class="content-wrapper" style="margin-bottom: 4rem">
+                    <div class="text-column center-content">
+                        <p class="text">Two organizations stand out across the
+                            dataset: <span class="hand-drawn-circle"><strong>CNRS</strong></span> and <strong>Harvard
+                                University Press</strong>. CNRS records the highest overall citation volume among all
+                            organizations connected to the six Italian institutions. Its position almost exactly on the
+                            diagonal line indicates a highly balanced relationship: Italian universities cite CNRS as
+                            much as CNRS cites them. This combination of prominence and reciprocity is remarkably
+                            consistent across institutions.</p>
+                    </div>
+                </div>
+
                 <!-- scatter plot -->
-                <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: 2rem; padding-right: max(2rem, calc((100vw - 1200px) / 2));">
+                <div
+                    style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
                     <div>
-                        <div id="scatter-chartdiv" style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
-                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...</div>
+                        <div id="scatter-chartdiv"
+                            style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
+                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...
+                            </div>
                         </div>
                     </div>
-
                     <div>
-                        <h3 style="font-family: var(--font-heading); color: var(--color-primary); font-size: 1.5rem; margin-bottom: 1rem;">Reciprocity</h3>
-                        <p class="text">analysis</p>
+                        <div class="reminder-callout">
+                            <div class="reminder-content">
+                                The <strong>dashed diagonal</strong> marks perfect reciprocity — points above cite less
+                                back than they are cited; points below cite more than they receive. The <strong>bubble
+                                    size</strong> reveals the citation volume of an organization.
+                            </div>
+                        </div>
+                        <p class="text" style="margin-top: 2rem;"><span class="hand-drawn-circle"><strong>United
+                                    States</strong></span>
+                            organizations are consistently positioned above the diagonal, indicating that Italian
+                            institutions draw more heavily on American research than American organizations cite Italian
+                            work in return. Harvard University Press represents the clearest example of this asymmetry,
+                            making publisher-driven citation dependence one of the most visible patterns in the data.
+                        </p>
+                        <p class="text">By contrast, <span class="hand-drawn-circle"><strong>Chinese</strong></span>
+                            organizations tend to appear below the diagonal. Across all six institutions, they cite
+                            Italian research more frequently than Italian institutions cite them.</p>
+                    </div>
+                </div>
+
+                <div class="content-wrapper" style="margin-top: 3rem; margin-bottom: 2rem;">
+                    <div class="text-column center-content">
+                        <p class="text">Two organizations stand out across the
+                            dataset: <span class="hand-drawn-circle"><strong>CNRS</strong></span> and <strong>Harvard
+                                University Press</strong>. CNRS records the highest overall citation volume among all
+                            organizations connected to the six Italian institutions. Its position almost exactly on the
+                            diagonal line indicates a highly balanced relationship: Italian universities cite CNRS as
+                            much as CNRS cites them. This combination of prominence and reciprocity is remarkably
+                            consistent across institutions.</p>
                     </div>
                 </div>
             </section>
@@ -400,37 +633,75 @@
             <!-- Sunburst -->
             <section id="sunburst" class="section sunburst-section slide-up question1">
                 <div class="content-wrapper">
-                    <h2 class="section-title">Countries and Organizations Analysis</h2>
-                </div>
-
-                <div class="content-wrapper" style="margin-bottom: 2rem;">
-                    <div class="vis-controls" id="sunburst-controls">
-                        <label for="sunburst-inst-select">Institution: </label>
-                        <select id="sunburst-inst-select">
-                            <option value="UNIBO">University of Bologna</option>
-                            <option value="UNIMI">University of Milan</option>
-                            <option value="UNIPD">University of Padua</option>
-                            <option value="UNITO">University of Turin</option>
-                            <option value="UPO">University of Eastern Piedmont</option>
-                            <option value="SNS">Scuola Normale Superiore</option>
-                        </select>
-
-                        <label for="sunburst-dir-select">Direction: </label>
-                        <select id="sunburst-dir-select">
-                            <option value="incoming">Incoming citations</option>
-                            <option value="outgoing">Outgoing citations</option>
-                        </select>
+                    <div>
+                        <div class="text-column center-content">
+                            <p class="text highlight">A country’s importance is not only a matter of volume. It also
+                                depends on how that volume is <span class="hand-drawn-underline">distributed</span>.
+                                Some countries spread their citation activity across dozens of organizations, creating
+                                dense and resilient networks. Others rely heavily on one or two institutions, making
+                                their connections more concentrated - and potentially more fragile.</p>
+                            <p class="text">The sunburst charts reveal this difference at a glance. Wide, balanced rings
+                                indicate a diversified ecosystem; large dominant slices point to institutional
+                                dependence.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div id="sunburst-chartdiv">
-                    <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…</div>
+                <div
+                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: flex-start; margin-top: 5rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
+                    <div>
+                        <p class="text"><span class="hand-drawn-underline">Large scientific systems</span>— such as the
+                            United States, France, and Italy —tend to distribute citations across dozens of
+                            organizations. With the notable exception of CNRS, no single institution dominates. These
+                            relationships are systemic rather than bilateral, making them more resilient: the removal of
+                            any one organization would have little effect on the overall pattern.</p>
+                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation
+                                volumes,</span> such as Switzerland and Belgium, often display the opposite structure. A
+                            large share of their citation activity is concentrated in one or two organizations. These
+                            connections can be highly valuable, but they are also more dependent on specific
+                            institutions than on the broader national research system.</p>
+                        <p class="text">This distinction matters for research strategy. Citation volume alone does not
+                            necessarily indicate deep integration. A country generating thousands of citations through a
+                            single organization may be structurally more vulnerable than a smaller partner whose
+                            citations are distributed across a diverse network of institutions.</p>
+                    </div>
+
+                    <div>
+                        <div class="vis-controls" id="sunburst-controls"
+                            style="flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Select Institution</span>
+                                <div class="inst-btn-group sunburst-inst-btn-group">
+                                    <button class="inst-btn sunburst-inst-btn active" data-inst="UNIBO">UNIBO</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNITO">UNITO</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="SNS">SNS</button>
+                                    <button class="inst-btn sunburst-inst-btn" data-inst="UPO">UPO</button>
+                                </div>
+                            </div>
+
+                            <div class="chart-controls">
+                                <span class="chart-control-label">Flow Direction</span>
+                                <div class="inst-btn-group sunburst-dir-btn-group">
+                                    <button class="inst-btn sunburst-dir-btn active"
+                                        data-dir="incoming">Incoming</button>
+                                    <button class="inst-btn sunburst-dir-btn" data-dir="outgoing">Outgoing</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="sunburst-chartdiv">
+                            <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
 
         </div> <!-- End of RQ1 -->
-<!-- ============================================================
+        <!-- ============================================================
              ██████╗  ██████╗ ██████╗
              ██╔══██╗██╔═══██╗╚════██╗
              ██████╔╝██║   ██║ █████╔╝
@@ -448,8 +719,8 @@
         <section id="rq2" class="section rq2-intro-section slide-up">
             <div class="content-wrapper">
 
-                <!-- RQ2 SECTION LABEL — edit label text here -->
-                <p class="rq2-label">Research Question II</p>
+                <!-- RQ SECTION LABEL — edit label text here -->
+                <p class="rq-label">Research Question II</p>
 
                 <!-- SECTION TITLE — edit here -->
                 <h2 class="section-title">Disciplinary Flows</h2>
@@ -481,7 +752,7 @@
                     <!-- SUBSECTION DESCRIPTION — edit here -->
                     <p class="disc-group-desc">
                         Disciplines are based on the <strong>Library of Congress (LOC) Main Classifications</strong>,
-                        a broad internationally recognized scheme. 
+                        a broad internationally recognized scheme.
                     </p>
 
                     <!-- LOC Main pill row — edit pill labels here -->
@@ -519,7 +790,8 @@
                             <span class="disc-pill disc-pill--extra">Multidisciplinary</span>
                             <!-- MINI CARD DESCRIPTION — edit here -->
                             <span class="disc-pill-card-desc">
-                                Records that were categorized as "Multidisciplinary" in the original dataset, without a more specific LOC classification. 
+                                Records that were categorized as "Multidisciplinary" in the original dataset, without a
+                                more specific LOC classification.
                             </span>
                         </div>
 
@@ -528,8 +800,10 @@
                             <span class="disc-pill disc-pill--extra">Others</span>
                             <!-- MINI CARD DESCRIPTION — edit abbreviations here -->
                             <span class="disc-pill-card-desc">
-                                Records that could not be mapped to any LOC category, or disciplines with very few records, including:
-                                <em>Fine Arts · Law · Bibliography/Library Science · Auxiliary Sciences of History · Music · General Works · Naval Science</em>
+                                Records that could not be mapped to any LOC category, or disciplines with very few
+                                records, including:
+                                <em>Fine Arts · Law · Bibliography/Library Science · Auxiliary Sciences of History ·
+                                    Music · General Works · Naval Science</em>
                             </span>
                         </div>
 
@@ -573,7 +847,7 @@
                 <!-- ANSWER HEADLINE — the punchy one-liner answer -->
                 <!-- ANSWER HEADLINE TEXT — edit here -->
                 <p class="landscape-answer-headline">
-                    Science and Medicine account for over 60% of all citation activity, 
+                    Science and Medicine account for over 60% of all citation activity,
                     but every institution tells a different story.
                 </p>
 
@@ -594,11 +868,16 @@
 
                         <!-- INSTITUTION CALLOUT LIST — edit labels and descriptions here -->
                         <ul class="inst-callouts">
-                            <li><strong>UNIMI</strong> : Medicine-heavy. Medicine leads both citing and cited, with the largest gap between the top two disciplines and the rest of any institution.</li>
-                            <li><strong>SNS</strong> : Science-dominant. Science alone accounts for ~50% of citing and ~56% of cited activity. Medicine is a distant second.</li>
-                            <li><strong>UPO</strong> : Science and Medicine equally dominant, making UPO the most concentrated Science–Medicine institution overall.</li>
-                            <li><strong>UNITO</strong> : Shifts toward Medicine on the cited side, with Agriculture as a notable secondary discipline.</li>
-                            <li><strong>UNIBO &amp; UNIPD</strong> : Science-led but the most broadly distributed, with visible contributions from Technology, Geography, and Social Sciences.</li>
+                            <li><strong>UNIMI</strong> : Medicine-heavy. Medicine leads both citing and cited, with the
+                                largest gap between the top two disciplines and the rest of any institution.</li>
+                            <li><strong>SNS</strong> : Science-dominant. Science alone accounts for ~50% of citing and
+                                ~56% of cited activity. Medicine is a distant second.</li>
+                            <li><strong>UPO</strong> : Science and Medicine equally dominant, making UPO the most
+                                concentrated Science–Medicine institution overall.</li>
+                            <li><strong>UNITO</strong> : Shifts toward Medicine on the cited side, with Agriculture as a
+                                notable secondary discipline.</li>
+                            <li><strong>UNIBO &amp; UNIPD</strong> : Science-led but the most broadly distributed, with
+                                visible contributions from Technology, Geography, and Social Sciences.</li>
                         </ul>
 
                     </div><!-- /landscape-text -->
@@ -612,13 +891,13 @@
                         <div class="chart-controls">
                             <span class="chart-control-label">View by institution</span>
                             <div class="inst-btn-group">
-                                <button class="inst-btn active" data-inst="ALL">All</button>
-                                <button class="inst-btn" data-inst="UNIBO">UNIBO</button>
-                                <button class="inst-btn" data-inst="UNIMI">UNIMI</button>
-                                <button class="inst-btn" data-inst="UNIPD">UNIPD</button>
-                                <button class="inst-btn" data-inst="UNITO">UNITO</button>
-                                <button class="inst-btn" data-inst="UPO">UPO</button>
-                                <button class="inst-btn" data-inst="SNS">SNS</button>
+                                <button class="inst-btn landscape-inst-btn active" data-inst="ALL">All</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIBO">UNIBO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIMI">UNIMI</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNIPD">UNIPD</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UNITO">UNITO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="UPO">UPO</button>
+                                <button class="inst-btn landscape-inst-btn" data-inst="SNS">SNS</button>
                             </div>
                         </div>
 
@@ -643,7 +922,8 @@
 
                 <!-- TRANSITION TEXT — edit here -->
                 <div class="section-bridge section-bridge--dark">
-                    <p>These counts show <em>which</em> disciplines appear. Next, we trace the flows: <em>who cites whom</em>. </p>
+                    <p>These counts show <em>which</em> disciplines appear. Next, we trace the flows: <em>who cites
+                            whom</em>. </p>
                     <!-- <span class="bridge-arrow">↓</span> -->
                 </div>
 
@@ -665,7 +945,8 @@
 
                 <!-- ANSWER HEADLINE — edit here -->
                 <p class="landscape-answer-headline" style="color: var(--color-primary)">
-                    Large disciplines are self-contained.<br>Smaller ones tend to be evenly distributed while orbiting Science and Medicine.
+                    Large disciplines are self-contained.<br>Smaller ones tend to be evenly distributed while orbiting
+                    Science and Medicine.
                 </p>
 
                 <div class="sunburst-body">
@@ -675,7 +956,8 @@
 
                         <!-- EXPLANATION — edit here -->
                         <p class="landscape-explanation" style="color: #444">
-                            Each segment shows the share of a discipline that is <em>citing</em> the selected institution.
+                            Each segment shows the share of a discipline that is <em>citing</em> the selected
+                            institution.
                             Click any segment to drill down, and it will become the inner ring.
                             The outer ring reveals what disciplines are the works they cite.
                             Click the center to reset.
@@ -686,19 +968,34 @@
                             <span class="chart-control-label" style="color:#666">Institution</span>
                             <div class="inst-btn-group">
                                 <!-- data-sunburst values must match keys in SUNBURST_DATA in script.js -->
-                                <button class="inst-btn sunburst-inst-btn active" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="ALL">All</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIBO">UNIBO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIMI">UNIMI</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNIPD">UNIPD</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UNITO">UNITO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="UPO">UPO</button>
-                                <button class="inst-btn sunburst-inst-btn" style="color:#320E3B;border-color:rgba(50,14,59,0.3)" data-sunburst="SNS">SNS</button>
+                                <button class="inst-btn sunburst-inst-btn active"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="ALL">All</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIBO">UNIBO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIMI">UNIMI</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNIPD">UNIPD</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UNITO">UNITO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="UPO">UPO</button>
+                                <button class="inst-btn sunburst-inst-btn"
+                                    style="color:#320E3B;border-color:rgba(50,14,59,0.3)"
+                                    data-sunburst="SNS">SNS</button>
                             </div>
                         </div>
 
                         <!-- SELECTED DISCIPLINE INFO — filled by JS on click -->
                         <div class="sunburst-info" id="sunburst-info">
-                            <p class="sunburst-info-hint">Click an inner segment to explore a discipline's citation flows.</p>
+                            <p class="sunburst-info-hint">Click an inner segment to explore a discipline's citation
+                                flows.</p>
                         </div>
 
                     </div><!-- /sunburst-text -->
@@ -771,14 +1068,18 @@
                     <!-- ROW 2: Citing + Cited discipline (same row, multiple select) -->
                     <div class="sankey-controls-row sankey-disc-row">
                         <div class="sankey-control-group">
-                            <span class="chart-control-label">Citing discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <span class="chart-control-label">Citing discipline <span
+                                    class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
                             <!-- multiple select: populated by JS -->
-                            <select class="sankey-select sankey-select--multi" id="sankey-citing-filter" multiple size="5">
+                            <select class="sankey-select sankey-select--multi" id="sankey-citing-filter" multiple
+                                size="5">
                             </select>
                         </div>
                         <div class="sankey-control-group">
-                            <span class="chart-control-label">Cited discipline <span class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
-                            <select class="sankey-select sankey-select--multi" id="sankey-cited-filter" multiple size="5">
+                            <span class="chart-control-label">Cited discipline <span
+                                    class="sankey-select-hint">(Ctrl/Cmd + click for multiple)</span></span>
+                            <select class="sankey-select sankey-select--multi" id="sankey-cited-filter" multiple
+                                size="5">
                             </select>
                         </div>
                     </div>
@@ -804,45 +1105,159 @@
             </div>
         </section>
 
-
-        <section class="section conclusion slide-up">
+        <!-- Conclusion Section -->
+        <section class="section conclusion-section slide-up">
             <div class="content-wrapper">
-                <h2 class="section-title">The Story Continues</h2>
-                <p class="text">These preliminary insights are just the beginning. The data we have collected will soon
-                    be available in full, allowing researchers and the public to interact with the citation network
-                    directly.</p>
-                <a href="#" class="btn primary-btn">Download the Dataset</a>
+                <div class="center-content">
+                    <!-- Section 1: What the data tells us -->
+                    <div style="margin-bottom: 4rem;">
+                        <h2 class="section-title">What the data tells us</h2>
+                        <p class="text">
+                            Citation networks are <span class="hand-drawn-underline"><strong>not neutral</strong></span>
+                            <strong> maps of knowledge</strong> — they reflect the organisational structures,
+                            disciplinary hierarchies, and geopolitical asymmetries of the research system itself.
+                            Across all six institutions, citation activity concentrates around a small number of
+                            countries
+                            and disciplines.
+                        </p>
+                        <p class="text">
+                            <strong>Science</strong> and <strong>Medicine</strong> dominate everywhere. The
+                            <strong>United States</strong>, <strong>France</strong>, the <strong>United
+                                Kingdom</strong>,
+                            <strong>Germany</strong>, <strong>China</strong>, and <strong>Spain</strong> form a shared
+                            core that
+                            no Italian university escapes.
+                        </p>
+                        <p class="text highlight">
+                            But the data also reveals something less expected: for most of the world, <strong>Italian
+                                science</strong> is
+                            <span class="hand-drawn-underline">cited more than it cites back</span>. The asymmetry runs
+                            deeper
+                            than a simple centre-periphery story. It is shaped by language, disciplinary tradition,
+                            publishing infrastructure, and institutional size
+                            — none of which citation counts alone can explain.
+                        </p>
+                    </div>
+
+                    <!-- Section 2: What we don't know yet -->
+                    <div>
+                        <h2 class="section-title">What we don't know yet</h2>
+                        <p class="text">
+                            Citation patterns can show us <span class="hand-drawn-underline"><strong>where</strong>
+                                knowledge
+                                flows</span>. They cannot tell us <span
+                                class="hand-drawn-circle"><strong>why</strong></span> it
+                            flows the way it does.
+                        </p>
+                        <p class="text">
+                            Why are we always looking at the same countries? Why do some barely appear at all? What if
+                            some of the most important connections are waiting to be made — not within a single
+                            discipline or
+                            country, but <span class="hand-drawn-underline"><strong>across</strong> them?</span>
+                        </p>
+                        <p class="text">
+                            <span class="hand-drawn-circle"><strong>Citation</strong></span> is far more than a
+                            technical academic practice. It is the <strong>channel</strong> through which scientific
+                            knowledge is absorbed, evaluated, and extended. But it can also reinforce <span
+                                class="hand-drawn-underline"><strong>boundaries</strong></span> — between
+                            <strong>disciplines, countries, and communities</strong>. Researchers tend to cite within
+                            familiar
+                            networks, creating stable but limited ecosystems of knowledge exchange. Over time, these
+                            patterns
+                            risk reproducing the same perspectives <span class="hand-drawn-underline">rather than
+                                expanding
+                                them</span>.
+                        </p>
+                        <p class="text highlight">
+                            These questions point toward <strong>future research</strong> — into collaboration networks,
+                            funding structures, language barriers, and the role of open access in reshaping citation
+                            geographies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="section dark-section slide-up" style="padding-top: 6rem; padding-bottom: 6rem;">
+            <div class="content-wrapper">
+                <div class="finale-box" style="margin-top: 0;">
+                    <h2 class="title">Open science, open questions</h2>
+                    <p class="text">
+                        The availability of open data made this analysis possible — but it also exposed
+                        how uneven that openness can be. This is why <span class="hand-drawn-underline">studying
+                            <strong>citation patterns</strong> matters</span>.
+                    </p>
+                    <p class="text">
+                        The circulation of knowledge does not automatically become more open just because
+                        the infrastructure to study it does. <strong style="color: var(--color-accent);">The map is not
+                            the territory.</strong> But you can't change what
+                        you can't see.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="project" class="section project-section slide-up">
+            <div class="content-wrapper">
+                <h2 class="section-title">The Project</h2>
+                <p class="text">This project builds on the work of <strong>Andreose et al. (2026)</strong>, who mapped
+                    the coverage of
+                    Italian publications in OpenCitations
+                    and made the resulting dataset publicly available on <a href="https://zenodo.org/records/20159031"
+                        target="_blank" class="project-section-link hand-drawn-underline">Zenodo</a>.
+                    That dataset — linking IRIS publications from six Italian institutions to their citation
+                    relationships in OpenCitations Index — formed the foundation
+                    for everything you've explored here.
+                    <br><br>All code, data, and analysis pipelines are openly available in our <a
+                        href="https://github.com/open-sci/2025-2026" target="_blank"
+                        class="project-section-link hand-drawn-underline">GitHub
+                        repository</a>.
+                    <br>If you want to go deeper into the methodology, findings, and implications, the full academic
+                    <strong>paper</strong> is available <a href="" target="_blank"
+                        class="project-section-link hand-drawn-underline">here</a>.
+                </p>
+                <a href="#" class="btn primary-btn">Download the Paper</a>
             </div>
         </section>
 
         <section id="team" class="section team-section slide-up">
             <div class="content-wrapper">
                 <h2 class="section-title">The Team</h2>
-                <div class="two-column">
-                    <div class="text-column">
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="credits" class="section credits-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Credits</h2>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
+                <ul class="highlight-list">
+                    <li><strong>RQ1</strong>:
+                        <a href="https://github.com/epistrephein" target="_blank" class="team-link">Tommaso Barbato</a>,
+                        <a href="https://github.com/nicoldamelio" target="_blank" class="team-link">Nicol D'Amelio</a>,
+                        <a href="https://github.com/Maryamdadras" target="_blank" class="team-link">Maryam
+                            Dadrasrazi</a>,
+                        <a href="https://github.com/mir-pin" target="_blank" class="team-link">Miriana Pinto</a>,
+                        <a href="https://github.com/sararoggi" target="_blank" class="team-link">Sara Roggiani</a>,
+                        <a href="https://github.com/SinerYuu" target="_blank" class="team-link">Peize Yu</a>
+                    </li>
+                    <li><strong>RQ2</strong>:
+                        <a href="https://github.com/yigittakk" target="_blank" class="team-link">Yiğit Ak</a>,
+                        <a href="https://github.com/ChenQingHa" target="_blank" class="team-link">Qinghao Chen</a>,
+                        <a href="https://github.com/theair-hub" target="_blank" class="team-link">Ilaria De
+                            Dominicis</a>,
+                        <a href="https://github.com/lisitein" target="_blank" class="team-link">Yi Hua Li</a>,
+                        <a href="https://github.com/ValkyrieCain9" target="_blank" class="team-link">Regina W.K.
+                            Manyara</a>,
+                        <a href="https://github.com/shiho1000" target="_blank" class="team-link">Shiho Nakamura</a>,
+                        <a href="https://github.com/KikaYang" target="_blank" class="team-link">Tianchi Yang</a>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="content-wrapper">
-            <p>A research project on the dynamics of academic publishing.</p>
+            <p>This research project was developed for the <strong>Open Science</strong> course (a.y. 2025/2026)
+                <br>within
+                the <strong>Digital Humanities and Digital Knowledge</strong> Master's Degree at the University of
+                Bologna.
+            </p>
             <p>&copy; 2026 Open Science 2025-2026.</p>
         </div>
     </footer>
@@ -856,11 +1271,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
 
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/map.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/sankey.js"></script>
     <script src="assets/js/sunburst.js"></script>
     <script src="assets/js/bubble.js"></script>
+    <script src="assets/js/heatmap.js"></script>
+    <script src="assets/js/asymmetry_map.js"></script>
 
 
 </body>

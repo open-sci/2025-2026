@@ -1,164 +1,145 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,207510,UNIBO,2001-2005,incoming
-Italy,IT,155409,UNIBO,2001-2005,incoming
-France,FR,62669,UNIBO,2001-2005,incoming
-United Kingdom,GB,51452,UNIBO,2001-2005,incoming
-Germany,DE,31379,UNIBO,2001-2005,incoming
-Japan,JP,20029,UNIBO,2001-2005,incoming
-Canada,CA,19199,UNIBO,2001-2005,incoming
-Spain,ES,16475,UNIBO,2001-2005,incoming
-Russia,RU,12396,UNIBO,2001-2005,incoming
-Switzerland,CH,10078,UNIBO,2001-2005,incoming
-The Netherlands,NL,9447,UNIBO,2001-2005,incoming
-South Korea,KR,8002,UNIBO,2001-2005,incoming
-China,CN,7868,UNIBO,2001-2005,incoming
-India,IN,6336,UNIBO,2001-2005,incoming
-Australia,AU,5849,UNIBO,2001-2005,incoming
-Finland,FI,4141,UNIBO,2001-2005,incoming
-Belgium,BE,4136,UNIBO,2001-2005,incoming
-Taiwan,TW,4040,UNIBO,2001-2005,incoming
-Brazil,BR,3903,UNIBO,2001-2005,incoming
-Poland,PL,3660,UNIBO,2001-2005,incoming
-Sweden,SE,3481,UNIBO,2001-2005,incoming
-Greece,GR,3047,UNIBO,2001-2005,incoming
-Israel,IL,2889,UNIBO,2001-2005,incoming
-Austria,AT,2359,UNIBO,2001-2005,incoming
-Norway,NO,2241,UNIBO,2001-2005,incoming
-Denmark,DK,1834,UNIBO,2001-2005,incoming
-Czechia,CZ,1766,UNIBO,2001-2005,incoming
-Hungary,HU,1573,UNIBO,2001-2005,incoming
-Hong Kong,HK,1295,UNIBO,2001-2005,incoming
-Ireland,IE,1266,UNIBO,2001-2005,incoming
-Portugal,PT,1216,UNIBO,2001-2005,incoming
-Mexico,MX,1213,UNIBO,2001-2005,incoming
-Türkiye,TR,1117,UNIBO,2001-2005,incoming
-Cyprus,CY,926,UNIBO,2001-2005,incoming
-China (People's Republic of),CN,904,UNIBO,2001-2005,incoming
-Argentina,AR,871,UNIBO,2001-2005,incoming
-Netherlands,NL,848,UNIBO,2001-2005,incoming
-Singapore,SG,641,UNIBO,2001-2005,incoming
-New Zealand,NZ,628,UNIBO,2001-2005,incoming
-Slovenia,SI,612,UNIBO,2001-2005,incoming
-Bulgaria,BG,564,UNIBO,2001-2005,incoming
-South Africa,ZA,549,UNIBO,2001-2005,incoming
-Iran,IR,526,UNIBO,2001-2005,incoming
-Slovakia,SK,501,UNIBO,2001-2005,incoming
-Ukraine,UA,430,UNIBO,2001-2005,incoming
-Chile,CL,413,UNIBO,2001-2005,incoming
-Croatia,HR,405,UNIBO,2001-2005,incoming
-Romania,RO,383,UNIBO,2001-2005,incoming
-Colombia,CO,354,UNIBO,2001-2005,incoming
-Serbia,RS,336,UNIBO,2001-2005,incoming
-Thailand,TH,253,UNIBO,2001-2005,incoming
-Georgia,GE,213,UNIBO,2001-2005,incoming
-Pakistan,PK,201,UNIBO,2001-2005,incoming
-Korea (Republic of),KR,187,UNIBO,2001-2005,incoming
-Egypt,EG,182,UNIBO,2001-2005,incoming
-Ecuador,EC,180,UNIBO,2001-2005,incoming
-Puerto Rico,PR,170,UNIBO,2001-2005,incoming
-Saudi Arabia,SA,158,UNIBO,2001-2005,incoming
-Tunisia,TN,157,UNIBO,2001-2005,incoming
-Belarus,BY,146,UNIBO,2001-2005,incoming
-Estonia,EE,144,UNIBO,2001-2005,incoming
-Uzbekistan,UZ,144,UNIBO,2001-2005,incoming
-Russian Federation,RU,135,UNIBO,2001-2005,incoming
-Armenia,AM,109,UNIBO,2001-2005,incoming
-Malaysia,MY,97,UNIBO,2001-2005,incoming
-Jordan,JO,94,UNIBO,2001-2005,incoming
-Morocco,MA,88,UNIBO,2001-2005,incoming
-Philippines,PH,80,UNIBO,2001-2005,incoming
-Iceland,IS,79,UNIBO,2001-2005,incoming
-Kuwait,KW,73,UNIBO,2001-2005,incoming
-Ethiopia,ET,69,UNIBO,2001-2005,incoming
-Vietnam,VN,66,UNIBO,2001-2005,incoming
-Venezuela,VE,63,UNIBO,2001-2005,incoming
-United Arab Emirates,AE,55,UNIBO,2001-2005,incoming
-Ghana,GH,50,UNIBO,2001-2005,incoming
-Uruguay,UY,50,UNIBO,2001-2005,incoming
-Indonesia,ID,47,UNIBO,2001-2005,incoming
-Mongolia,MN,47,UNIBO,2001-2005,incoming
-Czech Republic,CZ,44,UNIBO,2001-2005,incoming
-Latvia,LV,44,UNIBO,2001-2005,incoming
-Nigeria,NG,43,UNIBO,2001-2005,incoming
-Lebanon,LB,42,UNIBO,2001-2005,incoming
-Azerbaijan,AZ,35,UNIBO,2001-2005,incoming
-Algeria,DZ,34,UNIBO,2001-2005,incoming
-Cuba,CU,31,UNIBO,2001-2005,incoming
-Luxembourg,LU,31,UNIBO,2001-2005,incoming
-Lithuania,LT,29,UNIBO,2001-2005,incoming
-Kazakhstan,KZ,28,UNIBO,2001-2005,incoming
-Bosnia and Herzegovina,BA,25,UNIBO,2001-2005,incoming
-San Marino,SM,25,UNIBO,2001-2005,incoming
-Angola,AO,24,UNIBO,2001-2005,incoming
-Montenegro,ME,24,UNIBO,2001-2005,incoming
-Qatar,QA,24,UNIBO,2001-2005,incoming
-Costa Rica,CR,23,UNIBO,2001-2005,incoming
-Bangladesh,BD,23,UNIBO,2001-2005,incoming
-Yemen,YE,21,UNIBO,2001-2005,incoming
-Peru,PE,21,UNIBO,2001-2005,incoming
-Bahrain,BH,21,UNIBO,2001-2005,incoming
-Benin,BJ,20,UNIBO,2001-2005,incoming
-Jamaica,JM,19,UNIBO,2001-2005,incoming
-Oman,OM,19,UNIBO,2001-2005,incoming
-Tanzania,TZ,18,UNIBO,2001-2005,incoming
-Kenya,KE,17,UNIBO,2001-2005,incoming
-Cambodia,KH,15,UNIBO,2001-2005,incoming
-Sri Lanka,LK,14,UNIBO,2001-2005,incoming
-Moldova,MD,14,UNIBO,2001-2005,incoming
-Mozambique,MZ,13,UNIBO,2001-2005,incoming
-Macao,MO,13,UNIBO,2001-2005,incoming
-Zimbabwe,ZW,13,UNIBO,2001-2005,incoming
-Palau,PW,13,UNIBO,2001-2005,incoming
-Turkey,TR,12,UNIBO,2001-2005,incoming
-Zambia,ZM,11,UNIBO,2001-2005,incoming
-Réunion,RE,10,UNIBO,2001-2005,incoming
-Malta,MT,10,UNIBO,2001-2005,incoming
-Albania,AL,9,UNIBO,2001-2005,incoming
-Uganda,UG,9,UNIBO,2001-2005,incoming
-Burkina Faso,BF,9,UNIBO,2001-2005,incoming
-Curaçao,CW,8,UNIBO,2001-2005,incoming
-Nepal,NP,8,UNIBO,2001-2005,incoming
-North Macedonia,MK,7,UNIBO,2001-2005,incoming
-Guadeloupe,GP,6,UNIBO,2001-2005,incoming
-Trinidad and Tobago,TT,6,UNIBO,2001-2005,incoming
-Iraq,IQ,6,UNIBO,2001-2005,incoming
-Bolivia,BO,6,UNIBO,2001-2005,incoming
-Myanmar,MM,5,UNIBO,2001-2005,incoming
-Malawi,MW,5,UNIBO,2001-2005,incoming
-Cameroon,CM,5,UNIBO,2001-2005,incoming
-Sudan,SD,5,UNIBO,2001-2005,incoming
-New Caledonia,NC,5,UNIBO,2001-2005,incoming
-Namibia,,5,UNIBO,2001-2005,incoming
-Maldives,MV,4,UNIBO,2001-2005,incoming
-Paraguay,PY,4,UNIBO,2001-2005,incoming
-Iran (Islamic Republic of),IR,4,UNIBO,2001-2005,incoming
-Chad,TD,4,UNIBO,2001-2005,incoming
-Senegal,SN,4,UNIBO,2001-2005,incoming
-Palestine,PS,3,UNIBO,2001-2005,incoming
-American Samoa,AS,3,UNIBO,2001-2005,incoming
-Rwanda,RW,3,UNIBO,2001-2005,incoming
-Libya,LY,2,UNIBO,2001-2005,incoming
-Antigua and Barbuda,AG,2,UNIBO,2001-2005,incoming
-Syria,SY,2,UNIBO,2001-2005,incoming
-El Salvador,SV,2,UNIBO,2001-2005,incoming
-DR Congo,CD,2,UNIBO,2001-2005,incoming
-French Polynesia,PF,2,UNIBO,2001-2005,incoming
-Somalia,SO,2,UNIBO,2001-2005,incoming
-Botswana,BW,2,UNIBO,2001-2005,incoming
-Guatemala,GT,2,UNIBO,2001-2005,incoming
-Laos,LA,2,UNIBO,2001-2005,incoming
-Bhutan,BT,2,UNIBO,2001-2005,incoming
-The Gambia,GM,1,UNIBO,2001-2005,incoming
-Honduras,HN,1,UNIBO,2001-2005,incoming
-Ivory Coast,CI,1,UNIBO,2001-2005,incoming
-Brunei,BN,1,UNIBO,2001-2005,incoming
-Panama,PA,1,UNIBO,2001-2005,incoming
-Gabon,GA,1,UNIBO,2001-2005,incoming
-Grenada,GD,1,UNIBO,2001-2005,incoming
-Mauritius,MU,1,UNIBO,2001-2005,incoming
-Isle of Man,IM,1,UNIBO,2001-2005,incoming
-Burundi,BI,1,UNIBO,2001-2005,incoming
-Madagascar,MG,1,UNIBO,2001-2005,incoming
-Bermuda,BM,1,UNIBO,2001-2005,incoming
-European Union,EU,1,UNIBO,2001-2005,incoming
-Barbados,BB,1,UNIBO,2001-2005,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,55,UNIBO,2001-2005,incoming
+AG,Antigua and Barbuda,2,UNIBO,2001-2005,incoming
+AL,Albania,9,UNIBO,2001-2005,incoming
+AM,Armenia,109,UNIBO,2001-2005,incoming
+AO,Angola,24,UNIBO,2001-2005,incoming
+AR,Argentina,871,UNIBO,2001-2005,incoming
+AT,Austria,2359,UNIBO,2001-2005,incoming
+AU,Australia,5849,UNIBO,2001-2005,incoming
+AZ,Azerbaijan,35,UNIBO,2001-2005,incoming
+BA,Bosnia and Herzegovina,25,UNIBO,2001-2005,incoming
+BB,Barbados,1,UNIBO,2001-2005,incoming
+BD,Bangladesh,23,UNIBO,2001-2005,incoming
+BE,Belgium,4136,UNIBO,2001-2005,incoming
+BF,Burkina Faso,9,UNIBO,2001-2005,incoming
+BG,Bulgaria,564,UNIBO,2001-2005,incoming
+BH,Bahrain,21,UNIBO,2001-2005,incoming
+BI,Burundi,1,UNIBO,2001-2005,incoming
+BJ,Benin,20,UNIBO,2001-2005,incoming
+BN,Brunei,1,UNIBO,2001-2005,incoming
+BO,Bolivia,6,UNIBO,2001-2005,incoming
+BR,Brazil,3903,UNIBO,2001-2005,incoming
+BT,Bhutan,2,UNIBO,2001-2005,incoming
+BW,Botswana,2,UNIBO,2001-2005,incoming
+BY,Belarus,146,UNIBO,2001-2005,incoming
+CA,Canada,19199,UNIBO,2001-2005,incoming
+CD,DR Congo,2,UNIBO,2001-2005,incoming
+CH,Switzerland,10078,UNIBO,2001-2005,incoming
+CI,Ivory Coast,1,UNIBO,2001-2005,incoming
+CL,Chile,413,UNIBO,2001-2005,incoming
+CM,Cameroon,5,UNIBO,2001-2005,incoming
+CN,China,10080,UNIBO,2001-2005,incoming
+CO,Colombia,354,UNIBO,2001-2005,incoming
+CR,Costa Rica,23,UNIBO,2001-2005,incoming
+CU,Cuba,31,UNIBO,2001-2005,incoming
+CY,Cyprus,926,UNIBO,2001-2005,incoming
+CZ,Czechia,1810,UNIBO,2001-2005,incoming
+DE,Germany,31379,UNIBO,2001-2005,incoming
+DK,Denmark,1834,UNIBO,2001-2005,incoming
+DZ,Algeria,34,UNIBO,2001-2005,incoming
+EC,Ecuador,180,UNIBO,2001-2005,incoming
+EE,Estonia,144,UNIBO,2001-2005,incoming
+EG,Egypt,182,UNIBO,2001-2005,incoming
+ES,Spain,16475,UNIBO,2001-2005,incoming
+ET,Ethiopia,69,UNIBO,2001-2005,incoming
+EU,European Union,1,UNIBO,2001-2005,incoming
+FI,Finland,4141,UNIBO,2001-2005,incoming
+FR,France,62692,UNIBO,2001-2005,incoming
+GA,Gabon,1,UNIBO,2001-2005,incoming
+GB,United Kingdom,51454,UNIBO,2001-2005,incoming
+GD,Grenada,1,UNIBO,2001-2005,incoming
+GE,Georgia,213,UNIBO,2001-2005,incoming
+GH,Ghana,50,UNIBO,2001-2005,incoming
+GM,The Gambia,1,UNIBO,2001-2005,incoming
+GR,Greece,3047,UNIBO,2001-2005,incoming
+GT,Guatemala,2,UNIBO,2001-2005,incoming
+HN,Honduras,1,UNIBO,2001-2005,incoming
+HR,Croatia,405,UNIBO,2001-2005,incoming
+HU,Hungary,1573,UNIBO,2001-2005,incoming
+ID,Indonesia,47,UNIBO,2001-2005,incoming
+IE,Ireland,1266,UNIBO,2001-2005,incoming
+IL,Israel,2889,UNIBO,2001-2005,incoming
+IN,India,6336,UNIBO,2001-2005,incoming
+IQ,Iraq,6,UNIBO,2001-2005,incoming
+IR,Iran,530,UNIBO,2001-2005,incoming
+IS,Iceland,79,UNIBO,2001-2005,incoming
+IT,Italy,155409,UNIBO,2001-2005,incoming
+JM,Jamaica,19,UNIBO,2001-2005,incoming
+JO,Jordan,94,UNIBO,2001-2005,incoming
+JP,Japan,20029,UNIBO,2001-2005,incoming
+KE,Kenya,17,UNIBO,2001-2005,incoming
+KH,Cambodia,15,UNIBO,2001-2005,incoming
+KR,South Korea,8189,UNIBO,2001-2005,incoming
+KW,Kuwait,73,UNIBO,2001-2005,incoming
+KZ,Kazakhstan,28,UNIBO,2001-2005,incoming
+LA,Laos,2,UNIBO,2001-2005,incoming
+LB,Lebanon,42,UNIBO,2001-2005,incoming
+LK,Sri Lanka,14,UNIBO,2001-2005,incoming
+LT,Lithuania,29,UNIBO,2001-2005,incoming
+LU,Luxembourg,31,UNIBO,2001-2005,incoming
+LV,Latvia,44,UNIBO,2001-2005,incoming
+LY,Libya,2,UNIBO,2001-2005,incoming
+MA,Morocco,88,UNIBO,2001-2005,incoming
+MD,Moldova,14,UNIBO,2001-2005,incoming
+ME,Montenegro,24,UNIBO,2001-2005,incoming
+MG,Madagascar,1,UNIBO,2001-2005,incoming
+MK,North Macedonia,7,UNIBO,2001-2005,incoming
+MM,Myanmar,5,UNIBO,2001-2005,incoming
+MN,Mongolia,47,UNIBO,2001-2005,incoming
+MT,Malta,10,UNIBO,2001-2005,incoming
+MU,Mauritius,1,UNIBO,2001-2005,incoming
+MV,Maldives,4,UNIBO,2001-2005,incoming
+MW,Malawi,5,UNIBO,2001-2005,incoming
+MX,Mexico,1213,UNIBO,2001-2005,incoming
+MY,Malaysia,97,UNIBO,2001-2005,incoming
+MZ,Mozambique,13,UNIBO,2001-2005,incoming
+NG,Nigeria,43,UNIBO,2001-2005,incoming
+NL,The Netherlands,10303,UNIBO,2001-2005,incoming
+NO,Norway,2241,UNIBO,2001-2005,incoming
+NP,Nepal,8,UNIBO,2001-2005,incoming
+NZ,New Zealand,628,UNIBO,2001-2005,incoming
+OM,Oman,19,UNIBO,2001-2005,incoming
+PA,Panama,1,UNIBO,2001-2005,incoming
+PE,Peru,21,UNIBO,2001-2005,incoming
+PH,Philippines,80,UNIBO,2001-2005,incoming
+PK,Pakistan,201,UNIBO,2001-2005,incoming
+PL,Poland,3660,UNIBO,2001-2005,incoming
+PS,Palestine,3,UNIBO,2001-2005,incoming
+PT,Portugal,1216,UNIBO,2001-2005,incoming
+PW,Palau,13,UNIBO,2001-2005,incoming
+PY,Paraguay,4,UNIBO,2001-2005,incoming
+QA,Qatar,24,UNIBO,2001-2005,incoming
+RO,Romania,383,UNIBO,2001-2005,incoming
+RS,Serbia,336,UNIBO,2001-2005,incoming
+RU,Russia,12531,UNIBO,2001-2005,incoming
+RW,Rwanda,3,UNIBO,2001-2005,incoming
+SA,Saudi Arabia,158,UNIBO,2001-2005,incoming
+SD,Sudan,5,UNIBO,2001-2005,incoming
+SE,Sweden,3481,UNIBO,2001-2005,incoming
+SG,Singapore,641,UNIBO,2001-2005,incoming
+SI,Slovenia,612,UNIBO,2001-2005,incoming
+SK,Slovakia,501,UNIBO,2001-2005,incoming
+SM,San Marino,25,UNIBO,2001-2005,incoming
+SN,Senegal,4,UNIBO,2001-2005,incoming
+SO,Somalia,2,UNIBO,2001-2005,incoming
+SV,El Salvador,2,UNIBO,2001-2005,incoming
+SY,Syria,2,UNIBO,2001-2005,incoming
+TD,Chad,4,UNIBO,2001-2005,incoming
+TH,Thailand,253,UNIBO,2001-2005,incoming
+TN,Tunisia,157,UNIBO,2001-2005,incoming
+TR,Turkey,1129,UNIBO,2001-2005,incoming
+TT,Trinidad and Tobago,6,UNIBO,2001-2005,incoming
+TW,Taiwan,4040,UNIBO,2001-2005,incoming
+TZ,Tanzania,18,UNIBO,2001-2005,incoming
+UA,Ukraine,430,UNIBO,2001-2005,incoming
+UG,Uganda,9,UNIBO,2001-2005,incoming
+US,United States,207683,UNIBO,2001-2005,incoming
+UY,Uruguay,50,UNIBO,2001-2005,incoming
+UZ,Uzbekistan,144,UNIBO,2001-2005,incoming
+VE,Venezuela,63,UNIBO,2001-2005,incoming
+VN,Vietnam,66,UNIBO,2001-2005,incoming
+YE,Yemen,21,UNIBO,2001-2005,incoming
+ZA,South Africa,549,UNIBO,2001-2005,incoming
+ZM,Zambia,11,UNIBO,2001-2005,incoming
+ZW,Zimbabwe,13,UNIBO,2001-2005,incoming

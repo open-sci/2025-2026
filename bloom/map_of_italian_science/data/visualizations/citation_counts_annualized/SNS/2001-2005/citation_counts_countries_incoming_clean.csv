@@ -1,117 +1,103 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,143760,SNS,2001-2005,incoming
-Italy,IT,60387,SNS,2001-2005,incoming
-France,FR,36504,SNS,2001-2005,incoming
-United Kingdom,GB,33278,SNS,2001-2005,incoming
-Germany,DE,13557,SNS,2001-2005,incoming
-Canada,CA,12054,SNS,2001-2005,incoming
-Japan,JP,11848,SNS,2001-2005,incoming
-Russia,RU,10538,SNS,2001-2005,incoming
-Spain,ES,8098,SNS,2001-2005,incoming
-South Korea,KR,5346,SNS,2001-2005,incoming
-China,CN,5194,SNS,2001-2005,incoming
-India,IN,4084,SNS,2001-2005,incoming
-The Netherlands,NL,4001,SNS,2001-2005,incoming
-Switzerland,CH,3806,SNS,2001-2005,incoming
-Finland,FI,2690,SNS,2001-2005,incoming
-Taiwan,TW,2470,SNS,2001-2005,incoming
-Norway,NO,2109,SNS,2001-2005,incoming
-Poland,PL,1464,SNS,2001-2005,incoming
-Australia,AU,1007,SNS,2001-2005,incoming
-Brazil,BR,908,SNS,2001-2005,incoming
-Austria,AT,824,SNS,2001-2005,incoming
-Slovenia,SI,746,SNS,2001-2005,incoming
-Belgium,BE,718,SNS,2001-2005,incoming
-Denmark,DK,712,SNS,2001-2005,incoming
-Israel,IL,691,SNS,2001-2005,incoming
-Sweden,SE,605,SNS,2001-2005,incoming
-China (People's Republic of),CN,588,SNS,2001-2005,incoming
-Cyprus,CY,550,SNS,2001-2005,incoming
-Hungary,HU,409,SNS,2001-2005,incoming
-Greece,GR,405,SNS,2001-2005,incoming
-Tanzania,TZ,332,SNS,2001-2005,incoming
-Czechia,CZ,318,SNS,2001-2005,incoming
-Mexico,MX,291,SNS,2001-2005,incoming
-Türkiye,TR,266,SNS,2001-2005,incoming
-Portugal,PT,212,SNS,2001-2005,incoming
-Ireland,IE,184,SNS,2001-2005,incoming
-Slovakia,SK,170,SNS,2001-2005,incoming
-Argentina,AR,155,SNS,2001-2005,incoming
-Hong Kong,HK,138,SNS,2001-2005,incoming
-Chile,CL,126,SNS,2001-2005,incoming
-Ukraine,UA,121,SNS,2001-2005,incoming
-Colombia,CO,108,SNS,2001-2005,incoming
-Romania,RO,107,SNS,2001-2005,incoming
-Puerto Rico,PR,99,SNS,2001-2005,incoming
-Egypt,EG,80,SNS,2001-2005,incoming
-Netherlands,NL,78,SNS,2001-2005,incoming
-Bulgaria,BG,75,SNS,2001-2005,incoming
-Ecuador,EC,72,SNS,2001-2005,incoming
-Belarus,BY,63,SNS,2001-2005,incoming
-Iran,IR,57,SNS,2001-2005,incoming
-Singapore,SG,55,SNS,2001-2005,incoming
-Georgia,GE,54,SNS,2001-2005,incoming
-Russian Federation,RU,53,SNS,2001-2005,incoming
-Croatia,HR,45,SNS,2001-2005,incoming
-Saudi Arabia,SA,39,SNS,2001-2005,incoming
-Serbia,RS,35,SNS,2001-2005,incoming
-Uzbekistan,UZ,34,SNS,2001-2005,incoming
-South Africa,ZA,34,SNS,2001-2005,incoming
-Armenia,AM,28,SNS,2001-2005,incoming
-Morocco,MA,27,SNS,2001-2005,incoming
-Pakistan,PK,24,SNS,2001-2005,incoming
-Tunisia,TN,22,SNS,2001-2005,incoming
-Algeria,DZ,15,SNS,2001-2005,incoming
-New Zealand,NZ,14,SNS,2001-2005,incoming
-Czech Republic,CZ,14,SNS,2001-2005,incoming
-Ghana,GH,13,SNS,2001-2005,incoming
-Qatar,QA,13,SNS,2001-2005,incoming
-Thailand,TH,12,SNS,2001-2005,incoming
-Azerbaijan,AZ,11,SNS,2001-2005,incoming
-Venezuela,VE,10,SNS,2001-2005,incoming
-Uruguay,UY,9,SNS,2001-2005,incoming
-Malaysia,MY,9,SNS,2001-2005,incoming
-Korea (Republic of),KR,8,SNS,2001-2005,incoming
-Turkey,TR,7,SNS,2001-2005,incoming
-Estonia,EE,7,SNS,2001-2005,incoming
-Cambodia,KH,6,SNS,2001-2005,incoming
-Indonesia,ID,5,SNS,2001-2005,incoming
-Mauritania,MR,5,SNS,2001-2005,incoming
-Tajikistan,TJ,5,SNS,2001-2005,incoming
-United Arab Emirates,AE,4,SNS,2001-2005,incoming
-Iran (Islamic Republic of),IR,4,SNS,2001-2005,incoming
-Costa Rica,CR,3,SNS,2001-2005,incoming
-Nigeria,NG,3,SNS,2001-2005,incoming
-Vietnam,VN,3,SNS,2001-2005,incoming
-Mozambique,MZ,3,SNS,2001-2005,incoming
-Yemen,YE,2,SNS,2001-2005,incoming
-Oman,OM,2,SNS,2001-2005,incoming
-Cuba,CU,2,SNS,2001-2005,incoming
-Cameroon,CM,2,SNS,2001-2005,incoming
-Burundi,BI,2,SNS,2001-2005,incoming
-Angola,AO,2,SNS,2001-2005,incoming
-Bermuda,BM,2,SNS,2001-2005,incoming
-Iceland,IS,2,SNS,2001-2005,incoming
-Lithuania,LT,2,SNS,2001-2005,incoming
-Bangladesh,BD,2,SNS,2001-2005,incoming
-Lebanon,LB,2,SNS,2001-2005,incoming
-Mongolia,MN,2,SNS,2001-2005,incoming
-Malta,MT,2,SNS,2001-2005,incoming
-Latvia,LV,2,SNS,2001-2005,incoming
-Kenya,KE,1,SNS,2001-2005,incoming
-Jordan,JO,1,SNS,2001-2005,incoming
-Zimbabwe,ZW,1,SNS,2001-2005,incoming
-Bahrain,BH,1,SNS,2001-2005,incoming
-Montenegro,ME,1,SNS,2001-2005,incoming
-Macao,MO,1,SNS,2001-2005,incoming
-Palestine,PS,1,SNS,2001-2005,incoming
-Guadeloupe,GP,1,SNS,2001-2005,incoming
-Namibia,,1,SNS,2001-2005,incoming
-Brunei,BN,1,SNS,2001-2005,incoming
-Paraguay,PY,1,SNS,2001-2005,incoming
-Philippines,PH,1,SNS,2001-2005,incoming
-Chad,TD,1,SNS,2001-2005,incoming
-Sudan,SD,1,SNS,2001-2005,incoming
-Kuwait,KW,1,SNS,2001-2005,incoming
-Réunion,RE,1,SNS,2001-2005,incoming
-Peru,PE,1,SNS,2001-2005,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,4,SNS,2001-2005,incoming
+AM,Armenia,28,SNS,2001-2005,incoming
+AO,Angola,2,SNS,2001-2005,incoming
+AR,Argentina,155,SNS,2001-2005,incoming
+AT,Austria,824,SNS,2001-2005,incoming
+AU,Australia,1007,SNS,2001-2005,incoming
+AZ,Azerbaijan,11,SNS,2001-2005,incoming
+BD,Bangladesh,2,SNS,2001-2005,incoming
+BE,Belgium,718,SNS,2001-2005,incoming
+BG,Bulgaria,75,SNS,2001-2005,incoming
+BH,Bahrain,1,SNS,2001-2005,incoming
+BI,Burundi,2,SNS,2001-2005,incoming
+BN,Brunei,1,SNS,2001-2005,incoming
+BR,Brazil,908,SNS,2001-2005,incoming
+BY,Belarus,63,SNS,2001-2005,incoming
+CA,Canada,12054,SNS,2001-2005,incoming
+CH,Switzerland,3806,SNS,2001-2005,incoming
+CL,Chile,126,SNS,2001-2005,incoming
+CM,Cameroon,2,SNS,2001-2005,incoming
+CN,China,5921,SNS,2001-2005,incoming
+CO,Colombia,108,SNS,2001-2005,incoming
+CR,Costa Rica,3,SNS,2001-2005,incoming
+CU,Cuba,2,SNS,2001-2005,incoming
+CY,Cyprus,550,SNS,2001-2005,incoming
+CZ,Czechia,332,SNS,2001-2005,incoming
+DE,Germany,13557,SNS,2001-2005,incoming
+DK,Denmark,712,SNS,2001-2005,incoming
+DZ,Algeria,15,SNS,2001-2005,incoming
+EC,Ecuador,72,SNS,2001-2005,incoming
+EE,Estonia,7,SNS,2001-2005,incoming
+EG,Egypt,80,SNS,2001-2005,incoming
+ES,Spain,8098,SNS,2001-2005,incoming
+FI,Finland,2690,SNS,2001-2005,incoming
+FR,France,36506,SNS,2001-2005,incoming
+GB,United Kingdom,33280,SNS,2001-2005,incoming
+GE,Georgia,54,SNS,2001-2005,incoming
+GH,Ghana,13,SNS,2001-2005,incoming
+GR,Greece,405,SNS,2001-2005,incoming
+HR,Croatia,45,SNS,2001-2005,incoming
+HU,Hungary,409,SNS,2001-2005,incoming
+ID,Indonesia,5,SNS,2001-2005,incoming
+IE,Ireland,184,SNS,2001-2005,incoming
+IL,Israel,691,SNS,2001-2005,incoming
+IN,India,4084,SNS,2001-2005,incoming
+IR,Iran,61,SNS,2001-2005,incoming
+IS,Iceland,2,SNS,2001-2005,incoming
+IT,Italy,60387,SNS,2001-2005,incoming
+JO,Jordan,1,SNS,2001-2005,incoming
+JP,Japan,11848,SNS,2001-2005,incoming
+KE,Kenya,1,SNS,2001-2005,incoming
+KH,Cambodia,6,SNS,2001-2005,incoming
+KR,South Korea,5354,SNS,2001-2005,incoming
+KW,Kuwait,1,SNS,2001-2005,incoming
+LB,Lebanon,2,SNS,2001-2005,incoming
+LT,Lithuania,2,SNS,2001-2005,incoming
+LV,Latvia,2,SNS,2001-2005,incoming
+MA,Morocco,27,SNS,2001-2005,incoming
+ME,Montenegro,1,SNS,2001-2005,incoming
+MN,Mongolia,2,SNS,2001-2005,incoming
+MR,Mauritania,5,SNS,2001-2005,incoming
+MT,Malta,2,SNS,2001-2005,incoming
+MX,Mexico,291,SNS,2001-2005,incoming
+MY,Malaysia,9,SNS,2001-2005,incoming
+MZ,Mozambique,3,SNS,2001-2005,incoming
+NG,Nigeria,3,SNS,2001-2005,incoming
+NL,The Netherlands,4079,SNS,2001-2005,incoming
+NO,Norway,2109,SNS,2001-2005,incoming
+NZ,New Zealand,14,SNS,2001-2005,incoming
+OM,Oman,2,SNS,2001-2005,incoming
+PE,Peru,1,SNS,2001-2005,incoming
+PH,Philippines,1,SNS,2001-2005,incoming
+PK,Pakistan,24,SNS,2001-2005,incoming
+PL,Poland,1464,SNS,2001-2005,incoming
+PS,Palestine,1,SNS,2001-2005,incoming
+PT,Portugal,212,SNS,2001-2005,incoming
+PY,Paraguay,1,SNS,2001-2005,incoming
+QA,Qatar,13,SNS,2001-2005,incoming
+RO,Romania,107,SNS,2001-2005,incoming
+RS,Serbia,35,SNS,2001-2005,incoming
+RU,Russia,10591,SNS,2001-2005,incoming
+SA,Saudi Arabia,39,SNS,2001-2005,incoming
+SD,Sudan,1,SNS,2001-2005,incoming
+SE,Sweden,605,SNS,2001-2005,incoming
+SG,Singapore,55,SNS,2001-2005,incoming
+SI,Slovenia,746,SNS,2001-2005,incoming
+SK,Slovakia,170,SNS,2001-2005,incoming
+TD,Chad,1,SNS,2001-2005,incoming
+TH,Thailand,12,SNS,2001-2005,incoming
+TJ,Tajikistan,5,SNS,2001-2005,incoming
+TN,Tunisia,22,SNS,2001-2005,incoming
+TR,Turkey,273,SNS,2001-2005,incoming
+TW,Taiwan,2470,SNS,2001-2005,incoming
+TZ,Tanzania,332,SNS,2001-2005,incoming
+UA,Ukraine,121,SNS,2001-2005,incoming
+US,United States,143859,SNS,2001-2005,incoming
+UY,Uruguay,9,SNS,2001-2005,incoming
+UZ,Uzbekistan,34,SNS,2001-2005,incoming
+VE,Venezuela,10,SNS,2001-2005,incoming
+VN,Vietnam,3,SNS,2001-2005,incoming
+YE,Yemen,2,SNS,2001-2005,incoming
+ZA,South Africa,34,SNS,2001-2005,incoming
+ZW,Zimbabwe,1,SNS,2001-2005,incoming

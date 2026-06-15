@@ -1,141 +1,128 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,254770,SNS,2006-2010,incoming
-Italy,IT,103285,SNS,2006-2010,incoming
-France,FR,93417,SNS,2006-2010,incoming
-United Kingdom,GB,51856,SNS,2006-2010,incoming
-Germany,DE,33041,SNS,2006-2010,incoming
-Spain,ES,27905,SNS,2006-2010,incoming
-Japan,JP,23593,SNS,2006-2010,incoming
-Russia,RU,22305,SNS,2006-2010,incoming
-South Korea,KR,20160,SNS,2006-2010,incoming
-China,CN,16115,SNS,2006-2010,incoming
-Canada,CA,14188,SNS,2006-2010,incoming
-India,IN,13091,SNS,2006-2010,incoming
-Finland,FI,12801,SNS,2006-2010,incoming
-Switzerland,CH,12344,SNS,2006-2010,incoming
-Taiwan,TW,9056,SNS,2006-2010,incoming
-Brazil,BR,8472,SNS,2006-2010,incoming
-Belgium,BE,7873,SNS,2006-2010,incoming
-Poland,PL,7604,SNS,2006-2010,incoming
-Türkiye,TR,6734,SNS,2006-2010,incoming
-The Netherlands,NL,6186,SNS,2006-2010,incoming
-Greece,GR,6062,SNS,2006-2010,incoming
-Hungary,HU,5456,SNS,2006-2010,incoming
-Mexico,MX,5200,SNS,2006-2010,incoming
-Slovakia,SK,4255,SNS,2006-2010,incoming
-China (People's Republic of),CN,3317,SNS,2006-2010,incoming
-Australia,AU,3047,SNS,2006-2010,incoming
-Austria,AT,2903,SNS,2006-2010,incoming
-Croatia,HR,2756,SNS,2006-2010,incoming
-Bulgaria,BG,2739,SNS,2006-2010,incoming
-Sweden,SE,2662,SNS,2006-2010,incoming
-Slovenia,SI,2551,SNS,2006-2010,incoming
-Colombia,CO,2510,SNS,2006-2010,incoming
-Cyprus,CY,2305,SNS,2006-2010,incoming
-Norway,NO,2298,SNS,2006-2010,incoming
-Pakistan,PK,2237,SNS,2006-2010,incoming
-New Zealand,NZ,1990,SNS,2006-2010,incoming
-Ireland,IE,1980,SNS,2006-2010,incoming
-Portugal,PT,1915,SNS,2006-2010,incoming
-Czechia,CZ,1911,SNS,2006-2010,incoming
-Israel,IL,1848,SNS,2006-2010,incoming
-Serbia,RS,1704,SNS,2006-2010,incoming
-Georgia,GE,1689,SNS,2006-2010,incoming
-Puerto Rico,PR,1384,SNS,2006-2010,incoming
-Ukraine,UA,1380,SNS,2006-2010,incoming
-Uzbekistan,UZ,1247,SNS,2006-2010,incoming
-Denmark,DK,1203,SNS,2006-2010,incoming
-Iran,IR,1198,SNS,2006-2010,incoming
-Belarus,BY,1101,SNS,2006-2010,incoming
-Estonia,EE,1035,SNS,2006-2010,incoming
-Netherlands,NL,977,SNS,2006-2010,incoming
-Armenia,AM,908,SNS,2006-2010,incoming
-Argentina,AR,866,SNS,2006-2010,incoming
-Singapore,SG,586,SNS,2006-2010,incoming
-Chile,CL,560,SNS,2006-2010,incoming
-Hong Kong,HK,508,SNS,2006-2010,incoming
-Ecuador,EC,369,SNS,2006-2010,incoming
-Lithuania,LT,338,SNS,2006-2010,incoming
-Tanzania,TZ,278,SNS,2006-2010,incoming
-Egypt,EG,258,SNS,2006-2010,incoming
-Jordan,JO,218,SNS,2006-2010,incoming
-South Africa,ZA,182,SNS,2006-2010,incoming
-Russian Federation,RU,154,SNS,2006-2010,incoming
-Romania,RO,148,SNS,2006-2010,incoming
-Korea (Republic of),KR,124,SNS,2006-2010,incoming
-Ghana,GH,110,SNS,2006-2010,incoming
-Azerbaijan,AZ,107,SNS,2006-2010,incoming
-Tunisia,TN,83,SNS,2006-2010,incoming
-Iceland,IS,70,SNS,2006-2010,incoming
-Vietnam,VN,59,SNS,2006-2010,incoming
-Malaysia,MY,51,SNS,2006-2010,incoming
-Thailand,TH,46,SNS,2006-2010,incoming
-Iran (Islamic Republic of),IR,41,SNS,2006-2010,incoming
-Saudi Arabia,SA,41,SNS,2006-2010,incoming
-Montenegro,ME,38,SNS,2006-2010,incoming
-Czech Republic,CZ,35,SNS,2006-2010,incoming
-Algeria,DZ,34,SNS,2006-2010,incoming
-Uruguay,UY,34,SNS,2006-2010,incoming
-Bahrain,BH,33,SNS,2006-2010,incoming
-Morocco,MA,32,SNS,2006-2010,incoming
-Mongolia,MN,30,SNS,2006-2010,incoming
-Venezuela,VE,29,SNS,2006-2010,incoming
-Cuba,CU,26,SNS,2006-2010,incoming
-Turkey,TR,22,SNS,2006-2010,incoming
-Uganda,UG,21,SNS,2006-2010,incoming
-United Arab Emirates,AE,20,SNS,2006-2010,incoming
-Kazakhstan,KZ,20,SNS,2006-2010,incoming
-Philippines,PH,20,SNS,2006-2010,incoming
-Lebanon,LB,19,SNS,2006-2010,incoming
-Yemen,YE,19,SNS,2006-2010,incoming
-Tajikistan,TJ,18,SNS,2006-2010,incoming
-Latvia,LV,17,SNS,2006-2010,incoming
-Peru,PE,16,SNS,2006-2010,incoming
-Indonesia,ID,15,SNS,2006-2010,incoming
-Costa Rica,CR,14,SNS,2006-2010,incoming
-Qatar,QA,13,SNS,2006-2010,incoming
-Nigeria,NG,13,SNS,2006-2010,incoming
-Luxembourg,LU,10,SNS,2006-2010,incoming
-Cameroon,CM,8,SNS,2006-2010,incoming
-Ethiopia,ET,8,SNS,2006-2010,incoming
-Bolivia,BO,6,SNS,2006-2010,incoming
-Mozambique,MZ,6,SNS,2006-2010,incoming
-Bosnia and Herzegovina,BA,6,SNS,2006-2010,incoming
-Bangladesh,BD,6,SNS,2006-2010,incoming
-Cambodia,KH,5,SNS,2006-2010,incoming
-Oman,OM,5,SNS,2006-2010,incoming
-Mauritania,MR,5,SNS,2006-2010,incoming
-Nicaragua,NI,5,SNS,2006-2010,incoming
-Mauritius,MU,4,SNS,2006-2010,incoming
-North Macedonia,MK,4,SNS,2006-2010,incoming
-Bhutan,BT,4,SNS,2006-2010,incoming
-North Korea,KP,4,SNS,2006-2010,incoming
-Bermuda,BM,4,SNS,2006-2010,incoming
-Moldova,MD,4,SNS,2006-2010,incoming
-Brunei,BN,3,SNS,2006-2010,incoming
-Angola,AO,3,SNS,2006-2010,incoming
-Jamaica,JM,3,SNS,2006-2010,incoming
-Macao,MO,2,SNS,2006-2010,incoming
-Namibia,,2,SNS,2006-2010,incoming
-Sudan,SD,2,SNS,2006-2010,incoming
-Sri Lanka,LK,2,SNS,2006-2010,incoming
-Dominican Republic,DO,2,SNS,2006-2010,incoming
-Guadeloupe,GP,2,SNS,2006-2010,incoming
-Benin,BJ,2,SNS,2006-2010,incoming
-Burundi,BI,2,SNS,2006-2010,incoming
-Zimbabwe,ZW,2,SNS,2006-2010,incoming
-Palestine,PS,2,SNS,2006-2010,incoming
-Kuwait,KW,2,SNS,2006-2010,incoming
-Panama,PA,2,SNS,2006-2010,incoming
-European Union,EU,2,SNS,2006-2010,incoming
-Malta,MT,2,SNS,2006-2010,incoming
-Guatemala,GT,1,SNS,2006-2010,incoming
-Kenya,KE,1,SNS,2006-2010,incoming
-Senegal,SN,1,SNS,2006-2010,incoming
-Botswana,BW,1,SNS,2006-2010,incoming
-Malawi,MW,1,SNS,2006-2010,incoming
-Rwanda,RW,1,SNS,2006-2010,incoming
-Somalia,SO,1,SNS,2006-2010,incoming
-Mali,ML,1,SNS,2006-2010,incoming
-Madagascar,MG,1,SNS,2006-2010,incoming
-Barbados,BB,1,SNS,2006-2010,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,20,SNS,2006-2010,incoming
+AM,Armenia,908,SNS,2006-2010,incoming
+AO,Angola,3,SNS,2006-2010,incoming
+AR,Argentina,866,SNS,2006-2010,incoming
+AT,Austria,2903,SNS,2006-2010,incoming
+AU,Australia,3047,SNS,2006-2010,incoming
+AZ,Azerbaijan,107,SNS,2006-2010,incoming
+BA,Bosnia and Herzegovina,6,SNS,2006-2010,incoming
+BB,Barbados,1,SNS,2006-2010,incoming
+BD,Bangladesh,6,SNS,2006-2010,incoming
+BE,Belgium,7873,SNS,2006-2010,incoming
+BG,Bulgaria,2739,SNS,2006-2010,incoming
+BH,Bahrain,33,SNS,2006-2010,incoming
+BI,Burundi,2,SNS,2006-2010,incoming
+BJ,Benin,2,SNS,2006-2010,incoming
+BN,Brunei,3,SNS,2006-2010,incoming
+BO,Bolivia,6,SNS,2006-2010,incoming
+BR,Brazil,8472,SNS,2006-2010,incoming
+BT,Bhutan,4,SNS,2006-2010,incoming
+BW,Botswana,1,SNS,2006-2010,incoming
+BY,Belarus,1101,SNS,2006-2010,incoming
+CA,Canada,14188,SNS,2006-2010,incoming
+CH,Switzerland,12344,SNS,2006-2010,incoming
+CL,Chile,560,SNS,2006-2010,incoming
+CM,Cameroon,8,SNS,2006-2010,incoming
+CN,China,19942,SNS,2006-2010,incoming
+CO,Colombia,2510,SNS,2006-2010,incoming
+CR,Costa Rica,14,SNS,2006-2010,incoming
+CU,Cuba,26,SNS,2006-2010,incoming
+CY,Cyprus,2305,SNS,2006-2010,incoming
+CZ,Czechia,1946,SNS,2006-2010,incoming
+DE,Germany,33041,SNS,2006-2010,incoming
+DK,Denmark,1203,SNS,2006-2010,incoming
+DO,Dominican Republic,2,SNS,2006-2010,incoming
+DZ,Algeria,34,SNS,2006-2010,incoming
+EC,Ecuador,369,SNS,2006-2010,incoming
+EE,Estonia,1035,SNS,2006-2010,incoming
+EG,Egypt,258,SNS,2006-2010,incoming
+ES,Spain,27905,SNS,2006-2010,incoming
+ET,Ethiopia,8,SNS,2006-2010,incoming
+EU,European Union,2,SNS,2006-2010,incoming
+FI,Finland,12801,SNS,2006-2010,incoming
+FR,France,93419,SNS,2006-2010,incoming
+GB,United Kingdom,51860,SNS,2006-2010,incoming
+GE,Georgia,1689,SNS,2006-2010,incoming
+GH,Ghana,110,SNS,2006-2010,incoming
+GR,Greece,6062,SNS,2006-2010,incoming
+GT,Guatemala,1,SNS,2006-2010,incoming
+HR,Croatia,2756,SNS,2006-2010,incoming
+HU,Hungary,5456,SNS,2006-2010,incoming
+ID,Indonesia,15,SNS,2006-2010,incoming
+IE,Ireland,1980,SNS,2006-2010,incoming
+IL,Israel,1848,SNS,2006-2010,incoming
+IN,India,13091,SNS,2006-2010,incoming
+IR,Iran,1239,SNS,2006-2010,incoming
+IS,Iceland,70,SNS,2006-2010,incoming
+IT,Italy,103285,SNS,2006-2010,incoming
+JM,Jamaica,3,SNS,2006-2010,incoming
+JO,Jordan,218,SNS,2006-2010,incoming
+JP,Japan,23593,SNS,2006-2010,incoming
+KE,Kenya,1,SNS,2006-2010,incoming
+KH,Cambodia,5,SNS,2006-2010,incoming
+KP,North Korea,4,SNS,2006-2010,incoming
+KR,South Korea,20284,SNS,2006-2010,incoming
+KW,Kuwait,2,SNS,2006-2010,incoming
+KZ,Kazakhstan,20,SNS,2006-2010,incoming
+LB,Lebanon,19,SNS,2006-2010,incoming
+LK,Sri Lanka,2,SNS,2006-2010,incoming
+LT,Lithuania,338,SNS,2006-2010,incoming
+LU,Luxembourg,10,SNS,2006-2010,incoming
+LV,Latvia,17,SNS,2006-2010,incoming
+MA,Morocco,32,SNS,2006-2010,incoming
+MD,Moldova,4,SNS,2006-2010,incoming
+ME,Montenegro,38,SNS,2006-2010,incoming
+MG,Madagascar,1,SNS,2006-2010,incoming
+MK,North Macedonia,4,SNS,2006-2010,incoming
+ML,Mali,1,SNS,2006-2010,incoming
+MN,Mongolia,30,SNS,2006-2010,incoming
+MR,Mauritania,5,SNS,2006-2010,incoming
+MT,Malta,2,SNS,2006-2010,incoming
+MU,Mauritius,4,SNS,2006-2010,incoming
+MW,Malawi,1,SNS,2006-2010,incoming
+MX,Mexico,5200,SNS,2006-2010,incoming
+MY,Malaysia,51,SNS,2006-2010,incoming
+MZ,Mozambique,6,SNS,2006-2010,incoming
+NG,Nigeria,13,SNS,2006-2010,incoming
+NI,Nicaragua,5,SNS,2006-2010,incoming
+NL,The Netherlands,7163,SNS,2006-2010,incoming
+NO,Norway,2298,SNS,2006-2010,incoming
+NZ,New Zealand,1990,SNS,2006-2010,incoming
+OM,Oman,5,SNS,2006-2010,incoming
+PA,Panama,2,SNS,2006-2010,incoming
+PE,Peru,16,SNS,2006-2010,incoming
+PH,Philippines,20,SNS,2006-2010,incoming
+PK,Pakistan,2237,SNS,2006-2010,incoming
+PL,Poland,7604,SNS,2006-2010,incoming
+PS,Palestine,2,SNS,2006-2010,incoming
+PT,Portugal,1915,SNS,2006-2010,incoming
+QA,Qatar,13,SNS,2006-2010,incoming
+RO,Romania,148,SNS,2006-2010,incoming
+RS,Serbia,1704,SNS,2006-2010,incoming
+RU,Russia,22459,SNS,2006-2010,incoming
+RW,Rwanda,1,SNS,2006-2010,incoming
+SA,Saudi Arabia,41,SNS,2006-2010,incoming
+SD,Sudan,2,SNS,2006-2010,incoming
+SE,Sweden,2662,SNS,2006-2010,incoming
+SG,Singapore,586,SNS,2006-2010,incoming
+SI,Slovenia,2551,SNS,2006-2010,incoming
+SK,Slovakia,4255,SNS,2006-2010,incoming
+SN,Senegal,1,SNS,2006-2010,incoming
+SO,Somalia,1,SNS,2006-2010,incoming
+TH,Thailand,46,SNS,2006-2010,incoming
+TJ,Tajikistan,18,SNS,2006-2010,incoming
+TN,Tunisia,83,SNS,2006-2010,incoming
+TR,Turkey,6756,SNS,2006-2010,incoming
+TW,Taiwan,9056,SNS,2006-2010,incoming
+TZ,Tanzania,278,SNS,2006-2010,incoming
+UA,Ukraine,1380,SNS,2006-2010,incoming
+UG,Uganda,21,SNS,2006-2010,incoming
+US,United States,256154,SNS,2006-2010,incoming
+UY,Uruguay,34,SNS,2006-2010,incoming
+UZ,Uzbekistan,1247,SNS,2006-2010,incoming
+VE,Venezuela,29,SNS,2006-2010,incoming
+VN,Vietnam,59,SNS,2006-2010,incoming
+YE,Yemen,19,SNS,2006-2010,incoming
+ZA,South Africa,182,SNS,2006-2010,incoming
+ZW,Zimbabwe,2,SNS,2006-2010,incoming

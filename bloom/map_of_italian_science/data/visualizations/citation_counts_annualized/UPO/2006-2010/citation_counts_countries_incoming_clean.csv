@@ -1,160 +1,142 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,103662,UPO,2006-2010,incoming
-Italy,IT,77888,UPO,2006-2010,incoming
-France,FR,63528,UPO,2006-2010,incoming
-Germany,DE,24141,UPO,2006-2010,incoming
-United Kingdom,GB,23749,UPO,2006-2010,incoming
-Russia,RU,16988,UPO,2006-2010,incoming
-India,IN,14436,UPO,2006-2010,incoming
-Spain,ES,13845,UPO,2006-2010,incoming
-South Korea,KR,12961,UPO,2006-2010,incoming
-China,CN,10137,UPO,2006-2010,incoming
-Switzerland,CH,9695,UPO,2006-2010,incoming
-Japan,JP,9647,UPO,2006-2010,incoming
-Poland,PL,9413,UPO,2006-2010,incoming
-Finland,FI,8400,UPO,2006-2010,incoming
-Belgium,BE,8281,UPO,2006-2010,incoming
-Brazil,BR,7990,UPO,2006-2010,incoming
-Türkiye,TR,7245,UPO,2006-2010,incoming
-Hungary,HU,7113,UPO,2006-2010,incoming
-Mexico,MX,6469,UPO,2006-2010,incoming
-The Netherlands,NL,6084,UPO,2006-2010,incoming
-Greece,GR,5956,UPO,2006-2010,incoming
-Canada,CA,5128,UPO,2006-2010,incoming
-Croatia,HR,4539,UPO,2006-2010,incoming
-Taiwan,TW,4134,UPO,2006-2010,incoming
-Australia,AU,3697,UPO,2006-2010,incoming
-Sweden,SE,3692,UPO,2006-2010,incoming
-Slovakia,SK,3634,UPO,2006-2010,incoming
-Czechia,CZ,3147,UPO,2006-2010,incoming
-Bulgaria,BG,2903,UPO,2006-2010,incoming
-Norway,NO,2610,UPO,2006-2010,incoming
-Portugal,PT,2500,UPO,2006-2010,incoming
-Ukraine,UA,2286,UPO,2006-2010,incoming
-Pakistan,PK,2181,UPO,2006-2010,incoming
-Austria,AT,2133,UPO,2006-2010,incoming
-New Zealand,NZ,2049,UPO,2006-2010,incoming
-Serbia,RS,1973,UPO,2006-2010,incoming
-Denmark,DK,1945,UPO,2006-2010,incoming
-Colombia,CO,1750,UPO,2006-2010,incoming
-Georgia,GE,1651,UPO,2006-2010,incoming
-Israel,IL,1612,UPO,2006-2010,incoming
-Uzbekistan,UZ,1513,UPO,2006-2010,incoming
-Armenia,AM,1398,UPO,2006-2010,incoming
-Iran,IR,1378,UPO,2006-2010,incoming
-China (People's Republic of),CN,1363,UPO,2006-2010,incoming
-Ireland,IE,1295,UPO,2006-2010,incoming
-Puerto Rico,PR,1044,UPO,2006-2010,incoming
-Belarus,BY,1026,UPO,2006-2010,incoming
-Netherlands,NL,982,UPO,2006-2010,incoming
-South Africa,ZA,963,UPO,2006-2010,incoming
-Estonia,EE,936,UPO,2006-2010,incoming
-Cyprus,CY,899,UPO,2006-2010,incoming
-Argentina,AR,688,UPO,2006-2010,incoming
-Singapore,SG,647,UPO,2006-2010,incoming
-Romania,RO,574,UPO,2006-2010,incoming
-Hong Kong,HK,552,UPO,2006-2010,incoming
-Chile,CL,466,UPO,2006-2010,incoming
-Cuba,CU,399,UPO,2006-2010,incoming
-Malaysia,MY,360,UPO,2006-2010,incoming
-Lithuania,LT,356,UPO,2006-2010,incoming
-Peru,PE,349,UPO,2006-2010,incoming
-Slovenia,SI,284,UPO,2006-2010,incoming
-Egypt,EG,278,UPO,2006-2010,incoming
-Philippines,PH,212,UPO,2006-2010,incoming
-Mongolia,MN,201,UPO,2006-2010,incoming
-Thailand,TH,182,UPO,2006-2010,incoming
-Iceland,IS,181,UPO,2006-2010,incoming
-Montenegro,ME,167,UPO,2006-2010,incoming
-Tunisia,TN,157,UPO,2006-2010,incoming
-Ghana,GH,148,UPO,2006-2010,incoming
-Saudi Arabia,SA,122,UPO,2006-2010,incoming
-Korea (Republic of),KR,96,UPO,2006-2010,incoming
-Ecuador,EC,86,UPO,2006-2010,incoming
-Morocco,MA,80,UPO,2006-2010,incoming
-Russian Federation,RU,72,UPO,2006-2010,incoming
-Lebanon,LB,62,UPO,2006-2010,incoming
-Kazakhstan,KZ,61,UPO,2006-2010,incoming
-Jordan,JO,61,UPO,2006-2010,incoming
-Qatar,QA,53,UPO,2006-2010,incoming
-Nigeria,NG,47,UPO,2006-2010,incoming
-Ethiopia,ET,46,UPO,2006-2010,incoming
-Tanzania,TZ,44,UPO,2006-2010,incoming
-Uruguay,UY,42,UPO,2006-2010,incoming
-Azerbaijan,AZ,40,UPO,2006-2010,incoming
-Algeria,DZ,37,UPO,2006-2010,incoming
-United Arab Emirates,AE,36,UPO,2006-2010,incoming
-Czech Republic,CZ,31,UPO,2006-2010,incoming
-Bahrain,BH,30,UPO,2006-2010,incoming
-Venezuela,VE,28,UPO,2006-2010,incoming
-Bangladesh,BD,25,UPO,2006-2010,incoming
-Bolivia,BO,22,UPO,2006-2010,incoming
-Vietnam,VN,22,UPO,2006-2010,incoming
-Latvia,LV,22,UPO,2006-2010,incoming
-Sri Lanka,LK,20,UPO,2006-2010,incoming
-Indonesia,ID,19,UPO,2006-2010,incoming
-Turkey,TR,18,UPO,2006-2010,incoming
-Kuwait,KW,18,UPO,2006-2010,incoming
-Malta,MT,17,UPO,2006-2010,incoming
-Luxembourg,LU,16,UPO,2006-2010,incoming
-Kenya,KE,16,UPO,2006-2010,incoming
-Angola,AO,10,UPO,2006-2010,incoming
-Yemen,YE,10,UPO,2006-2010,incoming
-Palestine,PS,10,UPO,2006-2010,incoming
-Mozambique,MZ,10,UPO,2006-2010,incoming
-Iran (Islamic Republic of),IR,9,UPO,2006-2010,incoming
-Moldova,MD,9,UPO,2006-2010,incoming
-Iraq,IQ,9,UPO,2006-2010,incoming
-Oman,OM,9,UPO,2006-2010,incoming
-Cambodia,KH,8,UPO,2006-2010,incoming
-Bosnia and Herzegovina,BA,8,UPO,2006-2010,incoming
-Jamaica,JM,8,UPO,2006-2010,incoming
-Uganda,UG,7,UPO,2006-2010,incoming
-Costa Rica,CR,7,UPO,2006-2010,incoming
-Benin,BJ,6,UPO,2006-2010,incoming
-Grenada,GD,5,UPO,2006-2010,incoming
-El Salvador,SV,5,UPO,2006-2010,incoming
-North Macedonia,MK,5,UPO,2006-2010,incoming
-Senegal,SN,5,UPO,2006-2010,incoming
-Antigua and Barbuda,AG,4,UPO,2006-2010,incoming
-Rwanda,RW,4,UPO,2006-2010,incoming
-Cameroon,CM,4,UPO,2006-2010,incoming
-Myanmar,MM,4,UPO,2006-2010,incoming
-Tajikistan,TJ,4,UPO,2006-2010,incoming
-Paraguay,PY,4,UPO,2006-2010,incoming
-Nepal,NP,3,UPO,2006-2010,incoming
-Albania,AL,3,UPO,2006-2010,incoming
-Panama,PA,3,UPO,2006-2010,incoming
-Guatemala,GT,3,UPO,2006-2010,incoming
-Bermuda,BM,3,UPO,2006-2010,incoming
-Mauritius,MU,2,UPO,2006-2010,incoming
-Palau,PW,2,UPO,2006-2010,incoming
-Kosovo,XK,2,UPO,2006-2010,incoming
-Malawi,MW,2,UPO,2006-2010,incoming
-American Samoa,AS,2,UPO,2006-2010,incoming
-DR Congo,CD,2,UPO,2006-2010,incoming
-Curaçao,CW,2,UPO,2006-2010,incoming
-Somalia,SO,2,UPO,2006-2010,incoming
-Syria,SY,2,UPO,2006-2010,incoming
-Réunion,RE,2,UPO,2006-2010,incoming
-Nicaragua,NI,2,UPO,2006-2010,incoming
-Guadeloupe,GP,1,UPO,2006-2010,incoming
-Sudan,SD,1,UPO,2006-2010,incoming
-Madagascar,MG,1,UPO,2006-2010,incoming
-Former Yugoslav Republic of Macedonia,MK,1,UPO,2006-2010,incoming
-Macao,MO,1,UPO,2006-2010,incoming
-North Korea,KP,1,UPO,2006-2010,incoming
-San Marino,SM,1,UPO,2006-2010,incoming
-Afghanistan,AF,1,UPO,2006-2010,incoming
-Zimbabwe,ZW,1,UPO,2006-2010,incoming
-Trinidad and Tobago,TT,1,UPO,2006-2010,incoming
-Laos,LA,1,UPO,2006-2010,incoming
-Botswana,BW,1,UPO,2006-2010,incoming
-Zambia,ZM,1,UPO,2006-2010,incoming
-Fiji,FJ,1,UPO,2006-2010,incoming
-Libya,LY,1,UPO,2006-2010,incoming
-Gabon,GA,1,UPO,2006-2010,incoming
-French Guiana,GF,1,UPO,2006-2010,incoming
-Bhutan,BT,1,UPO,2006-2010,incoming
-New Caledonia,NC,1,UPO,2006-2010,incoming
-Barbados,BB,1,UPO,2006-2010,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,36,UPO,2006-2010,incoming
+AF,Afghanistan,1,UPO,2006-2010,incoming
+AG,Antigua and Barbuda,4,UPO,2006-2010,incoming
+AL,Albania,3,UPO,2006-2010,incoming
+AM,Armenia,1398,UPO,2006-2010,incoming
+AO,Angola,10,UPO,2006-2010,incoming
+AR,Argentina,688,UPO,2006-2010,incoming
+AT,Austria,2133,UPO,2006-2010,incoming
+AU,Australia,3697,UPO,2006-2010,incoming
+AZ,Azerbaijan,40,UPO,2006-2010,incoming
+BA,Bosnia and Herzegovina,8,UPO,2006-2010,incoming
+BB,Barbados,1,UPO,2006-2010,incoming
+BD,Bangladesh,25,UPO,2006-2010,incoming
+BE,Belgium,8281,UPO,2006-2010,incoming
+BG,Bulgaria,2903,UPO,2006-2010,incoming
+BH,Bahrain,30,UPO,2006-2010,incoming
+BJ,Benin,6,UPO,2006-2010,incoming
+BO,Bolivia,22,UPO,2006-2010,incoming
+BR,Brazil,7990,UPO,2006-2010,incoming
+BT,Bhutan,1,UPO,2006-2010,incoming
+BW,Botswana,1,UPO,2006-2010,incoming
+BY,Belarus,1026,UPO,2006-2010,incoming
+CA,Canada,5128,UPO,2006-2010,incoming
+CD,DR Congo,2,UPO,2006-2010,incoming
+CH,Switzerland,9695,UPO,2006-2010,incoming
+CL,Chile,466,UPO,2006-2010,incoming
+CM,Cameroon,4,UPO,2006-2010,incoming
+CN,China,12053,UPO,2006-2010,incoming
+CO,Colombia,1750,UPO,2006-2010,incoming
+CR,Costa Rica,7,UPO,2006-2010,incoming
+CU,Cuba,399,UPO,2006-2010,incoming
+CY,Cyprus,899,UPO,2006-2010,incoming
+CZ,Czechia,3178,UPO,2006-2010,incoming
+DE,Germany,24141,UPO,2006-2010,incoming
+DK,Denmark,1945,UPO,2006-2010,incoming
+DZ,Algeria,37,UPO,2006-2010,incoming
+EC,Ecuador,86,UPO,2006-2010,incoming
+EE,Estonia,936,UPO,2006-2010,incoming
+EG,Egypt,278,UPO,2006-2010,incoming
+ES,Spain,13845,UPO,2006-2010,incoming
+ET,Ethiopia,46,UPO,2006-2010,incoming
+FI,Finland,8400,UPO,2006-2010,incoming
+FJ,Fiji,1,UPO,2006-2010,incoming
+FR,France,63533,UPO,2006-2010,incoming
+GA,Gabon,1,UPO,2006-2010,incoming
+GB,United Kingdom,23752,UPO,2006-2010,incoming
+GD,Grenada,5,UPO,2006-2010,incoming
+GE,Georgia,1651,UPO,2006-2010,incoming
+GH,Ghana,148,UPO,2006-2010,incoming
+GR,Greece,5956,UPO,2006-2010,incoming
+GT,Guatemala,3,UPO,2006-2010,incoming
+HR,Croatia,4539,UPO,2006-2010,incoming
+HU,Hungary,7113,UPO,2006-2010,incoming
+ID,Indonesia,19,UPO,2006-2010,incoming
+IE,Ireland,1295,UPO,2006-2010,incoming
+IL,Israel,1612,UPO,2006-2010,incoming
+IN,India,14436,UPO,2006-2010,incoming
+IQ,Iraq,9,UPO,2006-2010,incoming
+IR,Iran,1387,UPO,2006-2010,incoming
+IS,Iceland,181,UPO,2006-2010,incoming
+IT,Italy,77888,UPO,2006-2010,incoming
+JM,Jamaica,8,UPO,2006-2010,incoming
+JO,Jordan,61,UPO,2006-2010,incoming
+JP,Japan,9647,UPO,2006-2010,incoming
+KE,Kenya,16,UPO,2006-2010,incoming
+KH,Cambodia,8,UPO,2006-2010,incoming
+KP,North Korea,1,UPO,2006-2010,incoming
+KR,South Korea,13057,UPO,2006-2010,incoming
+KW,Kuwait,18,UPO,2006-2010,incoming
+KZ,Kazakhstan,61,UPO,2006-2010,incoming
+LA,Laos,1,UPO,2006-2010,incoming
+LB,Lebanon,62,UPO,2006-2010,incoming
+LK,Sri Lanka,20,UPO,2006-2010,incoming
+LT,Lithuania,356,UPO,2006-2010,incoming
+LU,Luxembourg,16,UPO,2006-2010,incoming
+LV,Latvia,22,UPO,2006-2010,incoming
+LY,Libya,1,UPO,2006-2010,incoming
+MA,Morocco,80,UPO,2006-2010,incoming
+MD,Moldova,9,UPO,2006-2010,incoming
+ME,Montenegro,167,UPO,2006-2010,incoming
+MG,Madagascar,1,UPO,2006-2010,incoming
+MK,North Macedonia,6,UPO,2006-2010,incoming
+MM,Myanmar,4,UPO,2006-2010,incoming
+MN,Mongolia,201,UPO,2006-2010,incoming
+MT,Malta,17,UPO,2006-2010,incoming
+MU,Mauritius,2,UPO,2006-2010,incoming
+MW,Malawi,2,UPO,2006-2010,incoming
+MX,Mexico,6469,UPO,2006-2010,incoming
+MY,Malaysia,360,UPO,2006-2010,incoming
+MZ,Mozambique,10,UPO,2006-2010,incoming
+NG,Nigeria,47,UPO,2006-2010,incoming
+NI,Nicaragua,2,UPO,2006-2010,incoming
+NL,The Netherlands,7068,UPO,2006-2010,incoming
+NO,Norway,2610,UPO,2006-2010,incoming
+NP,Nepal,3,UPO,2006-2010,incoming
+NZ,New Zealand,2049,UPO,2006-2010,incoming
+OM,Oman,9,UPO,2006-2010,incoming
+PA,Panama,3,UPO,2006-2010,incoming
+PE,Peru,349,UPO,2006-2010,incoming
+PH,Philippines,212,UPO,2006-2010,incoming
+PK,Pakistan,2181,UPO,2006-2010,incoming
+PL,Poland,9413,UPO,2006-2010,incoming
+PS,Palestine,10,UPO,2006-2010,incoming
+PT,Portugal,2500,UPO,2006-2010,incoming
+PW,Palau,2,UPO,2006-2010,incoming
+PY,Paraguay,4,UPO,2006-2010,incoming
+QA,Qatar,53,UPO,2006-2010,incoming
+RO,Romania,574,UPO,2006-2010,incoming
+RS,Serbia,1973,UPO,2006-2010,incoming
+RU,Russia,17060,UPO,2006-2010,incoming
+RW,Rwanda,4,UPO,2006-2010,incoming
+SA,Saudi Arabia,122,UPO,2006-2010,incoming
+SD,Sudan,1,UPO,2006-2010,incoming
+SE,Sweden,3692,UPO,2006-2010,incoming
+SG,Singapore,647,UPO,2006-2010,incoming
+SI,Slovenia,284,UPO,2006-2010,incoming
+SK,Slovakia,3634,UPO,2006-2010,incoming
+SM,San Marino,1,UPO,2006-2010,incoming
+SN,Senegal,5,UPO,2006-2010,incoming
+SO,Somalia,2,UPO,2006-2010,incoming
+SV,El Salvador,5,UPO,2006-2010,incoming
+SY,Syria,2,UPO,2006-2010,incoming
+TH,Thailand,182,UPO,2006-2010,incoming
+TJ,Tajikistan,4,UPO,2006-2010,incoming
+TN,Tunisia,157,UPO,2006-2010,incoming
+TR,Turkey,7263,UPO,2006-2010,incoming
+TT,Trinidad and Tobago,1,UPO,2006-2010,incoming
+TW,Taiwan,4134,UPO,2006-2010,incoming
+TZ,Tanzania,44,UPO,2006-2010,incoming
+UA,Ukraine,2286,UPO,2006-2010,incoming
+UG,Uganda,7,UPO,2006-2010,incoming
+US,United States,104708,UPO,2006-2010,incoming
+UY,Uruguay,42,UPO,2006-2010,incoming
+UZ,Uzbekistan,1513,UPO,2006-2010,incoming
+VE,Venezuela,28,UPO,2006-2010,incoming
+VN,Vietnam,22,UPO,2006-2010,incoming
+XK,Kosovo,2,UPO,2006-2010,incoming
+YE,Yemen,10,UPO,2006-2010,incoming
+ZA,South Africa,963,UPO,2006-2010,incoming
+ZM,Zambia,1,UPO,2006-2010,incoming
+ZW,Zimbabwe,1,UPO,2006-2010,incoming

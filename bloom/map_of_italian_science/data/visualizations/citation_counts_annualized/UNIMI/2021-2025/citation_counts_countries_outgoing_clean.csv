@@ -1,224 +1,184 @@
-country_name,country_code,count,italian_institution,year_block,direction
-Italy,IT,687556,UNIMI,2021-2025,outgoing
-United States,US,645014,UNIMI,2021-2025,outgoing
-France,FR,411151,UNIMI,2021-2025,outgoing
-United Kingdom,GB,271664,UNIMI,2021-2025,outgoing
-Germany,DE,202544,UNIMI,2021-2025,outgoing
-Spain,ES,149190,UNIMI,2021-2025,outgoing
-China,CN,119174,UNIMI,2021-2025,outgoing
-Canada,CA,88745,UNIMI,2021-2025,outgoing
-Japan,JP,87572,UNIMI,2021-2025,outgoing
-The Netherlands,NL,81857,UNIMI,2021-2025,outgoing
-Switzerland,CH,62357,UNIMI,2021-2025,outgoing
-Australia,AU,60230,UNIMI,2021-2025,outgoing
-Poland,PL,48582,UNIMI,2021-2025,outgoing
-Brazil,BR,44353,UNIMI,2021-2025,outgoing
-Sweden,SE,34707,UNIMI,2021-2025,outgoing
-India,IN,34110,UNIMI,2021-2025,outgoing
-Denmark,DK,33972,UNIMI,2021-2025,outgoing
-Türkiye,TR,33961,UNIMI,2021-2025,outgoing
-Belgium,BE,33212,UNIMI,2021-2025,outgoing
-South Korea,KR,32550,UNIMI,2021-2025,outgoing
-Portugal,PT,32037,UNIMI,2021-2025,outgoing
-Russia,RU,29640,UNIMI,2021-2025,outgoing
-Greece,GR,27626,UNIMI,2021-2025,outgoing
-Austria,AT,25838,UNIMI,2021-2025,outgoing
-Romania,RO,25321,UNIMI,2021-2025,outgoing
-Taiwan,TW,24156,UNIMI,2021-2025,outgoing
-Israel,IL,23463,UNIMI,2021-2025,outgoing
-Argentina,AR,22847,UNIMI,2021-2025,outgoing
-Chile,CL,22583,UNIMI,2021-2025,outgoing
-Czechia,CZ,22286,UNIMI,2021-2025,outgoing
-South Africa,ZA,20083,UNIMI,2021-2025,outgoing
-Norway,NO,17451,UNIMI,2021-2025,outgoing
-Hong Kong,HK,16385,UNIMI,2021-2025,outgoing
-Finland,FI,15896,UNIMI,2021-2025,outgoing
-Morocco,MA,12032,UNIMI,2021-2025,outgoing
-Slovakia,SK,11676,UNIMI,2021-2025,outgoing
-Iran,IR,11361,UNIMI,2021-2025,outgoing
-Hungary,HU,11358,UNIMI,2021-2025,outgoing
-Colombia,CO,11310,UNIMI,2021-2025,outgoing
-Ireland,IE,11098,UNIMI,2021-2025,outgoing
-Netherlands,NL,10839,UNIMI,2021-2025,outgoing
-China (People's Republic of),CN,10741,UNIMI,2021-2025,outgoing
-Singapore,SG,8305,UNIMI,2021-2025,outgoing
-Serbia,RS,7943,UNIMI,2021-2025,outgoing
-Mexico,MX,7634,UNIMI,2021-2025,outgoing
-United Arab Emirates,AE,7364,UNIMI,2021-2025,outgoing
-Slovenia,SI,7355,UNIMI,2021-2025,outgoing
-Philippines,PH,6386,UNIMI,2021-2025,outgoing
-Azerbaijan,AZ,5363,UNIMI,2021-2025,outgoing
-Egypt,EG,5333,UNIMI,2021-2025,outgoing
-Georgia,GE,5118,UNIMI,2021-2025,outgoing
-New Zealand,NZ,4820,UNIMI,2021-2025,outgoing
-Belarus,BY,4632,UNIMI,2021-2025,outgoing
-Saudi Arabia,SA,4322,UNIMI,2021-2025,outgoing
-Croatia,HR,4252,UNIMI,2021-2025,outgoing
-Pakistan,PK,3815,UNIMI,2021-2025,outgoing
-Bulgaria,BG,3411,UNIMI,2021-2025,outgoing
-Malaysia,MY,3057,UNIMI,2021-2025,outgoing
-Thailand,TH,3023,UNIMI,2021-2025,outgoing
-Ukraine,UA,2475,UNIMI,2021-2025,outgoing
-Qatar,QA,2303,UNIMI,2021-2025,outgoing
-Korea (Republic of),KR,1949,UNIMI,2021-2025,outgoing
-Nigeria,NG,1893,UNIMI,2021-2025,outgoing
-Vietnam,VN,1772,UNIMI,2021-2025,outgoing
-Cyprus,CY,1580,UNIMI,2021-2025,outgoing
-Ecuador,EC,1566,UNIMI,2021-2025,outgoing
-Estonia,EE,1522,UNIMI,2021-2025,outgoing
-Indonesia,ID,1479,UNIMI,2021-2025,outgoing
-Mongolia,MN,1427,UNIMI,2021-2025,outgoing
-Lebanon,LB,1388,UNIMI,2021-2025,outgoing
-Ethiopia,ET,1356,UNIMI,2021-2025,outgoing
-Peru,PE,1333,UNIMI,2021-2025,outgoing
-Lithuania,LT,1319,UNIMI,2021-2025,outgoing
-Bangladesh,BD,1216,UNIMI,2021-2025,outgoing
-Palestine,PS,1177,UNIMI,2021-2025,outgoing
-Tunisia,TN,1082,UNIMI,2021-2025,outgoing
-Jordan,JO,983,UNIMI,2021-2025,outgoing
-Luxembourg,LU,865,UNIMI,2021-2025,outgoing
-Latvia,LV,834,UNIMI,2021-2025,outgoing
-Russian Federation,RU,767,UNIMI,2021-2025,outgoing
-Sri Lanka,LK,754,UNIMI,2021-2025,outgoing
-Iraq,IQ,730,UNIMI,2021-2025,outgoing
-Puerto Rico,PR,717,UNIMI,2021-2025,outgoing
-Czech Republic,CZ,715,UNIMI,2021-2025,outgoing
-Kenya,KE,682,UNIMI,2021-2025,outgoing
-Armenia,AM,678,UNIMI,2021-2025,outgoing
-Ghana,GH,657,UNIMI,2021-2025,outgoing
-Iceland,IS,624,UNIMI,2021-2025,outgoing
-Uganda,UG,612,UNIMI,2021-2025,outgoing
-Turkey,TR,608,UNIMI,2021-2025,outgoing
-Bahrain,BH,590,UNIMI,2021-2025,outgoing
-North Macedonia,MK,538,UNIMI,2021-2025,outgoing
-Malta,MT,519,UNIMI,2021-2025,outgoing
-Algeria,DZ,498,UNIMI,2021-2025,outgoing
-Kuwait,KW,476,UNIMI,2021-2025,outgoing
-Uruguay,UY,465,UNIMI,2021-2025,outgoing
-Nepal,NP,409,UNIMI,2021-2025,outgoing
-Tanzania,TZ,366,UNIMI,2021-2025,outgoing
-Albania,AL,366,UNIMI,2021-2025,outgoing
-Oman,OM,317,UNIMI,2021-2025,outgoing
-Kazakhstan,KZ,303,UNIMI,2021-2025,outgoing
-Iran (Islamic Republic of),IR,302,UNIMI,2021-2025,outgoing
-Venezuela,VE,292,UNIMI,2021-2025,outgoing
-Macao,MO,285,UNIMI,2021-2025,outgoing
-Zimbabwe,ZW,285,UNIMI,2021-2025,outgoing
-Montenegro,ME,262,UNIMI,2021-2025,outgoing
-Cuba,CU,250,UNIMI,2021-2025,outgoing
-Cambodia,KH,250,UNIMI,2021-2025,outgoing
-Cameroon,CM,242,UNIMI,2021-2025,outgoing
-Bosnia and Herzegovina,BA,220,UNIMI,2021-2025,outgoing
-Kyrgyzstan,KG,207,UNIMI,2021-2025,outgoing
-Moldova,MD,198,UNIMI,2021-2025,outgoing
-Yemen,YE,191,UNIMI,2021-2025,outgoing
-Uzbekistan,UZ,187,UNIMI,2021-2025,outgoing
-Réunion,RE,179,UNIMI,2021-2025,outgoing
-Botswana,BW,173,UNIMI,2021-2025,outgoing
-Honduras,HN,160,UNIMI,2021-2025,outgoing
-Antigua and Barbuda,AG,160,UNIMI,2021-2025,outgoing
-Malawi,MW,158,UNIMI,2021-2025,outgoing
-Zambia,ZM,156,UNIMI,2021-2025,outgoing
-Myanmar,MM,145,UNIMI,2021-2025,outgoing
-Monaco,MC,138,UNIMI,2021-2025,outgoing
-Panama,PA,135,UNIMI,2021-2025,outgoing
-Costa Rica,CR,131,UNIMI,2021-2025,outgoing
-Guadeloupe,GP,131,UNIMI,2021-2025,outgoing
-Madagascar,MG,128,UNIMI,2021-2025,outgoing
-Rwanda,RW,128,UNIMI,2021-2025,outgoing
-Grenada,GD,115,UNIMI,2021-2025,outgoing
-Paraguay,PY,115,UNIMI,2021-2025,outgoing
-Benin,BJ,113,UNIMI,2021-2025,outgoing
-Bolivia,BO,110,UNIMI,2021-2025,outgoing
-Sudan,SD,106,UNIMI,2021-2025,outgoing
-Kosovo,XK,105,UNIMI,2021-2025,outgoing
-Senegal,SN,98,UNIMI,2021-2025,outgoing
-Libya,LY,98,UNIMI,2021-2025,outgoing
-Mozambique,MZ,94,UNIMI,2021-2025,outgoing
-American Samoa,AS,93,UNIMI,2021-2025,outgoing
-El Salvador,SV,93,UNIMI,2021-2025,outgoing
-Guatemala,GT,92,UNIMI,2021-2025,outgoing
-Angola,AO,91,UNIMI,2021-2025,outgoing
-Brunei,BN,91,UNIMI,2021-2025,outgoing
-Burkina Faso,BF,88,UNIMI,2021-2025,outgoing
-Nicaragua,NI,81,UNIMI,2021-2025,outgoing
-Jamaica,JM,81,UNIMI,2021-2025,outgoing
-Syria,SY,75,UNIMI,2021-2025,outgoing
-St Kitts and Nevis,KN,71,UNIMI,2021-2025,outgoing
-Gabon,GA,67,UNIMI,2021-2025,outgoing
-DR Congo,CD,66,UNIMI,2021-2025,outgoing
-French Guiana,GF,66,UNIMI,2021-2025,outgoing
-Dominican Republic,DO,51,UNIMI,2021-2025,outgoing
-The Gambia,GM,49,UNIMI,2021-2025,outgoing
-Afghanistan,AF,46,UNIMI,2021-2025,outgoing
-Somalia,SO,45,UNIMI,2021-2025,outgoing
-Ivory Coast,CI,43,UNIMI,2021-2025,outgoing
-Fiji,FJ,41,UNIMI,2021-2025,outgoing
-Congo Republic,CG,36,UNIMI,2021-2025,outgoing
-Namibia,,33,UNIMI,2021-2025,outgoing
-New Caledonia,NC,33,UNIMI,2021-2025,outgoing
-Liechtenstein,LI,32,UNIMI,2021-2025,outgoing
-Martinique,MQ,31,UNIMI,2021-2025,outgoing
-Papua New Guinea,PG,29,UNIMI,2021-2025,outgoing
-Niger,NE,28,UNIMI,2021-2025,outgoing
-Laos,LA,27,UNIMI,2021-2025,outgoing
-Viet Nam,VN,27,UNIMI,2021-2025,outgoing
-Tanzania (United Republic of),TZ,24,UNIMI,2021-2025,outgoing
-Mauritius,MU,23,UNIMI,2021-2025,outgoing
-Bahamas,BS,21,UNIMI,2021-2025,outgoing
-Central African Republic,CF,21,UNIMI,2021-2025,outgoing
-Cabo Verde,CV,20,UNIMI,2021-2025,outgoing
-Bhutan,BT,20,UNIMI,2021-2025,outgoing
-Gibraltar,GI,20,UNIMI,2021-2025,outgoing
-Trinidad and Tobago,TT,20,UNIMI,2021-2025,outgoing
-Mali,ML,19,UNIMI,2021-2025,outgoing
-Sierra Leone,SL,19,UNIMI,2021-2025,outgoing
-Curaçao,CW,18,UNIMI,2021-2025,outgoing
-Saint Lucia,LC,18,UNIMI,2021-2025,outgoing
-Faroe Islands,FO,18,UNIMI,2021-2025,outgoing
-Guyana,GY,17,UNIMI,2021-2025,outgoing
-Tajikistan,TJ,16,UNIMI,2021-2025,outgoing
-Jersey,JE,15,UNIMI,2021-2025,outgoing
-European Union,EU,13,UNIMI,2021-2025,outgoing
-Micronesia,FM,13,UNIMI,2021-2025,outgoing
-Bermuda,BM,12,UNIMI,2021-2025,outgoing
-Syrian Arab Republic,SY,12,UNIMI,2021-2025,outgoing
-Haiti,HT,11,UNIMI,2021-2025,outgoing
-Seychelles,SC,11,UNIMI,2021-2025,outgoing
-Palau,PW,10,UNIMI,2021-2025,outgoing
-Maldives,MV,10,UNIMI,2021-2025,outgoing
-Liberia,LR,10,UNIMI,2021-2025,outgoing
-French Polynesia,PF,10,UNIMI,2021-2025,outgoing
-Barbados,BB,9,UNIMI,2021-2025,outgoing
-Guinea,GN,8,UNIMI,2021-2025,outgoing
-Greenland,GL,8,UNIMI,2021-2025,outgoing
-Svalbard and Jan Mayen,SJ,7,UNIMI,2021-2025,outgoing
-Former Yugoslav Republic of Macedonia,MK,7,UNIMI,2021-2025,outgoing
-Togo,TG,6,UNIMI,2021-2025,outgoing
-Oceania,OC,5,UNIMI,2021-2025,outgoing
-Eswatini,SZ,4,UNIMI,2021-2025,outgoing
-Burundi,BI,4,UNIMI,2021-2025,outgoing
-Andorra,AD,4,UNIMI,2021-2025,outgoing
-Sint Maarten,SX,4,UNIMI,2021-2025,outgoing
-Guinea-Bissau,GW,3,UNIMI,2021-2025,outgoing
-Cote d'Ivoire,CI,3,UNIMI,2021-2025,outgoing
-Congo (Democratic Republic of),CD,3,UNIMI,2021-2025,outgoing
-Timor-Leste,TL,3,UNIMI,2021-2025,outgoing
-Mayotte,YT,2,UNIMI,2021-2025,outgoing
-Cayman Islands,KY,2,UNIMI,2021-2025,outgoing
-"Korea, Democratic People's Republic of",KP,2,UNIMI,2021-2025,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,2,UNIMI,2021-2025,outgoing
-Lesotho,LS,2,UNIMI,2021-2025,outgoing
-Belize,BZ,2,UNIMI,2021-2025,outgoing
-Guam,GU,2,UNIMI,2021-2025,outgoing
-San Marino,SM,1,UNIMI,2021-2025,outgoing
-North Korea,KP,1,UNIMI,2021-2025,outgoing
-Libyan Arab Jamahiriya,LY,1,UNIMI,2021-2025,outgoing
-Djibouti,DJ,1,UNIMI,2021-2025,outgoing
-Turkmenistan,TM,1,UNIMI,2021-2025,outgoing
-Samoa,WS,1,UNIMI,2021-2025,outgoing
-Chad,TD,1,UNIMI,2021-2025,outgoing
-Falkland Islands,FK,1,UNIMI,2021-2025,outgoing
-Cape Verde,CV,1,UNIMI,2021-2025,outgoing
-Dominica,DM,1,UNIMI,2021-2025,outgoing
-Tuvalu,TV,1,UNIMI,2021-2025,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AD,Andorra,4,UNIMI,2021-2025,outgoing
+AE,United Arab Emirates,7364,UNIMI,2021-2025,outgoing
+AF,Afghanistan,46,UNIMI,2021-2025,outgoing
+AG,Antigua and Barbuda,160,UNIMI,2021-2025,outgoing
+AL,Albania,366,UNIMI,2021-2025,outgoing
+AM,Armenia,678,UNIMI,2021-2025,outgoing
+AO,Angola,91,UNIMI,2021-2025,outgoing
+AR,Argentina,22847,UNIMI,2021-2025,outgoing
+AT,Austria,25838,UNIMI,2021-2025,outgoing
+AU,Australia,60230,UNIMI,2021-2025,outgoing
+AZ,Azerbaijan,5363,UNIMI,2021-2025,outgoing
+BA,Bosnia and Herzegovina,220,UNIMI,2021-2025,outgoing
+BB,Barbados,9,UNIMI,2021-2025,outgoing
+BD,Bangladesh,1216,UNIMI,2021-2025,outgoing
+BE,Belgium,33212,UNIMI,2021-2025,outgoing
+BF,Burkina Faso,88,UNIMI,2021-2025,outgoing
+BG,Bulgaria,3411,UNIMI,2021-2025,outgoing
+BH,Bahrain,590,UNIMI,2021-2025,outgoing
+BI,Burundi,4,UNIMI,2021-2025,outgoing
+BJ,Benin,113,UNIMI,2021-2025,outgoing
+BN,Brunei,91,UNIMI,2021-2025,outgoing
+BO,Bolivia,110,UNIMI,2021-2025,outgoing
+BR,Brazil,44353,UNIMI,2021-2025,outgoing
+BS,Bahamas,21,UNIMI,2021-2025,outgoing
+BT,Bhutan,20,UNIMI,2021-2025,outgoing
+BW,Botswana,173,UNIMI,2021-2025,outgoing
+BY,Belarus,4632,UNIMI,2021-2025,outgoing
+BZ,Belize,2,UNIMI,2021-2025,outgoing
+CA,Canada,88745,UNIMI,2021-2025,outgoing
+CD,DR Congo,69,UNIMI,2021-2025,outgoing
+CF,Central African Republic,21,UNIMI,2021-2025,outgoing
+CG,Congo Republic,36,UNIMI,2021-2025,outgoing
+CH,Switzerland,62357,UNIMI,2021-2025,outgoing
+CI,Ivory Coast,46,UNIMI,2021-2025,outgoing
+CL,Chile,22583,UNIMI,2021-2025,outgoing
+CM,Cameroon,242,UNIMI,2021-2025,outgoing
+CN,China,146585,UNIMI,2021-2025,outgoing
+CO,Colombia,11310,UNIMI,2021-2025,outgoing
+CR,Costa Rica,131,UNIMI,2021-2025,outgoing
+CU,Cuba,250,UNIMI,2021-2025,outgoing
+CV,Cabo Verde,21,UNIMI,2021-2025,outgoing
+CY,Cyprus,1580,UNIMI,2021-2025,outgoing
+CZ,Czechia,23001,UNIMI,2021-2025,outgoing
+DE,Germany,202544,UNIMI,2021-2025,outgoing
+DJ,Djibouti,1,UNIMI,2021-2025,outgoing
+DK,Denmark,33998,UNIMI,2021-2025,outgoing
+DM,Dominica,1,UNIMI,2021-2025,outgoing
+DO,Dominican Republic,51,UNIMI,2021-2025,outgoing
+DZ,Algeria,498,UNIMI,2021-2025,outgoing
+EC,Ecuador,1566,UNIMI,2021-2025,outgoing
+EE,Estonia,1522,UNIMI,2021-2025,outgoing
+EG,Egypt,5333,UNIMI,2021-2025,outgoing
+ES,Spain,149190,UNIMI,2021-2025,outgoing
+ET,Ethiopia,1356,UNIMI,2021-2025,outgoing
+EU,European Union,13,UNIMI,2021-2025,outgoing
+FI,Finland,15896,UNIMI,2021-2025,outgoing
+FJ,Fiji,41,UNIMI,2021-2025,outgoing
+FM,Micronesia,13,UNIMI,2021-2025,outgoing
+FR,France,411603,UNIMI,2021-2025,outgoing
+GA,Gabon,67,UNIMI,2021-2025,outgoing
+GB,United Kingdom,271714,UNIMI,2021-2025,outgoing
+GD,Grenada,115,UNIMI,2021-2025,outgoing
+GE,Georgia,5118,UNIMI,2021-2025,outgoing
+GH,Ghana,657,UNIMI,2021-2025,outgoing
+GM,The Gambia,49,UNIMI,2021-2025,outgoing
+GN,Guinea,8,UNIMI,2021-2025,outgoing
+GR,Greece,27626,UNIMI,2021-2025,outgoing
+GT,Guatemala,92,UNIMI,2021-2025,outgoing
+GW,Guinea-Bissau,3,UNIMI,2021-2025,outgoing
+GY,Guyana,17,UNIMI,2021-2025,outgoing
+HN,Honduras,160,UNIMI,2021-2025,outgoing
+HR,Croatia,4252,UNIMI,2021-2025,outgoing
+HT,Haiti,11,UNIMI,2021-2025,outgoing
+HU,Hungary,11358,UNIMI,2021-2025,outgoing
+ID,Indonesia,1479,UNIMI,2021-2025,outgoing
+IE,Ireland,11098,UNIMI,2021-2025,outgoing
+IL,Israel,23463,UNIMI,2021-2025,outgoing
+IN,India,34110,UNIMI,2021-2025,outgoing
+IQ,Iraq,730,UNIMI,2021-2025,outgoing
+IR,Iran,11663,UNIMI,2021-2025,outgoing
+IS,Iceland,624,UNIMI,2021-2025,outgoing
+IT,Italy,687556,UNIMI,2021-2025,outgoing
+JM,Jamaica,81,UNIMI,2021-2025,outgoing
+JO,Jordan,983,UNIMI,2021-2025,outgoing
+JP,Japan,87572,UNIMI,2021-2025,outgoing
+KE,Kenya,682,UNIMI,2021-2025,outgoing
+KG,Kyrgyzstan,207,UNIMI,2021-2025,outgoing
+KH,Cambodia,250,UNIMI,2021-2025,outgoing
+KN,St Kitts and Nevis,71,UNIMI,2021-2025,outgoing
+KP,North Korea,3,UNIMI,2021-2025,outgoing
+KR,South Korea,34499,UNIMI,2021-2025,outgoing
+KW,Kuwait,476,UNIMI,2021-2025,outgoing
+KZ,Kazakhstan,303,UNIMI,2021-2025,outgoing
+LA,Laos,27,UNIMI,2021-2025,outgoing
+LB,Lebanon,1388,UNIMI,2021-2025,outgoing
+LC,Saint Lucia,18,UNIMI,2021-2025,outgoing
+LI,Liechtenstein,32,UNIMI,2021-2025,outgoing
+LK,Sri Lanka,754,UNIMI,2021-2025,outgoing
+LR,Liberia,10,UNIMI,2021-2025,outgoing
+LS,Lesotho,2,UNIMI,2021-2025,outgoing
+LT,Lithuania,1319,UNIMI,2021-2025,outgoing
+LU,Luxembourg,865,UNIMI,2021-2025,outgoing
+LV,Latvia,834,UNIMI,2021-2025,outgoing
+LY,Libya,99,UNIMI,2021-2025,outgoing
+MA,Morocco,12032,UNIMI,2021-2025,outgoing
+MC,Monaco,138,UNIMI,2021-2025,outgoing
+MD,Moldova,198,UNIMI,2021-2025,outgoing
+ME,Montenegro,262,UNIMI,2021-2025,outgoing
+MG,Madagascar,128,UNIMI,2021-2025,outgoing
+MK,North Macedonia,545,UNIMI,2021-2025,outgoing
+ML,Mali,19,UNIMI,2021-2025,outgoing
+MM,Myanmar,145,UNIMI,2021-2025,outgoing
+MN,Mongolia,1427,UNIMI,2021-2025,outgoing
+MT,Malta,519,UNIMI,2021-2025,outgoing
+MU,Mauritius,23,UNIMI,2021-2025,outgoing
+MV,Maldives,10,UNIMI,2021-2025,outgoing
+MW,Malawi,158,UNIMI,2021-2025,outgoing
+MX,Mexico,7634,UNIMI,2021-2025,outgoing
+MY,Malaysia,3057,UNIMI,2021-2025,outgoing
+MZ,Mozambique,94,UNIMI,2021-2025,outgoing
+NE,Niger,28,UNIMI,2021-2025,outgoing
+NG,Nigeria,1893,UNIMI,2021-2025,outgoing
+NI,Nicaragua,81,UNIMI,2021-2025,outgoing
+NL,The Netherlands,92720,UNIMI,2021-2025,outgoing
+NO,Norway,17458,UNIMI,2021-2025,outgoing
+NP,Nepal,409,UNIMI,2021-2025,outgoing
+NZ,New Zealand,4820,UNIMI,2021-2025,outgoing
+OC,Oceania,5,UNIMI,2021-2025,outgoing
+OM,Oman,317,UNIMI,2021-2025,outgoing
+PA,Panama,135,UNIMI,2021-2025,outgoing
+PE,Peru,1333,UNIMI,2021-2025,outgoing
+PG,Papua New Guinea,29,UNIMI,2021-2025,outgoing
+PH,Philippines,6386,UNIMI,2021-2025,outgoing
+PK,Pakistan,3815,UNIMI,2021-2025,outgoing
+PL,Poland,48582,UNIMI,2021-2025,outgoing
+PS,Palestine,1177,UNIMI,2021-2025,outgoing
+PT,Portugal,32037,UNIMI,2021-2025,outgoing
+PW,Palau,10,UNIMI,2021-2025,outgoing
+PY,Paraguay,115,UNIMI,2021-2025,outgoing
+QA,Qatar,2303,UNIMI,2021-2025,outgoing
+RO,Romania,25321,UNIMI,2021-2025,outgoing
+RS,Serbia,7943,UNIMI,2021-2025,outgoing
+RU,Russia,30407,UNIMI,2021-2025,outgoing
+RW,Rwanda,128,UNIMI,2021-2025,outgoing
+SA,Saudi Arabia,4322,UNIMI,2021-2025,outgoing
+SC,Seychelles,11,UNIMI,2021-2025,outgoing
+SD,Sudan,106,UNIMI,2021-2025,outgoing
+SE,Sweden,34707,UNIMI,2021-2025,outgoing
+SG,Singapore,8305,UNIMI,2021-2025,outgoing
+SI,Slovenia,7355,UNIMI,2021-2025,outgoing
+SK,Slovakia,11676,UNIMI,2021-2025,outgoing
+SL,Sierra Leone,19,UNIMI,2021-2025,outgoing
+SM,San Marino,1,UNIMI,2021-2025,outgoing
+SN,Senegal,98,UNIMI,2021-2025,outgoing
+SO,Somalia,45,UNIMI,2021-2025,outgoing
+SV,El Salvador,93,UNIMI,2021-2025,outgoing
+SY,Syria,87,UNIMI,2021-2025,outgoing
+SZ,Eswatini,4,UNIMI,2021-2025,outgoing
+TD,Chad,1,UNIMI,2021-2025,outgoing
+TG,Togo,6,UNIMI,2021-2025,outgoing
+TH,Thailand,3023,UNIMI,2021-2025,outgoing
+TJ,Tajikistan,16,UNIMI,2021-2025,outgoing
+TL,Timor-Leste,3,UNIMI,2021-2025,outgoing
+TM,Turkmenistan,1,UNIMI,2021-2025,outgoing
+TN,Tunisia,1082,UNIMI,2021-2025,outgoing
+TR,Turkey,34569,UNIMI,2021-2025,outgoing
+TT,Trinidad and Tobago,20,UNIMI,2021-2025,outgoing
+TV,Tuvalu,1,UNIMI,2021-2025,outgoing
+TW,Taiwan,24156,UNIMI,2021-2025,outgoing
+TZ,Tanzania,390,UNIMI,2021-2025,outgoing
+UA,Ukraine,2475,UNIMI,2021-2025,outgoing
+UG,Uganda,612,UNIMI,2021-2025,outgoing
+US,United States,645826,UNIMI,2021-2025,outgoing
+UY,Uruguay,465,UNIMI,2021-2025,outgoing
+UZ,Uzbekistan,187,UNIMI,2021-2025,outgoing
+VE,Venezuela,292,UNIMI,2021-2025,outgoing
+VN,Vietnam,1799,UNIMI,2021-2025,outgoing
+WS,Samoa,1,UNIMI,2021-2025,outgoing
+XK,Kosovo,105,UNIMI,2021-2025,outgoing
+YE,Yemen,191,UNIMI,2021-2025,outgoing
+ZA,South Africa,20083,UNIMI,2021-2025,outgoing
+ZM,Zambia,156,UNIMI,2021-2025,outgoing
+ZW,Zimbabwe,285,UNIMI,2021-2025,outgoing

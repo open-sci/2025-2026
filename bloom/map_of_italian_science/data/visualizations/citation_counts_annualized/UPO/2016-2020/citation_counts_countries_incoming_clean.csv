@@ -1,210 +1,174 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,476287,UPO,2016-2020,incoming
-Italy,IT,255308,UPO,2016-2020,incoming
-France,FR,236191,UPO,2016-2020,incoming
-China,CN,141389,UPO,2016-2020,incoming
-United Kingdom,GB,115792,UPO,2016-2020,incoming
-Germany,DE,111370,UPO,2016-2020,incoming
-Russia,RU,77604,UPO,2016-2020,incoming
-Spain,ES,74006,UPO,2016-2020,incoming
-India,IN,72698,UPO,2016-2020,incoming
-South Korea,KR,54592,UPO,2016-2020,incoming
-Japan,JP,50139,UPO,2016-2020,incoming
-Türkiye,TR,43148,UPO,2016-2020,incoming
-Brazil,BR,42852,UPO,2016-2020,incoming
-Switzerland,CH,39227,UPO,2016-2020,incoming
-Poland,PL,35233,UPO,2016-2020,incoming
-Canada,CA,33743,UPO,2016-2020,incoming
-Australia,AU,31163,UPO,2016-2020,incoming
-The Netherlands,NL,30350,UPO,2016-2020,incoming
-Hungary,HU,30130,UPO,2016-2020,incoming
-Finland,FI,29455,UPO,2016-2020,incoming
-Belgium,BE,26890,UPO,2016-2020,incoming
-Greece,GR,26188,UPO,2016-2020,incoming
-Taiwan,TW,20994,UPO,2016-2020,incoming
-Mexico,MX,20363,UPO,2016-2020,incoming
-Sweden,SE,17410,UPO,2016-2020,incoming
-Czechia,CZ,16965,UPO,2016-2020,incoming
-Norway,NO,15599,UPO,2016-2020,incoming
-Croatia,HR,15123,UPO,2016-2020,incoming
-Portugal,PT,15055,UPO,2016-2020,incoming
-Denmark,DK,14736,UPO,2016-2020,incoming
-Iran,IR,14499,UPO,2016-2020,incoming
-Austria,AT,12785,UPO,2016-2020,incoming
-Slovakia,SK,11314,UPO,2016-2020,incoming
-China (People's Republic of),CN,10893,UPO,2016-2020,incoming
-Pakistan,PK,9692,UPO,2016-2020,incoming
-South Africa,ZA,9552,UPO,2016-2020,incoming
-Bulgaria,BG,8726,UPO,2016-2020,incoming
-Ukraine,UA,8046,UPO,2016-2020,incoming
-Malaysia,MY,7701,UPO,2016-2020,incoming
-Belarus,BY,7586,UPO,2016-2020,incoming
-Colombia,CO,7514,UPO,2016-2020,incoming
-Israel,IL,7476,UPO,2016-2020,incoming
-New Zealand,NZ,7030,UPO,2016-2020,incoming
-Ireland,IE,7007,UPO,2016-2020,incoming
-Georgia,GE,6683,UPO,2016-2020,incoming
-Romania,RO,6648,UPO,2016-2020,incoming
-Argentina,AR,6641,UPO,2016-2020,incoming
-Serbia,RS,6258,UPO,2016-2020,incoming
-Thailand,TH,5768,UPO,2016-2020,incoming
-Hong Kong,HK,5737,UPO,2016-2020,incoming
-Chile,CL,5012,UPO,2016-2020,incoming
-Egypt,EG,4683,UPO,2016-2020,incoming
-Armenia,AM,4246,UPO,2016-2020,incoming
-Singapore,SG,4102,UPO,2016-2020,incoming
-Ecuador,EC,4072,UPO,2016-2020,incoming
-Netherlands,NL,3873,UPO,2016-2020,incoming
-Cyprus,CY,3742,UPO,2016-2020,incoming
-Puerto Rico,PR,3460,UPO,2016-2020,incoming
-Estonia,EE,3427,UPO,2016-2020,incoming
-Morocco,MA,3171,UPO,2016-2020,incoming
-Lithuania,LT,3113,UPO,2016-2020,incoming
-Saudi Arabia,SA,2893,UPO,2016-2020,incoming
-Slovenia,SI,2765,UPO,2016-2020,incoming
-Turkey,TR,2568,UPO,2016-2020,incoming
-Azerbaijan,AZ,2535,UPO,2016-2020,incoming
-Sri Lanka,LK,1730,UPO,2016-2020,incoming
-Indonesia,ID,1601,UPO,2016-2020,incoming
-Peru,PE,1402,UPO,2016-2020,incoming
-Latvia,LV,1336,UPO,2016-2020,incoming
-Qatar,QA,1173,UPO,2016-2020,incoming
-Vietnam,VN,1156,UPO,2016-2020,incoming
-Uzbekistan,UZ,1152,UPO,2016-2020,incoming
-Korea (Republic of),KR,1064,UPO,2016-2020,incoming
-Cuba,CU,1035,UPO,2016-2020,incoming
-Russian Federation,RU,898,UPO,2016-2020,incoming
-Tunisia,TN,760,UPO,2016-2020,incoming
-Czech Republic,CZ,674,UPO,2016-2020,incoming
-Mongolia,MN,652,UPO,2016-2020,incoming
-Ethiopia,ET,625,UPO,2016-2020,incoming
-Nigeria,NG,623,UPO,2016-2020,incoming
-United Arab Emirates,AE,616,UPO,2016-2020,incoming
-Lebanon,LB,582,UPO,2016-2020,incoming
-Philippines,PH,535,UPO,2016-2020,incoming
-Algeria,DZ,522,UPO,2016-2020,incoming
-Montenegro,ME,470,UPO,2016-2020,incoming
-Luxembourg,LU,434,UPO,2016-2020,incoming
-Bangladesh,BD,407,UPO,2016-2020,incoming
-Jordan,JO,393,UPO,2016-2020,incoming
-Iraq,IQ,379,UPO,2016-2020,incoming
-Guatemala,GT,375,UPO,2016-2020,incoming
-Bahrain,BH,367,UPO,2016-2020,incoming
-Iceland,IS,346,UPO,2016-2020,incoming
-Ghana,GH,263,UPO,2016-2020,incoming
-Palestine,PS,243,UPO,2016-2020,incoming
-Kazakhstan,KZ,217,UPO,2016-2020,incoming
-Kuwait,KW,211,UPO,2016-2020,incoming
-Macao,MO,210,UPO,2016-2020,incoming
-Iran (Islamic Republic of),IR,196,UPO,2016-2020,incoming
-Uruguay,UY,193,UPO,2016-2020,incoming
-Cambodia,KH,181,UPO,2016-2020,incoming
-Uganda,UG,179,UPO,2016-2020,incoming
-Kenya,KE,166,UPO,2016-2020,incoming
-Antigua and Barbuda,AG,160,UPO,2016-2020,incoming
-Bosnia and Herzegovina,BA,155,UPO,2016-2020,incoming
-Oman,OM,154,UPO,2016-2020,incoming
-Venezuela,VE,133,UPO,2016-2020,incoming
-Malta,MT,123,UPO,2016-2020,incoming
-Nepal,NP,122,UPO,2016-2020,incoming
-Zimbabwe,ZW,119,UPO,2016-2020,incoming
-Costa Rica,CR,112,UPO,2016-2020,incoming
-Jamaica,JM,105,UPO,2016-2020,incoming
-North Macedonia,MK,101,UPO,2016-2020,incoming
-Tanzania,TZ,87,UPO,2016-2020,incoming
-Mozambique,MZ,85,UPO,2016-2020,incoming
-Myanmar,MM,81,UPO,2016-2020,incoming
-Yemen,YE,79,UPO,2016-2020,incoming
-Réunion,RE,76,UPO,2016-2020,incoming
-Cameroon,CM,70,UPO,2016-2020,incoming
-Moldova,MD,69,UPO,2016-2020,incoming
-American Samoa,AS,68,UPO,2016-2020,incoming
-Sudan,SD,65,UPO,2016-2020,incoming
-Senegal,SN,65,UPO,2016-2020,incoming
-Mauritius,MU,60,UPO,2016-2020,incoming
-Rwanda,RW,59,UPO,2016-2020,incoming
-Zambia,ZM,57,UPO,2016-2020,incoming
-St Kitts and Nevis,KN,53,UPO,2016-2020,incoming
-Panama,PA,50,UPO,2016-2020,incoming
-Benin,BJ,49,UPO,2016-2020,incoming
-Gabon,GA,42,UPO,2016-2020,incoming
-Guadeloupe,GP,40,UPO,2016-2020,incoming
-Grenada,GD,39,UPO,2016-2020,incoming
-Bhutan,BT,37,UPO,2016-2020,incoming
-Angola,AO,36,UPO,2016-2020,incoming
-El Salvador,SV,35,UPO,2016-2020,incoming
-Paraguay,PY,34,UPO,2016-2020,incoming
-Nicaragua,NI,30,UPO,2016-2020,incoming
-Malawi,MW,30,UPO,2016-2020,incoming
-Bolivia,BO,28,UPO,2016-2020,incoming
-Somalia,SO,28,UPO,2016-2020,incoming
-Fiji,FJ,28,UPO,2016-2020,incoming
-Albania,AL,27,UPO,2016-2020,incoming
-Ivory Coast,CI,27,UPO,2016-2020,incoming
-Syria,SY,25,UPO,2016-2020,incoming
-Dominican Republic,DO,23,UPO,2016-2020,incoming
-Kosovo,XK,23,UPO,2016-2020,incoming
-Namibia,,23,UPO,2016-2020,incoming
-Botswana,BW,19,UPO,2016-2020,incoming
-Viet Nam,VN,18,UPO,2016-2020,incoming
-Burkina Faso,BF,17,UPO,2016-2020,incoming
-Palau,PW,16,UPO,2016-2020,incoming
-Liechtenstein,LI,16,UPO,2016-2020,incoming
-Libya,LY,15,UPO,2016-2020,incoming
-Kyrgyzstan,KG,15,UPO,2016-2020,incoming
-Trinidad and Tobago,TT,14,UPO,2016-2020,incoming
-Seychelles,SC,14,UPO,2016-2020,incoming
-Tajikistan,TJ,14,UPO,2016-2020,incoming
-DR Congo,CD,13,UPO,2016-2020,incoming
-French Polynesia,PF,12,UPO,2016-2020,incoming
-Curaçao,CW,11,UPO,2016-2020,incoming
-Niger,NE,11,UPO,2016-2020,incoming
-Sierra Leone,SL,11,UPO,2016-2020,incoming
-Tanzania (United Republic of),TZ,11,UPO,2016-2020,incoming
-Barbados,BB,10,UPO,2016-2020,incoming
-Martinique,MQ,10,UPO,2016-2020,incoming
-Monaco,MC,10,UPO,2016-2020,incoming
-North Korea,KP,9,UPO,2016-2020,incoming
-New Caledonia,NC,8,UPO,2016-2020,incoming
-Afghanistan,AF,8,UPO,2016-2020,incoming
-Gibraltar,GI,8,UPO,2016-2020,incoming
-Congo Republic,CG,7,UPO,2016-2020,incoming
-San Marino,SM,7,UPO,2016-2020,incoming
-Laos,LA,7,UPO,2016-2020,incoming
-Togo,TG,7,UPO,2016-2020,incoming
-Papua New Guinea,PG,7,UPO,2016-2020,incoming
-Mali,ML,7,UPO,2016-2020,incoming
-Honduras,HN,7,UPO,2016-2020,incoming
-European Union,EU,6,UPO,2016-2020,incoming
-Madagascar,MG,6,UPO,2016-2020,incoming
-Maldives,MV,5,UPO,2016-2020,incoming
-The Gambia,GM,5,UPO,2016-2020,incoming
-Former Yugoslav Republic of Macedonia,MK,4,UPO,2016-2020,incoming
-Guinea-Bissau,GW,4,UPO,2016-2020,incoming
-Brunei,BN,4,UPO,2016-2020,incoming
-Isle of Man,IM,3,UPO,2016-2020,incoming
-Liberia,LR,3,UPO,2016-2020,incoming
-Svalbard and Jan Mayen,SJ,3,UPO,2016-2020,incoming
-French Guiana,GF,2,UPO,2016-2020,incoming
-Faroe Islands,FO,2,UPO,2016-2020,incoming
-Palestinian-administered areas,PS,2,UPO,2016-2020,incoming
-Sint Maarten,SX,2,UPO,2016-2020,incoming
-"Korea, Democratic People's Republic of",KP,2,UPO,2016-2020,incoming
-Greenland,GL,2,UPO,2016-2020,incoming
-Bahamas,BS,2,UPO,2016-2020,incoming
-United States Minor Outlying Islands,UM,1,UPO,2016-2020,incoming
-St Vincent and Grenadines,VC,1,UPO,2016-2020,incoming
-Belize,BZ,1,UPO,2016-2020,incoming
-Cayman Islands,KY,1,UPO,2016-2020,incoming
-Cote d'Ivoire,CI,1,UPO,2016-2020,incoming
-Lao (People's Democratic Republic),LA,1,UPO,2016-2020,incoming
-Haiti,HT,1,UPO,2016-2020,incoming
-Eswatini,SZ,1,UPO,2016-2020,incoming
-Åland,AX,1,UPO,2016-2020,incoming
-Central African Republic,CF,1,UPO,2016-2020,incoming
-Chad,TD,1,UPO,2016-2020,incoming
-Suriname,SR,1,UPO,2016-2020,incoming
-Bermuda,BM,1,UPO,2016-2020,incoming
-Mauritania,MR,1,UPO,2016-2020,incoming
-Dominica,DM,1,UPO,2016-2020,incoming
-Timor-Leste,TL,1,UPO,2016-2020,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,616,UPO,2016-2020,incoming
+AF,Afghanistan,8,UPO,2016-2020,incoming
+AG,Antigua and Barbuda,160,UPO,2016-2020,incoming
+AL,Albania,27,UPO,2016-2020,incoming
+AM,Armenia,4246,UPO,2016-2020,incoming
+AO,Angola,36,UPO,2016-2020,incoming
+AR,Argentina,6641,UPO,2016-2020,incoming
+AT,Austria,12785,UPO,2016-2020,incoming
+AU,Australia,31163,UPO,2016-2020,incoming
+AZ,Azerbaijan,2535,UPO,2016-2020,incoming
+BA,Bosnia and Herzegovina,155,UPO,2016-2020,incoming
+BB,Barbados,10,UPO,2016-2020,incoming
+BD,Bangladesh,407,UPO,2016-2020,incoming
+BE,Belgium,26890,UPO,2016-2020,incoming
+BF,Burkina Faso,17,UPO,2016-2020,incoming
+BG,Bulgaria,8726,UPO,2016-2020,incoming
+BH,Bahrain,367,UPO,2016-2020,incoming
+BJ,Benin,49,UPO,2016-2020,incoming
+BN,Brunei,4,UPO,2016-2020,incoming
+BO,Bolivia,28,UPO,2016-2020,incoming
+BR,Brazil,42852,UPO,2016-2020,incoming
+BS,Bahamas,2,UPO,2016-2020,incoming
+BT,Bhutan,37,UPO,2016-2020,incoming
+BW,Botswana,19,UPO,2016-2020,incoming
+BY,Belarus,7586,UPO,2016-2020,incoming
+BZ,Belize,1,UPO,2016-2020,incoming
+CA,Canada,33743,UPO,2016-2020,incoming
+CD,DR Congo,13,UPO,2016-2020,incoming
+CF,Central African Republic,1,UPO,2016-2020,incoming
+CG,Congo Republic,7,UPO,2016-2020,incoming
+CH,Switzerland,39227,UPO,2016-2020,incoming
+CI,Ivory Coast,28,UPO,2016-2020,incoming
+CL,Chile,5012,UPO,2016-2020,incoming
+CM,Cameroon,70,UPO,2016-2020,incoming
+CN,China,158229,UPO,2016-2020,incoming
+CO,Colombia,7514,UPO,2016-2020,incoming
+CR,Costa Rica,112,UPO,2016-2020,incoming
+CU,Cuba,1035,UPO,2016-2020,incoming
+CY,Cyprus,3742,UPO,2016-2020,incoming
+CZ,Czechia,17639,UPO,2016-2020,incoming
+DE,Germany,111370,UPO,2016-2020,incoming
+DK,Denmark,14740,UPO,2016-2020,incoming
+DM,Dominica,1,UPO,2016-2020,incoming
+DO,Dominican Republic,23,UPO,2016-2020,incoming
+DZ,Algeria,522,UPO,2016-2020,incoming
+EC,Ecuador,4072,UPO,2016-2020,incoming
+EE,Estonia,3427,UPO,2016-2020,incoming
+EG,Egypt,4683,UPO,2016-2020,incoming
+ES,Spain,74006,UPO,2016-2020,incoming
+ET,Ethiopia,625,UPO,2016-2020,incoming
+EU,European Union,6,UPO,2016-2020,incoming
+FI,Finland,29456,UPO,2016-2020,incoming
+FJ,Fiji,28,UPO,2016-2020,incoming
+FR,France,236339,UPO,2016-2020,incoming
+GA,Gabon,42,UPO,2016-2020,incoming
+GB,United Kingdom,115805,UPO,2016-2020,incoming
+GD,Grenada,39,UPO,2016-2020,incoming
+GE,Georgia,6683,UPO,2016-2020,incoming
+GH,Ghana,263,UPO,2016-2020,incoming
+GM,The Gambia,5,UPO,2016-2020,incoming
+GR,Greece,26188,UPO,2016-2020,incoming
+GT,Guatemala,375,UPO,2016-2020,incoming
+GW,Guinea-Bissau,4,UPO,2016-2020,incoming
+HN,Honduras,7,UPO,2016-2020,incoming
+HR,Croatia,15123,UPO,2016-2020,incoming
+HT,Haiti,1,UPO,2016-2020,incoming
+HU,Hungary,30130,UPO,2016-2020,incoming
+ID,Indonesia,1601,UPO,2016-2020,incoming
+IE,Ireland,7007,UPO,2016-2020,incoming
+IL,Israel,7476,UPO,2016-2020,incoming
+IN,India,72698,UPO,2016-2020,incoming
+IQ,Iraq,379,UPO,2016-2020,incoming
+IR,Iran,14695,UPO,2016-2020,incoming
+IS,Iceland,346,UPO,2016-2020,incoming
+IT,Italy,255308,UPO,2016-2020,incoming
+JM,Jamaica,105,UPO,2016-2020,incoming
+JO,Jordan,393,UPO,2016-2020,incoming
+JP,Japan,50139,UPO,2016-2020,incoming
+KE,Kenya,166,UPO,2016-2020,incoming
+KG,Kyrgyzstan,15,UPO,2016-2020,incoming
+KH,Cambodia,181,UPO,2016-2020,incoming
+KN,St Kitts and Nevis,53,UPO,2016-2020,incoming
+KP,North Korea,11,UPO,2016-2020,incoming
+KR,South Korea,55656,UPO,2016-2020,incoming
+KW,Kuwait,211,UPO,2016-2020,incoming
+KZ,Kazakhstan,217,UPO,2016-2020,incoming
+LA,Laos,8,UPO,2016-2020,incoming
+LB,Lebanon,582,UPO,2016-2020,incoming
+LI,Liechtenstein,16,UPO,2016-2020,incoming
+LK,Sri Lanka,1730,UPO,2016-2020,incoming
+LR,Liberia,3,UPO,2016-2020,incoming
+LT,Lithuania,3113,UPO,2016-2020,incoming
+LU,Luxembourg,434,UPO,2016-2020,incoming
+LV,Latvia,1336,UPO,2016-2020,incoming
+LY,Libya,15,UPO,2016-2020,incoming
+MA,Morocco,3171,UPO,2016-2020,incoming
+MC,Monaco,10,UPO,2016-2020,incoming
+MD,Moldova,69,UPO,2016-2020,incoming
+ME,Montenegro,470,UPO,2016-2020,incoming
+MG,Madagascar,6,UPO,2016-2020,incoming
+MK,North Macedonia,105,UPO,2016-2020,incoming
+ML,Mali,7,UPO,2016-2020,incoming
+MM,Myanmar,81,UPO,2016-2020,incoming
+MN,Mongolia,652,UPO,2016-2020,incoming
+MR,Mauritania,1,UPO,2016-2020,incoming
+MT,Malta,123,UPO,2016-2020,incoming
+MU,Mauritius,60,UPO,2016-2020,incoming
+MV,Maldives,5,UPO,2016-2020,incoming
+MW,Malawi,30,UPO,2016-2020,incoming
+MX,Mexico,20363,UPO,2016-2020,incoming
+MY,Malaysia,7701,UPO,2016-2020,incoming
+MZ,Mozambique,85,UPO,2016-2020,incoming
+NE,Niger,11,UPO,2016-2020,incoming
+NG,Nigeria,623,UPO,2016-2020,incoming
+NI,Nicaragua,30,UPO,2016-2020,incoming
+NL,The Netherlands,34236,UPO,2016-2020,incoming
+NO,Norway,15602,UPO,2016-2020,incoming
+NP,Nepal,122,UPO,2016-2020,incoming
+NZ,New Zealand,7030,UPO,2016-2020,incoming
+OM,Oman,154,UPO,2016-2020,incoming
+PA,Panama,50,UPO,2016-2020,incoming
+PE,Peru,1402,UPO,2016-2020,incoming
+PG,Papua New Guinea,7,UPO,2016-2020,incoming
+PH,Philippines,535,UPO,2016-2020,incoming
+PK,Pakistan,9692,UPO,2016-2020,incoming
+PL,Poland,35233,UPO,2016-2020,incoming
+PS,Palestine,245,UPO,2016-2020,incoming
+PT,Portugal,15055,UPO,2016-2020,incoming
+PW,Palau,16,UPO,2016-2020,incoming
+PY,Paraguay,34,UPO,2016-2020,incoming
+QA,Qatar,1173,UPO,2016-2020,incoming
+RO,Romania,6648,UPO,2016-2020,incoming
+RS,Serbia,6258,UPO,2016-2020,incoming
+RU,Russia,78502,UPO,2016-2020,incoming
+RW,Rwanda,59,UPO,2016-2020,incoming
+SA,Saudi Arabia,2893,UPO,2016-2020,incoming
+SC,Seychelles,14,UPO,2016-2020,incoming
+SD,Sudan,65,UPO,2016-2020,incoming
+SE,Sweden,17410,UPO,2016-2020,incoming
+SG,Singapore,4102,UPO,2016-2020,incoming
+SI,Slovenia,2765,UPO,2016-2020,incoming
+SK,Slovakia,11314,UPO,2016-2020,incoming
+SL,Sierra Leone,11,UPO,2016-2020,incoming
+SM,San Marino,7,UPO,2016-2020,incoming
+SN,Senegal,65,UPO,2016-2020,incoming
+SO,Somalia,28,UPO,2016-2020,incoming
+SR,Suriname,1,UPO,2016-2020,incoming
+SV,El Salvador,35,UPO,2016-2020,incoming
+SY,Syria,25,UPO,2016-2020,incoming
+SZ,Eswatini,1,UPO,2016-2020,incoming
+TD,Chad,1,UPO,2016-2020,incoming
+TG,Togo,7,UPO,2016-2020,incoming
+TH,Thailand,5768,UPO,2016-2020,incoming
+TJ,Tajikistan,14,UPO,2016-2020,incoming
+TL,Timor-Leste,1,UPO,2016-2020,incoming
+TN,Tunisia,760,UPO,2016-2020,incoming
+TR,Turkey,45716,UPO,2016-2020,incoming
+TT,Trinidad and Tobago,14,UPO,2016-2020,incoming
+TW,Taiwan,20994,UPO,2016-2020,incoming
+TZ,Tanzania,98,UPO,2016-2020,incoming
+UA,Ukraine,8046,UPO,2016-2020,incoming
+UG,Uganda,179,UPO,2016-2020,incoming
+US,United States,479816,UPO,2016-2020,incoming
+UY,Uruguay,193,UPO,2016-2020,incoming
+UZ,Uzbekistan,1152,UPO,2016-2020,incoming
+VC,St Vincent and Grenadines,1,UPO,2016-2020,incoming
+VE,Venezuela,133,UPO,2016-2020,incoming
+VN,Vietnam,1174,UPO,2016-2020,incoming
+XK,Kosovo,23,UPO,2016-2020,incoming
+YE,Yemen,79,UPO,2016-2020,incoming
+ZA,South Africa,9552,UPO,2016-2020,incoming
+ZM,Zambia,57,UPO,2016-2020,incoming
+ZW,Zimbabwe,119,UPO,2016-2020,incoming

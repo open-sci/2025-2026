@@ -1,213 +1,178 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,527994,UPO,2016-2020,outgoing
-Italy,IT,268434,UPO,2016-2020,outgoing
-France,FR,242798,UPO,2016-2020,outgoing
-United Kingdom,GB,126685,UPO,2016-2020,outgoing
-Germany,DE,105990,UPO,2016-2020,outgoing
-China,CN,103396,UPO,2016-2020,outgoing
-Russia,RU,85973,UPO,2016-2020,outgoing
-India,IN,79465,UPO,2016-2020,outgoing
-Spain,ES,67649,UPO,2016-2020,outgoing
-South Korea,KR,62881,UPO,2016-2020,outgoing
-Türkiye,TR,54354,UPO,2016-2020,outgoing
-Brazil,BR,42469,UPO,2016-2020,outgoing
-Switzerland,CH,42025,UPO,2016-2020,outgoing
-Japan,JP,38293,UPO,2016-2020,outgoing
-Hungary,HU,37943,UPO,2016-2020,outgoing
-Finland,FI,35850,UPO,2016-2020,outgoing
-Poland,PL,35816,UPO,2016-2020,outgoing
-The Netherlands,NL,34968,UPO,2016-2020,outgoing
-Belgium,BE,33781,UPO,2016-2020,outgoing
-Canada,CA,31858,UPO,2016-2020,outgoing
-Greece,GR,30787,UPO,2016-2020,outgoing
-Australia,AU,30284,UPO,2016-2020,outgoing
-Mexico,MX,24511,UPO,2016-2020,outgoing
-Croatia,HR,19828,UPO,2016-2020,outgoing
-Taiwan,TW,19368,UPO,2016-2020,outgoing
-Norway,NO,17429,UPO,2016-2020,outgoing
-Czechia,CZ,16205,UPO,2016-2020,outgoing
-Sweden,SE,16202,UPO,2016-2020,outgoing
-Denmark,DK,13206,UPO,2016-2020,outgoing
-Austria,AT,12964,UPO,2016-2020,outgoing
-Slovakia,SK,12800,UPO,2016-2020,outgoing
-Portugal,PT,12635,UPO,2016-2020,outgoing
-Pakistan,PK,12074,UPO,2016-2020,outgoing
-Iran,IR,12004,UPO,2016-2020,outgoing
-Bulgaria,BG,11985,UPO,2016-2020,outgoing
-South Africa,ZA,10072,UPO,2016-2020,outgoing
-Malaysia,MY,9792,UPO,2016-2020,outgoing
-Ukraine,UA,9641,UPO,2016-2020,outgoing
-New Zealand,NZ,9582,UPO,2016-2020,outgoing
-Colombia,CO,9160,UPO,2016-2020,outgoing
-Belarus,BY,8893,UPO,2016-2020,outgoing
-Georgia,GE,8820,UPO,2016-2020,outgoing
-Ireland,IE,8004,UPO,2016-2020,outgoing
-Thailand,TH,6715,UPO,2016-2020,outgoing
-Israel,IL,6386,UPO,2016-2020,outgoing
-Serbia,RS,6237,UPO,2016-2020,outgoing
-Ecuador,EC,6186,UPO,2016-2020,outgoing
-Romania,RO,5712,UPO,2016-2020,outgoing
-Puerto Rico,PR,5348,UPO,2016-2020,outgoing
-Armenia,AM,5299,UPO,2016-2020,outgoing
-China (People's Republic of),CN,5251,UPO,2016-2020,outgoing
-Hong Kong,HK,5068,UPO,2016-2020,outgoing
-Cyprus,CY,4897,UPO,2016-2020,outgoing
-Estonia,EE,4668,UPO,2016-2020,outgoing
-Singapore,SG,4536,UPO,2016-2020,outgoing
-Egypt,EG,4313,UPO,2016-2020,outgoing
-Argentina,AR,4187,UPO,2016-2020,outgoing
-Lithuania,LT,4085,UPO,2016-2020,outgoing
-Netherlands,NL,4062,UPO,2016-2020,outgoing
-Turkey,TR,3439,UPO,2016-2020,outgoing
-Chile,CL,3266,UPO,2016-2020,outgoing
-Sri Lanka,LK,2736,UPO,2016-2020,outgoing
-Azerbaijan,AZ,2400,UPO,2016-2020,outgoing
-Morocco,MA,2176,UPO,2016-2020,outgoing
-Saudi Arabia,SA,2134,UPO,2016-2020,outgoing
-Slovenia,SI,2022,UPO,2016-2020,outgoing
-Indonesia,ID,1945,UPO,2016-2020,outgoing
-Peru,PE,1890,UPO,2016-2020,outgoing
-Latvia,LV,1799,UPO,2016-2020,outgoing
-Ethiopia,ET,1485,UPO,2016-2020,outgoing
-Qatar,QA,1394,UPO,2016-2020,outgoing
-Cuba,CU,1387,UPO,2016-2020,outgoing
-Uzbekistan,UZ,1116,UPO,2016-2020,outgoing
-Mongolia,MN,995,UPO,2016-2020,outgoing
-Vietnam,VN,956,UPO,2016-2020,outgoing
-Philippines,PH,777,UPO,2016-2020,outgoing
-Nigeria,NG,775,UPO,2016-2020,outgoing
-Korea (Republic of),KR,765,UPO,2016-2020,outgoing
-Montenegro,ME,682,UPO,2016-2020,outgoing
-Guatemala,GT,643,UPO,2016-2020,outgoing
-United Arab Emirates,AE,585,UPO,2016-2020,outgoing
-Iceland,IS,511,UPO,2016-2020,outgoing
-Bahrain,BH,429,UPO,2016-2020,outgoing
-Lebanon,LB,421,UPO,2016-2020,outgoing
-Russian Federation,RU,416,UPO,2016-2020,outgoing
-Iraq,IQ,392,UPO,2016-2020,outgoing
-Palestine,PS,381,UPO,2016-2020,outgoing
-Bangladesh,BD,374,UPO,2016-2020,outgoing
-Tunisia,TN,374,UPO,2016-2020,outgoing
-Luxembourg,LU,355,UPO,2016-2020,outgoing
-Jordan,JO,351,UPO,2016-2020,outgoing
-Czech Republic,CZ,348,UPO,2016-2020,outgoing
-Ghana,GH,292,UPO,2016-2020,outgoing
-Kenya,KE,264,UPO,2016-2020,outgoing
-Uruguay,UY,200,UPO,2016-2020,outgoing
-Bosnia and Herzegovina,BA,189,UPO,2016-2020,outgoing
-Algeria,DZ,186,UPO,2016-2020,outgoing
-Macao,MO,177,UPO,2016-2020,outgoing
-Nepal,NP,168,UPO,2016-2020,outgoing
-Uganda,UG,163,UPO,2016-2020,outgoing
-Malta,MT,143,UPO,2016-2020,outgoing
-Oman,OM,125,UPO,2016-2020,outgoing
-Kazakhstan,KZ,124,UPO,2016-2020,outgoing
-Kuwait,KW,105,UPO,2016-2020,outgoing
-North Macedonia,MK,100,UPO,2016-2020,outgoing
-Cambodia,KH,88,UPO,2016-2020,outgoing
-Costa Rica,CR,87,UPO,2016-2020,outgoing
-Tanzania,TZ,86,UPO,2016-2020,outgoing
-Iran (Islamic Republic of),IR,82,UPO,2016-2020,outgoing
-Zimbabwe,ZW,78,UPO,2016-2020,outgoing
-Cameroon,CM,75,UPO,2016-2020,outgoing
-Botswana,BW,70,UPO,2016-2020,outgoing
-Jamaica,JM,63,UPO,2016-2020,outgoing
-Zambia,ZM,61,UPO,2016-2020,outgoing
-Antigua and Barbuda,AG,61,UPO,2016-2020,outgoing
-Venezuela,VE,61,UPO,2016-2020,outgoing
-Grenada,GD,57,UPO,2016-2020,outgoing
-Rwanda,RW,57,UPO,2016-2020,outgoing
-Panama,PA,55,UPO,2016-2020,outgoing
-Yemen,YE,51,UPO,2016-2020,outgoing
-Myanmar,MM,44,UPO,2016-2020,outgoing
-Mozambique,MZ,43,UPO,2016-2020,outgoing
-Réunion,RE,41,UPO,2016-2020,outgoing
-DR Congo,CD,39,UPO,2016-2020,outgoing
-Benin,BJ,38,UPO,2016-2020,outgoing
-American Samoa,AS,36,UPO,2016-2020,outgoing
-Paraguay,PY,36,UPO,2016-2020,outgoing
-Senegal,SN,35,UPO,2016-2020,outgoing
-Malawi,MW,35,UPO,2016-2020,outgoing
-Guadeloupe,GP,33,UPO,2016-2020,outgoing
-Niger,NE,33,UPO,2016-2020,outgoing
-Kyrgyzstan,KG,33,UPO,2016-2020,outgoing
-Angola,AO,32,UPO,2016-2020,outgoing
-El Salvador,SV,32,UPO,2016-2020,outgoing
-Gabon,GA,31,UPO,2016-2020,outgoing
-Namibia,,31,UPO,2016-2020,outgoing
-Sudan,SD,30,UPO,2016-2020,outgoing
-St Kitts and Nevis,KN,26,UPO,2016-2020,outgoing
-Moldova,MD,26,UPO,2016-2020,outgoing
-Mauritius,MU,26,UPO,2016-2020,outgoing
-Sierra Leone,SL,24,UPO,2016-2020,outgoing
-Syria,SY,23,UPO,2016-2020,outgoing
-Fiji,FJ,22,UPO,2016-2020,outgoing
-Albania,AL,22,UPO,2016-2020,outgoing
-Liechtenstein,LI,21,UPO,2016-2020,outgoing
-Honduras,HN,19,UPO,2016-2020,outgoing
-Monaco,MC,16,UPO,2016-2020,outgoing
-Bhutan,BT,16,UPO,2016-2020,outgoing
-Libya,LY,16,UPO,2016-2020,outgoing
-New Caledonia,NC,15,UPO,2016-2020,outgoing
-Ivory Coast,CI,14,UPO,2016-2020,outgoing
-Papua New Guinea,PG,14,UPO,2016-2020,outgoing
-European Union,EU,13,UPO,2016-2020,outgoing
-Togo,TG,13,UPO,2016-2020,outgoing
-Dominican Republic,DO,13,UPO,2016-2020,outgoing
-Palau,PW,12,UPO,2016-2020,outgoing
-Somalia,SO,12,UPO,2016-2020,outgoing
-Bolivia,BO,12,UPO,2016-2020,outgoing
-Burundi,BI,11,UPO,2016-2020,outgoing
-Congo Republic,CG,10,UPO,2016-2020,outgoing
-The Gambia,GM,10,UPO,2016-2020,outgoing
-Mali,ML,10,UPO,2016-2020,outgoing
-Micronesia,FM,10,UPO,2016-2020,outgoing
-Brunei,BN,10,UPO,2016-2020,outgoing
-Martinique,MQ,10,UPO,2016-2020,outgoing
-Trinidad and Tobago,TT,9,UPO,2016-2020,outgoing
-Liberia,LR,9,UPO,2016-2020,outgoing
-Burkina Faso,BF,8,UPO,2016-2020,outgoing
-Barbados,BB,8,UPO,2016-2020,outgoing
-Afghanistan,AF,8,UPO,2016-2020,outgoing
-Tajikistan,TJ,8,UPO,2016-2020,outgoing
-Greenland,GL,7,UPO,2016-2020,outgoing
-San Marino,SM,7,UPO,2016-2020,outgoing
-Faroe Islands,FO,6,UPO,2016-2020,outgoing
-Maldives,MV,6,UPO,2016-2020,outgoing
-Viet Nam,VN,6,UPO,2016-2020,outgoing
-Guinea-Bissau,GW,6,UPO,2016-2020,outgoing
-Guyana,GY,5,UPO,2016-2020,outgoing
-Chad,TD,4,UPO,2016-2020,outgoing
-Nicaragua,NI,4,UPO,2016-2020,outgoing
-Madagascar,MG,4,UPO,2016-2020,outgoing
-Kosovo,XK,4,UPO,2016-2020,outgoing
-Curaçao,CW,4,UPO,2016-2020,outgoing
-Tanzania (United Republic of),TZ,4,UPO,2016-2020,outgoing
-French Polynesia,PF,4,UPO,2016-2020,outgoing
-Bahamas,BS,4,UPO,2016-2020,outgoing
-Gibraltar,GI,4,UPO,2016-2020,outgoing
-French Guiana,GF,4,UPO,2016-2020,outgoing
-Guam,GU,3,UPO,2016-2020,outgoing
-Laos,LA,3,UPO,2016-2020,outgoing
-Suriname,SR,3,UPO,2016-2020,outgoing
-Sint Maarten,SX,2,UPO,2016-2020,outgoing
-Palestinian-administered areas,PS,2,UPO,2016-2020,outgoing
-"Korea, Democratic People's Republic of",KP,2,UPO,2016-2020,outgoing
-Former Yugoslav Republic of Macedonia,MK,2,UPO,2016-2020,outgoing
-Guinea,GN,2,UPO,2016-2020,outgoing
-Central African Republic,CF,2,UPO,2016-2020,outgoing
-Eswatini,SZ,1,UPO,2016-2020,outgoing
-"Bonaire, Sint Eustatius, and Saba",BQ,1,UPO,2016-2020,outgoing
-Timor-Leste,TL,1,UPO,2016-2020,outgoing
-Saint Lucia,LC,1,UPO,2016-2020,outgoing
-Haiti,HT,1,UPO,2016-2020,outgoing
-Isle of Man,IM,1,UPO,2016-2020,outgoing
-Cote d'Ivoire,CI,1,UPO,2016-2020,outgoing
-Seychelles,SC,1,UPO,2016-2020,outgoing
-Svalbard and Jan Mayen,SJ,1,UPO,2016-2020,outgoing
-Åland,AX,1,UPO,2016-2020,outgoing
-South Sudan,SS,1,UPO,2016-2020,outgoing
-Bermuda,BM,1,UPO,2016-2020,outgoing
-Belize,BZ,1,UPO,2016-2020,outgoing
-Jersey,JE,1,UPO,2016-2020,outgoing
-Eritrea,ER,1,UPO,2016-2020,outgoing
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,585,UPO,2016-2020,outgoing
+AF,Afghanistan,8,UPO,2016-2020,outgoing
+AG,Antigua and Barbuda,61,UPO,2016-2020,outgoing
+AL,Albania,22,UPO,2016-2020,outgoing
+AM,Armenia,5299,UPO,2016-2020,outgoing
+AO,Angola,32,UPO,2016-2020,outgoing
+AR,Argentina,4187,UPO,2016-2020,outgoing
+AT,Austria,12964,UPO,2016-2020,outgoing
+AU,Australia,30284,UPO,2016-2020,outgoing
+AZ,Azerbaijan,2400,UPO,2016-2020,outgoing
+BA,Bosnia and Herzegovina,189,UPO,2016-2020,outgoing
+BB,Barbados,8,UPO,2016-2020,outgoing
+BD,Bangladesh,374,UPO,2016-2020,outgoing
+BE,Belgium,33781,UPO,2016-2020,outgoing
+BF,Burkina Faso,8,UPO,2016-2020,outgoing
+BG,Bulgaria,11985,UPO,2016-2020,outgoing
+BH,Bahrain,429,UPO,2016-2020,outgoing
+BI,Burundi,11,UPO,2016-2020,outgoing
+BJ,Benin,38,UPO,2016-2020,outgoing
+BN,Brunei,10,UPO,2016-2020,outgoing
+BO,Bolivia,12,UPO,2016-2020,outgoing
+BR,Brazil,42469,UPO,2016-2020,outgoing
+BS,Bahamas,4,UPO,2016-2020,outgoing
+BT,Bhutan,16,UPO,2016-2020,outgoing
+BW,Botswana,70,UPO,2016-2020,outgoing
+BY,Belarus,8893,UPO,2016-2020,outgoing
+BZ,Belize,1,UPO,2016-2020,outgoing
+CA,Canada,31858,UPO,2016-2020,outgoing
+CD,DR Congo,39,UPO,2016-2020,outgoing
+CF,Central African Republic,2,UPO,2016-2020,outgoing
+CG,Congo Republic,10,UPO,2016-2020,outgoing
+CH,Switzerland,42025,UPO,2016-2020,outgoing
+CI,Ivory Coast,15,UPO,2016-2020,outgoing
+CL,Chile,3266,UPO,2016-2020,outgoing
+CM,Cameroon,75,UPO,2016-2020,outgoing
+CN,China,113892,UPO,2016-2020,outgoing
+CO,Colombia,9160,UPO,2016-2020,outgoing
+CR,Costa Rica,87,UPO,2016-2020,outgoing
+CU,Cuba,1387,UPO,2016-2020,outgoing
+CY,Cyprus,4897,UPO,2016-2020,outgoing
+CZ,Czechia,16553,UPO,2016-2020,outgoing
+DE,Germany,105990,UPO,2016-2020,outgoing
+DK,Denmark,13219,UPO,2016-2020,outgoing
+DO,Dominican Republic,13,UPO,2016-2020,outgoing
+DZ,Algeria,186,UPO,2016-2020,outgoing
+EC,Ecuador,6186,UPO,2016-2020,outgoing
+EE,Estonia,4668,UPO,2016-2020,outgoing
+EG,Egypt,4313,UPO,2016-2020,outgoing
+ER,Eritrea,1,UPO,2016-2020,outgoing
+ES,Spain,67649,UPO,2016-2020,outgoing
+ET,Ethiopia,1485,UPO,2016-2020,outgoing
+EU,European Union,13,UPO,2016-2020,outgoing
+FI,Finland,35851,UPO,2016-2020,outgoing
+FJ,Fiji,22,UPO,2016-2020,outgoing
+FM,Micronesia,10,UPO,2016-2020,outgoing
+FR,France,242905,UPO,2016-2020,outgoing
+GA,Gabon,31,UPO,2016-2020,outgoing
+GB,United Kingdom,126692,UPO,2016-2020,outgoing
+GD,Grenada,57,UPO,2016-2020,outgoing
+GE,Georgia,8820,UPO,2016-2020,outgoing
+GH,Ghana,292,UPO,2016-2020,outgoing
+GM,The Gambia,10,UPO,2016-2020,outgoing
+GN,Guinea,2,UPO,2016-2020,outgoing
+GR,Greece,30787,UPO,2016-2020,outgoing
+GT,Guatemala,643,UPO,2016-2020,outgoing
+GW,Guinea-Bissau,6,UPO,2016-2020,outgoing
+GY,Guyana,5,UPO,2016-2020,outgoing
+HN,Honduras,19,UPO,2016-2020,outgoing
+HR,Croatia,19828,UPO,2016-2020,outgoing
+HT,Haiti,1,UPO,2016-2020,outgoing
+HU,Hungary,37943,UPO,2016-2020,outgoing
+ID,Indonesia,1945,UPO,2016-2020,outgoing
+IE,Ireland,8004,UPO,2016-2020,outgoing
+IL,Israel,6386,UPO,2016-2020,outgoing
+IN,India,79465,UPO,2016-2020,outgoing
+IQ,Iraq,392,UPO,2016-2020,outgoing
+IR,Iran,12086,UPO,2016-2020,outgoing
+IS,Iceland,511,UPO,2016-2020,outgoing
+IT,Italy,268434,UPO,2016-2020,outgoing
+JM,Jamaica,63,UPO,2016-2020,outgoing
+JO,Jordan,351,UPO,2016-2020,outgoing
+JP,Japan,38293,UPO,2016-2020,outgoing
+KE,Kenya,264,UPO,2016-2020,outgoing
+KG,Kyrgyzstan,33,UPO,2016-2020,outgoing
+KH,Cambodia,88,UPO,2016-2020,outgoing
+KN,St Kitts and Nevis,26,UPO,2016-2020,outgoing
+KP,North Korea,2,UPO,2016-2020,outgoing
+KR,South Korea,63646,UPO,2016-2020,outgoing
+KW,Kuwait,105,UPO,2016-2020,outgoing
+KZ,Kazakhstan,124,UPO,2016-2020,outgoing
+LA,Laos,3,UPO,2016-2020,outgoing
+LB,Lebanon,421,UPO,2016-2020,outgoing
+LC,Saint Lucia,1,UPO,2016-2020,outgoing
+LI,Liechtenstein,21,UPO,2016-2020,outgoing
+LK,Sri Lanka,2736,UPO,2016-2020,outgoing
+LR,Liberia,9,UPO,2016-2020,outgoing
+LT,Lithuania,4085,UPO,2016-2020,outgoing
+LU,Luxembourg,355,UPO,2016-2020,outgoing
+LV,Latvia,1799,UPO,2016-2020,outgoing
+LY,Libya,16,UPO,2016-2020,outgoing
+MA,Morocco,2176,UPO,2016-2020,outgoing
+MC,Monaco,16,UPO,2016-2020,outgoing
+MD,Moldova,26,UPO,2016-2020,outgoing
+ME,Montenegro,682,UPO,2016-2020,outgoing
+MG,Madagascar,4,UPO,2016-2020,outgoing
+MK,North Macedonia,102,UPO,2016-2020,outgoing
+ML,Mali,10,UPO,2016-2020,outgoing
+MM,Myanmar,44,UPO,2016-2020,outgoing
+MN,Mongolia,995,UPO,2016-2020,outgoing
+MT,Malta,143,UPO,2016-2020,outgoing
+MU,Mauritius,26,UPO,2016-2020,outgoing
+MV,Maldives,6,UPO,2016-2020,outgoing
+MW,Malawi,35,UPO,2016-2020,outgoing
+MX,Mexico,24511,UPO,2016-2020,outgoing
+MY,Malaysia,9792,UPO,2016-2020,outgoing
+MZ,Mozambique,43,UPO,2016-2020,outgoing
+NE,Niger,33,UPO,2016-2020,outgoing
+NG,Nigeria,775,UPO,2016-2020,outgoing
+NI,Nicaragua,4,UPO,2016-2020,outgoing
+NL,The Netherlands,39037,UPO,2016-2020,outgoing
+NO,Norway,17430,UPO,2016-2020,outgoing
+NP,Nepal,168,UPO,2016-2020,outgoing
+NZ,New Zealand,9582,UPO,2016-2020,outgoing
+OM,Oman,125,UPO,2016-2020,outgoing
+PA,Panama,55,UPO,2016-2020,outgoing
+PE,Peru,1890,UPO,2016-2020,outgoing
+PG,Papua New Guinea,14,UPO,2016-2020,outgoing
+PH,Philippines,777,UPO,2016-2020,outgoing
+PK,Pakistan,12074,UPO,2016-2020,outgoing
+PL,Poland,35816,UPO,2016-2020,outgoing
+PS,Palestine,383,UPO,2016-2020,outgoing
+PT,Portugal,12635,UPO,2016-2020,outgoing
+PW,Palau,12,UPO,2016-2020,outgoing
+PY,Paraguay,36,UPO,2016-2020,outgoing
+QA,Qatar,1394,UPO,2016-2020,outgoing
+RO,Romania,5712,UPO,2016-2020,outgoing
+RS,Serbia,6237,UPO,2016-2020,outgoing
+RU,Russia,86389,UPO,2016-2020,outgoing
+RW,Rwanda,57,UPO,2016-2020,outgoing
+SA,Saudi Arabia,2134,UPO,2016-2020,outgoing
+SC,Seychelles,1,UPO,2016-2020,outgoing
+SD,Sudan,30,UPO,2016-2020,outgoing
+SE,Sweden,16202,UPO,2016-2020,outgoing
+SG,Singapore,4536,UPO,2016-2020,outgoing
+SI,Slovenia,2022,UPO,2016-2020,outgoing
+SK,Slovakia,12800,UPO,2016-2020,outgoing
+SL,Sierra Leone,24,UPO,2016-2020,outgoing
+SM,San Marino,7,UPO,2016-2020,outgoing
+SN,Senegal,35,UPO,2016-2020,outgoing
+SO,Somalia,12,UPO,2016-2020,outgoing
+SR,Suriname,3,UPO,2016-2020,outgoing
+SS,South Sudan,1,UPO,2016-2020,outgoing
+SV,El Salvador,32,UPO,2016-2020,outgoing
+SY,Syria,23,UPO,2016-2020,outgoing
+SZ,Eswatini,1,UPO,2016-2020,outgoing
+TD,Chad,4,UPO,2016-2020,outgoing
+TG,Togo,13,UPO,2016-2020,outgoing
+TH,Thailand,6715,UPO,2016-2020,outgoing
+TJ,Tajikistan,8,UPO,2016-2020,outgoing
+TL,Timor-Leste,1,UPO,2016-2020,outgoing
+TN,Tunisia,374,UPO,2016-2020,outgoing
+TR,Turkey,57793,UPO,2016-2020,outgoing
+TT,Trinidad and Tobago,9,UPO,2016-2020,outgoing
+TW,Taiwan,19368,UPO,2016-2020,outgoing
+TZ,Tanzania,90,UPO,2016-2020,outgoing
+UA,Ukraine,9641,UPO,2016-2020,outgoing
+UG,Uganda,163,UPO,2016-2020,outgoing
+US,United States,533381,UPO,2016-2020,outgoing
+UY,Uruguay,200,UPO,2016-2020,outgoing
+UZ,Uzbekistan,1116,UPO,2016-2020,outgoing
+VE,Venezuela,61,UPO,2016-2020,outgoing
+VN,Vietnam,962,UPO,2016-2020,outgoing
+XK,Kosovo,4,UPO,2016-2020,outgoing
+YE,Yemen,51,UPO,2016-2020,outgoing
+ZA,South Africa,10072,UPO,2016-2020,outgoing
+ZM,Zambia,61,UPO,2016-2020,outgoing
+ZW,Zimbabwe,78,UPO,2016-2020,outgoing

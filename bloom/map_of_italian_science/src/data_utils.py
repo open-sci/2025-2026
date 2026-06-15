@@ -35,6 +35,15 @@ INSTITUTION_SELF_NAMES = {
 
 # Canonical country names for ambiguous cases (following common English usage)
 COUNTRY_NAMES = {
+    # --- territory-parent merges (the only codes with duplicate issues) ---
+    "DK": "Denmark",
+    "FI": "Finland",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "NO": "Norway",
+    "US": "United States",
+
+    # --- existing ambiguous name overrides ---
     "BN": "Brunei",
     "CD": "DR Congo",
     "CG": "Congo Republic",
@@ -56,12 +65,59 @@ COUNTRY_NAMES = {
     "SZ": "Eswatini",
     "TR": "Turkey",         
     "TZ": "Tanzania",
-    "VI": "U.S. Virgin Islands",
     "VN": "Vietnam",
     "XK": "Kosovo",
 }
 
+# Maps territory ISO-2 codes to their parent country's ISO-2 code
+TERRITORY_TO_PARENT = {
+    # United States territories
+    "AS": "US",  # American Samoa
+    "GU": "US",  # Guam
+    "MP": "US",  # Northern Mariana Islands
+    "PR": "US",  # Puerto Rico
+    "UM": "US",  # United States Minor Outlying Islands
+    "VI": "US",  # U.S. Virgin Islands  ← remove from COUNTRY_NAMES too
+
+    # France territories
+    "GF": "FR",  # French Guiana
+    "GP": "FR",  # Guadeloupe
+    "MQ": "FR",  # Martinique
+    "RE": "FR",  # Réunion
+    "YT": "FR",  # Mayotte
+    "PF": "FR",  # French Polynesia
+    "NC": "FR",  # New Caledonia
+
+    # Netherlands territories
+    "AW": "NL",  # Aruba
+    "CW": "NL",  # Curaçao
+    "BQ": "NL",  # Bonaire, Sint Eustatius, and Saba
+    "SX": "NL",  # Sint Maarten
+
+    # United Kingdom territories
+    "GI": "GB",  # Gibraltar
+    "IM": "GB",  # Isle of Man
+    "JE": "GB",  # Jersey
+    "FK": "GB",  # Falkland Islands
+    "BM": "GB",  # Bermuda
+    "KY": "GB",  # Cayman Islands
+    "TC": "GB",  # Turks and Caicos Islands
+    "VG": "GB",  # British Virgin Islands
+    "MS": "GB",  # Montserrat
+
+    # China territories
+    "MO": "CN",  # Macao
+    "HK": "CN",  # Hong Kong
+
+    # Finland / Denmark / Norway
+    "AX": "FI",  # Åland
+    "FO": "DK",  # Faroe Islands
+    "GL": "DK",  # Greenland
+    "SJ": "NO",  # Svalbard and Jan Mayen
+}
+
 ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts_annualized"
+AGGREGATE_VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations"
 VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations" / "citation_counts_annualized"
 
 YEAR_BLOCKS = ['2001-2005', '2006-2010', '2011-2015', '2016-2020', '2021-2025']
@@ -86,6 +142,9 @@ def normalize_countries(df):
     # Normalize country_code formatting
     df["country_code"] = df["country_code"].str.strip().str.upper()
 
+    # Remap territories to parent country codes FIRST
+    df["country_code"] = df["country_code"].map(TERRITORY_TO_PARENT).fillna(df["country_code"])
+
     # Apply canonical name mapping (only affects ambiguous cases)
     df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
 
@@ -95,7 +154,7 @@ def normalize_countries(df):
     return df
 
 
-def load_country_data(institution: str, direction: str, base_path: Path = None) -> pd.DataFrame:
+def load_country_data(institution: str, direction: str, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load a citation-counts CSV for one institution and direction.
     
     Parameters
@@ -104,6 +163,8 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     direction   : str  'incoming' or 'outgoing'
     base_path   : Path, optional
         Custom path to the directory containing institution folders.
+    suffix      : str, optional
+        Suffix to append to the file name before the extension.
     
     Returns
     -------
@@ -111,7 +172,7 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     """
     if base_path is None:
         base_path = BASE_PATH
-    path = base_path / institution / f"citation_counts_countries_{direction}.csv"
+    path = base_path / institution / f"citation_counts_countries_{direction}{suffix}.csv"
     df = pd.read_csv(path)
 
     # ── Cleaning & Normalization ──
@@ -124,7 +185,7 @@ def load_country_data(institution: str, direction: str, base_path: Path = None) 
     return df
 
 
-def load_institution(institution: str, exclude_self: bool = True, base_path: Path = None) -> pd.DataFrame:
+def load_institution(institution: str, exclude_self: bool = True, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load and merge incoming + outgoing for one institution.
     
     Parameters
@@ -134,13 +195,15 @@ def load_institution(institution: str, exclude_self: bool = True, base_path: Pat
         If True, drop Italy (IT) to focus on *international* relationships.
     base_path   : Path, optional
         Custom path to the directory containing institution folders.
+    suffix      : str, optional
+        Suffix to append to the file name before the extension.
         
     Returns
     -------
     pd.DataFrame
     """
-    incoming = load_country_data(institution, "incoming", base_path=base_path)
-    outgoing = load_country_data(institution, "outgoing", base_path=base_path)
+    incoming = load_country_data(institution, "incoming", base_path=base_path, suffix=suffix)
+    outgoing = load_country_data(institution, "outgoing", base_path=base_path, suffix=suffix)
     
     df = pd.concat([incoming, outgoing], ignore_index=True)
     
@@ -150,9 +213,9 @@ def load_institution(institution: str, exclude_self: bool = True, base_path: Pat
     return df
 
 
-def load_all(exclude_self: bool = True, base_path: Path = None) -> pd.DataFrame:
+def load_all(exclude_self: bool = True, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load data for ALL institutions into one long-format DataFrame."""
-    frames = [load_institution(inst, exclude_self=exclude_self, base_path=base_path)
+    frames = [load_institution(inst, exclude_self=exclude_self, base_path=base_path, suffix=suffix)
               for inst in INSTITUTIONS]
     return pd.concat(frames, ignore_index=True)
 
@@ -192,7 +255,35 @@ def to_iso3(code2):
         return None
     
 
-def load_org_data(institution: str, direction: str) -> pd.DataFrame:
+def normalize_organizations(df: pd.DataFrame, institution: str) -> pd.DataFrame:
+    """Normalize and clean organization-level data."""
+    # 1. Drop rows missing key identifiers
+    df = df.dropna(subset=["country_code", "country_name", "legal_name"])
+    df = df[df["country_code"].str.strip() != ""]
+
+    # 2. Normalise country_code
+    df["country_code"] = df["country_code"].str.strip().str.upper()
+
+    # 3. Remap territories to parent country codes + apply canonical country name mapping
+    df["country_code"] = df["country_code"].map(TERRITORY_TO_PARENT).fillna(df["country_code"])
+    df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
+
+    # 4. Aggregate counts for any (ror, country_code) duplicates after mapping
+    group_cols = ["ror", "legal_name", "country_code", "country_name"] if "ror" in df.columns else ["legal_name", "country_code", "country_name"]
+    df = df.groupby(group_cols, as_index=False)["count"].sum()
+
+    # 5. Remove the focal institution's own self-citation row
+    self_name = INSTITUTION_SELF_NAMES[institution]
+    df = df[df["legal_name"] != self_name].copy()
+
+    # 6. Optionally exclude all other Italian partner institutions
+    if EXCLUDE_ITALIAN_PARTNERS:
+        df = df[df["country_code"] != "IT"].copy()
+
+    return df
+
+
+def load_org_data(institution: str, direction: str, base_path: Path = None, suffix: str = "") -> pd.DataFrame:
     """Load and clean the org-level CSV for one institution and direction.
 
     Cleaning steps (mirrors load_country_data in the country-level notebook):
@@ -207,31 +298,12 @@ def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     pd.DataFrame with columns: ror, legal_name, country_code, country_name,
                                 count, institution, direction
     """
-    path = BASE_PATH / institution / f"citation_counts_organizations_{direction}.csv"
+    if base_path is None:
+        base_path = BASE_PATH
+    path = base_path / institution / f"citation_counts_organizations_{direction}{suffix}.csv"
     df   = pd.read_csv(path)
 
-    # 1. Drop rows missing key identifiers
-    df = df.dropna(subset=["country_code", "country_name", "legal_name"])
-    df = df[df["country_code"].str.strip() != ""]
-
-    # 2. Normalise country_code
-    df["country_code"] = df["country_code"].str.strip().str.upper()
-
-    # 3. Apply canonical country name mapping
-    df["country_name"] = df["country_code"].map(COUNTRY_NAMES).fillna(df["country_name"])
-
-    # 4. Aggregate counts for any (ror, country_code) duplicates after mapping
-    group_cols = ["ror", "legal_name", "country_code", "country_name"] if "ror" in df.columns                  else ["legal_name", "country_code", "country_name"]
-    df = df.groupby(group_cols, as_index=False)["count"].sum()
-
-    # 5. Remove the focal institution's own self-citation row
-    self_name = INSTITUTION_SELF_NAMES[institution]
-    df = df[df["legal_name"] != self_name].copy()
-
-    # 6. Optionally exclude all other Italian partner institutions
-    #    (mirrors the country-level analysis which excludes country_code == "IT")
-    if EXCLUDE_ITALIAN_PARTNERS:
-        df = df[df["country_code"] != "IT"].copy()
+    df = normalize_organizations(df, institution)
 
     # Add metadata
     df["institution"] = institution
@@ -240,15 +312,15 @@ def load_org_data(institution: str, direction: str) -> pd.DataFrame:
     return df
 
 
-def load_all_available() -> dict:
+def load_all_available(base_path: Path = None, suffix: str = "") -> dict:
     """Load all institutions for which CSV files are present.
     Returns: {inst_key: (incoming_df, outgoing_df)}
     """
     datasets = {}
     for inst in INSTITUTIONS:
         try:
-            inb = load_org_data(inst, "incoming")
-            out = load_org_data(inst, "outgoing")
+            inb = load_org_data(inst, "incoming", base_path=base_path, suffix=suffix)
+            out = load_org_data(inst, "outgoing", base_path=base_path, suffix=suffix)
             datasets[inst] = (inb, out)
             print(f"✓ {inst}: incoming {len(inb):,} orgs · outgoing {len(out):,} orgs")
         except FileNotFoundError:
@@ -263,6 +335,14 @@ def load_temporal_dataset(institution: str, direction: str, year_block: str, dat
         raise FileNotFoundError(f"File not found: {file_path}")
         
     df = pd.read_csv(file_path)
+
+    # ── Cleaning & Normalization ──
+    if dataset_type == "countries":
+        df = normalize_countries(df)
+    elif dataset_type == "organizations":
+        df = normalize_organizations(df, institution)
+
+    # ── Add metadata ──
     df["italian_institution"] = institution
     df["year_block"] = year_block
     df["direction"] = direction

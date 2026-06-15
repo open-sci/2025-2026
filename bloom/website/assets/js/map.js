@@ -457,15 +457,33 @@ am5.ready(function () {
     }
 
     // ── 7. UI Controls ─────────────────────────────────────────────────────────
-    var instMenu = document.getElementById("institution-select");
-    var dirMenu = document.getElementById("direction-select");
+    var mapInstValue = "unibo";
+    var mapDirValue = "incoming";
+
+    var mapInstBtns = document.querySelectorAll(".map-inst-btn");
+    var mapDirBtns = document.querySelectorAll(".map-dir-btn");
 
     function updateMap() {
-        loadData(instMenu.value, dirMenu.value);
+        loadData(mapInstValue, mapDirValue);
     }
 
-    instMenu.addEventListener("change", updateMap);
-    dirMenu.addEventListener("change", updateMap);
+    mapInstBtns.forEach(function(btn) {
+        btn.addEventListener("click", function() {
+            mapInstBtns.forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+            mapInstValue = this.getAttribute("data-inst");
+            updateMap();
+        });
+    });
+
+    mapDirBtns.forEach(function(btn) {
+        btn.addEventListener("click", function() {
+            mapDirBtns.forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+            mapDirValue = this.getAttribute("data-dir");
+            updateMap();
+        });
+    });
 
     polygonSeries.events.once("datavalidated", function () {
         updateMap();

@@ -1,199 +1,170 @@
-country_name,country_code,count,italian_institution,year_block,direction
-United States,US,384628,UNITO,2006-2010,incoming
-Italy,IT,237553,UNITO,2006-2010,incoming
-France,FR,178343,UNITO,2006-2010,incoming
-United Kingdom,GB,100644,UNITO,2006-2010,incoming
-Germany,DE,85902,UNITO,2006-2010,incoming
-Spain,ES,43746,UNITO,2006-2010,incoming
-Japan,JP,37290,UNITO,2006-2010,incoming
-China,CN,32116,UNITO,2006-2010,incoming
-Canada,CA,31282,UNITO,2006-2010,incoming
-The Netherlands,NL,27476,UNITO,2006-2010,incoming
-Russia,RU,27068,UNITO,2006-2010,incoming
-South Korea,KR,26836,UNITO,2006-2010,incoming
-Switzerland,CH,26544,UNITO,2006-2010,incoming
-Australia,AU,24003,UNITO,2006-2010,incoming
-India,IN,22872,UNITO,2006-2010,incoming
-Brazil,BR,20266,UNITO,2006-2010,incoming
-Belgium,BE,19117,UNITO,2006-2010,incoming
-Poland,PL,15315,UNITO,2006-2010,incoming
-Finland,FI,13722,UNITO,2006-2010,incoming
-Greece,GR,12901,UNITO,2006-2010,incoming
-Taiwan,TW,12736,UNITO,2006-2010,incoming
-Türkiye,TR,10855,UNITO,2006-2010,incoming
-Sweden,SE,10591,UNITO,2006-2010,incoming
-Mexico,MX,10445,UNITO,2006-2010,incoming
-Hungary,HU,9391,UNITO,2006-2010,incoming
-Denmark,DK,8302,UNITO,2006-2010,incoming
-Austria,AT,7767,UNITO,2006-2010,incoming
-Czechia,CZ,6825,UNITO,2006-2010,incoming
-Norway,NO,6575,UNITO,2006-2010,incoming
-Portugal,PT,6336,UNITO,2006-2010,incoming
-Israel,IL,6254,UNITO,2006-2010,incoming
-Croatia,HR,5587,UNITO,2006-2010,incoming
-Ireland,IE,4743,UNITO,2006-2010,incoming
-Slovakia,SK,4663,UNITO,2006-2010,incoming
-Argentina,AR,4380,UNITO,2006-2010,incoming
-China (People's Republic of),CN,4197,UNITO,2006-2010,incoming
-Bulgaria,BG,3862,UNITO,2006-2010,incoming
-Netherlands,NL,3819,UNITO,2006-2010,incoming
-Hong Kong,HK,3592,UNITO,2006-2010,incoming
-New Zealand,NZ,3295,UNITO,2006-2010,incoming
-South Africa,ZA,3204,UNITO,2006-2010,incoming
-Iran,IR,3089,UNITO,2006-2010,incoming
-Singapore,SG,2956,UNITO,2006-2010,incoming
-Pakistan,PK,2856,UNITO,2006-2010,incoming
-Ukraine,UA,2743,UNITO,2006-2010,incoming
-Serbia,RS,2648,UNITO,2006-2010,incoming
-Colombia,CO,2555,UNITO,2006-2010,incoming
-Georgia,GE,2021,UNITO,2006-2010,incoming
-Uzbekistan,UZ,1960,UNITO,2006-2010,incoming
-Slovenia,SI,1848,UNITO,2006-2010,incoming
-Armenia,AM,1691,UNITO,2006-2010,incoming
-Estonia,EE,1543,UNITO,2006-2010,incoming
-Cyprus,CY,1523,UNITO,2006-2010,incoming
-Puerto Rico,PR,1431,UNITO,2006-2010,incoming
-Chile,CL,1335,UNITO,2006-2010,incoming
-Belarus,BY,1294,UNITO,2006-2010,incoming
-Thailand,TH,1150,UNITO,2006-2010,incoming
-Egypt,EG,1104,UNITO,2006-2010,incoming
-Romania,RO,1087,UNITO,2006-2010,incoming
-Malaysia,MY,775,UNITO,2006-2010,incoming
-Korea (Republic of),KR,724,UNITO,2006-2010,incoming
-Tunisia,TN,706,UNITO,2006-2010,incoming
-Saudi Arabia,SA,552,UNITO,2006-2010,incoming
-Cuba,CU,523,UNITO,2006-2010,incoming
-Lithuania,LT,478,UNITO,2006-2010,incoming
-Iceland,IS,468,UNITO,2006-2010,incoming
-Lebanon,LB,464,UNITO,2006-2010,incoming
-Peru,PE,434,UNITO,2006-2010,incoming
-Ethiopia,ET,394,UNITO,2006-2010,incoming
-Philippines,PH,350,UNITO,2006-2010,incoming
-United Arab Emirates,AE,305,UNITO,2006-2010,incoming
-Bolivia,BO,300,UNITO,2006-2010,incoming
-Uruguay,UY,259,UNITO,2006-2010,incoming
-Ghana,GH,253,UNITO,2006-2010,incoming
-Russian Federation,RU,247,UNITO,2006-2010,incoming
-Jordan,JO,244,UNITO,2006-2010,incoming
-Vietnam,VN,243,UNITO,2006-2010,incoming
-Tanzania,TZ,236,UNITO,2006-2010,incoming
-Nigeria,NG,233,UNITO,2006-2010,incoming
-Mongolia,MN,233,UNITO,2006-2010,incoming
-Ecuador,EC,205,UNITO,2006-2010,incoming
-Montenegro,ME,205,UNITO,2006-2010,incoming
-Kenya,KE,199,UNITO,2006-2010,incoming
-Palestine,PS,195,UNITO,2006-2010,incoming
-Venezuela,VE,170,UNITO,2006-2010,incoming
-Latvia,LV,162,UNITO,2006-2010,incoming
-Czech Republic,CZ,159,UNITO,2006-2010,incoming
-Bahrain,BH,156,UNITO,2006-2010,incoming
-Qatar,QA,152,UNITO,2006-2010,incoming
-Luxembourg,LU,149,UNITO,2006-2010,incoming
-Morocco,MA,149,UNITO,2006-2010,incoming
-Indonesia,ID,126,UNITO,2006-2010,incoming
-Uganda,UG,126,UNITO,2006-2010,incoming
-Kuwait,KW,126,UNITO,2006-2010,incoming
-Kazakhstan,KZ,123,UNITO,2006-2010,incoming
-Turkey,TR,114,UNITO,2006-2010,incoming
-Algeria,DZ,97,UNITO,2006-2010,incoming
-Sri Lanka,LK,92,UNITO,2006-2010,incoming
-Azerbaijan,AZ,92,UNITO,2006-2010,incoming
-Malawi,MW,67,UNITO,2006-2010,incoming
-Zambia,ZM,63,UNITO,2006-2010,incoming
-Bangladesh,BD,62,UNITO,2006-2010,incoming
-Oman,OM,57,UNITO,2006-2010,incoming
-Jamaica,JM,55,UNITO,2006-2010,incoming
-Bosnia and Herzegovina,BA,50,UNITO,2006-2010,incoming
-Nepal,NP,45,UNITO,2006-2010,incoming
-Réunion,RE,44,UNITO,2006-2010,incoming
-Gabon,GA,44,UNITO,2006-2010,incoming
-Panama,PA,43,UNITO,2006-2010,incoming
-Cambodia,KH,43,UNITO,2006-2010,incoming
-Sudan,SD,40,UNITO,2006-2010,incoming
-Zimbabwe,ZW,38,UNITO,2006-2010,incoming
-Moldova,MD,38,UNITO,2006-2010,incoming
-Senegal,SN,35,UNITO,2006-2010,incoming
-Iran (Islamic Republic of),IR,34,UNITO,2006-2010,incoming
-Benin,BJ,34,UNITO,2006-2010,incoming
-Guatemala,GT,34,UNITO,2006-2010,incoming
-North Macedonia,MK,33,UNITO,2006-2010,incoming
-Costa Rica,CR,33,UNITO,2006-2010,incoming
-El Salvador,SV,30,UNITO,2006-2010,incoming
-Burkina Faso,BF,29,UNITO,2006-2010,incoming
-Cameroon,CM,28,UNITO,2006-2010,incoming
-Ivory Coast,CI,28,UNITO,2006-2010,incoming
-Mozambique,MZ,28,UNITO,2006-2010,incoming
-Guadeloupe,GP,26,UNITO,2006-2010,incoming
-Seychelles,SC,26,UNITO,2006-2010,incoming
-Syria,SY,25,UNITO,2006-2010,incoming
-Angola,AO,23,UNITO,2006-2010,incoming
-Somalia,SO,22,UNITO,2006-2010,incoming
-Myanmar,MM,22,UNITO,2006-2010,incoming
-Iraq,IQ,20,UNITO,2006-2010,incoming
-Malta,MT,20,UNITO,2006-2010,incoming
-Macao,MO,19,UNITO,2006-2010,incoming
-Antigua and Barbuda,AG,18,UNITO,2006-2010,incoming
-Curaçao,CW,18,UNITO,2006-2010,incoming
-Yemen,YE,16,UNITO,2006-2010,incoming
-American Samoa,AS,15,UNITO,2006-2010,incoming
-Grenada,GD,15,UNITO,2006-2010,incoming
-Mali,ML,12,UNITO,2006-2010,incoming
-Madagascar,MG,12,UNITO,2006-2010,incoming
-Rwanda,RW,12,UNITO,2006-2010,incoming
-Tajikistan,TJ,11,UNITO,2006-2010,incoming
-Burundi,BI,10,UNITO,2006-2010,incoming
-Papua New Guinea,PG,10,UNITO,2006-2010,incoming
-Nicaragua,NI,10,UNITO,2006-2010,incoming
-Faroe Islands,FO,10,UNITO,2006-2010,incoming
-Palau,PW,9,UNITO,2006-2010,incoming
-Kyrgyzstan,KG,8,UNITO,2006-2010,incoming
-Libya,LY,8,UNITO,2006-2010,incoming
-Paraguay,PY,7,UNITO,2006-2010,incoming
-Bhutan,BT,7,UNITO,2006-2010,incoming
-Togo,TG,6,UNITO,2006-2010,incoming
-Trinidad and Tobago,TT,6,UNITO,2006-2010,incoming
-Barbados,BB,6,UNITO,2006-2010,incoming
-New Caledonia,NC,6,UNITO,2006-2010,incoming
-Afghanistan,AF,6,UNITO,2006-2010,incoming
-Mauritius,MU,5,UNITO,2006-2010,incoming
-Albania,AL,5,UNITO,2006-2010,incoming
-Botswana,BW,5,UNITO,2006-2010,incoming
-Guinea-Bissau,GW,5,UNITO,2006-2010,incoming
-DR Congo,CD,4,UNITO,2006-2010,incoming
-Congo Republic,CG,4,UNITO,2006-2010,incoming
-Namibia,,4,UNITO,2006-2010,incoming
-Brunei,BN,4,UNITO,2006-2010,incoming
-French Polynesia,PF,4,UNITO,2006-2010,incoming
-Central African Republic,CF,4,UNITO,2006-2010,incoming
-Micronesia,FM,4,UNITO,2006-2010,incoming
-Fiji,FJ,3,UNITO,2006-2010,incoming
-"Bonaire, Sint Eustatius, and Saba",BQ,3,UNITO,2006-2010,incoming
-Gibraltar,GI,3,UNITO,2006-2010,incoming
-Jersey,JE,3,UNITO,2006-2010,incoming
-Laos,LA,3,UNITO,2006-2010,incoming
-French Guiana,GF,2,UNITO,2006-2010,incoming
-Honduras,HN,2,UNITO,2006-2010,incoming
-Kosovo,XK,2,UNITO,2006-2010,incoming
-Liechtenstein,LI,2,UNITO,2006-2010,incoming
-Guam,GU,2,UNITO,2006-2010,incoming
-Martinique,MQ,2,UNITO,2006-2010,incoming
-St Kitts and Nevis,KN,2,UNITO,2006-2010,incoming
-The Gambia,GM,2,UNITO,2006-2010,incoming
-Svalbard and Jan Mayen,SJ,2,UNITO,2006-2010,incoming
-Guinea,GN,1,UNITO,2006-2010,incoming
-Tanzania (United Republic of),TZ,1,UNITO,2006-2010,incoming
-Former Yugoslav Republic of Macedonia,MK,1,UNITO,2006-2010,incoming
-Timor-Leste,TL,1,UNITO,2006-2010,incoming
-European Union,EU,1,UNITO,2006-2010,incoming
-Maldives,MV,1,UNITO,2006-2010,incoming
-San Marino,SM,1,UNITO,2006-2010,incoming
-Niger,NE,1,UNITO,2006-2010,incoming
-Dominican Republic,DO,1,UNITO,2006-2010,incoming
-Eswatini,SZ,1,UNITO,2006-2010,incoming
-Bahamas,BS,1,UNITO,2006-2010,incoming
-Isle of Man,IM,1,UNITO,2006-2010,incoming
-Eritrea,ER,1,UNITO,2006-2010,incoming
-North Korea,KP,1,UNITO,2006-2010,incoming
-Moldova (Republic of),MD,1,UNITO,2006-2010,incoming
-Belize,BZ,1,UNITO,2006-2010,incoming
-Monaco,MC,1,UNITO,2006-2010,incoming
+country_code,country_name,count,italian_institution,year_block,direction
+AE,United Arab Emirates,305,UNITO,2006-2010,incoming
+AF,Afghanistan,6,UNITO,2006-2010,incoming
+AG,Antigua and Barbuda,18,UNITO,2006-2010,incoming
+AL,Albania,5,UNITO,2006-2010,incoming
+AM,Armenia,1691,UNITO,2006-2010,incoming
+AO,Angola,23,UNITO,2006-2010,incoming
+AR,Argentina,4380,UNITO,2006-2010,incoming
+AT,Austria,7767,UNITO,2006-2010,incoming
+AU,Australia,24003,UNITO,2006-2010,incoming
+AZ,Azerbaijan,92,UNITO,2006-2010,incoming
+BA,Bosnia and Herzegovina,50,UNITO,2006-2010,incoming
+BB,Barbados,6,UNITO,2006-2010,incoming
+BD,Bangladesh,62,UNITO,2006-2010,incoming
+BE,Belgium,19117,UNITO,2006-2010,incoming
+BF,Burkina Faso,29,UNITO,2006-2010,incoming
+BG,Bulgaria,3862,UNITO,2006-2010,incoming
+BH,Bahrain,156,UNITO,2006-2010,incoming
+BI,Burundi,10,UNITO,2006-2010,incoming
+BJ,Benin,34,UNITO,2006-2010,incoming
+BN,Brunei,4,UNITO,2006-2010,incoming
+BO,Bolivia,300,UNITO,2006-2010,incoming
+BR,Brazil,20266,UNITO,2006-2010,incoming
+BS,Bahamas,1,UNITO,2006-2010,incoming
+BT,Bhutan,7,UNITO,2006-2010,incoming
+BW,Botswana,5,UNITO,2006-2010,incoming
+BY,Belarus,1294,UNITO,2006-2010,incoming
+BZ,Belize,1,UNITO,2006-2010,incoming
+CA,Canada,31282,UNITO,2006-2010,incoming
+CD,DR Congo,4,UNITO,2006-2010,incoming
+CF,Central African Republic,4,UNITO,2006-2010,incoming
+CG,Congo Republic,4,UNITO,2006-2010,incoming
+CH,Switzerland,26544,UNITO,2006-2010,incoming
+CI,Ivory Coast,28,UNITO,2006-2010,incoming
+CL,Chile,1335,UNITO,2006-2010,incoming
+CM,Cameroon,28,UNITO,2006-2010,incoming
+CN,China,39924,UNITO,2006-2010,incoming
+CO,Colombia,2555,UNITO,2006-2010,incoming
+CR,Costa Rica,33,UNITO,2006-2010,incoming
+CU,Cuba,523,UNITO,2006-2010,incoming
+CY,Cyprus,1523,UNITO,2006-2010,incoming
+CZ,Czechia,6984,UNITO,2006-2010,incoming
+DE,Germany,85902,UNITO,2006-2010,incoming
+DK,Denmark,8312,UNITO,2006-2010,incoming
+DO,Dominican Republic,1,UNITO,2006-2010,incoming
+DZ,Algeria,97,UNITO,2006-2010,incoming
+EC,Ecuador,205,UNITO,2006-2010,incoming
+EE,Estonia,1543,UNITO,2006-2010,incoming
+EG,Egypt,1104,UNITO,2006-2010,incoming
+ER,Eritrea,1,UNITO,2006-2010,incoming
+ES,Spain,43746,UNITO,2006-2010,incoming
+ET,Ethiopia,394,UNITO,2006-2010,incoming
+EU,European Union,1,UNITO,2006-2010,incoming
+FI,Finland,13722,UNITO,2006-2010,incoming
+FJ,Fiji,3,UNITO,2006-2010,incoming
+FM,Micronesia,4,UNITO,2006-2010,incoming
+FR,France,178427,UNITO,2006-2010,incoming
+GA,Gabon,44,UNITO,2006-2010,incoming
+GB,United Kingdom,100651,UNITO,2006-2010,incoming
+GD,Grenada,15,UNITO,2006-2010,incoming
+GE,Georgia,2021,UNITO,2006-2010,incoming
+GH,Ghana,253,UNITO,2006-2010,incoming
+GM,The Gambia,2,UNITO,2006-2010,incoming
+GN,Guinea,1,UNITO,2006-2010,incoming
+GR,Greece,12901,UNITO,2006-2010,incoming
+GT,Guatemala,34,UNITO,2006-2010,incoming
+GW,Guinea-Bissau,5,UNITO,2006-2010,incoming
+HN,Honduras,2,UNITO,2006-2010,incoming
+HR,Croatia,5587,UNITO,2006-2010,incoming
+HU,Hungary,9391,UNITO,2006-2010,incoming
+ID,Indonesia,126,UNITO,2006-2010,incoming
+IE,Ireland,4743,UNITO,2006-2010,incoming
+IL,Israel,6254,UNITO,2006-2010,incoming
+IN,India,22872,UNITO,2006-2010,incoming
+IQ,Iraq,20,UNITO,2006-2010,incoming
+IR,Iran,3123,UNITO,2006-2010,incoming
+IS,Iceland,468,UNITO,2006-2010,incoming
+IT,Italy,237553,UNITO,2006-2010,incoming
+JM,Jamaica,55,UNITO,2006-2010,incoming
+JO,Jordan,244,UNITO,2006-2010,incoming
+JP,Japan,37290,UNITO,2006-2010,incoming
+KE,Kenya,199,UNITO,2006-2010,incoming
+KG,Kyrgyzstan,8,UNITO,2006-2010,incoming
+KH,Cambodia,43,UNITO,2006-2010,incoming
+KN,St Kitts and Nevis,2,UNITO,2006-2010,incoming
+KP,North Korea,1,UNITO,2006-2010,incoming
+KR,South Korea,27560,UNITO,2006-2010,incoming
+KW,Kuwait,126,UNITO,2006-2010,incoming
+KZ,Kazakhstan,123,UNITO,2006-2010,incoming
+LA,Laos,3,UNITO,2006-2010,incoming
+LB,Lebanon,464,UNITO,2006-2010,incoming
+LI,Liechtenstein,2,UNITO,2006-2010,incoming
+LK,Sri Lanka,92,UNITO,2006-2010,incoming
+LT,Lithuania,478,UNITO,2006-2010,incoming
+LU,Luxembourg,149,UNITO,2006-2010,incoming
+LV,Latvia,162,UNITO,2006-2010,incoming
+LY,Libya,8,UNITO,2006-2010,incoming
+MA,Morocco,149,UNITO,2006-2010,incoming
+MC,Monaco,1,UNITO,2006-2010,incoming
+MD,Moldova,39,UNITO,2006-2010,incoming
+ME,Montenegro,205,UNITO,2006-2010,incoming
+MG,Madagascar,12,UNITO,2006-2010,incoming
+MK,North Macedonia,34,UNITO,2006-2010,incoming
+ML,Mali,12,UNITO,2006-2010,incoming
+MM,Myanmar,22,UNITO,2006-2010,incoming
+MN,Mongolia,233,UNITO,2006-2010,incoming
+MT,Malta,20,UNITO,2006-2010,incoming
+MU,Mauritius,5,UNITO,2006-2010,incoming
+MV,Maldives,1,UNITO,2006-2010,incoming
+MW,Malawi,67,UNITO,2006-2010,incoming
+MX,Mexico,10445,UNITO,2006-2010,incoming
+MY,Malaysia,775,UNITO,2006-2010,incoming
+MZ,Mozambique,28,UNITO,2006-2010,incoming
+NE,Niger,1,UNITO,2006-2010,incoming
+NG,Nigeria,233,UNITO,2006-2010,incoming
+NI,Nicaragua,10,UNITO,2006-2010,incoming
+NL,The Netherlands,31316,UNITO,2006-2010,incoming
+NO,Norway,6577,UNITO,2006-2010,incoming
+NP,Nepal,45,UNITO,2006-2010,incoming
+NZ,New Zealand,3295,UNITO,2006-2010,incoming
+OM,Oman,57,UNITO,2006-2010,incoming
+PA,Panama,43,UNITO,2006-2010,incoming
+PE,Peru,434,UNITO,2006-2010,incoming
+PG,Papua New Guinea,10,UNITO,2006-2010,incoming
+PH,Philippines,350,UNITO,2006-2010,incoming
+PK,Pakistan,2856,UNITO,2006-2010,incoming
+PL,Poland,15315,UNITO,2006-2010,incoming
+PS,Palestine,195,UNITO,2006-2010,incoming
+PT,Portugal,6336,UNITO,2006-2010,incoming
+PW,Palau,9,UNITO,2006-2010,incoming
+PY,Paraguay,7,UNITO,2006-2010,incoming
+QA,Qatar,152,UNITO,2006-2010,incoming
+RO,Romania,1087,UNITO,2006-2010,incoming
+RS,Serbia,2648,UNITO,2006-2010,incoming
+RU,Russia,27315,UNITO,2006-2010,incoming
+RW,Rwanda,12,UNITO,2006-2010,incoming
+SA,Saudi Arabia,552,UNITO,2006-2010,incoming
+SC,Seychelles,26,UNITO,2006-2010,incoming
+SD,Sudan,40,UNITO,2006-2010,incoming
+SE,Sweden,10591,UNITO,2006-2010,incoming
+SG,Singapore,2956,UNITO,2006-2010,incoming
+SI,Slovenia,1848,UNITO,2006-2010,incoming
+SK,Slovakia,4663,UNITO,2006-2010,incoming
+SM,San Marino,1,UNITO,2006-2010,incoming
+SN,Senegal,35,UNITO,2006-2010,incoming
+SO,Somalia,22,UNITO,2006-2010,incoming
+SV,El Salvador,30,UNITO,2006-2010,incoming
+SY,Syria,25,UNITO,2006-2010,incoming
+SZ,Eswatini,1,UNITO,2006-2010,incoming
+TG,Togo,6,UNITO,2006-2010,incoming
+TH,Thailand,1150,UNITO,2006-2010,incoming
+TJ,Tajikistan,11,UNITO,2006-2010,incoming
+TL,Timor-Leste,1,UNITO,2006-2010,incoming
+TN,Tunisia,706,UNITO,2006-2010,incoming
+TR,Turkey,10969,UNITO,2006-2010,incoming
+TT,Trinidad and Tobago,6,UNITO,2006-2010,incoming
+TW,Taiwan,12736,UNITO,2006-2010,incoming
+TZ,Tanzania,237,UNITO,2006-2010,incoming
+UA,Ukraine,2743,UNITO,2006-2010,incoming
+UG,Uganda,126,UNITO,2006-2010,incoming
+US,United States,386076,UNITO,2006-2010,incoming
+UY,Uruguay,259,UNITO,2006-2010,incoming
+UZ,Uzbekistan,1960,UNITO,2006-2010,incoming
+VE,Venezuela,170,UNITO,2006-2010,incoming
+VN,Vietnam,243,UNITO,2006-2010,incoming
+XK,Kosovo,2,UNITO,2006-2010,incoming
+YE,Yemen,16,UNITO,2006-2010,incoming
+ZA,South Africa,3204,UNITO,2006-2010,incoming
+ZM,Zambia,63,UNITO,2006-2010,incoming
+ZW,Zimbabwe,38,UNITO,2006-2010,incoming
