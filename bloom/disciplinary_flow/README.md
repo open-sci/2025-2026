@@ -13,7 +13,9 @@ Before starting the workflow download the original dataset above.
 * Save the resulting csv files for use in step 2
   
 ## Step 2: Use venue PIDs (e.g issn) to extract subject info from external data dumps (DOAJ and Scimago)
-* For each institution file, run the [`script/PID_subject_match_v3.py`](script/PID_subject_match_v3.py) with the iris_oc_venues_matched.csv from Step 1 (update the paths in the CONFIGURATION block at the top)
+* Download the Scimago data dump from [here](https://www.scimagojr.com/journalrank.php)
+* Download the DOAJ data dump from [here](https://doaj.org/docs/journal-csv)
+* For each institution file, run the [`script/PID_subject_match_v3.py`](script/PID_subject_match_v3.py) with the iris_oc_venues_matched.csv from Step 1 and the downloaded Scimago and DOAJ data dumps (update the paths in the CONFIGURATION block at the top)
 * To obtain a sample data set in .csv format run the [`script/disciplinary_map_sample_output.py`](script/disciplinary_map_sample_output.py) with the disciplinary_map_matched.csv (update the path).
 
 ## Step 3: Use LOC classifications to align and standardise subjects across all iris_oc resources
