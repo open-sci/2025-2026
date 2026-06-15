@@ -34,6 +34,22 @@ Combined analysis linking country-level patterns to specific organizations. Cove
 - Sunburst charts: organisational composition of each country's citation contribution
 
 
+## Source Code (`src/`)
+
+The `src/` directory contains modularized Python scripts used across the Jupyter notebooks for data loading, cleaning, and validation:
+
+### `data_utils.py`
+Provides core utility functions to handle the citation datasets. Covers:
+- Dataset loading and merging logic for country, organization, and temporal data.
+- Normalization pipelines to standardize country codes/names, map territories to parent countries, and aggregate counts.
+- Helper transformations, such as pivoting data for wide-format visualization and converting ISO alpha-2 to alpha-3 codes.
+
+### `validation.py`
+Provides quality-control and export functions. Covers:
+- Utilities to scan and discover country name variants and duplicates.
+- Validation functions to check cleaned datasets for duplicates and missing values.
+- Routines to export the cleaned and aggregated datasets to CSV for both overall and temporal data.
+
 ## Setup
 
 Install dependencies and ensure the raw citation data is available 
@@ -46,4 +62,4 @@ jupyter notebook
 
 Notebooks export visualizations to two locations:
 - `data/visualizations/` — tables and static images for the paper
-- `website/assets/visualizations/` — interactive charts for the project website
+- `website/visualizations/` — interactive charts for the project website

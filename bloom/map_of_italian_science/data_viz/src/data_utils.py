@@ -8,7 +8,7 @@ import pycountry
 # ==================================================
 
 # ── Paths ──
-BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts"
+BASE_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "citation_counts"
 
 INSTITUTIONS = ["UNIBO", "UNIMI", "UNIPD", "UNITO", "UPO", "SNS"]
 
@@ -116,9 +116,9 @@ TERRITORY_TO_PARENT = {
     "SJ": "NO",  # Svalbard and Jan Mayen
 }
 
-ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent / "data" / "citation_counts_annualized"
-AGGREGATE_VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations"
-VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent / "data" / "visualizations" / "citation_counts_annualized"
+ANNUALIZED_BASE_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "citation_counts_annualized"
+AGGREGATE_VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "visualizations"
+VISUALIZATIONS_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "visualizations" / "citation_counts_annualized"
 
 YEAR_BLOCKS = ['2001-2005', '2006-2010', '2011-2015', '2016-2020', '2021-2025']
 
