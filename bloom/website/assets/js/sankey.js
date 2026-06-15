@@ -333,7 +333,7 @@
     div.innerHTML = '<div class="sankey-loading">Loading data for all institutions…</div>';
 
     var fetchPromises = INSTITUTIONS.map(function (inst) {
-      var base = "../map_of_italian_science/data/visualizations/" + inst + "/";
+      var base = "visualizations/data/" + inst.toUpperCase() + "/";
       return Promise.all([
         loadCSV(base + "citation_counts_organizations_incoming_clean.csv"),
         loadCSV(base + "citation_counts_organizations_outgoing_clean.csv")

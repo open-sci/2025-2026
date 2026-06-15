@@ -34,8 +34,8 @@ am5.ready(function () {
             let top12PerInst = {};
 
             for (let inst of institutions) {
-                let inPath = `visualizations/citation_counts/${inst}/citation_counts_countries_incoming_clean.csv`;
-                let outPath = `visualizations/citation_counts/${inst}/citation_counts_countries_outgoing_clean.csv`;
+                let inPath = `visualizations/data/${inst}/citation_counts_countries_incoming_clean.csv`;
+                let outPath = `visualizations/data/${inst}/citation_counts_countries_outgoing_clean.csv`;
 
                 let [inRes, outRes] = await Promise.all([fetchCSV(inPath), fetchCSV(outPath)]);
 

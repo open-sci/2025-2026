@@ -1,0 +1,188 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,3,UPO,incoming
+AE,United Arab Emirates,2999,UPO,incoming
+AF,Afghanistan,72,UPO,incoming
+AG,Antigua and Barbuda,299,UPO,incoming
+AL,Albania,117,UPO,incoming
+AM,Armenia,11699,UPO,incoming
+AO,Angola,112,UPO,incoming
+AR,Argentina,17639,UPO,incoming
+AT,Austria,38246,UPO,incoming
+AU,Australia,83919,UPO,incoming
+AZ,Azerbaijan,5239,UPO,incoming
+BA,Bosnia and Herzegovina,423,UPO,incoming
+BB,Barbados,46,UPO,incoming
+BD,Bangladesh,1711,UPO,incoming
+BE,Belgium,83125,UPO,incoming
+BF,Burkina Faso,73,UPO,incoming
+BG,Bulgaria,25166,UPO,incoming
+BH,Bahrain,775,UPO,incoming
+BI,Burundi,13,UPO,incoming
+BJ,Benin,149,UPO,incoming
+BN,Brunei,79,UPO,incoming
+BO,Bolivia,100,UPO,incoming
+BR,Brazil,115754,UPO,incoming
+BS,Bahamas,8,UPO,incoming
+BT,Bhutan,99,UPO,incoming
+BW,Botswana,57,UPO,incoming
+BY,Belarus,16265,UPO,incoming
+BZ,Belize,3,UPO,incoming
+CA,Canada,100383,UPO,incoming
+CD,DR Congo,122,UPO,incoming
+CF,Central African Republic,4,UPO,incoming
+CG,Congo Republic,20,UPO,incoming
+CH,Switzerland,118781,UPO,incoming
+CI,Ivory Coast,81,UPO,incoming
+CL,Chile,15020,UPO,incoming
+CM,Cameroon,278,UPO,incoming
+CN,China,507749,UPO,incoming
+CO,Colombia,22162,UPO,incoming
+CR,Costa Rica,380,UPO,incoming
+CU,Cuba,3216,UPO,incoming
+CV,Cabo Verde,1,UPO,incoming
+CY,Cyprus,11583,UPO,incoming
+CZ,Czechia,48756,UPO,incoming
+DE,Germany,340974,UPO,incoming
+DJ,Djibouti,3,UPO,incoming
+DK,Denmark,40772,UPO,incoming
+DM,Dominica,1,UPO,incoming
+DO,Dominican Republic,88,UPO,incoming
+DZ,Algeria,1452,UPO,incoming
+EC,Ecuador,6177,UPO,incoming
+EE,Estonia,9804,UPO,incoming
+EG,Egypt,22197,UPO,incoming
+ES,Spain,225149,UPO,incoming
+ET,Ethiopia,1782,UPO,incoming
+EU,European Union,9,UPO,incoming
+FI,Finland,85239,UPO,incoming
+FJ,Fiji,88,UPO,incoming
+FM,Micronesia,3,UPO,incoming
+FR,France,732839,UPO,incoming
+GA,Gabon,136,UPO,incoming
+GB,United Kingdom,353303,UPO,incoming
+GD,Grenada,113,UPO,incoming
+GE,Georgia,14702,UPO,incoming
+GH,Ghana,1270,UPO,incoming
+GM,The Gambia,36,UPO,incoming
+GN,Guinea,1,UPO,incoming
+GR,Greece,72352,UPO,incoming
+GT,Guatemala,632,UPO,incoming
+GW,Guinea-Bissau,7,UPO,incoming
+GY,Guyana,16,UPO,incoming
+HN,Honduras,54,UPO,incoming
+HR,Croatia,42917,UPO,incoming
+HT,Haiti,6,UPO,incoming
+HU,Hungary,80785,UPO,incoming
+ID,Indonesia,4541,UPO,incoming
+IE,Ireland,17741,UPO,incoming
+IL,Israel,23469,UPO,incoming
+IN,India,206180,UPO,incoming
+IQ,Iraq,1742,UPO,incoming
+IR,Iran,45700,UPO,incoming
+IS,Iceland,1023,UPO,incoming
+IT,Italy,825371,UPO,incoming
+JM,Jamaica,265,UPO,incoming
+JO,Jordan,1856,UPO,incoming
+JP,Japan,151521,UPO,incoming
+KE,Kenya,696,UPO,incoming
+KG,Kyrgyzstan,67,UPO,incoming
+KH,Cambodia,425,UPO,incoming
+KN,St Kitts and Nevis,104,UPO,incoming
+KP,North Korea,28,UPO,incoming
+KR,South Korea,159790,UPO,incoming
+KW,Kuwait,991,UPO,incoming
+KZ,Kazakhstan,995,UPO,incoming
+LA,Laos,15,UPO,incoming
+LB,Lebanon,1873,UPO,incoming
+LC,Saint Lucia,3,UPO,incoming
+LI,Liechtenstein,28,UPO,incoming
+LK,Sri Lanka,3216,UPO,incoming
+LR,Liberia,9,UPO,incoming
+LS,Lesotho,4,UPO,incoming
+LT,Lithuania,8623,UPO,incoming
+LU,Luxembourg,1047,UPO,incoming
+LV,Latvia,2340,UPO,incoming
+LY,Libya,107,UPO,incoming
+MA,Morocco,8268,UPO,incoming
+MC,Monaco,34,UPO,incoming
+MD,Moldova,289,UPO,incoming
+ME,Montenegro,1443,UPO,incoming
+MG,Madagascar,40,UPO,incoming
+MH,Marshall Islands,1,UPO,incoming
+MK,North Macedonia,454,UPO,incoming
+ML,Mali,25,UPO,incoming
+MM,Myanmar,238,UPO,incoming
+MN,Mongolia,3584,UPO,incoming
+MR,Mauritania,6,UPO,incoming
+MT,Malta,366,UPO,incoming
+MU,Mauritius,112,UPO,incoming
+MV,Maldives,13,UPO,incoming
+MW,Malawi,137,UPO,incoming
+MX,Mexico,65211,UPO,incoming
+MY,Malaysia,14511,UPO,incoming
+MZ,Mozambique,208,UPO,incoming
+NE,Niger,28,UPO,incoming
+NG,Nigeria,2513,UPO,incoming
+NI,Nicaragua,75,UPO,incoming
+NL,The Netherlands,104706,UPO,incoming
+NO,Norway,43479,UPO,incoming
+NP,Nepal,413,UPO,incoming
+NZ,New Zealand,20514,UPO,incoming
+OM,Oman,525,UPO,incoming
+PA,Panama,163,UPO,incoming
+PE,Peru,5008,UPO,incoming
+PG,Papua New Guinea,16,UPO,incoming
+PH,Philippines,2856,UPO,incoming
+PK,Pakistan,29539,UPO,incoming
+PL,Poland,104929,UPO,incoming
+PS,Palestine,613,UPO,incoming
+PT,Portugal,41519,UPO,incoming
+PW,Palau,30,UPO,incoming
+PY,Paraguay,139,UPO,incoming
+QA,Qatar,3055,UPO,incoming
+RO,Romania,18730,UPO,incoming
+RS,Serbia,19170,UPO,incoming
+RU,Russia,199699,UPO,incoming
+RW,Rwanda,196,UPO,incoming
+SA,Saudi Arabia,10816,UPO,incoming
+SC,Seychelles,33,UPO,incoming
+SD,Sudan,249,UPO,incoming
+SE,Sweden,51478,UPO,incoming
+SG,Singapore,12426,UPO,incoming
+SI,Slovenia,7641,UPO,incoming
+SK,Slovakia,29148,UPO,incoming
+SL,Sierra Leone,44,UPO,incoming
+SM,San Marino,16,UPO,incoming
+SN,Senegal,163,UPO,incoming
+SO,Somalia,128,UPO,incoming
+SR,Suriname,10,UPO,incoming
+SS,South Sudan,4,UPO,incoming
+SV,El Salvador,121,UPO,incoming
+SY,Syria,139,UPO,incoming
+SZ,Eswatini,4,UPO,incoming
+TD,Chad,5,UPO,incoming
+TG,Togo,23,UPO,incoming
+TH,Thailand,14767,UPO,incoming
+TJ,Tajikistan,55,UPO,incoming
+TL,Timor-Leste,1,UPO,incoming
+TM,Turkmenistan,3,UPO,incoming
+TN,Tunisia,2490,UPO,incoming
+TR,Turkey,132250,UPO,incoming
+TT,Trinidad and Tobago,36,UPO,incoming
+TV,Tuvalu,4,UPO,incoming
+TW,Taiwan,59287,UPO,incoming
+TZ,Tanzania,428,UPO,incoming
+UA,Ukraine,21930,UPO,incoming
+UG,Uganda,534,UPO,incoming
+US,United States,1430892,UPO,incoming
+UY,Uruguay,753,UPO,incoming
+UZ,Uzbekistan,5322,UPO,incoming
+VA,Vatican City,5,UPO,incoming
+VC,St Vincent and Grenadines,3,UPO,incoming
+VE,Venezuela,456,UPO,incoming
+VN,Vietnam,2790,UPO,incoming
+XK,Kosovo,84,UPO,incoming
+YE,Yemen,275,UPO,incoming
+ZA,South Africa,23471,UPO,incoming
+ZM,Zambia,265,UPO,incoming
+ZW,Zimbabwe,241,UPO,incoming

@@ -1,0 +1,196 @@
+country_code,country_name,count,institution,direction
+AD,Andorra,19,UNIBO,incoming
+AE,United Arab Emirates,19714,UNIBO,incoming
+AF,Afghanistan,432,UNIBO,incoming
+AG,Antigua and Barbuda,1952,UNIBO,incoming
+AL,Albania,1403,UNIBO,incoming
+AM,Armenia,24520,UNIBO,incoming
+AO,Angola,1220,UNIBO,incoming
+AR,Argentina,111735,UNIBO,incoming
+AT,Austria,205019,UNIBO,incoming
+AU,Australia,661316,UNIBO,incoming
+AZ,Azerbaijan,24944,UNIBO,incoming
+BA,Bosnia and Herzegovina,4008,UNIBO,incoming
+BB,Barbados,329,UNIBO,incoming
+BD,Bangladesh,15095,UNIBO,incoming
+BE,Belgium,306312,UNIBO,incoming
+BF,Burkina Faso,1480,UNIBO,incoming
+BG,Bulgaria,51785,UNIBO,incoming
+BH,Bahrain,6265,UNIBO,incoming
+BI,Burundi,116,UNIBO,incoming
+BJ,Benin,1815,UNIBO,incoming
+BN,Brunei,753,UNIBO,incoming
+BO,Bolivia,628,UNIBO,incoming
+BR,Brazil,502766,UNIBO,incoming
+BS,Bahamas,119,UNIBO,incoming
+BT,Bhutan,725,UNIBO,incoming
+BW,Botswana,1272,UNIBO,incoming
+BY,Belarus,52099,UNIBO,incoming
+BZ,Belize,36,UNIBO,incoming
+CA,Canada,676387,UNIBO,incoming
+CD,DR Congo,1140,UNIBO,incoming
+CF,Central African Republic,77,UNIBO,incoming
+CG,Congo Republic,295,UNIBO,incoming
+CH,Switzerland,536670,UNIBO,incoming
+CI,Ivory Coast,905,UNIBO,incoming
+CL,Chile,128311,UNIBO,incoming
+CM,Cameroon,4057,UNIBO,incoming
+CN,China,2264422,UNIBO,incoming
+CO,Colombia,67714,UNIBO,incoming
+CR,Costa Rica,2209,UNIBO,incoming
+CU,Cuba,5812,UNIBO,incoming
+CV,Cabo Verde,66,UNIBO,incoming
+CY,Cyprus,30363,UNIBO,incoming
+CZ,Czechia,166653,UNIBO,incoming
+DE,Germany,1801165,UNIBO,incoming
+DJ,Djibouti,16,UNIBO,incoming
+DK,Denmark,253803,UNIBO,incoming
+DM,Dominica,21,UNIBO,incoming
+DO,Dominican Republic,464,UNIBO,incoming
+DZ,Algeria,9429,UNIBO,incoming
+EC,Ecuador,15579,UNIBO,incoming
+EE,Estonia,29296,UNIBO,incoming
+EG,Egypt,75893,UNIBO,incoming
+ER,Eritrea,14,UNIBO,incoming
+ES,Spain,1262588,UNIBO,incoming
+ET,Ethiopia,22237,UNIBO,incoming
+EU,European Union,126,UNIBO,incoming
+FI,Finland,235344,UNIBO,incoming
+FJ,Fiji,864,UNIBO,incoming
+FM,Micronesia,72,UNIBO,incoming
+FR,France,3962950,UNIBO,incoming
+GA,Gabon,739,UNIBO,incoming
+GB,United Kingdom,1987092,UNIBO,incoming
+GD,Grenada,757,UNIBO,incoming
+GE,Georgia,36155,UNIBO,incoming
+GH,Ghana,9321,UNIBO,incoming
+GM,The Gambia,336,UNIBO,incoming
+GN,Guinea,72,UNIBO,incoming
+GQ,Equatorial Guinea,4,UNIBO,incoming
+GR,Greece,242599,UNIBO,incoming
+GT,Guatemala,1663,UNIBO,incoming
+GW,Guinea-Bissau,91,UNIBO,incoming
+GY,Guyana,119,UNIBO,incoming
+HN,Honduras,283,UNIBO,incoming
+HR,Croatia,89094,UNIBO,incoming
+HT,Haiti,108,UNIBO,incoming
+HU,Hungary,197563,UNIBO,incoming
+ID,Indonesia,26543,UNIBO,incoming
+IE,Ireland,101419,UNIBO,incoming
+IL,Israel,133844,UNIBO,incoming
+IN,India,650901,UNIBO,incoming
+IQ,Iraq,10229,UNIBO,incoming
+IR,Iran,221638,UNIBO,incoming
+IS,Iceland,9495,UNIBO,incoming
+IT,Italy,3643907,UNIBO,incoming
+JM,Jamaica,2275,UNIBO,incoming
+JO,Jordan,14262,UNIBO,incoming
+JP,Japan,889572,UNIBO,incoming
+KE,Kenya,7973,UNIBO,incoming
+KG,Kyrgyzstan,769,UNIBO,incoming
+KH,Cambodia,2301,UNIBO,incoming
+KI,Kiribati,3,UNIBO,incoming
+KM,Comoros,1,UNIBO,incoming
+KN,St Kitts and Nevis,727,UNIBO,incoming
+KP,North Korea,244,UNIBO,incoming
+KR,South Korea,550731,UNIBO,incoming
+KW,Kuwait,4514,UNIBO,incoming
+KZ,Kazakhstan,6656,UNIBO,incoming
+LA,Laos,259,UNIBO,incoming
+LB,Lebanon,11373,UNIBO,incoming
+LC,Saint Lucia,48,UNIBO,incoming
+LI,Liechtenstein,210,UNIBO,incoming
+LK,Sri Lanka,8444,UNIBO,incoming
+LR,Liberia,105,UNIBO,incoming
+LS,Lesotho,59,UNIBO,incoming
+LT,Lithuania,21030,UNIBO,incoming
+LU,Luxembourg,6411,UNIBO,incoming
+LV,Latvia,7968,UNIBO,incoming
+LY,Libya,760,UNIBO,incoming
+MA,Morocco,46977,UNIBO,incoming
+MC,Monaco,1188,UNIBO,incoming
+MD,Moldova,1405,UNIBO,incoming
+ME,Montenegro,2687,UNIBO,incoming
+MG,Madagascar,615,UNIBO,incoming
+MH,Marshall Islands,1,UNIBO,incoming
+MK,North Macedonia,2995,UNIBO,incoming
+ML,Mali,318,UNIBO,incoming
+MM,Myanmar,1688,UNIBO,incoming
+MN,Mongolia,3595,UNIBO,incoming
+MR,Mauritania,64,UNIBO,incoming
+MT,Malta,3755,UNIBO,incoming
+MU,Mauritius,500,UNIBO,incoming
+MV,Maldives,101,UNIBO,incoming
+MW,Malawi,1957,UNIBO,incoming
+MX,Mexico,166403,UNIBO,incoming
+MY,Malaysia,64220,UNIBO,incoming
+MZ,Mozambique,2424,UNIBO,incoming
+NE,Niger,409,UNIBO,incoming
+NG,Nigeria,21909,UNIBO,incoming
+NI,Nicaragua,604,UNIBO,incoming
+NL,The Netherlands,680002,UNIBO,incoming
+NO,Norway,153217,UNIBO,incoming
+NP,Nepal,5090,UNIBO,incoming
+NZ,New Zealand,69067,UNIBO,incoming
+OC,Oceania,100,UNIBO,incoming
+OM,Oman,4266,UNIBO,incoming
+PA,Panama,1454,UNIBO,incoming
+PE,Peru,14297,UNIBO,incoming
+PG,Papua New Guinea,381,UNIBO,incoming
+PH,Philippines,13839,UNIBO,incoming
+PK,Pakistan,75909,UNIBO,incoming
+PL,Poland,406646,UNIBO,incoming
+PS,Palestine,3907,UNIBO,incoming
+PT,Portugal,244365,UNIBO,incoming
+PW,Palau,179,UNIBO,incoming
+PY,Paraguay,832,UNIBO,incoming
+QA,Qatar,16796,UNIBO,incoming
+RO,Romania,81957,UNIBO,incoming
+RS,Serbia,65955,UNIBO,incoming
+RU,Russia,612433,UNIBO,incoming
+RW,Rwanda,1531,UNIBO,incoming
+SA,Saudi Arabia,64359,UNIBO,incoming
+SB,Solomon Islands,24,UNIBO,incoming
+SC,Seychelles,305,UNIBO,incoming
+SD,Sudan,2047,UNIBO,incoming
+SE,Sweden,251659,UNIBO,incoming
+SG,Singapore,75544,UNIBO,incoming
+SI,Slovenia,51593,UNIBO,incoming
+SK,Slovakia,84854,UNIBO,incoming
+SL,Sierra Leone,222,UNIBO,incoming
+SM,San Marino,1060,UNIBO,incoming
+SN,Senegal,1383,UNIBO,incoming
+SO,Somalia,592,UNIBO,incoming
+SR,Suriname,253,UNIBO,incoming
+SS,South Sudan,50,UNIBO,incoming
+SV,El Salvador,852,UNIBO,incoming
+SY,Syria,1086,UNIBO,incoming
+SZ,Eswatini,68,UNIBO,incoming
+TD,Chad,89,UNIBO,incoming
+TG,Togo,242,UNIBO,incoming
+TH,Thailand,48628,UNIBO,incoming
+TJ,Tajikistan,427,UNIBO,incoming
+TL,Timor-Leste,36,UNIBO,incoming
+TM,Turkmenistan,32,UNIBO,incoming
+TN,Tunisia,16702,UNIBO,incoming
+TO,Tonga,7,UNIBO,incoming
+TR,Turkey,343357,UNIBO,incoming
+TT,Trinidad and Tobago,601,UNIBO,incoming
+TV,Tuvalu,10,UNIBO,incoming
+TW,Taiwan,274186,UNIBO,incoming
+TZ,Tanzania,4838,UNIBO,incoming
+UA,Ukraine,51970,UNIBO,incoming
+UG,Uganda,6261,UNIBO,incoming
+US,United States,6820858,UNIBO,incoming
+UY,Uruguay,5356,UNIBO,incoming
+UZ,Uzbekistan,9754,UNIBO,incoming
+VC,St Vincent and Grenadines,11,UNIBO,incoming
+VE,Venezuela,2814,UNIBO,incoming
+VN,Vietnam,29601,UNIBO,incoming
+VU,Vanuatu,19,UNIBO,incoming
+WS,Samoa,37,UNIBO,incoming
+XK,Kosovo,746,UNIBO,incoming
+YE,Yemen,2430,UNIBO,incoming
+ZA,South Africa,127974,UNIBO,incoming
+ZM,Zambia,2083,UNIBO,incoming
+ZW,Zimbabwe,1952,UNIBO,incoming

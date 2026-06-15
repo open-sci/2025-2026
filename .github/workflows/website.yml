@@ -24,10 +24,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
-      - name: Copy visualization data into website
-        run: |
-          mkdir -p bloom/website/visualizations/citation_counts
-          cp -r bloom/map_of_italian_science/data/visualizations/* bloom/website/visualizations/citation_counts/
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
