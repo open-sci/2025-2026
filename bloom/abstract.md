@@ -1,16 +1,21 @@
-# Structured abstract
+# Abstract
 
-## Working Title
-BLOOM: an OpenCitations-based analysis of geographic and disciplinary flows across 6 IRIS installations
+## Title
+In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?
+An OpenCitations-based Investigation of Citation Patterns Across Countries and Disciplines in Six Italian Institutions
+
 
 ## Purpose
-This project looks at the geographic and disciplinary structure of the citation network around six Italian universities (UNIBO, UNIMI, UNITO, UNIPD, UPO and SNS), as represented in their IRIS repositories. We ask which institutions, countries and scholarly disciplines cite, or are cited by, their publications indexed in OpenCitations, and whether the six universities show different patterns that could point to different research profiles.
+The study analyzes the geographic and disciplinary citation networks of six Italian universities (UNIBO, UNIMI, UNITO, UNIPD, UPO, and SNS) using data from OpenCitations, an open scholarly infrastructure. It evaluates whether these institutions possess distinct research profiles and determines if their citation flows reflect global engagement or are constrained by institutional, geographic, and disciplinary biases.
 
-## Study design/methodology/approach
-Leveraging the Zenodo dataset by Andreose et al. (2026), which gathers the IRIS publications of the six universities indexed in OpenCitations, the pipeline will utilise APIs and data dumps with OpenCitations Meta, OpenAIRE, ROR, Scimago and DOAJ, with disciplinary categories realigned to the Library of Congress Classification, with data visualisation.
+
+## Methodology
+Utilizing a reproducible, open-data pipeline, publication records were enriched via persistent identifiers. To map geographic flows, records were matched using the OpenAIRE Graph and the Research Organization Registry (ROR). For disciplinary flows, venue metadata from OpenCitations Meta, SCImago Journal Rank (SJR), and the Directory of Open Access Journals (DOAJ) was integrated and standardized using the top-level Library of Congress Classification (LCC).
+
 
 ## Findings
-We found a different citation footprint across the six institutions: large generalist universities like UNIBO and UNIMI tended to have a more diverse international research community, while smaller and more specialised ones like SNS and UPO  tended to have intra-institutional citation data. We also noticed that there was not much interdisciplinary citations.
+Geographic mapping reveals a heavy reliance on Western hubs (Western Europe and Northern America), with a stark citation asymmetry regarding China, which acts as a heavy knowledge consumer of Italian research without reciprocal citation. Disciplinary flows are dominated by Science (32.6%) and Medicine (30.7%), which exhibit high self-citation rates. Conversely, mid-range fields like Geography and Social Sciences display high cross-disciplinary activity (~80%). Large generalist universities (UNIBO, UNIMI) maintain vast global networks, while smaller specialized institutions exhibit distinct structures.
 
-## Originality/value
-The project puts together a reproducible open-data pipeline that combines different tools and portals to build a comparative map of Italian science and of disciplinary flows based on open infrastructures, also showing that open scholarly metadata can be a real alternative to proprietary bibliometric tools.
+
+## Value
+This project validates open scholarly infrastructures as transparent, viable alternatives to proprietary databases for mapping complex scientific interactions. Beyond validating the use of open bibliographic data, the study identifies promising directions for future development. In particular, integrating geographic and disciplinary dimensions could enable more fine-grained analyses of institutional profiles and collaboration patterns, further strengthening the analytical potential of open scholarly infrastructures.
