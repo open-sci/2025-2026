@@ -81,7 +81,7 @@ am5.ready(function () {
             return "[bold]" + countryName + "[/]\nInsufficient data (< 500 citations)";
         }
 
-        var sign      = value >= 0 ? "+" : "";
+        var sign = value >= 0 ? "+" : "";
         var direction = value > 0.1
             ? "Knowledge provider"
             : value < -0.1
@@ -92,7 +92,7 @@ am5.ready(function () {
             "[bold]" + countryName + "[/]\n" +
             "Incoming: " + (d.incoming !== undefined ? d.incoming.toLocaleString() : "—") + "\n" +
             "Outgoing: " + (d.outgoing !== undefined ? d.outgoing.toLocaleString() : "—") + "\n" +
-            "Total: "    + (d.total    !== undefined ? d.total.toLocaleString()    : "—") + "\n" +
+            "Total: " + (d.total !== undefined ? d.total.toLocaleString() : "—") + "\n" +
             "log₂(out/in): " + sign + value.toFixed(2) + "\n" +
             "[italic]" + direction + "[/]"
         );
@@ -151,11 +151,12 @@ am5.ready(function () {
     // ==============================================================================
     var legendContainer = chart.children.push(am5.Container.new(root, {
         layout: root.verticalLayout,
-        width: 220,
-        paddingLeft: 20,
-        x: 0,
-        y: am5.p50,
-        centerY: am5.p50
+        width: am5.p100,
+        centerX: am5.p50,
+        x: am5.p50,
+        y: am5.p100,
+        centerY: am5.p100,
+        paddingBottom: 20
     }));
 
     legendContainer.children.push(am5.Label.new(root, {
@@ -163,102 +164,112 @@ am5.ready(function () {
         fontSize: 12,
         fontWeight: "bold",
         paddingBottom: 8,
-        fill: am5.color(0xFFFFFF)
+        fill: am5.color(0xFFFFFF),
+        centerX: am5.p50,
+        x: am5.p50
     }));
 
     var legendWrapper = legendContainer.children.push(am5.Container.new(root, {
+        width: 500,
         layout: root.horizontalLayout,
-        width: am5.p100
+        centerX: am5.p50,
+        x: am5.p50
     }));
 
-    var labelsCol = legendWrapper.children.push(am5.Container.new(root, {
-        width: 120,
-        height: 200,
-        paddingRight: 10
-    }));
+    legendWrapper.adapters.add("width", function (width, target) {
+        if (root.container) {
+            var w = root.container.innerWidth() - 40; // 40px padding
+            return w < 500 ? w : 500;
+        }
+        return 500;
+    });
 
-    var barsCol = legendWrapper.children.push(am5.Container.new(root, {
-        layout: root.verticalLayout,
-        width: 20,
-        height: 200
-    }));
-
-    // Top half: White to Purple (0 to 3)
-    var topLegend = barsCol.children.push(am5.HeatLegend.new(root, {
-        orientation: "vertical",
-        startColor: am5.color(0xF5F0E8),
-        endColor: am5.color(0x23022E),
-        startValue: 0,
-        endValue: 3,
-        stepCount: 100,
-        height: 100
-    }));
-    topLegend.startLabel.set("forceHidden", true);
-    topLegend.endLabel.set("forceHidden", true);
-
-    // Bottom half: Yellow to White (-3 to 0)
-    var bottomLegend = barsCol.children.push(am5.HeatLegend.new(root, {
-        orientation: "vertical",
+    // Left half: Yellow to White (-3 to 0)
+    var leftLegend = legendWrapper.children.push(am5.HeatLegend.new(root, {
+        orientation: "horizontal",
         startColor: am5.color(0xFFD500),
         endColor: am5.color(0xF5F0E8),
         startValue: -3,
         endValue: 0,
         stepCount: 100,
-        height: 100
+        width: am5.p50
     }));
-    bottomLegend.startLabel.set("forceHidden", true);
-    bottomLegend.endLabel.set("forceHidden", true);
+    leftLegend.startLabel.set("forceHidden", true);
+    leftLegend.endLabel.set("forceHidden", true);
 
-    // Custom precise labels
-    labelsCol.children.push(am5.Label.new(root, {
-        text: "+3\nKnowledge provider",
-        fontSize: 10,
-        fill: am5.color(0xFFFFFF),
-        textAlign: "right",
-        x: am5.p100,
-        centerX: am5.p100,
-        y: 0,
-        centerY: 0
+    // Right half: White to Purple (0 to 3)
+    var rightLegend = legendWrapper.children.push(am5.HeatLegend.new(root, {
+        orientation: "horizontal",
+        startColor: am5.color(0xF5F0E8),
+        endColor: am5.color(0x23022E),
+        startValue: 0,
+        endValue: 3,
+        stepCount: 100,
+        width: am5.p50
     }));
+    rightLegend.startLabel.set("forceHidden", true);
+    rightLegend.endLabel.set("forceHidden", true);
 
-    labelsCol.children.push(am5.Label.new(root, {
-        text: "0\nBalanced",
-        fontSize: 10,
-        fill: am5.color(0xFFFFFF),
-        textAlign: "right",
-        x: am5.p100,
-        centerX: am5.p100,
-        y: 100,
-        centerY: am5.p50
+    var labelsContainer = legendContainer.children.push(am5.Container.new(root, {
+        width: 500,
+        centerX: am5.p50,
+        x: am5.p50,
+        paddingTop: 5
     }));
 
-    labelsCol.children.push(am5.Label.new(root, {
-        text: "−3\nKnowledge consumer",
+    labelsContainer.adapters.add("width", function (width, target) {
+        if (root.container) {
+            var w = root.container.innerWidth() - 40;
+            return w < 500 ? w : 500;
+        }
+        return 500;
+    });
+
+    labelsContainer.children.push(am5.Label.new(root, {
+        text: "−3 Knowledge Consumer",
+        fontFamily: "Inter, sans-serif",
         fontSize: 10,
         fill: am5.color(0xFFFFFF),
-        textAlign: "right",
+        x: 0,
+        centerX: 0
+    }));
+
+    labelsContainer.children.push(am5.Label.new(root, {
+        text: "0 Balanced",
+        fontFamily: "Inter, sans-serif",
+        fontSize: 10,
+        fill: am5.color(0xFFFFFF),
+        x: am5.p50,
+        centerX: am5.p50
+    }));
+
+    labelsContainer.children.push(am5.Label.new(root, {
+        text: "+3 Knowledge Provider",
+        fontFamily: "Inter, sans-serif",
+        fontSize: 10,
+        fill: am5.color(0xFFFFFF),
         x: am5.p100,
-        centerX: am5.p100,
-        y: 200,
-        centerY: am5.p100
+        centerX: am5.p100
     }));
 
     // Show value on legend on hover
     polygonSeries.mapPolygons.template.events.on("pointerover", function (ev) {
         var di = ev.target.dataItem;
         if (!di) return;
-        var val = di.get("value");  // use di.get() not di.dataContext.value
+        var val = di.get("value");
         if (val === undefined || val === null) return;
         if (val > 0) {
-            topLegend.showValue(val);
+            rightLegend.showValue(val);
+            leftLegend.hideTooltip();
         } else {
-            bottomLegend.showValue(val);
+            leftLegend.showValue(val);
+            rightLegend.hideTooltip();
         }
     });
 
     polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
-        topLegend.hideTooltip();
-        bottomLegend.hideTooltip();
+        leftLegend.hideTooltip();
+        rightLegend.hideTooltip();
     });
 
     // ==============================================================================
@@ -274,8 +285,25 @@ am5.ready(function () {
         centerX: am5.p50,
         y: 20,
         paddingBottom: 8,
-        paddingTop: 4
+        paddingTop: 4,
+        textAlign: "center",
+        oversizedBehavior: "wrap",
+        lineHeight: 1.4
     }));
+
+    titleLabel.adapters.add("maxWidth", function (maxWidth, target) {
+        if (root.container) {
+            return root.container.innerWidth() - 20;
+        }
+        return 300;
+    });
+
+    titleLabel.adapters.add("fontSize", function (fontSize, target) {
+        if (root.container) {
+            return root.container.innerWidth() < 600 ? 14 : 16;
+        }
+        return 16;
+    });
 
     // ==============================================================================
     // 7. DATA LOADING & SWITCHING
@@ -312,7 +340,7 @@ am5.ready(function () {
 
     function loadAndRender(inst) {
         var label = LABELS[inst] || inst;
-        titleLabel.set("text", "Citation Asymmetry — " + label + " (log₂ outgoing / incoming)");
+        titleLabel.set("text", "Citation Asymmetry — " + label + "\n(log₂ outgoing / incoming)");
 
         if (cache[inst]) {
             polygonSeries.data.setAll(cache[inst]);

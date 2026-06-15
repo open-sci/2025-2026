@@ -118,15 +118,32 @@ am5.ready(function () {
     }]);
 
     var titleLabel = chart.children.insertIndex(0, am5.Label.new(root, {
-        text: "Institutional Fingerprints: How Citation Geography Differs Across Italian Universities",
+        text: "Institutional Fingerprints:\nHow Citation Geography Differs Across Italian Universities",
         fontSize: 17,
         fontWeight: "bold",
         fontFamily: "'Playfair Display', serif",
         fill: am5.color(0x23022E),
         paddingBottom: 14,
+        textAlign: "center",
+        oversizedBehavior: "wrap",
         x: am5.p50,
-        centerX: am5.p50
+        centerX: am5.p50,
+        lineHeight: 1.4
     }));
+
+    titleLabel.adapters.add("maxWidth", function(maxWidth, target) {
+        if (root.container) {
+            return root.container.innerWidth() - 20;
+        }
+        return 300;
+    });
+
+    titleLabel.adapters.add("fontSize", function(fontSize, target) {
+        if (root.container) {
+            return root.container.innerWidth() < 600 ? 14 : 17;
+        }
+        return 17;
+    });
 
     var heatLegendContainer = chart.children.push(am5.Container.new(root, {
         layout: root.verticalLayout,
@@ -153,6 +170,14 @@ am5.ready(function () {
         x: am5.p50
     }));
 
+    legendWrapper.adapters.add("width", function(width, target) {
+        if (root.container) {
+            var w = root.container.innerWidth() - 20; // 20px padding
+            return w < 500 ? w : 500;
+        }
+        return 500;
+    });
+
     // Left half: Red to White (-3 to 0)
     var leftLegend = legendWrapper.children.push(am5.HeatLegend.new(root, {
         orientation: "horizontal",
@@ -161,7 +186,7 @@ am5.ready(function () {
         startValue: -3,
         endValue: 0,
         stepCount: 100,
-        width: 250
+        width: am5.p50
     }));
     leftLegend.startLabel.set("forceHidden", true);
     leftLegend.endLabel.set("forceHidden", true);
@@ -174,7 +199,7 @@ am5.ready(function () {
         startValue: 0,
         endValue: 3,
         stepCount: 100,
-        width: 250
+        width: am5.p50
     }));
     rightLegend.startLabel.set("forceHidden", true);
     rightLegend.endLabel.set("forceHidden", true);
@@ -186,6 +211,14 @@ am5.ready(function () {
         x: am5.p50,
         paddingTop: 5
     }));
+
+    labelsContainer.adapters.add("width", function(width, target) {
+        if (root.container) {
+            var w = root.container.innerWidth() - 20; // 20px padding
+            return w < 500 ? w : 500;
+        }
+        return 500;
+    });
 
     ["-3", "−2", "−1", "0", "+1", "+2", "+3"].forEach(function (text) {
         labelsContainer.children.push(am5.Label.new(root, {

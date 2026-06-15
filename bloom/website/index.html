@@ -104,7 +104,7 @@
                     research connections and disciplinary exchange, offering new perspectives on how knowledge
                     circulates within and beyond Italian academia.</p>
                 <p class="text">Explore the data and discover the flow of <span class="hand-drawn-circle">Italian
-                        science</span></p>
+                        science</span>.</p>
             </div>
         </section>
 
@@ -524,11 +524,10 @@
                 </div>
 
                 <!-- Sankey Row -->
-                <div
-                    style="display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: auto auto; gap: 1.5rem 3rem; align-items: flex-start; margin-top: 5rem; margin-bottom: 4rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: 2rem;">
+                <div class="vis-grid vis-grid-sankey">
 
                     <!-- Buttons in top right -->
-                    <div style="grid-column: 2; grid-row: 1; display: flex; justify-content: center;">
+                    <div class="vis-grid-controls">
                         <div class="org-view-toggle" id="org-controls" style="margin: 0;">
                             <button class="org-view-btn active" id="org-btn-sankey" data-view="sankey"
                                 aria-pressed="true">
@@ -544,7 +543,7 @@
                     </div>
 
                     <!-- Text in bottom left -->
-                    <div style="grid-column: 1; grid-row: 2;">
+                    <div class="vis-grid-text">
                         <p class="text"><span class="hand-drawn-circle"><strong>Italian</strong></span> organizations
                             occupy many of the top positions. To better understand each institution's international
                             citation profile, the analysis can be viewed both with and without Italian organizations.
@@ -560,7 +559,7 @@
                     </div>
 
                     <!-- Diagram Box in bottom right -->
-                    <div style="grid-column: 2; grid-row: 2; position: relative; width: 100%; height: 740px;">
+                    <div class="vis-grid-chart">
                         <div id="sankey-chartdiv"
                             style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: var(--color-bg-light);">
                         </div>
@@ -587,16 +586,15 @@
                 </div>
 
                 <!-- scatter plot -->
-                <div
-                    style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: flex-start; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
-                    <div>
+                <div class="vis-grid vis-grid-scatter">
+                    <div class="vis-grid-chart">
                         <div id="scatter-chartdiv"
-                            style="width: 100%; height: 740px; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
+                            style="width: 100%; height: 100%; border-radius: 12px; overflow: hidden; background-color: #2A0C32; box-shadow: 0 20px 40px rgba(50, 14, 59, 0.25); border: 1px solid rgba(183, 153, 13, 0.2);">
                             <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading scatter plot...
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="vis-grid-text">
                         <div class="reminder-callout">
                             <div class="reminder-content">
                                 The <strong>dashed diagonal</strong> marks perfect reciprocity — points above cite less
@@ -619,13 +617,10 @@
 
                 <div class="content-wrapper" style="margin-top: 3rem; margin-bottom: 2rem;">
                     <div class="text-column center-content">
-                        <p class="text">Two organizations stand out across the
-                            dataset: <span class="hand-drawn-circle"><strong>CNRS</strong></span> and <strong>Harvard
-                                University Press</strong>. CNRS records the highest overall citation volume among all
-                            organizations connected to the six Italian institutions. Its position almost exactly on the
-                            diagonal line indicates a highly balanced relationship: Italian universities cite CNRS as
-                            much as CNRS cites them. This combination of prominence and reciprocity is remarkably
-                            consistent across institutions.</p>
+                        <p class="text">Taken together, these patterns reveal distinct modes of scientific exchange.
+                            European organizations generally appear as reciprocal peers, United States organizations as
+                            dominant reference points, and Chinese organizations as increasingly active - but still
+                            asymmetrical - partners in the global circulation of knowledge.</p>
                     </div>
                 </div>
             </section>
@@ -647,9 +642,8 @@
                     </div>
                 </div>
 
-                <div
-                    style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: flex-start; margin-top: 5rem; padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem)); padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));">
-                    <div>
+                <div class="vis-grid vis-grid-sunburst">
+                    <div class="vis-grid-text">
                         <p class="text"><span class="hand-drawn-underline">Large scientific systems</span>— such as the
                             United States, France, and Italy —tend to distribute citations across dozens of
                             organizations. With the notable exception of CNRS, no single institution dominates. These
@@ -666,7 +660,7 @@
                             citations are distributed across a diverse network of institutions.</p>
                     </div>
 
-                    <div>
+                    <div class="vis-grid-chart">
                         <div class="vis-controls" id="sunburst-controls"
                             style="flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
                             <div class="chart-controls">
@@ -691,7 +685,7 @@
                             </div>
                         </div>
 
-                        <div id="sunburst-chartdiv">
+                        <div id="sunburst-chartdiv" style="height: 750px;">
                             <div class="sankey-loading" style="color: rgba(255,255,255,0.7);">Loading sunburst chart…
                             </div>
                         </div>

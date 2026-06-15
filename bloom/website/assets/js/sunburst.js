@@ -16,7 +16,7 @@ function updateSunburst() {
 
     console.log("Loading sunburst iframe:", src);
 
-    chartDiv.innerHTML = `<iframe src="${src}" width="100%" height="750px" frameborder="0" scrolling="no" style="border-radius: 12px; background-color: transparent; overflow: hidden;"></iframe>`;
+    chartDiv.innerHTML = `<iframe src="${src}" width="100%" height="100%" frameborder="0" scrolling="no" style="border-radius: 12px; background-color: transparent; overflow: hidden;"></iframe>`;
 }
 
 window.addEventListener('load', function () {

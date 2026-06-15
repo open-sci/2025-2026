@@ -1092,11 +1092,11 @@ h3 {
     }
 
     .stat-number {
-        font-size: 2.2rem;
+        font-size: clamp(1.1rem, 4vw, 1.6rem);
     }
 
     .stat-label {
-        font-size: 0.8rem;
+        font-size: clamp(0.65rem, 2.5vw, 0.8rem);
         text-align: center;
     }
 }
@@ -1773,7 +1773,7 @@ h3 {
 }
 
 .stat-number {
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 4vw, 2.8rem);
     font-weight: 600;
     font-family: 'Playfair Display', serif;
     color: #ffffff;
@@ -2705,4 +2705,159 @@ h3 {
     #landscape-chart-grouped {
         height: 340px;
     }
+}
+/* Global Mobile Responsiveness Fixes */
+@media (max-width: 900px) {
+    .vis-controls {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem;
+        align-items: stretch;
+    }
+
+    #institution-select,
+    #direction-select,
+    #org-view-select,
+    #sunburst-inst-select,
+    #sunburst-dir-select {
+        width: 100%;
+    }
+
+    #chartdiv, #asymmetry_chartdiv, #sunburst-chartdiv, #heatmap_chartdiv {
+        width: 100vw !important;
+        margin-left: calc(-50vw + 50%) !important;
+        height: 65vh !important;
+        min-height: 400px;
+        border-radius: 0 !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .cards-viz {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .insight-card {
+        width: 100%;
+    }
+    
+    .content-wrapper {
+        padding: 0 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Vis Grid mobile overrides */
+    .vis-grid {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        gap: 2rem !important;
+    }
+    
+    .vis-grid-sankey .vis-grid-controls {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+    }
+    
+    .vis-grid-sankey .vis-grid-text {
+        grid-column: 1 !important;
+        grid-row: 2 !important;
+    }
+    
+    .vis-grid-sankey .vis-grid-chart {
+        grid-column: 1 !important;
+        grid-row: 3 !important;
+        height: 65vh !important;
+    }
+
+    .vis-grid-scatter {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .vis-grid-scatter .vis-grid-text {
+        order: 1;
+    }
+    .vis-grid-scatter .vis-grid-chart {
+        order: 2;
+        height: 65vh !important;
+        width: 100vw !important;
+        margin-left: calc(-50vw + 50%) !important;
+        border-radius: 0 !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    
+    .vis-grid-sunburst {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .vis-grid-sunburst .vis-grid-text {
+        order: 1;
+    }
+    .vis-grid-sunburst .vis-grid-chart {
+        order: 2;
+    }
+}
+
+/* Base Vis Grid Classes */
+.vis-grid {
+    display: grid;
+    gap: 3rem;
+    align-items: flex-start;
+    padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem));
+    padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));
+}
+
+.vis-grid-sankey {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.vis-grid-sankey .vis-grid-controls {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.vis-grid-sankey .vis-grid-text {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.vis-grid-sankey .vis-grid-chart {
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    width: 100%;
+    height: 740px;
+}
+
+.vis-grid-scatter {
+    grid-template-columns: 2fr 1fr;
+}
+
+.vis-grid-scatter .vis-grid-chart {
+    width: 100%;
+    height: 740px;
+}
+
+.vis-grid-sunburst {
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5rem;
+}
+
+.vis-grid-sunburst .vis-grid-chart {
+    width: 100%;
+    height: 740px;
 }
