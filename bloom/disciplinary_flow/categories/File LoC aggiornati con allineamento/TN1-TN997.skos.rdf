@@ -1,0 +1,103 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TN1-TN997">
+    <skos:prefLabel>Mining engineering. Metallurgy</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Mining engineering. Metallurgy</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Mining engineering. Metallurgy</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Mining engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Metallurgy</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Mineral industries</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>    
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Metallurgy_and_Metallurgical_Engineering"/>  
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Resources_Engineering_and_Extractive_Metallurgy"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Mining_and_Mineral_Processing"/>  
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN269-TN269.88"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN295"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN270-TN271"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN264"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN207"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN343"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN301-TN306"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN311-TN320"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN297"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN306.5-TN309"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN144-TN160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN345-TN347"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN300"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN139-TN140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN263"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN400-TN580"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN331-TN342"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN165-TN205"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN275-TN292"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN210-TN213"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN600-TN799"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN263.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN260"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN272-TN272.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN265"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN1-TN4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN273"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN9-TN10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN344"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN6.A1-TN6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN799.5-TN948"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN321-TN325"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN380.A-TN380.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN274"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN15-TN19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN21-TN127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TN950-TN997"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QE1-QE996.5" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including mineral industries</skos:scopeNote>
+    <skos:notation>TN1-TN997</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Mining engineering. Metallurgy</skos:altLabel>
+    <skos:altLabel>Mining engineering</skos:altLabel>
+    <skos:altLabel>Metallurgy</skos:altLabel>
+    <skos:altLabel>Mineral industries</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TN1-TN997"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-11T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TN1-TN997"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:56:05</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

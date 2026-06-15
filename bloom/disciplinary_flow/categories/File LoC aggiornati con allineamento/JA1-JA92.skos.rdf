@@ -1,0 +1,55 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/JA1-JA92">
+    <skos:prefLabel>Political science (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Political Science--Political science (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Political Science--Political science (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Political science</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Sociology_and_Political_Science"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Political_Science"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Political_sciences"/>
+    <skos:closeMatch rdf:resource="http://www.oecd.org/vocabs/Political_science"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA85-JA85.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA1-JA26"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA81-JA84"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA100"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA92"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA60-JA64"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA71-JA80.442"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA35.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA65"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA70"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA27-JA34"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA66-JA69"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/JA86-JA88"/>
+    <skos:notation>JA1-JA92</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Political Science--Political science (General)</skos:altLabel>
+    <skos:altLabel>Political science</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/JA1-JA92"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-09-21T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/JA1-JA92"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-11T08:55:32</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

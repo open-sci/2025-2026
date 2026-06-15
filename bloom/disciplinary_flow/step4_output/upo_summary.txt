@@ -1,0 +1,62 @@
+============================================================
+1 SUMMARY - Row Count Comparison:
+============================================================
+Original iris_oc_index rows:      1596018
+Matched rows (with venues):       1526869 (95.67%)
+No-match rows (no venues):        69149 (4.33%)
+Total identified in tarfile:      1596018 (100.00%)
+Skipped/Not found:                0 (0.00%)
+
+
+============================================================
+2 PARALLEL DISCIPLINARY ENRICHMENT COMPLETE
+============================================================
+Initial Records: 1526869
+
+Records With ISSNs On Both Sides: 1455075
+Records Without ISSNs: 71794
+
+Matched Records: 1447625
+Unmatched Records: 7450
+
+Verification: No duplicates created during mapping.
+
+Citing Match Rate (SCImago): 94.24%
+Citing Match Rate (DOAJ): 28.57%
+
+Cited Match Rate (SCImago): 94.35%
+Cited Match Rate (DOAJ): 19.47%
+
+
+============================================================
+3 ADD LOC CATEGORY COMPLETE
+============================================================
+JSON index built: 7 area labels, 175 category labels
+CSV loaded: 1447625 rows
+  Multidisciplinary : 99308 columns
+  Others            : 41503 columns
+
+Done.
+  output_cat.csv : 1295445 rows (89.5%) — both sides resolved
+  miss_loc.csv   : 152180 rows (10.5%) — at least one side missing
+
+============================================================
+4 Aggregation
+============================================================
+
+Total input rows: 1,295,445
+
+BEFORE EXPANSION (Input File Counts):
+  Incoming:  617,420 (47.66%)
+  Outgoing:  627,825 (48.46%)
+  Internal:  50,200 (3.88%)
+  Total:     1,295,445
+
+AFTER EXPANSION (Individual Discipline Citations):
+  Incoming:  1,333,524 (45.46%)
+  Outgoing:  1,494,230 (50.94%)
+  Internal:  105,747 (3.60%)
+  Total:     2,933,501
+
+Expansion Ratio: 2.26x
+========================

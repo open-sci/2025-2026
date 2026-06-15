@@ -1,0 +1,81 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/S1-S972">
+    <skos:prefLabel>Agriculture (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Agriculture--Agriculture (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Agriculture--Agriculture (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Agriculture (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Agricultural_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Agronomy_and_Crop_Science"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Crop_and_Pasture_Production"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Soil_Science"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Agricultural_Biotechnology"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Agriculture_Land_and_Farm_Management"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Agricultural_and_veterinary_sciences"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S900-S972.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S565.97-S568"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S590-S599.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S405-S407"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S419-S482"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S600-S600.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S403"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S671-S760.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S559.5-S559.65"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S602.5-S604.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S589.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S590-S599.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S604.8-S621.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S588.4-S588.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S560-S565.88"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S484-S484.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S415-S417"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S413"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S622-S627"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S401"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S408-S410"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S414"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S490.8-S523"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S21-S400"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S589.8-S589.87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S583-S587.73"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S1-S20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S530-S559"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S401"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S631-S667.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S571-S571.82"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S411"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S604.5-S604.64"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S770-S790.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/S589.75-S589.76"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QH82-QH82.3" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>S1-S972</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Agriculture--Agriculture (General)</skos:altLabel>
+    <skos:altLabel>Agriculture (General)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/S1-S972"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-22T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/S1-S972"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-27T11:14:22</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,103 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/SB1-SB1110">
+    <skos:prefLabel>Plant culture</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Agriculture--Plant culture</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Agriculture--Plant culture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Culture, Plant</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Plant culture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Agricultural_and_veterinary_sciences"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Horticultural_Production"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Horticulture"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Agronomy_and_Crop_Science"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Crop_and_Pasture_Production"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB61-SB63"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB44"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB60.A1-SB60.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB129-SB130"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB19-SB29"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB113.2-SB118.46"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB50"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB118.48-SB118.75"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB1-SB13"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB403-SB450.87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB112.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB102"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB354-SB402"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB169-SB172.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB126.5-SB126.57"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB175-SB177"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB119-SB124"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB450.9-SB467.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB320-SB353.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB109.7-SB111"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB317.5-SB319.95"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB45.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB71-SB87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB126"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB599-SB990.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB107-SB109"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB992-SB998"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB112"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB105"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB183-SB192"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB126.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB139"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB41-SB43"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB469-SB476.422"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB113.2-SB118.476"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB125"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB39"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB57-SB59"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB103"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB46"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB51-SB56"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB481.A1-SB486"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB45.6-SB45.65"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB128"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB91-SB106"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB1110"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB16.A1-SB16.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SB106.A-SB106.Z"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GT5897-GT5899" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:editorialNote xml:lang="en">For climatic aspects of particular crops, see the crop, e.g. SB191.M2 Corn</skos:editorialNote>
+    <skos:notation>SB1-SB1110</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Agriculture--Plant culture</skos:altLabel>
+    <skos:altLabel>Culture, Plant</skos:altLabel>
+    <skos:altLabel>Plant culture</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SB1-SB1110"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-11-10T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SB1-SB1110"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T08:50:37</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

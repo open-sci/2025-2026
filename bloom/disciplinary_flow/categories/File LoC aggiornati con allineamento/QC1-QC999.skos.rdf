@@ -1,0 +1,107 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/QC1-QC999">
+    <skos:prefLabel>Physics</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Science--Physics</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Science--Physics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Physics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Biophysics"/>
+    <skos:closeMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Physics"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Applied"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Atomic_Molecular_and_Chemical"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Condensed_Matter"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Fluids_and_Plasmas"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Mathematical"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Multidisciplinary"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Nuclear"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Physics_Particles_and_Fields"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Natural_sciences"/>  
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Interdisciplinary_Natural_Sciences"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Physics"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Polymer_Science"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Acoustics"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Optics"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Quantum_Science_and_Technology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Meteorology_and_Atmospheric_Sciences"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Multidisciplinary_Sciences"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Climate_Change_Science"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Physical_Sciences"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Atmospheric_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Physics_and_Astronomy"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Atmospheric_Science"/>  
+   <skos:relatedMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Exact_and_Earth_Sciences"/>   
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Spectroscopy"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Electronic_Optical_and_Magnetic_Materials"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC6.9-QC9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC120-QC168.86"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC501-QC766"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC28"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC5.56-QC6.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC19.2-QC20.85"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC16.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC75"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC52"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC61"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC60.A1-QC60.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC29"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC17-QC19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC474-QC496.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC251-QC338.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC53-QC55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC21-QC21.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC23-QC23.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC14"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC801-QC809"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC24"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC24.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC26"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC220-QC220.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC811-QC849"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC350-QC467"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC221-QC247"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC5.3-QC5.52"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC30-QC48"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC6.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC770-QC798"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC51.A1-QC51.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC71.82-QC73.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC170-QC197"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC27"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC851-QC999"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC15-QC16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QC25"/>
+    <skos:notation>QC1-QC999</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Science--Physics</skos:altLabel>
+    <skos:altLabel>Physics</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QC1-QC999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-10-29T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QC1-QC999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T08:48:08</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

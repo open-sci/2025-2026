@@ -1,0 +1,95 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TE1-TE450">
+    <skos:prefLabel>Highway engineering. Roads and pavements</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Highway engineering. Roads and pavements</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Highway engineering. Roads and pavements</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Highway engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Roads--Highway engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Urban_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Transportation_Science_and_Technology"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Composites"/>  
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Multidisciplinary"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE6.A-TE6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE192"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE176-TE176.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE228"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE223-TE227"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE206-TE209.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE144-TE155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE303"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE15-TE19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE304"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE139-TE140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE1-TE4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE200-TE205"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE210-TE216"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE180"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE230-TE245"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE229-TE229.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE21-TE127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE250-TE450"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE221"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE185"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE247"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE191"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE195"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE176.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE220-TE220.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE228.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE301"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE228.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE450"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE183"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE177-TE178.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE175"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TE305"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TD159-TD168" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HE331-HE380" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TE1-TE450</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Highway engineering. Roads and pavements</skos:altLabel>
+    <skos:altLabel>Highway engineering</skos:altLabel>
+    <skos:altLabel>Roads--Highway engineering</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TE1-TE450"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-24T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TE1-TE450"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-02-13T16:00:29</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

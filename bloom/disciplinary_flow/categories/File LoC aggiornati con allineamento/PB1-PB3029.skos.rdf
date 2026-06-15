@@ -1,0 +1,47 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PB1-PB3029">
+    <skos:prefLabel>Modern languages. Celtic languages</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Modern languages. Celtic languages</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Modern languages. Celtic languages</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/>  
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Language_and_Linguistics"/>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Linguistics"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1950"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB2501-PB2621"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1001-PB1100"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB2801-PB2932"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB3000-PB3029.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1501-PB1709"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB2001-PB2060"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB2101-PB2499"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1101-PB1200"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1201-PB1449"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1-PB431"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PB1801-PB1867"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/PR8309-PR9680" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>PB1-PB3029</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Modern languages. Celtic languages</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PB1-PB3029"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-03-22T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PB1-PB3029"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-03-19T15:05:43</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,96 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/QP1-QP981">
+    <skos:prefLabel>Physiology</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Science--Physiology</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Science--Physiology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Physiology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Psychophysiology"/>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Physiology"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Multidisciplinary_Sciences"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Natural_sciences"/>  
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Interdisciplinary_Natural_Sciences"/>
+   <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Exact_and_Earth_Sciences"/>  
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Physiology"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP91-QP99.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP54"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP71"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP81-QP87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP247-QP285"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP29"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP33.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP190-QP246.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP83.8-QP87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP135"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP345"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP136"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP186-QP188"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP51-QP53"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP31-QP31.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP351-QP495"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP39-QP47"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP89"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP501-QP801"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP341"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP111-QP114"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP33.6.A-QP33.6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP101-QP110"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP88-QP88.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP25-QP26"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP141-QP185.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP121-QP125"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP34-QP38"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP13"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP301-QP336"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP90.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP137-QP139"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP77"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QP115"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GN221-GN265" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QM1-QM695" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QH501-QH531" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QL605-QL739.8" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QL739.2-QL739.23" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:editorialNote xml:lang="en">For the physiology of special animals or groups of animals see the systematic divisions QL364+</skos:editorialNote>
+    <skos:notation>QP1-QP981</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Science--Physiology</skos:altLabel>
+    <skos:altLabel>Physiology</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QP1-QP981"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-09-30T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QP1-QP981"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-09-04T09:17:11</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

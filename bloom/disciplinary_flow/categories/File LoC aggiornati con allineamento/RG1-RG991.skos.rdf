@@ -1,0 +1,108 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RG1-RG991">
+    <skos:prefLabel>Gynecology and obstetrics</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Gynecology and obstetrics</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Gynecology and obstetrics</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Gynecology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Gynecology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Obsestrics"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Women's_Health"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Obstetrics_and_Gynecology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Biomedical_and_Clinical_Sciences"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Gynecology_and_Obstetrics"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG441-RG481"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG12-RG16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG47"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG218"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG104-RG104.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG103.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG131"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG103"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG484"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG106.3-RG106.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG121"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG106"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG122"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG17-RG18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG108-RG109"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG103.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG108-RG109"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG111"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG141-RG149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG482-RG483"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG103.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG211-RG211.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG158"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG105"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG136-RG137.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG104-RG104.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG107-RG107.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG77"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG133"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG138"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG110"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG31"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG301-RG391"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG220"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG159-RG208"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG39-RG41"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG421-RG433"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG112"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG125-RG129"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG103.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG123"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG133.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG261-RG266.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG79"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG411"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG71-RG76"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG268-RG272.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG32-RG33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG51-RG67"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG21-RG21.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG499.2-RG991"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG491-RG499"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG81-RG101"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RG484"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RA564.85-RA564.88" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RC875-RC899.5" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RC48.6" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>RG1-RG991</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Gynecology and obstetrics</skos:altLabel>
+    <skos:altLabel>Gynecology</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RG1-RG991"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-05-07T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RG1-RG991"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-08-05T09:57:07</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,123 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TK1-TK9971">
+    <skos:prefLabel>Electrical engineering. Electronics. Nuclear engineering</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Electrical engineering. Electronics. Nuclear engineering</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Electrical engineering. Electronics. Nuclear engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Electrical engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/>    
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Computer_Science_Hardware_and_Architecture"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Computational_Mechanics"/>    
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Energy"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Energy_and_Fuels"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Electronics_Sensors_and_Digital_Hardware"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Electrical & Electronic"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Telecommunications"/> 
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Electrical_and_Electronic_Engineering"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Nuclear_Energy_and_Engineering"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Electrical_Engineering"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Electronic_Optical_and_Magnetic_Materials"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Electrical_Engineering"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Composites"/>  
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Multidisciplinary"/>     <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Applied_Computing"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Graphics_Augmented_Reality_and_Games"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Cybersecurity_and_Privacy"/>
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Applied_Mathematics"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Communications_Engineering"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Industrial"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Automation_and_Control_Systems"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Information_Systems_and_Management"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK143-TK159"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK5981-TK5990"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK500-TK541"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK260"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK455"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK148"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK401"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK399"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK21-TK127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6710-TK6720"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK159"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK441-TK448"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK3001-TK3521"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK210-TK213"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK435"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK1001-TK1841"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6680.5-TK6687"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6001-TK6525"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK275-TK277"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK301-TK396"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK257"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK7611-TK7725"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK15-TK18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK1-TK4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK139-TK140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6573-TK6595"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK146"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK153"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK4001-TK4102"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK5107-TK5865"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK425"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6540-TK6571.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK9001-TK9401"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6630-TK6687"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK147"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK7018-TK7301"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK7800-TK8360"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK452-TK454.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK4125-TK4399"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK2000-TK2891"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6.A1-TK6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK431"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK411-TK415"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK165-TK205"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK5101-TK5105.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK6600"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK152"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK9900-TK9971"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK4601-TK4661"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TK451.A2-TK451.Z"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QC501-QC766" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TK1-TK9971</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Electrical engineering. Electronics. Nuclear engineering</skos:altLabel>
+    <skos:altLabel>Electrical engineering</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TK1-TK9971"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-10T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TK1-TK9971"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T10:04:35</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

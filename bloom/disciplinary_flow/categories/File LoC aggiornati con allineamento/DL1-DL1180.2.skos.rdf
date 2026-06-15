@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/DL1-DL1180.2">
+    <skos:prefLabel>History of Northern Europe. Scandinavia</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Northern Europe. Scandinavia</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Northern Europe. Scandinavia</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Northern Europe</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Scandinavia</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL20-DL23"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL30-DL33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL1.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL43-DL87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL1002-DL1180.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL41-DL42"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL5.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL601-DL991"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL301-DL398"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL42.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL6.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL101-DL291"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL6.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL401-DL596"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL4.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL3.5-DL3.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL6.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DL7-DL11.5"/>
+    <skos:notation>DL1-DL1180.2</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Northern Europe. Scandinavia</skos:altLabel>
+    <skos:altLabel>Northern Europe</skos:altLabel>
+    <skos:altLabel>Scandinavia</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DL1-DL1180.2"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-08-04T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DL1-DL1180.2"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T09:24:30</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

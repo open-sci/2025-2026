@@ -1,0 +1,72 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/D1-D2027">
+    <skos:prefLabel>History (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D720-D728"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D880-D888"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D861-D863.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D203.2-D475"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D890-D893"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D839-D860"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D2.5-D2.514"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D731-D838"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D100.2-D110.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D16.7-D16.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D11.52-D12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D16.2-D16.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D3.A-D3.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D11-D11.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D900-D2027"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D13-D15"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D16.19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D5-D5.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D51-D95"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D111-D203"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D27"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D31-D34"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D16-D16.18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D501-D680"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D17-D24.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D6-D7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D25-D25.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D34.2-D34.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/D2"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/N5320-N5899" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including Europe (General)</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">For individual countries, see the country</skos:editorialNote>
+    <skos:notation>D1-D2027</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History (General)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/D1-D2027"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-21T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/D1-D2027"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-21T13:53:14</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

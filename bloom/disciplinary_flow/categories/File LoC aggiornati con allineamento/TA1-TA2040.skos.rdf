@@ -1,0 +1,138 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TA1-TA2040">
+    <skos:prefLabel>Engineering (General). Civil engineering (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Engineering (General). Civil engineering (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Engineering (General). Civil engineering (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Civil engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Urban_Studies"/>    
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/General_Materials_Science"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Mechanics_of_Materials"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Materials_Science_\(miscellaneous\)"/> 
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Materials_Engineering"/>  
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Civil"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Composites"/>  
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Multidisciplinary"/>     
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Cell_and_Tissue_Engineering"/>    
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Biomaterials"/>  
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Materials_Science_Characterization_and_Testing"/> 
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Biomaterials"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Instruments_and_Instrumentation"/> 
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Geological"/> 
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Geotechnical_Engineering_and_Engineering_Geology"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Geomatic_Engineering"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Civil_Engineering"/>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Civil_and_Structural_Engineering"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Transportation_Science_and_Technology"/> 
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Construction_Engineering"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA169-TA169.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA159"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA706-TA706.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA349-TA359"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA21-TA127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA713"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA190-TA194"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA775-TA787"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA165"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA177.4-TA185"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA197-TA198"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA170-TA171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA630-TA695"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA177"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA6.A1-TA6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA401-TA492"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA168.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA710-TA711.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA144-TA145"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA166-TA167"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA715-TA772"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA165.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA139-TA140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA1-TA4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA709"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA712"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA169.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA175"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA501-TA625"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA157-TA158.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA158.5-TA158.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA901"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA201-TA210"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA1501-TA1820"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA365-TA367.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA215.22-TA217"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA714.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA152"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA1501-TA1820"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA160-TA160.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA367.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA714"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA148"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA495"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA213-TA215"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA329-TA348"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA368"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA900"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA174"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA169.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA1001-TA1285"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA890-TA891"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA15-TA19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA800-TA820.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA709.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA2001-TA2040"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA153"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA147"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TA168"/>
+    <skos:notation>TA1-TA2040</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Engineering (General). Civil engineering (General)</skos:altLabel>
+    <skos:altLabel>Engineering</skos:altLabel>
+    <skos:altLabel>Civil engineering</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TA1-TA2040"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-10T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TA1-TA2040"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T10:00:57</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/SD1-SD669.5">
+    <skos:prefLabel>Forestry</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Agriculture--Forestry</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Agriculture--Forestry</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Forestry</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Agricultural_and_veterinary_sciences"/> 
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Forestry"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Forestry_Sciences"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD121-SD123"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD381.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD118"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD387.A-SD387.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD376"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD117"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD248.5-SD248.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD250-SD363.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD381"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD390-SD390.43"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD388"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD390.5-SD390.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD126"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD131-SD247.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD126.5-SD126.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD561-SD669.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD385"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD119"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD389"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD11-SD115"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD411-SD428.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD373"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD375"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD391-SD410.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD430-SD559"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD127-SD129"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD388.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SD383-SD383.3"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/SB1-SB1110" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/SB107-SB109" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TS800-TS915" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>SD1-SD669.5</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Agriculture--Forestry</skos:altLabel>
+    <skos:altLabel>Forestry</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SD1-SD669.5"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-08-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SD1-SD669.5"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-04T12:56:30</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

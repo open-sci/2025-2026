@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/DR1-DR2285">
+    <skos:prefLabel>History of Balkan Peninsula</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Balkan Peninsula</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Balkan Peninsula</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Balkan Peninsula</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/History"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Historical_Studies"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/History"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR1.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR23"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR1202-DR2285"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR201-DR296"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR901-DR998"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR32-DR48.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR24-DR27"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR1.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR9-DR10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR401-DR741.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR51-DR98"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR2-DR3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR11.5-DR16"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR49-DR50.84"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/DR10.5"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DR445" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DS35.3-DS35.77" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DJK1-DJK77" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>DR1-DR2285</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.--History of Balkan Peninsula</skos:altLabel>
+    <skos:altLabel>Balkan Peninsula</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DR1-DR2285"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-09-06T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/DR1-DR2285"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-31T09:26:46</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

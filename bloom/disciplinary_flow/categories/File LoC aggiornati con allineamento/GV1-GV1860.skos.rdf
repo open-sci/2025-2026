@@ -1,0 +1,84 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/GV1-GV1860">
+    <skos:prefLabel>Recreation. Leisure</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Geography. Anthropology. Recreation--Recreation. Leisure</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Geography. Anthropology. Recreation--Recreation. Leisure</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Recreation</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Leisure</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Dance"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV201-GV555"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV14.7-GV14.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV186-GV187"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV191"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1199-GV1570"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV181.35-GV181.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1580-GV1799.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV181.18"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV191.2-GV200.66"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1580-GV1799.4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1851-GV1860"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV557-GV558"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV171-GV181"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1800-GV1843"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV7-GV8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV182-GV182.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV188-GV188.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV181.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV14.5-GV14.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV15-GV158"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV561-GV1198.995"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV182.8-GV184"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV181.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV14-GV14.45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV181.15"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV160-GV166"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GV12"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HB831" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/LB3031" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RA781-RA781.8" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TX731" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GT3400-GT5090" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including amusement in general, play, etc.</skos:scopeNote>
+    <skos:notation>GV1-GV1860</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Geography. Anthropology. Recreation--Recreation. Leisure</skos:altLabel>
+    <skos:altLabel>Recreation</skos:altLabel>
+    <skos:altLabel>Leisure</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GV1-GV1860"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-08-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GV1-GV1860"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-05-27T15:17:16</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

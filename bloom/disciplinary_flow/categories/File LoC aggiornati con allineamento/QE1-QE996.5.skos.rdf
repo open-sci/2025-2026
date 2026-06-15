@@ -1,0 +1,104 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/QE1-QE996.5">
+    <skos:prefLabel>Geology</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Science--Geology</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Science--Geology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Geology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Geochemistry_and_Geophysics"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Geography_Physical"/>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Geology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Geosciences_Multidisciplinary"/>
+    <skos:relatedMatch rdf:resource="https://www.scopus.com/vocabs/Oceanography"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Exact_and_Earth_Sciences"/>  
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Paleontology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Paleontology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Mineralogy"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Computers_in_Earth_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Earth-Surface_Processes"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Economic_Geology"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Geochemistry_and_Petrology"/>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/Geology"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Geophysics"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Oceanography"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Multidisciplinary_Sciences"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Natural_sciences"/>  
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Interdisciplinary_Natural_Sciences"/>
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Geoinformatics"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Geology"/>  
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Geophysics"/> 
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Hydrology"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Physical_Geography_and_Environmental_Geoscience"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Stratigraphy"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE31"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE33"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE48.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE34"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE35"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE33.2.A-QE33.2.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE49.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE701-QE760"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE25"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE36"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE640-QE699.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE40-QE48"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE21-QE22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE760.8-QE899.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE51.A1-QE51.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE26-QE26.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE37-QE39.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE901-QE996.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE28-QE28.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE49.A1-QE49.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE53"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE420-QE499"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE500-QE639.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE351-QE399.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE48.85-QE48.87"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE50"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE65-QE350.62"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE23"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE61"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE48.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE11-QE13"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE52"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/QE29"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GB3-GB5030" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>QE1-QE996.5</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Science--Geology</skos:altLabel>
+    <skos:altLabel>Geology</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QE1-QE996.5"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-29T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/QE1-QE996.5"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-26T15:02:57</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

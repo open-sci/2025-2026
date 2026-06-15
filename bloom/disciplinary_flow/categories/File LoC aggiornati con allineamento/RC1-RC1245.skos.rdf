@@ -1,0 +1,165 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/RC1-RC1245">
+    <skos:prefLabel>Internal medicine</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Medicine--Internal medicine</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Medicine--Internal medicine</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Internal medicine</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Acquired_Immunodeficiency_Syndrome"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Allergy_and_Immunology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Antineoplastic_Agents"/>
+    <skos:relatedMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Nutritional_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Behavioral_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Cancer"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Cardiology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Critical_Care"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Disaster_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Emergency_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Endocrinology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Gastroenterology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Neoplasms"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Nephrology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Geriatrics"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Pain_see_Psychophysiology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Immunology_see_Allergy_and_Immunology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Internal_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Parasitology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Metabolism"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Neurology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Podiatry"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Psychiatry"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Pulmonary_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Rheumatology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Sexually_Transmitted_Diseases"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Speech-Language_Pathology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Sports_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Urology"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Vascular_Diseases"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Military_Medicines"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Brain"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Reproductive_Medicine"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Neurosurgery"/>
+    <skos:narrowMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Psychopharmacology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Allergy"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Audiology_and_Speech-Language_Pathology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Cardiac_and_Cardiovascular_Systems"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Critical_Care_Medicine"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Endocrinology_and_Metabolism"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Sport_Sciences"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Urology_and_Nephrology"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Neuroimaging"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Emergency_Medicine"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Medical_and_health_sciences"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Health_Sciences"/>
+    <skos:relatedMatch rdf:resource="http://www.abs.gov.au/vocabs/Biomedical_and_Clinical_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Cancer_Research"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Neuroscience"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Endocrinology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Medicine"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Health_Science"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Gastroenterology_and_Hepatology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Geriatrics_and_Gerontology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Immunology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Infectious_Diseases"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Medicine_General_and_Internal"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Neurosciences"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Nutrition_and_Dietetics"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Parasitology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Peripheral_Vascular_Disease"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Psychiatry"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Psychology_Clinical"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Psychology_Psychoanalysis"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Respiratory_System"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Substance_Abuse"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Tropical_Medicine"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Urology_and_Nephrology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Cardiovascular_and_Respiratory_Systems"/>
+    <skos:relatedMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Anaesthesia_Emergency_and_Intensive_Care"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Gerontology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Andrology"/>  
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Rheumatology"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Rheumatology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Nephrology"/>  
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Dermatology_and_Venerology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Endocrinology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Gastroenterology_and_Hepatology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Geriatrics"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Haematology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Infectious_Diseases"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Neurology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Nutrition"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Oncology"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Psychiatry"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Psychology"/>    
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Sport_Sciences"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC106"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC108"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC65"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC306-RC320"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC48.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC48.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC66"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC31.A-RC31.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC58"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC64"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC59"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC39-RC40"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC952-RC1245"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC67"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC48"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC86-RC88.9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC251"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC80"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC254-RC282"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC108"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC106"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC578-RC580"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC90"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC321-RC580"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC46"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC69"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC41"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC581-RC951"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC91-RC103.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC109-RC216"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC71-RC78.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC49-RC52"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC31.A-RC31.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC60"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC81-RC82"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/RC48.5"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RA643-RA644" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/RA644.5-RA645" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including clinical family medicine</skos:scopeNote>
+    <skos:notation>RC1-RC1245</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Medicine--Internal medicine</skos:altLabel>
+    <skos:altLabel>Internal medicine</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RC1-RC1245"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-04-13T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/RC1-RC1245"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T11:04:15</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

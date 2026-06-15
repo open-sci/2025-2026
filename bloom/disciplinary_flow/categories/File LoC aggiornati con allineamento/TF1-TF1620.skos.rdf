@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TF1-TF1620">
+    <skos:prefLabel>Railroad engineering and operation</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Railroad engineering and operation</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Railroad engineering and operation</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Railroad engineering and operation</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Transportation_Science_and_Technology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF501-TF668"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF670-TF851"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF15-TF20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF190"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF144-TF155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF854.2-TF1126"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF195"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF340-TF499"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF1-TF4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF139-TF140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF171-TF183"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF21-TF127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF197"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF193"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF6.A1-TF6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF1300-TF1620"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TF200-TF320"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TJ603-TJ695" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TF1-TF1620</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Railroad engineering and operation</skos:altLabel>
+    <skos:altLabel>Railroad engineering and operation</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TF1-TF1620"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-26T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TF1-TF1620"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:58:07</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

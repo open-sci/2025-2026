@@ -1,0 +1,66 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/GE1-GE350">
+    <skos:prefLabel>Environmental sciences</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Geography. Anthropology. Recreation--Environmental sciences</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Geography. Anthropology. Recreation--Environmental sciences</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Environmental sciences</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Environmental_Studies"/>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/General_Environmental_Science"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Environmental_Science_\(miscellaneous\)"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Environmental_Sciences"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE300-GE350"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE105"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE220-GE240"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE125"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE10"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE25-GE35"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE50"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE60"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE170-GE190"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE195-GE199"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE15"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE115"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE140-GE160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE123"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE120"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE40-GE45"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE55-GE56"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE95-GE100"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE70-GE90"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE110"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/GE1"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GF51" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>GE1-GE350</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Geography. Anthropology. Recreation--Environmental sciences</skos:altLabel>
+    <skos:altLabel>Environmental sciences</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GE1-GE350"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-08-23T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/GE1-GE350"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-05T15:49:42</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

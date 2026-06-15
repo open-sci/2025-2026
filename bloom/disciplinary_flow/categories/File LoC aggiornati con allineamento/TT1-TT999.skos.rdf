@@ -1,0 +1,108 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TT1-TT999">
+    <skos:prefLabel>Handicrafts. Arts and crafts</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Handicrafts. Arts and crafts</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Handicrafts. Arts and crafts</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Handicrafts</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Arts and crafts</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Mechanic trades</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT139-TT140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT242"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT265"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT152"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT697-TT926"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT6.A1-TT6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT266-TT266.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT270-TT273"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT215-TT240"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT980-TT999"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT205-TT214.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT153-TT153.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT150"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT201-TT203"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT288"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT151"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT154-TT154.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT203.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT250"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT267"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT174-TT176.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT153.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT295"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT950-TT979"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT180-TT200.22"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT298"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT155"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT387-TT410"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT161-TT170.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT15-TT127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT297-TT297.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT10-TT11"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT144-TT145"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT300-TT386"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT490-TT695"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT290"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT297.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT159-TT160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT293"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TT178"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TS1-TS2301" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GV1-GV1860" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HD9999.H36-HD9999.H364" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including mechanic trades</skos:scopeNote>
+    <skos:notation>TT1-TT999</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Handicrafts. Arts and crafts</skos:altLabel>
+    <skos:altLabel>Handicrafts</skos:altLabel>
+    <skos:altLabel>Arts and crafts</skos:altLabel>
+    <skos:altLabel>Mechanic trades</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TT1-TT999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-07-21T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TT1-TT999"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-04-27T14:00:53</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

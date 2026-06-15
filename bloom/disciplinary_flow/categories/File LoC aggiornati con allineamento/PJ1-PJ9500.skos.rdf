@@ -1,0 +1,73 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/PJ1-PJ9500">
+    <skos:prefLabel>Oriental philology and literature</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Language And Literature--Oriental philology and literature</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Language And Literature--Oriental philology and literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Oriental philology and literature</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Language_and_literature"/>  
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Language_and_Linguistics"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Linguistics"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4171-PJ4197"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4145"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ3001-PJ3095"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4150"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4131-PJ4139"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ6701-PJ6901"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4001-PJ4091"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ6001-PJ6697"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ8991-PJ9348"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ2340-PJ2399"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ305.2-PJ489"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4149"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4143"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4101-PJ4109"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ3101-PJ3971"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4121-PJ4129"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ5901-PJ5909"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ1001-PJ1989"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ2401-PJ2594"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ6950-PJ7144"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ3097"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ1-PJ195"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ2001-PJ2199"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ5201-PJ5329.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ991-PJ995"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4147"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ7501-PJ8519"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ5401-PJ5809"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ4501-PJ5192"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/PJ3097"/>
+    <skos:notation>PJ1-PJ9500</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Language And Literature--Oriental philology and literature</skos:altLabel>
+    <skos:altLabel>Oriental philology and literature</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PJ1-PJ9500"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-11-28T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/PJ1-PJ9500"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-14T13:29:02</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

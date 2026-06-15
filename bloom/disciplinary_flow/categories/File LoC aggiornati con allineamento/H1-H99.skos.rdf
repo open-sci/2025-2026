@@ -1,0 +1,55 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/H1-H99">
+    <skos:prefLabel>Social sciences (General)</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Social Sciences--Social sciences (General)</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Social Sciences--Social sciences (General)</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="https://www.scopus.com/vocabs/General_Social_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Interdisciplinary_Social_Sciences"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Social_Sciences_\(miscellaneous\)"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Safety_Research"/>
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Life-span_and_Life-course_Studies"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H63-H64"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H93"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H95"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H21-H29"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H51-H53"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H92"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H57-H59"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H62-H62.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H49.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H61-H61.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H1-H8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H96-H97.7"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H71-H85"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H50"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H61-H61.62"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H69"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H61.8-H61.92"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H10-H19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/H40-H49"/>
+    <skos:notation>H1-H99</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Social Sciences--Social sciences (General)</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/H1-H99"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-07-22T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/H1-H99"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:20:25</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

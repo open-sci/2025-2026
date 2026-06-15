@@ -1,0 +1,215 @@
+[
+    {
+        "university":"SNS",
+        "iris_oc_index" : 931354,
+        "step 1":{
+            "input": 931354,
+            "matched": 897919,
+            "no match": 33435
+        },
+        "step 2":{
+            "input": 897919,
+            "matched": 820376,
+            "no match": 20284
+        },
+        "step 3":{
+            "input": 820376,
+            "matched": 687851,
+            "no match": 132525
+        },
+        "final output":{
+            "overall citations": 687851,
+            "discipline citations": 1383693,
+            "incoming": {
+                "overall citations": 339995,
+                "discipline citations": 647522
+            },
+            "outgoing": {
+                "overall citations": 306352,
+                "discipline citations": 663057
+            },
+            "internal": {
+                "overall citations": 41504,
+                "discipline citations": 73114
+            }
+        }
+        
+    },
+    {
+        "university":"UNIBO",
+        "iris_oc_index" : 9992645,
+        "step 1":{
+            "input": 9992645,
+            "matched": 9602472,
+            "no match": 390173
+        },
+        "step 2":{
+            "input": 9602472,
+            "matched": 8794244,
+            "no match": 53986
+        },
+        "step 3":{
+            "input": 8794244,
+            "matched": 7908585,
+            "no match": 886659
+        },
+        "final output":{
+            "overall citations": 7907585,
+            "discipline citations": 20612378,
+            "incoming": {
+                "overall citations": 3701507,
+                "discipline citations": 9022405
+            },
+            "outgoing": {
+                "overall citations": 3822439,
+                "discipline citations": 10607139
+            },
+            "internal": {
+                "overall citations": 383639,
+                "discipline citations": 982834
+            }
+        }
+        
+    },
+    {
+        "university":"UNIMI",
+        "iris_oc_index" : 12470167,
+        "step 1":{
+            "input": 12470167,
+            "matched": 11901684,
+            "no match": 568483
+        },
+        "step 2":{
+            "input": 11901684,
+            "matched": 11169745,
+            "no match": 71582
+        },
+        "step 3":{
+            "input": 11169745,
+            "matched": 9998106,
+            "no match": 1171639
+        },
+        "final output":{
+            "overall citations": 9998106,
+            "discipline citations": 23119817,
+            "incoming": {
+                "overall citations": 5197996,
+                "discipline citations": 11486365
+            },
+            "outgoing": {
+                "overall citations": 4377188,
+                "discipline citations": 10620869
+            },
+            "internal": {
+                "overall citations": 422922,
+                "discipline citations": 1012583
+            }
+        }
+        
+    },
+    {
+        "university":"UNIPD",
+        "iris_oc_index" : 10247005,
+        "step 1":{
+            "input": 10247005,
+            "matched": 9829615,
+            "no match": 417390
+        },
+        "step 2":{
+            "input": 9829615,
+            "matched": 9049935,
+            "no match": 70361
+        },
+        "step 3":{
+            "input": 9049935,
+            "matched": 8107419,
+            "no match": 942516
+        },
+        "final output":{
+            "overall citations": 8107419,
+            "discipline citations": 19742702,
+            "incoming": {
+                "overall citations": 3826935,
+                "discipline citations": 8697780
+            },
+            "outgoing": {
+                "overall citations": 3882773,
+                "discipline citations": 10075862
+            },
+            "internal": {
+                "overall citations": 397711,
+                "discipline citations": 969060
+            }
+        }
+    },
+    {
+        "university":"UNITO",
+        "iris_oc_index" : 6977099,
+        "step 1":{
+            "input": 6977099,
+            "matched": 6678619,
+            "no match": 298480
+        },
+        "step 2":{
+            "input": 6678619,
+            "matched": 6264490,
+            "no match": 34716
+        },
+        "step 3":{
+            "input": 6264490,
+            "matched": 5643596,
+            "no match": 620894
+        },
+        "final output":{
+            "overall citations": 5643596,
+            "discipline citations": 6371152,
+            "incoming": {
+                "overall citations": 2679480,
+                "discipline citations": 6371152
+            },
+            "outgoing": {
+                "overall citations": 2729672,
+                "discipline citations": 7411999
+            },
+            "internal": {
+                "overall citations": 234444,
+                "discipline citations": 615711
+            }
+        }
+    },
+    {
+        "university":"UPO",
+        "iris_oc_index" : 1048115,
+        "step 1":{
+            "input": 1048115,
+            "matched": 1002555,
+            "no match": 46020
+        },
+        "step 2":{
+            "input": 1002555,
+            "matched": 950629,
+            "no match": 5011
+        },
+        "step 3":{
+            "input": 950629,
+            "matched": 847479,
+            "no match": 103150
+        },
+        "final output":{
+            "overall citations": 847479,
+            "discipline citations": 1917598,
+            "incoming": {
+                "overall citations": 403768,
+                "discipline citations": 874688
+            },
+            "outgoing": {
+                "overall citations": 410852,
+                "discipline citations": 973273
+            },
+            "internal": {
+                "overall citations": 32859,
+                "discipline citations": 69637
+            }
+        }
+    }
+]

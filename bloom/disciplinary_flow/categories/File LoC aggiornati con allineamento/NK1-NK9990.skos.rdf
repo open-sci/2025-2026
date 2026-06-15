@@ -1,0 +1,99 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/NK1-NK9990">
+    <skos:prefLabel>Decorative arts. Applied arts. Decoration and ornament</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Fine Arts--Decorative arts. Applied arts. Decoration and ornament</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Fine Arts--Decorative arts. Applied arts. Decoration and ornament</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Decorative arts</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Applied arts</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Decoration and ornament</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Ornament and decoration</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Antiques</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Art"/>
+    <skos:broadMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Art_and_Art_History"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Visual_Arts_and_Performing_Arts"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Visual_Arts"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Arts_arts_history_of_arts_performing_arts_music"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1135-NK1149.5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK510-NK520"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK3175-NK3296"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK2775-NK2898"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK446-NK494"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK3600-NK9990"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK2200-NK2750"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK30"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1-NK8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK11-NK19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK600-NK1094"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1160-NK1590"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK530-NK570"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK3375-NK3498"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK50-NK440"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK25-NK27"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK21"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK28"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK2975-NK3096"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK3505"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK32"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1100-NK1133.3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK441-NK445"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1700-NK2195"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK1648-NK1678"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/NK2910"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TT1-TT999" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Including antiques in general Including visual fine art forms not provided for in subclasses N-NE</skos:scopeNote>
+    <skos:notation>NK1-NK9990</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Fine Arts--Decorative arts. Applied arts. Decoration and ornament</skos:altLabel>
+    <skos:altLabel>Decorative arts</skos:altLabel>
+    <skos:altLabel>Applied arts</skos:altLabel>
+    <skos:altLabel>Decoration and ornament</skos:altLabel>
+    <skos:altLabel>Ornament and decoration</skos:altLabel>
+    <skos:altLabel>Antiques</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/NK1-NK9990"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-09-07T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/NK1-NK9990"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-07-10T14:17:25</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

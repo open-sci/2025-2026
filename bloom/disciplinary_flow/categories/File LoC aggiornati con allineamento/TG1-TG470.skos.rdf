@@ -1,0 +1,79 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TG1-TG470">
+    <skos:prefLabel>Bridge engineering</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Bridge engineering</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Bridge engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Bridge engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Bridges--Engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="http://www.webofscience.com/vocabs/Urban_Studies"/>
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/> 
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/> 
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG300-TG304"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG170"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG307"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG325.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG21-TG127"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG15-TG20"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG305"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG12"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG1-TG4"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG130.A-TG130.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG6.A1-TG6.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG420-TG450"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG315"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG470"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG313"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG326"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG9"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG310"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG144-TG160"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG327-TG418"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG320"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG5"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG139-TG140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG260-TG270"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG325"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TG7"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HE374-HE377" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>TG1-TG470</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Bridge engineering</skos:altLabel>
+    <skos:altLabel>Bridge engineering</skos:altLabel>
+    <skos:altLabel>Bridges--Engineering</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TG1-TG470"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-04-02T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TG1-TG470"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-02-13T16:45:19</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

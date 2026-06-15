@@ -1,0 +1,76 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/CC1-CC960">
+    <skos:prefLabel>Archaeology</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Auxiliary Sciences Of History--Archaeology</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Auxiliary Sciences Of History--Archaeology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Archaeology</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:closeMatch rdf:resource="http://www.webofscience.com/vocabs/Archeology"/>
+    <skos:closeMatch rdf:resource="http://www.abs.gov.au/vocabs/Archeology"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/vocabs/Archeology_and_Conservation"/>
+    <skos:closeMatch rdf:resource="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/vocabs/Archeology"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/History_and_archaeology"/>
+    <skos:broadMatch rdf:resource="http://www.abs.gov.au/vocabs/Other_history_heritage_and_archaeology"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC110-CC115"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC150"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC135-CC137"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC173"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC140"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC82-CC82.6"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC51"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC20-CC39"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC120-CC125"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC65-CC67"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC72-CC81"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC160-CC165"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC168"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC171"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC100-CC101"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC55"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC176"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC107"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC200-CC960"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC70"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC1-CC13"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC83-CC97"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/CC175"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/CB3-CB481" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/D78-D80" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DE45.2-DE61" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DF74.2-DF131.23" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DE1-DE100" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/DG74.2-DG142.24" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GC65-GC78" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:scopeNote xml:lang="en">Class here general works only; for the antiquities of particular regions or countries, see classes D - F; GN803 GN890</skos:scopeNote>
+    <skos:editorialNote xml:lang="en">Cf. DE-DG, Classical antiquities</skos:editorialNote>
+    <skos:notation>CC1-CC960</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Auxiliary Sciences Of History--Archaeology</skos:altLabel>
+    <skos:altLabel>Archaeology</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/CC1-CC960"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-02-07T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/CC1-CC960"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-09-08T12:56:23</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

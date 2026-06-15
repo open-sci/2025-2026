@@ -1,0 +1,68 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/SH1-SH691">
+    <skos:prefLabel>Aquaculture. Fisheries. Angling</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Agriculture--Aquaculture. Fisheries. Angling</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Agriculture--Aquaculture. Fisheries. Angling</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Angling</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Aquaculture</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Fisheries</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Agricultural_and_veterinary_sciences"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Fisheries_Sciences"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH20.2-SH191"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH400-SH400.8"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH401-SH691"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH11-SH11.2"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH19"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH20.A1-SH20.Z"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH1"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH3"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/SH201-SH399"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/HD9450-HD9469" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/GC1000-GC1023" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/TX385" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/QL614-QL639.8" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <rdfs:seeAlso rdf:resource="http://id.loc.gov/authorities/classification/SH400-SH400.8" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"/>
+    <skos:notation>SH1-SH691</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Agriculture--Aquaculture. Fisheries. Angling</skos:altLabel>
+    <skos:altLabel>Angling</skos:altLabel>
+    <skos:altLabel>Aquaculture</skos:altLabel>
+    <skos:altLabel>Fisheries</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SH1-SH691"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-08-09T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/SH1-SH691"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-04-03T15:58:56</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

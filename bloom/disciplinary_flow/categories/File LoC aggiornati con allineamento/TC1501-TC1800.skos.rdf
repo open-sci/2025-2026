@@ -1,0 +1,60 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-schema#" xmlns:cs="http://purl.org/vocab/changeset/schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/classification/TC1501-TC1800">
+    <skos:prefLabel>Ocean engineering</skos:prefLabel>
+    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Technology--Ocean engineering</rdfs:label>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Technology--Ocean engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel>
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm>Ocean engineering</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:broadMatch rdf:resource="https://meshb.nlm.nih.gov/vocabs/Tecnology"/> 
+    <skos:broadMatch rdf:resource="https://www.https://www.scielo.org/vocabs/Technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/Engineering_\(miscellaneous\)"/>
+    <skos:broadMatch rdf:resource="http://www.oecd.org/vocabs/Engineering_and_technology"/>
+    <skos:broadMatch rdf:resource="https://www.scopus.com/vocabs/General_Engineering"/>
+    <skos:relatedMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Multidisciplinary"/>    
+    <skos:narrowMatch rdf:resource="https://www.scopus.com/vocabs/Ocean_Engineering"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Marine"/>  
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Fluid_Mechanics_and_Thermal_Engineering"/> 
+    <skos:narrowMatch rdf:resource="http://www.abs.gov.au/vocabs/Maritime_Engineering"/>
+    <skos:narrowMatch rdf:resource="http://www.webofscience.com/vocabs/Engineering_Ocean"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1550"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1501"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1505"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1662"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1665-TC1670"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1657"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1645"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1650"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1800"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1660"/>
+    <skos:narrower rdf:resource="http://id.loc.gov/authorities/classification/TC1655"/>
+    <skos:notation>TC1501-TC1800</skos:notation>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/classification"/>
+    <skos:altLabel>Technology--Ocean engineering</skos:altLabel>
+    <skos:altLabel>Ocean engineering</skos:altLabel>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TC1501-TC1800"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-03-24T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote>
+      <cs:ChangeSet>
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/classification/TC1501-TC1800"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-28T09:57:55</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>
