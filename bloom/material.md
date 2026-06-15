@@ -20,20 +20,20 @@
 * Software: Implementation of code
 * Conceptualization:  Ideas; formulation of overarching research goals and aims
 
-[Maryam Dadrasrazi](https://github.com/Maryamdadras), RQ 1a roles:
-* Conceptualization: Evolution of overarching research goals and aims
-* Methodology: Development of methodology
-* Project administration: Management and coordination responsibility for the research activity planning and execution
-* Visualization: Creation of presentation material supporting the communication of results
-* Writing - Original draft: Preparation and creation of the article
-* Writing - Review & Editing, Review and editing of the produced material
-
 [Nicol D'Amelio](https://github.com/nicoldamelio), RQ 1a roles:
 * Conceptualization, Evolution of overarching research goals and aims
 * Methodology, Development of methodology
 * Project administration, Management and coordination responsibility for the research activity planning and execution
 * Visualization, Creation of presentation material supporting the communication of results
 * Writing - Original draft, Preparation and creation of the article
+* Writing - Review & Editing, Review and editing of the produced material
+
+[Maryam Dadrasrazi](https://github.com/Maryamdadras), RQ 1a roles:
+* Conceptualization: Evolution of overarching research goals and aims
+* Methodology: Development of methodology
+* Project administration: Management and coordination responsibility for the research activity planning and execution
+* Visualization: Creation of presentation material supporting the communication of results
+* Writing - Original draft: Preparation and creation of the article
 * Writing - Review & Editing, Review and editing of the produced material
 
 [Ilaria De Dominicis](https://github.com/theair-hub), RQ 1b roles:
