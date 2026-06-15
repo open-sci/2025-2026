@@ -50,7 +50,7 @@ Download and extract the **IRIS** data dump from Zenodo:
 
 ```bash
 curl -LO --output-dir data/dumps "https://zenodo.org/records/18202530/files/data.zip?download=1"
-unzip data/dumps/data.zip -d data/dumps/iris
+unzip data/dumps/data.zip -d data/dumps/iris_publications
 rm data/dumps/data.zip
 ```
 
