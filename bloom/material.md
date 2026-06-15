@@ -1,13 +1,13 @@
 # Material
 
 ## Members
-[Yiğit Ak](https://github.com/yigittakk), roles:
+[Yiğit Ak](https://github.com/yigittakk), RQ 1b roles:
 * Software: Programming and implementation of code
 * Methodology: Development of methodology
 * Formal analysis: Statistical analysis of final data
 * Data curation: Activities to maintain research data
 
-[Tommaso Barbato](https://github.com/epistrephein), roles:
+[Tommaso Barbato](https://github.com/epistrephein), RQ 1a roles:
 * Conceptualization: Evolution of overarching research goals and aims
 * Data curation: Management activities to annotate (produce metadata), scrub data and maintain research data for initial use and later re-use
 * Investigation: Data collection and protocol drafting
@@ -15,12 +15,12 @@
 * Software: Programming, software development
 * Validation: Verification of the overall replication/reproducibility of results
 
-[Qinghao Chen](https://github.com/ChenQingHa), roles:
+[Qinghao Chen](https://github.com/ChenQingHa), RQ 1b roles:
 * Visualization: Creation of presentation material
 * Software: Implementation of code
 * Conceptualization:  Ideas; formulation of overarching research goals and aims
 
-[Maryam Dadrasrazi](https://github.com/Maryamdadras), roles:
+[Maryam Dadrasrazi](https://github.com/Maryamdadras), RQ 1a roles:
 * Conceptualization: Evolution of overarching research goals and aims
 * Methodology: Development of methodology
 * Project administration: Management and coordination responsibility for the research activity planning and execution
@@ -28,7 +28,7 @@
 * Writing - Original draft: Preparation and creation of the article
 * Writing - Review & Editing, Review and editing of the produced material
 
-[Nicol D'Amelio](https://github.com/nicoldamelio), roles:
+[Nicol D'Amelio](https://github.com/nicoldamelio), RQ 1a roles:
 * Conceptualization, Evolution of overarching research goals and aims
 * Methodology, Development of methodology
 * Project administration, Management and coordination responsibility for the research activity planning and execution
@@ -36,7 +36,7 @@
 * Writing - Original draft, Preparation and creation of the article
 * Writing - Review & Editing, Review and editing of the produced material
 
-[Ilaria De Dominicis](https://github.com/theair-hub), roles:
+[Ilaria De Dominicis](https://github.com/theair-hub), RQ 1b roles:
 * Conceptualization:  Ideas; formulation of overarching research goals and aims
 * Investigation: Conducting research and investigation process on category alignments
 * Methodology: Development of methodology
@@ -45,13 +45,13 @@
 * Writing - Review & editing: Reviewing, editing and polishing of the final paper
 * Project administration: Management and coordination responsibility for the research activity planning and execution
 
-[Yi Hua Li](https://github.com/lisitein), roles:
+[Yi Hua Li](https://github.com/lisitein), RQ 1b roles:
 * Visualization: Creation of presentation material
 * Methodology:  Development of methodology
 * Software: Programming and implementation of code
 * Data Curation: Data cleaning for visualization analysis
 
-[Regina Manyara](https://github.com/ValkyrieCain9), roles:
+[Regina Manyara](https://github.com/ValkyrieCain9), RQ 1b roles:
 * Conceptualization: Ideas; formulation of overarching research goals and aims
 * Methodology: Development of methodology
 * Software: Development, programming and implementation of code
@@ -60,7 +60,7 @@
 * Writing - Original draft: Drafting and editing the methodology section of final paper
 * Project administration: Management and coordination responsibility for the research activity planning and execution
 
-[Shiho Nakamura](https://github.com/shiho1000), roles:
+[Shiho Nakamura](https://github.com/shiho1000), RQ 1b roles:
 * Conceptualization: Ideas; formulation of overarching research goals and aims
 * Visualization: Creation of visualizations for the published work
 * Data curation: Data cleaning for visualizations
@@ -69,7 +69,7 @@
 * Software: Implementation of code
 * Project administration: Management and coordination responsibility for the research activity planning and execution
 
-[Miriana Pinto](https://github.com/mir-pin), roles:
+[Miriana Pinto](https://github.com/mir-pin), RQ 1a roles:
 * Conceptualization: Evolution of overarching research goals and aims
 * Data curation: Data cleaning specifically tailored for visualization analysis
 * Formal analysis: Statistical analysis of final data
@@ -77,7 +77,7 @@
 * Visualization: Creation of data visualizations for the published work
 * Writing - Review & Editing: Review and editing of the produced material
 
-[Sara Roggiani](https://github.com/sararoggi), roles:
+[Sara Roggiani](https://github.com/sararoggi), RQ 1a roles:
 * Conceptualization: Evolution of overarching research goals and aims
 * Data curation: Data cleaning specifically tailored for visualization analysis
 * Formal analysis: Statistical analysis of final data
@@ -85,13 +85,13 @@
 * Visualization: Creation of data visualizations for the published work
 * Writing - Review & Editing: Review and editing of the produced material
 
-[Tianchi Yang](https://github.com/KikaYang), roles:
+[Tianchi Yang](https://github.com/KikaYang), RQ 1b roles:
 * Software, Implementation of code
 * Writing - Original draft, Preparation of structure of the paper
 * Writing - Review & editing: Reviewing and editing the final paper
 * Validation, Verification of overall protocol output 
   
-[Peize Yu](https://github.com/SinerYuu), roles:
+[Peize Yu](https://github.com/SinerYuu), RQ 1a roles:
 * Conceptualization: Evolution of overarching research goals and aims
 * Data curation: Data cleaning specifically tailored for visualization analysis
 * Formal analysis: Statistical analysis of final data
