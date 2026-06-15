@@ -105,13 +105,13 @@
 <<Bibliographic reference in APA style of the last version>>
 
 ### Protocol introducing the methodology
-<<Bibliographic reference in APA style of the last version>>
+Barbato T., D'Amelio N., Dadrasrazi M., Roggiani S., Pinto M., Yu P. (2026). BLOOM Map of Italian Science Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.yxmvm86kbg3p/v3
 
 ### Software developed
 <<Bibliographic reference in APA style of the last version>>
 
 ### The data gathered while running the methodology
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Data for the article "In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?" (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20691555
 
 ### Article presenting the research
 <<Bibliographic reference in APA style of the last version>>
