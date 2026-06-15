@@ -6,3 +6,12 @@ plotly
 pycountry
 ipywidgets
 ipython
+csv
+sys
+tarfile
+io
+time
+re
+json
+os
+kaleido
