@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Citation Flows in Italian Science</title>
+    <title>Bloom Project - Mapping the Flow of Italian Science</title>
+    <link rel="icon" type="image/png" href="assets/img/logo_favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
@@ -31,10 +32,15 @@
                 <img src="assets/img/white_logo.png" alt="Bloom Logo" class="logo-img">
                 <span class="logo-text">Bloom</span>
             </a>
-            <ul class="nav-links">
+            <div class="hamburger-menu" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#explore">Explore</a></li>
                 <li><a href="#project">The Project</a></li>
                 <li><a href="#team">The Team</a></li>
-                <li><a href="#credits">Credits</a></li>
             </ul>
         </div>
     </nav>
@@ -45,7 +51,7 @@
         <div class="content-wrapper hero-content">
             <h1 class="title" style="margin-top: 4rem;">Mapping the Flow<br>of Italian Science</h1>
             <p class="subtitle">An exploration of citations and disciplinary flows across universities.</p>
-            
+
             <div class="hero-stats">
                 <div class="stat-item">
                     <span class="stat-number" data-target="35751528">0</span>
@@ -67,21 +73,38 @@
     </header>
 
     <main>
-        <section id="project" class="section introduction slide-up">
+        <section id="explore" class="section introduction slide-up">
             <div class="content-wrapper">
-                <h2 class="section-title">The Project</h2>
-                <p class="text"><span class="hand-drawn-underline"><strong>Mapping the Flow of Italian Science</strong></span> is an interactive platform that visualizes the results of a research project on Open Science.
-                <p class="text">The project builds on a recent study that created comprehensive datasets from the publication records of Italian universities managed through <span class="hand-drawn-circle"><strong>IRIS</strong></span>, the research information system adopted by Italian academic institutions. The datasets include all IRIS publications from selected universities that are indexed in OpenCitations Meta, together with all citation relationships recorded in OpenCitations Index involving those publications, either as citing or cited works. </p>
-                <p class="text">Building on this foundation, we collected and analyzed additional data to investigate citation networks and knowledge flows across six Italian universities: <strong>UNIBO, UNIMI, UNITO, UNIPD, SNS,</strong> and <strong>UPO</strong>.</p>
+                <h2 class="section-title">In the world of citations, are we really <span
+                        class="hand-drawn-circle">OPEN</span>(minded), or stuck in a <span
+                        class="hand-drawn-underline">comfort
+                        zone?</span></h2>
+                <p class="text"><span class="hand-drawn-underline"><strong>Mapping the Flow of Italian
+                            Science</strong></span> is an interactive platform that visualizes the results of a research
+                    project on Open Science.
+                <p class="text">The project builds on a recent study that created comprehensive datasets from the
+                    publication records of Italian universities managed through <span
+                        class="hand-drawn-circle"><strong>IRIS</strong></span>, the research information system adopted
+                    by Italian academic institutions. The datasets include all IRIS publications from selected
+                    universities that are indexed in OpenCitations Meta, together with all citation relationships
+                    recorded in OpenCitations Index involving those publications, either as citing or cited works. </p>
+                <p class="text">Building on this foundation, we collected and analyzed additional data to investigate
+                    citation networks and knowledge flows across six Italian universities: <strong>UNIBO, UNIMI, UNITO,
+                        UNIPD, SNS,</strong> and <strong>UPO</strong>.</p>
                 <div class="text highlight">
                     Our analysis is guided by two key research questions:
                     <ul class="highlight-list">
-                        <li><strong>RQ1</strong>: Which institutions and countries cite the publications of these universities, and which one are cited by them?</li>
-                        <li><strong>RQ2</strong>: Which disciplines cite the publication of these six Italian universities, and which disciplines do those universities cite in return?</li>
+                        <li><strong>RQ1</strong>: Which institutions and countries cite the publications of these
+                            universities, and which one are cited by them?</li>
+                        <li><strong>RQ2</strong>: Which disciplines cite the publication of these six Italian
+                            universities, and which disciplines do those universities cite in return?</li>
                     </ul>
                 </div>
-                <p class="text">Through a series of interactive visualizations, this website reveals patterns of research connections and disciplinary exchange, offering new perspectives on how knowledge circulates within and beyond Italian academia.</p>
-                <p class="text">Explore the data and discover the flow of <span class="hand-drawn-circle">Italian science</span></p>
+                <p class="text">Through a series of interactive visualizations, this website reveals patterns of
+                    research connections and disciplinary exchange, offering new perspectives on how knowledge
+                    circulates within and beyond Italian academia.</p>
+                <p class="text">Explore the data and discover the flow of <span class="hand-drawn-circle">Italian
+                        science</span></p>
             </div>
         </section>
 
@@ -406,10 +429,12 @@
                             </p>
                             <div class="reminder-callout">
                                 <div class="reminder-content">
-                                    A <strong>dark purple</strong> cells means that institution deviates positively from 
-                                    the average pattern calculated for that country; <strong>red</strong> indicates it deviates 
-                                    negatively. 
-                                    <strong>White</strong> cells represent the baseline, indicating that an institution’s citation flow closely 
+                                    A <strong>dark purple</strong> cells means that institution deviates positively from
+                                    the average pattern calculated for that country; <strong>red</strong> indicates it
+                                    deviates
+                                    negatively.
+                                    <strong>White</strong> cells represent the baseline, indicating that an
+                                    institution’s citation flow closely
                                     matches the overall citation pattern.
                                 </div>
                             </div>
@@ -445,7 +470,6 @@
                 <div class="content-wrapper">
                     <div class="cards-viz">
                         <div class="insight-card">
-                            <div class="insight-card-icon">🌐</div>
                             <h3 class="insight-card-title">Italy <span class="hand-drawn-circle"><strong>exports
                                         knowledge</strong></span> to the
                                 world</h3>
@@ -455,13 +479,11 @@
                             </p>
                         </div>
                         <div class="insight-card">
-                            <div class="insight-card-icon">🎯</div>
                             <h3 class="insight-card-title">Italy cites America. America doesn't always cite back.</h3>
                             <p class="insight-card-text">Across all six institutions, the US shows an <span
                                     class="hand-drawn-circle"><strong>outgoing bias</strong></span> — except one.</p>
                         </div>
                         <div class="insight-card">
-                            <div class="insight-card-icon">⚖️</div>
                             <h3 class="insight-card-title">Scuola Normale Superiore is always the <span
                                     class="hand-drawn-circle">outlier</span></h3>
                             <p class="insight-card-text">
@@ -473,7 +495,6 @@
                             </p>
                         </div>
                         <div class="insight-card">
-                            <div class="insight-card-icon">🎯</div>
                             <h3 class="insight-card-title">University of Eastern Piedmont looks East</h3>
                             <p class="insight-card-text">The most <span
                                     class="hand-drawn-underline"><strong>Asia-oriented</strong></span> institution in
@@ -578,10 +599,13 @@
                     <div>
                         <div class="reminder-callout">
                             <div class="reminder-content">
-                                The <strong>dashed diagonal</strong> marks perfect reciprocity — points above cite less back than they are cited; points below cite more than they receive. The <strong>bubble size</strong> reveals the citation volume of an organization.
+                                The <strong>dashed diagonal</strong> marks perfect reciprocity — points above cite less
+                                back than they are cited; points below cite more than they receive. The <strong>bubble
+                                    size</strong> reveals the citation volume of an organization.
                             </div>
                         </div>
-                        <p class="text" style="margin-top: 2rem;"><span class="hand-drawn-circle"><strong>United States</strong></span>
+                        <p class="text" style="margin-top: 2rem;"><span class="hand-drawn-circle"><strong>United
+                                    States</strong></span>
                             organizations are consistently positioned above the diagonal, indicating that Italian
                             institutions draw more heavily on American research than American organizations cite Italian
                             work in return. Harvard University Press represents the clearest example of this asymmetry,
@@ -631,7 +655,8 @@
                             organizations. With the notable exception of CNRS, no single institution dominates. These
                             relationships are systemic rather than bilateral, making them more resilient: the removal of
                             any one organization would have little effect on the overall pattern.</p>
-                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation volumes,</span> such as Switzerland and Belgium, often display the opposite structure. A
+                        <p class="text"><span class="hand-drawn-underline">Smaller countries with lower citation
+                                volumes,</span> such as Switzerland and Belgium, often display the opposite structure. A
                             large share of their citation activity is concentrated in one or two organizations. These
                             connections can be highly valuable, but they are also more dependent on specific
                             institutions than on the broader national research system.</p>
@@ -1080,14 +1105,120 @@
             </div>
         </section>
 
-
-        <section class="section conclusion slide-up">
+        <!-- Conclusion Section -->
+        <section class="section conclusion-section slide-up">
             <div class="content-wrapper">
-                <h2 class="section-title">The Story Continues</h2>
-                <p class="text">These preliminary insights are just the beginning. The data we have collected will soon
-                    be available in full, allowing researchers and the public to interact with the citation network
-                    directly.</p>
-                <a href="#" class="btn primary-btn">Download the Dataset</a>
+                <div class="center-content">
+                    <!-- Section 1: What the data tells us -->
+                    <div style="margin-bottom: 4rem;">
+                        <h2 class="section-title">What the data tells us</h2>
+                        <p class="text">
+                            Citation networks are <span class="hand-drawn-underline"><strong>not neutral</strong></span>
+                            <strong> maps of knowledge</strong> — they reflect the organisational structures,
+                            disciplinary hierarchies, and geopolitical asymmetries of the research system itself.
+                            Across all six institutions, citation activity concentrates around a small number of
+                            countries
+                            and disciplines.
+                        </p>
+                        <p class="text">
+                            <strong>Science</strong> and <strong>Medicine</strong> dominate everywhere. The
+                            <strong>United States</strong>, <strong>France</strong>, the <strong>United
+                                Kingdom</strong>,
+                            <strong>Germany</strong>, <strong>China</strong>, and <strong>Spain</strong> form a shared
+                            core that
+                            no Italian university escapes.
+                        </p>
+                        <p class="text highlight">
+                            But the data also reveals something less expected: for most of the world, <strong>Italian
+                                science</strong> is
+                            <span class="hand-drawn-underline">cited more than it cites back</span>. The asymmetry runs
+                            deeper
+                            than a simple centre-periphery story. It is shaped by language, disciplinary tradition,
+                            publishing infrastructure, and institutional size
+                            — none of which citation counts alone can explain.
+                        </p>
+                    </div>
+
+                    <!-- Section 2: What we don't know yet -->
+                    <div>
+                        <h2 class="section-title">What we don't know yet</h2>
+                        <p class="text">
+                            Citation patterns can show us <span class="hand-drawn-underline"><strong>where</strong>
+                                knowledge
+                                flows</span>. They cannot tell us <span
+                                class="hand-drawn-circle"><strong>why</strong></span> it
+                            flows the way it does.
+                        </p>
+                        <p class="text">
+                            Why are we always looking at the same countries? Why do some barely appear at all? What if
+                            some of the most important connections are waiting to be made — not within a single
+                            discipline or
+                            country, but <span class="hand-drawn-underline"><strong>across</strong> them?</span>
+                        </p>
+                        <p class="text">
+                            <span class="hand-drawn-circle"><strong>Citation</strong></span> is far more than a
+                            technical academic practice. It is the <strong>channel</strong> through which scientific
+                            knowledge is absorbed, evaluated, and extended. But it can also reinforce <span
+                                class="hand-drawn-underline"><strong>boundaries</strong></span> — between
+                            <strong>disciplines, countries, and communities</strong>. Researchers tend to cite within
+                            familiar
+                            networks, creating stable but limited ecosystems of knowledge exchange. Over time, these
+                            patterns
+                            risk reproducing the same perspectives <span class="hand-drawn-underline">rather than
+                                expanding
+                                them</span>.
+                        </p>
+                        <p class="text highlight">
+                            These questions point toward <strong>future research</strong> — into collaboration networks,
+                            funding structures, language barriers, and the role of open access in reshaping citation
+                            geographies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="section dark-section slide-up" style="padding-top: 6rem; padding-bottom: 6rem;">
+            <div class="content-wrapper">
+                <div class="finale-box" style="margin-top: 0;">
+                    <h2 class="title">Open science, open questions</h2>
+                    <p class="text">
+                        The availability of open data made this analysis possible — but it also exposed
+                        how uneven that openness can be. This is why <span class="hand-drawn-underline">studying
+                            <strong>citation patterns</strong> matters</span>.
+                    </p>
+                    <p class="text">
+                        The circulation of knowledge does not automatically become more open just because
+                        the infrastructure to study it does. <strong style="color: var(--color-accent);">The map is not
+                            the territory.</strong> But you can't change what
+                        you can't see.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="project" class="section project-section slide-up">
+            <div class="content-wrapper">
+                <h2 class="section-title">The Project</h2>
+                <p class="text">This project builds on the work of <strong>Andreose et al. (2026)</strong>, who mapped
+                    the coverage of
+                    Italian publications in OpenCitations
+                    and made the resulting dataset publicly available on <a href="https://zenodo.org/records/20159031"
+                        target="_blank" class="project-section-link hand-drawn-underline">Zenodo</a>.
+                    That dataset — linking IRIS publications from six Italian institutions to their citation
+                    relationships in OpenCitations Index — formed the foundation
+                    for everything you've explored here.
+                    <br><br>All code, data, and analysis pipelines are openly available in our <a
+                        href="https://github.com/open-sci/2025-2026" target="_blank"
+                        class="project-section-link hand-drawn-underline">GitHub
+                        repository</a>.
+                    <br>If you want to go deeper into the methodology, findings, and implications, the full academic
+                    <strong>paper</strong> is available <a href="" target="_blank"
+                        class="project-section-link hand-drawn-underline">here</a>.
+                </p>
+                <a href="#" class="btn primary-btn">Download the Paper</a>
             </div>
         </section>
 
@@ -1095,39 +1226,38 @@
             <div class="content-wrapper">
                 <h2 class="section-title">The Team</h2>
                 <ul class="highlight-list">
-                    <li><strong>RQ1</strong>: 
+                    <li><strong>RQ1</strong>:
                         <a href="https://github.com/epistrephein" target="_blank" class="team-link">Tommaso Barbato</a>,
                         <a href="https://github.com/nicoldamelio" target="_blank" class="team-link">Nicol D'Amelio</a>,
-                        <a href="https://github.com/Maryamdadras" target="_blank" class="team-link">Maryam Dadrasrazi</a>,
-                        <a href="https://github.com/mir-pin" target="_blank" class="team-link">Miriana Pinto</a>, 
-                        <a href="https://github.com/sararoggi" target="_blank" class="team-link">Sara Roggiani</a>, 
+                        <a href="https://github.com/Maryamdadras" target="_blank" class="team-link">Maryam
+                            Dadrasrazi</a>,
+                        <a href="https://github.com/mir-pin" target="_blank" class="team-link">Miriana Pinto</a>,
+                        <a href="https://github.com/sararoggi" target="_blank" class="team-link">Sara Roggiani</a>,
                         <a href="https://github.com/SinerYuu" target="_blank" class="team-link">Peize Yu</a>
                     </li>
-                    <li><strong>RQ2</strong>: 
-                        <a href="https://github.com/yigittakk" target="_blank" class="team-link">Yiğit Ak</a>,  
-                        <a href="https://github.com/ChenQingHa" target="_blank" class="team-link">Qinghao Chen</a>, 
-                        <a href="https://github.com/theair-hub" target="_blank" class="team-link">Ilaria De Dominicis</a>, 
-                        <a href="https://github.com/lisitein" target="_blank" class="team-link">Yi Hua Li</a>, 
-                        <a href="https://github.com/ValkyrieCain9" target="_blank" class="team-link">Regina W.K. Manyara</a>, 
-                        <a href="https://github.com/shiho1000" target="_blank" class="team-link">Shiho Nakamura</a>, 
+                    <li><strong>RQ2</strong>:
+                        <a href="https://github.com/yigittakk" target="_blank" class="team-link">Yiğit Ak</a>,
+                        <a href="https://github.com/ChenQingHa" target="_blank" class="team-link">Qinghao Chen</a>,
+                        <a href="https://github.com/theair-hub" target="_blank" class="team-link">Ilaria De
+                            Dominicis</a>,
+                        <a href="https://github.com/lisitein" target="_blank" class="team-link">Yi Hua Li</a>,
+                        <a href="https://github.com/ValkyrieCain9" target="_blank" class="team-link">Regina W.K.
+                            Manyara</a>,
+                        <a href="https://github.com/shiho1000" target="_blank" class="team-link">Shiho Nakamura</a>,
                         <a href="https://github.com/KikaYang" target="_blank" class="team-link">Tianchi Yang</a>
                     </li>
                 </ul>
-            </div>
-        </section>
-
-        <section id="credits" class="section credits-section slide-up">
-            <div class="content-wrapper">
-                <h2 class="section-title">Credits</h2>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
             </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="content-wrapper">
-            <p>A research project on the dynamics of academic publishing.</p>
+            <p>This research project was developed for the <strong>Open Science</strong> course (a.y. 2025/2026)
+                <br>within
+                the <strong>Digital Humanities and Digital Knowledge</strong> Master's Degree at the University of
+                Bologna.
+            </p>
             <p>&copy; 2026 Open Science 2025-2026.</p>
         </div>
     </footer>

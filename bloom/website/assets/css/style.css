@@ -84,6 +84,13 @@ h3 {
     margin-top: 2rem;
 }
 
+.highlight.centered {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* -- Reminder Callout Box */
 .reminder-callout {
     display: flex;
@@ -251,6 +258,61 @@ h3 {
     color: var(--color-accent);
 }
 
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1001;
+    /* Ensure it's above the menu */
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-text-light);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 70%;
+        max-width: 300px;
+        background-color: var(--color-bg-dark);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        transition: right 0.4s ease;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
 /* Components */
 .btn {
     display: inline-block;
@@ -325,9 +387,11 @@ h3 {
 /* Styling for the list inside the highlight box */
 .highlight-list {
     margin-top: 0.75rem;
-    margin-left: 1.5rem; /* Indents the bullets to align perfectly with the text */
+    margin-left: 1.5rem;
+    /* Indents the bullets to align perfectly with the text */
     list-style-type: disc;
-    font-weight: 500; /* Slightly lighter than the 600 weight of the main highlight text for better readability */
+    font-weight: 500;
+    /* Slightly lighter than the 600 weight of the main highlight text for better readability */
 }
 
 .highlight-list li {
@@ -359,13 +423,15 @@ h3 {
     font-weight: 700;
 }
 
-.team-section .team-link {
+.team-section .team-link,
+.project-section-link {
     color: #444;
     text-decoration: none;
     transition: all 0.2s ease;
 }
 
-.team-section .team-link:hover {
+.team-section .team-link:hover,
+.project-section-link:hover {
     color: var(--color-accent);
     border-bottom: 2px solid var(--color-accent);
 }
@@ -726,6 +792,42 @@ h3 {
 }
 
 
+/* ── Conclusion Section ──────────────────────────────────────────────────────── */
+.conclusion-section {
+    padding: 8rem 0;
+}
+
+.conclusion-section .two-column {
+    align-items: flex-start;
+    margin-bottom: 6rem;
+}
+
+.conclusion-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.finale-box {
+    margin-top: 6rem;
+    padding: 5rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.finale-box .title {
+    font-size: 3.5rem;
+    color: var(--color-accent);
+    margin-bottom: 2.5rem;
+}
+
+.finale-box .text {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
 /* ── Research Question Navigation ─────────────────────────────────────────── */
 .rq-nav {
     position: fixed;
@@ -932,11 +1034,15 @@ h3 {
 }
 
 @media (max-width: 900px) {
+
+    /* Research Question Nav (Mobile) */
     .rq-nav {
-        top: 80px;
+        top: auto;
+        bottom: 20px;
         left: 50%;
-        transform: translateX(-50%) translateY(-20px);
+        transform: translateX(-50%) translateY(20px);
         flex-direction: row;
+        gap: 0.5rem;
     }
 
     .rq-nav.visible {
@@ -945,18 +1051,53 @@ h3 {
 
     .rq-btn {
         width: auto;
-        height: 40px;
-        border-radius: 20px;
-        padding: 0.5rem 1rem;
+        height: 45px;
+        min-height: 45px;
+        border-radius: 25px;
+        padding: 0 1.2rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .rq-btn .rq-text {
         display: none;
     }
 
+    .rq-btn-header {
+        width: auto;
+        height: 100%;
+        min-height: auto;
+    }
+
     .rq-btn.active,
     .rq-btn:hover {
         width: auto;
+        height: 45px;
+    }
+}
+
+/* Hero section specific mobile tweaks */
+@media (max-width: 768px) {
+    .hero-stats {
+        gap: 1.5rem;
+        flex-direction: row;
+        margin-top: 2rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .stat-item {
+        align-items: center;
+    }
+
+    .stat-number {
+        font-size: 2.2rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+        text-align: center;
     }
 }
 
