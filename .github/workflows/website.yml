@@ -26,8 +26,8 @@ jobs:
         uses: actions/checkout@v6
       - name: Copy visualization data into website
         run: |
-          mkdir -p website/visualizations/citation_counts
-          cp -r map_of_italian_science/data/visualizations/* website/visualizations/citation_counts/
+          mkdir -p bloom/website/visualizations/citation_counts
+          cp -r bloom/map_of_italian_science/data/visualizations/* bloom/website/visualizations/citation_counts/
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
