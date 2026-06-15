@@ -274,8 +274,8 @@ am5.ready(function () {
         activeTimeouts.forEach(t => clearTimeout(t));
         activeTimeouts = [];
 
-        var incomingPath = `../map_of_italian_science/data/visualizations/${institution}/citation_counts_countries_incoming_clean.csv`;
-        var outgoingPath = `../map_of_italian_science/data/visualizations/${institution}/citation_counts_countries_outgoing_clean.csv`;
+        var incomingPath = `visualizations/citation_counts/${institution.toUpperCase()}/citation_counts_countries_incoming_clean.csv`;
+        var outgoingPath = `visualizations/citation_counts/${institution.toUpperCase()}/citation_counts_countries_outgoing_clean.csv`;
 
         Promise.all([
             fetchCSV(incomingPath),
