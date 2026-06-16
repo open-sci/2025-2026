@@ -20,20 +20,20 @@
 * Software: Implementation of code
 * Conceptualization:  Ideas; formulation of overarching research goals and aims
 
-[Maryam Dadrasrazi](https://github.com/Maryamdadras), RQ 1a roles:
-* Conceptualization: Evolution of overarching research goals and aims
-* Methodology: Development of methodology
-* Project administration: Management and coordination responsibility for the research activity planning and execution
-* Visualization: Creation of presentation material supporting the communication of results
-* Writing - Original draft: Preparation and creation of the article
-* Writing - Review & Editing, Review and editing of the produced material
-
 [Nicol D'Amelio](https://github.com/nicoldamelio), RQ 1a roles:
 * Conceptualization, Evolution of overarching research goals and aims
 * Methodology, Development of methodology
 * Project administration, Management and coordination responsibility for the research activity planning and execution
 * Visualization, Creation of presentation material supporting the communication of results
 * Writing - Original draft, Preparation and creation of the article
+* Writing - Review & Editing, Review and editing of the produced material
+
+[Maryam Dadrasrazi](https://github.com/Maryamdadras), RQ 1a roles:
+* Conceptualization: Evolution of overarching research goals and aims
+* Methodology: Development of methodology
+* Project administration: Management and coordination responsibility for the research activity planning and execution
+* Visualization: Creation of presentation material supporting the communication of results
+* Writing - Original draft: Preparation and creation of the article
 * Writing - Review & Editing, Review and editing of the produced material
 
 [Ilaria De Dominicis](https://github.com/theair-hub), RQ 1b roles:
@@ -101,17 +101,20 @@
 
 ## Data produced
 
+### Website
+https://open-sci.github.io/2025-2026/
+
 ### Data Management Plan
 <<Bibliographic reference in APA style of the last version>>
 
 ### Protocol introducing the methodology
-<<Bibliographic reference in APA style of the last version>>
+Barbato T., D'Amelio N., Dadrasrazi M., Roggiani S., Pinto M., Yu P. (2026). BLOOM Map of Italian Science Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.yxmvm86kbg3p/v3
 
 ### Software developed
 <<Bibliographic reference in APA style of the last version>>
 
 ### The data gathered while running the methodology
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Data for the article "In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?" (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20691555
 
 ### Article presenting the research
 <<Bibliographic reference in APA style of the last version>>
