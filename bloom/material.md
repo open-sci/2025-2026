@@ -105,7 +105,8 @@
 https://open-sci.github.io/2025-2026/
 
 ### Data Management Plan
-<<Bibliographic reference in APA style of the last version>>
+Nakamura, S., Barbato, T., Chen, Q., D'Amelio, N., De Dominicis, I., Dadrasrazi, M., Manyara, R. W. K., Li, Y. H., Ak, Y., Roggiani, S., Pinto, M., Yu, P., & Yang, T. (2026). BLOOM Data Management Plan (Version v3). Zenodo.   
+https://doi.org/10.5281/zenodo.20718972
 
 ### Protocol introducing the methodology
 Barbato T., D'Amelio N., Dadrasrazi M., Roggiani S., Pinto M., Yu P. (2026). BLOOM Map of Italian Science Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.yxmvm86kbg3p/v3
