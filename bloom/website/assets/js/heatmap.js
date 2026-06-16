@@ -118,7 +118,7 @@ am5.ready(function () {
     }]);
 
     var titleLabel = chart.children.insertIndex(0, am5.Label.new(root, {
-        text: "Institutional Fingerprints:\nHow Citation Geography Differs Across Italian Universities",
+        text: "Institutional Fingerprints:\nHow Citation Geography Differs Across \nItalian Universities",
         fontSize: 17,
         fontWeight: "bold",
         fontFamily: "'Playfair Display', serif",
@@ -131,14 +131,14 @@ am5.ready(function () {
         lineHeight: 1.4
     }));
 
-    titleLabel.adapters.add("maxWidth", function(maxWidth, target) {
+    titleLabel.adapters.add("maxWidth", function (maxWidth, target) {
         if (root.container) {
             return root.container.innerWidth() - 20;
         }
         return 300;
     });
 
-    titleLabel.adapters.add("fontSize", function(fontSize, target) {
+    titleLabel.adapters.add("fontSize", function (fontSize, target) {
         if (root.container) {
             return root.container.innerWidth() < 600 ? 14 : 17;
         }
@@ -170,7 +170,7 @@ am5.ready(function () {
         x: am5.p50
     }));
 
-    legendWrapper.adapters.add("width", function(width, target) {
+    legendWrapper.adapters.add("width", function (width, target) {
         if (root.container) {
             var w = root.container.innerWidth() - 20; // 20px padding
             return w < 500 ? w : 500;
@@ -212,7 +212,7 @@ am5.ready(function () {
         paddingTop: 5
     }));
 
-    labelsContainer.adapters.add("width", function(width, target) {
+    labelsContainer.adapters.add("width", function (width, target) {
         if (root.container) {
             var w = root.container.innerWidth() - 20; // 20px padding
             return w < 500 ? w : 500;
