@@ -119,7 +119,7 @@ Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., L
 Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Data for the article "In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?" (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20691555
 
 ### Article presenting the research
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?. https://doi.org/10.5281/zenodo.20718539
 
 ### Slides supporting the presentation
 <<Bibliographic reference in APA style of the last version>>
