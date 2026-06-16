@@ -246,7 +246,7 @@
     // ── Format nodes after data is validated ────────────
     series.events.on("datavalidated", function () {
       var orgColorMap = {};
-      
+
       // Implement the sunburst tinting logic to match exactly
       function tint(hex, factor) {
         var r = (hex >> 16) & 0xff;
@@ -257,14 +257,14 @@
         var newB = Math.round(b + (255 - b) * factor);
         return (newR << 16) | (newG << 8) | newB;
       }
-      
+
       var sunburstColors = [
         0x4D1343, 0xd62728, 0x843c39, 0xE8743B, 0xe6550d,
         0xBE8B20, 0xF4C430, 0xB7990D, 0xFFE94D, 0x637939,
         0xA3E635, 0x2ca02c, 0x97DFFC, 0x1f77b4, 0xaec7e8,
         0x4361EE, 0x5254a3, 0x9467bd, 0x5B2C6F, 0x320E3B
-      ].map(function(c) { return am5.color(tint(c, 0.3)); });
-      
+      ].map(function (c) { return am5.color(tint(c, 0.3)); });
+
       var colorSet = am5.ColorSet.new(root, { colors: sunburstColors });
       var colorIndex = 0;
 
@@ -343,7 +343,7 @@
     Promise.all(fetchPromises)
       .then(function (allResults) {
         currentAllResults = allResults;
-        
+
         var targetDiv = document.getElementById(DIV_ID);
         if (!targetDiv) return;
 
@@ -352,7 +352,7 @@
 
         // Use IntersectionObserver to delay chart building and animation until in view
         if ("IntersectionObserver" in window) {
-          var observer = new IntersectionObserver(function(entries) {
+          var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting) {
               if (!currentRoot) {
                 buildChart(currentAllResults, false);
@@ -371,7 +371,7 @@
         var scatterDiv = document.getElementById("scatter-chartdiv");
         if (scatterDiv) {
           if ("IntersectionObserver" in window) {
-            var scatterObserver = new IntersectionObserver(function(entries) {
+            var scatterObserver = new IntersectionObserver(function (entries) {
               if (entries[0].isIntersecting) {
                 loadScatter();
                 scatterObserver.disconnect();
@@ -394,7 +394,7 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       init();
       initUI();
     });
@@ -417,34 +417,34 @@
 
   // ── Toggle UI Logic ───────────────────────────────
   function initUI() {
-    var sankeyBtn  = document.getElementById("org-btn-sankey");
+    var sankeyBtn = document.getElementById("org-btn-sankey");
     var sankeyNoItBtn = document.getElementById("org-btn-sankey-no-italy");
 
     if (!sankeyBtn) return;
 
     function switchTo(view) {
-        sankeyBtn.classList.remove("active");
-        sankeyBtn.setAttribute("aria-pressed", "false");
-        if (sankeyNoItBtn) {
-            sankeyNoItBtn.classList.remove("active");
-            sankeyNoItBtn.setAttribute("aria-pressed", "false");
-        }
+      sankeyBtn.classList.remove("active");
+      sankeyBtn.setAttribute("aria-pressed", "false");
+      if (sankeyNoItBtn) {
+        sankeyNoItBtn.classList.remove("active");
+        sankeyNoItBtn.setAttribute("aria-pressed", "false");
+      }
 
-        var excludeItaly = (view === "sankey-no-italy");
-        var activeBtn = excludeItaly ? sankeyNoItBtn : sankeyBtn;
-        if (activeBtn) {
-            activeBtn.classList.add("active");
-            activeBtn.setAttribute("aria-pressed", "true");
-        }
+      var excludeItaly = (view === "sankey-no-italy");
+      var activeBtn = excludeItaly ? sankeyNoItBtn : sankeyBtn;
+      if (activeBtn) {
+        activeBtn.classList.add("active");
+        activeBtn.setAttribute("aria-pressed", "true");
+      }
 
-        if (currentAllResults) {
-            buildChart(currentAllResults, excludeItaly);
-        }
+      if (currentAllResults) {
+        buildChart(currentAllResults, excludeItaly);
+      }
     }
 
-    sankeyBtn.addEventListener("click",  function() { switchTo("sankey"); });
+    sankeyBtn.addEventListener("click", function () { switchTo("sankey"); });
     if (sankeyNoItBtn) {
-        sankeyNoItBtn.addEventListener("click", function() { switchTo("sankey-no-italy"); });
+      sankeyNoItBtn.addEventListener("click", function () { switchTo("sankey-no-italy"); });
     }
   }
 

@@ -12,6 +12,31 @@
 
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
+
+    /* -- RQ2-specific tokens ------------------------------------ */
+    /* Classification card colours */
+    --disc-card-bg: #FFFFFF;
+    --disc-card-border: rgba(50, 14, 59, 0.10);
+    --disc-card-bg-high: rgba(183, 153, 13, 0.08);
+    --disc-card-border-high: rgba(183, 153, 13, 0.45);
+    --disc-card-bg-others: rgba(50, 14, 59, 0.04);
+    --disc-abbr-bg: rgba(50, 14, 59, 0.08);
+    --disc-abbr-color: #320E3B;
+
+    /* Q/A block colours */
+    --qa-q-bg: rgba(24, 95, 165, 0.07);
+    --qa-q-border: rgba(24, 95, 165, 0.25);
+    --qa-tag-q-bg: #185FA5;
+    --qa-tag-q-text: #FFFFFF;
+    --qa-tag-a-bg: #B7990D;
+    --qa-tag-a-text: #FFFFFF;
+
+    /* Chart section */
+    --chart-bg: rgba(0, 0, 0, 0.15);
+
+    /* Section bridge arrow */
+    --bridge-color: rgba(255, 255, 255, 0.4);
+    --bridge-color-light: rgba(50, 14, 59, 0.4);
 }
 
 * {
@@ -557,14 +582,44 @@ h3 {
     background-color: var(--color-bg-dark);
 }
 
-.hero-bg {
+.hero-bg-logo {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    bottom: 0;
+    right: 0;
+    height: 90%;
+    width: auto;
     z-index: 1;
-    opacity: 0.8;
+    pointer-events: none;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+    z-index: 2;
+    position: relative;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stat-number {
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .hero-content {
@@ -888,7 +943,7 @@ h3 {
 }
 
 .finale-box .text {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.8;
     max-width: 900px;
     margin: 0 auto 2rem;
@@ -1128,6 +1183,10 @@ h3 {
     }
 
     .rq-btn .rq-text {
+        display: none;
+    }
+
+    .rq-btn .progress-track {
         display: none;
     }
 
@@ -1461,563 +1520,6 @@ h3 {
         padding: 0.6rem 0.9rem;
     }
 }
-
-
-/*-----RQ2-----*/
-/* ================================================================
-   style.css — Bloom: Citation Flows in Italian Science
-   ================================================================
-   Contents:
-     1. Design tokens (CSS custom properties)
-     2. Reset & base
-     3. Typography
-     4. Layout utilities
-     5. Navigation bar
-     6. Hero section
-     7. Scroll indicator & progress bar
-     8. Section animations (.fade-in / .slide-up)
-     9. Buttons
-    10. Footer
-    11. §A — LOC Classification cards
-    12. §B — Landscape chart section (Q/A structure)
-    13. Responsive overrides
-
-   HOW TO RESTYLE:
-   - Colours: edit the CSS variables in Section 1 (:root block).
-   - Fonts: edit --font-heading and --font-body in :root.
-   - Card sizes, gaps, border radii: see Sections 11–12.
-   ================================================================ */
-
-
-/* ================================================================
-   1. DESIGN TOKENS
-   Edit these variables to restyle the entire page at once.
-   ================================================================ */
-
-:root {
-    /* -- Brand colours ----------------------------------------- */
-    --color-primary: #320E3B;
-    /* Dark purple — main brand colour  */
-    --color-accent: #B7990D;
-    /* Gold — hover states, highlights  */
-    --color-bg-light: #F8F9FA;
-    /* Default section background       */
-    --color-bg-dark: #2A0C32;
-    /* Dark section background          */
-    --color-text-dark: #1A1A1A;
-    /* Body text on light backgrounds   */
-    --color-text-light: #FFFFFF;
-    /* Body text on dark backgrounds    */
-
-    /* -- Typography -------------------------------------------- */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
-
-    /* -- RQ2-specific tokens ------------------------------------ */
-    /* Classification card colours */
-    --disc-card-bg: #FFFFFF;
-    --disc-card-border: rgba(50, 14, 59, 0.10);
-    --disc-card-bg-high: rgba(183, 153, 13, 0.08);
-    /* High-range card tint  */
-    --disc-card-border-high: rgba(183, 153, 13, 0.45);
-    /* High-range card border */
-    --disc-card-bg-others: rgba(50, 14, 59, 0.04);
-    /* Others (collapsed) card */
-    --disc-abbr-bg: rgba(50, 14, 59, 0.08);
-    /* Abbreviation badge bg  */
-    --disc-abbr-color: #320E3B;
-    /* Abbreviation badge text */
-
-    /* Q/A block colours */
-    --qa-q-bg: rgba(24, 95, 165, 0.07);
-    --qa-q-border: rgba(24, 95, 165, 0.25);
-    --qa-tag-q-bg: #185FA5;
-    --qa-tag-q-text: #FFFFFF;
-    --qa-tag-a-bg: #B7990D;
-    --qa-tag-a-text: #FFFFFF;
-
-    /* Chart section */
-    --chart-bg: rgba(0, 0, 0, 0.15);
-
-    /* Section bridge arrow */
-    --bridge-color: rgba(255, 255, 255, 0.4);
-    /* on dark bg */
-    --bridge-color-light: rgba(50, 14, 59, 0.4);
-    /* on light bg */
-}
-
-
-/* ================================================================
-   2. RESET & BASE
-   ================================================================ */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: var(--font-body);
-    background-color: var(--color-bg-light);
-    color: var(--color-text-dark);
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-
-
-/* ================================================================
-   3. TYPOGRAPHY
-   ================================================================ */
-
-h1,
-h2,
-h3 {
-    font-family: var(--font-heading);
-    color: var(--color-primary);
-    font-weight: 600;
-}
-
-/* -- Page title (hero H1) */
-.title {
-    font-size: 4.5rem;
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
-}
-
-/* -- Hero subtitle */
-.subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #555;
-    max-width: 600px;
-}
-
-/* -- Section headings */
-.section-title {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    position: relative;
-    display: inline-block;
-}
-
-/* Gold underline accent on section headings */
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 60px;
-    height: 4px;
-    background-color: var(--color-accent);
-}
-
-/* -- Body text */
-.text {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-    max-width: 800px;
-    color: #444;
-}
-
-/* -- Highlighted pull-quote */
-.highlight {
-    font-weight: 600;
-    color: var(--color-primary);
-    border-left: 4px solid var(--color-accent);
-    padding-left: 1rem;
-    margin-top: 2rem;
-}
-
-/* -- Small helper text */
-.text-sm {
-    font-size: 1rem;
-    color: #555;
-    max-width: 760px;
-    margin-bottom: 1.5rem;
-    line-height: 1.7;
-}
-
-
-/* ================================================================
-   4. LAYOUT UTILITIES
-   ================================================================ */
-
-.content-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-/* -- Standard full-height section */
-.section {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6rem 0;
-}
-
-/* -- Two-column grid */
-.two-column {
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-}
-
-.two-column.reverse {
-    flex-direction: row-reverse;
-}
-
-.text-column {
-    flex: 1;
-}
-
-.visual-column {
-    flex: 1;
-}
-
-/* -- Visual placeholder (image/chart containers) */
-.visual-placeholder {
-    width: 100%;
-    aspect-ratio: 4/3;
-    background-color: #E9ECEF;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 20px 40px rgba(50, 14, 59, 0.1);
-    border: 1px solid rgba(50, 14, 59, 0.05);
-    overflow: hidden;
-    position: relative;
-}
-
-.demo-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.visual-placeholder:hover .demo-image {
-    transform: scale(1.05);
-}
-
-/* -- Dark background section */
-.dark-section {
-    background-color: var(--color-bg-dark);
-    color: var(--color-text-light);
-}
-
-.dark-section h1,
-.dark-section h2,
-.dark-section h3 {
-    color: var(--color-text-light);
-}
-
-.dark-section .text {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-section .text-sm {
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.dark-section .highlight {
-    color: var(--color-accent);
-    border-color: var(--color-accent);
-}
-
-.dark-section .section-title::after {
-    background-color: var(--color-accent);
-}
-
-
-/* ================================================================
-   5. NAVIGATION BAR — unchanged
-   ================================================================ */
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: color-mix(in srgb, var(--color-bg-dark), transparent 20%);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    border-bottom: 1px solid rgba(50, 14, 59, 0.1);
-    transition: all 0.3s ease;
-}
-
-.nav-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-logo {
-    font-family: var(--font-heading);
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: var(--color-text-light);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.nav-logo:hover {
-    transform: translateY(-1px);
-    opacity: 0.95;
-}
-
-.logo-img {
-    height: 60px;
-    width: auto;
-    object-fit: contain;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: var(--color-text-light);
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: var(--color-accent);
-}
-
-
-/* ================================================================
-   6. HERO SECTION — unchanged
-   ================================================================ */
-
-.hero {
-    position: relative;
-    overflow: hidden;
-    background-color: var(--color-bg-dark);
-}
-
-.hero-bg-logo {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 90%;
-    width: auto;
-    z-index: 1;
-    pointer-events: none;
-}
-
-.hero-stats {
-    display: flex;
-    gap: 4rem;
-    margin-top: 4rem;
-    z-index: 2;
-    position: relative;
-}
-
-.stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.stat-number {
-    font-size: clamp(2rem, 4vw, 2.8rem);
-    font-weight: 600;
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-}
-
-.stat-label {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-    pointer-events: none;
-    color: var(--color-text-light);
-    max-width: 100%;
-    width: 100%;
-    margin-left: 0;
-    margin-right: auto;
-    padding-left: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.hero-content .title {
-    color: var(--color-text-light);
-    max-width: 600px;
-    width: 100%;
-}
-
-.hero-content .subtitle {
-    color: rgba(255, 255, 255, 0.8);
-    max-width: 600px;
-    width: 100%;
-}
-
-.hero-content .scroll-indicator {
-    pointer-events: auto;
-    max-width: 600px;
-    width: 100%;
-}
-
-
-/* ================================================================
-   7. SCROLL INDICATOR & PROGRESS BAR — unchanged
-   ================================================================ */
-
-.scroll-indicator {
-    margin-top: 4rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    color: #777;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.mouse {
-    width: 30px;
-    height: 50px;
-    border: 2px solid var(--color-bg-light);
-    border-radius: 15px;
-    position: relative;
-}
-
-.wheel {
-    width: 4px;
-    height: 8px;
-    background-color: var(--color-accent);
-    border-radius: 2px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: scroll 1.5s infinite;
-}
-
-@keyframes scroll {
-    0% {
-        top: 10px;
-        opacity: 1;
-    }
-
-    100% {
-        top: 25px;
-        opacity: 0;
-    }
-}
-
-#progress-bar {
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 0%;
-    height: 4px;
-    background-color: var(--color-accent);
-    z-index: 1001;
-    transition: width 0.1s ease;
-}
-
-
-/* ================================================================
-   8. SECTION ANIMATIONS — unchanged
-   ================================================================ */
-
-.fade-in {
-    opacity: 0;
-    transition: opacity 1.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
-
-.slide-up {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.slide-up.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
-/* ================================================================
-   9. BUTTONS — unchanged
-   ================================================================ */
-
-.btn {
-    display: inline-block;
-    padding: 1rem 2.5rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    font-family: var(--font-body);
-}
-
-.primary-btn {
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    border: 2px solid var(--color-primary);
-}
-
-.primary-btn:hover {
-    background-color: var(--color-accent);
-    border-color: var(--color-accent);
-    color: var(--color-text-light);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(183, 153, 13, 0.2);
-}
-
-
-/* ================================================================
-   10. FOOTER — unchanged
-   ================================================================ */
-
-.footer {
-    padding: 3rem 0;
-    text-align: center;
-    background-color: var(--color-primary);
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.9rem;
-}
-
-.footer p {
-    margin-bottom: 0.5rem;
-}
-
 
 /* ================================================================
    11. §A — LOC CLASSIFICATION PILLS
@@ -2674,47 +2176,6 @@ h3 {
 
 @media (max-width: 900px) {
 
-    /* -- Layout resets ------------------------------------------ */
-    .two-column,
-    .two-column.reverse {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    /* -- Typography resets -------------------------------------- */
-    .title {
-        font-size: 3rem;
-    }
-
-    /* -- Section spacing ---------------------------------------- */
-    .section {
-        padding: 6rem 0 4rem 0;
-        min-height: auto;
-    }
-
-    .hero {
-        padding-top: 8rem;
-    }
-
-    .hero-content {
-        align-items: center;
-        text-align: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        margin: 0 auto;
-    }
-
-    .hero-content .title,
-    .hero-content .subtitle {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .hero-content .scroll-indicator {
-        max-width: 100%;
-        justify-content: center;
-    }
-
     /* -- §A: pills wrap naturally on mobile — no change needed -- */
     .disc-row--extra {
         flex-direction: column;
@@ -2827,6 +2288,11 @@ h3 {
         font-size: 2rem;
     }
 
+    /* Hide Plotly sunburst breadcrumbs (pathbar) on small screens to prevent overflow */
+    g.pathbar {
+        display: none !important;
+    }
+
     /* Vis Grid mobile overrides */
     .vis-grid {
         grid-template-columns: 1fr !important;
@@ -2880,12 +2346,12 @@ h3 {
     }
 
     .vis-grid-sunburst .vis-grid-text {
-        order: 1;
+        order: 2;
         width: 100%;
     }
 
     .vis-grid-sunburst .vis-grid-chart {
-        order: 2;
+        order: 1;
         width: 100%;
     }
 }
@@ -2895,7 +2361,7 @@ h3 {
     display: grid;
     gap: 3rem;
     align-items: flex-start;
-    padding-left: max(6rem, calc((100vw - 1200px) / 2 + 2rem));
+    padding-left: max(2rem, calc((100vw - 1200px) / 2 + 2rem));
     padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));
 }
 
@@ -2942,5 +2408,5 @@ h3 {
 
 .vis-grid-sunburst .vis-grid-chart {
     width: 100%;
-    height: 740px;
+    height: auto;
 }
