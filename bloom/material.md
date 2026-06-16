@@ -110,6 +110,8 @@ https://open-sci.github.io/2025-2026/
 ### Protocol introducing the methodology
 Barbato T., D'Amelio N., Dadrasrazi M., Roggiani S., Pinto M., Yu P. (2026). BLOOM Map of Italian Science Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.yxmvm86kbg3p/v3
 
+Manyara R., Li Y., Ak Y., De Dominicis I., Nakamura S., Yang T., Chen Q. (2026). BLOOM Disciplinary Flow Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.dm6gp7nw1gzp/v3
+
 ### Software developed
 <<Bibliographic reference in APA style of the last version>>
 
