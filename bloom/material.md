@@ -113,7 +113,7 @@ Barbato T., D'Amelio N., Dadrasrazi M., Roggiani S., Pinto M., Yu P. (2026). BLO
 Manyara R., Li Y., Ak Y., De Dominicis I., Nakamura S., Yang T., Chen Q. (2026). BLOOM Disciplinary Flow Protocol v.3. protocols.io, https://dx.doi.org/10.17504/protocols.io.dm6gp7nw1gzp/v3
 
 ### Software developed
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Peroni, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Software for the final project of the Open Science course a.y. 2025/2026 (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.20718139
 
 ### The data gathered while running the methodology
 Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Data for the article "In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?" (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20691555

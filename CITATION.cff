@@ -9,6 +9,7 @@ message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
+doi: 10.5281/zenodo.20718139
 authors:
   - given-names: Yiğit
     family-names: Ak
