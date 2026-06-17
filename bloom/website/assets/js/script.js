@@ -237,125 +237,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /* ================================================================
-   2. HERO WORLD MAP — unchanged from original
-   ================================================================ */
-
-am5.ready(function () {
-
-    var root = am5.Root.new("hero-map");
-    root.setThemes([am5themes_Animated.new(root)]);
-
-    var isMobile = window.innerWidth <= 900;
-    var targetZoom = isMobile ? 1.5 : 1.8;
-
-    var chart = root.container.children.push(
-        am5map.MapChart.new(root, {
-            panX: "none",
-            panY: "none",
-            wheelX: "none",
-            wheelY: "none",
-            pinchZoomX: "none",
-            pinchZoomY: "none",
-            projection: am5map.geoMercator(),
-            minZoomLevel: targetZoom,
-            maxZoomLevel: targetZoom,
-            zoomLevel: targetZoom,
-            homeGeoPoint: isMobile
-                ? { longitude: 12.5, latitude: 41.9 }
-                : { longitude: -75.0, latitude: 42.0 }
-        })
-    );
-
-    chart.chartContainer.set("background", am5.Rectangle.new(root, {
-        fill: am5.color(0x320E3B),
-        fillOpacity: 1
-    }));
-
-    var polygonSeries = chart.series.push(
-        am5map.MapPolygonSeries.new(root, {
-            geoJSON: am5geodata_worldLow,
-            exclude: ["AQ"]
-        })
-    );
-
-    polygonSeries.mapPolygons.template.setAll({
-        fill: am5.color(0x2A0C32),
-        stroke: am5.color(0x320E3B),
-        strokeWidth: 0.5
-    });
-
-    /* Static citation path lines */
-    var lineSeries = chart.series.push(am5map.MapLineSeries.new(root, {}));
-    lineSeries.mapLines.template.setAll({
-        stroke: am5.color(0xB7990D),
-        strokeWidth: 1.5,
-        strokeOpacity: 0.4
-    });
-
-    /* Animated flowing arrows */
-    var flowSeries = chart.series.push(am5map.MapPointSeries.new(root, {}));
-    flowSeries.bullets.push(function (root) {
-        var arrow = am5.Graphics.new(root, {
-            fill: am5.color(0xB7990D),
-            svgPath: "M-6,-4 L8,0 L-6,4 Z"
-        });
-        return am5.Bullet.new(root, { sprite: arrow, autoRotate: true, autoRotateAngle: 0 });
-    });
-
-    /* City dot markers */
-    var citySeries = chart.series.push(am5map.MapPointSeries.new(root, {}));
-    citySeries.bullets.push(function (root) {
-        var circle = am5.Circle.new(root, {
-            radius: 6,
-            fill: am5.color(0xB7990D),
-            tooltipText: "{title}"
-        });
-        return am5.Bullet.new(root, { sprite: circle });
-    });
-
-    /* -- City coordinates — edit to add/remove cities ----------- */
-    var citiesData = [
-        { geometry: { type: "Point", coordinates: [12.5, 41.9] }, title: "Rome" },
-        { geometry: { type: "Point", coordinates: [-74.0, 40.7] }, title: "New York" },
-        { geometry: { type: "Point", coordinates: [-0.1, 51.5] }, title: "London" },
-        { geometry: { type: "Point", coordinates: [139.6, 35.6] }, title: "Tokyo" },
-        { geometry: { type: "Point", coordinates: [151.2, -33.8] }, title: "Sydney" },
-        { geometry: { type: "Point", coordinates: [-58.3, -34.6] }, title: "Buenos Aires" }
-    ];
-    citySeries.data.setAll(citiesData);
-
-    /* -- Citation flow lines — edit geometry to change routes ----- */
-    var linesData = [
-        { geometry: { type: "LineString", coordinates: [[-74.0, 40.7], [12.5, 41.9]] }, delay: 2000 },
-        { geometry: { type: "LineString", coordinates: [[12.5, 41.9], [-0.1, 51.5]] }, delay: 0 },
-        { geometry: { type: "LineString", coordinates: [[139.6, 35.6], [12.5, 41.9]] }, delay: 3000 },
-        { geometry: { type: "LineString", coordinates: [[12.5, 41.9], [151.2, -33.8]] }, delay: 1000 },
-        { geometry: { type: "LineString", coordinates: [[-58.3, -34.6], [12.5, 41.9]] }, delay: 4000 }
-    ];
-
-    linesData.forEach(function (lineData) {
-        var lineDataItem = lineSeries.pushDataItem(lineData);
-        var flowDataItem = flowSeries.pushDataItem({
-            lineDataItem: lineDataItem,
-            positionOnLine: 0.0,
-            autoRotate: true
-        });
-
-        function loopCitationFlow() {
-            var duration = 3000 + Math.random() * 2000;
-            flowDataItem.animate({ key: "positionOnLine", from: 0, to: 1, duration: duration });
-            var pause = 1000 + Math.random() * 2000;
-            setTimeout(loopCitationFlow, duration + pause);
-        }
-        setTimeout(loopCitationFlow, lineData.delay);
-    });
-
-    chart.appear(1000, 100);
-
-}); /* end am5.ready (hero map) */
-
-
-/* ================================================================
    3. §B — LANDSCAPE GROUPED BAR CHART
    ================================================================
 
@@ -943,8 +824,10 @@ function renderSunburst(instKey) {
         }
     };
 
+    var isMobileView = window.innerWidth <= 900;
+    var sbMargin = isMobileView ? 4 : 0;
     var layout = {
-        margin: { t: 0, l: 0, r: 0, b: 0 },
+        margin: { t: sbMargin, l: sbMargin, r: sbMargin, b: sbMargin },
         paper_bgcolor: 'rgba(0,0,0,0)',
         plot_bgcolor: 'rgba(0,0,0,0)',
         showlegend: false

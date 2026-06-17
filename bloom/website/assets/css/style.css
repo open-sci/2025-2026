@@ -2070,6 +2070,8 @@ h3 {
 #sunburst-chart {
     width: 100%;
     height: 500px;
+    /* Ensure the chart is never wider than its height on desktop */
+    max-height: min(500px, 90vw);
 }
 
 /* Info panel */
@@ -2219,7 +2221,10 @@ h3 {
     }
 
     #sunburst-chart {
-        height: 360px;
+        /* On mobile make the chart square so the circle isn't clipped */
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-height: 90vw;
     }
 
     /* -- Chart heights on mobile -------------------------------- */
