@@ -123,7 +123,7 @@ Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., L
 Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?. https://doi.org/10.5281/zenodo.20718539
 
 ### Slides supporting the presentation
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026, June 17). Workshop slides for the presentation of the article "In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?". In the World of Citations, Are We Really Open(Minded), or Stuck in a Comfort Zone?, Aula C, Via Zamboni 34, University of Bologna. Zenodo. https://doi.org/10.5281/zenodo.20734263
 
 ### Group diary
-<<Bibliographic reference in APA style of the last version>>
+Ak, Y., Barbato, T., Chen, Q., D'Amelio, N., Dadrasrazi, M., De Dominicis, I., Li, Y. H., Manyara, R., Nakamura, S., Pinto, M., Roggiani, S., Yang, T., & Yu, P. (2026). Diary for the final project of the Open Science course a.y. 2025/2026. Zenodo. https://doi.org/10.5281/zenodo.20734609

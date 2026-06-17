@@ -943,7 +943,7 @@ h3 {
 }
 
 .finale-box .text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     max-width: 900px;
     margin: 0 auto 2rem;
@@ -2071,6 +2071,8 @@ h3 {
 #sunburst-chart {
     width: 100%;
     height: 500px;
+    /* Ensure the chart is never wider than its height on desktop */
+    max-height: min(500px, 90vw);
 }
 
 /* Info panel */
@@ -2220,7 +2222,10 @@ h3 {
     }
 
     #sunburst-chart {
-        height: 360px;
+        /* On mobile make the chart square so the circle isn't clipped */
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-height: 90vw;
     }
 
     /* -- Chart heights on mobile -------------------------------- */
@@ -2294,120 +2299,5 @@ h3 {
         display: none !important;
     }
 
-    /* Vis Grid mobile overrides */
-    .vis-grid {
-        grid-template-columns: 1fr !important;
-        grid-template-rows: auto !important;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-        gap: 2rem !important;
-    }
 
-    .vis-grid-sankey .vis-grid-controls {
-        grid-column: 1 !important;
-        grid-row: 1 !important;
-    }
-
-    .vis-grid-sankey .vis-grid-text {
-        grid-column: 1 !important;
-        grid-row: 2 !important;
-    }
-
-    .vis-grid-sankey .vis-grid-chart {
-        grid-column: 1 !important;
-        grid-row: 3 !important;
-        height: 65vh !important;
-    }
-
-    .vis-grid-scatter {
-        display: flex !important;
-        flex-direction: column !important;
-        max-width: 100vw;
-    }
-
-    .vis-grid-scatter .vis-grid-text {
-        order: 1;
-        width: 100%;
-    }
-
-    .vis-grid-scatter .vis-grid-chart {
-        order: 2;
-        height: 85vh !important;
-        width: 100vw !important;
-        margin-left: calc(-50vw + 50%) !important;
-        border-radius: 0 !important;
-        border-left: none !important;
-        border-right: none !important;
-    }
-
-    .vis-grid-sunburst {
-        display: flex !important;
-        flex-direction: column !important;
-        max-width: 100vw;
-    }
-
-    .vis-grid-sunburst .vis-grid-text {
-        order: 2;
-        width: 100%;
-    }
-
-    .vis-grid-sunburst .vis-grid-chart {
-        order: 1;
-        width: 100%;
-    }
-}
-
-/* Base Vis Grid Classes */
-.vis-grid {
-    display: grid;
-    gap: 3rem;
-    align-items: flex-start;
-    padding-left: max(2rem, calc((100vw - 1200px) / 2 + 2rem));
-    padding-right: max(2rem, calc((100vw - 1200px) / 2 + 2rem));
-}
-
-.vis-grid-sankey {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
-    margin-top: 5rem;
-    margin-bottom: 4rem;
-}
-
-.vis-grid-sankey .vis-grid-controls {
-    grid-column: 2;
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.vis-grid-sankey .vis-grid-text {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-.vis-grid-sankey .vis-grid-chart {
-    grid-column: 2;
-    grid-row: 2;
-    position: relative;
-    width: 100%;
-    height: 740px;
-}
-
-.vis-grid-scatter {
-    grid-template-columns: 2fr 1fr;
-}
-
-.vis-grid-scatter .vis-grid-chart {
-    width: 100%;
-    height: 740px;
-}
-
-.vis-grid-sunburst {
-    grid-template-columns: 1fr 2fr;
-    margin-top: 5rem;
-}
-
-.vis-grid-sunburst .vis-grid-chart {
-    width: 100%;
-    height: auto;
 }
