@@ -3,19 +3,25 @@
 The goal of this project is to create a comprehensive mapping of the Italian
 scientific landscape, starting from the IRIS dataset and enriching it with data
 from OpenCitations, OpenAIRE and ROR. The final output will be a mapping of
-publications to organizations and countries, as well as the number of inbound
-and outbound citations for each publication.
+publications to organizations and countries, as well as the number of incoming
+and outgoing citations for each publication.
 
 ## Overview
 
 The mapping process is divided into four main steps:
 1. Mapping of IRIS publications to OpenCitations PIDs (DOI, PMID, ISBN).
-2. Mapping of OpenAIRE organizations to ROR identifiers, names and countries.
+2. Building a ROR-keyed organization index, and resolving each OpenAIRE
+   organization to a single ROR identifier.
 3. Mapping of IRIS publications to OpenAIRE organizations using the PIDs from
-   step 1 and the relations dump from OpenAIRE.
-4. Counting of inbound and outbound citations for each publication, producing
+   step 1 and the relations dump from OpenAIRE, then resolving those
+   organizations to their ROR records.
+4. Counting of incoming and outgoing citations for each publication, producing
    aggregated statistics for each IRIS university for both organizations and
    countries.
+
+ROR is the sole authority on organization identity: every organization name,
+identifier and country in the final output comes from the ROR dump, and
+organizations that cannot be resolved to exactly one ROR record are excluded.
 
 ## Process
 
@@ -33,12 +39,12 @@ We will need data from IRIS, OpenCitations, OpenAIRE and ROR to execute the
 mapping pipeline. This project was developed and tested with the following
 versions of the data dumps:
 
-| dump          | version    | url                                 |
-|---------------|------------|-------------------------------------|
-| IRIS          | 1.1.0      | https://zenodo.org/records/18202530 |
-| ROR           | 2.7        | https://zenodo.org/records/20140273 |
-| OpenCitations | 2026-01-14 | https://zenodo.org/records/18324537 |
-| OpenAIRE      | 10.6.0     | https://zenodo.org/records/17725827 |
+| dump          | version    | url                                     |
+|---------------|------------|-----------------------------------------|
+| IRIS          | 1.1.0      | https://doi.org/10.5281/zenodo.18202530 |
+| ROR           | 2.7        | https://doi.org/10.5281/zenodo.20140273 |
+| OpenCitations | 2026-01-14 | https://doi.org/10.5281/zenodo.18324537 |
+| OpenAIRE      | 10.6.0     | https://doi.org/10.5281/zenodo.17725827 |
 
 Create the directories for the dumps:
 
@@ -144,12 +150,21 @@ Data path prefix: `iris_oc_pids/`
 | `unique_pids.metadata.json` | Contains metadata about the unique PIDs generation process across all IRIS publications. |
 
 #### 5. Run the OpenAIRE/ROR mapping script
-The second step of the pipeline will create a mapping between the organizations
-in OpenAIRE and ROR, resolving duplicates and inconsistencies, and selecting a
-canonical name for each organization. 
 
-This mapping will be used in the next step of the pipeline to quickly lookup the
-OpenAIRE organization id and retrieve the precise name and country.
+The second step of the pipeline establishes ROR as the authority on organization
+identity. It produces two files: an index of every ROR organization keyed by ROR
+identifier and a lookup resolving each OpenAIRE organization id to a single ROR
+identifier.
+
+The second file is needed only because OpenAIRE's affiliation edges reference
+OpenAIRE organization ids; those ids are never published in the final output.
+
+OpenAIRE frequently attaches several ROR identifiers to one organization record,
+expressing its own uncertainty about which entity the record describes rather
+than listing several affiliations. An organization is therefore included only if
+it resolves to exactly one ROR identifier: where several are attached,
+OpenAIRE's `legalName` and country are used *solely* to choose between the ROR
+candidates, and the organization is dropped when they single out none.
 
 ```bash
 python src/match_organizations_countries.py
@@ -161,8 +176,9 @@ Data path prefix: `openaire_ror_countries/`
 
 | file | description |
 |---|---|
-| `openaire_ror_countries.json` | Contains the mapping of OpenAIRE organizations to ROR identifiers, names and countries. |
-| `openaire_ror_countries.metadata.json` | Contains metadata about the OpenAIRE to ROR mapping process. |
+| `ror_organizations.json` | Contains every ROR organization keyed by ROR identifier, with its name, country name and country code. Every value published downstream comes from this file. |
+| `openaire_ror_map.json` | Contains the mapping of each resolvable OpenAIRE organization id to its single ROR identifier. |
+| `ror_organizations.metadata.json` | Contains metadata about the OpenAIRE to ROR mapping process, including how many organizations were dropped and why. |
 
 #### 6. Run the IRIS/OpenAIRE mapping script
 
@@ -171,6 +187,13 @@ create a mapping between the IRIS publications and the OpenAIRE publications
 using the PIDs produced in step one, resolving authors' affiliations via the
 relations dump and producing a final mapping between publications and
 organizations involved.
+
+Each affiliated organization is resolved in two hops — OpenAIRE organization id
+to ROR identifier, then ROR identifier to its ROR record — using the two files
+produced in step two. Organizations absent from that mapping are dropped, and
+the organizations of each publication are deduplicated on their ROR identifier,
+so that several OpenAIRE records describing the same institution are counted
+once.
 
 This step is very computationally intensive, as it requires iterating over all
 the OpenAIRE publications and relations tar files, and will take several hours
@@ -190,9 +213,9 @@ Data path prefix: `iris_openaire_organizations/`
 | `omid_organizations.json` | Contains the mapping of IRIS publications to OpenAIRE organizations. |
 | `omid_organizations.metadata.json` | Contains metadata about the IRIS to OpenAIRE organizations mapping process. |
 
-#### 7. Run the inbound/outbound citations counting script
-The fourth and final step of the pipeline will count the number of inbound and
-outbound citations for each publication, producing aggregated statistics for
+#### 7. Run the incoming/outgoing citations counting script
+The fourth and final step of the pipeline will count the number of incoming and
+outgoing citations for each publication, producing aggregated statistics for
 each IRIS university for both organizations and countries.
 
 ```bash
@@ -206,37 +229,7 @@ Data path prefix: `citation_counts/`
 | file | description |
 |---|---|
 | `<university_name>/citation_counts.metadata.json` | Contains metadata about the citation counts process for a specific university. |
-| `<university_name>/citation_counts_countries_inbound.csv` | Contains the inbound citation counts for countries for a specific university. |
-| `<university_name>/citation_counts_countries_outbound.csv` | Contains the outbound citation counts for countries for a specific university. |
-| `<university_name>/citation_counts_organizations_inbound.csv` | Contains the inbound citation counts for organizations for a specific university. |
-| `<university_name>/citation_counts_organizations_outbound.csv` | Contains the outbound citation counts for organizations for a specific university. |
-
-Two extra counters have been added later: first, to compute the citation counts for the timeframes 2001-2005, 2006-2010, 2011-2015, 2016-2020, 2021-2025.
-
-```bash
-python src/count_citations_annualized.py
-```
-
-Data path prefix: `citation_counts_annualized/`
-
-| file | description |
-|---|---|
-| `<university_name>/citation_counts.metadata.json` | Metadata about the annualized citation counts process for a specific university. |
-| `<university_name>/<time_period>/citation_counts_countries_incoming.csv` | Incoming annualized citation counts for countries for a specific university for a specific time period. |
-| `<university_name>/<time_period>/citation_counts_countries_outgoing.csv` | Outgoing annualized citation counts for countries for a specific university for a specific time period. |
-| `<university_name>/<time_period>/citation_counts_organizations_incoming.csv` | Incoming annualized citation counts for organizations for a specific university for a specific time period. |
-| `<university_name>/<time_period>/citation_counts_organizations_outgoing.csv` | Outgoing annualized citation counts for organizations for a specific university for a specific time period. |
-
-Second, to compute the top cited papers globally and per-university.
-
-```bash
-python src/top_cited.py
-```
-
-Data path prefix: `top_cited/`
-
-| file | description |
-|---|---|
-| `top_cited_combined.csv` | Most cited publications across all universities. |
-| `top_cited_<university_name>.csv` | Most cited publications for a specific university. |
-| `top_cited.metadata.json` | Metadata about the top cited calculation process. |
+| `<university_name>/citation_counts_countries_incoming.csv` | Contains the incoming citation counts for countries for a specific university. |
+| `<university_name>/citation_counts_countries_outgoing.csv` | Contains the outgoing citation counts for countries for a specific university. |
+| `<university_name>/citation_counts_organizations_incoming.csv` | Contains the incoming citation counts for organizations for a specific university. |
+| `<university_name>/citation_counts_organizations_outgoing.csv` | Contains the outgoing citation counts for organizations for a specific university. |

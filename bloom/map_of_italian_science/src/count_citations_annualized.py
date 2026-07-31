@@ -70,85 +70,33 @@ def year_to_block(pub_date):
 
 
 def dedup_org_list(organizations):
-    """Deduplicate a per-OMID organizations list by ROR then case-insensitive name+country."""
-    by_ror = {}
-    no_ror = []
+    """Deduplicate a per-OMID organizations list by ROR id.
 
+    The ROR id is the organization's identity, so no name comparison is needed —
+    entries carrying the same ROR id are the same organization.
+    """
+    by_ror = {}
     for org in organizations:
         ror = org.get("ror") or ""
-        if ror:
-            if ror not in by_ror:
-                by_ror[ror] = org
-        else:
-            no_ror.append(org)
+        if ror and ror not in by_ror:
+            by_ror[ror] = org
 
-    by_name = {}
-    for org in by_ror.values():
-        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
-        by_name[key] = org
-
-    for org in no_ror:
-        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
-        if key not in by_name:
-            by_name[key] = org
-
-    return list(by_name.values())
-
-
-def merge_org_counter(counter):
-    """Merge org counter entries: first by ROR ID, then by case-insensitive name+country."""
-    by_ror = defaultdict(list)
-    no_ror = []
-
-    for key, count in counter.items():
-        ror = key[3]
-        if ror:
-            by_ror[ror].append((key, count))
-        else:
-            no_ror.append((key, count))
-
-    intermediate = []
-    for entries in by_ror.values():
-        total = sum(c for _, c in entries)
-        best_key = max(entries, key=lambda x: x[1])[0]
-        intermediate.append((best_key, total))
-
-    intermediate.extend(no_ror)
-
-    by_name = defaultdict(list)
-    for key, count in intermediate:
-        legal_name, _, country_code = key[0], key[1], key[2]
-        merge_key = (legal_name.lower(), country_code)
-        by_name[merge_key].append((key, count))
-
-    result = Counter()
-    for entries in by_name.values():
-        total = sum(c for _, c in entries)
-        with_ror = [(k, c) for k, c in entries if k[3]]
-        if with_ror:
-            best_key = max(with_ror, key=lambda x: x[1])[0]
-        else:
-            best_key = max(entries, key=lambda x: x[1])[0]
-        result[best_key] = total
-
-    return result
+    return list(by_ror.values())
 
 
 def write_org_csv(path, counter):
     """Write organization counts CSV sorted by count descending."""
-    fieldnames = ["legal_name", "country_name", "country_code",
-                  "ror", "openaire", "count"]
+    fieldnames = ["legal_name", "country_name", "country_code", "ror", "count"]
     with path.open("w", encoding="utf-8", newline="\n") as fh:
         writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
-            legal_name, country_name, country_code, ror, openaire = key
+            legal_name, country_name, country_code, ror = key
             writer.writerow({
                 "legal_name": legal_name,
                 "country_name": country_name,
                 "country_code": country_code,
                 "ror": ror,
-                "openaire": openaire,
                 "count": count,
             })
 
@@ -295,7 +243,6 @@ with OMID_ORGANIZATIONS_JSON.open("rb") as fh:
                     org.get("country_name", ""),
                     org.get("country_code", ""),
                     org.get("ror") or "",
-                    org.get("openaire", ""),
                 )
                 oc[(university, block)][org_key] += multiplier
 
@@ -314,12 +261,7 @@ not_in_json = len(omid_contributions)
 if not_in_json:
     print(f"  {not_in_json:,} omids from CSVs not found in JSON")
 
-# Merge org counters by ROR then case-insensitive name+country, per (university, block)
-for university in universities_to_process:
-    for block in BLOCK_LABELS:
-        key = (university, block)
-        org_incoming[key] = merge_org_counter(org_incoming[key])
-        org_outgoing[key] = merge_org_counter(org_outgoing[key])
+# No post-hoc merging: every counter key is already identified by its ROR id
 
 # ==============================================================================
 # Phase 3 -- write output files
