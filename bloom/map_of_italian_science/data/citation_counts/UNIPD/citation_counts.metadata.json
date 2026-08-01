@@ -1,13 +1,13 @@
 {
   "university": "UNIPD",
-  "ended_at": "2026-05-30T16:09:24.375604+00:00",
+  "ended_at": "2026-07-31T15:00:31.805719+00:00",
   "rows_read": 10074834,
-  "unique_organizations_incoming": 71282,
-  "unique_organizations_outgoing": 63100,
-  "unique_countries_incoming": 251,
-  "unique_countries_outgoing": 245,
-  "output_org_incoming_csv_size_bytes": 8404934,
-  "output_org_outgoing_csv_size_bytes": 7449614,
-  "output_country_incoming_csv_size_bytes": 4750,
-  "output_country_outgoing_csv_size_bytes": 4564
+  "unique_organizations_incoming": 52068,
+  "unique_organizations_outgoing": 47229,
+  "unique_countries_incoming": 225,
+  "unique_countries_outgoing": 221,
+  "output_org_incoming_csv_size_bytes": 3950111,
+  "output_org_outgoing_csv_size_bytes": 3576545,
+  "output_country_incoming_csv_size_bytes": 4035,
+  "output_country_outgoing_csv_size_bytes": 3911
 }

@@ -23,7 +23,8 @@ DUMPS_DIR = DATA_DIR / "dumps"
 OPENAIRE_DIR = DUMPS_DIR / "openaire"
 PUBLICATION_TAR_PATTERN = "publication_*.tar"
 RELATION_TAR_PATTERN = "relation_*.tar"
-ORG_COUNTRIES_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_countries.json"
+ROR_ORGANIZATIONS_JSON = DATA_DIR / "openaire_ror_countries" / "ror_organizations.json"
+OPENAIRE_ROR_MAP_JSON = DATA_DIR / "openaire_ror_countries" / "openaire_ror_map.json"
 
 UNIQUE_PIDS_CSV = DATA_DIR / "iris_oc_pids" / "unique_pids.csv"
 
@@ -475,12 +476,15 @@ def resolve_relations(rows):
 # ==============================================================================
 
 def resolve_organizations(pub_to_orgs):
-    """Load the pre-built openaire_ror_countries mapping and build an org_id -> record
-    lookup for every organization referenced by pub_to_orgs.
+    """Resolve OpenAIRE organization ids to authoritative ROR records.
+
+    Two hops: OpenAIRE org id -> ROR id (openaire_ror_map) -> ROR record
+    (ror_organizations). Organizations absent from the map had no ROR id, or an
+    ambiguous set of them, and are dropped — they never reach the output.
     """
     print()
     print("=" * 70)
-    print("Phase 3 — loading organization/country mapping")
+    print("Phase 3 — resolving organizations against ROR")
     print("=" * 70)
 
     wanted = set()
@@ -493,32 +497,41 @@ def resolve_organizations(pub_to_orgs):
 
     print(f"  {len(wanted):,} distinct organization ids to fetch")
 
-    if not ORG_COUNTRIES_JSON.exists():
-        print(f"  ! {ORG_COUNTRIES_JSON} not found")
-        sys.exit(1)
+    for path in (ROR_ORGANIZATIONS_JSON, OPENAIRE_ROR_MAP_JSON):
+        if not path.exists():
+            print(f"  ! {path} not found — run match_organizations_countries.py")
+            sys.exit(1)
 
-    print(f"  Loading {ORG_COUNTRIES_JSON.relative_to(DATA_DIR)} ...")
+    print(f"  Loading {OPENAIRE_ROR_MAP_JSON.relative_to(DATA_DIR)} ...")
     t0 = time.monotonic()
 
-    with ORG_COUNTRIES_JSON.open("r", encoding="utf-8") as fh:
-        all_orgs = json.load(fh)
+    with OPENAIRE_ROR_MAP_JSON.open("r", encoding="utf-8") as fh:
+        openaire_ror_map = json.load(fh)
+
+    print(f"  Loading {ROR_ORGANIZATIONS_JSON.relative_to(DATA_DIR)} ...")
+    with ROR_ORGANIZATIONS_JSON.open("r", encoding="utf-8") as fh:
+        ror_organizations = json.load(fh)
 
     org_lookup = {}
     for oid in wanted:
-        rec = all_orgs.get(oid)
-        if rec:
-            org_lookup[oid] = {
-                "legal_name": rec.get("legal_name", ""),
-                "country_name": rec.get("country_name", ""),
-                "country_code": rec.get("country_code", ""),
-                "country_source": rec.get("country_source", ""),
-                "ror": rec.get("ror"),
-                "openaire": oid,
-            }
+        ror_id = openaire_ror_map.get(oid)
+        if not ror_id:
+            continue
+        rec = ror_organizations.get(ror_id)
+        if not rec:
+            continue
+        org_lookup[oid] = {
+            "legal_name": rec["legal_name"],
+            "country_name": rec["country_name"],
+            "country_code": rec["country_code"],
+            "ror": ror_id,
+        }
 
-    missing = len(wanted) - len(org_lookup)
-    print(f"  ✔ Phase 3 done: {len(org_lookup):,} resolved, "
-          f"{missing:,} not found in mapping | {format_elapsed(t0)}")
+    dropped = len(wanted) - len(org_lookup)
+    distinct = len({rec["ror"] for rec in org_lookup.values()})
+    print(f"  ✔ Phase 3 done: {len(org_lookup):,} resolved onto {distinct:,} distinct "
+          f"organizations, {dropped:,} dropped (no ROR id or ambiguous) | "
+          f"{format_elapsed(t0)}")
 
     return org_lookup
 
@@ -549,20 +562,15 @@ def write_output(rows, pub_to_orgs, org_lookup):
 
             pub_id = r["openaire_pub_id"] or ""
 
-            # Collect organizations, discarding empty and deduplicating
+            # Collect organizations, deduplicating on ROR id — several OpenAIRE
+            # org ids can resolve to the same organization
             org_ids = pub_to_orgs.get(pub_id, []) if pub_id else []
-            orgs_by_name = {}
+            orgs_by_ror = {}
             for oid in org_ids:
                 orec = org_lookup.get(oid)
-                if not orec:
-                    continue
-                name = orec.get("legal_name", "")
-                if not name:
-                    continue
-                existing = orgs_by_name.get(name)
-                if existing is None or (not existing.get("ror") and orec.get("ror")):
-                    orgs_by_name[name] = orec
-            orgs = list(orgs_by_name.values())
+                if orec:
+                    orgs_by_ror[orec["ror"]] = orec
+            orgs = list(orgs_by_ror.values())
 
             # Strip scheme prefixes for output pids
             doi_out = r["doi_raw"]
@@ -659,7 +667,8 @@ metadata = {
         if r["openaire_pub_id"] and pub_to_orgs.get(r["openaire_pub_id"])
     ),
     "rows_missing_no_pid": sum(1 for r in rows if not r["doi"] and not r["pmid"]),
-    "unique_organizations_resolved": len(org_lookup),
+    "openaire_org_ids_resolved": len(org_lookup),
+    "unique_organizations_resolved": len({rec["ror"] for rec in org_lookup.values()}),
     "entries_written": entries_written,
     "flush_every": FLUSH_EVERY,
     "output_json_size_bytes": output_size_bytes,

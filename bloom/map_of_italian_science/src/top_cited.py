@@ -85,7 +85,7 @@ if not universities_to_process:
     raise SystemExit(0)
 
 # ==============================================================================
-# Phase 1 -- scan all CSVs, count inbound citations per cited OMID
+# Phase 1 -- scan all CSVs, count incoming citations per cited OMID
 # ==============================================================================
 
 print("=" * 70)
@@ -111,7 +111,7 @@ for university in universities_to_process:
             rows_read += 1
 
             direction = row.get("direction", "").strip()
-            if direction not in ("inbound", "internal"):
+            if direction not in ("incoming", "internal"):
                 continue
 
             cited = row.get("cited_omid", "").strip()

@@ -47,6 +47,7 @@ MISSING_FIELDNAMES = [
     "oci", "direction", "missing_metadata", "citing_omid", "cited_omid",
 ]
 
+# OC id fields can contain many space-separated identifiers and exceed the default limit
 csv.field_size_limit(sys.maxsize)
 
 
@@ -59,9 +60,9 @@ def citation_direction(is_citing_iris, is_cited_iris):
     if is_citing_iris and is_cited_iris:
         return "internal"
     if is_citing_iris and not is_cited_iris:
-        return "outbound"
+        return "outgoing"
     if not is_citing_iris and is_cited_iris:
-        return "inbound"
+        return "incoming"
     raise ValueError("Both is_citing_iris and is_cited_iris are False")
 
 
@@ -79,6 +80,7 @@ def append_csv_rows(path, rows, fieldnames):
     """Append rows to a CSV file, writing header only if file doesn't exist."""
     if not rows:
         return
+    # Avoid writing a duplicate header when appending to an existing file mid-run
     write_header = not path.exists()
     with path.open("a", encoding="utf-8", newline="\n") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore", lineterminator="\n")
@@ -87,18 +89,11 @@ def append_csv_rows(path, rows, fieldnames):
         writer.writerows(rows)
 
 
-def format_path(path):
-    """Format a path relative to DATA_DIR for display."""
-    try:
-        return str(path.relative_to(DATA_DIR))
-    except ValueError:
-        return str(path)
-
-
 # ==============================================================================
 # IDEMPOTENCY CHECK
 # ==============================================================================
 
+# Skip universities whose output CSV already exists; exit early if all are done
 universities_to_process = []
 for university in IRIS_UNIVERSITIES:
     output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
@@ -121,15 +116,18 @@ print("PHASE 1 — Collecting needed OMIDs from IRIS CSVs")
 print("=" * 70)
 
 phase_1_start = time.monotonic()
+# None means "needed but not yet resolved"; replaced with (doi, pmid, isbn, pub_date) in Phase 2
 needed_omids: dict[str, tuple | None] = {}
 total_iris_rows = 0
 
+# Collect citing and cited OMIDs from every university before touching the tar
 for university in universities_to_process:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
 
     if not index_csv.exists():
         raise FileNotFoundError(f"IRIS index CSV not found: {index_csv}")
 
+    # Track per-university row count for the per-university log line below
     uni_rows = 0
     with index_csv.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
@@ -168,19 +166,23 @@ tar_rows_scanned = 0
 tar_files_scanned = 0
 omids_matched = 0
 
-print(f"Streaming {format_path(OC_TAR_PATH)}")
+print(f"Streaming {OC_TAR_PATH.relative_to(DATA_DIR)}")
 print(f"Looking for {remaining:,} OMIDs")
 
+# Stream members one at a time to avoid extracting the whole ~350GB archive to disk
 with tarfile.open(OC_TAR_PATH, "r:gz") as tar:
     for member in tar:
+        # Skip directories and non-CSV entries inside the archive
         if not member.isfile() or not member.name.endswith(".csv"):
             continue
 
+        # extractfile returns a file-like object; the member stays compressed on disk
         tar_files_scanned += 1
         fobj = tar.extractfile(member)
         if fobj is None:
             continue
 
+        # Wrap binary stream for csv.reader, which requires a text-mode iterable
         text_stream = io.TextIOWrapper(fobj, encoding="utf-8", newline="")
         reader = csv.reader(text_stream)
 
@@ -189,9 +191,11 @@ with tarfile.open(OC_TAR_PATH, "r:gz") as tar:
         except StopIteration:
             continue
 
+        # Scan each row looking for OMIDs that are in our needed set
         for row in reader:
             tar_rows_scanned += 1
 
+            # Periodic progress report since this phase can take hours
             if tar_rows_scanned % LOG_EVERY_TAR_ROWS == 0:
                 elapsed = time.monotonic() - phase_2_start
                 print(f"  {tar_rows_scanned:,} rows scanned, "
@@ -199,22 +203,27 @@ with tarfile.open(OC_TAR_PATH, "r:gz") as tar:
                       f"{remaining:,} remaining, "
                       f"{elapsed:.0f}s elapsed")
 
+            # First column of each OC Meta row holds the space-separated identifier list
             id_field = row[0]
             match = OMID_RE.search(id_field)
             if not match:
                 continue
 
             omid = match.group(0)
+            # Skip OMIDs we don't need or have already resolved
             if omid not in needed_omids or needed_omids[omid] is not None:
                 continue
 
+            # Extract structured PIDs from the same field where we found the OMID
             doi, pmid, isbn = extract_pids(id_field)
             pub_date = row[7] if len(row) > 7 else None
 
+            # Mark as resolved so it won't be matched again in a later archive member
             needed_omids[omid] = (doi, pmid, isbn, pub_date)
             omids_matched += 1
             remaining -= 1
 
+            # Break both the inner row loop and the outer member loop
             if remaining == 0:
                 print(f"  All OMIDs matched after {tar_rows_scanned:,} rows — stopping early")
                 break
@@ -247,54 +256,63 @@ pid_to_group_index = {}
 
 def register_for_dedup(record):
     """Register a publication record with the union-find deduplication structure."""
-    global pid_to_group_index
-
+    # Collect only the non-empty PIDs this record carries
     present_pids = [
         (pid_type, record[pid_type])
         for pid_type in PID_TYPES
         if record[pid_type]
     ]
 
+    # Nothing to deduplicate if the record carries no identifiers
     if not present_pids:
         return
 
+    # Find any existing groups that share at least one PID with this record
     matching_indexes = {
         pid_to_group_index[(pid_type, pid_value)]
         for pid_type, pid_value in present_pids
         if (pid_type, pid_value) in pid_to_group_index
     }
 
+    # No overlap with known groups — start a new group for this record
     if not matching_indexes:
         pid_groups.append(record)
         group_index = len(pid_groups) - 1
     else:
+        # Merge all matching groups into the lowest-index one
         group_index = min(matching_indexes)
 
+        # Iterate in reverse so each pop doesn't shift the indexes of later removals
         for other_index in sorted(matching_indexes - {group_index}, reverse=True):
             other_group = pid_groups[other_index]
 
+            # Fill any gaps in the surviving group with PIDs from the absorbed group
             for pid_type in PID_TYPES:
                 if not pid_groups[group_index][pid_type]:
                     pid_groups[group_index][pid_type] = other_group[pid_type]
 
             pid_groups.pop(other_index)
 
-            pid_to_group_index = {
-                pid_key: index - 1 if index > other_index else index
-                for pid_key, index in pid_to_group_index.items()
-                if index != other_index
-            }
+            # Drop entries for the absorbed group and shift all higher indexes down by one
+            for pid_key in list(pid_to_group_index):
+                idx = pid_to_group_index[pid_key]
+                if idx == other_index:
+                    del pid_to_group_index[pid_key]
+                elif idx > other_index:
+                    pid_to_group_index[pid_key] -= 1
 
+        # Enrich the surviving group with any new PIDs the incoming record carries
         for pid_type in PID_TYPES:
             if record[pid_type] and not pid_groups[group_index][pid_type]:
                 pid_groups[group_index][pid_type] = record[pid_type]
 
+    # Register all PIDs in the final group so future records can find it by any of them
     for pid_type in PID_TYPES:
         pid_value = pid_groups[group_index][pid_type]
         if pid_value:
             pid_to_group_index[(pid_type, pid_value)] = group_index
 
-
+# Re-read each university's IRIS CSV to build output rows with resolved metadata
 for university in universities_to_process:
     index_csv = Path(str(INDEX_CSV_TEMPLATE).format(university=university))
     output_csv = Path(str(OUTPUT_PIDS_TEMPLATE).format(university=university))
@@ -312,12 +330,14 @@ for university in universities_to_process:
     rows_processed = 0
     rows_missing = 0
 
+    # Second pass over the same index file, now resolving metadata from Phase 2
     with index_csv.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
 
         for row in reader:
             rows_read += 1
 
+            # Parse citing/cited OMIDs, OCI, and IRIS membership flags for this citation
             citing_omid = row["citing"].strip()
             cited_omid = row["cited"].strip()
             oci = row["id"].strip()
@@ -329,6 +349,7 @@ for university in universities_to_process:
             citing_meta = needed_omids.get(citing_omid)
             cited_meta = needed_omids.get(cited_omid)
 
+            # OMIDs that weren't found in the OC dump go to the missing file for diagnostics
             if citing_meta is None or cited_meta is None:
                 missing_side = []
                 if citing_meta is None:
@@ -336,6 +357,7 @@ for university in universities_to_process:
                 if cited_meta is None:
                     missing_side.append("cited")
 
+                # Record which side(s) lacked metadata so callers can investigate
                 missing_rows.append({
                     "oci": oci,
                     "direction": direction,
@@ -346,15 +368,18 @@ for university in universities_to_process:
 
                 rows_missing += 1
 
+                # Flush buffer periodically to avoid unbounded memory growth
                 if len(missing_rows) >= WRITE_CSV_EVERY:
                     append_csv_rows(missing_csv, missing_rows, MISSING_FIELDNAMES)
                     missing_rows.clear()
 
                 continue
 
+            # Unpack the (doi, pmid, isbn, pub_date) tuple stored for each OMID in Phase 2
             citing_doi, citing_pmid, citing_isbn, citing_pub_date = citing_meta
             cited_doi, cited_pmid, cited_isbn, cited_pub_date = cited_meta
 
+            # Build a flat output row combining OCI, direction, and both sides' PIDs
             processed_rows.append({
                 "oci": oci,
                 "direction": direction,
@@ -370,6 +395,7 @@ for university in universities_to_process:
                 "cited_pub_date": cited_pub_date or "",
             })
 
+            # Feed both citation endpoints into the union-find structure for unique_pids.csv
             register_for_dedup({
                 "omid": citing_omid,
                 "doi": citing_doi or "",
@@ -385,14 +411,17 @@ for university in universities_to_process:
 
             rows_processed += 1
 
+            # Flush buffer periodically to avoid unbounded memory growth
             if len(processed_rows) >= WRITE_CSV_EVERY:
                 append_csv_rows(output_csv, processed_rows, PIDS_FIELDNAMES)
                 processed_rows.clear()
 
+            # Periodic progress log; IRIS CSVs can be many millions of rows
             if rows_read % LOG_EVERY_IRIS_ROWS == 0:
                 print(f"  {university}: {rows_read:,} rows read, "
                       f"{rows_processed:,} processed, {rows_missing:,} missing")
 
+    # Flush any rows still buffered after the loop ends
     append_csv_rows(output_csv, processed_rows, PIDS_FIELDNAMES)
     append_csv_rows(missing_csv, missing_rows, MISSING_FIELDNAMES)
 
@@ -425,10 +454,11 @@ for university in universities_to_process:
 # WRITE unique_pids.csv
 # ==============================================================================
 
-print(f"\nWriting {format_path(UNIQUE_PIDS_OUTPUT)} with {len(pid_groups):,} unique PID groups")
+print(f"\nWriting {UNIQUE_PIDS_OUTPUT.relative_to(DATA_DIR)} with {len(pid_groups):,} unique PID groups")
 
 UNIQUE_PIDS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
+# Sort groups so the output is stable and diffable across runs
 with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
     writer = csv.DictWriter(f, fieldnames=PID_TYPES, lineterminator="\n")
     writer.writeheader()
@@ -439,6 +469,7 @@ with UNIQUE_PIDS_OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
     ):
         writer.writerow(group)
 
+# Capture output size and timing for the companion metadata file
 unique_pids_size = UNIQUE_PIDS_OUTPUT.stat().st_size if UNIQUE_PIDS_OUTPUT.exists() else 0
 unique_pids_metadata = {
     "elapsed_seconds": round(time.monotonic() - phase_3_start, 2),

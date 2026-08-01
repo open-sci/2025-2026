@@ -18,10 +18,10 @@ OMID_ORGANIZATIONS_JSON = DATA_DIR / "iris_openaire_organizations" / "omid_organ
 IRIS_OC_PIDS_CSV_TEMPLATE = DATA_DIR / "iris_oc_pids" / "{university}" / "iris_oc_pids.csv"
 
 OUTPUT_DIR = DATA_DIR / "citation_counts"
-OUTPUT_ORG_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_inbound.csv"
-OUTPUT_ORG_OUTBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_outbound.csv"
-OUTPUT_COUNTRY_INBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_inbound.csv"
-OUTPUT_COUNTRY_OUTBOUND_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_outbound.csv"
+OUTPUT_ORG_INCOMING_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_incoming.csv"
+OUTPUT_ORG_OUTGOING_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_organizations_outgoing.csv"
+OUTPUT_COUNTRY_INCOMING_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_incoming.csv"
+OUTPUT_COUNTRY_OUTGOING_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts_countries_outgoing.csv"
 OUTPUT_METADATA_TEMPLATE = OUTPUT_DIR / "{university}" / "citation_counts.metadata.json"
 
 # Universities to process
@@ -44,85 +44,33 @@ def format_elapsed(t0):
 
 
 def dedup_org_list(organizations):
-    """Deduplicate a per-OMID organizations list by ROR then case-insensitive name+country."""
-    by_ror = {}
-    no_ror = []
+    """Deduplicate a per-OMID organizations list by ROR id.
 
+    The ROR id is the organization's identity, so no name comparison is needed —
+    entries carrying the same ROR id are the same organization.
+    """
+    by_ror = {}
     for org in organizations:
         ror = org.get("ror") or ""
-        if ror:
-            if ror not in by_ror:
-                by_ror[ror] = org
-        else:
-            no_ror.append(org)
+        if ror and ror not in by_ror:
+            by_ror[ror] = org
 
-    by_name = {}
-    for org in by_ror.values():
-        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
-        by_name[key] = org
-
-    for org in no_ror:
-        key = (org.get("legal_name", "").lower(), org.get("country_code", ""))
-        if key not in by_name:
-            by_name[key] = org
-
-    return list(by_name.values())
-
-
-def merge_org_counter(counter):
-    """Merge org counter entries: first by ROR ID, then by case-insensitive name+country."""
-    by_ror = defaultdict(list)
-    no_ror = []
-
-    for key, count in counter.items():
-        ror = key[3]
-        if ror:
-            by_ror[ror].append((key, count))
-        else:
-            no_ror.append((key, count))
-
-    intermediate = []
-    for entries in by_ror.values():
-        total = sum(c for _, c in entries)
-        best_key = max(entries, key=lambda x: x[1])[0]
-        intermediate.append((best_key, total))
-
-    intermediate.extend(no_ror)
-
-    by_name = defaultdict(list)
-    for key, count in intermediate:
-        legal_name, _, country_code = key[0], key[1], key[2]
-        merge_key = (legal_name.lower(), country_code)
-        by_name[merge_key].append((key, count))
-
-    result = Counter()
-    for entries in by_name.values():
-        total = sum(c for _, c in entries)
-        with_ror = [(k, c) for k, c in entries if k[3]]
-        if with_ror:
-            best_key = max(with_ror, key=lambda x: x[1])[0]
-        else:
-            best_key = max(entries, key=lambda x: x[1])[0]
-        result[best_key] = total
-
-    return result
+    return list(by_ror.values())
 
 
 def write_org_csv(path, counter):
     """Write organization counts CSV sorted by count descending."""
-    fieldnames = ["legal_name", "country_name", "country_code",
-                  "ror", "openaire", "count"]
+    fieldnames = ["legal_name", "country_name", "country_code", "ror", "count"]
     with path.open("w", encoding="utf-8", newline="\n") as fh:
         writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for key, count in sorted(counter.items(), key=lambda x: -x[1]):
-            legal_name, country_name, country_code, ror, openaire = key
+            legal_name, country_name, country_code, ror = key
             writer.writerow({
                 "legal_name": legal_name,
                 "country_name": country_name,
                 "country_code": country_code,
                 "ror": ror,
-                "openaire": openaire,
                 "count": count,
             })
 
@@ -152,7 +100,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # Determine which universities still need processing
 universities_to_process = []
 for university in UNIVERSITIES:
-    output_check = Path(str(OUTPUT_ORG_INBOUND_TEMPLATE).format(university=university))
+    output_check = Path(str(OUTPUT_ORG_INCOMING_TEMPLATE).format(university=university))
     input_csv = Path(str(IRIS_OC_PIDS_CSV_TEMPLATE).format(university=university))
     if output_check.exists():
         print(f"! output already exists for {university}, skipping")
@@ -194,13 +142,13 @@ for university in universities_to_process:
             citing = row.get("citing_omid", "").strip()
             cited = row.get("cited_omid", "").strip()
 
-            if direction == "inbound":
-                omid_contributions[citing][(university, "inbound")] += 1
-            elif direction == "outbound":
-                omid_contributions[cited][(university, "outbound")] += 1
+            if direction == "incoming":
+                omid_contributions[citing][(university, "incoming")] += 1
+            elif direction == "outgoing":
+                omid_contributions[cited][(university, "outgoing")] += 1
             elif direction == "internal":
-                omid_contributions[cited][(university, "inbound")] += 1
-                omid_contributions[citing][(university, "outbound")] += 1
+                omid_contributions[cited][(university, "incoming")] += 1
+                omid_contributions[citing][(university, "outgoing")] += 1
 
             if rows_read % LOG_EVERY_CSV == 0:
                 print(f"    {rows_read:,} rows | {format_elapsed(t0)}")
@@ -220,10 +168,10 @@ print("Phase 2 -- streaming omid_organizations.json")
 print("=" * 70)
 
 # Output counters: {university: Counter}
-org_inbound = defaultdict(Counter)
-org_outbound = defaultdict(Counter)
-country_inbound = defaultdict(Counter)
-country_outbound = defaultdict(Counter)
+org_incoming = defaultdict(Counter)
+org_outgoing = defaultdict(Counter)
+country_incoming = defaultdict(Counter)
+country_outgoing = defaultdict(Counter)
 
 scanned = 0
 matched = 0
@@ -252,8 +200,8 @@ with OMID_ORGANIZATIONS_JSON.open("rb") as fh:
         organizations = dedup_org_list(organizations)
 
         for (university, direction), multiplier in omid_contributions[omid].items():
-            oc = org_inbound if direction == "inbound" else org_outbound
-            cc = country_inbound if direction == "inbound" else country_outbound
+            oc = org_incoming if direction == "incoming" else org_outgoing
+            cc = country_incoming if direction == "incoming" else country_outgoing
 
             for org in organizations:
                 org_key = (
@@ -261,7 +209,6 @@ with OMID_ORGANIZATIONS_JSON.open("rb") as fh:
                     org.get("country_name", ""),
                     org.get("country_code", ""),
                     org.get("ror") or "",
-                    org.get("openaire", ""),
                 )
                 oc[university][org_key] += multiplier
 
@@ -280,10 +227,7 @@ not_in_json = len(omid_contributions)
 if not_in_json:
     print(f"  {not_in_json:,} omids from CSVs not found in JSON")
 
-# Merge org counters by ROR then case-insensitive name+country
-for university in universities_to_process:
-    org_inbound[university] = merge_org_counter(org_inbound[university])
-    org_outbound[university] = merge_org_counter(org_outbound[university])
+# No post-hoc merging: every counter key is already identified by its ROR id
 
 # ==============================================================================
 # Phase 3 -- write output files
@@ -295,18 +239,18 @@ print("Phase 3 -- writing output")
 print("=" * 70)
 
 for university in universities_to_process:
-    output_org_in = Path(str(OUTPUT_ORG_INBOUND_TEMPLATE).format(university=university))
-    output_org_out = Path(str(OUTPUT_ORG_OUTBOUND_TEMPLATE).format(university=university))
-    output_country_in = Path(str(OUTPUT_COUNTRY_INBOUND_TEMPLATE).format(university=university))
-    output_country_out = Path(str(OUTPUT_COUNTRY_OUTBOUND_TEMPLATE).format(university=university))
+    output_org_in = Path(str(OUTPUT_ORG_INCOMING_TEMPLATE).format(university=university))
+    output_org_out = Path(str(OUTPUT_ORG_OUTGOING_TEMPLATE).format(university=university))
+    output_country_in = Path(str(OUTPUT_COUNTRY_INCOMING_TEMPLATE).format(university=university))
+    output_country_out = Path(str(OUTPUT_COUNTRY_OUTGOING_TEMPLATE).format(university=university))
     metadata_json = Path(str(OUTPUT_METADATA_TEMPLATE).format(university=university))
 
     output_org_in.parent.mkdir(parents=True, exist_ok=True)
 
-    write_org_csv(output_org_in, org_inbound[university])
-    write_org_csv(output_org_out, org_outbound[university])
-    write_country_csv(output_country_in, country_inbound[university])
-    write_country_csv(output_country_out, country_outbound[university])
+    write_org_csv(output_org_in, org_incoming[university])
+    write_org_csv(output_org_out, org_outgoing[university])
+    write_country_csv(output_country_in, country_incoming[university])
+    write_country_csv(output_country_out, country_outgoing[university])
 
     def file_size(p):
         return p.stat().st_size if p.exists() else 0
@@ -315,20 +259,20 @@ for university in universities_to_process:
         "university": university,
         "ended_at": datetime.now(timezone.utc).isoformat(),
         "rows_read": csv_stats[university],
-        "unique_organizations_inbound": len(org_inbound[university]),
-        "unique_organizations_outbound": len(org_outbound[university]),
-        "unique_countries_inbound": len(country_inbound[university]),
-        "unique_countries_outbound": len(country_outbound[university]),
-        "output_org_inbound_csv_size_bytes": file_size(output_org_in),
-        "output_org_outbound_csv_size_bytes": file_size(output_org_out),
-        "output_country_inbound_csv_size_bytes": file_size(output_country_in),
-        "output_country_outbound_csv_size_bytes": file_size(output_country_out),
+        "unique_organizations_incoming": len(org_incoming[university]),
+        "unique_organizations_outgoing": len(org_outgoing[university]),
+        "unique_countries_incoming": len(country_incoming[university]),
+        "unique_countries_outgoing": len(country_outgoing[university]),
+        "output_org_incoming_csv_size_bytes": file_size(output_org_in),
+        "output_org_outgoing_csv_size_bytes": file_size(output_org_out),
+        "output_country_incoming_csv_size_bytes": file_size(output_country_in),
+        "output_country_outgoing_csv_size_bytes": file_size(output_country_out),
     }
 
     with metadata_json.open("w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
 
-    print(f"  {university}: inbound {len(org_inbound[university]):,} orgs / "
-          f"{len(country_inbound[university]):,} countries, "
-          f"outbound {len(org_outbound[university]):,} orgs / "
-          f"{len(country_outbound[university]):,} countries")
+    print(f"  {university}: incoming {len(org_incoming[university]):,} orgs / "
+          f"{len(country_incoming[university]):,} countries, "
+          f"outgoing {len(org_outgoing[university]):,} orgs / "
+          f"{len(country_outgoing[university]):,} countries")

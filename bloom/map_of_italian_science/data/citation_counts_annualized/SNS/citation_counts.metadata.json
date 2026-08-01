@@ -1,6 +1,6 @@
 {
   "university": "SNS",
-  "ended_at": "2026-05-31T11:54:12.916732+00:00",
+  "ended_at": "2026-07-31T15:05:01.883467+00:00",
   "rows_read": 923963,
   "year_blocks": [
     "2001-2005",
@@ -11,54 +11,54 @@
   ],
   "blocks": {
     "2001-2005": {
-      "unique_organizations_incoming": 3704,
-      "unique_organizations_outgoing": 6844,
-      "unique_countries_incoming": 116,
-      "unique_countries_outgoing": 126,
-      "output_org_incoming_csv_size_bytes": 433285,
-      "output_org_outgoing_csv_size_bytes": 806540,
-      "output_country_incoming_csv_size_bytes": 1816,
-      "output_country_outgoing_csv_size_bytes": 2043
+      "unique_organizations_incoming": 3078,
+      "unique_organizations_outgoing": 5653,
+      "unique_countries_incoming": 106,
+      "unique_countries_outgoing": 114,
+      "output_org_incoming_csv_size_bytes": 226046,
+      "output_org_outgoing_csv_size_bytes": 420599,
+      "output_country_incoming_csv_size_bytes": 1606,
+      "output_country_outgoing_csv_size_bytes": 1776
     },
     "2006-2010": {
-      "unique_organizations_incoming": 6877,
-      "unique_organizations_outgoing": 9398,
-      "unique_countries_incoming": 140,
-      "unique_countries_outgoing": 145,
-      "output_org_incoming_csv_size_bytes": 811328,
-      "output_org_outgoing_csv_size_bytes": 1111510,
-      "output_country_incoming_csv_size_bytes": 2271,
-      "output_country_outgoing_csv_size_bytes": 2366
+      "unique_organizations_incoming": 5718,
+      "unique_organizations_outgoing": 7485,
+      "unique_countries_incoming": 129,
+      "unique_countries_outgoing": 135,
+      "output_org_incoming_csv_size_bytes": 425679,
+      "output_org_outgoing_csv_size_bytes": 562534,
+      "output_country_incoming_csv_size_bytes": 2034,
+      "output_country_outgoing_csv_size_bytes": 2118
     },
     "2011-2015": {
-      "unique_organizations_incoming": 11324,
-      "unique_organizations_outgoing": 11619,
-      "unique_countries_incoming": 157,
-      "unique_countries_outgoing": 156,
-      "output_org_incoming_csv_size_bytes": 1341684,
-      "output_org_outgoing_csv_size_bytes": 1379278,
-      "output_country_incoming_csv_size_bytes": 2623,
-      "output_country_outgoing_csv_size_bytes": 2593
+      "unique_organizations_incoming": 9211,
+      "unique_organizations_outgoing": 9187,
+      "unique_countries_incoming": 150,
+      "unique_countries_outgoing": 142,
+      "output_org_incoming_csv_size_bytes": 690958,
+      "output_org_outgoing_csv_size_bytes": 692752,
+      "output_country_incoming_csv_size_bytes": 2434,
+      "output_country_outgoing_csv_size_bytes": 2292
     },
     "2016-2020": {
-      "unique_organizations_incoming": 18407,
-      "unique_organizations_outgoing": 12404,
-      "unique_countries_incoming": 187,
-      "unique_countries_outgoing": 166,
-      "output_org_incoming_csv_size_bytes": 2190378,
-      "output_org_outgoing_csv_size_bytes": 1474033,
-      "output_country_incoming_csv_size_bytes": 3162,
-      "output_country_outgoing_csv_size_bytes": 2781
+      "unique_organizations_incoming": 14602,
+      "unique_organizations_outgoing": 9836,
+      "unique_countries_incoming": 181,
+      "unique_countries_outgoing": 168,
+      "output_org_incoming_csv_size_bytes": 1106354,
+      "output_org_outgoing_csv_size_bytes": 740446,
+      "output_country_incoming_csv_size_bytes": 2938,
+      "output_country_outgoing_csv_size_bytes": 2709
     },
     "2021-2025": {
-      "unique_organizations_incoming": 20310,
-      "unique_organizations_outgoing": 7476,
-      "unique_countries_incoming": 192,
-      "unique_countries_outgoing": 142,
-      "output_org_incoming_csv_size_bytes": 2429197,
-      "output_org_outgoing_csv_size_bytes": 883644,
-      "output_country_incoming_csv_size_bytes": 3272,
-      "output_country_outgoing_csv_size_bytes": 2381
+      "unique_organizations_incoming": 16345,
+      "unique_organizations_outgoing": 5986,
+      "unique_countries_incoming": 180,
+      "unique_countries_outgoing": 130,
+      "output_org_incoming_csv_size_bytes": 1236410,
+      "output_org_outgoing_csv_size_bytes": 446728,
+      "output_country_incoming_csv_size_bytes": 2930,
+      "output_country_outgoing_csv_size_bytes": 2097
     }
   }
 }
