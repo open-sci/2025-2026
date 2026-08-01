@@ -233,3 +233,33 @@ Data path prefix: `citation_counts/`
 | `<university_name>/citation_counts_countries_outgoing.csv` | Contains the outgoing citation counts for countries for a specific university. |
 | `<university_name>/citation_counts_organizations_incoming.csv` | Contains the incoming citation counts for organizations for a specific university. |
 | `<university_name>/citation_counts_organizations_outgoing.csv` | Contains the outgoing citation counts for organizations for a specific university. |
+
+Two extra counters have been added later: first, to compute the citation counts for the timeframes 2001-2005, 2006-2010, 2011-2015, 2016-2020, 2021-2025.
+
+```bash
+python src/count_citations_annualized.py
+```
+
+Data path prefix: `citation_counts_annualized/`
+
+| file | description |
+|---|---|
+| `<university_name>/citation_counts.metadata.json` | Metadata about the annualized citation counts process for a specific university. |
+| `<university_name>/<time_period>/citation_counts_countries_incoming.csv` | Incoming annualized citation counts for countries for a specific university for a specific time period. |
+| `<university_name>/<time_period>/citation_counts_countries_outgoing.csv` | Outgoing annualized citation counts for countries for a specific university for a specific time period. |
+| `<university_name>/<time_period>/citation_counts_organizations_incoming.csv` | Incoming annualized citation counts for organizations for a specific university for a specific time period. |
+| `<university_name>/<time_period>/citation_counts_organizations_outgoing.csv` | Outgoing annualized citation counts for organizations for a specific university for a specific time period. |
+
+Second, to compute the top cited papers globally and per-university.
+
+```bash
+python src/top_cited.py
+```
+
+Data path prefix: `top_cited/`
+
+| file | description |
+|---|---|
+| `top_cited_combined.csv` | Most cited publications across all universities. |
+| `top_cited_<university_name>.csv` | Most cited publications for a specific university. |
+| `top_cited.metadata.json` | Metadata about the top cited calculation process. |
