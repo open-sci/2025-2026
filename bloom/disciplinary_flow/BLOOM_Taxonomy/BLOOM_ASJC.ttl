@@ -1,0 +1,2475 @@
+@prefix bloom: <https://w3id.org/bloom/taxonomy/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+bloom:ASJC a skos:ConceptScheme;
+    skos:prefLabel "All Science Journal Classification" ;
+    skos:note "This concept scheme provides semantic description for the ASJC subjects provided by Scopus.";
+    skos:hasTopConcept bloom:ASJC10,
+        bloom:ASJC11,
+        bloom:ASJC12,
+        bloom:ASJC13,
+        bloom:ASJC14,
+        bloom:ASJC15,
+        bloom:ASJC16,
+        bloom:ASJC17,
+        bloom:ASJC18,
+        bloom:ASJC19,
+        bloom:ASJC20,
+        bloom:ASJC21,
+        bloom:ASJC22,
+        bloom:ASJC23,
+        bloom:ASJC24,
+        bloom:ASJC25,
+        bloom:ASJC26,
+        bloom:ASJC27,
+        bloom:ASJC28,
+        bloom:ASJC29,
+        bloom:ASJC30,
+        bloom:ASJC31,
+        bloom:ASJC32,
+        bloom:ASJC33,
+        bloom:ASJC34,
+        bloom:ASJC35,
+        bloom:ASJC36 ;
+        rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC10 a skos:Concept ;
+    skos:prefLabel "Multidisciplinary" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1000 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1000 a skos:Concept ;
+    skos:prefLabel "Multidisciplinary" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC10 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC11 a skos:Concept ;
+    skos:prefLabel "Agricultural and Biological Sciences" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1100 ,
+        bloom:ASJC1101 ,
+        bloom:ASJC1102 ,
+        bloom:ASJC1103 ,
+        bloom:ASJC1104 ,
+        bloom:ASJC1105 ,
+        bloom:ASJC1106 ,
+        bloom:ASJC1107 ,
+        bloom:ASJC1108 ,
+        bloom:ASJC1109 ,
+        bloom:ASJC1110 ,
+        bloom:ASJC1111 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1100 a skos:Concept ;
+    skos:prefLabel "General Agricultural and Biological Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1101 a skos:Concept ;
+    skos:prefLabel "Agricultural and Biological Sciences (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1102 a skos:Concept ;
+    skos:prefLabel "Agronomy and Crop Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1103 a skos:Concept ;
+    skos:prefLabel "Animal Science and Zoology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1104 a skos:Concept ;
+    skos:prefLabel "Aquatic Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1105 a skos:Concept ;
+    skos:prefLabel "Ecology, Evolution, Behavior and Systematics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1106 a skos:Concept ;
+    skos:prefLabel "Food Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1107 a skos:Concept ;
+    skos:prefLabel "Forestry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1108 a skos:Concept ;
+    skos:prefLabel "Horticulture" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1109 a skos:Concept ;
+    skos:prefLabel "Insect Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1110 a skos:Concept ;
+    skos:prefLabel "Plant Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1111 a skos:Concept ;
+    skos:prefLabel "Soil Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC11 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC12 a skos:Concept ;
+    skos:prefLabel "Arts and Humanities" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1200 ,
+        bloom:ASJC1201 ,
+        bloom:ASJC1202 ,
+        bloom:ASJC1203 ,
+        bloom:ASJC1205 ,
+        bloom:ASJC1206 ,
+        bloom:ASJC1207 ,
+        bloom:ASJC1208 ,
+        bloom:ASJC1209 ,
+        bloom:ASJC1210 ,
+        bloom:ASJC1211 ,
+        bloom:ASJC1212 ,
+        bloom:ASJC1213 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1200 a skos:Concept ;
+    skos:prefLabel "General Arts and Humanities" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1201 a skos:Concept ;
+    skos:prefLabel "Arts and Humanities (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1202 a skos:Concept ;
+    skos:prefLabel "History" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1203 a skos:Concept ;
+    skos:prefLabel "Language and Linguistics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1205 a skos:Concept ;
+    skos:prefLabel "Classics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1206 a skos:Concept ;
+    skos:prefLabel "Conservation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1207 a skos:Concept ;
+    skos:prefLabel "History and Philosophy of Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1208 a skos:Concept ;
+    skos:prefLabel "Literature and Literary Theory" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1209 a skos:Concept ;
+    skos:prefLabel "Museology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1210 a skos:Concept ;
+    skos:prefLabel "Music" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1211 a skos:Concept ;
+    skos:prefLabel "Philosophy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1212 a skos:Concept ;
+    skos:prefLabel "Religious Studies" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1213 a skos:Concept ;
+    skos:prefLabel "Visual Arts and Performing Arts" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC12 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC13 a skos:Concept ;
+    skos:prefLabel "Biochemistry, Genetics and Molecular Biology" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1300 ,
+        bloom:ASJC1301 ,
+        bloom:ASJC1302 ,
+        bloom:ASJC1303 ,
+        bloom:ASJC1304 ,
+        bloom:ASJC1305 ,
+        bloom:ASJC1306 ,
+        bloom:ASJC1307 ,
+        bloom:ASJC1308 ,
+        bloom:ASJC1309 ,
+        bloom:ASJC1310 ,
+        bloom:ASJC1311 ,
+        bloom:ASJC1312 ,
+        bloom:ASJC1313 ,
+        bloom:ASJC1314 ,
+        bloom:ASJC1315 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1300 a skos:Concept ;
+    skos:prefLabel "General Biochemistry, Genetics and Molecular Biology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1301 a skos:Concept ;
+    skos:prefLabel "Biochemistry, Genetics and Molecular Biology (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1302 a skos:Concept ;
+    skos:prefLabel "Ageing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1303 a skos:Concept ;
+    skos:prefLabel "Biochemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1304 a skos:Concept ;
+    skos:prefLabel "Biophysics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1305 a skos:Concept ;
+    skos:prefLabel "Biotechnology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1306 a skos:Concept ;
+    skos:prefLabel "Cancer Research" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1307 a skos:Concept ;
+    skos:prefLabel "Cell Biology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1308 a skos:Concept ;
+    skos:prefLabel "Clinical Biochemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1309 a skos:Concept ;
+    skos:prefLabel "Developmental Biology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1310 a skos:Concept ;
+    skos:prefLabel "Endocrinology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1311 a skos:Concept ;
+    skos:prefLabel "Genetics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1312 a skos:Concept ;
+    skos:prefLabel "Molecular Biology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1313 a skos:Concept ;
+    skos:prefLabel "Molecular Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1314 a skos:Concept ;
+    skos:prefLabel "Physiology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1315 a skos:Concept ;
+    skos:prefLabel "Structural Biology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC13 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC14 a skos:Concept ;
+    skos:prefLabel "Business" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1400 ,
+        bloom:ASJC1401 ,
+        bloom:ASJC1402 ,
+        bloom:ASJC1403 ,
+        bloom:ASJC1404 ,
+        bloom:ASJC1405 ,
+        bloom:ASJC1406 ,
+        bloom:ASJC1407 ,
+        bloom:ASJC1408 ,
+        bloom:ASJC1409 ,
+        bloom:ASJC1410 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1400 a skos:Concept ;
+    skos:prefLabel "General Business, Management and Accounting" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1401 a skos:Concept ;
+    skos:prefLabel "Business, Management and Accounting (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1402 a skos:Concept ;
+    skos:prefLabel "Accounting" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1403 a skos:Concept ;
+    skos:prefLabel "Business and International Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1404 a skos:Concept ;
+    skos:prefLabel "Management Information Systems" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1405 a skos:Concept ;
+    skos:prefLabel "Management of Technology and Innovation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1406 a skos:Concept ;
+    skos:prefLabel "Marketing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1407 a skos:Concept ;
+    skos:prefLabel "Organizational Behavior and Human Resource Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1408 a skos:Concept ;
+    skos:prefLabel "Strategy and Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1409 a skos:Concept ;
+    skos:prefLabel "Tourism, Leisure and Hospitality Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1410 a skos:Concept ;
+    skos:prefLabel "Industrial Relations" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC14 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC15 a skos:Concept ;
+    skos:prefLabel "Chemical Engineering" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1500 ,
+        bloom:ASJC1501 ,
+        bloom:ASJC1502 ,
+        bloom:ASJC1503 ,
+        bloom:ASJC1504 ,
+        bloom:ASJC1505 ,
+        bloom:ASJC1506 ,
+        bloom:ASJC1507 ,
+        bloom:ASJC1508 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1500 a skos:Concept ;
+    skos:prefLabel "General Chemical Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1501 a skos:Concept ;
+    skos:prefLabel "Chemical Engineering (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1502 a skos:Concept ;
+    skos:prefLabel "Bioengineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1503 a skos:Concept ;
+    skos:prefLabel "Catalysis" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1504 a skos:Concept ;
+    skos:prefLabel "Chemical Health and Safety" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1505 a skos:Concept ;
+    skos:prefLabel "Colloid and Surface Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1506 a skos:Concept ;
+    skos:prefLabel "Filtration and Separation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1507 a skos:Concept ;
+    skos:prefLabel "Fluid Flow and Transfer Processes" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1508 a skos:Concept ;
+    skos:prefLabel "Process Chemistry and Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC15 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC16 a skos:Concept ;
+    skos:prefLabel "Chemistry" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1600 ,
+        bloom:ASJC1601 ,
+        bloom:ASJC1602 ,
+        bloom:ASJC1603 ,
+        bloom:ASJC1604 ,
+        bloom:ASJC1605 ,
+        bloom:ASJC1606 ,
+        bloom:ASJC1607 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1600 a skos:Concept ;
+    skos:prefLabel "General Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1601 a skos:Concept ;
+    skos:prefLabel "Chemistry (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1602 a skos:Concept ;
+    skos:prefLabel "Analytical Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1603 a skos:Concept ;
+    skos:prefLabel "Electrochemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1604 a skos:Concept ;
+    skos:prefLabel "Inorganic Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1605 a skos:Concept ;
+    skos:prefLabel "Organic Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1606 a skos:Concept ;
+    skos:prefLabel "Physical and Theoretical Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1607 a skos:Concept ;
+    skos:prefLabel "Spectroscopy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC16 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC17 a skos:Concept ;
+    skos:prefLabel "Computer Science" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1700 ,
+        bloom:ASJC1701 ,
+        bloom:ASJC1702 ,
+        bloom:ASJC1703 ,
+        bloom:ASJC1704 ,
+        bloom:ASJC1705 ,
+        bloom:ASJC1706 ,
+        bloom:ASJC1707 ,
+        bloom:ASJC1708 ,
+        bloom:ASJC1709 ,
+        bloom:ASJC1710 ,
+        bloom:ASJC1711 ,
+        bloom:ASJC1712 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1700 a skos:Concept ;
+    skos:prefLabel "General Computer Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1701 a skos:Concept ;
+    skos:prefLabel "Computer Science (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1702 a skos:Concept ;
+    skos:prefLabel "Artificial Intelligence" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1703 a skos:Concept ;
+    skos:prefLabel "Computational Theory and Mathematics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1704 a skos:Concept ;
+    skos:prefLabel "Computer Graphics and Computer-Aided Design" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1705 a skos:Concept ;
+    skos:prefLabel "Computer Networks and Communications" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1706 a skos:Concept ;
+    skos:prefLabel "Computer Science Applications" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1707 a skos:Concept ;
+    skos:prefLabel "Computer Vision and Pattern Recognition" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1708 a skos:Concept ;
+    skos:prefLabel "Hardware and Architecture" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1709 a skos:Concept ;
+    skos:prefLabel "Human-Computer Interaction" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1710 a skos:Concept ;
+    skos:prefLabel "Information Systems" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1711 a skos:Concept ;
+    skos:prefLabel "Signal Processing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1712 a skos:Concept ;
+    skos:prefLabel "Software" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC17 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC18 a skos:Concept ;
+    skos:prefLabel "Decision Sciences" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1800 ,
+        bloom:ASJC1801 ,
+        bloom:ASJC1802 ,
+        bloom:ASJC1803 ,
+        bloom:ASJC1804 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1800 a skos:Concept ;
+    skos:prefLabel "General Decision Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC18 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1801 a skos:Concept ;
+    skos:prefLabel "Decision Sciences (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC18 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1802 a skos:Concept ;
+    skos:prefLabel "Information Systems and Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC18 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1803 a skos:Concept ;
+    skos:prefLabel "Management Science and Operations Research" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC18 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1804 a skos:Concept ;
+    skos:prefLabel "Statistics, Probability and Uncertainty" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC18 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC19 a skos:Concept ;
+    skos:prefLabel "Earth and Planetary Sciences" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC1900 ,
+        bloom:ASJC1901 ,
+        bloom:ASJC1902 ,
+        bloom:ASJC1903 ,
+        bloom:ASJC1904 ,
+        bloom:ASJC1905 ,
+        bloom:ASJC1906 ,
+        bloom:ASJC1907 ,
+        bloom:ASJC1908 ,
+        bloom:ASJC1909 ,
+        bloom:ASJC1910 ,
+        bloom:ASJC1911 ,
+        bloom:ASJC1912 ,
+        bloom:ASJC1913 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC1900 a skos:Concept ;
+    skos:prefLabel "General Earth and Planetary Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1901 a skos:Concept ;
+    skos:prefLabel "Earth and Planetary Sciences (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1902 a skos:Concept ;
+    skos:prefLabel "Atmospheric Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1903 a skos:Concept ;
+    skos:prefLabel "Computers in Earth Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1904 a skos:Concept ;
+    skos:prefLabel "Earth-Surface Processes" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1905 a skos:Concept ;
+    skos:prefLabel "Economic Geology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1906 a skos:Concept ;
+    skos:prefLabel "Geochemistry and Petrology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1907 a skos:Concept ;
+    skos:prefLabel "Geology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1908 a skos:Concept ;
+    skos:prefLabel "Geophysics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1909 a skos:Concept ;
+    skos:prefLabel "Geotechnical Engineering and Engineering Geology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1910 a skos:Concept ;
+    skos:prefLabel "Oceanography" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1911 a skos:Concept ;
+    skos:prefLabel "Paleontology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1912 a skos:Concept ;
+    skos:prefLabel "Space and Planetary Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC1913 a skos:Concept ;
+    skos:prefLabel "Stratigraphy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC19 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC20 a skos:Concept ;
+    skos:prefLabel "Economics, Econometrics and Finance" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2000 ,
+        bloom:ASJC2001 ,
+        bloom:ASJC2002 ,
+        bloom:ASJC2003 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2000 a skos:Concept ;
+    skos:prefLabel "General Economics, Econometrics and Finance" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC20 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2001 a skos:Concept ;
+    skos:prefLabel "Economics, Econometrics and Finance (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC20 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2002 a skos:Concept ;
+    skos:prefLabel "Economics and Econometrics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC20 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2003 a skos:Concept ;
+    skos:prefLabel "Finance" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC20 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC21 a skos:Concept ;
+    skos:prefLabel "Energy" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2100 ,
+        bloom:ASJC2101 ,
+        bloom:ASJC2102 ,
+        bloom:ASJC2103 ,
+        bloom:ASJC2104 ,
+        bloom:ASJC2105 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2100 a skos:Concept ;
+    skos:prefLabel "General Energy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2101 a skos:Concept ;
+    skos:prefLabel "Energy (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2102 a skos:Concept ;
+    skos:prefLabel "Energy Engineering and Power Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2103 a skos:Concept ;
+    skos:prefLabel "Fuel Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2104 a skos:Concept ;
+    skos:prefLabel "Nuclear Energy and Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2105 a skos:Concept ;
+    skos:prefLabel "Renewable Energy, Sustainability and the Environment" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC21 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC22 a skos:Concept ;
+    skos:prefLabel "Engineering" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2200 ,
+        bloom:ASJC2201 ,
+        bloom:ASJC2202 ,
+        bloom:ASJC2203 ,
+        bloom:ASJC2204 ,
+        bloom:ASJC2205 ,
+        bloom:ASJC2206 ,
+        bloom:ASJC2207 ,
+        bloom:ASJC2208 ,
+        bloom:ASJC2209 ,
+        bloom:ASJC2210 ,
+        bloom:ASJC2211 ,
+        bloom:ASJC2212 ,
+        bloom:ASJC2213 ,
+        bloom:ASJC2214 ,
+        bloom:ASJC2215 ,
+        bloom:ASJC2216 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2200 a skos:Concept ;
+    skos:prefLabel "General Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2201 a skos:Concept ;
+    skos:prefLabel "Engineering (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2202 a skos:Concept ;
+    skos:prefLabel "Aerospace Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2203 a skos:Concept ;
+    skos:prefLabel "Automotive Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2204 a skos:Concept ;
+    skos:prefLabel "Biomedical Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2205 a skos:Concept ;
+    skos:prefLabel "Civil and Structural Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2206 a skos:Concept ;
+    skos:prefLabel "Computational Mechanics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2207 a skos:Concept ;
+    skos:prefLabel "Control and Systems Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2208 a skos:Concept ;
+    skos:prefLabel "Electrical and Electronic Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2209 a skos:Concept ;
+    skos:prefLabel "Industrial and Manufacturing Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2210 a skos:Concept ;
+    skos:prefLabel "Mechanical Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2211 a skos:Concept ;
+    skos:prefLabel "Mechanics of Materials" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2212 a skos:Concept ;
+    skos:prefLabel "Ocean Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2213 a skos:Concept ;
+    skos:prefLabel "Safety, Risk, Reliability and Quality" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2214 a skos:Concept ;
+    skos:prefLabel "Media Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2215 a skos:Concept ;
+    skos:prefLabel "Building and Construction" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2216 a skos:Concept ;
+    skos:prefLabel "Architecture" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC22 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC23 a skos:Concept ;
+    skos:prefLabel "Environmental Science" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2300 ,
+        bloom:ASJC2301 ,
+        bloom:ASJC2302 ,
+        bloom:ASJC2303 ,
+        bloom:ASJC2304 ,
+        bloom:ASJC2305 ,
+        bloom:ASJC2306 ,
+        bloom:ASJC2307 ,
+        bloom:ASJC2308 ,
+        bloom:ASJC2309 ,
+        bloom:ASJC2310 ,
+        bloom:ASJC2311 ,
+        bloom:ASJC2312 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2300 a skos:Concept ;
+    skos:prefLabel "General Environmental Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2301 a skos:Concept ;
+    skos:prefLabel "Environmental Science (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2302 a skos:Concept ;
+    skos:prefLabel "Ecological Modelling" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2303 a skos:Concept ;
+    skos:prefLabel "Ecology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2304 a skos:Concept ;
+    skos:prefLabel "Environmental Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2305 a skos:Concept ;
+    skos:prefLabel "Environmental Engineering" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2306 a skos:Concept ;
+    skos:prefLabel "Global and Planetary Change" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2307 a skos:Concept ;
+    skos:prefLabel "Health, Toxicology and Mutagenesis" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2308 a skos:Concept ;
+    skos:prefLabel "Management, Monitoring, Policy and Law" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2309 a skos:Concept ;
+    skos:prefLabel "Nature and Landscape Conservation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2310 a skos:Concept ;
+    skos:prefLabel "Pollution" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2311 a skos:Concept ;
+    skos:prefLabel "Waste Management and Disposal" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2312 a skos:Concept ;
+    skos:prefLabel "Water Science and Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC23 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC24 a skos:Concept ;
+    skos:prefLabel "Immunology and Microbiology" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2400 ,
+        bloom:ASJC2401 ,
+        bloom:ASJC2402 ,
+        bloom:ASJC2403 ,
+        bloom:ASJC2404 ,
+        bloom:ASJC2405 ,
+        bloom:ASJC2406 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2400 a skos:Concept ;
+    skos:prefLabel "General Immunology and Microbiology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2401 a skos:Concept ;
+    skos:prefLabel "Immunology and Microbiology (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2402 a skos:Concept ;
+    skos:prefLabel "Applied Microbiology and Biotechnology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2403 a skos:Concept ;
+    skos:prefLabel "Immunology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2404 a skos:Concept ;
+    skos:prefLabel "Microbiology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2405 a skos:Concept ;
+    skos:prefLabel "Parasitology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2406 a skos:Concept ;
+    skos:prefLabel "Virology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC24 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC25 a skos:Concept ;
+    skos:prefLabel "Materials Science" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2500 ,
+        bloom:ASJC2501 ,
+        bloom:ASJC2502 ,
+        bloom:ASJC2503 ,
+        bloom:ASJC2504 ,
+        bloom:ASJC2505 ,
+        bloom:ASJC2506 ,
+        bloom:ASJC2507 ,
+        bloom:ASJC2508 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2500 a skos:Concept ;
+    skos:prefLabel "General Materials Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2501 a skos:Concept ;
+    skos:prefLabel "Materials Science (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2502 a skos:Concept ;
+    skos:prefLabel "Biomaterials" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2503 a skos:Concept ;
+    skos:prefLabel "Ceramics and Composites" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2504 a skos:Concept ;
+    skos:prefLabel "Electronic, Optical and Magnetic Materials" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2505 a skos:Concept ;
+    skos:prefLabel "Materials Chemistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2506 a skos:Concept ;
+    skos:prefLabel "Metals and Alloys" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2507 a skos:Concept ;
+    skos:prefLabel "Polymers and Plastics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2508 a skos:Concept ;
+    skos:prefLabel "Surfaces, Coatings and Films" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC25 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC26 a skos:Concept ;
+    skos:prefLabel "Mathematics" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2600 ,
+        bloom:ASJC2601 ,
+        bloom:ASJC2602 ,
+        bloom:ASJC2603 ,
+        bloom:ASJC2604 ,
+        bloom:ASJC2605 ,
+        bloom:ASJC2606 ,
+        bloom:ASJC2607 ,
+        bloom:ASJC2608 ,
+        bloom:ASJC2609 ,
+        bloom:ASJC2610 ,
+        bloom:ASJC2611 ,
+        bloom:ASJC2612 ,
+        bloom:ASJC2613 ,
+        bloom:ASJC2614 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2600 a skos:Concept ;
+    skos:prefLabel "General Mathematics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2601 a skos:Concept ;
+    skos:prefLabel "Mathematics (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2602 a skos:Concept ;
+    skos:prefLabel "Algebra and Number Theory" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2603 a skos:Concept ;
+    skos:prefLabel "Analysis" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2604 a skos:Concept ;
+    skos:prefLabel "Applied Mathematics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2605 a skos:Concept ;
+    skos:prefLabel "Computational Mathematics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2606 a skos:Concept ;
+    skos:prefLabel "Control and Optimization" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2607 a skos:Concept ;
+    skos:prefLabel "Discrete Mathematics and Combinatorics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2608 a skos:Concept ;
+    skos:prefLabel "Geometry and Topology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2609 a skos:Concept ;
+    skos:prefLabel "Logic" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2610 a skos:Concept ;
+    skos:prefLabel "Mathematical Physics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2611 a skos:Concept ;
+    skos:prefLabel "Modelling and Simulation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2612 a skos:Concept ;
+    skos:prefLabel "Numerical Analysis" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2613 a skos:Concept ;
+    skos:prefLabel "Statistics and Probability" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2614 a skos:Concept ;
+    skos:prefLabel "Theoretical Computer Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC26 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC27 a skos:Concept ;
+    skos:prefLabel "Medicine" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2700 ,
+        bloom:ASJC2701 ,
+        bloom:ASJC2702 ,
+        bloom:ASJC2703 ,
+        bloom:ASJC2704 ,
+        bloom:ASJC2705 ,
+        bloom:ASJC2706 ,
+        bloom:ASJC2707 ,
+        bloom:ASJC2708 ,
+        bloom:ASJC2709 ,
+        bloom:ASJC2710 ,
+        bloom:ASJC2711 ,
+        bloom:ASJC2712 ,
+        bloom:ASJC2713 ,
+        bloom:ASJC2714 ,
+        bloom:ASJC2715 ,
+        bloom:ASJC2716 ,
+        bloom:ASJC2717 ,
+        bloom:ASJC2718 ,
+        bloom:ASJC2719 ,
+        bloom:ASJC2720 ,
+        bloom:ASJC2721 ,
+        bloom:ASJC2722 ,
+        bloom:ASJC2723 ,
+        bloom:ASJC2724 ,
+        bloom:ASJC2725 ,
+        bloom:ASJC2726 ,
+        bloom:ASJC2727 ,
+        bloom:ASJC2728 ,
+        bloom:ASJC2729 ,
+        bloom:ASJC2730 ,
+        bloom:ASJC2731 ,
+        bloom:ASJC2732 ,
+        bloom:ASJC2733 ,
+        bloom:ASJC2734 ,
+        bloom:ASJC2735 ,
+        bloom:ASJC2736 ,
+        bloom:ASJC2737 ,
+        bloom:ASJC2738 ,
+        bloom:ASJC2739 ,
+        bloom:ASJC2740 ,
+        bloom:ASJC2741 ,
+        bloom:ASJC2742 ,
+        bloom:ASJC2743 ,
+        bloom:ASJC2744 ,
+        bloom:ASJC2745 ,
+        bloom:ASJC2746 ,
+        bloom:ASJC2747 ,
+        bloom:ASJC2748 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2700 a skos:Concept ;
+    skos:prefLabel "General Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2701 a skos:Concept ;
+    skos:prefLabel "Medicine (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2702 a skos:Concept ;
+    skos:prefLabel "Anatomy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2703 a skos:Concept ;
+    skos:prefLabel "Anesthesiology and Pain Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2704 a skos:Concept ;
+    skos:prefLabel "Biochemistry (medical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2705 a skos:Concept ;
+    skos:prefLabel "Cardiology and Cardiovascular Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2706 a skos:Concept ;
+    skos:prefLabel "Critical Care and Intensive Care Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2707 a skos:Concept ;
+    skos:prefLabel "Complementary and Alternative Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2708 a skos:Concept ;
+    skos:prefLabel "Dermatology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2709 a skos:Concept ;
+    skos:prefLabel "Drug Guides" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2710 a skos:Concept ;
+    skos:prefLabel "Embryology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2711 a skos:Concept ;
+    skos:prefLabel "Emergency Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2712 a skos:Concept ;
+    skos:prefLabel "Endocrinology, Diabetes and Metabolism" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2713 a skos:Concept ;
+    skos:prefLabel "Epidemiology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2714 a skos:Concept ;
+    skos:prefLabel "Family Practice" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2715 a skos:Concept ;
+    skos:prefLabel "Gastroenterology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2716 a skos:Concept ;
+    skos:prefLabel "Genetics (clinical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2717 a skos:Concept ;
+    skos:prefLabel "Geriatrics and Gerontology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2718 a skos:Concept ;
+    skos:prefLabel "Health Informatics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2719 a skos:Concept ;
+    skos:prefLabel "Health Policy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2720 a skos:Concept ;
+    skos:prefLabel "Hematology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2721 a skos:Concept ;
+    skos:prefLabel "Hepatology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2722 a skos:Concept ;
+    skos:prefLabel "Histology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2723 a skos:Concept ;
+    skos:prefLabel "Immunology and Allergy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2724 a skos:Concept ;
+    skos:prefLabel "Internal Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2725 a skos:Concept ;
+    skos:prefLabel "Infectious Diseases" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2726 a skos:Concept ;
+    skos:prefLabel "Microbiology (medical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2727 a skos:Concept ;
+    skos:prefLabel "Nephrology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2728 a skos:Concept ;
+    skos:prefLabel "Neurology (clinical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2729 a skos:Concept ;
+    skos:prefLabel "Obstetrics and Gynaecology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2730 a skos:Concept ;
+    skos:prefLabel "Oncology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2731 a skos:Concept ;
+    skos:prefLabel "Ophthalmology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2732 a skos:Concept ;
+    skos:prefLabel "Orthopedics and Sports Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2733 a skos:Concept ;
+    skos:prefLabel "Otorhinolaryngology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2734 a skos:Concept ;
+    skos:prefLabel "Pathology and Forensic Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2735 a skos:Concept ;
+    skos:prefLabel "Pediatrics, Perinatology, and Child Health" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2736 a skos:Concept ;
+    skos:prefLabel "Pharmacology (medical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2737 a skos:Concept ;
+    skos:prefLabel "Physiology (medical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2738 a skos:Concept ;
+    skos:prefLabel "Psychiatry and Mental Health" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2739 a skos:Concept ;
+    skos:prefLabel "Public Health, Environmental and Occupational Health" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2740 a skos:Concept ;
+    skos:prefLabel "Pulmonary and Respiratory Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2741 a skos:Concept ;
+    skos:prefLabel "Radiology Nuclear Medicine and imaging" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2742 a skos:Concept ;
+    skos:prefLabel "Rehabilitation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2743 a skos:Concept ;
+    skos:prefLabel "Reproductive Medicine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2744 a skos:Concept ;
+    skos:prefLabel "Reviews and References (medical)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2745 a skos:Concept ;
+    skos:prefLabel "Rheumatology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2746 a skos:Concept ;
+    skos:prefLabel "Surgery" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2747 a skos:Concept ;
+    skos:prefLabel "Transplantation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2748 a skos:Concept ;
+    skos:prefLabel "Urology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC27 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC28 a skos:Concept ;
+    skos:prefLabel "Neuroscience" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2800 ,
+        bloom:ASJC2801 ,
+        bloom:ASJC2802 ,
+        bloom:ASJC2803 ,
+        bloom:ASJC2804 ,
+        bloom:ASJC2805 ,
+        bloom:ASJC2806 ,
+        bloom:ASJC2807 ,
+        bloom:ASJC2808 ,
+        bloom:ASJC2809 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2800 a skos:Concept ;
+    skos:prefLabel "General Neuroscience" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2801 a skos:Concept ;
+    skos:prefLabel "Neuroscience (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2802 a skos:Concept ;
+    skos:prefLabel "Behavioral Neuroscience" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2803 a skos:Concept ;
+    skos:prefLabel "Biological Psychiatry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2804 a skos:Concept ;
+    skos:prefLabel "Cellular and Molecular Neuroscience" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2805 a skos:Concept ;
+    skos:prefLabel "Cognitive Neuroscience" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2806 a skos:Concept ;
+    skos:prefLabel "Developmental Neuroscience" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2807 a skos:Concept ;
+    skos:prefLabel "Endocrine and Autonomic Systems" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2808 a skos:Concept ;
+    skos:prefLabel "Neurology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2809 a skos:Concept ;
+    skos:prefLabel "Sensory Systems" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC28 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC29 a skos:Concept ;
+    skos:prefLabel "Nursing" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC2900 ,
+        bloom:ASJC2901 ,
+        bloom:ASJC2902 ,
+        bloom:ASJC2903 ,
+        bloom:ASJC2904 ,
+        bloom:ASJC2905 ,
+        bloom:ASJC2906 ,
+        bloom:ASJC2907 ,
+        bloom:ASJC2908 ,
+        bloom:ASJC2909 ,
+        bloom:ASJC2910 ,
+        bloom:ASJC2911 ,
+        bloom:ASJC2912 ,
+        bloom:ASJC2913 ,
+        bloom:ASJC2914 ,
+        bloom:ASJC2915 ,
+        bloom:ASJC2916 ,
+        bloom:ASJC2917 ,
+        bloom:ASJC2918 ,
+        bloom:ASJC2919 ,
+        bloom:ASJC2920 ,
+        bloom:ASJC2921 ,
+        bloom:ASJC2922 ,
+        bloom:ASJC2923 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC2900 a skos:Concept ;
+    skos:prefLabel "General Nursing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2901 a skos:Concept ;
+    skos:prefLabel "Nursing (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2902 a skos:Concept ;
+    skos:prefLabel "Advanced and Specialised Nursing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2903 a skos:Concept ;
+    skos:prefLabel "Assessment and Diagnosis" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2904 a skos:Concept ;
+    skos:prefLabel "Care Planning" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2905 a skos:Concept ;
+    skos:prefLabel "Community and Home Care" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2906 a skos:Concept ;
+    skos:prefLabel "Critical Care Nursing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2907 a skos:Concept ;
+    skos:prefLabel "Emergency Nursing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2908 a skos:Concept ;
+    skos:prefLabel "Fundamentals and Skills" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2909 a skos:Concept ;
+    skos:prefLabel "Gerontology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2910 a skos:Concept ;
+    skos:prefLabel "Issues, ethics and legal aspects" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2911 a skos:Concept ;
+    skos:prefLabel "Leadership and Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2912 a skos:Concept ;
+    skos:prefLabel "LPN and LVN" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2913 a skos:Concept ;
+    skos:prefLabel "Maternity and Midwifery" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2914 a skos:Concept ;
+    skos:prefLabel "Medical and Surgical Nursing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2915 a skos:Concept ;
+    skos:prefLabel "Nurse Assisting" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2916 a skos:Concept ;
+    skos:prefLabel "Nutrition and Dietetics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2917 a skos:Concept ;
+    skos:prefLabel "Oncology (nursing)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2918 a skos:Concept ;
+    skos:prefLabel "Pathophysiology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2919 a skos:Concept ;
+    skos:prefLabel "Pediatrics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2920 a skos:Concept ;
+    skos:prefLabel "Pharmacology (nursing)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2921 a skos:Concept ;
+    skos:prefLabel "Psychiatric Mental Health" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2922 a skos:Concept ;
+    skos:prefLabel "Research and Theory" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC2923 a skos:Concept ;
+    skos:prefLabel "Review and Exam Preparation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC29 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC30 a skos:Concept ;
+    skos:prefLabel "Pharmacology, Toxicology and Pharmaceutics" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3000 ,
+        bloom:ASJC3001 ,
+        bloom:ASJC3002 ,
+        bloom:ASJC3003 ,
+        bloom:ASJC3004 ,
+        bloom:ASJC3005 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3000 a skos:Concept ;
+    skos:prefLabel "General Pharmacology, Toxicology and Pharmaceutics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3001 a skos:Concept ;
+    skos:prefLabel "Pharmacology, Toxicology and Pharmaceutics (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3002 a skos:Concept ;
+    skos:prefLabel "Drug Discovery" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3003 a skos:Concept ;
+    skos:prefLabel "Pharmaceutical Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3004 a skos:Concept ;
+    skos:prefLabel "Pharmacology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3005 a skos:Concept ;
+    skos:prefLabel "Toxicology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC30 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC31 a skos:Concept ;
+    skos:prefLabel "Physics and Astronomy" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3100 ,
+        bloom:ASJC3101 ,
+        bloom:ASJC3102 ,
+        bloom:ASJC3103 ,
+        bloom:ASJC3104 ,
+        bloom:ASJC3105 ,
+        bloom:ASJC3106 ,
+        bloom:ASJC3107 ,
+        bloom:ASJC3108 ,
+        bloom:ASJC3109 ,
+        bloom:ASJC3110 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3100 a skos:Concept ;
+    skos:prefLabel "General Physics and Astronomy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3101 a skos:Concept ;
+    skos:prefLabel "Physics and Astronomy (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3102 a skos:Concept ;
+    skos:prefLabel "Acoustics and Ultrasonics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3103 a skos:Concept ;
+    skos:prefLabel "Astronomy and Astrophysics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3104 a skos:Concept ;
+    skos:prefLabel "Condensed Matter Physics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3105 a skos:Concept ;
+    skos:prefLabel "Instrumentation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3106 a skos:Concept ;
+    skos:prefLabel "Nuclear and High Energy Physics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3107 a skos:Concept ;
+    skos:prefLabel "Atomic and Molecular Physics, and Optics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3108 a skos:Concept ;
+    skos:prefLabel "Radiation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3109 a skos:Concept ;
+    skos:prefLabel "Statistical and Nonlinear Physics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3110 a skos:Concept ;
+    skos:prefLabel "Surfaces and Interfaces" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC31 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC32 a skos:Concept ;
+    skos:prefLabel "Psychology" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3200 ,
+        bloom:ASJC3201 ,
+        bloom:ASJC3202 ,
+        bloom:ASJC3203 ,
+        bloom:ASJC3204 ,
+        bloom:ASJC3205 ,
+        bloom:ASJC3206 ,
+        bloom:ASJC3207 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3200 a skos:Concept ;
+    skos:prefLabel "General Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3201 a skos:Concept ;
+    skos:prefLabel "Psychology (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3202 a skos:Concept ;
+    skos:prefLabel "Applied Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3203 a skos:Concept ;
+    skos:prefLabel "Clinical Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3204 a skos:Concept ;
+    skos:prefLabel "Developmental and Educational Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3205 a skos:Concept ;
+    skos:prefLabel "Experimental and Cognitive Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3206 a skos:Concept ;
+    skos:prefLabel "Neuropsychology and Physiological Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3207 a skos:Concept ;
+    skos:prefLabel "Social Psychology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC32 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC33 a skos:Concept ;
+    skos:prefLabel "Social Sciences" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3300 ,
+        bloom:ASJC3301 ,
+        bloom:ASJC3302 ,
+        bloom:ASJC3303 ,
+        bloom:ASJC3304 ,
+        bloom:ASJC3305 ,
+        bloom:ASJC3306 ,
+        bloom:ASJC3307 ,
+        bloom:ASJC3308 ,
+        bloom:ASJC3309 ,
+        bloom:ASJC3310 ,
+        bloom:ASJC3311 ,
+        bloom:ASJC3312 ,
+        bloom:ASJC3313 ,
+        bloom:ASJC3314 ,
+        bloom:ASJC3315 ,
+        bloom:ASJC3316 ,
+        bloom:ASJC3317 ,
+        bloom:ASJC3318 ,
+        bloom:ASJC3319 ,
+        bloom:ASJC3320 ,
+        bloom:ASJC3321 ,
+        bloom:ASJC3322 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3300 a skos:Concept ;
+    skos:prefLabel "General Social Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3301 a skos:Concept ;
+    skos:prefLabel "Social Sciences (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3302 a skos:Concept ;
+    skos:prefLabel "Archaeology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3303 a skos:Concept ;
+    skos:prefLabel "Development" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3304 a skos:Concept ;
+    skos:prefLabel "Education" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3305 a skos:Concept ;
+    skos:prefLabel "Geography, Planning and Development" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3306 a skos:Concept ;
+    skos:prefLabel "Health (social science)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3307 a skos:Concept ;
+    skos:prefLabel "Human Factors and Ergonomics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3308 a skos:Concept ;
+    skos:prefLabel "Law" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3309 a skos:Concept ;
+    skos:prefLabel "Library and Information Sciences" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3310 a skos:Concept ;
+    skos:prefLabel "Linguistics and Language" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3311 a skos:Concept ;
+    skos:prefLabel "Safety Research" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3312 a skos:Concept ;
+    skos:prefLabel "Sociology and Political Science" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3313 a skos:Concept ;
+    skos:prefLabel "Transportation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3314 a skos:Concept ;
+    skos:prefLabel "Anthropology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3315 a skos:Concept ;
+    skos:prefLabel "Communication" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3316 a skos:Concept ;
+    skos:prefLabel "Cultural Studies" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3317 a skos:Concept ;
+    skos:prefLabel "Demography" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3318 a skos:Concept ;
+    skos:prefLabel "Gender Studies" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3319 a skos:Concept ;
+    skos:prefLabel "Life-span and Life-course Studies" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3320 a skos:Concept ;
+    skos:prefLabel "Political Science and International Relations" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3321 a skos:Concept ;
+    skos:prefLabel "Public Administration" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3322 a skos:Concept ;
+    skos:prefLabel "Urban Studies" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC33 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC34 a skos:Concept ;
+    skos:prefLabel "Veterinary" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3400 ,
+        bloom:ASJC3401 ,
+        bloom:ASJC3402 ,
+        bloom:ASJC3403 ,
+        bloom:ASJC3404 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3400 a skos:Concept ;
+    skos:prefLabel "General Veterinary" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC34 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3401 a skos:Concept ;
+    skos:prefLabel "Veterinary (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC34 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3402 a skos:Concept ;
+    skos:prefLabel "Equine" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC34 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3403 a skos:Concept ;
+    skos:prefLabel "Food Animals" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC34 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3404 a skos:Concept ;
+    skos:prefLabel "Small Animals" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC34 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC35 a skos:Concept ;
+    skos:prefLabel "Dentistry" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3500 ,
+        bloom:ASJC3501 ,
+        bloom:ASJC3502 ,
+        bloom:ASJC3503 ,
+        bloom:ASJC3504 ,
+        bloom:ASJC3505 ,
+        bloom:ASJC3506 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3500 a skos:Concept ;
+    skos:prefLabel "General Dentistry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3501 a skos:Concept ;
+    skos:prefLabel "Dentistry (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3502 a skos:Concept ;
+    skos:prefLabel "Dental Assisting" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3503 a skos:Concept ;
+    skos:prefLabel "Dental Hygiene" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3504 a skos:Concept ;
+    skos:prefLabel "Oral Surgery" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3505 a skos:Concept ;
+    skos:prefLabel "Orthodontics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3506 a skos:Concept ;
+    skos:prefLabel "Periodontics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC35 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC36 a skos:Concept ;
+    skos:prefLabel "Health Professions" ;
+    skos:topConceptOf bloom:ASJC ;
+    skos:narrower bloom:ASJC3600 ,
+        bloom:ASJC3601 ,
+        bloom:ASJC3602 ,
+        bloom:ASJC3603 ,
+        bloom:ASJC3604 ,
+        bloom:ASJC3605 ,
+        bloom:ASJC3606 ,
+        bloom:ASJC3607 ,
+        bloom:ASJC3608 ,
+        bloom:ASJC3609 ,
+        bloom:ASJC3610 ,
+        bloom:ASJC3611 ,
+        bloom:ASJC3612 ,
+        bloom:ASJC3613 ,
+        bloom:ASJC3614 ,
+        bloom:ASJC3615 ,
+        bloom:ASJC3616 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+bloom:ASJC3600 a skos:Concept ;
+    skos:prefLabel "General Health Professions" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3601 a skos:Concept ;
+    skos:prefLabel "Health Professions (miscellaneous)" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3602 a skos:Concept ;
+    skos:prefLabel "Chiropractics" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3603 a skos:Concept ;
+    skos:prefLabel "Complementary and Manual Therapy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3604 a skos:Concept ;
+    skos:prefLabel "Emergency Medical Services" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3605 a skos:Concept ;
+    skos:prefLabel "Health Information Management" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3606 a skos:Concept ;
+    skos:prefLabel "Medical Assisting and Transcription" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3607 a skos:Concept ;
+    skos:prefLabel "Medical Laboratory Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3608 a skos:Concept ;
+    skos:prefLabel "Medical Terminology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3609 a skos:Concept ;
+    skos:prefLabel "Occupational Therapy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3610 a skos:Concept ;
+    skos:prefLabel "Optometry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3611 a skos:Concept ;
+    skos:prefLabel "Pharmacy" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3612 a skos:Concept ;
+    skos:prefLabel "Physical Therapy, Sports Therapy and Rehabilitation" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3613 a skos:Concept ;
+    skos:prefLabel "Podiatry" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3614 a skos:Concept ;
+    skos:prefLabel "Radiological and Ultrasound Technology" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3615 a skos:Concept ;
+    skos:prefLabel "Respiratory Care" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+
+bloom:ASJC3616 a skos:Concept ;
+    skos:prefLabel "Speech and Hearing" ;
+    skos:inScheme bloom:ASJC ;
+    skos:broader bloom:ASJC36 ;
+    rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
+

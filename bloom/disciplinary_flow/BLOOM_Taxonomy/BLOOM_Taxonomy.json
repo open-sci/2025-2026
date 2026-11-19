@@ -1,0 +1,3083 @@
+[
+  {
+    "bloomTaxonomy": "Agriculture",
+    "loc": [
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/S1-S972",
+        "label": "Agriculture (General)"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SB1-SB1110",
+        "label": "Plant culture"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SD1-SD669.5",
+        "label": "Forestry"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SF1-SF1100",
+        "label": "Animal culture"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SH1-SH691",
+        "label": "Aquaculture. Fisheries. Angling"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SK1-SK664",
+        "label": "Hunting sports"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Agricultural and Biological Sciences",
+        "id": "ASJC11"
+      },
+      {
+        "type": "category",
+        "label": "General Agricultural and Biological Sciences",
+        "id": "ASJC1100"
+      },
+      {
+        "type": "category",
+        "label": "Agricultural and Biological Sciences (miscellaneous)",
+        "id": "ASJC1101"
+      },
+      {
+        "type": "category",
+        "label": "Agronomy and Crop Science",
+        "id": "ASJC1102"
+      },
+      {
+        "type": "category",
+        "label": "Aquatic Science",
+        "id": "ASJC1104"
+      },
+      {
+        "type": "category",
+        "label": "Food Science",
+        "id": "ASJC1106"
+      },
+      {
+        "type": "category",
+        "label": "Forestry",
+        "id": "ASJC1107"
+      },
+      {
+        "type": "category",
+        "label": "Horticulture",
+        "id": "ASJC1108"
+      },
+      {
+        "type": "category",
+        "label": "Soil Science",
+        "id": "ASJC1111"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Archaeology, Museology and Classics",
+    "loc": [
+      {
+        "topLevelCode": "A",
+        "topLevel": "GENERAL WORKS",
+        "uri": "http://id.loc.gov/authorities/classification/AM1-AM501",
+        "label": "Museums. Collectors and collecting"
+      },
+      {
+        "topLevelCode": "C",
+        "topLevel": "AUXILIARY SCIENCES OF HISTORY",
+        "uri": "http://id.loc.gov/authorities/classification/CC1-CC960",
+        "label": "Archaeology"
+      },
+      {
+        "topLevelCode": "C",
+        "topLevel": "AUXILIARY SCIENCES OF HISTORY",
+        "uri": "http://id.loc.gov/authorities/classification/CN1-CN1355",
+        "label": "Inscriptions. Epigraphy"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "Archaeology",
+        "id": "ASJC3302",
+        "variant": "Archeology"
+      },
+      {
+        "type": "category",
+        "label": "Classics",
+        "id": "ASJC1205"
+      },
+      {
+        "type": "category",
+        "label": "Conservation",
+        "id": "ASJC1206"
+      },
+      {
+        "type": "category",
+        "label": "Museology",
+        "id": "ASJC1209"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Arts",
+    "loc": [
+      {
+        "topLevelCode": "M",
+        "topLevel": "MUSIC AND BOOKS ON MUSIC",
+        "uri": "http://id.loc.gov/authorities/classification/M1-M5000",
+        "label": "Music"
+      },
+      {
+        "topLevelCode": "M",
+        "topLevel": "MUSIC AND BOOKS ON MUSIC",
+        "uri": "http://id.loc.gov/authorities/classification/ML1-ML3930",
+        "label": "Literature on music"
+      },
+      {
+        "topLevelCode": "M",
+        "topLevel": "MUSIC AND BOOKS ON MUSIC",
+        "uri": "http://id.loc.gov/authorities/classification/MT1-MT999",
+        "label": "Instruction and study"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/N1-N9211",
+        "label": "Visual arts"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NA1-NA9428",
+        "label": "Architecture"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NB1-NB1952",
+        "label": "Sculpture"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NC1-NC1940",
+        "label": "Drawing. Design. Illustration"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/ND25-ND3416",
+        "label": "Painting"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NE1-NE3002",
+        "label": "Print media"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NK1-NK9990",
+        "label": "Decorative arts. Applied arts. Decoration and ornament"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/NX1-NX820",
+        "label": "Arts in general"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TR1-TR1050",
+        "label": "Photography"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TT1-TT999",
+        "label": "Handicrafts. Arts and crafts"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Arts and Humanities",
+        "id": "ASJC12"
+      },
+      {
+        "type": "category",
+        "label": "General Arts and Humanities",
+        "id": "ASJC1200"
+      },
+      {
+        "type": "category",
+        "label": "Arts and Humanities (miscellaneous)",
+        "id": "ASJC1201"
+      },
+      {
+        "type": "category",
+        "label": "Music",
+        "id": "ASJC1210"
+      },
+      {
+        "type": "category",
+        "label": "Visual Arts and Performing Arts",
+        "id": "ASJC1213"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Biology",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QH1-QH278.5",
+        "label": "Natural history (General)"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QH301-QH705",
+        "label": "Biology (General)"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QR180-QR189.5",
+        "label": "Immunology"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QK1-QK989",
+        "label": "Botany"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QL1-QL991",
+        "label": "Zoology"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QM1-QM695",
+        "label": "Human anatomy"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QP1-QP981",
+        "label": "Physiology"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QR1-QR502",
+        "label": "Microbiology"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Biochemistry, Genetics and Molecular Biology",
+        "id": "ASJC13"
+      },
+      {
+        "type": "area",
+        "label": "Immunology and Microbiology",
+        "id": "ASJC24"
+      },
+      {
+        "type": "category",
+        "label": "Animal Science and Zoology",
+        "id": "ASJC1103"
+      },
+      {
+        "type": "category",
+        "label": "Ecology",
+        "id": "ASJC2303"
+      },
+      {
+        "type": "category",
+        "label": "Ecology, Evolution, Behavior and Systematics",
+        "id": "ASJC1105"
+      },
+      {
+        "type": "category",
+        "label": "Insect Science",
+        "id": "ASJC1109"
+      },
+      {
+        "type": "category",
+        "label": "Plant Science",
+        "id": "ASJC1110"
+      },
+      {
+        "type": "category",
+        "label": "General Biochemistry, Genetics and Molecular Biology",
+        "id": "ASJC1300"
+      },
+      {
+        "type": "category",
+        "label": "Biochemistry, Genetics and Molecular Biology (miscellaneous)",
+        "id": "ASJC1301"
+      },
+      {
+        "type": "category",
+        "label": "Ageing",
+        "id": "ASJC1302",
+        "variant": "Aging"
+      },
+      {
+        "type": "category",
+        "label": "Biochemistry",
+        "id": "ASJC1303"
+      },
+      {
+        "type": "category",
+        "label": "Biophysics",
+        "id": "ASJC1304"
+      },
+      {
+        "type": "category",
+        "label": "Biotechnology",
+        "id": "ASJC1305"
+      },
+      {
+        "type": "category",
+        "label": "Cell Biology",
+        "id": "ASJC1307"
+      },
+      {
+        "type": "category",
+        "label": "Developmental Biology",
+        "id": "ASJC1309"
+      },
+      {
+        "type": "category",
+        "label": "Endocrinology",
+        "id": "ASJC1310"
+      },
+      {
+        "type": "category",
+        "label": "Genetics",
+        "id": "ASJC1311"
+      },
+      {
+        "type": "category",
+        "label": "Molecular Biology",
+        "id": "ASJC1312"
+      },
+      {
+        "type": "category",
+        "label": "Molecular Medicine",
+        "id": "ASJC1313"
+      },
+      {
+        "type": "category",
+        "label": "Physiology",
+        "id": "ASJC1314"
+      },
+      {
+        "type": "category",
+        "label": "Structural Biology",
+        "id": "ASJC1315"
+      },
+      {
+        "type": "category",
+        "label": "General Immunology and Microbiology",
+        "id": "ASJC2400"
+      },
+      {
+        "type": "category",
+        "label": "Immunology and Microbiology (miscellaneous)",
+        "id": "ASJC2401"
+      },
+      {
+        "type": "category",
+        "label": "Applied Microbiology and Biotechnology",
+        "id": "ASJC2402"
+      },
+      {
+        "type": "category",
+        "label": "Immunology",
+        "id": "ASJC2403"
+      },
+      {
+        "type": "category",
+        "label": "Microbiology",
+        "id": "ASJC2404"
+      },
+      {
+        "type": "category",
+        "label": "Parasitology",
+        "id": "ASJC2405"
+      },
+      {
+        "type": "category",
+        "label": "Virology",
+        "id": "ASJC2406"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Chemistry",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QD1-QD999",
+        "label": "Chemistry"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Chemical Engineering",
+        "id": "ASJC15"
+      },
+      {
+        "type": "area",
+        "label": "Chemistry",
+        "id": "ASJC16"
+      },
+      {
+        "type": "category",
+        "label": "General Chemical Engineering",
+        "id": "ASJC1500"
+      },
+      {
+        "type": "category",
+        "label": "Chemical Engineering (miscellaneous)",
+        "id": "ASJC1501"
+      },
+      {
+        "type": "category",
+        "label": "Bioengineering",
+        "id": "ASJC1502"
+      },
+      {
+        "type": "category",
+        "label": "Catalysis",
+        "id": "ASJC1503"
+      },
+      {
+        "type": "category",
+        "label": "Chemical Health and Safety",
+        "id": "ASJC1504"
+      },
+      {
+        "type": "category",
+        "label": "Colloid and Surface Chemistry",
+        "id": "ASJC1505"
+      },
+      {
+        "type": "category",
+        "label": "Filtration and Separation",
+        "id": "ASJC1506"
+      },
+      {
+        "type": "category",
+        "label": "Fluid Flow and Transfer Processes",
+        "id": "ASJC1507"
+      },
+      {
+        "type": "category",
+        "label": "Process Chemistry and Technology",
+        "id": "ASJC1508"
+      },
+      {
+        "type": "category",
+        "label": "General Chemistry",
+        "id": "ASJC1600"
+      },
+      {
+        "type": "category",
+        "label": "Chemistry (miscellaneous)",
+        "id": "ASJC1601"
+      },
+      {
+        "type": "category",
+        "label": "Analytical Chemistry",
+        "id": "ASJC1602"
+      },
+      {
+        "type": "category",
+        "label": "Electrochemistry",
+        "id": "ASJC1603"
+      },
+      {
+        "type": "category",
+        "label": "Inorganic Chemistry",
+        "id": "ASJC1604"
+      },
+      {
+        "type": "category",
+        "label": "Organic Chemistry",
+        "id": "ASJC1605"
+      },
+      {
+        "type": "category",
+        "label": "Physical and Theoretical Chemistry",
+        "id": "ASJC1606"
+      },
+      {
+        "type": "category",
+        "label": "Spectroscopy",
+        "id": "ASJC1607"
+      },
+      {
+        "type": "category",
+        "label": "Ceramics and Composites",
+        "id": "ASJC2503"
+      },
+      {
+        "type": "category",
+        "label": "Materials Chemistry",
+        "id": "ASJC2505"
+      },
+      {
+        "type": "category",
+        "label": "Metals and Alloys",
+        "id": "ASJC2506"
+      },
+      {
+        "type": "category",
+        "label": "Polymers and Plastics",
+        "id": "ASJC2507"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Computer Science",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QA75.5-QA76.95",
+        "label": "Electronic computers. Computer science"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Computer Science",
+        "id": "ASJC17"
+      },
+      {
+        "type": "category",
+        "label": "General Computer Science",
+        "id": "ASJC1700"
+      },
+      {
+        "type": "category",
+        "label": "Computer Science (miscellaneous)",
+        "id": "ASJC1701"
+      },
+      {
+        "type": "category",
+        "label": "Artificial Intelligence",
+        "id": "ASJC1702"
+      },
+      {
+        "type": "category",
+        "label": "Computational Theory and Mathematics",
+        "id": "ASJC1703"
+      },
+      {
+        "type": "category",
+        "label": "Computer Graphics and Computer-Aided Design",
+        "id": "ASJC1704"
+      },
+      {
+        "type": "category",
+        "label": "Computer Networks and Communications",
+        "id": "ASJC1705"
+      },
+      {
+        "type": "category",
+        "label": "Computer Science Applications",
+        "id": "ASJC1706"
+      },
+      {
+        "type": "category",
+        "label": "Computer Vision and Pattern Recognition",
+        "id": "ASJC1707"
+      },
+      {
+        "type": "category",
+        "label": "Hardware and Architecture",
+        "id": "ASJC1708"
+      },
+      {
+        "type": "category",
+        "label": "Human-Computer Interaction",
+        "id": "ASJC1709"
+      },
+      {
+        "type": "category",
+        "label": "Information Systems",
+        "id": "ASJC1710"
+      },
+      {
+        "type": "category",
+        "label": "Signal Processing",
+        "id": "ASJC1711"
+      },
+      {
+        "type": "category",
+        "label": "Software",
+        "id": "ASJC1712"
+      },
+      {
+        "type": "category",
+        "label": "Theoretical Computer Science",
+        "id": "ASJC2614"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Dentistry",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RK1-RK715",
+        "label": "Dentistry"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Dentistry",
+        "id": "ASJC35"
+      },
+      {
+        "type": "category",
+        "label": "General Dentistry",
+        "id": "ASJC3500"
+      },
+      {
+        "type": "category",
+        "label": "Dentistry (miscellaneous)",
+        "id": "ASJC3501"
+      },
+      {
+        "type": "category",
+        "label": "Dental Assisting",
+        "id": "ASJC3502"
+      },
+      {
+        "type": "category",
+        "label": "Dental Hygiene",
+        "id": "ASJC3503"
+      },
+      {
+        "type": "category",
+        "label": "Oral Surgery",
+        "id": "ASJC3504"
+      },
+      {
+        "type": "category",
+        "label": "Orthodontics",
+        "id": "ASJC3505"
+      },
+      {
+        "type": "category",
+        "label": "Periodontics",
+        "id": "ASJC3506"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Economics and Finance",
+    "loc": [
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HB1-HB3840",
+        "label": "Economic theory. Demography"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HC1-HC1085.2",
+        "label": "Economic history and conditions"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HD28-HD9999",
+        "label": "Industries. Land use. Labor"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HF1-HF6182",
+        "label": "Commerce"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HG1-HG9999",
+        "label": "Finance"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Business",
+        "id": "ASJC14"
+      },
+      {
+        "type": "area",
+        "label": "Economics, Econometrics and Finance",
+        "id": "ASJC20"
+      },
+      {
+        "type": "category",
+        "label": "General Business, Management and Accounting",
+        "id": "ASJC1400"
+      },
+      {
+        "type": "category",
+        "label": "Business, Management and Accounting (miscellaneous)",
+        "id": "ASJC1401"
+      },
+      {
+        "type": "category",
+        "label": "Accounting",
+        "id": "ASJC1402"
+      },
+      {
+        "type": "category",
+        "label": "Business and International Management",
+        "id": "ASJC1403"
+      },
+      {
+        "type": "category",
+        "label": "Management Information Systems",
+        "id": "ASJC1404"
+      },
+      {
+        "type": "category",
+        "label": "Management of Technology and Innovation",
+        "id": "ASJC1405"
+      },
+      {
+        "type": "category",
+        "label": "Marketing",
+        "id": "ASJC1406"
+      },
+      {
+        "type": "category",
+        "label": "Organizational Behavior and Human Resource Management",
+        "id": "ASJC1407"
+      },
+      {
+        "type": "category",
+        "label": "Strategy and Management",
+        "id": "ASJC1408"
+      },
+      {
+        "type": "category",
+        "label": "Tourism, Leisure and Hospitality Management",
+        "id": "ASJC1409"
+      },
+      {
+        "type": "category",
+        "label": "Industrial Relations",
+        "id": "ASJC1410"
+      },
+      {
+        "type": "category",
+        "label": "General Economics, Econometrics and Finance",
+        "id": "ASJC2000"
+      },
+      {
+        "type": "category",
+        "label": "Economics, Econometrics and Finance (miscellaneous)",
+        "id": "ASJC2001"
+      },
+      {
+        "type": "category",
+        "label": "Economics and Econometrics",
+        "id": "ASJC2002"
+      },
+      {
+        "type": "category",
+        "label": "Finance",
+        "id": "ASJC2003"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Engineering/Technology",
+    "loc": [
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/T1-T995",
+        "label": "Technology (General)"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TA1-TA2040",
+        "label": "Engineering (General). Civil engineering (General)"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TC1-TC1800",
+        "label": "Hydraulic engineering"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TC1501-TC1800",
+        "label": "Ocean engineering"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TD1-TD1066",
+        "label": "Environmental technology. Sanitary engineering"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TE1-TE450",
+        "label": "Highway engineering. Roads and pavements"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TF1-TF1620",
+        "label": "Railroad engineering and operation"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TG1-TG470",
+        "label": "Bridge engineering"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TH1-TH9745",
+        "label": "Building construction"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TJ1-TJ1570",
+        "label": "Mechanical engineering and machinery"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TK1-TK9971",
+        "label": "Electrical engineering. Electronics. Nuclear engineering"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TL1-TL4050",
+        "label": "Motor vehicles. Aeronautics. Astronautics"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TN1-TN997",
+        "label": "Mining engineering. Metallurgy"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TP1-TP1185",
+        "label": "Chemical technology"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TS1-TS2301",
+        "label": "Manufactures"
+      },
+      {
+        "topLevelCode": "V",
+        "topLevel": "NAVAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/V1-V995",
+        "label": "Naval science (General)"
+      },
+      {
+        "topLevelCode": "V",
+        "topLevel": "NAVAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/VM1-VM989",
+        "label": "Naval architecture. Shipbuilding. Marine engineering"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Energy",
+        "id": "ASJC21"
+      },
+      {
+        "type": "area",
+        "label": "Engineering",
+        "id": "ASJC22"
+      },
+      {
+        "type": "area",
+        "label": "Materials Science",
+        "id": "ASJC25"
+      },
+      {
+        "type": "category",
+        "label": "Geotechnical Engineering and Engineering Geology",
+        "id": "ASJC1909"
+      },
+      {
+        "type": "category",
+        "label": "General Energy",
+        "id": "ASJC2100"
+      },
+      {
+        "type": "category",
+        "label": "Energy (miscellaneous)",
+        "id": "ASJC2101"
+      },
+      {
+        "type": "category",
+        "label": "Energy Engineering and Power Technology",
+        "id": "ASJC2102"
+      },
+      {
+        "type": "category",
+        "label": "Fuel Technology",
+        "id": "ASJC2103"
+      },
+      {
+        "type": "category",
+        "label": "Nuclear Energy and Engineering",
+        "id": "ASJC2104"
+      },
+      {
+        "type": "category",
+        "label": "Renewable Energy, Sustainability and the Environment",
+        "id": "ASJC2105"
+      },
+      {
+        "type": "category",
+        "label": "General Engineering",
+        "id": "ASJC2200"
+      },
+      {
+        "type": "category",
+        "label": "Engineering (miscellaneous)",
+        "id": "ASJC2201"
+      },
+      {
+        "type": "category",
+        "label": "Aerospace Engineering",
+        "id": "ASJC2202"
+      },
+      {
+        "type": "category",
+        "label": "Automotive Engineering",
+        "id": "ASJC2203"
+      },
+      {
+        "type": "category",
+        "label": "Biomedical Engineering",
+        "id": "ASJC2204"
+      },
+      {
+        "type": "category",
+        "label": "Civil and Structural Engineering",
+        "id": "ASJC2205"
+      },
+      {
+        "type": "category",
+        "label": "Computational Mechanics",
+        "id": "ASJC2206"
+      },
+      {
+        "type": "category",
+        "label": "Control and Systems Engineering",
+        "id": "ASJC2207"
+      },
+      {
+        "type": "category",
+        "label": "Electrical and Electronic Engineering",
+        "id": "ASJC2208"
+      },
+      {
+        "type": "category",
+        "label": "Industrial and Manufacturing Engineering",
+        "id": "ASJC2209"
+      },
+      {
+        "type": "category",
+        "label": "Mechanical Engineering",
+        "id": "ASJC2210"
+      },
+      {
+        "type": "category",
+        "label": "Mechanics of Materials",
+        "id": "ASJC2211"
+      },
+      {
+        "type": "category",
+        "label": "Ocean Engineering",
+        "id": "ASJC2212"
+      },
+      {
+        "type": "category",
+        "label": "Safety, Risk, Reliability and Quality",
+        "id": "ASJC2213"
+      },
+      {
+        "type": "category",
+        "label": "Media Technology",
+        "id": "ASJC2214"
+      },
+      {
+        "type": "category",
+        "label": "Building and Construction",
+        "id": "ASJC2215"
+      },
+      {
+        "type": "category",
+        "label": "Architecture",
+        "id": "ASJC2216"
+      },
+      {
+        "type": "category",
+        "label": "General Materials Science",
+        "id": "ASJC2500"
+      },
+      {
+        "type": "category",
+        "label": "Materials Science (miscellaneous)",
+        "id": "ASJC2501"
+      },
+      {
+        "type": "category",
+        "label": "Biomaterials",
+        "id": "ASJC2502"
+      },
+      {
+        "type": "category",
+        "label": "Surfaces, Coatings and Films",
+        "id": "ASJC2508"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Environmental Science",
+    "loc": [
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GE1-GE350",
+        "label": "Environmental sciences"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Environmental Science",
+        "id": "ASJC23"
+      },
+      {
+        "type": "category",
+        "label": "General Environmental Science",
+        "id": "ASJC2300"
+      },
+      {
+        "type": "category",
+        "label": "Environmental Science (miscellaneous)",
+        "id": "ASJC2301"
+      },
+      {
+        "type": "category",
+        "label": "Ecological Modelling",
+        "id": "ASJC2302",
+        "variant": "Ecological Modeling"
+      },
+      {
+        "type": "category",
+        "label": "Environmental Chemistry",
+        "id": "ASJC2304"
+      },
+      {
+        "type": "category",
+        "label": "Environmental Engineering",
+        "id": "ASJC2305"
+      },
+      {
+        "type": "category",
+        "label": "Global and Planetary Change",
+        "id": "ASJC2306"
+      },
+      {
+        "type": "category",
+        "label": "Health, Toxicology and Mutagenesis",
+        "id": "ASJC2307"
+      },
+      {
+        "type": "category",
+        "label": "Management, Monitoring, Policy and Law",
+        "id": "ASJC2308"
+      },
+      {
+        "type": "category",
+        "label": "Nature and Landscape Conservation",
+        "id": "ASJC2309"
+      },
+      {
+        "type": "category",
+        "label": "Pollution",
+        "id": "ASJC2310"
+      },
+      {
+        "type": "category",
+        "label": "Waste Management and Disposal",
+        "id": "ASJC2311"
+      },
+      {
+        "type": "category",
+        "label": "Water Science and Technology",
+        "id": "ASJC2312"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Geology",
+    "loc": [
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GC1-GC1581",
+        "label": "Oceanography"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QE1-QE996.5",
+        "label": "Geology"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Earth and Planetary Sciences",
+        "id": "ASJC19"
+      },
+      {
+        "type": "category",
+        "label": "General Earth and Planetary Sciences",
+        "id": "ASJC1900"
+      },
+      {
+        "type": "category",
+        "label": "Earth and Planetary Sciences (miscellaneous)",
+        "id": "ASJC1901"
+      },
+      {
+        "type": "category",
+        "label": "Computers in Earth Sciences",
+        "id": "ASJC1903"
+      },
+      {
+        "type": "category",
+        "label": "Earth-Surface Processes",
+        "id": "ASJC1904"
+      },
+      {
+        "type": "category",
+        "label": "Economic Geology",
+        "id": "ASJC1905"
+      },
+      {
+        "type": "category",
+        "label": "Geochemistry and Petrology",
+        "id": "ASJC1906"
+      },
+      {
+        "type": "category",
+        "label": "Geology",
+        "id": "ASJC1907"
+      },
+      {
+        "type": "category",
+        "label": "Geophysics",
+        "id": "ASJC1908"
+      },
+      {
+        "type": "category",
+        "label": "Oceanography",
+        "id": "ASJC1910"
+      },
+      {
+        "type": "category",
+        "label": "Paleontology",
+        "id": "ASJC1911"
+      },
+      {
+        "type": "category",
+        "label": "Stratigraphy",
+        "id": "ASJC1913"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "History",
+    "loc": [
+      {
+        "topLevelCode": "C",
+        "topLevel": "AUXILIARY SCIENCES OF HISTORY",
+        "uri": "http://id.loc.gov/authorities/classification/CB3-CB482",
+        "label": "History of civilization"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/D1-D2027",
+        "label": "History (General)"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DA1-DA995",
+        "label": "History of Great Britain"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DAW1001-DAW1051",
+        "label": "History of Central Europe"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DB1-DB879",
+        "label": "History of Austria"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DC1-DC947",
+        "label": "History of France"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DE1-DE100",
+        "label": "History of the Greco-Roman world"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DF10-DF951",
+        "label": "History of Greece"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DG11-DG980.2",
+        "label": "History of Italy"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DH1-DH207",
+        "label": "History of Low Countries. Benelux Countries"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DJ1-DJ500.22",
+        "label": "History of Netherlands (Holland)"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DL1-DL1180.2",
+        "label": "History of Northern Europe. Scandinavia"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DP1-DP402",
+        "label": "History of Spain"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DQ1-DQ851",
+        "label": "History of Switzerland"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DR1-DR2285",
+        "label": "History of Balkan Peninsula"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DS1-DS937",
+        "label": "History of Asia"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DT1-DT3415",
+        "label": "History of Africa"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DU1-DU950",
+        "label": "History of Oceania (South Seas)"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/DX101-DX301",
+        "label": "History of Romanies. History of Gypsies"
+      },
+      {
+        "topLevelCode": "E",
+        "topLevel": "HISTORY OF THE AMERICAS",
+        "uri": "http://id.loc.gov/authorities/classification/E11-E143",
+        "label": "America"
+      },
+      {
+        "topLevelCode": "F",
+        "topLevel": "HISTORY OF THE AMERICAS",
+        "uri": "http://id.loc.gov/authorities/classification/F1-F975",
+        "label": "United States local history"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "History",
+        "id": "ASJC1202"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Literature and Linguistics",
+    "loc": [
+      {
+        "topLevelCode": "C",
+        "topLevel": "AUXILIARY SCIENCES OF HISTORY",
+        "uri": "http://id.loc.gov/authorities/classification/CT21-CT9999",
+        "label": "Biography"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/P1-P1091",
+        "label": "Philology. Linguistics"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA1-PA199",
+        "label": "Classical philology"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA1000-PA1179",
+        "label": "Medieval and modern Greek language"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA2001-PA2915",
+        "label": "Latin philology and language"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA201-PA899",
+        "label": "Greek philology and language"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA3000-PA3049",
+        "label": "Classical literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA3050-PA4505",
+        "label": "Greek literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA5000-PA5660",
+        "label": "Byzantine and modern Greek literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA6000-PA6971",
+        "label": "Roman literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PA8001-PA8595",
+        "label": "Medieval and modern Latin literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PB1-PB3029",
+        "label": "Modern languages. Celtic languages"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PC1-PC5498",
+        "label": "Romance philology and languages"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PD1-PD7159",
+        "label": "Germanic philology and languages"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PE1-PE3729",
+        "label": "English philology and language"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PF1-PF5999",
+        "label": "West Germanic philology and languages"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PG1-PG9665",
+        "label": "Slavic. Baltic. Albanian"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PH1-PH5490",
+        "label": "Uralic. Basque"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PJ1-PJ9500",
+        "label": "Oriental philology and literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PK1-PK9601",
+        "label": "Indo-Iranian philology and literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PL1-PL8844",
+        "label": "Languages of Eastern Asia, Africa, Oceania"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PM1-PM9021",
+        "label": "Hyperborean, Indian, and artificial languages"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PN1-PN6790",
+        "label": "Literature (General)"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PQ1-PQ3999",
+        "label": "French literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PQ4001-PQ5999",
+        "label": "Italian literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PQ6001-PQ8929",
+        "label": "Spanish literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PQ9000-PQ9999",
+        "label": "Portuguese literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PR1-PR9680",
+        "label": "English literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PS1-PS3626",
+        "label": "American literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PS8001-PS8599",
+        "label": "Canadian literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT1-PT4897",
+        "label": "German literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT5001-PT5980",
+        "label": "Dutch literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT6000-PT6467.36",
+        "label": "Flemish literature since 1830"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT6500-PT6593.36",
+        "label": "Afrikaans literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT7001-PT7099",
+        "label": "Scandinavian literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT7101-PT7338",
+        "label": "Old Norse literature: Old Icelandic and old Norwegian"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT7351-PT7550",
+        "label": "Modern Icelandic literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT7581-PT7599",
+        "label": "Faroese literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT7601-PT8260",
+        "label": "Danish literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT8301-PT9155",
+        "label": "Norwegian literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PT9201-PT9999",
+        "label": "Swedish literature"
+      },
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/PZ1-PZ90",
+        "label": "Fiction and juvenile belles lettres"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "Language and Linguistics",
+        "id": "ASJC1203"
+      },
+      {
+        "type": "category",
+        "label": "Literature and Literary Theory",
+        "id": "ASJC1208"
+      },
+      {
+        "type": "category",
+        "label": "Linguistics and Language",
+        "id": "ASJC3310"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Mathematics",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/Q350-Q390",
+        "label": "Information theory"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QA1-QA939",
+        "label": "Mathematics"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Decision Sciences",
+        "id": "ASJC18"
+      },
+      {
+        "type": "area",
+        "label": "Mathematics",
+        "id": "ASJC26"
+      },
+      {
+        "type": "category",
+        "label": "General Decision Sciences",
+        "id": "ASJC1800"
+      },
+      {
+        "type": "category",
+        "label": "Decision Sciences (miscellaneous)",
+        "id": "ASJC1801"
+      },
+      {
+        "type": "category",
+        "label": "Information Systems and Management",
+        "id": "ASJC1802"
+      },
+      {
+        "type": "category",
+        "label": "Management Science and Operations Research",
+        "id": "ASJC1803"
+      },
+      {
+        "type": "category",
+        "label": "Statistics, Probability and Uncertainty",
+        "id": "ASJC1804"
+      },
+      {
+        "type": "category",
+        "label": "General Mathematics",
+        "id": "ASJC2600"
+      },
+      {
+        "type": "category",
+        "label": "Mathematics (miscellaneous)",
+        "id": "ASJC2601"
+      },
+      {
+        "type": "category",
+        "label": "Algebra and Number Theory",
+        "id": "ASJC2602"
+      },
+      {
+        "type": "category",
+        "label": "Analysis",
+        "id": "ASJC2603"
+      },
+      {
+        "type": "category",
+        "label": "Applied Mathematics",
+        "id": "ASJC2604"
+      },
+      {
+        "type": "category",
+        "label": "Computational Mathematics",
+        "id": "ASJC2605"
+      },
+      {
+        "type": "category",
+        "label": "Control and Optimization",
+        "id": "ASJC2606"
+      },
+      {
+        "type": "category",
+        "label": "Discrete Mathematics and Combinatorics",
+        "id": "ASJC2607"
+      },
+      {
+        "type": "category",
+        "label": "Geometry and Topology",
+        "id": "ASJC2608"
+      },
+      {
+        "type": "category",
+        "label": "Logic",
+        "id": "ASJC2609"
+      },
+      {
+        "type": "category",
+        "label": "Mathematical Physics",
+        "id": "ASJC2610"
+      },
+      {
+        "type": "category",
+        "label": "Modelling and Simulation",
+        "id": "ASJC2611",
+        "variant": "Modeling and Simulation"
+      },
+      {
+        "type": "category",
+        "label": "Numerical Analysis",
+        "id": "ASJC2612"
+      },
+      {
+        "type": "category",
+        "label": "Statistics and Probability",
+        "id": "ASJC2613"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Medicine",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/R1-R920",
+        "label": "Medicine (General)"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RA1-RA1270",
+        "label": "Public aspects of medicine"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RB1-RB214",
+        "label": "Pathology"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RC1-RC1245",
+        "label": "Internal medicine"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RD1-RD811",
+        "label": "Surgery"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RE1-RE994",
+        "label": "Ophthalmology"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RF1-RF547",
+        "label": "Otorhinolaryngology"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RG1-RG991",
+        "label": "Gynecology and obstetrics"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RJ1-RJ570",
+        "label": "Pediatrics"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RL1-RL803",
+        "label": "Dermatology"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RS1-RS441",
+        "label": "Pharmacy and materia medica"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RV1-RV431",
+        "label": "Botanic, Thomsonian, and eclectic medicine"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RX1-RX681",
+        "label": "Homeopathy"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RZ1-RZ999",
+        "label": "Other systems of medicine"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Medicine",
+        "id": "ASJC27"
+      },
+      {
+        "type": "category",
+        "label": "Cancer Research",
+        "id": "ASJC1306"
+      },
+      {
+        "type": "category",
+        "label": "Clinical Biochemistry",
+        "id": "ASJC1308"
+      },
+      {
+        "type": "category",
+        "label": "Medicine (miscellaneous)",
+        "id": "ASJC2701"
+      },
+      {
+        "type": "category",
+        "label": "Anatomy",
+        "id": "ASJC2702"
+      },
+      {
+        "type": "category",
+        "label": "Anesthesiology and Pain Medicine",
+        "id": "ASJC2703"
+      },
+      {
+        "type": "category",
+        "label": "Biochemistry (medical)",
+        "id": "ASJC2704"
+      },
+      {
+        "type": "category",
+        "label": "Cardiology and Cardiovascular Medicine",
+        "id": "ASJC2705"
+      },
+      {
+        "type": "category",
+        "label": "Critical Care and Intensive Care Medicine",
+        "id": "ASJC2706"
+      },
+      {
+        "type": "category",
+        "label": "Complementary and Alternative Medicine",
+        "id": "ASJC2707"
+      },
+      {
+        "type": "category",
+        "label": "Dermatology",
+        "id": "ASJC2708"
+      },
+      {
+        "type": "category",
+        "label": "Drug Guides",
+        "id": "ASJC2709"
+      },
+      {
+        "type": "category",
+        "label": "Embryology",
+        "id": "ASJC2710"
+      },
+      {
+        "type": "category",
+        "label": "Emergency Medicine",
+        "id": "ASJC2711"
+      },
+      {
+        "type": "category",
+        "label": "Endocrinology, Diabetes and Metabolism",
+        "id": "ASJC2712"
+      },
+      {
+        "type": "category",
+        "label": "Epidemiology",
+        "id": "ASJC2713"
+      },
+      {
+        "type": "category",
+        "label": "Family Practice",
+        "id": "ASJC2714"
+      },
+      {
+        "type": "category",
+        "label": "Gastroenterology",
+        "id": "ASJC2715"
+      },
+      {
+        "type": "category",
+        "label": "Genetics (clinical)",
+        "id": "ASJC2716"
+      },
+      {
+        "type": "category",
+        "label": "Geriatrics and Gerontology",
+        "id": "ASJC2717"
+      },
+      {
+        "type": "category",
+        "label": "Health Informatics",
+        "id": "ASJC2718"
+      },
+      {
+        "type": "category",
+        "label": "Health Policy",
+        "id": "ASJC2719"
+      },
+      {
+        "type": "category",
+        "label": "Hematology",
+        "id": "ASJC2720"
+      },
+      {
+        "type": "category",
+        "label": "Hepatology",
+        "id": "ASJC2721"
+      },
+      {
+        "type": "category",
+        "label": "Histology",
+        "id": "ASJC2722"
+      },
+      {
+        "type": "category",
+        "label": "Immunology and Allergy",
+        "id": "ASJC2723"
+      },
+      {
+        "type": "category",
+        "label": "Internal Medicine",
+        "id": "ASJC2724"
+      },
+      {
+        "type": "category",
+        "label": "Infectious Diseases",
+        "id": "ASJC2725"
+      },
+      {
+        "type": "category",
+        "label": "Microbiology (medical)",
+        "id": "ASJC2726"
+      },
+      {
+        "type": "category",
+        "label": "Nephrology",
+        "id": "ASJC2727"
+      },
+      {
+        "type": "category",
+        "label": "Neurology (clinical)",
+        "id": "ASJC2728"
+      },
+      {
+        "type": "category",
+        "label": "Obstetrics and Gynaecology",
+        "id": "ASJC2729",
+        "variant": "Obstetrics and Gynecology"
+      },
+      {
+        "type": "category",
+        "label": "Oncology",
+        "id": "ASJC2730"
+      },
+      {
+        "type": "category",
+        "label": "Ophthalmology",
+        "id": "ASJC2731"
+      },
+      {
+        "type": "category",
+        "label": "Orthopedics and Sports Medicine",
+        "id": "ASJC2732"
+      },
+      {
+        "type": "category",
+        "label": "Otorhinolaryngology",
+        "id": "ASJC2733"
+      },
+      {
+        "type": "category",
+        "label": "Pathology and Forensic Medicine",
+        "id": "ASJC2734"
+      },
+      {
+        "type": "category",
+        "label": "Pediatrics, Perinatology, and Child Health",
+        "id": "ASJC2735"
+      },
+      {
+        "type": "category",
+        "label": "Pharmacology (medical)",
+        "id": "ASJC2736"
+      },
+      {
+        "type": "category",
+        "label": "Physiology (medical)",
+        "id": "ASJC2737"
+      },
+      {
+        "type": "category",
+        "label": "Psychiatry and Mental Health",
+        "id": "ASJC2738"
+      },
+      {
+        "type": "category",
+        "label": "Public Health, Environmental and Occupational Health",
+        "id": "ASJC2739"
+      },
+      {
+        "type": "category",
+        "label": "Pulmonary and Respiratory Medicine",
+        "id": "ASJC2740"
+      },
+      {
+        "type": "category",
+        "label": "Radiology Nuclear Medicine and imaging",
+        "id": "ASJC2741"
+      },
+      {
+        "type": "category",
+        "label": "Rehabilitation",
+        "id": "ASJC2742"
+      },
+      {
+        "type": "category",
+        "label": "Reproductive Medicine",
+        "id": "ASJC2743"
+      },
+      {
+        "type": "category",
+        "label": "Reviews and References (medical)",
+        "id": "ASJC2744"
+      },
+      {
+        "type": "category",
+        "label": "Rheumatology",
+        "id": "ASJC2745"
+      },
+      {
+        "type": "category",
+        "label": "Surgery",
+        "id": "ASJC2746"
+      },
+      {
+        "type": "category",
+        "label": "Transplantation",
+        "id": "ASJC2747"
+      },
+      {
+        "type": "category",
+        "label": "Urology",
+        "id": "ASJC2748"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Medicine as a profession",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/R690-R697",
+        "label": "Medicine as a profession. Physicians"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Health Professions",
+        "id": "ASJC36"
+      },
+      {
+        "type": "category",
+        "label": "General Health Professions",
+        "id": "ASJC3600"
+      },
+      {
+        "type": "category",
+        "label": "Health Professions (miscellaneous)",
+        "id": "ASJC3601"
+      },
+      {
+        "type": "category",
+        "label": "Chiropractics",
+        "id": "ASJC3602"
+      },
+      {
+        "type": "category",
+        "label": "Complementary and Manual Therapy",
+        "id": "ASJC3603"
+      },
+      {
+        "type": "category",
+        "label": "Emergency Medical Services",
+        "id": "ASJC3604"
+      },
+      {
+        "type": "category",
+        "label": "Health Information Management",
+        "id": "ASJC3605"
+      },
+      {
+        "type": "category",
+        "label": "Medical Assisting and Transcription",
+        "id": "ASJC3606"
+      },
+      {
+        "type": "category",
+        "label": "Medical Laboratory Technology",
+        "id": "ASJC3607"
+      },
+      {
+        "type": "category",
+        "label": "Medical Terminology",
+        "id": "ASJC3608"
+      },
+      {
+        "type": "category",
+        "label": "Occupational Therapy",
+        "id": "ASJC3609"
+      },
+      {
+        "type": "category",
+        "label": "Optometry",
+        "id": "ASJC3610"
+      },
+      {
+        "type": "category",
+        "label": "Pharmacy",
+        "id": "ASJC3611"
+      },
+      {
+        "type": "category",
+        "label": "Physical Therapy, Sports Therapy and Rehabilitation",
+        "id": "ASJC3612"
+      },
+      {
+        "type": "category",
+        "label": "Podiatry",
+        "id": "ASJC3613"
+      },
+      {
+        "type": "category",
+        "label": "Radiological and Ultrasound Technology",
+        "id": "ASJC3614"
+      },
+      {
+        "type": "category",
+        "label": "Respiratory Care",
+        "id": "ASJC3615"
+      },
+      {
+        "type": "category",
+        "label": "Speech and Hearing",
+        "id": "ASJC3616"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Multidisciplinary",
+    "loc": [
+      {
+        "topLevelCode": "Z",
+        "topLevel": "BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)",
+        "uri": "http://id.loc.gov/authorities/classification/Z1001-Z1121",
+        "label": "General bibliography"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Multidisciplinary",
+        "id": "ASJC10"
+      },
+      {
+        "type": "category",
+        "label": "Multidisciplinary",
+        "id": "ASJC1000"
+      },
+      {
+        "type": "category",
+        "label": "Library and Information Sciences",
+        "id": "ASJC3309"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Neuroscience",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RC321-RC580",
+        "label": "Neurosciences. Biological psychiatry. Neuropsychiatry"
+      },
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RC346-RC429.2",
+        "label": "Neurology. Diseases of the nervous system"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Neuroscience",
+        "id": "ASJC28"
+      },
+      {
+        "type": "category",
+        "label": "General Neuroscience",
+        "id": "ASJC2800"
+      },
+      {
+        "type": "category",
+        "label": "Neuroscience (miscellaneous)",
+        "id": "ASJC2801"
+      },
+      {
+        "type": "category",
+        "label": "Behavioral Neuroscience",
+        "id": "ASJC2802"
+      },
+      {
+        "type": "category",
+        "label": "Biological Psychiatry",
+        "id": "ASJC2803"
+      },
+      {
+        "type": "category",
+        "label": "Cellular and Molecular Neuroscience",
+        "id": "ASJC2804"
+      },
+      {
+        "type": "category",
+        "label": "Cognitive Neuroscience",
+        "id": "ASJC2805"
+      },
+      {
+        "type": "category",
+        "label": "Developmental Neuroscience",
+        "id": "ASJC2806"
+      },
+      {
+        "type": "category",
+        "label": "Endocrine and Autonomic Systems",
+        "id": "ASJC2807"
+      },
+      {
+        "type": "category",
+        "label": "Neurology",
+        "id": "ASJC2808"
+      },
+      {
+        "type": "category",
+        "label": "Sensory Systems",
+        "id": "ASJC2809"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Nursing",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RT1-RT120",
+        "label": "Nursing"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Nursing",
+        "id": "ASJC29"
+      },
+      {
+        "type": "category",
+        "label": "General Nursing",
+        "id": "ASJC2900"
+      },
+      {
+        "type": "category",
+        "label": "Nursing (miscellaneous)",
+        "id": "ASJC2901"
+      },
+      {
+        "type": "category",
+        "label": "Advanced and Specialised Nursing",
+        "id": "ASJC2902",
+        "variant": "Advanced and Specialized Nursing"
+      },
+      {
+        "type": "category",
+        "label": "Assessment and Diagnosis",
+        "id": "ASJC2903"
+      },
+      {
+        "type": "category",
+        "label": "Care Planning",
+        "id": "ASJC2904"
+      },
+      {
+        "type": "category",
+        "label": "Community and Home Care",
+        "id": "ASJC2905"
+      },
+      {
+        "type": "category",
+        "label": "Critical Care Nursing",
+        "id": "ASJC2906"
+      },
+      {
+        "type": "category",
+        "label": "Emergency Nursing",
+        "id": "ASJC2907"
+      },
+      {
+        "type": "category",
+        "label": "Fundamentals and Skills",
+        "id": "ASJC2908"
+      },
+      {
+        "type": "category",
+        "label": "Gerontology",
+        "id": "ASJC2909"
+      },
+      {
+        "type": "category",
+        "label": "Issues, ethics and legal aspects",
+        "id": "ASJC2910"
+      },
+      {
+        "type": "category",
+        "label": "Leadership and Management",
+        "id": "ASJC2911"
+      },
+      {
+        "type": "category",
+        "label": "LPN and LVN",
+        "id": "ASJC2912"
+      },
+      {
+        "type": "category",
+        "label": "Maternity and Midwifery",
+        "id": "ASJC2913"
+      },
+      {
+        "type": "category",
+        "label": "Medical and Surgical Nursing",
+        "id": "ASJC2914"
+      },
+      {
+        "type": "category",
+        "label": "Nurse Assisting",
+        "id": "ASJC2915"
+      },
+      {
+        "type": "category",
+        "label": "Nutrition and Dietetics",
+        "id": "ASJC2916"
+      },
+      {
+        "type": "category",
+        "label": "Oncology (nursing)",
+        "id": "ASJC2917"
+      },
+      {
+        "type": "category",
+        "label": "Pathophysiology",
+        "id": "ASJC2918"
+      },
+      {
+        "type": "category",
+        "label": "Pediatrics",
+        "id": "ASJC2919"
+      },
+      {
+        "type": "category",
+        "label": "Pharmacology (nursing)",
+        "id": "ASJC2920"
+      },
+      {
+        "type": "category",
+        "label": "Psychiatric Mental Health",
+        "id": "ASJC2921"
+      },
+      {
+        "type": "category",
+        "label": "Research and Theory",
+        "id": "ASJC2922"
+      },
+      {
+        "type": "category",
+        "label": "Review and Exam Preparation",
+        "id": "ASJC2923"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Pharmacology",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/RM1-RM950",
+        "label": "Therapeutics. Pharmacology"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Pharmacology, Toxicology and Pharmaceutics",
+        "id": "ASJC30"
+      },
+      {
+        "type": "category",
+        "label": "General Pharmacology, Toxicology and Pharmaceutics",
+        "id": "ASJC3000"
+      },
+      {
+        "type": "category",
+        "label": "Pharmacology, Toxicology and Pharmaceutics (miscellaneous)",
+        "id": "ASJC3001"
+      },
+      {
+        "type": "category",
+        "label": "Drug Discovery",
+        "id": "ASJC3002"
+      },
+      {
+        "type": "category",
+        "label": "Pharmaceutical Science",
+        "id": "ASJC3003"
+      },
+      {
+        "type": "category",
+        "label": "Pharmacology",
+        "id": "ASJC3004"
+      },
+      {
+        "type": "category",
+        "label": "Toxicology",
+        "id": "ASJC3005"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Philosophy and Religion",
+    "loc": [
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/B1-B5802",
+        "label": "Philosophy (General)"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BJ1-BJ1725",
+        "label": "Ethics"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BL1-BL2790",
+        "label": "Religions. Mythology. Rationalism"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BC1-BC199",
+        "label": "Logic"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BD10-BD701",
+        "label": "Speculative philosophy"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BH1-BH301",
+        "label": "Aesthetics"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "Philosophy",
+        "id": "ASJC1211"
+      },
+      {
+        "type": "category",
+        "label": "Religious Studies",
+        "id": "ASJC1212"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Physics",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QB1-QB991",
+        "label": "Astronomy"
+      },
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/QC1-QC999",
+        "label": "Physics"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Physics and Astronomy",
+        "id": "ASJC31"
+      },
+      {
+        "type": "category",
+        "label": "Atmospheric Science",
+        "id": "ASJC1902"
+      },
+      {
+        "type": "category",
+        "label": "Space and Planetary Science",
+        "id": "ASJC1912"
+      },
+      {
+        "type": "category",
+        "label": "Electronic, Optical and Magnetic Materials",
+        "id": "ASJC2504"
+      },
+      {
+        "type": "category",
+        "label": "General Physics and Astronomy",
+        "id": "ASJC3100"
+      },
+      {
+        "type": "category",
+        "label": "Physics and Astronomy (miscellaneous)",
+        "id": "ASJC3101"
+      },
+      {
+        "type": "category",
+        "label": "Acoustics and Ultrasonics",
+        "id": "ASJC3102"
+      },
+      {
+        "type": "category",
+        "label": "Astronomy and Astrophysics",
+        "id": "ASJC3103"
+      },
+      {
+        "type": "category",
+        "label": "Condensed Matter Physics",
+        "id": "ASJC3104"
+      },
+      {
+        "type": "category",
+        "label": "Instrumentation",
+        "id": "ASJC3105"
+      },
+      {
+        "type": "category",
+        "label": "Nuclear and High Energy Physics",
+        "id": "ASJC3106"
+      },
+      {
+        "type": "category",
+        "label": "Atomic and Molecular Physics, and Optics",
+        "id": "ASJC3107"
+      },
+      {
+        "type": "category",
+        "label": "Radiation",
+        "id": "ASJC3108"
+      },
+      {
+        "type": "category",
+        "label": "Statistical and Nonlinear Physics",
+        "id": "ASJC3109"
+      },
+      {
+        "type": "category",
+        "label": "Surfaces and Interfaces",
+        "id": "ASJC3110"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Psychology",
+    "loc": [
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/BF1-BF990",
+        "label": "Psychology"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Psychology",
+        "id": "ASJC32"
+      },
+      {
+        "type": "category",
+        "label": "General Psychology",
+        "id": "ASJC3200"
+      },
+      {
+        "type": "category",
+        "label": "Psychology (miscellaneous)",
+        "id": "ASJC3201"
+      },
+      {
+        "type": "category",
+        "label": "Applied Psychology",
+        "id": "ASJC3202"
+      },
+      {
+        "type": "category",
+        "label": "Clinical Psychology",
+        "id": "ASJC3203"
+      },
+      {
+        "type": "category",
+        "label": "Developmental and Educational Psychology",
+        "id": "ASJC3204"
+      },
+      {
+        "type": "category",
+        "label": "Experimental and Cognitive Psychology",
+        "id": "ASJC3205"
+      },
+      {
+        "type": "category",
+        "label": "Neuropsychology and Physiological Psychology",
+        "id": "ASJC3206"
+      },
+      {
+        "type": "category",
+        "label": "Social Psychology",
+        "id": "ASJC3207"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Science",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/Q",
+        "label": "Science"
+      }
+    ],
+    "scopus": []
+  },
+  {
+    "bloomTaxonomy": "Social Science",
+    "loc": [
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/G1-G922",
+        "label": "Geography (General)"
+      },
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GF1-GF900",
+        "label": "Human ecology. Anthropogeography"
+      },
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GN1-GN890",
+        "label": "Anthropology"
+      },
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GR1-GR950",
+        "label": "Folklore"
+      },
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GT1-GT7070",
+        "label": "Manners and customs (General)"
+      },
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/GV1-GV1860",
+        "label": "Recreation. Leisure"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/H1-H99",
+        "label": "Social sciences (General)"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HA1-HA4737",
+        "label": "Statistics"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HE1-HE9900",
+        "label": "Transportation and communications"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HM401-HM1281",
+        "label": "Sociology"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HN1-HN995",
+        "label": "Social history and conditions. Social problems. Social reform"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HQ1-HQ2044",
+        "label": "The Family. Marriage. Women"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HT1-HT1595.22",
+        "label": "Communities. Classes. Races"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/HV1-HV9960",
+        "label": "Social pathology. Social and public welfare. Criminology"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JA1-JA92",
+        "label": "Political science (General)"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JC11-JC607",
+        "label": "Political theory. The state. Theories of the state"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JF20-JF2112",
+        "label": "Political institutions and public administration (General)"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JS3-JS8500",
+        "label": "Local government. Municipal government"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JV1-JV5397",
+        "label": "Colonies and colonization"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JV6001-JV9480",
+        "label": "Emigration and immigration. International migration"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/JZ2-JZ6530",
+        "label": "International relations"
+      },
+      {
+        "topLevelCode": "K",
+        "topLevel": "LAW",
+        "uri": "http://id.loc.gov/authorities/classification/K1-K7720.22",
+        "label": "Law in general. Comparative and uniform law. Jurisprudence"
+      },
+      {
+        "topLevelCode": "L",
+        "topLevel": "EDUCATION",
+        "uri": "http://id.loc.gov/authorities/classification/L1-L991",
+        "label": "Education (General)"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/TX1-TX1110",
+        "label": "Home economics"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Social Sciences",
+        "id": "ASJC33"
+      },
+      {
+        "type": "category",
+        "label": "General Social Sciences",
+        "id": "ASJC3300"
+      },
+      {
+        "type": "category",
+        "label": "Social Sciences (miscellaneous)",
+        "id": "ASJC3301"
+      },
+      {
+        "type": "category",
+        "label": "Development",
+        "id": "ASJC3303"
+      },
+      {
+        "type": "category",
+        "label": "Education",
+        "id": "ASJC3304"
+      },
+      {
+        "type": "category",
+        "label": "Geography, Planning and Development",
+        "id": "ASJC3305"
+      },
+      {
+        "type": "category",
+        "label": "Health (social science)",
+        "id": "ASJC3306"
+      },
+      {
+        "type": "category",
+        "label": "Human Factors and Ergonomics",
+        "id": "ASJC3307"
+      },
+      {
+        "type": "category",
+        "label": "Law",
+        "id": "ASJC3308"
+      },
+      {
+        "type": "category",
+        "label": "Safety Research",
+        "id": "ASJC3311"
+      },
+      {
+        "type": "category",
+        "label": "Sociology and Political Science",
+        "id": "ASJC3312"
+      },
+      {
+        "type": "category",
+        "label": "Transportation",
+        "id": "ASJC3313"
+      },
+      {
+        "type": "category",
+        "label": "Anthropology",
+        "id": "ASJC3314"
+      },
+      {
+        "type": "category",
+        "label": "Communication",
+        "id": "ASJC3315"
+      },
+      {
+        "type": "category",
+        "label": "Cultural Studies",
+        "id": "ASJC3316"
+      },
+      {
+        "type": "category",
+        "label": "Demography",
+        "id": "ASJC3317"
+      },
+      {
+        "type": "category",
+        "label": "Gender Studies",
+        "id": "ASJC3318"
+      },
+      {
+        "type": "category",
+        "label": "Life-span and Life-course Studies",
+        "id": "ASJC3319"
+      },
+      {
+        "type": "category",
+        "label": "Political Science and International Relations",
+        "id": "ASJC3320"
+      },
+      {
+        "type": "category",
+        "label": "Public Administration",
+        "id": "ASJC3321"
+      },
+      {
+        "type": "category",
+        "label": "Urban Studies",
+        "id": "ASJC3322"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Study of Medicine",
+    "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/R",
+        "label": "Medicine"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "General Medicine",
+        "id": "ASJC2700"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Study of Science",
+    "loc": [
+      {
+        "topLevelCode": "Q",
+        "topLevel": "SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/Q1-Q390",
+        "label": "Science (General)"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "category",
+        "label": "History and Philosophy of Science",
+        "id": "ASJC1207"
+      }
+    ]
+  },
+  {
+    "bloomTaxonomy": "Veterinary",
+    "loc": [
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/SF600-SF1100",
+        "label": "Veterinary medicine"
+      }
+    ],
+    "scopus": [
+      {
+        "type": "area",
+        "label": "Veterinary",
+        "id": "ASJC34"
+      },
+      {
+        "type": "category",
+        "label": "General Veterinary",
+        "id": "ASJC3400"
+      },
+      {
+        "type": "category",
+        "label": "Veterinary (miscellaneous)",
+        "id": "ASJC3401"
+      },
+      {
+        "type": "category",
+        "label": "Equine",
+        "id": "ASJC3402"
+      },
+      {
+        "type": "category",
+        "label": "Food Animals",
+        "id": "ASJC3403"
+      },
+      {
+        "type": "category",
+        "label": "Small Animals",
+        "id": "ASJC3404"
+      }
+    ]
+  }
+]

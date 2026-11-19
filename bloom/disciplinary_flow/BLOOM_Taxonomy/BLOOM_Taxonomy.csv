@@ -1,0 +1,542 @@
+BLOOM TAXONOMY,LOC TOP LEVEL CODE,LOC TOP Level,LOC URI,LOC LABEL,SCOPUS AREA LABEL,SCOPUS CATEGORY LABEL
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/S1-S972,Agriculture (General),,
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SB1-SB1110,Plant culture,,
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SD1-SD669.5,Forestry,,
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SF1-SF1100,Animal culture,,
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SH1-SH691,Aquaculture. Fisheries. Angling,,
+Agriculture,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SK1-SK664,Hunting sports,,
+Agriculture,,,,,Agricultural and Biological Sciences,
+Agriculture,,,,,,General Agricultural and Biological Sciences
+Agriculture,,,,,,Agricultural and Biological Sciences (miscellaneous)
+Agriculture,,,,,,Agronomy and Crop Science
+Agriculture,,,,,,Aquatic Science
+Agriculture,,,,,,Food Science
+Agriculture,,,,,,Forestry
+Agriculture,,,,,,Horticulture
+Agriculture,,,,,,Soil Science
+"Archaeology, Museology and Classics",A,GENERAL WORKS,http://id.loc.gov/authorities/classification/AM1-AM501,Museums. Collectors and collecting,,
+"Archaeology, Museology and Classics",C,AUXILIARY SCIENCES OF HISTORY,http://id.loc.gov/authorities/classification/CC1-CC960,Archaeology,,
+"Archaeology, Museology and Classics",C,AUXILIARY SCIENCES OF HISTORY,http://id.loc.gov/authorities/classification/CN1-CN1355,Inscriptions. Epigraphy,,
+"Archaeology, Museology and Classics",,,,,,Archaeology
+"Archaeology, Museology and Classics",,,,,,Classics
+"Archaeology, Museology and Classics",,,,,,Conservation
+"Archaeology, Museology and Classics",,,,,,Museology
+"Archaeology, Museology and Classics",,,,,,Archaeology
+Arts,M,MUSIC AND BOOKS ON MUSIC,http://id.loc.gov/authorities/classification/M1-M5000,Music,,
+Arts,M,MUSIC AND BOOKS ON MUSIC,http://id.loc.gov/authorities/classification/ML1-ML3930,Literature on music,,
+Arts,M,MUSIC AND BOOKS ON MUSIC,http://id.loc.gov/authorities/classification/MT1-MT999,Instruction and study,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/N1-N9211,Visual arts,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NA1-NA9428,Architecture,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NB1-NB1952,Sculpture,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NC1-NC1940,Drawing. Design. Illustration,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/ND25-ND3416,Painting,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NE1-NE3002,Print media,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NK1-NK9990,Decorative arts. Applied arts. Decoration and ornament,,
+Arts,N,FINE ARTS,http://id.loc.gov/authorities/classification/NX1-NX820,Arts in general,,
+Arts,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TR1-TR1050,Photography,,
+Arts,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TT1-TT999,Handicrafts. Arts and crafts,,
+Arts,,,,,Arts and Humanities,
+Arts,,,,,,General Arts and Humanities
+Arts,,,,,,Arts and Humanities (miscellaneous)
+Arts,,,,,,Music
+Arts,,,,,,Visual Arts and Performing Arts
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QH1-QH278.5,Natural history (General),,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QH301-QH705,Biology (General),,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QR180-QR189.5,Immunology,,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QK1-QK989,Botany,,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QL1-QL991,Zoology,,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QM1-QM695,Human anatomy,,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QP1-QP981,Physiology,,
+Biology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QR1-QR502,Microbiology,,
+Biology,,,,,"Biochemistry, Genetics and Molecular Biology",
+Biology,,,,,Immunology and Microbiology,
+Biology,,,,,,Animal Science and Zoology
+Biology,,,,,,Ecology
+Biology,,,,,,"Ecology, Evolution, Behavior and Systematics"
+Biology,,,,,,Insect Science
+Biology,,,,,,Plant Science
+Biology,,,,,,"General Biochemistry, Genetics and Molecular Biology"
+Biology,,,,,,"Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+Biology,,,,,,Ageing
+Biology,,,,,,Biochemistry
+Biology,,,,,,Biophysics
+Biology,,,,,,Biotechnology
+Biology,,,,,,Cell Biology
+Biology,,,,,,Developmental Biology
+Biology,,,,,,Endocrinology
+Biology,,,,,,Genetics
+Biology,,,,,,Molecular Biology
+Biology,,,,,,Molecular Medicine
+Biology,,,,,,Physiology
+Biology,,,,,,Structural Biology
+Biology,,,,,,General Immunology and Microbiology
+Biology,,,,,,Immunology and Microbiology (miscellaneous)
+Biology,,,,,,Applied Microbiology and Biotechnology
+Biology,,,,,,Immunology
+Biology,,,,,,Microbiology
+Biology,,,,,,Parasitology
+Biology,,,,,,Virology
+Chemistry,Q,SCIENCE,http://id.loc.gov/authorities/classification/QD1-QD999,Chemistry,,
+Chemistry,,,,,Chemical Engineering,
+Chemistry,,,,,Chemistry,
+Chemistry,,,,,,General Chemical Engineering
+Chemistry,,,,,,Chemical Engineering (miscellaneous)
+Chemistry,,,,,,Bioengineering
+Chemistry,,,,,,Catalysis
+Chemistry,,,,,,Chemical Health and Safety
+Chemistry,,,,,,Colloid and Surface Chemistry
+Chemistry,,,,,,Filtration and Separation
+Chemistry,,,,,,Fluid Flow and Transfer Processes
+Chemistry,,,,,,Process Chemistry and Technology
+Chemistry,,,,,,General Chemistry
+Chemistry,,,,,,Chemistry (miscellaneous)
+Chemistry,,,,,,Analytical Chemistry
+Chemistry,,,,,,Electrochemistry
+Chemistry,,,,,,Inorganic Chemistry
+Chemistry,,,,,,Organic Chemistry
+Chemistry,,,,,,Physical and Theoretical Chemistry
+Chemistry,,,,,,Spectroscopy
+Chemistry,,,,,,Ceramics and Composites
+Chemistry,,,,,,Materials Chemistry
+Chemistry,,,,,,Metals and Alloys
+Chemistry,,,,,,Polymers and Plastics
+Computer Science,Q,SCIENCE,http://id.loc.gov/authorities/classification/QA75.5-QA76.95,Electronic computers. Computer science,,
+Computer Science,,,,,Computer Science,
+Computer Science,,,,,,General Computer Science
+Computer Science,,,,,,Computer Science (miscellaneous)
+Computer Science,,,,,,Artificial Intelligence
+Computer Science,,,,,,Computational Theory and Mathematics
+Computer Science,,,,,,Computer Graphics and Computer-Aided Design
+Computer Science,,,,,,Computer Networks and Communications
+Computer Science,,,,,,Computer Science Applications
+Computer Science,,,,,,Computer Vision and Pattern Recognition
+Computer Science,,,,,,Hardware and Architecture
+Computer Science,,,,,,Human-Computer Interaction
+Computer Science,,,,,,Information Systems
+Computer Science,,,,,,Signal Processing
+Computer Science,,,,,,Software
+Computer Science,,,,,,Theoretical Computer Science
+Dentistry,R,MEDICINE,http://id.loc.gov/authorities/classification/RK1-RK715,Dentistry,,
+Dentistry,,,,,Dentistry,
+Dentistry,,,,,,General Dentistry
+Dentistry,,,,,,Dentistry (miscellaneous)
+Dentistry,,,,,,Dental Assisting
+Dentistry,,,,,,Dental Hygiene
+Dentistry,,,,,,Oral Surgery
+Dentistry,,,,,,Orthodontics
+Dentistry,,,,,,Periodontics
+Economics and Finance,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HB1-HB3840,Economic theory. Demography,,
+Economics and Finance,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HC1-HC1085.2,Economic history and conditions,,
+Economics and Finance,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HD28-HD9999,Industries. Land use. Labor,,
+Economics and Finance,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HF1-HF6182,Commerce,,
+Economics and Finance,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HG1-HG9999,Finance,,
+Economics and Finance,,,,,Business,
+Economics and Finance,,,,,"Economics, Econometrics and Finance",
+Economics and Finance,,,,,,"General Business, Management and Accounting"
+Economics and Finance,,,,,,"Business, Management and Accounting (miscellaneous)"
+Economics and Finance,,,,,,Accounting
+Economics and Finance,,,,,,Business and International Management
+Economics and Finance,,,,,,Management Information Systems
+Economics and Finance,,,,,,Management of Technology and Innovation
+Economics and Finance,,,,,,Marketing
+Economics and Finance,,,,,,Organizational Behavior and Human Resource Management
+Economics and Finance,,,,,,Strategy and Management
+Economics and Finance,,,,,,"Tourism, Leisure and Hospitality Management"
+Economics and Finance,,,,,,Industrial Relations
+Economics and Finance,,,,,,"General Economics, Econometrics and Finance"
+Economics and Finance,,,,,,"Economics, Econometrics and Finance (miscellaneous)"
+Economics and Finance,,,,,,Economics and Econometrics
+Economics and Finance,,,,,,Finance
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/T1-T995,Technology (General),,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TA1-TA2040,Engineering (General). Civil engineering (General),,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1-TC1800,Hydraulic engineering,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1501-TC1800,Ocean engineering,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TD1-TD1066,Environmental technology. Sanitary engineering,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TE1-TE450,Highway engineering. Roads and pavements,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TF1-TF1620,Railroad engineering and operation,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TG1-TG470,Bridge engineering,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TH1-TH9745,Building construction,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TJ1-TJ1570,Mechanical engineering and machinery,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TK1-TK9971,Electrical engineering. Electronics. Nuclear engineering,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TL1-TL4050,Motor vehicles. Aeronautics. Astronautics,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TN1-TN997,Mining engineering. Metallurgy,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TP1-TP1185,Chemical technology,,
+Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TS1-TS2301,Manufactures,,
+Engineering/Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/V1-V995,Naval science (General),,
+Engineering/Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/VM1-VM989,Naval architecture. Shipbuilding. Marine engineering,,
+Engineering/Technology,,,,,Energy,
+Engineering/Technology,,,,,Engineering,
+Engineering/Technology,,,,,Materials Science,
+Engineering/Technology,,,,,,Geotechnical Engineering and Engineering Geology
+Engineering/Technology,,,,,,General Energy
+Engineering/Technology,,,,,,Energy (miscellaneous)
+Engineering/Technology,,,,,,Energy Engineering and Power Technology
+Engineering/Technology,,,,,,Fuel Technology
+Engineering/Technology,,,,,,Nuclear Energy and Engineering
+Engineering/Technology,,,,,,"Renewable Energy, Sustainability and the Environment"
+Engineering/Technology,,,,,,General Engineering
+Engineering/Technology,,,,,,Engineering (miscellaneous)
+Engineering/Technology,,,,,,Aerospace Engineering
+Engineering/Technology,,,,,,Automotive Engineering
+Engineering/Technology,,,,,,Biomedical Engineering
+Engineering/Technology,,,,,,Civil and Structural Engineering
+Engineering/Technology,,,,,,Computational Mechanics
+Engineering/Technology,,,,,,Control and Systems Engineering
+Engineering/Technology,,,,,,Electrical and Electronic Engineering
+Engineering/Technology,,,,,,Industrial and Manufacturing Engineering
+Engineering/Technology,,,,,,Mechanical Engineering
+Engineering/Technology,,,,,,Mechanics of Materials
+Engineering/Technology,,,,,,Ocean Engineering
+Engineering/Technology,,,,,,"Safety, Risk, Reliability and Quality"
+Engineering/Technology,,,,,,Media Technology
+Engineering/Technology,,,,,,Building and Construction
+Engineering/Technology,,,,,,Architecture
+Engineering/Technology,,,,,,General Materials Science
+Engineering/Technology,,,,,,Materials Science (miscellaneous)
+Engineering/Technology,,,,,,Biomaterials
+Engineering/Technology,,,,,,"Surfaces, Coatings and Films"
+Environmental Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GE1-GE350,Environmental sciences,,
+Environmental Science,,,,,Environmental Science,
+Environmental Science,,,,,,General Environmental Science
+Environmental Science,,,,,,Environmental Science (miscellaneous)
+Environmental Science,,,,,,Ecological Modelling
+Environmental Science,,,,,,Environmental Chemistry
+Environmental Science,,,,,,Environmental Engineering
+Environmental Science,,,,,,Global and Planetary Change
+Environmental Science,,,,,,"Health, Toxicology and Mutagenesis"
+Environmental Science,,,,,,"Management, Monitoring, Policy and Law"
+Environmental Science,,,,,,Nature and Landscape Conservation
+Environmental Science,,,,,,Pollution
+Environmental Science,,,,,,Waste Management and Disposal
+Environmental Science,,,,,,Water Science and Technology
+Geology,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GC1-GC1581,Oceanography,,
+Geology,Q,SCIENCE,http://id.loc.gov/authorities/classification/QE1-QE996.5,Geology,,
+Geology,,,,,Earth and Planetary Sciences,
+Geology,,,,,,General Earth and Planetary Sciences
+Geology,,,,,,Earth and Planetary Sciences (miscellaneous)
+Geology,,,,,,Computers in Earth Sciences
+Geology,,,,,,Earth-Surface Processes
+Geology,,,,,,Economic Geology
+Geology,,,,,,Geochemistry and Petrology
+Geology,,,,,,Geology
+Geology,,,,,,Geophysics
+Geology,,,,,,Oceanography
+Geology,,,,,,Paleontology
+Geology,,,,,,Stratigraphy
+History,C,AUXILIARY SCIENCES OF HISTORY,http://id.loc.gov/authorities/classification/CB3-CB482,History of civilization,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/D1-D2027,History (General),,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DA1-DA995,History of Great Britain,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DAW1001-DAW1051,History of Central Europe,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DB1-DB879,History of Austria,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DC1-DC947,History of France,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DE1-DE100,History of the Greco-Roman world,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DF10-DF951,History of Greece,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DG11-DG980.2,History of Italy,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DH1-DH207,History of Low Countries. Benelux Countries,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DJ1-DJ500.22,History of Netherlands (Holland),,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DL1-DL1180.2,History of Northern Europe. Scandinavia,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DP1-DP402,History of Spain,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DQ1-DQ851,History of Switzerland,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DR1-DR2285,History of Balkan Peninsula,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DS1-DS937,History of Asia,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DT1-DT3415,History of Africa,,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DU1-DU950,History of Oceania (South Seas),,
+History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",http://id.loc.gov/authorities/classification/DX101-DX301,History of Romanies. History of Gypsies,,
+History,E,HISTORY OF THE AMERICAS,http://id.loc.gov/authorities/classification/E11-E143,America,,
+History,F,HISTORY OF THE AMERICAS,http://id.loc.gov/authorities/classification/F1-F975,United States local history,,
+History,,,,,,History
+Literature and Linguistics,C,AUXILIARY SCIENCES OF HISTORY,http://id.loc.gov/authorities/classification/CT21-CT9999,Biography,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/P1-P1091,Philology. Linguistics,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA1-PA199,Classical philology,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA1000-PA1179,Medieval and modern Greek language,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA2001-PA2915,Latin philology and language,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA201-PA899,Greek philology and language,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA3000-PA3049,Classical literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA3050-PA4505,Greek literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA5000-PA5660,Byzantine and modern Greek literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA6000-PA6971,Roman literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA8001-PA8595,Medieval and modern Latin literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PB1-PB3029,Modern languages. Celtic languages,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PC1-PC5498,Romance philology and languages,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PD1-PD7159,Germanic philology and languages,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PE1-PE3729,English philology and language,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PF1-PF5999,West Germanic philology and languages,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PG1-PG9665,Slavic. Baltic. Albanian,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PH1-PH5490,Uralic. Basque,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PJ1-PJ9500,Oriental philology and literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PK1-PK9601,Indo-Iranian philology and literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PL1-PL8844,"Languages of Eastern Asia, Africa, Oceania",,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PM1-PM9021,"Hyperborean, Indian, and artificial languages",,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PN1-PN6790,Literature (General),,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PQ1-PQ3999,French literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PQ4001-PQ5999,Italian literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PQ6001-PQ8929,Spanish literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PQ9000-PQ9999,Portuguese literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PR1-PR9680,English literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PS1-PS3626,American literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PS8001-PS8599,Canadian literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT1-PT4897,German literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT5001-PT5980,Dutch literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT6000-PT6467.36,Flemish literature since 1830,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT6500-PT6593.36,Afrikaans literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT7001-PT7099,Scandinavian literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT7101-PT7338,Old Norse literature: Old Icelandic and old Norwegian,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT7351-PT7550,Modern Icelandic literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT7581-PT7599,Faroese literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT7601-PT8260,Danish literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT8301-PT9155,Norwegian literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PT9201-PT9999,Swedish literature,,
+Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PZ1-PZ90,Fiction and juvenile belles lettres,,
+Literature and Linguistics,,,,,,Language and Linguistics
+Literature and Linguistics,,,,,,Literature and Literary Theory
+Literature and Linguistics,,,,,,Linguistics and Language
+Mathematics,Q,SCIENCE,http://id.loc.gov/authorities/classification/Q350-Q390,Information theory,,
+Mathematics,Q,SCIENCE,http://id.loc.gov/authorities/classification/QA1-QA939,Mathematics,,
+Mathematics,,,,,Decision Sciences,
+Mathematics,,,,,Mathematics,
+Mathematics,,,,,,General Decision Sciences
+Mathematics,,,,,,Decision Sciences (miscellaneous)
+Mathematics,,,,,,Information Systems and Management
+Mathematics,,,,,,Management Science and Operations Research
+Mathematics,,,,,,"Statistics, Probability and Uncertainty"
+Mathematics,,,,,,General Mathematics
+Mathematics,,,,,,Mathematics (miscellaneous)
+Mathematics,,,,,,Algebra and Number Theory
+Mathematics,,,,,,Analysis
+Mathematics,,,,,,Applied Mathematics
+Mathematics,,,,,,Computational Mathematics
+Mathematics,,,,,,Control and Optimization
+Mathematics,,,,,,Discrete Mathematics and Combinatorics
+Mathematics,,,,,,Geometry and Topology
+Mathematics,,,,,,Logic
+Mathematics,,,,,,Mathematical Physics
+Mathematics,,,,,,Modelling and Simulation
+Mathematics,,,,,,Numerical Analysis
+Mathematics,,,,,,Statistics and Probability
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/R1-R920,Medicine (General),,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RA1-RA1270,Public aspects of medicine,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RB1-RB214,Pathology,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RC1-RC1245,Internal medicine,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RD1-RD811,Surgery,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RE1-RE994,Ophthalmology,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RF1-RF547,Otorhinolaryngology,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RG1-RG991,Gynecology and obstetrics,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RJ1-RJ570,Pediatrics,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RL1-RL803,Dermatology,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RS1-RS441,Pharmacy and materia medica,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RV1-RV431,"Botanic, Thomsonian, and eclectic medicine",,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RX1-RX681,Homeopathy,,
+Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/RZ1-RZ999,Other systems of medicine,,
+Medicine,,,,,Medicine,
+Medicine,,,,,,Cancer Research
+Medicine,,,,,,Clinical Biochemistry
+Medicine,,,,,,Medicine (miscellaneous)
+Medicine,,,,,,Anatomy
+Medicine,,,,,,Anesthesiology and Pain Medicine
+Medicine,,,,,,Biochemistry (medical)
+Medicine,,,,,,Cardiology and Cardiovascular Medicine
+Medicine,,,,,,Critical Care and Intensive Care Medicine
+Medicine,,,,,,Complementary and Alternative Medicine
+Medicine,,,,,,Dermatology
+Medicine,,,,,,Drug Guides
+Medicine,,,,,,Embryology
+Medicine,,,,,,Emergency Medicine
+Medicine,,,,,,"Endocrinology, Diabetes and Metabolism"
+Medicine,,,,,,Epidemiology
+Medicine,,,,,,Family Practice
+Medicine,,,,,,Gastroenterology
+Medicine,,,,,,Genetics (clinical)
+Medicine,,,,,,Geriatrics and Gerontology
+Medicine,,,,,,Health Informatics
+Medicine,,,,,,Health Policy
+Medicine,,,,,,Hematology
+Medicine,,,,,,Hepatology
+Medicine,,,,,,Histology
+Medicine,,,,,,Immunology and Allergy
+Medicine,,,,,,Internal Medicine
+Medicine,,,,,,Infectious Diseases
+Medicine,,,,,,Microbiology (medical)
+Medicine,,,,,,Nephrology
+Medicine,,,,,,Neurology (clinical)
+Medicine,,,,,,Obstetrics and Gynaecology
+Medicine,,,,,,Oncology
+Medicine,,,,,,Ophthalmology
+Medicine,,,,,,Orthopedics and Sports Medicine
+Medicine,,,,,,Otorhinolaryngology
+Medicine,,,,,,Pathology and Forensic Medicine
+Medicine,,,,,,"Pediatrics, Perinatology, and Child Health"
+Medicine,,,,,,Pharmacology (medical)
+Medicine,,,,,,Physiology (medical)
+Medicine,,,,,,Psychiatry and Mental Health
+Medicine,,,,,,"Public Health, Environmental and Occupational Health"
+Medicine,,,,,,Pulmonary and Respiratory Medicine
+Medicine,,,,,,Radiology Nuclear Medicine and imaging
+Medicine,,,,,,Rehabilitation
+Medicine,,,,,,Reproductive Medicine
+Medicine,,,,,,Reviews and References (medical)
+Medicine,,,,,,Rheumatology
+Medicine,,,,,,Surgery
+Medicine,,,,,,Transplantation
+Medicine,,,,,,Urology
+Medicine as a profession,R,MEDICINE,http://id.loc.gov/authorities/classification/R690-R697,Medicine as a profession. Physicians,,
+Medicine as a profession,,,,,Health Professions,
+Medicine as a profession,,,,,,General Health Professions
+Medicine as a profession,,,,,,Health Professions (miscellaneous)
+Medicine as a profession,,,,,,Chiropractics
+Medicine as a profession,,,,,,Complementary and Manual Therapy
+Medicine as a profession,,,,,,Emergency Medical Services
+Medicine as a profession,,,,,,Health Information Management
+Medicine as a profession,,,,,,Medical Assisting and Transcription
+Medicine as a profession,,,,,,Medical Laboratory Technology
+Medicine as a profession,,,,,,Medical Terminology
+Medicine as a profession,,,,,,Occupational Therapy
+Medicine as a profession,,,,,,Optometry
+Medicine as a profession,,,,,,Pharmacy
+Medicine as a profession,,,,,,"Physical Therapy, Sports Therapy and Rehabilitation"
+Medicine as a profession,,,,,,Podiatry
+Medicine as a profession,,,,,,Radiological and Ultrasound Technology
+Medicine as a profession,,,,,,Respiratory Care
+Medicine as a profession,,,,,,Speech and Hearing
+Multidisciplinary,Z,BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL),http://id.loc.gov/authorities/classification/Z1001-Z1121,General bibliography,,
+Multidisciplinary,,,,,Multidisciplinary,
+Multidisciplinary,,,,,,Multidisciplinary
+Multidisciplinary,,,,,,Library and Information Sciences
+Neuroscience,R,MEDICINE,http://id.loc.gov/authorities/classification/RC321-RC580,Neurosciences. Biological psychiatry. Neuropsychiatry,,
+Neuroscience,R,MEDICINE,http://id.loc.gov/authorities/classification/RC346-RC429.2,Neurology. Diseases of the nervous system,,
+Neuroscience,,,,,Neuroscience,
+Neuroscience,,,,,,General Neuroscience
+Neuroscience,,,,,,Neuroscience (miscellaneous)
+Neuroscience,,,,,,Behavioral Neuroscience
+Neuroscience,,,,,,Biological Psychiatry
+Neuroscience,,,,,,Cellular and Molecular Neuroscience
+Neuroscience,,,,,,Cognitive Neuroscience
+Neuroscience,,,,,,Developmental Neuroscience
+Neuroscience,,,,,,Endocrine and Autonomic Systems
+Neuroscience,,,,,,Neurology
+Neuroscience,,,,,,Sensory Systems
+Nursing,R,MEDICINE,http://id.loc.gov/authorities/classification/RT1-RT120,Nursing,,
+Nursing,,,,,Nursing,
+Nursing,,,,,,General Nursing
+Nursing,,,,,,Nursing (miscellaneous)
+Nursing,,,,,,Advanced and Specialised Nursing
+Nursing,,,,,,Assessment and Diagnosis
+Nursing,,,,,,Care Planning
+Nursing,,,,,,Community and Home Care
+Nursing,,,,,,Critical Care Nursing
+Nursing,,,,,,Emergency Nursing
+Nursing,,,,,,Fundamentals and Skills
+Nursing,,,,,,Gerontology
+Nursing,,,,,,"Issues, ethics and legal aspects"
+Nursing,,,,,,Leadership and Management
+Nursing,,,,,,LPN and LVN
+Nursing,,,,,,Maternity and Midwifery
+Nursing,,,,,,Medical and Surgical Nursing
+Nursing,,,,,,Nurse Assisting
+Nursing,,,,,,Nutrition and Dietetics
+Nursing,,,,,,Oncology (nursing)
+Nursing,,,,,,Pathophysiology
+Nursing,,,,,,Pediatrics
+Nursing,,,,,,Pharmacology (nursing)
+Nursing,,,,,,Psychiatric Mental Health
+Nursing,,,,,,Research and Theory
+Nursing,,,,,,Review and Exam Preparation
+Pharmacology,R,MEDICINE,http://id.loc.gov/authorities/classification/RM1-RM950,Therapeutics. Pharmacology,,
+Pharmacology,,,,,"Pharmacology, Toxicology and Pharmaceutics",
+Pharmacology,,,,,,"General Pharmacology, Toxicology and Pharmaceutics"
+Pharmacology,,,,,,"Pharmacology, Toxicology and Pharmaceutics (miscellaneous)"
+Pharmacology,,,,,,Drug Discovery
+Pharmacology,,,,,,Pharmaceutical Science
+Pharmacology,,,,,,Pharmacology
+Pharmacology,,,,,,Toxicology
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/B1-B5802,Philosophy (General),,
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BJ1-BJ1725,Ethics,,
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BL1-BL2790,Religions. Mythology. Rationalism,,
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BC1-BC199,Logic,,
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BD10-BD701,Speculative philosophy,,
+Philosophy and Religion,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BH1-BH301,Aesthetics,,
+Philosophy and Religion,,,,,,Philosophy
+Philosophy and Religion,,,,,,Religious Studies
+Physics,Q,SCIENCE,http://id.loc.gov/authorities/classification/QB1-QB991,Astronomy,,
+Physics,Q,SCIENCE,http://id.loc.gov/authorities/classification/QC1-QC999,Physics,,
+Physics,,,,,Physics and Astronomy,
+Physics,,,,,,Atmospheric Science
+Physics,,,,,,Space and Planetary Science
+Physics,,,,,,"Electronic, Optical and Magnetic Materials"
+Physics,,,,,,General Physics and Astronomy
+Physics,,,,,,Physics and Astronomy (miscellaneous)
+Physics,,,,,,Acoustics and Ultrasonics
+Physics,,,,,,Astronomy and Astrophysics
+Physics,,,,,,Condensed Matter Physics
+Physics,,,,,,Instrumentation
+Physics,,,,,,Nuclear and High Energy Physics
+Physics,,,,,,"Atomic and Molecular Physics, and Optics"
+Physics,,,,,,Radiation
+Physics,,,,,,Statistical and Nonlinear Physics
+Physics,,,,,,Surfaces and Interfaces
+Psychology,B,PHILOSOPHY. PSYCHOLOGY. RELIGION,http://id.loc.gov/authorities/classification/BF1-BF990,Psychology,,
+Psychology,,,,,Psychology,
+Psychology,,,,,,General Psychology
+Psychology,,,,,,Psychology (miscellaneous)
+Psychology,,,,,,Applied Psychology
+Psychology,,,,,,Clinical Psychology
+Psychology,,,,,,Developmental and Educational Psychology
+Psychology,,,,,,Experimental and Cognitive Psychology
+Psychology,,,,,,Neuropsychology and Physiological Psychology
+Psychology,,,,,,Social Psychology
+Science,Q,SCIENCE,http://id.loc.gov/authorities/classification/Q,Science,,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/G1-G922,Geography (General),,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GF1-GF900,Human ecology. Anthropogeography,,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GN1-GN890,Anthropology,,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GR1-GR950,Folklore,,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GT1-GT7070,Manners and customs (General),,
+Social Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GV1-GV1860,Recreation. Leisure,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/H1-H99,Social sciences (General),,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HA1-HA4737,Statistics,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HE1-HE9900,Transportation and communications,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HM401-HM1281,Sociology,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HN1-HN995,Social history and conditions. Social problems. Social reform,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HQ1-HQ2044,The Family. Marriage. Women,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HT1-HT1595.22,Communities. Classes. Races,,
+Social Science,H,SOCIAL SCIENCES,http://id.loc.gov/authorities/classification/HV1-HV9960,Social pathology. Social and public welfare. Criminology,,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JA1-JA92,Political science (General),,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JC11-JC607,Political theory. The state. Theories of the state,,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JF20-JF2112,Political institutions and public administration (General),,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JS3-JS8500,Local government. Municipal government,,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JV1-JV5397,Colonies and colonization,,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JV6001-JV9480,Emigration and immigration. International migration,,
+Social Science,J,POLITICAL SCIENCE,http://id.loc.gov/authorities/classification/JZ2-JZ6530,International relations,,
+Social Science,K,LAW,http://id.loc.gov/authorities/classification/K1-K7720.22,Law in general. Comparative and uniform law. Jurisprudence,,
+Social Science,L,EDUCATION,http://id.loc.gov/authorities/classification/L1-L991,Education (General),,
+Social Science,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TX1-TX1110,Home economics,,
+Social Science,,,,,Social Sciences,
+Social Science,,,,,,General Social Sciences
+Social Science,,,,,,Social Sciences (miscellaneous)
+Social Science,,,,,,Development
+Social Science,,,,,,Education
+Social Science,,,,,,"Geography, Planning and Development"
+Social Science,,,,,,Health (social science)
+Social Science,,,,,,Human Factors and Ergonomics
+Social Science,,,,,,Law
+Social Science,,,,,,Safety Research
+Social Science,,,,,,Sociology and Political Science
+Social Science,,,,,,Transportation
+Social Science,,,,,,Anthropology
+Social Science,,,,,,Communication
+Social Science,,,,,,Cultural Studies
+Social Science,,,,,,Demography
+Social Science,,,,,,Gender Studies
+Social Science,,,,,,Life-span and Life-course Studies
+Social Science,,,,,,Political Science and International Relations
+Social Science,,,,,,Public Administration
+Social Science,,,,,,Urban Studies
+Study of Medicine,R,MEDICINE,http://id.loc.gov/authorities/classification/R,Medicine,,
+Study of Medicine,,,,,,General Medicine
+Study of Science,Q,SCIENCE,http://id.loc.gov/authorities/classification/Q1-Q390,Science (General),,
+Study of Science,,,,,,History and Philosophy of Science
+Veterinary,S,AGRICULTURE,http://id.loc.gov/authorities/classification/SF600-SF1100,Veterinary medicine,,
+Veterinary,,,,,Veterinary,
+Veterinary,,,,,,General Veterinary
+Veterinary,,,,,,Veterinary (miscellaneous)
+Veterinary,,,,,,Equine
+Veterinary,,,,,,Food Animals
+Veterinary,,,,,,Small Animals
