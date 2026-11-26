@@ -868,7 +868,7 @@ bloom:ASJC2105 a skos:Concept ;
     rdfs:isDefinedBy <https://www.elsevier.com/products/scopus> .
 
 bloom:ASJC22 a skos:Concept ;
-    skos:prefLabel "Engineering and Technology" ;
+    skos:prefLabel "Engineering" ;
     skos:topConceptOf bloom:ASJC ;
     skos:narrower bloom:ASJC2200 ,
         bloom:ASJC2201 ,
