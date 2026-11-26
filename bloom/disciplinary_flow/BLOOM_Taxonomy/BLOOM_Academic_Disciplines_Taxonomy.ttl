@@ -4,7 +4,7 @@
 
 <https://w3id.org/bloom/taxonomy/> a skos:ConceptScheme ;
     skos:prefLabel "BLOOM Academic Disciplines Taxonomy" ;
-    skos:note "This taxonomy contains a set of 28 academic disciplines created from an alignment with the Library of Congress Classification (LCC) and the All Science Journal Classification (ASJC)." ;
+    skos:note "This taxonomy contains a set of 29 academic disciplines created from an alignment with the Library of Congress Classification (LCC) and the All Science Journal Classification (ASJC)." ;
     skos:hasTopConcept bloom:BL01,
         bloom:BL02,
         bloom:BL03,
@@ -32,7 +32,8 @@
         bloom:BL25,
         bloom:BL26,
         bloom:BL27,
-        bloom:BL28 .
+        bloom:BL28,
+        bloom:BL29 .
 
 bloom:BL01 a skos:Concept ;
     skos:prefLabel "Agriculture" ;
@@ -260,7 +261,7 @@ bloom:BL08 a skos:Concept ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
 bloom:BL09 a skos:Concept ;
-    skos:prefLabel "Engineering/Technology" ;
+    skos:prefLabel "Engineering and Technology" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC21 ,  # ASJC 21: Energy
         bloom:ASJC22 ,            # ASJC 22: Engineering
@@ -419,6 +420,16 @@ bloom:BL12 a skos:Concept ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
 bloom:BL13 a skos:Concept ;
+    skos:prefLabel "Humanities" ;
+    skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
+    # LOC A (GENERAL WORKS): General Works
+    skos:closeMatch <http://id.loc.gov/authorities/classification/A> ;
+    # LOC Z (BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)): Bibliography. Library Science. Information Resources
+    skos:closeMatch <http://id.loc.gov/authorities/classification/Z> ;
+    # LOC Z (BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)): General bibliography
+    skos:closeMatch <http://id.loc.gov/authorities/classification/Z1001-Z1121> ;
+    rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
+bloom:BL14 a skos:Concept ;
     skos:prefLabel "Literature and Linguistics" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC1203 ,  # ASJC 1203: Language and Linguistics
@@ -510,7 +521,7 @@ bloom:BL13 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/PZ1-PZ90> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL14 a skos:Concept ;
+bloom:BL15 a skos:Concept ;
     skos:prefLabel "Mathematics" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC18 ,  # ASJC 18: Decision Sciences
@@ -540,7 +551,7 @@ bloom:BL14 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/QA1-QA939> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL15 a skos:Concept ;
+bloom:BL16 a skos:Concept ;
     skos:prefLabel "Medicine" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC27 ,  # ASJC 27: Medicine
@@ -624,7 +635,7 @@ bloom:BL15 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/RZ1-RZ999> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL16 a skos:Concept ;
+bloom:BL17 a skos:Concept ;
     skos:prefLabel "Medicine as a profession" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC36 ,  # ASJC 36: Health Professions
@@ -649,17 +660,15 @@ bloom:BL16 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/R690-R697> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL17 a skos:Concept ;
+bloom:BL18 a skos:Concept ;
     skos:prefLabel "Multidisciplinary" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC10 ,  # ASJC 10: Multidisciplinary
         bloom:ASJC1000 ,          # ASJC 1000: Multidisciplinary
         bloom:ASJC3309 ;          # ASJC 3309: Library and Information Sciences
-    # LOC Z (BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)): General bibliography
-    skos:closeMatch <http://id.loc.gov/authorities/classification/Z1001-Z1121> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL18 a skos:Concept ;
+bloom:BL19 a skos:Concept ;
     skos:prefLabel "Neuroscience" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC28 ,  # ASJC 28: Neuroscience
@@ -679,7 +688,7 @@ bloom:BL18 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/RC346-RC429.2> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL19 a skos:Concept ;
+bloom:BL20 a skos:Concept ;
     skos:prefLabel "Nursing" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC29 ,  # ASJC 29: Nursing
@@ -711,7 +720,7 @@ bloom:BL19 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/RT1-RT120> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL20 a skos:Concept ;
+bloom:BL21 a skos:Concept ;
     skos:prefLabel "Pharmacology" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC30 ,  # ASJC 30: Pharmacology, Toxicology and Pharmaceutics
@@ -725,7 +734,7 @@ bloom:BL20 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/RM1-RM950> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL21 a skos:Concept ;
+bloom:BL22 a skos:Concept ;
     skos:prefLabel "Philosophy and Religion" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC1211 ,  # ASJC 1211: Philosophy
@@ -744,7 +753,7 @@ bloom:BL21 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/BH1-BH301> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL22 a skos:Concept ;
+bloom:BL23 a skos:Concept ;
     skos:prefLabel "Physics" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC31 ,  # ASJC 31: Physics and Astronomy
@@ -768,7 +777,7 @@ bloom:BL22 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/QC1-QC999> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL23 a skos:Concept ;
+bloom:BL24 a skos:Concept ;
     skos:prefLabel "Psychology" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC32 ,  # ASJC 32: Psychology
@@ -784,14 +793,14 @@ bloom:BL23 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/BF1-BF990> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL24 a skos:Concept ;
+bloom:BL25 a skos:Concept ;
     skos:prefLabel "Science" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     # LOC Q (SCIENCE): Science
     skos:closeMatch <http://id.loc.gov/authorities/classification/Q> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL25 a skos:Concept ;
+bloom:BL26 a skos:Concept ;
     skos:prefLabel "Social Science" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC33 ,  # ASJC 33: Social Sciences
@@ -865,7 +874,7 @@ bloom:BL25 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/TX1-TX1110> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL26 a skos:Concept ;
+bloom:BL27 a skos:Concept ;
     skos:prefLabel "Study of Medicine" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC2700 ;  # ASJC 2700: General Medicine
@@ -873,7 +882,7 @@ bloom:BL26 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/R> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL27 a skos:Concept ;
+bloom:BL28 a skos:Concept ;
     skos:prefLabel "Study of Science" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC1207 ;  # ASJC 1207: History and Philosophy of Science
@@ -881,7 +890,7 @@ bloom:BL27 a skos:Concept ;
     skos:closeMatch <http://id.loc.gov/authorities/classification/Q1-Q390> ;
     rdfs:isDefinedBy <https://w3id.org/bloom/taxonomy/> .
 
-bloom:BL28 a skos:Concept ;
+bloom:BL29 a skos:Concept ;
     skos:prefLabel "Veterinary" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC34 ,  # ASJC 34: Veterinary

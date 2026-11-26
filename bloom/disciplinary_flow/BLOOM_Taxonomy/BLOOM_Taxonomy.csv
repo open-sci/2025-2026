@@ -147,54 +147,54 @@ Economics and Finance,,,,,,"General Economics, Econometrics and Finance"
 Economics and Finance,,,,,,"Economics, Econometrics and Finance (miscellaneous)"
 Economics and Finance,,,,,,Economics and Econometrics
 Economics and Finance,,,,,,Finance
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/T1-T995,Technology (General),,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TA1-TA2040,Engineering (General). Civil engineering (General),,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1-TC1800,Hydraulic engineering,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1501-TC1800,Ocean engineering,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TD1-TD1066,Environmental technology. Sanitary engineering,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TE1-TE450,Highway engineering. Roads and pavements,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TF1-TF1620,Railroad engineering and operation,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TG1-TG470,Bridge engineering,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TH1-TH9745,Building construction,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TJ1-TJ1570,Mechanical engineering and machinery,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TK1-TK9971,Electrical engineering. Electronics. Nuclear engineering,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TL1-TL4050,Motor vehicles. Aeronautics. Astronautics,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TN1-TN997,Mining engineering. Metallurgy,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TP1-TP1185,Chemical technology,,
-Engineering/Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TS1-TS2301,Manufactures,,
-Engineering/Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/V1-V995,Naval science (General),,
-Engineering/Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/VM1-VM989,Naval architecture. Shipbuilding. Marine engineering,,
-Engineering/Technology,,,,,Energy,
-Engineering/Technology,,,,,Engineering,
-Engineering/Technology,,,,,Materials Science,
-Engineering/Technology,,,,,,Geotechnical Engineering and Engineering Geology
-Engineering/Technology,,,,,,General Energy
-Engineering/Technology,,,,,,Energy (miscellaneous)
-Engineering/Technology,,,,,,Energy Engineering and Power Technology
-Engineering/Technology,,,,,,Fuel Technology
-Engineering/Technology,,,,,,Nuclear Energy and Engineering
-Engineering/Technology,,,,,,"Renewable Energy, Sustainability and the Environment"
-Engineering/Technology,,,,,,General Engineering
-Engineering/Technology,,,,,,Engineering (miscellaneous)
-Engineering/Technology,,,,,,Aerospace Engineering
-Engineering/Technology,,,,,,Automotive Engineering
-Engineering/Technology,,,,,,Biomedical Engineering
-Engineering/Technology,,,,,,Civil and Structural Engineering
-Engineering/Technology,,,,,,Computational Mechanics
-Engineering/Technology,,,,,,Control and Systems Engineering
-Engineering/Technology,,,,,,Electrical and Electronic Engineering
-Engineering/Technology,,,,,,Industrial and Manufacturing Engineering
-Engineering/Technology,,,,,,Mechanical Engineering
-Engineering/Technology,,,,,,Mechanics of Materials
-Engineering/Technology,,,,,,Ocean Engineering
-Engineering/Technology,,,,,,"Safety, Risk, Reliability and Quality"
-Engineering/Technology,,,,,,Media Technology
-Engineering/Technology,,,,,,Building and Construction
-Engineering/Technology,,,,,,Architecture
-Engineering/Technology,,,,,,General Materials Science
-Engineering/Technology,,,,,,Materials Science (miscellaneous)
-Engineering/Technology,,,,,,Biomaterials
-Engineering/Technology,,,,,,"Surfaces, Coatings and Films"
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/T1-T995,Technology (General),,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TA1-TA2040,Engineering (General). Civil engineering (General),,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1-TC1800,Hydraulic engineering,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TC1501-TC1800,Ocean engineering,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TD1-TD1066,Environmental technology. Sanitary engineering,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TE1-TE450,Highway engineering. Roads and pavements,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TF1-TF1620,Railroad engineering and operation,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TG1-TG470,Bridge engineering,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TH1-TH9745,Building construction,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TJ1-TJ1570,Mechanical engineering and machinery,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TK1-TK9971,Electrical engineering. Electronics. Nuclear engineering,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TL1-TL4050,Motor vehicles. Aeronautics. Astronautics,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TN1-TN997,Mining engineering. Metallurgy,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TP1-TP1185,Chemical technology,,
+Engineering and Technology,T,TECHNOLOGY,http://id.loc.gov/authorities/classification/TS1-TS2301,Manufactures,,
+Engineering and Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/V1-V995,Naval science (General),,
+Engineering and Technology,V,NAVAL SCIENCE,http://id.loc.gov/authorities/classification/VM1-VM989,Naval architecture. Shipbuilding. Marine engineering,,
+Engineering and Technology,,,,,Energy,
+Engineering and Technology,,,,,Engineering,
+Engineering and Technology,,,,,Materials Science,
+Engineering and Technology,,,,,,Geotechnical Engineering and Engineering Geology
+Engineering and Technology,,,,,,General Energy
+Engineering and Technology,,,,,,Energy (miscellaneous)
+Engineering and Technology,,,,,,Energy Engineering and Power Technology
+Engineering and Technology,,,,,,Fuel Technology
+Engineering and Technology,,,,,,Nuclear Energy and Engineering
+Engineering and Technology,,,,,,"Renewable Energy, Sustainability and the Environment"
+Engineering and Technology,,,,,,General Engineering
+Engineering and Technology,,,,,,Engineering (miscellaneous)
+Engineering and Technology,,,,,,Aerospace Engineering
+Engineering and Technology,,,,,,Automotive Engineering
+Engineering and Technology,,,,,,Biomedical Engineering
+Engineering and Technology,,,,,,Civil and Structural Engineering
+Engineering and Technology,,,,,,Computational Mechanics
+Engineering and Technology,,,,,,Control and Systems Engineering
+Engineering and Technology,,,,,,Electrical and Electronic Engineering
+Engineering and Technology,,,,,,Industrial and Manufacturing Engineering
+Engineering and Technology,,,,,,Mechanical Engineering
+Engineering and Technology,,,,,,Mechanics of Materials
+Engineering and Technology,,,,,,Ocean Engineering
+Engineering and Technology,,,,,,"Safety, Risk, Reliability and Quality"
+Engineering and Technology,,,,,,Media Technology
+Engineering and Technology,,,,,,Building and Construction
+Engineering and Technology,,,,,,Architecture
+Engineering and Technology,,,,,,General Materials Science
+Engineering and Technology,,,,,,Materials Science (miscellaneous)
+Engineering and Technology,,,,,,Biomaterials
+Engineering and Technology,,,,,,"Surfaces, Coatings and Films"
 Environmental Science,G,GEOGRAPHY. ANTHROPOLOGY. RECREATION,http://id.loc.gov/authorities/classification/GE1-GE350,Environmental sciences,,
 Environmental Science,,,,,Environmental Science,
 Environmental Science,,,,,,General Environmental Science
@@ -245,6 +245,7 @@ History,D,"WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEA
 History,E,HISTORY OF THE AMERICAS,http://id.loc.gov/authorities/classification/E11-E143,America,,
 History,F,HISTORY OF THE AMERICAS,http://id.loc.gov/authorities/classification/F1-F975,United States local history,,
 History,,,,,,History
+Humanities,Z,BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL),http://id.loc.gov/authorities/classification/Z1001-Z1121,General bibliography,,
 Literature and Linguistics,C,AUXILIARY SCIENCES OF HISTORY,http://id.loc.gov/authorities/classification/CT21-CT9999,Biography,,
 Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/P1-P1091,Philology. Linguistics,,
 Literature and Linguistics,P,LANGUAGE AND LITERATURE,http://id.loc.gov/authorities/classification/PA1-PA199,Classical philology,,
@@ -397,7 +398,6 @@ Medicine as a profession,,,,,,Podiatry
 Medicine as a profession,,,,,,Radiological and Ultrasound Technology
 Medicine as a profession,,,,,,Respiratory Care
 Medicine as a profession,,,,,,Speech and Hearing
-Multidisciplinary,Z,BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL),http://id.loc.gov/authorities/classification/Z1001-Z1121,General bibliography,,
 Multidisciplinary,,,,,Multidisciplinary,
 Multidisciplinary,,,,,,Multidisciplinary
 Multidisciplinary,,,,,,Library and Information Sciences

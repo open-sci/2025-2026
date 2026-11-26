@@ -831,7 +831,7 @@
     ]
   },
   {
-    "bloomTaxonomy": "Engineering/Technology",
+    "bloomTaxonomy": "Engineering and Technology",
     "loc": [
       {
         "topLevelCode": "T",
@@ -1389,6 +1389,30 @@
         "id": "ASJC1202"
       }
     ]
+  },
+  {
+    "bloomTaxonomy": "Humanities",
+    "loc": [
+      {
+        "topLevelCode": "A",
+        "topLevel": "GENERAL WORKS",
+        "uri": "http://id.loc.gov/authorities/classification/A",
+        "label": "General Works"
+      },
+      {
+        "topLevelCode": "Z",
+        "topLevel": "BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)",
+        "uri": "http://id.loc.gov/authorities/classification/Z",
+        "label": "Bibliography. Library Science. Information Resources"
+      },
+      {
+        "topLevelCode": "Z",
+        "topLevel": "BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)",
+        "uri": "http://id.loc.gov/authorities/classification/Z1001-Z1121",
+        "label": "General bibliography"
+      }
+    ],
+    "scopus": []
   },
   {
     "bloomTaxonomy": "Literature and Linguistics",
@@ -2241,14 +2265,7 @@
   },
   {
     "bloomTaxonomy": "Multidisciplinary",
-    "loc": [
-      {
-        "topLevelCode": "Z",
-        "topLevel": "BIBLIOGRAPHY. LIBRARY SCIENCE. INFORMATION RESOURCES (GENERAL)",
-        "uri": "http://id.loc.gov/authorities/classification/Z1001-Z1121",
-        "label": "General bibliography"
-      }
-    ],
+    "loc": [],
     "scopus": [
       {
         "type": "area",
