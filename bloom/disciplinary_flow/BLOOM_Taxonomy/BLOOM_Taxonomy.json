@@ -5,6 +5,12 @@
       {
         "topLevelCode": "S",
         "topLevel": "AGRICULTURE",
+        "uri": "http://id.loc.gov/authorities/classification/S",
+        "label": "Agriculture"
+      },
+      {
+        "topLevelCode": "S",
+        "topLevel": "AGRICULTURE",
         "uri": "http://id.loc.gov/authorities/classification/S1-S972",
         "label": "Agriculture (General)"
       },
@@ -136,6 +142,18 @@
   {
     "bloomTaxonomy": "Arts",
     "loc": [
+      {
+        "topLevelCode": "M",
+        "topLevel": "MUSIC AND BOOKS ON MUSIC",
+        "uri": "http://id.loc.gov/authorities/classification/M",
+        "label": "Music and Books on Music"
+      },
+      {
+        "topLevelCode": "N",
+        "topLevel": "FINE ARTS",
+        "uri": "http://id.loc.gov/authorities/classification/N",
+        "label": "Fine Arts"
+      },
       {
         "topLevelCode": "M",
         "topLevel": "MUSIC AND BOOKS ON MUSIC",
@@ -836,6 +854,24 @@
       {
         "topLevelCode": "T",
         "topLevel": "TECHNOLOGY",
+        "uri": "http://id.loc.gov/authorities/classification/T",
+        "label": "Technology"
+      },
+      {
+        "topLevelCode": "U",
+        "topLevel": "MILITARY SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/U",
+        "label": "Military Science"
+      },
+      {
+        "topLevelCode": "V",
+        "topLevel": "NAVAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/V",
+        "label": "Naval Science"
+      },
+      {
+        "topLevelCode": "T",
+        "topLevel": "TECHNOLOGY",
         "uri": "http://id.loc.gov/authorities/classification/T1-T995",
         "label": "Technology (General)"
       },
@@ -1258,6 +1294,30 @@
       {
         "topLevelCode": "C",
         "topLevel": "AUXILIARY SCIENCES OF HISTORY",
+        "uri": "http://id.loc.gov/authorities/classification/C",
+        "label": "Auxiliary Sciences Of History"
+      },
+      {
+        "topLevelCode": "D",
+        "topLevel": "WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.",
+        "uri": "http://id.loc.gov/authorities/classification/D",
+        "label": "World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc."
+      },
+      {
+        "topLevelCode": "E",
+        "topLevel": "HISTORY OF THE AMERICAS",
+        "uri": "http://id.loc.gov/authorities/classification/E",
+        "label": "History Of The Americas. America and United States"
+      },
+      {
+        "topLevelCode": "F",
+        "topLevel": "HISTORY OF THE AMERICAS",
+        "uri": "http://id.loc.gov/authorities/classification/F",
+        "label": "History Of The Americas. US Local History and British, Dutch, French, Latin, and Spanish America"
+      },
+      {
+        "topLevelCode": "C",
+        "topLevel": "AUXILIARY SCIENCES OF HISTORY",
         "uri": "http://id.loc.gov/authorities/classification/CB3-CB482",
         "label": "History of civilization"
       },
@@ -1417,6 +1477,12 @@
   {
     "bloomTaxonomy": "Literature and Linguistics",
     "loc": [
+      {
+        "topLevelCode": "P",
+        "topLevel": "LANGUAGE AND LITERATURE",
+        "uri": "http://id.loc.gov/authorities/classification/P",
+        "label": "Language And Literature"
+      },
       {
         "topLevelCode": "C",
         "topLevel": "AUXILIARY SCIENCES OF HISTORY",
@@ -1816,6 +1882,12 @@
   {
     "bloomTaxonomy": "Medicine",
     "loc": [
+      {
+        "topLevelCode": "R",
+        "topLevel": "MEDICINE",
+        "uri": "http://id.loc.gov/authorities/classification/R",
+        "label": "Medicine"
+      },
       {
         "topLevelCode": "R",
         "topLevel": "MEDICINE",
@@ -2551,6 +2623,12 @@
       {
         "topLevelCode": "B",
         "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
+        "uri": "http://id.loc.gov/authorities/classification/B",
+        "label": "Philosophy. Psychology. Religion"
+      },
+      {
+        "topLevelCode": "B",
+        "topLevel": "PHILOSOPHY. PSYCHOLOGY. RELIGION",
         "uri": "http://id.loc.gov/authorities/classification/B1-B5802",
         "label": "Philosophy (General)"
       },
@@ -2765,6 +2843,36 @@
   {
     "bloomTaxonomy": "Social Science",
     "loc": [
+      {
+        "topLevelCode": "G",
+        "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",
+        "uri": "http://id.loc.gov/authorities/classification/G",
+        "label": "Geography. Anthropology. Recreation"
+      },
+      {
+        "topLevelCode": "H",
+        "topLevel": "SOCIAL SCIENCES",
+        "uri": "http://id.loc.gov/authorities/classification/H",
+        "label": "Social Sciences"
+      },
+      {
+        "topLevelCode": "J",
+        "topLevel": "POLITICAL SCIENCE",
+        "uri": "http://id.loc.gov/authorities/classification/J",
+        "label": "Political Science"
+      },
+      {
+        "topLevelCode": "K",
+        "topLevel": "LAW",
+        "uri": "http://id.loc.gov/authorities/classification/K",
+        "label": "Law"
+      },
+      {
+        "topLevelCode": "L",
+        "topLevel": "EDUCATION",
+        "uri": "http://id.loc.gov/authorities/classification/L",
+        "label": "Education"
+      },
       {
         "topLevelCode": "G",
         "topLevel": "GEOGRAPHY. ANTHROPOLOGY. RECREATION",

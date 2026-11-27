@@ -47,6 +47,8 @@ bloom:BL01 a skos:Concept ;
         bloom:ASJC1107 ,          # ASJC 1107: Forestry
         bloom:ASJC1108 ,          # ASJC 1108: Horticulture
         bloom:ASJC1111 ;          # ASJC 1111: Soil Science
+    # LOC S (AGRICULTURE): Agriculture
+    skos:closeMatch <http://id.loc.gov/authorities/classification/S> ;
     # LOC S (AGRICULTURE): Agriculture (General)
     skos:closeMatch <http://id.loc.gov/authorities/classification/S1-S972> ;
     # LOC S (AGRICULTURE): Plant culture
@@ -84,6 +86,10 @@ bloom:BL03 a skos:Concept ;
         bloom:ASJC1201 ,          # ASJC 1201: Arts and Humanities (miscellaneous)
         bloom:ASJC1210 ,          # ASJC 1210: Music
         bloom:ASJC1213 ;          # ASJC 1213: Visual Arts and Performing Arts
+    # LOC M (MUSIC AND BOOKS ON MUSIC): Music and Books on Music
+    skos:closeMatch <http://id.loc.gov/authorities/classification/M> ;
+    # LOC N (FINE ARTS): Fine Arts
+    skos:closeMatch <http://id.loc.gov/authorities/classification/N> ;
     # LOC M (MUSIC AND BOOKS ON MUSIC): Music
     skos:closeMatch <http://id.loc.gov/authorities/classification/M1-M5000> ;
     # LOC M (MUSIC AND BOOKS ON MUSIC): Literature on music
@@ -294,6 +300,12 @@ bloom:BL09 a skos:Concept ;
         bloom:ASJC2501 ,          # ASJC 2501: Materials Science (miscellaneous)
         bloom:ASJC2502 ,          # ASJC 2502: Biomaterials
         bloom:ASJC2508 ;          # ASJC 2508: Surfaces, Coatings and Films
+    # LOC T (TECHNOLOGY): Technology
+    skos:closeMatch <http://id.loc.gov/authorities/classification/T> ;
+    # LOC U (MILITARY SCIENCE): Military Science
+    skos:closeMatch <http://id.loc.gov/authorities/classification/U> ;
+    # LOC U (NAVAL SCIENCE): Naval Science
+    skos:closeMatch <http://id.loc.gov/authorities/classification/V> ;
     # LOC T (TECHNOLOGY): Technology (General)
     skos:closeMatch <http://id.loc.gov/authorities/classification/T1-T995> ;
     # LOC T (TECHNOLOGY): Engineering (General). Civil engineering (General)
@@ -375,6 +387,14 @@ bloom:BL12 a skos:Concept ;
     skos:prefLabel "History" ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC1202 ;  # ASJC 1202: History
+    # LOC C (AUXILIARY SCIENCES OF HISTORY): Auxiliary Sciences Of History
+    skos:closeMatch <http://id.loc.gov/authorities/classification/C> ;
+    # LOC D (WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.): World History And History Of Europe, Asia, Africa, Australia, New Zealand, Etc.
+    skos:closeMatch <http://id.loc.gov/authorities/classification/D> ;
+    # LOC E (HISTORY OF THE AMERICAS): History Of The Americas. America and United States
+    skos:closeMatch <http://id.loc.gov/authorities/classification/E> ;
+    # LOC F (HISTORY OF THE AMERICAS):History Of The Americas. US Local History and British, Dutch, French, Latin, and Spanish America
+    skos:closeMatch <http://id.loc.gov/authorities/classification/F> ;
     # LOC C (AUXILIARY SCIENCES OF HISTORY): History of civilization
     skos:closeMatch <http://id.loc.gov/authorities/classification/CB3-CB482> ;
     # LOC D (WORLD HISTORY AND HISTORY OF EUROPE, ASIA, AFRICA, AUSTRALIA, NEW ZEALAND, ETC.): History (General)
@@ -435,6 +455,8 @@ bloom:BL14 a skos:Concept ;
     skos:closeMatch bloom:ASJC1203 ,  # ASJC 1203: Language and Linguistics
         bloom:ASJC1208 ,          # ASJC 1208: Literature and Literary Theory
         bloom:ASJC3310 ;          # ASJC 3310: Linguistics and Language
+    # LOC P (LANGUAGE AND LITERATURE): Language And Literature
+    skos:closeMatch <http://id.loc.gov/authorities/classification/P> ;
     # LOC C (AUXILIARY SCIENCES OF HISTORY): Biography
     skos:closeMatch <http://id.loc.gov/authorities/classification/CT21-CT9999> ;
     # LOC P (LANGUAGE AND LITERATURE): Philology. Linguistics
@@ -605,6 +627,8 @@ bloom:BL16 a skos:Concept ;
         bloom:ASJC2746 ,          # ASJC 2746: Surgery
         bloom:ASJC2747 ,          # ASJC 2747: Transplantation
         bloom:ASJC2748 ;          # ASJC 2748: Urology
+    # LOC R (MEDICINE): Medicine
+    skos:closeMatch <http://id.loc.gov/authorities/classification/R> ;
     # LOC R (MEDICINE): Medicine (General)
     skos:closeMatch <http://id.loc.gov/authorities/classification/R1-R920> ;
     # LOC R (MEDICINE): Public aspects of medicine
@@ -739,6 +763,8 @@ bloom:BL22 a skos:Concept ;
     skos:topConceptOf <https://w3id.org/bloom/taxonomy/> ;
     skos:closeMatch bloom:ASJC1211 ,  # ASJC 1211: Philosophy
         bloom:ASJC1212 ;          # ASJC 1212: Religious Studies
+    # LOC B (PHILOSOPHY. PSYCHOLOGY. RELIGION):Philosophy. Psychology. Religion
+    skos:closeMatch <http://id.loc.gov/authorities/classification/B> ;
     # LOC B (PHILOSOPHY. PSYCHOLOGY. RELIGION): Philosophy (General)
     skos:closeMatch <http://id.loc.gov/authorities/classification/B1-B5802> ;
     # LOC B (PHILOSOPHY. PSYCHOLOGY. RELIGION): Ethics
@@ -824,6 +850,16 @@ bloom:BL26 a skos:Concept ;
         bloom:ASJC3320 ,          # ASJC 3320: Political Science and International Relations
         bloom:ASJC3321 ,          # ASJC 3321: Public Administration
         bloom:ASJC3322 ;          # ASJC 3322: Urban Studies
+    # LOC G (GEOGRAPHY. ANTHROPOLOGY. RECREATION): Geography. Anthropology. Recreation
+    skos:closeMatch <http://id.loc.gov/authorities/classification/G> ;
+    # LOC H (SOCIAL SCIENCES): Social Science
+    skos:closeMatch <http://id.loc.gov/authorities/classification/H> ;
+    # LOC J (POLITICAL SCIENCE): Political Science
+    skos:closeMatch <http://id.loc.gov/authorities/classification/J> ;
+    # LOC K (LAW): Law
+    skos:closeMatch <http://id.loc.gov/authorities/classification/K> ;
+    # LOC L (EDUCATION): Education
+    skos:closeMatch <http://id.loc.gov/authorities/classification/L> ;
     # LOC G (GEOGRAPHY. ANTHROPOLOGY. RECREATION): Geography (General)
     skos:closeMatch <http://id.loc.gov/authorities/classification/G1-G922> ;
     # LOC G (GEOGRAPHY. ANTHROPOLOGY. RECREATION): Human ecology. Anthropogeography
